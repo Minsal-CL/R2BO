@@ -1,0 +1,38 @@
+Profile:     SolicitudBiopsia
+Parent:      ServiceRequest
+Id:          rbi-solicitud-biopsia
+Title:       "Perfil de Solicitud de Informe de Anatomía Patológica"
+Description: "Solicitud generada por el médico para la realización de un informe de anatomía patológica"
+
+* ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
+* ^extension[=].valueInteger = 1
+
+* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"
+* ^extension[=].valueCode = #draft
+
+* ^status = #draft
+* ^experimental = true
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* status MS 
+  * ^definition = "Estado de la Solicitud"
+* intent MS
+  * ^definition = "Propósito de la Solicitud"
+* code 1..1 MS
+  * ^short = "Código de la Solicitud"
+  * ^definition = "Código que define el tipo de solicitud"
+  * ^binding.description = "Código de Solicitud de Informe de Anatomía Patológica"
+* code = $snomed#116784002
+* subject MS
+  * ^short = "Paciente que requiere un informe de anatomía patológica"
+* subject only Reference(MINSALPaciente)
+* requester MS
+  * ^short = "Profesional que solicita el informe de anatomía patológica"
+* requester only Reference(MINSALPrestadorProfesional or MINSALPrestadorOrganizacional or RolProfesionalRBI)
+* reasonCode MS
+  * ^short = "Sospecha Diagnóstica"
+* reasonCode only CodeableConceptSCTCIE10
+* reasonCode from SnomedCTHallazgosCLinicos (extensible)
+* specimen MS
+  * ^short = "Muestra de Biopsia"
+* specimen only Reference(MuestraRBI)

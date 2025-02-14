@@ -1,0 +1,27 @@
+{
+  "fields": [
+    {
+      "name": "Resultado",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "Sistema de Codificación",
+      "type": "string",
+      "format": "uri"
+    },
+    {
+      "name": "Código",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "Display",
+      "type": "string",
+      "format": "default"
+    }
+  ],
+  "missingValues": [
+    ""
+  ]
+}

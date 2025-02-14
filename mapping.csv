@@ -1,0 +1,21 @@
+Resultado,Sistema de Codificación, Código, Display
+pTNM,http://snomed.info/sct, 399588009, Pathologic TNM stage grouping
+pT,http://snomed.info/sct, 384625004, pT category
+pN,http://snomed.info/sct, 371494008, pN category
+pM,http://snomed.info/sct, 371497001, pM category
+Microscopica,http://loinc.org, 102034-6, Pathology report microscopic observation in Specimen
+Macroscopica,http://loinc.org, 74574-5, Macroscopic observation [Interpretation] in Specimen Narrative
+Invasión Linfatica,http://loinc.org, 33739-4, Lymphatic.small vessel.invasion [Identifier] in Specimen by CAP cancer protocols
+Invasión Vascular,http://loinc.org, 33740-2, Venous.large vessel.invasion [Identifier] in Specimen by CAP cancer protocols
+Infiltración Perineural,http://snomed.info/sct, 371513001, Presence of direct invasion by primary malignant neoplasm to nerve
+Necrosis,http://snomed.info/sct, 405921002, Percentage of neoplasm involved by necrosis
+Infiltrado Linfocitario Peritumoral,http://snomed.info/sct, 371509008, Status of peritumoral lymphocyte response
+Tamaño del Tumor,http://loinc.org, 21889-1, Size Tumor
+Multifocalidad,http://snomed.info/sct, 444696007, Status of specimen involvement by multifocal invasion
+Multicentricidad,http://loinc.org, 42030-7, Multiple tumors reported as single primary Cancer
+Ganglios Linfaticos,http://loinc.org, 92831-7, Lymph nodes with metastasis [#] in Cancer specimen
+Tejido No Tumoral Adyacente,http://loinc.org, 81168-7, Site of adjacent organ or tissue involvement Cancer specimen
+Evaluación Post Neoadyuvancia,http://loinc.org, 84891-1, Pathology report post neoadjuvant therapy assessment in Specimen
+Margen Quirurgico Característica,http://snomed.info/sct, 396631001, Surgical margin observable
+Margen Quirurgico Medida,http://loinc.org, 33737-8, Distance of tumor from closest margin
+Reporte de Biopsia,http://loinc.org, LP121003-0, Pathology biopsy report

@@ -1,0 +1,8 @@
+ValueSet:       RespuestaInfiltracionPeritumoralVS
+Id:             rbi-respuestas-infiltracion-peritumoral-vs
+Title:          "Set de Valores Para Hallazgos de Infiltración Peritumoral"
+Description:    "Posibles hallazgos de infiltración peritumoral en un reporte de biopsia"
+
+* insert SetCopyrightSCT
+* ^experimental = true
+* include codes from system $snomed|http://snomed.info/sct/900000000000207008/version/20240801 where concept descendent-of #373376008
