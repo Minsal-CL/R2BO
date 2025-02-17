@@ -57,13 +57,13 @@ Description:    "Informe de anatomía patológica"
   * ^slicing.description = "Distintos Resultados del Informe de Anatomía Patológica"
   * ^slicing.ordered = false
 * result only Reference(ResultadosReporteBiopsia or EstadificacionTNM)
-* result contains Microscopia 1..1 MS and Macroscopia 1..1 MS and 
+* result contains Microscopia 1..1 MS and Macroscopia 1..1 MS
 
 * result[Microscopia] ^short = "Resultados de Microscopía"
 * result[Microscopia] only Reference(ObservacionMicroscopicaRBI)
 * result[Macroscopia] ^short = "Resultados de Macroscopía"
 * result[Macroscopia] only Reference(ObservacionMacroscopicaRBI)
-*
+
 
 * conclusion 1..1 MS
   * ^short = "Conclusión narrativa del informe de anatomía patológica"
