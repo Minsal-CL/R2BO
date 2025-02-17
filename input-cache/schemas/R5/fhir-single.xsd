@@ -47,7 +47,7 @@
   POSSIBILITY OF SUCH DAMAGE.
   
 
-  Generated on Fri, Feb 14, 2025 07:03+0000 for FHIR v6.0.0-ballot2 
+  Generated on Sun, Feb 16, 2025 15:32+0000 for FHIR v6.0.0-ballot2 
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" targetNamespace="http://hl7.org/fhir" elementFormDefault="qualified" version="6.0.0-ballot2">
   <!-- Note: When using this schema with some tools, it may also be necessary to declare xmlns:xml="http://www.w3.org/XML/1998/namespace", however this causes performance issues with other tools and thus is not in the base schemas. -->
@@ -53653,9 +53653,9 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
               <xs:documentation xml:lang="en">A description or definition of which activities are allowed to be done on the data.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="limit" minOccurs="0" maxOccurs="unbounded" type="CodeableConcept">
+          <xs:element name="limit" type="Permission.Limit" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
-              <xs:documentation xml:lang="en">What limits apply to the use of the data.</xs:documentation>
+              <xs:documentation xml:lang="en">What restrictions must be applied to the use of the data by the actor.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -53755,6 +53755,32 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           <xs:element name="reference" minOccurs="0" maxOccurs="1" type="Reference">
             <xs:annotation>
               <xs:documentation xml:lang="en">The actor(s) authorized for the defined activity.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="Permission.Limit">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">Permission resource holds access rules for a given data and context.</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="BackboneElement">
+        <xs:sequence>
+          <xs:element name="control" minOccurs="0" maxOccurs="unbounded" type="CodeableConcept">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">One or more coded restriction such as a refrain or obligation.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="tag" minOccurs="0" maxOccurs="unbounded" type="Coding">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">When this rule authorized data use, any data that is tagged with the code here must be redacted from the data provided for that authorized use.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="element" minOccurs="0" maxOccurs="unbounded" type="string">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">When this rule authorized data use, the data at the path indicated here, must be redacted from the authorized data provided for that authorized use.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -55434,7 +55460,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           </xs:choice>
           <xs:element name="recorded" minOccurs="0" maxOccurs="1" type="instant">
             <xs:annotation>
-              <xs:documentation xml:lang="en">The instant of time at which the activity was recorded.</xs:documentation>
+              <xs:documentation xml:lang="en">The date and time at which the provenance information was recorded / updated, whether in the FHIR Provenance resource or in some other form that is later communicated in the FHIR Provenance.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="policy" minOccurs="0" maxOccurs="unbounded" type="uri">
