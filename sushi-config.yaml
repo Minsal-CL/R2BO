@@ -66,7 +66,8 @@ dependencies:
 # For parameters defined by the FHIR Tools IG see:
 # http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html
 #
-# parameters:
+parameters:
+  path-tx-cache: ./input-cache/txcache
 #   logging:
 #     tx: [https://tx.ontoserver.csiro.au/fhir, https://tx.fhir.org/r4]
 
