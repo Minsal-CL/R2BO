@@ -6,6 +6,6 @@ Description:    "Set de valores utilizados para los metodos de medición de los 
 * insert SetCopyrightSCT
 * ^experimental = true
 
-* $snomed|http://snomed.info/sct/900000000000207008/version/20240801#787377000
-* $snomed|http://snomed.info/sct/900000000000207008/version/20240801#104157003
-* $snomed|http://snomed.info/sct/900000000000207008/version/20240801#5880005
+* $snomed#787377000
+* $snomed#104157003
+* $snomed#5880005

@@ -1,23 +1,24 @@
-Dado la necesidad de códificar en distintas terminologías, el Ministerio de Salud de Chile dispone de un servidor terminológicos, en los cuales están cargadas los siguientes sistemas:
-    - SNOMED-CT
-    - CIE-10
-    - CIE-0
+Dada la necesidad de codificar en distintas terminologías, el Ministerio de Salud de Chile dispone de un servidor terminológico, en el cual están cargados los siguientes sistemas:
 
-Que mediante la operacion [$expand](http://hl7.org/fhir/R4/valueset-operation-expand.html) permitira la busqueda de terminos con un código SNOMED-CT y que mediante la operación [$translate](http://hl7.org/fhir/R4/conceptmap-operation-translate.html) está operación permite convertir códigos a CIE-10 o CIE-O 3, para facilitar aún más la búsqueda de estós terminos en el servidor se crearon los siguientes set de valores:
+* SNOMED-CT
+* CIE-10
+* CIE-O
 
-    - [Snomed CT para Hallazgos Clínicos](ValueSet-rbi-snomed-hallazgos-clinicos.html)
-    - [Snomed CT para Topografía](ValueSet-rbi-topografica-VS.html)
-    - [Snomed CT para Anomalías Morfológica](ValueSet-rbi-topografica-VS.html)
+Que mediante la operación [$expand](http://hl7.org/fhir/R4/valueset-operation-expand.html) permitirá la búsqueda de términos con un código SNOMED-CT, mientras que la operación [$translate](http://hl7.org/fhir/R4/conceptmap-operation-translate.html) permite convertir códigos a CIE-10 o CIE-O 3. Para facilitar aún más la búsqueda de estos términos en el servidor, se crearon los siguientes sets de valores:
+
+* [Snomed CT para Hallazgos Clínicos](ValueSet-rbi-snomed-hallazgos-clinicos.html)
+* [Snomed CT para Topografía](ValueSet-rbi-topografica-VS.html)
+* [Snomed CT para Anomalías Morfológicas](ValueSet-rbi-anomalias-morfologicas-VS.html)
 
 ### Instrucciones de Operación Expand:
 
-La operación [$expand](http://hl7.org/fhir/R4/valueset-operation-expand.html) se puede realizar a un ValueSet base o especifico, cómo se dijo anteriormente se crearon 3 de estos para facilitar la búsqueda de estos terminos. Por lo que, se requiere el Id del ValueSet que desea realizar la búsqueda más los parametros **displayLanguage** y **filter** para utilizar esta operación.
+La operación [$expand](http://hl7.org/fhir/R4/valueset-operation-expand.html) se puede realizar a un ValueSet base o específico, como se dijo anteriormente, se crearon 3 de estos para facilitar la búsqueda de estos términos. Por lo que, se requiere el ID del ValueSet que desea realizar la búsqueda más los parámetros **displayLanguage** y **filter** para utilizar esta operación.
 
-### Ejemplo:
+#### Ejemplo:
 
 **Consulta**
 ```
-GET {{baseUrl}}/ValueSet/rbi-snomed-hallazgos-clinicos/$expand?displayLanguage=es,en&filter=Neoplasia Incierto Mama
+GET /ValueSet/rbi-snomed-hallazgos-clinicos/$expand?displayLanguage=es,en&filter=Neoplasia Incierto Mama
 ```
 **Respuesta**
 ```
@@ -141,19 +142,21 @@ GET {{baseUrl}}/ValueSet/rbi-snomed-hallazgos-clinicos/$expand?displayLanguage=e
     }
 }
 ```
-### Instrucciones de Operación Translate
+<\br>
 
-La operación $translate requiere cómo mínimo 3 parametros:
+### Instrucciones de Operación Translate:
 
-    **system**: El sístema de códificación de origen, que para nuestro caso siemte sera **http://snomed.info/sct**
-    **targetsystem**: El sístema de códificación de destino que puede ser **http://hl7.org/fhir/sid/icd-10** para la CIE-10 o **http://hl7.org/fhir/sid/icd-o** para el caso de la CIE-O topológica o morfólogica.
-    **code**: El código de snomed el cual se desea traducir.
+La operación $translate requiere como mínimo 3 parámetros:
+
+* **system**: El sistema de codificación de origen, que para nuestro caso siempre será **http://snomed.info/sct**
+* **targetSystem**: El sistema de codificación de destino que puede ser **http://hl7.org/fhir/sid/icd-10** para la CIE-10 o **http://hl7.org/fhir/sid/icd-o** para el caso de la CIE-O topológica o morfológica.
+* **code**: El código de SNOMED el cual se desea traducir.
 
 #### Ejemplo:
 
 **Consulta**
 ```
-GET {{baseUrl}}/ConceptMap/$translate?system=http://snomed.info/sct&targetsystem=http://hl7.org/fhir/sid/icd-10&code=269497004
+GET /ConceptMap/$translate?system=http://snomed.info/sct&targetsystem=http://hl7.org/fhir/sid/icd-10&code=269497004
 ```
 **Respuesta**
 ```
@@ -191,3 +194,11 @@ GET {{baseUrl}}/ConceptMap/$translate?system=http://snomed.info/sct&targetsystem
     ]
 }
 ```
+
+### Diagrama de Iteracciones Esperadas:
+
+<br> 
+<div align="center"> 
+    {% include iteraccionTerminologico.svg %}
+</div>
+<br> 

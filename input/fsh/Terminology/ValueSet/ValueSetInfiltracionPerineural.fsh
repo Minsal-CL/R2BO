@@ -5,4 +5,4 @@ Description:    "Posibles hallazgos de infiltración perineural en un reporte de
 
 * insert SetCopyrightSCT
 * ^experimental = true
-* include codes from system $snomed|http://snomed.info/sct/900000000000207008/version/20240801 where concept descendent-of #396394004
+* include codes from system $snomed where concept descendent-of #396394004

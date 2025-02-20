@@ -6,6 +6,6 @@ Description:    "Set de valores del nivel de compromiso del margen quiurgico en 
 * insert SetCopyrightSCT
 * ^experimental = true
 
-* $snomed|http://snomed.info/sct/900000000000207008/version/20240801#248448006 "Involved"
-* $snomed|http://snomed.info/sct/900000000000207008/version/20240801#10828004  "Positive"
-* $snomed|http://snomed.info/sct/900000000000207008/version/20240801#260385009 "Negative"
+* $snomed#248448006 "Involved"
+* $snomed#10828004  "Positive"
+* $snomed#260385009 "Negative"

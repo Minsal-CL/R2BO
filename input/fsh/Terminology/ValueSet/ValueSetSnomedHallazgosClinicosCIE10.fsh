@@ -7,4 +7,4 @@ Description:    "Este ValueSet contiene los códigos de Snomed CT que representa
 * ^experimental = true
 
 * include codes from valueset SnomedCTHallazgosClinicos
-* include codes from valueset http://hl7.org/fhir/ValueSet/icd-10
+* include codes from valueset CIE10VS

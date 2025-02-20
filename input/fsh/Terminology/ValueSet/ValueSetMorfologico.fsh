@@ -6,4 +6,4 @@ Description:    "Set de valores utilizados para la anomalías morfológicas que 
 * insert SetCopyrightSCT
 * ^experimental = true
 
-* include codes from system $snomed|http://snomed.info/sct/900000000000207008/version/20240801 where constraint = #"< 108369006, ^ 446608001"
+* include codes from system $snomed where constraint = #"< 108369006, ^ 446608001"
