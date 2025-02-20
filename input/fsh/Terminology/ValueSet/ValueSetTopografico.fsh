@@ -1,6 +1,6 @@
 ValueSet:       TopograficaSnomedVS
 Id:             rbi-topografica-VS
-Title:          "Set de Valores de Snomed para Topografía"
+Title:          "Set de Valores de Snomed CT para Topografía"
 Description:    "Set de valores utilizados para las estructuras corporales que permiten el mapeo a la CIE-O 3 Tográfico"
 
 * insert SetCopyrightSCT

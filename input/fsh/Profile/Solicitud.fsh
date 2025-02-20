@@ -32,7 +32,8 @@ Description: "Solicitud generada por el médico para la realización de un infor
 * reasonCode MS
   * ^short = "Sospecha Diagnóstica"
 * reasonCode only CodeableConceptSCTCIE10
-* reasonCode from SnomedCTHallazgosCLinicos (extensible)
+* reasonCode from SnomedCTHallazgosClinicosCIE10VS (extensible)
+  * coding[SCT] from SnomedCTHallazgosClinicos (required)
 * specimen MS
   * ^short = "Muestra de Biopsia"
 * specimen only Reference(MuestraRBI)

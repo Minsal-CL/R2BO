@@ -1,0 +1,185 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "D48.6"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-cie10-vs", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "code" : "D48.6",
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "severity" : "error",
+  "error" : "A definition for CodeSystem 'http://hl7.org/fhir/sid/icd-10' version 'null' could not be found, so the code cannot be validated. Valid versions: []; Unable to check whether the code is in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-cie10-vs|0.1.0' because the code system http://hl7.org/fhir/sid/icd-10 was not found",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "http://hl7.org/fhir/sid/icd-10|2019-covid-expanded",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "not-found",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "vs-invalid"
+      }],
+      "text" : "Unable to check whether the code is in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-cie10-vs|0.1.0' because the code system http://hl7.org/fhir/sid/icd-10 was not found"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "error",
+    "code" : "not-found",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-found"
+      }],
+      "text" : "A definition for CodeSystem 'http://hl7.org/fhir/sid/icd-10' version 'null' could not be found, so the code cannot be validated. Valid versions: []"
+    },
+    "location" : ["Coding.system"],
+    "expression" : ["Coding.system"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "version" : "2019-covid-expanded"
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: [ad88a5bd-72ff-477d-986b-a0c38dbb5c06]: A usable code system with URL http://hl7.org/fhir/sid/icd-10|2019-covid-expanded could not be resolved.\r\nInformation: X-Request-Id: 1cd910d2-884d-4567-a2cc-69af71b5e2e8"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-cie10-vs", "version": "0.1.0"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: [00bcc3ad-1a8d-49b1-bef3-2c16b3ad82e2]: A usable code system with URL http://hl7.org/fhir/sid/icd-10|2019-covid-expanded could not be resolved.\r\nInformation: X-Request-Id: 5dc79361-f25a-4411-b1fe-093de0744f18"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "123456",
+        "display" : "DIAG-1"
+      },
+      {
+        "code" : "123457",
+        "display" : "DIAG-1a"
+      },
+      {
+        "code" : "987654",
+        "display" : "DIAG-2"
+      },
+      {
+        "code" : "123987",
+        "display" : "DIAG-3"
+      },
+      {
+        "code" : "112233",
+        "display" : "DIAG-4"
+      },
+      {
+        "code" : "997755",
+        "display" : "DIAG-5"
+      },
+      {
+        "code" : "321789",
+        "display" : "DIAG-6"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: [9b25071c-cbbf-49c2-a5a4-b821740d78a4]: A usable code system with URL http://hl7.org/fhir/sid/icd-10 could not be resolved.\r\nInformation: X-Request-Id: eb3cc686-f56d-42a3-a7c1-ffabc52f13fc"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "D48.6"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-cie10-vs", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "code" : "D48.6",
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "severity" : "error",
+  "error" : "A definition for CodeSystem 'http://hl7.org/fhir/sid/icd-10' version 'null' could not be found, so the code cannot be validated. Valid versions: []; Unable to check whether the code is in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-cie10-vs|0.1.0' because the code system http://hl7.org/fhir/sid/icd-10 was not found",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "http://hl7.org/fhir/sid/icd-10|2019-covid-expanded",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "not-found",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "vs-invalid"
+      }],
+      "text" : "Unable to check whether the code is in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-cie10-vs|0.1.0' because the code system http://hl7.org/fhir/sid/icd-10 was not found"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "error",
+    "code" : "not-found",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-found"
+      }],
+      "text" : "A definition for CodeSystem 'http://hl7.org/fhir/sid/icd-10' version 'null' could not be found, so the code cannot be validated. Valid versions: []"
+    },
+    "location" : ["Coding.system"],
+    "expression" : ["Coding.system"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------

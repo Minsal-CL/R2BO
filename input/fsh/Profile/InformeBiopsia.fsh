@@ -57,13 +57,14 @@ Description:    "Informe de anatomía patológica"
   * ^slicing.description = "Distintos Resultados del Informe de Anatomía Patológica"
   * ^slicing.ordered = false
 * result only Reference(ResultadosReporteBiopsia or EstadificacionTNM)
-* result contains Microscopia 1..1 MS and Macroscopia 1..1 MS
+* result contains Microscopia 1..1 MS and Macroscopia 1..1 MS and TNM 0..1 MS
 
 * result[Microscopia] ^short = "Resultados de Microscopía"
 * result[Microscopia] only Reference(ObservacionMicroscopicaRBI)
 * result[Macroscopia] ^short = "Resultados de Macroscopía"
 * result[Macroscopia] only Reference(ObservacionMacroscopicaRBI)
-
+* result[TNM] ^short = "Estadificación patológica TNM"
+* result[TNM] only Reference(EstadificacionTNM)
 
 * conclusion 1..1 MS
   * ^short = "Conclusión narrativa del informe de anatomía patológica"
@@ -80,13 +81,19 @@ Description:    "Informe de anatomía patológica"
 
 * conclusionCode[Morfologico] ^short = "Conclusión Morfológica"
 * conclusionCode[Morfologico] only CodeableConceptSCTCIEO
-* conclusionCode[Morfologico] from MorfologicoSnomedVS (extensible)
-* conclusionCode[Morfologico].id = "Morfologico"
+* conclusionCode[Morfologico] from MorfologicoSnomedCIEOVS (extensible)
+* conclusionCode[Morfologico]
+  * id = "Morfologico"
+  * coding[SCT] from rbi-morfologico-VS (required)
+  * coding[CIEO] from CIEO3VS (required)
 
 * conclusionCode[Topografico] ^short = "Conclusión Topográfica"
 * conclusionCode[Topografico] only CodeableConceptSCTCIEO
-* conclusionCode[Topografico] from TopograficaSnomedVS (extensible)
-* conclusionCode[Topografico].id = "Topografico"
+* conclusionCode[Topografico] from TopograficaSnomedCIEOVS (extensible)	
+* conclusionCode[Topografico]
+  * id = "Topografico"
+  * coding[SCT] from rbi-topografica-VS (required)
+  * coding[CIEO] from CIEO3VS (required)
 
 * presentedForm MS
   * ^short = "Representación del Informe de Anatomía Patológica"

@@ -18,5 +18,5 @@ Instance:       ReasonCodeSospechaDiagnostica
 InstanceOf:     CodeableConceptSCTCIE10
 Usage: #inline
 
-* coding[SCT] = $snomed#269497004 "Neoplasm of uncertain behaviour of breast"
+* coding[SCT] = $snomed#269497004 "Neoplasm of uncertain behavior of breast"
 * coding[CIE10] = $ICD-10#D48.6
