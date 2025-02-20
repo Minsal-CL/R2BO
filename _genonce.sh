@@ -2,11 +2,11 @@
 publisher_jar=publisher.jar
 input_cache_path=./input-cache/
 echo Checking internet connection...
-curl -sSf https://tx.ontoserver.csiro.au/fhir > /dev/null
+curl -sSf tx.fhir.org > /dev/null
 
 if [ $? -eq 0 ]; then
 	echo "Online"
-	txoption="-tx https://tx.ontoserver.csiro.au/fhir"
+	txoption=""
 else
 	echo "Offline"
 	txoption="-tx n/a"

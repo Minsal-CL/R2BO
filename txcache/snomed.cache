@@ -334,8 +334,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:20c661cd-68d9-4e45-9bc9-68737cf74d24",
-    "timestamp" : "2025-02-21T05:27:13+10:00",
+    "identifier" : "urn:uuid:09bb983d-88f3-4de0-b466-258046d93315",
+    "timestamp" : "2025-02-21T05:35:26+10:00",
     "total" : 3,
     "offset" : 0,
     "parameter" : [{
@@ -544,8 +544,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:ebd5149b-75fd-4a3f-b0c2-38dbef011d24",
-    "timestamp" : "2025-02-21T05:27:15+10:00",
+    "identifier" : "urn:uuid:3da1fc51-8846-441a-8a88-b88d30757709",
+    "timestamp" : "2025-02-21T05:35:28+10:00",
     "total" : 3,
     "offset" : 0,
     "parameter" : [{
@@ -827,8 +827,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:1c0a184c-a4e8-4441-be33-4e9d731f4e67",
-    "timestamp" : "2025-02-21T05:27:18+10:00",
+    "identifier" : "urn:uuid:1a635fb7-800d-4ec4-b161-15a28ddaea97",
+    "timestamp" : "2025-02-21T05:35:32+10:00",
     "total" : 3,
     "offset" : 0,
     "parameter" : [{
@@ -998,8 +998,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:15154d33-6452-4896-87f8-9c7e41c6ee28",
-    "timestamp" : "2025-02-21T05:27:22+10:00",
+    "identifier" : "urn:uuid:0833af11-8ec3-4602-a3e7-806da057a1ad",
+    "timestamp" : "2025-02-21T05:35:35+10:00",
     "total" : 3,
     "offset" : 0,
     "parameter" : [{
@@ -1270,8 +1270,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:2a2e9d7e-6ea8-4713-a23f-c6af8bfa0497",
-    "timestamp" : "2025-02-21T05:27:25+10:00",
+    "identifier" : "urn:uuid:f11c6a89-5c16-4eae-974e-501aeed13103",
+    "timestamp" : "2025-02-21T05:35:39+10:00",
     "total" : 7,
     "offset" : 0,
     "parameter" : [{
@@ -1852,8 +1852,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:653f5726-cb61-436a-af95-635ed81f3869",
-    "timestamp" : "2025-02-21T05:27:43+10:00",
+    "identifier" : "urn:uuid:a57e0246-e17b-4ada-91ae-74741b8ce43a",
+    "timestamp" : "2025-02-21T05:35:57+10:00",
     "total" : 2,
     "offset" : 0,
     "parameter" : [{
@@ -2109,8 +2109,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:2bf78fef-fb6b-4a19-830e-fb524a24115a",
-    "timestamp" : "2025-02-21T05:27:52+10:00",
+    "identifier" : "urn:uuid:1d233d5a-7d11-4cda-b91a-6a3a9151648e",
+    "timestamp" : "2025-02-21T05:36:05+10:00",
     "total" : 2,
     "offset" : 0,
     "parameter" : [{
@@ -2989,6 +2989,1448 @@ v: {
 v: {
   "display" : "Incisional biopsy",
   "code" : "70871006",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250131",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1222591006"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "American Joint Committee on Cancer pathological M category allowable value",
+  "code" : "1222591006",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250131",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1222590007"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "American Joint Committee on Cancer pathological N category allowable value",
+  "code" : "1222590007",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250131",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1222589003"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "American Joint Committee on Cancer pathological T category allowable value",
+  "code" : "1222589003",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250131",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "87100004"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Topography unknown",
+  "code" : "87100004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250131",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "21229009"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Topography not assigned",
+  "code" : "21229009",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250131",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "399588009"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Pathologic TNM stage grouping",
+  "code" : "399588009",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250131",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "410680006"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Number",
+  "code" : "410680006",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250131",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "371513001"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Presence of direct invasion by primary malignant neoplasm to nerve",
+  "code" : "371513001",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250131",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "371509008"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Status of peritumoral lymphocyte response",
+  "code" : "371509008",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250131",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "396631001"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Surgical margin observable",
+  "code" : "396631001",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250131",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "396324006"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Surgical margin site involved by tumour",
+  "code" : "396324006",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250131",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "444696007"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Status of specimen involvement by multifocal invasion",
+  "code" : "444696007",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250131",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "405921002"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Percentage of tumour involved by necrosis",
+  "code" : "405921002",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250131",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "116784002"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Pathologist report",
+  "code" : "116784002",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250131",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "371497001"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "pM category",
+  "code" : "371497001",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250131",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "371494008"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "pN category",
+  "code" : "371494008",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250131",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "384625004"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "pT category",
+  "code" : "384625004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250131",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "82711006"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-morfologico-VS", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Infiltrating duct carcinoma",
+  "code" : "82711006",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20240801",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to draft ValueSet https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-morfologico-VS|0.1.0"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to experimental ValueSet https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-morfologico-VS|0.1.0"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to informative ValueSet https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-morfologico-VS|0.1.0"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "82711006"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Infiltrating duct carcinoma",
+  "code" : "82711006",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250131",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "76752008"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-topografica-VS", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Breast structure",
+  "code" : "76752008",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20240801",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to draft ValueSet https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-topografica-VS|0.1.0"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to experimental ValueSet https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-topografica-VS|0.1.0"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to informative ValueSet https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-topografica-VS|0.1.0"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "76752008"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Structure of breast",
+  "code" : "76752008",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250131",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "384625004"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-categorias-pTNM-VS--0", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "pT category",
+  "code" : "384625004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20240801",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1229852009",
+  "display" : "pT2"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "pT2",
+  "code" : "1229852009",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250131",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1229852009"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-tnm-categoria-tumor-primario-patologico-vs--0", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "pT2",
+  "code" : "1229852009",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20240801",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "371494008"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-categorias-pTNM-VS--0", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "pN category",
+  "code" : "371494008",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20240801",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1229957002",
+  "display" : "pN2"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "pN2",
+  "code" : "1229957002",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250131",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1229957002"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-tnm-categoria-tumor-primario-patologico-vs--0", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "code" : "1229957002",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20240801",
+  "severity" : "error",
+  "error" : "The provided code 'http://snomed.info/sct#1229957002' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-tnm-categoria-tumor-primario-patologico-vs--0|0.1.0'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "The provided code 'http://snomed.info/sct#1229957002' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-tnm-categoria-tumor-primario-patologico-vs--0|0.1.0'"
+    },
+    "location" : ["Coding.code"],
+    "expression" : ["Coding.code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1229957002"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-tnm-categoria-nodo-regional-patologico-vs--0", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "pN2",
+  "code" : "1229957002",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20240801",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "371497001"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-categorias-pTNM-VS--0", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "pM category",
+  "code" : "371497001",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20240801",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1229916009",
+  "display" : "pM1"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "pM1",
+  "code" : "1229916009",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250131",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1229916009"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-tnm-categoria-tumor-primario-patologico-vs--0", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "code" : "1229916009",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20240801",
+  "severity" : "error",
+  "error" : "The provided code 'http://snomed.info/sct#1229916009' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-tnm-categoria-tumor-primario-patologico-vs--0|0.1.0'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "The provided code 'http://snomed.info/sct#1229916009' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-tnm-categoria-tumor-primario-patologico-vs--0|0.1.0'"
+    },
+    "location" : ["Coding.code"],
+    "expression" : ["Coding.code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1229916009"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-tnm-categoria-metastasis-distante-patologico-vs--0", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "pM1",
+  "code" : "1229916009",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20240801",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1229852009"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-tnm-categoria-nodo-regional-patologico-vs--0", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "code" : "1229852009",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20240801",
+  "severity" : "error",
+  "error" : "The provided code 'http://snomed.info/sct#1229852009' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-tnm-categoria-nodo-regional-patologico-vs--0|0.1.0'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "The provided code 'http://snomed.info/sct#1229852009' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-tnm-categoria-nodo-regional-patologico-vs--0|0.1.0'"
+    },
+    "location" : ["Coding.code"],
+    "expression" : ["Coding.code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1229916009"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-tnm-categoria-nodo-regional-patologico-vs--0", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "code" : "1229916009",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20240801",
+  "severity" : "error",
+  "error" : "The provided code 'http://snomed.info/sct#1229916009' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-tnm-categoria-nodo-regional-patologico-vs--0|0.1.0'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "The provided code 'http://snomed.info/sct#1229916009' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-tnm-categoria-nodo-regional-patologico-vs--0|0.1.0'"
+    },
+    "location" : ["Coding.code"],
+    "expression" : ["Coding.code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1229852009"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-tnm-categoria-metastasis-distante-patologico-vs--0", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "code" : "1229852009",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20240801",
+  "severity" : "error",
+  "error" : "The provided code 'http://snomed.info/sct#1229852009' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-tnm-categoria-metastasis-distante-patologico-vs--0|0.1.0'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "The provided code 'http://snomed.info/sct#1229852009' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-tnm-categoria-metastasis-distante-patologico-vs--0|0.1.0'"
+    },
+    "location" : ["Coding.code"],
+    "expression" : ["Coding.code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1229957002"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-tnm-categoria-metastasis-distante-patologico-vs--0", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "code" : "1229957002",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20240801",
+  "severity" : "error",
+  "error" : "The provided code 'http://snomed.info/sct#1229957002' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-tnm-categoria-metastasis-distante-patologico-vs--0|0.1.0'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "The provided code 'http://snomed.info/sct#1229957002' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-tnm-categoria-metastasis-distante-patologico-vs--0|0.1.0'"
+    },
+    "location" : ["Coding.code"],
+    "expression" : ["Coding.code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "399588009"
+}, "url": "http://hl7.org/fhir/us/mcode/ValueSet/mcode-tnm-stage-group-staging-type-vs--0", "version": "4.0.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Pathologic TNM stage grouping",
+  "code" : "399588009",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20240801",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "371513001"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-observaciones-biopsia-VS--0", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Presence of direct invasion by primary malignant neoplasm to nerve",
+  "code" : "371513001",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20240801",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "385001000",
+  "display" : "Perineural invasion by tumour not identified"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Perineural invasion by tumour not identified",
+  "code" : "385001000",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250131",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "385001000"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-respuestas-infiltracion-perineural-vs--0", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Perineural invasion by tumor not identified",
+  "code" : "385001000",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20240801",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "371509008"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-observaciones-biopsia-VS--0", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Status of peritumoral lymphocyte response",
+  "code" : "371509008",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20240801",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "369762001",
+  "display" : "Marked peritumoral lymphocytic response"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Marked peritumoral lymphocytic response",
+  "code" : "369762001",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250131",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "369762001"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-respuestas-infiltracion-peritumoral-vs--0", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Marked peritumoral lymphocytic response",
+  "code" : "369762001",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20240801",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "52101004",
+  "display" : "Present"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Present",
+  "code" : "52101004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/32506021000036107/version/20250131",
   "server" : "https://tx.ontoserver.csiro.au/fhir",

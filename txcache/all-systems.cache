@@ -1,0 +1,73 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "en"
+}, "url": "http://hl7.org/fhir/ValueSet/languages", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "English",
+  "code" : "en",
+  "system" : "urn:ietf:bcp:47",
+  "version" : "2018-05-14",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to draft CodeSystem urn:ietf:bcp:47|2018-05-14"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
