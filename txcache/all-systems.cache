@@ -19,7 +19,6 @@ v: {
   "system" : "urn:ietf:bcp:47",
   "version" : "2018-05-14",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -175,5 +174,114 @@ v: {
 e: {
   "from-server" : true,
   "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: [54ce2f8f-7a9b-457b-8ecf-26ef419b4e54]: A usable code system with URL http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl could not be resolved.\r\nInformation: X-Request-Id: 411158dd-33e1-406a-b905-6afc7005ebe8"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "urn:iso:std:iso:3166",
+    "code" : "CL",
+    "display" : "Chile"
+  }]
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Chile",
+  "code" : "CL",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "2018",
+  "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "82711006"
+  },
+  {
+    "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+    "code" : "8500/3"
+  }],
+  "text" : "Carcinoma ductal infiltrante"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-morfologicosct-cieo-VS", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "Error from http://tx.fhir.org/r4: The filter \"constraint = < 108369006, ^ 446608001\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-morfologico-VS was not understood in the context of http://snomed.info/sct",
+  "class" : "SERVER_ERROR",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "severity" : "error",
+    "code" : "exception",
+    "details" : {
+      "text" : "Error from http://tx.fhir.org/r4: The filter \"constraint = < 108369006, ^ 446608001\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-morfologico-VS was not understood in the context of http://snomed.info/sct"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "76752008"
+  },
+  {
+    "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+    "code" : "C50.9"
+  }],
+  "text" : "Mama"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-topografica-cieo-VS", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "Error from http://tx.fhir.org/r4: The filter \"constraint = < 442083009, ^ 446608001\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-topografica-VS was not understood in the context of http://snomed.info/sct",
+  "class" : "SERVER_ERROR",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "severity" : "error",
+    "code" : "exception",
+    "details" : {
+      "text" : "Error from http://tx.fhir.org/r4: The filter \"constraint = < 442083009, ^ 446608001\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-topografica-VS was not understood in the context of http://snomed.info/sct"
+    }
+  }]
+}
+
 }
 -------------------------------------------------------------------------------------

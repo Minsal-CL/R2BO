@@ -62,11 +62,11 @@ pages:
       - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
         valueCode: informative
     title: Historial de Cambios
-  SistemasTerminologicos.md:
-    extension:
-      - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
-        valueCode: informative
-    title: Uso de Sistemas Terminológicos
+  # SistemasTerminologicos.md:
+  #   extension:
+  #     - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
+  #       valueCode: informative
+  #   title: Uso de Sistemas Terminológicos
   ImplementationGuide-hl7.fhir.cl.minsal.rbi.md:
     extension:
       - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
@@ -111,8 +111,8 @@ parameters:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Inicio: index.html
-  Especificaciones Tecnicas:
-    Sistemas Terminologicos: SistemasTerminologicos.html
+  # Especificaciones Tecnicas:
+  #   Sistemas Terminologicos: SistemasTerminologicos.html
   Artefactos: artifacts.html
   Historial de Cambios: changes.html
 
