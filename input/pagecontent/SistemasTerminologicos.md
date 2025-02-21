@@ -6,9 +6,9 @@ Dada la necesidad de codificar en distintas terminologías, el Ministerio de Sal
 
 Que mediante la operación [$expand](http://hl7.org/fhir/R4/valueset-operation-expand.html) permitirá la búsqueda de términos con un código SNOMED-CT, mientras que la operación [$translate](http://hl7.org/fhir/R4/conceptmap-operation-translate.html) permite convertir códigos a CIE-10 o CIE-O 3. Para facilitar aún más la búsqueda de estos términos en el servidor, se crearon los siguientes sets de valores:
 
-* [Snomed CT para Hallazgos Clínicos](ValueSet-rbi-snomed-hallazgos-clinicos.html)
+* [Snomed CT para Hallazgos Clínicos](ValueSet-rbi-snomed-hallazgos-clinicos-VS.html)
 * [Snomed CT para Topografía](ValueSet-rbi-topografica-VS.html)
-* [Snomed CT para Anomalías Morfológicas](ValueSet-rbi-anomalias-morfologicas-VS.html)
+* [Snomed CT para Anomalías Morfológicas](ValueSet-rbi-morfologico-VS.html)
 
 ### Instrucciones de Operación Expand:
 
@@ -142,7 +142,6 @@ GET /ValueSet/rbi-snomed-hallazgos-clinicos/$expand?displayLanguage=es,en&filter
     }
 }
 ```
-<\br>
 
 ### Instrucciones de Operación Translate:
 
@@ -194,11 +193,10 @@ GET /ConceptMap/$translate?system=http://snomed.info/sct&targetsystem=http://hl7
     ]
 }
 ```
+### Iteracciones esperadas:
 
-<!-- ### Diagrama de Iteracciones Esperadas:
+El flujo esperado es el descrito en el siguiente diagrama:
 
-<br> 
 <div align="center"> 
-    {% include iteraccionTerminologico.svg %}
+    <img src="iteraccionTerminologico.svg" alt="Flujo de Iteracción">
 </div>
-<br>  -->

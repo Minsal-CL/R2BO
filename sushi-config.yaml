@@ -62,11 +62,11 @@ pages:
       - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
         valueCode: informative
     title: Historial de Cambios
-  # SistemasTerminologicos.md:
-  #   extension:
-  #     - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
-  #       valueCode: informative
-  #   title: Uso de Sistemas Terminológicos
+  SistemasTerminologicos.md:
+    extension:
+      - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
+        valueCode: informative
+    title: Uso de Sistemas Terminológicos
   ImplementationGuide-hl7.fhir.cl.minsal.rbi.md:
     extension:
       - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
@@ -90,7 +90,7 @@ pages:
 # http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html
 #
 parameters:
-  path-tx-cache: txcache
+  path-tx-cache: input/txcache
   path-expansion-params: '../../input/_resources/exp-params.json'
   # path-resource:
   #   - input/resources
