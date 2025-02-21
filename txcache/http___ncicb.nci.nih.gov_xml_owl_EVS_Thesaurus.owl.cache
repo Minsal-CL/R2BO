@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+      "concept" : [{
+        "code" : "C188404",
+        "display" : "Union for International Cancer Control Stage"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: [70755bda-8228-4f1e-bb6b-c639d9153b43]: A usable code system with URL http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl could not be resolved.\r\nInformation: X-Request-Id: 58d800ed-c774-4b05-8a64-d48d095f37ef"
+}
+-------------------------------------------------------------------------------------

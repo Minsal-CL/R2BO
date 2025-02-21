@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3"
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: [763b79c4-93ee-4549-aa20-918dc0387072]: A usable code system with URL http://terminology.hl7.org/CodeSystem/icd-o-3 could not be resolved.\r\nInformation: X-Request-Id: 45c48102-400c-452e-9907-f7c2879607d6"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-cieo3-VS", "version": "0.1.0"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: [e9dca69d-7cbb-4fe9-ae62-29d0a415d8a6]: A usable code system with URL http://terminology.hl7.org/CodeSystem/icd-o-3 could not be resolved.\r\nInformation: X-Request-Id: ed71a7b2-55ed-4768-8c79-9733921745de"
+}
+-------------------------------------------------------------------------------------

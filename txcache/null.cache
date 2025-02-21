@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-morfologicosct-cieo-VS", "version": "0.1.0"}####
+e: {
+  "error" : "Unable to expand included value set 'https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-cieo3-VS': Unable to expand imported value set: Error from https://tx.ontoserver.csiro.au/fhir: Error: [763b79c4-93ee-4549-aa20-918dc0387072]: A usable code system with URL http://terminology.hl7.org/CodeSystem/icd-o-3 could not be resolved.\r\nInformation: X-Request-Id: 45c48102-400c-452e-9907-f7c2879607d6 (and Error from https://tx.ontoserver.csiro.au/fhir: Error: [fbc1e8bd-ad72-44ba-9857-178e2751be10]: A usable code system with URL http://terminology.hl7.org/CodeSystem/icd-o-3 could not be resolved.\r\nInformation: X-Request-Id: 4d16c6c0-7d2c-4156-9853-a9b61d4536e3)"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-snomed-hallazgos-clinicos-cie10-VS", "version": "0.1.0"}####
+e: {
+  "error" : "Unable to expand included value set 'https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-cie10-vs': Unable to expand imported value set: Error from https://tx.ontoserver.csiro.au/fhir: Error: [522c2b97-5927-4088-8845-4c9d334df259]: A usable code system with URL http://hl7.org/fhir/sid/icd-10|2019-covid-expanded could not be resolved.\r\nInformation: X-Request-Id: f23f4a89-e392-46f4-b9a5-2e8a542e1dae (and Error from https://tx.ontoserver.csiro.au/fhir: Error: [02013569-ada9-45a9-8f59-89afa46168fa]: A usable code system with URL http://hl7.org/fhir/sid/icd-10|2019-covid-expanded could not be resolved.\r\nInformation: X-Request-Id: e5066ae1-c01b-41ff-99d1-5a7079a0182b)"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-topografica-cieo-VS", "version": "0.1.0"}####
+e: {
+  "error" : "Unable to expand included value set 'https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-cieo3-VS': Unable to expand imported value set: Error from https://tx.ontoserver.csiro.au/fhir: Error: [763b79c4-93ee-4549-aa20-918dc0387072]: A usable code system with URL http://terminology.hl7.org/CodeSystem/icd-o-3 could not be resolved.\r\nInformation: X-Request-Id: 45c48102-400c-452e-9907-f7c2879607d6 (and Error from https://tx.ontoserver.csiro.au/fhir: Error: [69e4ac8b-6b29-4df1-bd19-a72bfa85da46]: A usable code system with URL http://terminology.hl7.org/CodeSystem/icd-o-3 could not be resolved.\r\nInformation: X-Request-Id: 5db6df94-0a88-4bbb-8b86-fc3888376bd2)"
+}
+-------------------------------------------------------------------------------------

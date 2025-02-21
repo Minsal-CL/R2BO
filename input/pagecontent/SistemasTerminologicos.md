@@ -146,7 +146,7 @@ GET /ValueSet/rbi-snomed-hallazgos-clinicos/$expand?displayLanguage=es,en&filter
 
 ### Instrucciones de Operación Translate:
 
-La operación $translate requiere como mínimo 3 parámetros:
+La operación $translate se realiza en el recurso **ConceptMap** y está requiere como mínimo 3 parámetros:
 
 * **system**: El sistema de codificación de origen, que para nuestro caso siempre será **http://snomed.info/sct**
 * **targetSystem**: El sistema de codificación de destino que puede ser **http://hl7.org/fhir/sid/icd-10** para la CIE-10 o **http://hl7.org/fhir/sid/icd-o** para el caso de la CIE-O topológica o morfológica.
@@ -195,10 +195,10 @@ GET /ConceptMap/$translate?system=http://snomed.info/sct&targetsystem=http://hl7
 }
 ```
 
-### Diagrama de Iteracciones Esperadas:
+<!-- ### Diagrama de Iteracciones Esperadas:
 
 <br> 
 <div align="center"> 
     {% include iteraccionTerminologico.svg %}
 </div>
-<br> 
+<br>  -->
