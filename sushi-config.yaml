@@ -111,8 +111,8 @@ parameters:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Inicio: index.html
-  # Especificaciones Tecnicas:
-  #   Sistemas Terminologicos: SistemasTerminologicos.html
+  Especificaciones Tecnicas:
+    Sistemas Terminologicos: SistemasTerminologicos.html
   Artefactos: artifacts.html
   Historial de Cambios: changes.html
 
