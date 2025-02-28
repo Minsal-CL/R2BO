@@ -7,7 +7,7 @@ Description:    "Ejecución de un informe de anatomía patológica de biopsia de
 * identifier.value = "RBI-2020-0001"
 * basedOn = Reference(rbi-solicitud-biopsia-ej)
 * status = #final
-* category = http://terminology.hl7.org/CodeSystem/v2-0074#CP "Cytopathology"
+* category = http://terminology.hl7.org/CodeSystem/v2-0074#PAT "Pathology (gross & histopath, not surgical)"
 * code = $loinc#66110-8 "Breast Pathology biopsy report"
 * code.text = "Informe de Biopsia de Mama"
 * subject = Reference(paciente-requiere-examen)
@@ -16,7 +16,7 @@ Description:    "Ejecución de un informe de anatomía patológica de biopsia de
 * specimen = Reference(rbi-specimen-example)
 * result[Microscopia] = Reference(rbi-observacion-microscopica-ex)
 * result[Macroscopia] = Reference(rbi-observacion-macroscopica-ex)
-* result[2] = Reference(rbi-estadificacion-tnm-ex)
+* result[TNM] = Reference(rbi-estadificacion-tnm-ex)
 * result[3] = Reference(rbi-observacion-ganglios-linfaticos-ex)
 * result[4] = Reference(rbi-observacion-infiltracion-perineural-ex)
 * result[5] = Reference(rbi-observacion-infiltracion-peritumoral-ex)

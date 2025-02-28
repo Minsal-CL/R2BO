@@ -26,14 +26,20 @@ Description: "Solicitud generada por el médico para la realización de un infor
 * subject MS
   * ^short = "Paciente que requiere un informe de anatomía patológica"
 * subject only Reference(MINSALPaciente)
-* requester MS
+* requester 1..1 MS
   * ^short = "Profesional que solicita el informe de anatomía patológica"
-* requester only Reference(MINSALPrestadorProfesional or MINSALPrestadorOrganizacional or RolProfesionalRBI)
-* reasonCode MS
+* requester only Reference(RolProfesionalRBI)
+* performer 1..1 MS
+  * ^short = "Laboratorio o Anatomopatólogo que realizara el informe"
+* performer only Reference(MINSALPrestadorOrganizacional or RolProfesionalRBI)
+* locationCode MS
+  * ^short = "Locación de a la cual está dirigida la solicitud"
+* reasonCode 1..1 MS
   * ^short = "Sospecha Diagnóstica"
 * reasonCode only CodeableConceptSCTCIE10
 * reasonCode from SnomedCTHallazgosClinicosCIE10VS (extensible)
   * coding[SCT] from SnomedCTHallazgosClinicos (required)
-* specimen MS
+  * coding[CIE10] from rbi-cie10-vs (required)
+* specimen 1..1 MS
   * ^short = "Muestra de Biopsia"
 * specimen only Reference(MuestraRBI)

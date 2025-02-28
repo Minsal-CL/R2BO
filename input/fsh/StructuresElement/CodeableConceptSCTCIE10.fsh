@@ -32,4 +32,3 @@ Description:    "Esta definición permitira registra los datos que vengan desde 
 * coding[CIE10]
   * ^short = "Sistema de Codificación CIE-10"
   * system = $ICD-10
-* coding[CIE10] from rbi-cie10-vs (required)

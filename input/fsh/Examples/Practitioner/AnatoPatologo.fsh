@@ -6,7 +6,7 @@ Description:    "Profesional que realiza el informe de anatomía patológica"
 
 * identifier[run]
   * type = https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador#01 "RUN"
-  * value = "5135329-3"
+  * value = "19283789-2"
 
 * name
   * given = "Patricia"

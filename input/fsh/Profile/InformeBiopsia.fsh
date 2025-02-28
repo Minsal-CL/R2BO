@@ -25,10 +25,11 @@ Description:    "Informe de anatomía patológica"
 
 * status 1..1 MS
   * ^short = "Estado del Informe de Anatomía Patológica"
+* status = #final
 
 * category 1..1 MS
   * ^short = "Categoría del Informe de Anatomía Patológica"
-* category = http://terminology.hl7.org/CodeSystem/v2-0074#CP "Cytopathology"
+* category = http://terminology.hl7.org/CodeSystem/v2-0074#PAT "Pathology (gross & histopath, not surgical)"
   
 * code 1..1 MS
   * ^short = "Código del Informe de Anatomía Patológica"

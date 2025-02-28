@@ -4,6 +4,7 @@ Usage:              #example
 Title:              "Muestra de Mama"
 Description:        "Muestra de tejido de mamario"
 
+* identifier.value = "110101101"
 * status = #available
 * type = http://terminology.hl7.org/CodeSystem/v2-0487#TISS "Tissue"
 * subject = Reference(paciente-requiere-examen)

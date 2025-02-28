@@ -4,6 +4,7 @@ Usage:          #example
 Title:          "Ejemplo de una Solicitud de Biopsia"
 Description:    "Solicitud de biopsia de tejido mamario"
 
+* meta.versionId = "2"
 * identifier.value = "111111101"
 * status = #completed
 * intent = #order
@@ -12,7 +13,9 @@ Description:    "Solicitud de biopsia de tejido mamario"
 * subject = Reference(paciente-requiere-examen)
 * requester = Reference(ProfesionalHospital)
 * reasonCode = ReasonCodeSospechaDiagnostica
-* specimen = Reference(rbi-specimen-example)	
+* specimen = Reference(rbi-specimen-example)
+* performer = Reference(hospital-collector)	
+* locationCode  = http://terminology.hl7.org/CodeSystem/v3-RoleCode#HLAB "hospital laboratory"
 
 Instance:       ReasonCodeSospechaDiagnostica
 InstanceOf:     CodeableConceptSCTCIE10
