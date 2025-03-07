@@ -2,7 +2,7 @@ Logical: ModeloLogicoRBI
 Parent: Base
 Id: ModeloLogicoRBI
 Title: "Modelo Logico Repositorio de Biopsia"
-Description: "Modelo lógico para el conjunto de datos mínimo de biopsia de "
+Description: "Modelo lógico para el conjunto de datos mínimo del repositorio de biopsia"
 Characteristics: #can-be-target
 
  

@@ -1,6 +1,6 @@
-Profile:     SolicitudBiopsia
+Profile:     SolicitudInformeAPA
 Parent:      ServiceRequest
-Id:          rbi-solicitud-biopsia
+Id:          rbi-solicitud-informe-apa
 Title:       "Perfil de Solicitud de Informe de Anatomía Patológica"
 Description: "Solicitud generada por el médico para la realización de un informe de anatomía patológica"
 

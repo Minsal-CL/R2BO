@@ -1,4 +1,4 @@
-Instance:       rbi-solicitud-biopsia-bundle
+Instance:       rbi-solicitud-informe-apa-bundle
 InstanceOf:     BundleSolicitarInforme
 Usage:          #example
 Title:          "Ejemplo de Solicitud Biopsia"
@@ -6,8 +6,8 @@ Description:    "Ejemplo de Bundle que contiene los recursos necesarios para sol
 
 * type = #transaction
 * entry[Solicitud]
-  * fullUrl = "https://interoperabilidad.minsal.cl/fhir/ig/rbi/ServiceRequest/rbi-solicitud-biopsia-1-ej"
-  * resource = rbi-solicitud-biopsia-1-ej
+  * fullUrl = "https://interoperabilidad.minsal.cl/fhir/ig/rbi/ServiceRequest/rbi-solicitud-informe-apa-1-ej"
+  * resource = rbi-solicitud-informe-apa-1-ej
   * request
     * method = #POST
     * url = "ServiceRequest"
@@ -51,8 +51,8 @@ Description:    "Ejemplo de Bundle que contiene los recursos necesarios para sol
     * method = #POST
     * url = "Specimen"
 
-Instance:   rbi-solicitud-biopsia-1-ej
-InstanceOf: SolicitudBiopsia
+Instance:   rbi-solicitud-informe-apa-1-ej
+InstanceOf: SolicitudInformeAPA
 Usage:      #inline
 
 * meta.versionId = "1"

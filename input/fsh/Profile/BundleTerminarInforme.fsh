@@ -41,7 +41,7 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para term
 
 * entry[Solicitud]
   * resource 1..1 MS
-  * resource only SolicitudBiopsia
+  * resource only SolicitudInformeAPA
   * request 1..1
     * method 1..1
     * method = #PUT

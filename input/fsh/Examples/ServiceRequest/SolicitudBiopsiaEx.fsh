@@ -1,5 +1,5 @@
-Instance:       rbi-solicitud-biopsia-ej
-InstanceOf:     SolicitudBiopsia
+Instance:       rbi-solicitud-informe-apa-ej
+InstanceOf:     SolicitudInformeAPA
 Usage:          #example
 Title:          "Ejemplo de una Solicitud de Biopsia"
 Description:    "Solicitud de biopsia de tejido mamario"
@@ -21,5 +21,5 @@ Instance:       ReasonCodeSospechaDiagnostica
 InstanceOf:     CodeableConceptSCTCIE10
 Usage: #inline
 
-* coding[SCT] = $snomed#269497004 "Neoplasm of uncertain behavior of breast"
-* coding[CIE10] = $ICD-10#D48.6
+* coding[SCT] = $snomed|http://snomed.info/sct/900000000000207008/version/20240801#269497004 "Neoplasm of uncertain behavior of breast"
+* coding[CIE10] = $ICD-10|2019-covid-expanded#D48.6

@@ -6,8 +6,8 @@ Description:    "Ejemplo de Bundle que contiene los recursos necesarios para sol
 
 * type = #transaction
 * entry[Solicitud]
-  * fullUrl = Canonical(rbi-solicitud-biopsia-ej)
-  * resource = rbi-solicitud-biopsia-ej
+  * fullUrl = Canonical(rbi-solicitud-informe-apa-ej)
+  * resource = rbi-solicitud-informe-apa-ej
   * request
     * method = #PUT
     * url = "ServiceRequest?identifier=111111101"

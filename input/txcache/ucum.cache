@@ -151,8 +151,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:d4310361-8d21-4898-827a-adba2b94bb11",
-    "timestamp" : "2025-02-21T21:29:42+10:00",
+    "identifier" : "urn:uuid:324cb54b-af80-4c13-9694-e233b4b96bf5",
+    "timestamp" : "2025-03-04T00:19:15+10:00",
     "total" : 2,
     "offset" : 0,
     "parameter" : [{
@@ -259,6 +259,49 @@ v: {
   "system" : "http://unitsofmeasure.org",
   "code" : "mm"
 }, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "millimeter",
+  "code" : "mm",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.1",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to draft CodeSystem http://unitsofmeasure.org|2.1"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "mm"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
@@ -388,7 +431,7 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://unitsofmeasure.org",
-  "code" : "mm"
+  "code" : "%"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
@@ -402,8 +445,8 @@ v: {
   }]
 }}####
 v: {
-  "display" : "millimeter",
-  "code" : "mm",
+  "display" : "percent",
+  "code" : "%",
   "system" : "http://unitsofmeasure.org",
   "version" : "2.1",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
@@ -431,7 +474,7 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://unitsofmeasure.org",
-  "code" : "%"
+  "code" : "cm"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
@@ -445,8 +488,8 @@ v: {
   }]
 }}####
 v: {
-  "display" : "percent",
-  "code" : "%",
+  "display" : "centimeter",
+  "code" : "cm",
   "system" : "http://unitsofmeasure.org",
   "version" : "2.1",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
@@ -515,49 +558,6 @@ v: {
 
 }
 -------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://unitsofmeasure.org",
-  "code" : "cm"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
-  },
-  {
-    "name" : "displayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "centimeter",
-  "code" : "cm",
-  "system" : "http://unitsofmeasure.org",
-  "version" : "2.1",
-  "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome",
-  "issue" : [{
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
-      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
-    }],
-    "severity" : "information",
-    "code" : "business-rule",
-    "details" : {
-      "coding" : [{
-        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
-        "code" : "status-check"
-      }],
-      "text" : "Reference to draft CodeSystem http://unitsofmeasure.org|2.1"
-    }
-  }]
-}
-
-}
--------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -581,8 +581,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:bede4af4-dc9e-4266-a32b-f114dd21dc8b",
-    "timestamp" : "2025-02-21T21:37:44+10:00",
+    "identifier" : "urn:uuid:3a47dccd-80f5-46b1-a13d-c80a25b44215",
+    "timestamp" : "2025-03-04T00:29:33+10:00",
     "total" : 2,
     "offset" : 0,
     "parameter" : [{
@@ -665,8 +665,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:88bb977c-f31c-4cf4-b6d4-6177fa20e8ca",
-    "timestamp" : "2025-02-21T21:37:55+10:00",
+    "identifier" : "urn:uuid:8a7c0254-8c8e-4278-8b09-f581d3910a37",
+    "timestamp" : "2025-03-04T00:29:47+10:00",
     "total" : 2,
     "offset" : 0,
     "parameter" : [{
@@ -749,8 +749,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:8725de90-9c7f-4d1f-b5ed-f9e6ee4d2d7a",
-    "timestamp" : "2025-02-21T21:38:58+10:00",
+    "identifier" : "urn:uuid:fb49f5ff-738b-40f9-a31a-0ac61015d81f",
+    "timestamp" : "2025-03-04T00:30:56+10:00",
     "total" : 2,
     "offset" : 0,
     "parameter" : [{

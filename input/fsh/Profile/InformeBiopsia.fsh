@@ -21,7 +21,7 @@ Description:    "Informe de anatomía patológica"
 
 * basedOn 1..1 MS
   * ^short = "Solicitud de Biopsia"
-* basedOn only Reference(SolicitudBiopsia)
+* basedOn only Reference(SolicitudInformeAPA)
 
 * status 1..1 MS
   * ^short = "Estado del Informe de Anatomía Patológica"

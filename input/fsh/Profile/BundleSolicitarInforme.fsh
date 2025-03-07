@@ -37,7 +37,7 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para soli
   * ^short = "Solicitud de informe de anatomía patológica"
   * resource 1..1 MS
     * ^short = "ServiceRequest de informe de anatomía patológica"
-  * resource only SolicitudBiopsia
+  * resource only SolicitudInformeAPA
   * request 1..1
     * method 1..1
       * ^short = "Método de la operación HTTP"

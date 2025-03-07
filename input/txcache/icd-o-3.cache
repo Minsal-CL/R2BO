@@ -201,7 +201,7 @@ e: {
   "title" : "Set de Valores de la Clasificación Internacional de Enfermedades Oncológicas 3ra Edición",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-02-21T09:47:39-03:00",
+  "date" : "2025-03-03T12:02:59-03:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -210,8 +210,8 @@ e: {
     }]
   }],
   "expansion" : {
-    "identifier" : "urn:uuid:34c67785-c361-49ab-8eda-25e0b0eada98",
-    "timestamp" : "2025-02-21T12:52:53.795Z",
+    "identifier" : "urn:uuid:438ec287-f8d9-41de-9417-179efb6627ed",
+    "timestamp" : "2025-03-03T15:09:09.375Z",
     "total" : 1,
     "offset" : 0,
     "parameter" : [{

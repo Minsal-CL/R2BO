@@ -1,8 +1,8 @@
 Profile:        ResultadosReporteBiopsia
 Parent:         ObservacionCL
 Id:             rbi-resultados-reporte-biopsia
-Title:          "Perfil de Padre de Todos Los Resultados"
-Description:    "Perfil padre para todas las observaciones de los resultados de biopsias"
+Title:          "Perfil de Origen de Todos Los Resultados"
+Description:    "Perfil para todas las observaciones de los resultados de biopsias"
 
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1

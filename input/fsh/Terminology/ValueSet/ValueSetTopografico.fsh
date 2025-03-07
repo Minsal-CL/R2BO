@@ -1,7 +1,9 @@
 ValueSet:       TopograficaSnomedVS
 Id:             rbi-topografica-VS
 Title:          "Set de Valores de Snomed CT para Topografía"
-Description:    "Set de valores utilizados para las estructuras corporales que permiten el mapeo a la CIE-O 3 Tográfico. La expresión nace de las siguiente consulta ECL: < 442083009 |estructura corporal anatómica o adquirida (estructura corporal)|, ^ 446608001 |conjunto de referencias cruzadas simples de SNOMED CT a la Clasificación Internacional de Enfermedades Oncológicas (metadato fundacional)|"
+Description:    """
+Set de valores utilizados para las estructuras corporales que permiten el mapeo a la CIE-O 3 Tográfico. La expresión nace de las siguiente consulta ECL: < 442083009 \|estructura corporal anatómica o adquirida (estructura corporal)\|, ^ 446608001 \|conjunto de referencias cruzadas simples de SNOMED CT a la Clasificación Internacional de Enfermedades Oncológicas (metadato fundacional)\|
+"""
 
 * insert SetCopyrightSCT
 * ^experimental = true

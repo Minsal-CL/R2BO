@@ -1,8 +1,8 @@
 Profile:        CategoriaTNM 
 Parent:         ObservacionCL
 Id:             rbi-categoria-tnm
-Title:          "Perfil de Padre para las Categorías T, N,  M (Abstracto)"
-Description:    "Perfil padre para las Categorías T, N, M"
+Title:          "Perfil de Origen para las Categorías T, N,  M (Abstracto)"
+Description:    "Perfil para originar las Categorías T, N, M"
 
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1

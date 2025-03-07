@@ -5,7 +5,7 @@ Title:          "Informe de Anatomía Patológica de Biopsia de Mama"
 Description:    "Ejecución de un informe de anatomía patológica de biopsia de mama"
 
 * identifier.value = "RBI-2020-0001"
-* basedOn = Reference(rbi-solicitud-biopsia-ej)
+* basedOn = Reference(rbi-solicitud-informe-apa-ej)
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/v2-0074#PAT "Pathology (gross & histopath, not surgical)"
 * code = $loinc#66110-8 "Breast Pathology biopsy report"
