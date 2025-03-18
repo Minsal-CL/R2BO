@@ -42,7 +42,7 @@ Usage: #definition
       * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
       * valueCode = #SHALL
     * type = #DiagnosticReport
-    * profile = Canonical(InformeBiopsia)
+    * supportedProfile[0] = Canonical(InformeBiopsia)
     * interaction[0]
       * code = #create
     * interaction[+]
@@ -53,6 +53,8 @@ Usage: #definition
       * code = #vread
     * interaction[+]
       * code = #update
+    * interaction[+]
+      * code = #delete
     * referencePolicy[0] = #literal
     * referencePolicy[+] = #logical
     * searchInclude[0] = "*"
@@ -128,13 +130,17 @@ Usage: #definition
       * definition = "http://hl7.org/fhir/SearchParameter/DiagnosticReport-status"
       * type = #token
       * documentation = "El estado del Reporte"
+    * operation
+      * name = "graphql"
+      * definition = "http://hl7.org/fhir/OperationDefinition/Resource-graphql"
+      * documentation = "Operación para extraer los datos del repositorio de biopsia en formato GraphQL"  
 
   * resource[+]
     * extension[0]
       * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
       * valueCode = #SHALL
     * type = #Observation
-    * profile[0] = Canonical(ObservacionCL)
+    * profile = Canonical(ObservacionCL)
     * supportedProfile[0] = Canonical(EstadificacionTNM)
     * supportedProfile[+] = Canonical(CategoriaTNM)
     * supportedProfile[+] = Canonical(ResultadosReporteBiopsia)
@@ -148,6 +154,8 @@ Usage: #definition
       * code = #vread
     * interaction[+]
       * code = #update
+    * interaction[+]
+      * code = #delete
     * referencePolicy[0] = #literal
     * referencePolicy[+] = #logical
     * searchInclude[0] = "*"
@@ -349,6 +357,8 @@ Usage: #definition
       * code = #vread
     * interaction[+]
       * code = #update
+    * interaction[+]
+      * code = #delete
     * referencePolicy[0] = #literal
     * referencePolicy[+] = #logical
     * searchInclude[0] = "*"
@@ -397,6 +407,8 @@ Usage: #definition
       * code = #vread
     * interaction[+]
       * code = #update
+    * interaction[+]
+      * code = #delete
     * referencePolicy[0] = #literal
     * referencePolicy[+] = #logical
     * searchInclude[0] = "*"
@@ -487,6 +499,8 @@ Usage: #definition
       * code = #vread
     * interaction[+]
       * code = #update
+    * interaction[+]
+      * code = #delete
     * referencePolicy[0] = #literal
     * referencePolicy[+] = #logical
     * searchInclude[0] = "*"
@@ -540,16 +554,23 @@ Usage: #definition
       * type = #token
       * documentation = "available | unavailable | unsatisfactory | entered-in-error"
 
-  * interaction
+  * interaction[0]
     * code = #transaction
-    * documentation = "Operación para enviar solicitudes de un informe de biopsia y sus resultados"
+    * documentation = "Iteracción para enviar solicitudes de un informe de biopsia y sus resultados"
+
+  * interaction[1]
+    * code = #search-system
+    * documentation = "Iteracción para realizar busquedas de un informe de biopsia y sus resultados"
 
   * operation
     * name = "export"
     * definition = "http://hl7.org/fhir/uv/bulkdata/OperationDefinition/export"
     * documentation = "Operación para exportar los datos del repositorio de biopsia en formato FHIR Bulk Data, para analisis secundario"
 
-  
+  * operation
+    * name = "graphql"
+    * definition = "http://hl7.org/fhir/OperationDefinition/Resource-graphql"
+    * documentation = "Operación para extraer los datos del repositorio de biopsia en formato GraphQL"  
 
 // * rest.resource[+] //PractitionerRole
 //   * extension[0]

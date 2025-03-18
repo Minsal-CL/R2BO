@@ -19,8 +19,8 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para soli
 * type = #transaction
 * entry ^slicing.discriminator[0].type = #type
 * entry ^slicing.discriminator[0].path = "resource"
-* entry ^slicing.discriminator[1].type = #profile
-* entry ^slicing.discriminator[1].path = "resource"
+// * entry ^slicing.discriminator[1].type = #profile
+// * entry ^slicing.discriminator[1].path = "resource"
 * entry ^slicing.rules = #open
 * entry ^slicing.description = "Diferenciador de recursos por tipo y perfil"
 * entry ^slicing.ordered = false

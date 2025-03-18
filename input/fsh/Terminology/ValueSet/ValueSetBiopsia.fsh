@@ -1,7 +1,7 @@
 ValueSet:       ReporteBiopsiaVS
 Id:             rbi-reporte-biopsia-vs
 Title:          "Set de Valores de los Reportes de Biopsia"
-Description:    "Códigos de tipos de biopsias en Snomed"
+Description:    "Códigos de tipos de reportes de biopsias en Snomed y LOINC"
 
 // * insert SetCopyrightSCT
 // * ^experimental = true

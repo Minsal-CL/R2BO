@@ -18,9 +18,9 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para term
 
 * type = #transaction
 * entry ^slicing.discriminator[0].type = #type
-* entry ^slicing.discriminator[0].path = "resource"
-* entry ^slicing.discriminator[1].type = #profile
-* entry ^slicing.discriminator[1].path = "resource"
+* entry ^slicing.discriminator[=].path = "resource"
+* entry ^slicing.discriminator[+].type = #profile
+* entry ^slicing.discriminator[=].path = "resource"
 * entry ^slicing.rules = #open
 * entry ^slicing.description = "Diferenciador de recursos por tipo y perfil"
 * entry ^slicing.ordered = false
@@ -36,8 +36,23 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para term
     ObservacionMicroscopica 1..1 and
     ObservacionMacroscopica 1..1 and
     Estadificacion 0..1 and
-    CategoriaTNM 0..3 and
-    ObservacionesAdicionales 0..*
+    CategoriaT 0..1 and
+    CategoriaN 0..1 and
+    CategoriaM 0..1 and
+    ObservacionInfiltracionPerineuralRBI 0..1 and
+    ObservacionGangliosLinfaticos 0..1 and
+    ObservacionInfiltradoPeritumoralRBI 0..1 and
+    ObservacionInvasionLinfaticaRBI 0..1 and
+    ObservacionInvasionVascularRBI 0..1 and
+    ObservacionMargenQuirugico 0..1 and
+    ObservacionCentricidad 0..1 and
+    ObservacionMultifocalidad 0..1 and
+    ObservacionPostNeoadjudancia 0..1 and
+    ObservacionPorcentajeNecrosisRBI 0..1 and
+    ObservacionTejidoTumoralAdjacente 0..1 and
+    TamanoTumorRBI 0..1 
+
+    // Resultados 0..*
 
 * entry[Solicitud]
   * resource 1..1 MS
@@ -155,9 +170,9 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para term
     * url
       * ^short = "Uri del recurso \"Observation\""
 
-* entry[CategoriaTNM]
+* entry[CategoriaT]
   * resource 1..1 MS
-  * resource only CategoriaTNM 
+  * resource only TNMCategoriaTumorPrimario
   * request 1..1
     * method 1..1
     * method = #POST
@@ -165,9 +180,139 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para term
     * url
       * ^short = "Uri del recurso \"Observation\""
 
-* entry[ObservacionesAdicionales]
+* entry[CategoriaN]
   * resource 1..1 MS
-  * resource only ResultadosReporteBiopsia
+  * resource only TNMCategoriaNodoRegional
+  * request 1..1
+    * method 1..1
+    * method = #POST
+    * url 1..1
+    * url
+      * ^short = "Uri del recurso \"Observation\""
+
+* entry[CategoriaM]
+  * resource 1..1 MS
+  * resource only TNMCategoriaMetastasisDistante
+  * request 1..1
+    * method 1..1
+    * method = #POST
+    * url 1..1
+    * url
+      * ^short = "Uri del recurso \"Observation\""
+
+* entry[ObservacionInfiltracionPerineuralRBI]
+  * resource 1..1 MS
+  * resource only ObservacionInfiltracionPerineuralRBI
+  * request 1..1
+    * method 1..1
+    * method = #POST
+    * url 1..1
+    * url
+      * ^short = "Uri del recurso \"Observation\""
+
+* entry[ObservacionGangliosLinfaticos]
+  * resource 1..1 MS
+  * resource only ObservacionGangliosLinfaticos
+  * request 1..1
+    * method 1..1
+    * method = #POST
+    * url 1..1
+    * url
+      * ^short = "Uri del recurso \"Observation\""
+
+* entry[ObservacionInfiltradoPeritumoralRBI]
+  * resource 1..1 MS
+  * resource only ObservacionInfiltradoPeritumoralRBI
+  * request 1..1
+    * method 1..1
+    * method = #POST
+    * url 1..1
+    * url
+      * ^short = "Uri del recurso \"Observation\""
+
+* entry[ObservacionInvasionLinfaticaRBI]
+  * resource 1..1 MS
+  * resource only ObservacionInvasionLinfaticaRBI
+  * request 1..1
+    * method 1..1
+    * method = #POST
+    * url 1..1
+    * url
+      * ^short = "Uri del recurso \"Observation\""
+
+* entry[ObservacionInvasionVascularRBI]
+  * resource 1..1 MS
+  * resource only ObservacionInvasionVascularRBI
+  * request 1..1
+    * method 1..1
+    * method = #POST
+    * url 1..1
+    * url
+      * ^short = "Uri del recurso \"Observation\""
+
+* entry[ObservacionMargenQuirugico]
+  * resource 1..1 MS
+  * resource only ObservacionMargenQuirugico
+  * request 1..1
+    * method 1..1
+    * method = #POST
+    * url 1..1
+    * url
+      * ^short = "Uri del recurso \"Observation\""
+
+* entry[ObservacionCentricidad]
+  * resource 1..1 MS
+  * resource only ObservacionCentricidad
+  * request 1..1
+    * method 1..1
+    * method = #POST
+    * url 1..1
+    * url
+      * ^short = "Uri del recurso \"Observation\""
+
+* entry[ObservacionMultifocalidad]
+  * resource 1..1 MS
+  * resource only ObservacionMultifocalidad
+  * request 1..1
+    * method 1..1
+    * method = #POST
+    * url 1..1
+    * url
+      * ^short = "Uri del recurso \"Observation\""
+
+* entry[ObservacionPostNeoadjudancia]
+  * resource 1..1 MS
+  * resource only ObservacionPostNeoadjudancia
+  * request 1..1
+    * method 1..1
+    * method = #POST
+    * url 1..1
+    * url
+      * ^short = "Uri del recurso \"Observation\""
+  
+* entry[ObservacionPorcentajeNecrosisRBI]
+  * resource 1..1 MS
+  * resource only ObservacionPorcentajeNecrosisRBI
+  * request 1..1
+    * method 1..1
+    * method = #POST
+    * url 1..1
+    * url
+      * ^short = "Uri del recurso \"Observation\""
+
+* entry[ObservacionTejidoTumoralAdjacente]
+  * resource 1..1 MS
+  * resource only ObservacionTejidoTumoralAdjacente
+  * request 1..1
+    * method 1..1
+    * method = #POST
+    * url 1..1
+    * url
+      * ^short = "Uri del recurso \"Observation\""
+
+* entry[TamanoTumorRBI]
+  * resource 1..1 MS
+  * resource only TamanoTumorRBI
   * request 1..1
     * method 1..1
     * method = #POST

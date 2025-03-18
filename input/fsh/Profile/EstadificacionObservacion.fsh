@@ -1,8 +1,8 @@
 Profile:        EstadificacionTNM 
-Parent:         ObservacionCL
+Parent:         ResultadosReporteBiopsia
 Id:             rbi-estadificacion-tnm
 Title:          "Perfil de Grupo Estadificación TNM"
-Description:    "Perfil grupo de estadificacion TNM"
+Description:    "Perfil grupo de estadificación TNM"
 
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1

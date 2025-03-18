@@ -57,7 +57,7 @@ Description:    "Informe de anatomía patológica"
   * ^slicing.rules = #open
   * ^slicing.description = "Distintos Resultados del Informe de Anatomía Patológica"
   * ^slicing.ordered = false
-* result only Reference(ResultadosReporteBiopsia or EstadificacionTNM)
+* result only Reference(ResultadosReporteBiopsia)
 * result contains Microscopia 1..1 MS and Macroscopia 1..1 MS and TNM 0..1 MS
 
 * result[Microscopia] ^short = "Resultados de Microscopía"

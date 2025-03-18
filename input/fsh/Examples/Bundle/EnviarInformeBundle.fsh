@@ -95,98 +95,98 @@ Description:    "Ejemplo de Bundle que contiene los recursos necesarios para sol
     * method = #POST
     * url = "Observation"
 
-* entry[CategoriaTNM][0]
+* entry[CategoriaT]
   * fullUrl = Canonical(rbi-tnm-categoria-tumor-primario-ex)
   * resource = rbi-tnm-categoria-tumor-primario-ex
   * request
     * method = #POST
     * url = "Observation"
 
-* entry[CategoriaTNM][1]
+* entry[CategoriaN]
   * fullUrl = Canonical(rbi-tnm-categoria-nodo-regional-ex)
   * resource = rbi-tnm-categoria-nodo-regional-ex
   * request
     * method = #POST
     * url = "Observation"
 
-* entry[CategoriaTNM][2]
+* entry[CategoriaM]
   * fullUrl = Canonical(rbi-tnm-categoria-metastasis-distantel-ex)
   * resource = rbi-tnm-categoria-metastasis-distantel-ex
   * request
     * method = #POST
     * url = "Observation"
 
-* entry[ObservacionesAdicionales][0]
-  * fullUrl = Canonical(rbi-observacion-ganglios-linfaticos-ex)
-  * resource = rbi-observacion-ganglios-linfaticos-ex
-  * request
-    * method = #POST
-    * url = "Observation"
-
-* entry[ObservacionesAdicionales][+]
+* entry[ObservacionInfiltracionPerineuralRBI]
   * fullUrl = Canonical(rbi-observacion-infiltracion-perineural-ex)
   * resource = rbi-observacion-infiltracion-perineural-ex
   * request
     * method = #POST
     * url = "Observation"
 
-* entry[ObservacionesAdicionales][+]
+* entry[ObservacionGangliosLinfaticos]
+  * fullUrl = Canonical(rbi-observacion-ganglios-linfaticos-ex)
+  * resource = rbi-observacion-ganglios-linfaticos-ex
+  * request
+    * method = #POST
+    * url = "Observation"
+
+* entry[ObservacionInfiltradoPeritumoralRBI]
   * fullUrl = Canonical(rbi-observacion-infiltracion-peritumoral-ex)
   * resource = rbi-observacion-infiltracion-peritumoral-ex
   * request
     * method = #POST
     * url = "Observation"
 
-* entry[ObservacionesAdicionales][+]
+* entry[ObservacionInvasionLinfaticaRBI]
   * fullUrl = Canonical(rbi-observacion-invasion-linfatica-ex)
   * resource = rbi-observacion-invasion-linfatica-ex
   * request
     * method = #POST
     * url = "Observation"
 
-* entry[ObservacionesAdicionales][+]
+* entry[ObservacionInvasionVascularRBI]
   * fullUrl = Canonical(rbi-observacion-invasion-vascular-ex)
   * resource = rbi-observacion-invasion-vascular-ex
   * request
     * method = #POST
     * url = "Observation"
 
-* entry[ObservacionesAdicionales][+]
+* entry[ObservacionMargenQuirugico]
   * fullUrl = Canonical(rbi-observacion-margen-quirurgico-ex)
   * resource = rbi-observacion-margen-quirurgico-ex
   * request
     * method = #POST
     * url = "Observation"
 
-* entry[ObservacionesAdicionales][+]
+* entry[ObservacionCentricidad]
   * fullUrl = Canonical(rbi-observacion-centricidad-ex)
   * resource = rbi-observacion-centricidad-ex
   * request
     * method = #POST
     * url = "Observation"
 
-* entry[ObservacionesAdicionales][+]
+* entry[ObservacionMultifocalidad]
   * fullUrl = Canonical(rbi-observacion-multifocalidad-ex)
   * resource = rbi-observacion-multifocalidad-ex
   * request
     * method = #POST
     * url = "Observation"
 
-* entry[ObservacionesAdicionales][+]
+* entry[ObservacionPorcentajeNecrosisRBI]
   * fullUrl = Canonical(rbi-observacion-porcentaje-necrosis-ex)
   * resource = rbi-observacion-porcentaje-necrosis-ex
   * request
     * method = #POST
     * url = "Observation"
 
-* entry[ObservacionesAdicionales][+]
+* entry[ObservacionPostNeoadjudancia]
   * fullUrl = Canonical(rbi-observacion-post-tratamiento-neoadjuvancia-ex)
   * resource = rbi-observacion-post-tratamiento-neoadjuvancia-ex
   * request
     * method = #POST
     * url = "Observation"
 
-* entry[ObservacionesAdicionales][+]
+* entry[TamanoTumorRBI]
   * fullUrl = Canonical(rbi-tamano-tumor-ex)
   * resource = rbi-tamano-tumor-ex
   * request

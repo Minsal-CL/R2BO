@@ -5,15 +5,15 @@
   },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>CSIRO Terminology Server (Ontoserver ®)</h1><table><tr><td>Purpose</td><td>Description of terminology service capabilities</td></tr><tr><td>Publisher</td><td>Australian e-Health Research Centre, CSIRO</td></tr><tr><td>Version</td><td>6.22.2.1740978536888</td></tr><tr><td>Date</td><td>2025-03-03</td></tr></table><p>Ontoserver supports a large portion of the FHIR Terminology Services specification. In particular, it has native support for SNOMED CT, LOINC, and code systems defined via the FHIR CodeSystem resource. This extends to supporting use of all defined and default filters in a FHIR ValueSet, as well as the implicitly defined ValueSets for SNOMED CT and LOINC.</p><p>More details are available in the <a href=\"https://ontoserver.csiro.au/docs/6.22.2/api-fhir.html\">Ontoserver documentation</a></p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>CSIRO Terminology Server (Ontoserver ®)</h1><table><tr><td>Purpose</td><td>Description of terminology service capabilities</td></tr><tr><td>Publisher</td><td>Australian e-Health Research Centre, CSIRO</td></tr><tr><td>Version</td><td>6.22.3.1741866019911</td></tr><tr><td>Date</td><td>2025-03-13</td></tr></table><p>Ontoserver supports a large portion of the FHIR Terminology Services specification. In particular, it has native support for SNOMED CT, LOINC, and code systems defined via the FHIR CodeSystem resource. This extends to supporting use of all defined and default filters in a FHIR ValueSet, as well as the implicitly defined ValueSets for SNOMED CT and LOINC.</p><p>More details are available in the <a href=\"https://ontoserver.csiro.au/docs/6.22.3/api-fhir.html\">Ontoserver documentation</a></p></div>"
   },
   "url" : "https://tx.ontoserver.csiro.au/fhir/metadata?mode=terminology",
-  "version" : "6.22.2.1740978536888",
+  "version" : "6.22.3.1741866019911",
   "name" : "OntoserverTerminologyCapabilities",
   "title" : "Ontoserver® Terminology Capabilities Statement",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-03-03T15:08:56+10:00",
+  "date" : "2025-03-13T21:40:19+10:00",
   "publisher" : "Australian e-Health Research Centre, CSIRO",
   "contact" : [{
     "telecom" : [{
@@ -25,7 +25,7 @@
   "kind" : "capability",
   "software" : {
     "name" : "Ontoserver®",
-    "version" : "6.22.2"
+    "version" : "6.22.3"
   },
   "lockedDate" : false,
   "codeSystem" : [{
@@ -5383,47 +5383,7 @@
       "compositional" : true
     },
     {
-      "code" : "http://snomed.info/sct/900000000000207008/version/20240501",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/900000000000207008/version/20230901",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
       "code" : "http://snomed.info/sct/900000000000207008/version/20230630",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/900000000000207008/version/20230531",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/554471000005108/version/20240331",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/45991000052106/version/20240531",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/2011000195101/version/20220607",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/11000181102/version/20240530",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/11000172109/version/20240515",
       "isDefault" : false,
       "compositional" : true
     },
@@ -5434,11 +5394,6 @@
     },
     {
       "code" : "http://snomed.info/sct/11000172109/version/20221115",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/11000146104/version/20240331",
       "isDefault" : false,
       "compositional" : true
     },
@@ -5458,17 +5413,7 @@
       "compositional" : true
     },
     {
-      "code" : "http://snomed.info/sct/900000000000207008/version/20240601",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
       "code" : "http://snomed.info/sct/2011000195101/version/20231207",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/11000220105/version/20230421",
       "isDefault" : false,
       "compositional" : true
     },
@@ -5543,27 +5488,12 @@
       "compositional" : true
     },
     {
-      "code" : "http://snomed.info/sct/900000000000207008/version/20221231",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
       "code" : "http://snomed.info/sct/900000000000207008/version/20221031",
       "isDefault" : false,
       "compositional" : true
     },
     {
       "code" : "http://snomed.info/sct/900000000000207008/version/20220228",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/554471000005108/version/20220930",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/45991000052106/version/20221130",
       "isDefault" : false,
       "compositional" : true
     },
@@ -5688,11 +5618,6 @@
       "compositional" : true
     },
     {
-      "code" : "http://snomed.info/sct/45991000052106/version/20230531",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
       "code" : "http://snomed.info/sct/11000315107/version/20240621",
       "isDefault" : false,
       "compositional" : true
@@ -5703,37 +5628,12 @@
       "compositional" : true
     },
     {
-      "code" : "http://snomed.info/sct/2011000195101/version/20240607",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/900000000000207008/version/20240801",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
       "code" : "http://snomed.info/sct/900000001000122104/version/20240601",
       "isDefault" : false,
       "compositional" : true
     },
     {
-      "code" : "http://snomed.info/sct/5631000179106/version/20240615",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
       "code" : "http://snomed.info/sct/32506021000036107/version/20240630",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/11000234105/version/20240815",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/900000000000207008/version/20240701",
       "isDefault" : false,
       "compositional" : true
     },
@@ -5749,11 +5649,6 @@
     },
     {
       "code" : "http://snomed.info/sct/11000234105/version/20240215",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/900000000000207008/version/20240901",
       "isDefault" : false,
       "compositional" : true
     },
@@ -5818,16 +5713,6 @@
       "compositional" : true
     },
     {
-      "code" : "http://snomed.info/sct/900000000000207008/version/20241001",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/21000210109/version/20241001",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
       "code" : "http://snomed.info/sct/32506021000036107/version/20241031",
       "isDefault" : false,
       "compositional" : true
@@ -5878,27 +5763,7 @@
       "compositional" : true
     },
     {
-      "code" : "http://snomed.info/sct/900000000000207008/version/20241201",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/45991000052106/version/20241130",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/11000181102/version/20241130",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
       "code" : "http://snomed.info/sct/20611000087101/version/20241130",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/2011000195101/version/20241207",
       "isDefault" : false,
       "compositional" : true
     },
@@ -5909,16 +5774,6 @@
     },
     {
       "code" : "http://snomed.info/sct/32506021000036107/version/20241231",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/11000221109/version/20240531",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/11000221109/version/20241130",
       "isDefault" : false,
       "compositional" : true
     },
@@ -5973,6 +5828,11 @@
       "compositional" : true
     },
     {
+      "code" : "http://snomed.info/sct/554471000005108/version/20220930",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
       "code" : "http://snomed.info/sct/32506021000036107/version/20250228",
       "isDefault" : true,
       "compositional" : true
@@ -5989,6 +5849,146 @@
     },
     {
       "code" : "http://snomed.info/sct/20611000087101/version/20250228",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/900000000000207008/version/20221231",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/5631000179106/version/20240615",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/554471000005108/version/20240331",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/900000000000207008/version/20241201",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/900000000000207008/version/20241001",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/900000000000207008/version/20240901",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/900000000000207008/version/20240801",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/900000000000207008/version/20240701",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/900000000000207008/version/20240601",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/900000000000207008/version/20240501",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/900000000000207008/version/20230901",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/900000000000207008/version/20230531",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/45991000052106/version/20241130",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/45991000052106/version/20240531",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/45991000052106/version/20230531",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/45991000052106/version/20221130",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/21000210109/version/20241001",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/2011000195101/version/20241207",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/2011000195101/version/20240607",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/2011000195101/version/20220607",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/11000234105/version/20240815",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/11000221109/version/20241130",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/11000221109/version/20240531",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/11000220105/version/20230421",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/11000181102/version/20241130",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/11000181102/version/20240530",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/11000172109/version/20240515",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/11000146104/version/20240331",
       "isDefault" : false,
       "compositional" : true
     }],

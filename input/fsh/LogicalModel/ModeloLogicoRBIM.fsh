@@ -3,33 +3,49 @@ Parent: Base
 Id: ModeloLogicoRBI
 Title: "Modelo Logico Repositorio de Biopsia"
 Description: "Modelo lógico para el conjunto de datos mínimo del repositorio de biopsia"
-Characteristics: #can-be-target
-
- 
+// Characteristics: #can-be-target
 
 * identifier 1..1 Identifier "Business identifier for report"
 
 * basedOn 1..1 Reference(ServiceRequest) "What was requested"
+  
+  * extension 0..0 
 
   * solicitud 0..1 Reference(ServiceRequest) "solicitud"
+    
+    * extension 0..0 
 
     * reasonCode 1..1 CodeableConcept "reasonCode"
 
-    * requester 0..1 Reference(Practitioner) "requester"
+    * requester 0..1 BackboneElement "requester"
+      
+      * extension 0..0
 
-      * PractitionerRole 0..1 Reference(PractitionerRole) "PractitionerRole"
+      * PractitionerRole 0..1 BackboneElement "PractitionerRole"
 
         * practitioner 0..1 Reference(Practitioner) "practitioner"
+         
+          * extension 0..0
 
-          * identifier 0..1 Identifier "identifier"
+          * identifier 0..1 
+            
+            * ^short = "identifier"
 
-          * display 0..1 string "Médico solicitante o tratante"
+          * display 0..1 
+            
+            * ^short = "Médico solicitante o tratante"
 
         * organization 0..1 Reference(Organization) "organization"
 
-          * identifier 0..1 Identifier "identifier"
+          * extension 0..0
 
-          * display 0..1 string "display"
+          * identifier 0..1 
+            
+            * ^short = "identifier"
+
+          * display 0..1 
+          
+            * ^short = "display"
 
 * status 1..1 code "registered | partial | preliminary | final +"
 
@@ -39,14 +55,6 @@ Characteristics: #can-be-target
 
 * subject 1..1 Reference(Patient) "The subject of the report - usually, but not always, the patient"
 
-  * reference 1..1 string "reference"
-    
-  * display 1..1 string "display"
-
-* encounter 0..1 Reference(Encounter) "Health care event when test ordered"
-
-* effective[x] 0..1 dateTime "Clinically relevant time/time-period for report"
-
 * issued 1..1 instant "DateTime this version was made"
 
 * performer 1..1 BackboneElement "Responsible Diagnostic Service"
@@ -55,37 +63,55 @@ Characteristics: #can-be-target
 
     * referencePractitioner 1..1 Reference(Practitioner) "reference"
 
-      * identifier 1..1 Identifier "identifier"
+      * extension 0..0
 
-      * display 1..1 string "display"
+      * identifier 1..1 
+      
+        * ^short = "identifier"
+
+      * display 1..1 
+      
+        * ^short = "display"
 
     * referenceOrganization 1..1 Reference(Organization) "reference"
 
-      * identifier 1..1 Identifier "identifier"
+      * extension 0..0
 
-      * display 1..1 string "display"
+      * identifier 1..1 
+      
+        * ^short = "identifier"
 
-* resultsInterpreter 0..* Reference(Practitioner) "Primary result interpreter"
+      * display 1..1 
+      
+        * ^short = "display"
 
 * specimen 1..* BackboneElement "Specimens this report is based on"
 
   * collection 1..1 BackboneElement "collector"
 
-    * collector 1..1 string "collector"
+    * collector 1..1 BackboneElement "collector"
 
       * PractitionerRole 1..1 BackboneElement "PractitionerRole"
 
         * Practioner 1..1 Reference(Practitioner) "Practioner"
 
-          * identifier 1..1 Identifier "identifier"
+          * identifier 1..1 
+          
+            * ^short =  "identifier"
 
-          * display 1..1 string "display"
+          * display 1..1 
+          
+            * ^short =  "display"
 
         * Organization 1..1 Reference(Organization) "Organization"
 
-          * identifier 1..1 Identifier "identifier"
+          * identifier 1..1 
+            
+            * ^short =  "identifier"
 
-          * display 1..1 string "display"
+          * display 1..1 
+          
+            * ^short =  "display"
 
     * collectedDateTime 1..1 dateTime "collectedDateTime"
 
@@ -97,7 +123,7 @@ Characteristics: #can-be-target
 
 * result 0..* BackboneElement "Observations"
 
-  * categoriaTNM 0..1 string  "categoria-tnm"
+  * categoriaTNM 0..1 BackboneElement "categoria-tnm"
 
     * categoriaTumorPrimario 0..1 Reference(Observation) "categoria-tumor-primario"
 
