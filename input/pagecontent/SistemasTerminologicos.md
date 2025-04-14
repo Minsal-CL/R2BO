@@ -198,5 +198,5 @@ GET /ConceptMap/$translate?system=http://snomed.info/sct&targetsystem=http://hl7
 El flujo esperado es el descrito en el siguiente diagrama:
 
 <div align="center"> 
-    <img src="iteraccionTerminologico.svg" alt="Flujo de Iteracción">
+    {% include servicio-terminologico.svg %}
 </div>

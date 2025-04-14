@@ -1,7 +1,9 @@
 {
   "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801" : null,
   "urn:ietf:bcp:13|null" : null,
+  "urn:oid:2.16.840.1.113883.2.22.0.2.102100.50.10" : null,
   "http://hl7.org/fhir/fhir-types|null" : null,
   "http://unstats.un.org/unsd/methods/m49/m49.htm|null" : null,
-  "http://hl7.org/fhir/sid/icd-10|2019-covid-expanded" : null
+  "http://hl7.org/fhir/sid/icd-10|2019-covid-expanded" : null,
+  "urn:oid:2.16.840.1.113883.2.22.1.152.787300" : null
 }

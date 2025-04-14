@@ -1,0 +1,30 @@
+@startuml Diagrama de Secuencia para el Informe Resultante de Anatomía Patológica
+
+title Diagrama de Secuencia para el Informe Resultante de Anatomía Patológica
+
+hide footbox
+
+!include ./style.iuml
+
+actor "Anatopatologo" as usuario
+participant "Sistema Informático de Anatomía Patológica" as PAIS
+database "Repositorio Anatomías Patológicas" as RepositorioBiopsia
+
+usuario -> PAIS: Genera informe de anatomía patológica
+activate PAIS
+PAIS -> PAIS: Genera informe en estructura FHIR (xml o json)
+PAIS -> RepositorioBiopsia: Realiza un POST a la API FHIR
+activate RepositorioBiopsia
+RepositorioBiopsia -> RepositorioBiopsia: Valida formato del FHIR
+alt Formato válido
+    RepositorioBiopsia -> RepositorioBiopsia: Actualiza solicitud de informe
+    RepositorioBiopsia -> RepositorioBiopsia: Almacena el informe en la base de datos 
+    RepositorioBiopsia -> PAIS: Respuesta exitosa (201 Created)
+else Formato inválido
+    RepositorioBiopsia -> PAIS: Respuesta de error (400 Bad Request)
+end
+deactivate RepositorioBiopsia
+PAIS -> usuario: Notifica el estado del informe en el repositorio
+deactivate PAIS
+
+@enduml

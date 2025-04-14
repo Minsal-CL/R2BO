@@ -1,0 +1,2221 @@
+CodeSystem: ICD_O_3
+Id: icd-o-3
+Title: "ICD-O-3"
+Description: "Clasificación Internacional de Enfermedades Oncológicas 3ra Edición Versión del Ministerio de Salud de Chile"
+* ^version = "2025-Minsal"
+* ^status = #active
+* ^experimental = false
+* ^date = "2025"
+* ^publisher = "World Health Organization"
+* ^contact.name = "World Health Organization"
+* ^contact.telecom.system = #url
+* ^contact.telecom.value = "http://www.who.int"
+* ^copyright = "La información de este sistema de codificación es propiedad del Ministerio de Salud de Chile, obtenido de la Clasificación Internacional de Enfermedades Oncológicas 3ra Edición primera revisión"
+* ^caseSensitive = false
+* ^hierarchyMeaning = #is-a
+* ^versionNeeded = false
+* ^content = #fragment
+* ^property[0].code = #kind
+* ^property[=].type = #code
+* ^property[+].code = #footnote
+* ^property[=].type = #string
+* ^property[+].code = #text
+* ^property[=].type = #string
+* ^property[+].code = #coding-hint
+* ^property[=].type = #string
+* ^property[+].code = #introduction
+* ^property[=].type = #string
+* ^property[+].code = #modifierlink
+* ^property[=].type = #string
+* ^property[+].code = #note
+* ^property[=].type = #string
+* ^property[+].code = #exclusion
+* ^property[=].type = #string
+* ^property[+].code = #inclusion
+* ^property[=].type = #string
+* #T "Topografía" "Topografía"
+* #T ^property[0].code = #kind
+* #T ^property[=].valueCode = #chapter
+* #T ^property[+].code = #child
+* #T ^property[=].valueString = "C00-C14"
+* #T ^property[+].code = #child
+* #T ^property[=].valueString = "C50"
+* #C00-C14 "Labío, Cavidad Oral y Faringe" "Labío, Cavidad Oral y Faringe"
+* #C00-C14 ^property[0].code = #kind
+* #C00-C14 ^property[=].valueCode = #block
+* #C00-C14 ^property[+].code = #child
+* #C00-C14 ^property[=].valueCode = #C00
+* #C00-C14 ^property[+].code = #child
+* #C00-C14 ^property[=].valueCode = #C01
+* #C00-C14 ^property[+].code = #child
+* #C00-C14 ^property[=].valueCode = #C02
+* #C00-C14 ^property[+].code = #child
+* #C00-C14 ^property[=].valueCode = #C03
+* #C00-C14 ^property[+].code = #child
+* #C00-C14 ^property[=].valueCode = #C04
+* #C00-C14 ^property[+].code = #child
+* #C00-C14 ^property[=].valueCode = #C05
+* #C00-C14 ^property[+].code = #child
+* #C00-C14 ^property[=].valueCode = #C06
+* #C00-C14 ^property[+].code = #child
+* #C00-C14 ^property[=].valueCode = #C07
+* #C00-C14 ^property[+].code = #child
+* #C00-C14 ^property[=].valueCode = #C08
+* #C00-C14 ^property[+].code = #child
+* #C00-C14 ^property[=].valueCode = #C09
+* #C00-C14 ^property[+].code = #child
+* #C00-C14 ^property[=].valueCode = #C10
+* #C00-C14 ^property[+].code = #child
+* #C00-C14 ^property[=].valueCode = #C11
+* #C00-C14 ^property[+].code = #child
+* #C00-C14 ^property[=].valueCode = #C12
+* #C00-C14 ^property[+].code = #child
+* #C00-C14 ^property[=].valueCode = #C13
+* #C00-C14 ^property[+].code = #child
+* #C00-C14 ^property[=].valueCode = #C14
+* #C00 "LABIO" "Labio"
+* #C00 ^property[0].code = #kind
+* #C00 ^property[=].valueCode = #category
+* #C00 ^property[+].code = #child
+* #C00 ^property[=].valueCode = #C00.0
+* #C00 ^property[+].code = #child
+* #C00 ^property[=].valueCode = #C00.1
+* #C00 ^property[+].code = #child
+* #C00 ^property[=].valueCode = #C00.2
+* #C00 ^property[+].code = #child
+* #C00 ^property[=].valueCode = #C00.5
+* #C00 ^property[+].code = #child
+* #C00 ^property[=].valueCode = #C00.6
+* #C00 ^property[+].code = #child
+* #C00 ^property[=].valueCode = #C00.8
+* #C00 ^property[+].code = #child
+* #C00 ^property[=].valueCode = #C00.9
+* #C00 ^property[+].code = #parent
+* #C00 ^property[=].valueCode = #C00-C14
+* #C00.0 "Labio superior, parte externa" "Labio superior, parte externa"
+* #C00.0 ^property[0].code = #kind
+* #C00.0 ^property[=].valueCode = #category
+* #C00.0 ^property[+].code = #inclusion
+* #C00.0 ^property[=].valueString = "Borde rojo del labio superior"
+* #C00.0 ^property[+].code = #inclusion
+* #C00.0 ^property[=].valueString = "Labio superior, SAI"
+* #C00.0 ^property[+].code = #exclusion
+* #C00.0 ^property[=].valueString = "Piel del labio superior[C44.0]"
+* #C00.0 ^property[+].code = #parent
+* #C00.0 ^property[=].valueCode = #C00
+* #C00.1 "Labio inferior, parte externa" "Labio inferior, parte externa"
+* #C00.1 ^property[0].code = #kind
+* #C00.1 ^property[=].valueCode = #category
+* #C00.1 ^property[+].code = #inclusion
+* #C00.1 ^property[=].valueString = "Borde rojo del labio inferior"
+* #C00.1 ^property[+].code = #inclusion
+* #C00.1 ^property[=].valueString = "Labio inferior, SAI"
+* #C00.1 ^property[+].code = #exclusion
+* #C00.1 ^property[=].valueString = "Piel del labio inferior[C44.0]"
+* #C00.1 ^property[+].code = #parent
+* #C00.1 ^property[=].valueCode = #C00
+* #C00.2 "Labio, parte externa, SAI" "Labio, parte externa, SAI"
+* #C00.2 ^property[0].code = #kind
+* #C00.2 ^property[=].valueCode = #category
+* #C00.2 ^property[+].code = #inclusion
+* #C00.2 ^property[=].valueString = "Borde rojo del labio, SAI"
+* #C00.2 ^property[+].code = #parent
+* #C00.2 ^property[=].valueCode = #C00
+* #C00.3 "Mucosa del labio superior" "Mucosa del labio superior"
+* #C00.3 ^property[0].code = #kind
+* #C00.3 ^property[=].valueCode = #category
+* #C00.3 ^property[+].code = #inclusion
+* #C00.3 ^property[=].valueString = "Cara interna del labio superior"
+* #C00.3 ^property[+].code = #inclusion
+* #C00.3 ^property[=].valueString = "Frenillo del labio superior"
+* #C00.3 ^property[+].code = #parent
+* #C00.3 ^property[=].valueCode = #C00
+* #C00.4 "Mucosa del labio inferior" "Mucosa del labio inferior"
+* #C00.4 ^property[0].code = #kind
+* #C00.4 ^property[=].valueCode = #category
+* #C00.4 ^property[+].code = #inclusion
+* #C00.4 ^property[=].valueString = "Cara interna del labio inferior"
+* #C00.4 ^property[+].code = #inclusion
+* #C00.4 ^property[=].valueString = "Frenillo del labio inferior"
+* #C00.4 ^property[+].code = #parent
+* #C00.4 ^property[=].valueCode = #C00
+* #C00.5 "Mucosa del labio, SAI" "Mucosa del labio, SAI"
+* #C00.5 ^property[0].code = #kind
+* #C00.5 ^property[=].valueCode = #category
+* #C00.5 ^property[+].code = #inclusion
+* #C00.5 ^property[=].valueString = "Cara interna del labio, SAI"
+* #C00.5 ^property[+].code = #inclusion
+* #C00.5 ^property[=].valueString = "Frenillo del labio, SAI"
+* #C00.5 ^property[+].code = #inclusion
+* #C00.5 ^property[=].valueString = "Frenulum labii, SAI"
+* #C00.5 ^property[+].code = #inclusion
+* #C00.5 ^property[=].valueString = "Labio interno, SAI"
+* #C00.5 ^property[+].code = #parent
+* #C00.5 ^property[=].valueCode = #C00
+* #C00.6 "Comisura del labio" "Comisura del labio"
+* #C00.6 ^property[0].code = #kind
+* #C00.6 ^property[=].valueCode = #category
+* #C00.6 ^property[+].code = #inclusion
+* #C00.6 ^property[=].valueString = "Comisura labial"
+* #C00.6 ^property[+].code = #parent
+* #C00.6 ^property[=].valueCode = #C00
+* #C00.8 "Lesión solapada del labio" "Lesión solapada del labio"
+* #C00.8 ^property[0].code = #kind
+* #C00.8 ^property[=].valueCode = #category
+* #C00.8 ^property[+].code = #parent
+* #C00.8 ^property[=].valueCode = #C00
+* #C00.9 "Labio, SAI" "Labio, SAI"
+* #C00.9 ^property[0].code = #kind
+* #C00.9 ^property[=].valueCode = #category
+* #C00.9 ^property[+].code = #exclusion
+* #C00.9 ^property[=].valueString = "Piel del labio inferior[C44.0]"
+* #C00.9 ^property[+].code = #parent
+* #C00.9 ^property[=].valueCode = #C00
+* #C01 "BASE DE LA LENGUA" "BASE DE LA LENGUA"
+* #C01 ^property[0].code = #kind
+* #C01 ^property[=].valueCode = #category
+* #C01 ^property[+].code = #child
+* #C01 ^property[=].valueCode = #C01.9
+* #C01 ^property[+].code = #parent
+* #C01 ^property[=].valueCode = #C00-C14
+* #C01.9 "Base de la lengua, SAI" "Base de la lengua, SAI"
+* #C01.9 ^property[0].code = #kind
+* #C01.9 ^property[=].valueCode = #category
+* #C01.9 ^property[+].code = #inclusion
+* #C01.9 ^property[=].valueString = "Lengua posterior, SAI"
+* #C01.9 ^property[+].code = #inclusion
+* #C01.9 ^property[=].valueString = "Raíz de la lengua"
+* #C01.9 ^property[+].code = #inclusion
+* #C01.9 ^property[=].valueString = "Superficie dorsal de la base de la lengua"
+* #C01.9 ^property[+].code = #inclusion
+* #C01.9 ^property[=].valueString = "Tercio posterior de la lengua"
+* #C01.9 ^property[+].code = #parent
+* #C01.9 ^property[=].valueCode = #C01
+* #C02 "OTRAS PARTES DE LA LENGUA Y LAS NO ESPECIFICADAS" "OTRAS PARTES DE LA LENGUA Y LAS NO ESPECIFICADAS"
+* #C02 ^property[0].code = #kind
+* #C02 ^property[=].valueCode = #category
+* #C02 ^property[+].code = #child
+* #C02 ^property[=].valueCode = #C02.0
+* #C02 ^property[+].code = #child
+* #C02 ^property[=].valueCode = #C02.1
+* #C02 ^property[+].code = #child
+* #C02 ^property[=].valueCode = #C02.2
+* #C02 ^property[+].code = #child
+* #C02 ^property[=].valueCode = #C02.3
+* #C02 ^property[+].code = #child
+* #C02 ^property[=].valueCode = #C02.4
+* #C02 ^property[+].code = #child
+* #C02 ^property[=].valueCode = #C02.8
+* #C02 ^property[+].code = #child
+* #C02 ^property[=].valueCode = #C02.9
+* #C02 ^property[+].code = #parent
+* #C02 ^property[=].valueCode = #C00-C14
+* #C02.0 "Superficie dorsal de la lengua, SAI" "Superficie dorsal de la lengua, SAI"
+* #C02.0 ^property[0].code = #kind
+* #C02.0 ^property[=].valueCode = #category
+* #C02.0 ^property[+].code = #inclusion
+* #C02.0 ^property[=].valueString = "Superficie superior de la lengua, SAI"
+* #C02.0 ^property[+].code = #inclusion
+* #C02.0 ^property[=].valueString = "Dos tercios anteriores de la lengua, superficie dorsal"
+* #C02.0 ^property[+].code = #inclusion
+* #C02.0 ^property[=].valueString = "Línea media de la lengua"
+* #C02.0 ^property[+].code = #inclusion
+* #C02.0 ^property[=].valueString = "Superficie dorsal anterior de la lengua"
+* #C02.0 ^property[+].code = #parent
+* #C02.0 ^property[=].valueCode = #C02
+* #C02.1 "Borde de la lengua" "Borde de la lengua"
+* #C02.1 ^property[0].code = #kind
+* #C02.1 ^property[=].valueCode = #category
+* #C02.1 ^property[+].code = #inclusion
+* #C02.1 ^property[=].valueString = "Punta de la lengua"
+* #C02.1 ^property[+].code = #parent
+* #C02.1 ^property[=].valueCode = #C02
+* #C02.2 "Superficie ventral de la lengua, SAI" "Superficie ventral de la lengua, SAI"
+* #C02.2 ^property[0].code = #kind
+* #C02.2 ^property[=].valueCode = #category
+* #C02.2 ^property[+].code = #inclusion
+* #C02.2 ^property[=].valueString = "Superficie inferior de la lengua, SAI"
+* #C02.2 ^property[+].code = #inclusion
+* #C02.2 ^property[=].valueString = "Dos tercios anteriores de la lengua, superficie ventral"
+* #C02.2 ^property[+].code = #inclusion
+* #C02.2 ^property[=].valueString = "Frenillo de la lengua"
+* #C02.2 ^property[+].code = #inclusion
+* #C02.2 ^property[=].valueString = "Superficie ventral anterior de la lengua"
+* #C02.2 ^property[+].code = #parent
+* #C02.2 ^property[=].valueCode = #C02
+* #C02.3 "Dos tercios anteriores de la lengua, SAI" "Dos tercios anteriores de la lengua, SAI"
+* #C02.3 ^property[0].code = #kind
+* #C02.3 ^property[=].valueCode = #category
+* #C02.3 ^property[+].code = #inclusion
+* #C02.3 ^property[=].valueString = "Lengua anterior, SAI"
+* #C02.3 ^property[+].code = #parent
+* #C02.3 ^property[=].valueCode = #C02
+* #C02.4 "Amígdala lingual" "Amígdala lingual"
+* #C02.4 ^property[0].code = #kind
+* #C02.4 ^property[=].valueCode = #category
+* #C02.4 ^property[+].code = #inclusion
+* #C02.4 ^property[=].valueString = "Tonsila lingual"
+* #C02.4 ^property[+].code = #parent
+* #C02.4 ^property[=].valueCode = #C02
+* #C02.8 "Lesión solapada de la lengua" "Lesión solapada de la lengua"
+* #C02.8 ^property[0].code = #kind
+* #C02.8 ^property[=].valueCode = #category
+* #C02.8 ^property[+].code = #inclusion
+* #C02.8 ^property[=].valueString = "Zona de unión de la lengua"
+* #C02.8 ^property[+].code = #parent
+* #C02.8 ^property[=].valueCode = #C02
+* #C02.9 "Lengua, SAI" "Lengua, SAI"
+* #C02.9 ^property[0].code = #kind
+* #C02.9 ^property[=].valueCode = #category
+* #C02.9 ^property[+].code = #inclusion
+* #C02.9 ^property[=].valueString = "Lingual, SAI"
+* #C02.9 ^property[+].code = #parent
+* #C02.9 ^property[=].valueCode = #C02
+* #C03 "ENCÍA" "ENCÍA"
+* #C03 ^property[0].code = #kind
+* #C03 ^property[=].valueCode = #category
+* #C03 ^property[+].code = #child
+* #C03 ^property[=].valueCode = #C03.0
+* #C03 ^property[+].code = #child
+* #C03 ^property[=].valueCode = #C03.1
+* #C03 ^property[+].code = #child
+* #C03 ^property[=].valueCode = #C03.9
+* #C03 ^property[+].code = #parent
+* #C03 ^property[=].valueCode = #C00-C14
+* #C03.0 "Encía superior" "Encía superior"
+* #C03.0 ^property[0].code = #kind
+* #C03.0 ^property[=].valueCode = #category
+* #C03.0 ^property[+].code = #inclusion
+* #C03.0 ^property[=].valueString = "Alveolo superior"
+* #C03.0 ^property[+].code = #inclusion
+* #C03.0 ^property[=].valueString = "Encía maxilar"
+* #C03.0 ^property[+].code = #inclusion
+* #C03.0 ^property[=].valueString = "Mucosa del alveolo superior"
+* #C03.0 ^property[+].code = #inclusion
+* #C03.0 ^property[=].valueString = "Mucosa del reborde alveolar superior"
+* #C03.0 ^property[+].code = #parent
+* #C03.0 ^property[=].valueCode = #C03
+* #C03.1 "Encía inferior" "Encía inferior"
+* #C03.1 ^property[0].code = #kind
+* #C03.1 ^property[=].valueCode = #category
+* #C03.1 ^property[+].code = #inclusion
+* #C03.1 ^property[=].valueString = "Alveolo inferior"
+* #C03.1 ^property[+].code = #inclusion
+* #C03.1 ^property[=].valueString = "Encía mandibular"
+* #C03.1 ^property[+].code = #inclusion
+* #C03.1 ^property[=].valueString = "Mucosa del alveolo inferior"
+* #C03.1 ^property[+].code = #inclusion
+* #C03.1 ^property[=].valueString = "Mucosa del reborde alveolar inferior"
+* #C03.1 ^property[+].code = #parent
+* #C03.1 ^property[=].valueCode = #C03
+* #C03.9 "Encía, SAI" "Encía, SAI"
+* #C03.9 ^property[0].code = #kind
+* #C03.9 ^property[=].valueCode = #category
+* #C03.9 ^property[+].code = #inclusion
+* #C03.9 ^property[=].valueString = "Alveolo, SAI"
+* #C03.9 ^property[+].code = #inclusion
+* #C03.9 ^property[=].valueString = "Alveolo dentario"
+* #C03.9 ^property[+].code = #inclusion
+* #C03.9 ^property[=].valueString = "Gingiva, SAI "
+* #C03.9 ^property[+].code = #inclusion
+* #C03.9 ^property[=].valueString = "Mucosa alveolar, SAI"
+* #C03.9 ^property[+].code = #inclusion
+* #C03.9 ^property[=].valueString = "Mucosa del reborde alveolar, SAI"
+* #C03.9 ^property[+].code = #inclusion
+* #C03.9 ^property[=].valueString = "Tejido periodontal"
+* #C03.9 ^property[+].code = #parent
+* #C03.9 ^property[=].valueCode = #C03
+* #C04 "SUELO DE LA BOCA" "SUELO DE LA BOCA"
+* #C04 ^property[0].code = #kind
+* #C04 ^property[=].valueCode = #category
+* #C04 ^property[+].code = #child
+* #C04 ^property[=].valueCode = #C04.0
+* #C04 ^property[+].code = #child
+* #C04 ^property[=].valueCode = #C04.1
+* #C04 ^property[+].code = #child
+* #C04 ^property[=].valueCode = #C04.8
+* #C04 ^property[+].code = #child
+* #C04 ^property[=].valueCode = #C04.9
+* #C04 ^property[+].code = #parent
+* #C04 ^property[=].valueCode = #C00-C14
+* #C04.0 "Parte anterior del suelo de la boca" "Parte anterior del suelo de la boca"
+* #C04.0 ^property[0].code = #kind
+* #C04.0 ^property[=].valueCode = #category
+* #C04.0 ^property[+].code = #parent
+* #C04.0 ^property[=].valueCode = #C04
+* #C04.1 "Parte lateral del suelo de la boca" "Parte anterior del suelo de la boca"
+* #C04.1 ^property[0].code = #kind
+* #C04.1 ^property[=].valueCode = #category
+* #C04.1 ^property[+].code = #parent
+* #C04.1 ^property[=].valueCode = #C04
+* #C04.8 "Lesión solapada del suelo de la boca" "Lesión solapada del suelo de la boca"
+* #C04.8 ^property[0].code = #kind
+* #C04.8 ^property[=].valueCode = #category
+* #C04.8 ^property[+].code = #parent
+* #C04.8 ^property[=].valueCode = #C04
+* #C04.9 "Suelo de la boca, SAI" "Suelo de la boca, SAI"
+* #C04.9 ^property[0].code = #kind
+* #C04.9 ^property[=].valueCode = #category
+* #C04.9 ^property[+].code = #parent
+* #C04.9 ^property[=].valueCode = #C04
+* #C05 " PALADAR" " PALADAR"
+* #C05 ^property[0].code = #kind
+* #C05 ^property[=].valueCode = #category
+* #C05 ^property[+].code = #child
+* #C05 ^property[=].valueCode = #C05.0
+* #C05 ^property[+].code = #child
+* #C05 ^property[=].valueCode = #C05.1
+* #C05 ^property[+].code = #child
+* #C05 ^property[=].valueCode = #C05.2
+* #C05 ^property[+].code = #child
+* #C05 ^property[=].valueCode = #C05.8
+* #C05 ^property[+].code = #child
+* #C05 ^property[=].valueCode = #C05.9
+* #C05 ^property[+].code = #parent
+* #C05 ^property[=].valueCode = #C00-C14
+* #C05.0 "Paladar duro" "Paladar duro"
+* #C05.0 ^property[0].code = #kind
+* #C05.0 ^property[=].valueCode = #category
+* #C05.0 ^property[+].code = #inclusion
+* #C05.0 ^property[=].valueString = "Bóveda del paladar"
+* #C05.0 ^property[+].code = #parent
+* #C05.0 ^property[=].valueCode = #C05
+* #C05.1 "Paladar blando, SAI" "Paladar blando, SAI"
+* #C05.1 ^property[0].code = #kind
+* #C05.1 ^property[=].valueCode = #category
+* #C05.1 ^property[+].code = #exclusion
+* #C05.1 ^property[=].valueString = "Cara naso-faríngea del paladar blando [C11.3])"
+* #C05.1 ^property[+].code = #inclusion
+* #C05.1 ^property[=].valueString = "Velo del paladar, SAI"
+* #C05.1 ^property[+].code = #parent
+* #C05.1 ^property[=].valueCode = #C05
+* #C05.2 "Úvula" "Úvula"
+* #C05.2 ^property[0].code = #kind
+* #C05.2 ^property[=].valueCode = #category
+* #C05.2 ^property[+].code = #parent
+* #C05.2 ^property[=].valueCode = #C05
+* #C05.8 "Lesión solapada del paladar" "Lesión solapada del paladar"
+* #C05.8 ^property[0].code = #kind
+* #C05.8 ^property[=].valueCode = #category
+* #C05.8 ^property[+].code = #inclusion
+* #C05.8 ^property[=].valueString = "Unión del paladar duro con el blando"
+* #C05.8 ^property[+].code = #parent
+* #C05.8 ^property[=].valueCode = #C05
+* #C05.9 "Paladar, SAI" "Paladar, SAI"
+* #C05.9 ^property[0].code = #kind
+* #C05.9 ^property[=].valueCode = #category
+* #C05.9 ^property[+].code = #inclusion
+* #C05.9 ^property[=].valueString = "Cielo de la boca"
+* #C05.9 ^property[+].code = #parent
+* #C05.9 ^property[=].valueCode = #C05
+* #C06 "OTRAS PARTES DE LA BOCA Y LAS NO ESPECIFICADAS" "OTRAS PARTES DE LA BOCA Y LAS NO ESPECIFICADAS"
+* #C06 ^property[0].code = #kind
+* #C06 ^property[=].valueCode = #category
+* #C06 ^property[+].code = #child
+* #C06 ^property[=].valueCode = #C06.0
+* #C06 ^property[+].code = #child
+* #C06 ^property[=].valueCode = #C06.1
+* #C06 ^property[+].code = #child
+* #C06 ^property[=].valueCode = #C06.2
+* #C06 ^property[+].code = #child
+* #C06 ^property[=].valueCode = #C06.8
+* #C06 ^property[+].code = #child
+* #C06 ^property[=].valueCode = #C06.9
+* #C06 ^property[+].code = #parent
+* #C06 ^property[=].valueCode = #C00-C14
+* #C06.0 "Mucosa de la mejilla" "Mucosa de la mejilla"
+* #C06.0 ^property[0].code = #kind
+* #C06.0 ^property[=].valueCode = #category
+* #C06.0 ^property[+].code = #inclusion
+* #C06.0 ^property[=].valueString = "Cara interna de la mejilla"
+* #C06.0 ^property[+].code = #inclusion
+* #C06.0 ^property[=].valueString = "Mucosa bucal"
+* #C06.0 ^property[+].code = #inclusion
+* #C06.0 ^property[=].valueString = "Mucosa geniana"
+* #C06.0 ^property[+].code = #inclusion
+* #C06.0 ^property[=].valueString = "Mucosa yugal"
+* #C06.0 ^property[+].code = #parent
+* #C06.0 ^property[=].valueString = "C06"
+* #C06.1 "Vestíbulo de la boca" "Vestíbulo de la boca"
+* #C06.1 ^property[0].code = #kind
+* #C06.1 ^property[=].valueCode = #category
+* #C06.1 ^property[+].code = #inclusion
+* #C06.1 ^property[=].valueString = "Surco alveolar"
+* #C06.1 ^property[+].code = #inclusion
+* #C06.1 ^property[=].valueString = "Surco bucal"
+* #C06.1 ^property[+].code = #inclusion
+* #C06.1 ^property[=].valueString = "Surco labial"
+* #C06.1 ^property[+].code = #parent
+* #C06.1 ^property[=].valueCode = #C06
+* #C06.2 "Área retromolar" "Área retromolar"
+* #C06.2 ^property[0].code = #kind
+* #C06.2 ^property[=].valueCode = #category
+* #C06.2 ^property[+].code = #inclusion
+* #C06.2 ^property[=].valueCode = #"Triángulo retromolar"
+* #C06.2 ^property[+].code = #inclusion
+* #C06.2 ^property[=].valueCode = #"Trígono retromolar"
+* #C06.2 ^property[+].code = #parent
+* #C06.2 ^property[=].valueCode = #C06
+* #C06.8 "Lesión solapada de otras partes y las no especificadas de la boca" "Lesión solapada de otras partes y las no especificadas de la boca"
+* #C06.8 ^property[0].code = #kind
+* #C06.8 ^property[=].valueCode = #category
+* #C06.8 ^property[+].code = #parent
+* #C06.8 ^property[=].valueCode = #C06
+* #C06.9 "Boca, SAI" "Boca, SAI"
+* #C06.9 ^property[0].code = #kind
+* #C06.9 ^property[=].valueCode = #category
+* #C06.9 ^property[+].code = #inclusion
+* #C06.9 ^property[=].valueString = "Cavidad bucal"
+* #C06.9 ^property[+].code = #inclusion
+* #C06.9 ^property[=].valueString = "Cavidad oral"
+* #C06.9 ^property[+].code = #inclusion
+* #C06.9 ^property[=].valueString = "Mucosa oral"
+* #C06.9 ^property[+].code = #inclusion
+* #C06.9 ^property[=].valueString = "Glándulas salivales menores, SAI"
+* #C06.9 ^property[+].code = #parent
+* #C06.9 ^property[=].valueCode = #C06
+* #C07 "GLÁNDULA PARÓTIDA" "GLÁNDULA PARÓTIDA"
+* #C07 ^property[0].code = #kind
+* #C07 ^property[=].valueCode = #category
+* #C07 ^property[+].code = #child
+* #C07 ^property[=].valueCode = #C07.9
+* #C07 ^property[+].code = #parent
+* #C07 ^property[=].valueCode = #C00-C14
+* #C07.9 "Glándula parótida" "Glándula parótida"
+* #C07.9 ^property[0].code = #kind
+* #C07.9 ^property[=].valueCode = #category
+* #C07.9 ^property[+].code = #inclusion
+* #C07.9 ^property[=].valueString = "Parótida, SAI"
+* #C07.9 ^property[+].code = #inclusion
+* #C07.9 ^property[=].valueString = "Conducto de Stenon"
+* #C07.9 ^property[+].code = #inclusion
+* #C07.9 ^property[=].valueString = "Conducto de la glándula parótida"
+* #C07.9 ^property[+].code = #inclusion
+* #C07.9 ^property[=].valueString = "Conducto de Stensen"
+* #C07.9 ^property[+].code = #inclusion
+* #C07.9 ^property[=].valueString = "Conducto parotídeo"
+* #C07.9 ^property[+].code = #parent
+* #C07.9 ^property[=].valueCode = #C07
+* #C08 "Otras Glándulas Salivares Principales Y Las No Especificadas" "Otras Glándulas Salivares Principales Y Las No Especificadas"
+* #C08 ^property[0].code = #kind
+* #C08 ^property[=].valueCode = #category
+* #C08 ^property[+].code = #child
+* #C08 ^property[=].valueCode = #C08.0
+* #C08 ^property[+].code = #child
+* #C08 ^property[=].valueCode = #C08.1
+* #C08 ^property[+].code = #child
+* #C08 ^property[=].valueCode = #C08.8
+* #C08 ^property[+].code = #child
+* #C08 ^property[=].valueCode = #C08.9
+* #C08 ^property[+].code = #parent
+* #C08 ^property[=].valueCode = #C00-C14
+* #C08.0 "Glándula submandibular" "Glándula submandibular"
+* #C08.0 ^property[0].code = #kind
+* #C08.0 ^property[=].valueCode = #category
+* #C08.0 ^property[+].code = #inclusion
+* #C08.0 ^property[=].valueString = "Conducto de la glándula submandibular"
+* #C08.0 ^property[+].code = #inclusion
+* #C08.0 ^property[=].valueString = "Conducto de la glándula submaxilar"
+* #C08.0 ^property[+].code = #inclusion
+* #C08.0 ^property[=].valueString = "Conducto de Wharton"
+* #C08.0 ^property[+].code = #inclusion
+* #C08.0 ^property[=].valueString = "Glándula submaxilar"
+* #C08.0 ^property[+].code = #parent
+* #C08.0 ^property[=].valueCode = #C08
+* #C08.1 "Glándula sublingual" "Glándula sublingual"
+* #C08.1 ^property[0].code = #kind
+* #C08.1 ^property[=].valueCode = #category
+* #C08.1 ^property[+].code = #inclusion
+* #C08.1 ^property[=].valueString = "Conducto de la glándula sublingual"
+* #C08.1 ^property[+].code = #parent
+* #C08.1 ^property[=].valueCode = #C08
+* #C08.8 "Lesión solapada de las glándulas salivales mayores" "Lesión solapada de las glándulas salivales mayores"
+* #C08.8 ^property[0].code = #kind
+* #C08.8 ^property[=].valueCode = #category
+* #C08.8 ^property[+].code = #parent
+* #C08.8 ^property[=].valueCode = #C08
+* #C08.9 "Lesión solapada de otras glándulas salivales principales y las no especificadas" "Lesión solapada de otras glándulas salivales principales y las no especificadas"
+* #C08.9 ^property[0].code = #kind
+* #C08.9 ^property[=].valueCode = #category
+* #C08.9 ^property[+].code = #inclusion
+* #C08.9 ^property[=].valueCode = #"Glándula salival, SAI"
+* #C08.9 ^property[+].code = #exclusion
+* #C08.9 ^property[=].valueString = " Glándulas salivales menores, SAI [C06.9]"
+* #C08.9 ^property[+].code = #parent
+* #C08.9 ^property[=].valueCode = #C08
+* #C09 "Amígdala" "Amígdala"
+* #C09 ^property[0].code = #kind
+* #C09 ^property[=].valueCode = #category
+* #C09 ^property[+].code = #child
+* #C09 ^property[=].valueCode = #C09.0
+* #C09 ^property[+].code = #child
+* #C09 ^property[=].valueCode = #C09.1
+* #C09 ^property[+].code = #child
+* #C09 ^property[=].valueCode = #C09.8
+* #C09 ^property[+].code = #child
+* #C09 ^property[=].valueCode = #C09.9
+* #C09 ^property[+].code = #parent
+* #C09 ^property[=].valueCode = #C00-C14
+* #C09.0 "Fosa amigdalina" "Fosa amigdalina"
+* #C09.0 ^property[0].code = #kind
+* #C09.0 ^property[=].valueCode = #category
+* #C09.0 ^property[+].code = #inclusion
+* #C09.0 ^property[=].valueString = "Fosa tonsilar"
+* #C09.0 ^property[+].code = #parent
+* #C09.0 ^property[=].valueCode = #C09
+* #C09.1 "Pilar amigdalino" "Pilar amigdalino"
+* #C09.1 ^property[0].code = #kind
+* #C09.1 ^property[=].valueCode = #category
+* #C09.1 ^property[+].code = #inclusion
+* #C09.1 ^property[=].valueString = "Pilar de las fauces"
+* #C09.1 ^property[+].code = #inclusion
+* #C09.1 ^property[=].valueString = "Pliegue glosopalatino"
+* #C09.1 ^property[+].code = #parent
+* #C09.1 ^property[=].valueCode = #C09
+* #C09.8 "Lesión solapada de la amígdala" "Lesión solapada de la amígdala"
+* #C09.8 ^property[0].code = #kind
+* #C09.8 ^property[=].valueCode = #category
+* #C09.8 ^property[+].code = #parent
+* #C09.8 ^property[=].valueCode = #C09
+* #C09.9 "Amígdala, SAI" "Amígdala, SAI"
+* #C09.9 ^property[0].code = #kind
+* #C09.9 ^property[=].valueCode = #category
+* #C09.9 ^property[+].code = #inclusion
+* #C09.9 ^property[=].valueString = "Amígdala faucal"
+* #C09.9 ^property[+].code = #inclusion
+* #C09.9 ^property[=].valueString = "Amígdala palatina"
+* #C09.9 ^property[+].code = #inclusion
+* #C09.9 ^property[=].valueString = "Tonsila, SAI"
+* #C09.9 ^property[+].code = #exclusion
+* #C09.9 ^property[=].valueString = "Amígdala lingual[C02.4]"
+* #C09.9 ^property[+].code = #exclusion
+* #C09.9 ^property[=].valueString = "Amígdala faríngea[C11.1]"
+* #C09.9 ^property[+].code = #parent
+* #C09.9 ^property[=].valueCode = #C09
+* #C10 "Orofaringe" "Orofaringe"
+* #C10 ^property[0].code = #kind
+* #C10 ^property[=].valueCode = #category
+* #C10 ^property[+].code = #child
+* #C10 ^property[=].valueCode = #C10.0
+* #C10 ^property[+].code = #child
+* #C10 ^property[=].valueCode = #C10.1
+* #C10 ^property[+].code = #child
+* #C10 ^property[=].valueCode = #C10.2
+* #C10 ^property[+].code = #child
+* #C10 ^property[=].valueCode = #C10.3
+* #C10 ^property[+].code = #child
+* #C10 ^property[=].valueCode = #C10.4
+* #C10 ^property[+].code = #child
+* #C10 ^property[=].valueCode = #C10.8
+* #C10 ^property[+].code = #child
+* #C10 ^property[=].valueCode = #C10.9
+* #C10 ^property[+].code = #parent
+* #C10 ^property[=].valueCode = #C00-C14
+* #C10.0 "Valécula epiglótica" "Valécula epiglótica"
+* #C10.0 ^property[0].code = #kind
+* #C10.0 ^property[=].valueCode = #category
+* #C10.0 ^property[+].code = #inclusion
+* #C10.0 ^property[=].valueString = "Valécula, SAI"
+* #C10.0 ^property[+].code = #parent
+* #C10.0 ^property[=].valueCode = #C10
+* #C10.1 "Cara anterior de la epiglotis" "Cara anterior de la epiglotis"
+* #C10.1 ^property[0].code = #kind
+* #C10.1 ^property[=].valueCode = #category
+* #C10.1 ^property[+].code = #inclusion
+* #C10.1 ^property[=].valueString = "Cara lingual de la epiglotis"
+* #C10.1 ^property[+].code = #parent
+* #C10.1 ^property[=].valueCode = #C10
+* #C10.2 "Pared lateral de la orofaringe" "Pared lateral de la orofaringe"
+* #C10.2 ^property[0].code = #kind
+* #C10.2 ^property[=].valueCode = #category
+* #C10.2 ^property[+].code = #inclusion
+* #C10.2 ^property[=].valueString = "Pared lateral de la mesofaringe"
+* #C10.2 ^property[+].code = #parent
+* #C10.2 ^property[=].valueCode = #C10
+* #C10.3 "Pared posterior de la orofaringe" "Pared posterior de la orofaringe"
+* #C10.3 ^property[0].code = #kind
+* #C10.3 ^property[=].valueCode = #category
+* #C10.3 ^property[+].code = #inclusion
+* #C10.3 ^property[=].valueString = "Pared posterior de la mesofaringe"
+* #C10.3 ^property[+].code = #parent
+* #C10.3 ^property[=].valueCode = #C10
+* #C10.4 "Hendidura branquial" "Hendidura branquial"
+* #C10.4 ^property[0].code = #kind
+* #C10.4 ^property[=].valueCode = #category
+* #C10.4 ^property[+].code = #parent
+* #C10.4 ^property[=].valueCode = #C10
+* #C10.8 "Lesión solapada de la orofaringe" "Lesión solapada de la orofaringe"
+* #C10.8 ^property[0].code = #kind
+* #C10.8 ^property[=].valueCode = #category
+* #C10.8 ^property[+].code = #inclusion
+* #C10.8 ^property[=].valueString = "Zona de unión de la orofaringe"
+* #C10.8 ^property[+].code = #parent
+* #C10.8 ^property[=].valueCode = #C10
+* #C10.9 "Orofaringe, SAI" "Orofaringe, SAI"
+* #C10.9 ^property[0].code = #kind
+* #C10.9 ^property[=].valueCode = #category
+* #C10.9 ^property[+].code = #inclusion
+* #C10.9 ^property[=].valueString = "Istmo de las fauces, SAI"
+* #C10.9 ^property[+].code = #inclusion
+* #C10.9 ^property[=].valueString = "Fauces, SAI"
+* #C10.9 ^property[+].code = #inclusion
+* #C10.9 ^property[=].valueString = "Mesofaringe, SAI"
+* #C10.9 ^property[+].code = #parent
+* #C10.9 ^property[=].valueCode = #C10
+* #C11 "Nasofaringe" "Nasofaringe"
+* #C11 ^property[0].code = #kind
+* #C11 ^property[=].valueCode = #category
+* #C11 ^property[+].code = #child
+* #C11 ^property[=].valueCode = #C11.0
+* #C11 ^property[+].code = #child
+* #C11 ^property[=].valueCode = #C11.1
+* #C11 ^property[+].code = #child
+* #C11 ^property[=].valueCode = #C11.2
+* #C11 ^property[+].code = #child
+* #C11 ^property[=].valueCode = #C11.3
+* #C11 ^property[+].code = #child
+* #C11 ^property[=].valueCode = #C11.8
+* #C11 ^property[+].code = #child
+* #C11 ^property[=].valueCode = #C11.9
+* #C11 ^property[+].code = #parent
+* #C11 ^property[=].valueCode = #C00-C14
+* #C11.0 "Pared superior de la nasofaringe" "Pared superior de la nasofaringe"
+* #C11.0 ^property[0].code = #kind
+* #C11.0 ^property[=].valueCode = #category
+* #C11.0 ^property[+].code = #inclusion
+* #C11.0 ^property[=].valueString = "Techo de la nasofaringe"
+* #C11.0 ^property[+].code = #parent
+* #C11.0 ^property[=].valueCode = #C11
+* #C11.1 "Pared posterior de la nasofaringe" "Pared posterior de la nasofaringe"
+* #C11.1 ^property[0].code = #kind
+* #C11.1 ^property[=].valueCode = #category
+* #C11.1 ^property[+].code = #inclusion
+* #C11.1 ^property[=].valueString = "Adenoides"
+* #C11.1 ^property[+].code = #inclusion
+* #C11.1 ^property[=].valueString = "Amígdala faríngea"
+* #C11.1 ^property[+].code = #parent
+* #C11.1 ^property[=].valueCode = #C11
+* #C11.2 "Pared lateral de la nasofaringe" "Pared lateral de la nasofaringe"
+* #C11.2 ^property[0].code = #kind
+* #C11.2 ^property[=].valueCode = #category
+* #C11.2 ^property[+].code = #inclusion
+* #C11.2 ^property[=].valueString = "Fosa de Rosenmüller"
+* #C11.2 ^property[+].code = #parent
+* #C11.2 ^property[=].valueCode = #C11
+* #C11.3 "Pared anterior de la nasofaringe" "Pared anterior de la nasofaringe"
+* #C11.3 ^property[0].code = #kind
+* #C11.3 ^property[=].valueCode = #category
+* #C11.3 ^property[+].code = #inclusion
+* #C11.3 ^property[=].valueString = "Borde posterior del tabique nasal"
+* #C11.3 ^property[+].code = #inclusion
+* #C11.3 ^property[=].valueString = "Cara nasofaríngea del paladar blando"
+* #C11.3 ^property[+].code = #inclusion
+* #C11.3 ^property[=].valueString = "Coanas"
+* #C11.3 ^property[+].code = #inclusion
+* #C11.3 ^property[=].valueString = "Fórnix faríngeo"
+* #C11.3 ^property[+].code = #parent
+* #C11.3 ^property[=].valueCode = #C11
+* #C11.8 "Lesión solapada de la nasofaringe" "Lesión solapada de la nasofaringe"
+* #C11.8 ^property[0].code = #kind
+* #C11.8 ^property[=].valueCode = #category
+* #C11.8 ^property[+].code = #parent
+* #C11.8 ^property[=].valueCode = #C11
+* #C11.9 "Nasofaringe, SAI" "Nasofaringe, SAI"
+* #C11.9 ^property[0].code = #kind
+* #C11.9 ^property[=].valueCode = #category
+* #C11.9 ^property[+].code = #inclusion
+* #C11.9 ^property[=].valueString = "Cavum"
+* #C11.9 ^property[+].code = #inclusion
+* #C11.9 ^property[=].valueString = "Rinofaringe"
+* #C11.9 ^property[+].code = #inclusion
+* #C11.9 ^property[=].valueString = "Pared nasofaríngea"
+* #C11.9 ^property[+].code = #parent
+* #C11.9 ^property[=].valueCode = #C11
+* #C12 "Seno Piriforme" "Seno Piriforme"
+* #C12 ^property[0].code = #kind
+* #C12 ^property[=].valueCode = #category
+* #C12 ^property[+].code = #child
+* #C12 ^property[=].valueCode = #C12.9
+* #C12 ^property[+].code = #parent
+* #C12 ^property[=].valueCode = #C00-C14
+* #C12.9 "Seno piriforme" "Seno piriforme"
+* #C12.9 ^property[0].code = #kind
+* #C12.9 ^property[=].valueCode = #category
+* #C12.9 ^property[+].code = #inclusion
+* #C12.9 ^property[=].valueString = "Fosa piriforme"
+* #C12.9 ^property[+].code = #parent
+* #C12.9 ^property[=].valueCode = #C12
+* #C13 "Hipofaringe" "Hipofaringe"
+* #C13 ^property[0].code = #kind
+* #C13 ^property[=].valueCode = #category
+* #C13 ^property[+].code = #child
+* #C13 ^property[=].valueCode = #C13.0
+* #C13 ^property[+].code = #child
+* #C13 ^property[=].valueCode = #C13.1
+* #C13 ^property[+].code = #child
+* #C13 ^property[=].valueCode = #C13.2
+* #C13 ^property[+].code = #child
+* #C13 ^property[=].valueCode = #C13.8
+* #C13 ^property[+].code = #child
+* #C13 ^property[=].valueCode = #C13.9
+* #C13 ^property[+].code = #parent
+* #C13 ^property[=].valueCode = #C00-C14
+* #C13.0 "Región postcricoidea" "Región postcricoidea"
+* #C13.0 ^property[0].code = #kind
+* #C13.0 ^property[=].valueCode = #category
+* #C13.0 ^property[+].code = #inclusion
+* #C13.0 ^property[=].valueString = "Región retrocricoidea"
+* #C13.0 ^property[+].code = #inclusion
+* #C13.0 ^property[=].valueString = "Cricofaringe"
+* #C13.0 ^property[+].code = #inclusion
+* #C13.0 ^property[=].valueString = "Cricoides, SAI"
+* #C13.0 ^property[+].code = #parent
+* #C13.0 ^property[=].valueCode = #C13
+* #C13.1 "Cara hipofaríngea del pliegue aritenoepiglótico" "Cara hipofaríngea del pliegue aritenoepiglótico"
+* #C13.1 ^property[0].code = #kind
+* #C13.1 ^property[=].valueCode = #category
+* #C13.1 ^property[+].code = #inclusion
+* #C13.1 ^property[=].valueString = "Pliegue aritenoepiglótico, SAI"
+* #C13.1 ^property[+].code = #inclusion
+* #C13.1 ^property[=].valueString = "Pliegue aritenoideo"
+* #C13.1 ^property[+].code = #exclusion
+* #C13.1 ^property[=].valueString = "Cara laríngea del pliegue aritenoepiglótico C32.1"
+* #C13.1 ^property[+].code = #parent
+* #C13.1 ^property[=].valueCode = #C13
+* #C13.2 "Pared posterior de la hipofaringe" "Pared posterior de la hipofaringe"
+* #C13.2 ^property[0].code = #kind
+* #C13.2 ^property[=].valueCode = #category
+* #C13.2 ^property[+].code = #parent
+* #C13.2 ^property[=].valueCode = #C13
+* #C13.8 "Lesión solapada de la hipofaringe" "Lesión solapada de la hipofaringe"
+* #C13.8 ^property[0].code = #kind
+* #C13.8 ^property[=].valueCode = #category
+* #C13.8 ^property[+].code = #parent
+* #C13.8 ^property[=].valueCode = #C13
+* #C13.9 "Hipofaringe, SAI" "Hipofaringe, SAI"
+* #C13.9 ^property[0].code = #kind
+* #C13.9 ^property[=].valueCode = #category
+* #C13.9 ^property[+].code = #inclusion
+* #C13.9 ^property[=].valueString = "Pared hipofaríngea"
+* #C13.9 ^property[+].code = #inclusion
+* #C13.9 ^property[=].valueString = "Laringofaringe"
+* #C13.9 ^property[+].code = #parent
+* #C13.9 ^property[=].valueCode = #C13
+* #C14 "Otras Localizaciones Y Las Mal Definidas Del Labio, Cavidad Oral Y Faringe" "Otras Localizaciones Y Las Mal Definidas Del Labio, Cavidad Oral Y Faringe"
+* #C14 ^property[0].code = #kind
+* #C14 ^property[=].valueCode = #category
+* #C14 ^property[+].code = #child
+* #C14 ^property[=].valueCode = #C14.0
+* #C14 ^property[+].code = #child
+* #C14 ^property[=].valueCode = #C14.2
+* #C14 ^property[+].code = #child
+* #C14 ^property[=].valueCode = #C14.8
+* #C14 ^property[+].code = #parent
+* #C14 ^property[=].valueCode = #C00-C14
+* #C14.0 "Faringe, SAI" "Faringe, SAI"
+* #C14.0 ^property[0].code = #kind
+* #C14.0 ^property[=].valueCode = #category
+* #C14.0 ^property[+].code = #inclusion
+* #C14.0 ^property[=].valueString = "Garganta"
+* #C14.0 ^property[+].code = #inclusion
+* #C14.0 ^property[=].valueString = "Pared faríngea, SAI "
+* #C14.0 ^property[+].code = #inclusion
+* #C14.0 ^property[=].valueString = "Pared de la faringe, SAI"
+* #C14.0 ^property[+].code = #inclusion
+* #C14.0 ^property[=].valueString = "Pared lateral de la faringe, SAI"
+* #C14.0 ^property[+].code = #inclusion
+* #C14.0 ^property[=].valueString = "Pared posterior de la faringe, SAI"
+* #C14.0 ^property[+].code = #parent
+* #C14.0 ^property[=].valueCode = #C14
+* #C14.2 "Anillo de Waldeyer" "Anillo de Waldeyer"
+* #C14.2 ^property[0].code = #kind
+* #C14.2 ^property[=].valueCode = #category
+* #C14.2 ^property[+].code = #parent
+* #C14.2 ^property[=].valueCode = #C14
+* #C14.8 "Lesión solapada del labio, cavidad oral y faringe" "Lesión solapada del labio, cavidad oral y faringe"
+* #C14.8 ^property[0].code = #kind
+* #C14.8 ^property[=].valueCode = #category
+* #C14.8 ^property[+].code = #parent
+* #C14.8 ^property[=].valueCode = #C14
+* #C50 "C50 MAMA (excluye Piel de la mama C44.5)" "C50 MAMA (excluye Piel de la mama C44.5)"
+* #C50 ^property[0].code = #kind
+* #C50 ^property[=].valueCode = #category
+* #C50 ^property[+].code = #child
+* #C50 ^property[=].valueCode = #C50.0
+* #C50 ^property[+].code = #child
+* #C50 ^property[=].valueCode = #C50.1
+* #C50 ^property[+].code = #child
+* #C50 ^property[=].valueCode = #C50.2
+* #C50 ^property[+].code = #child
+* #C50 ^property[=].valueCode = #C50.3
+* #C50 ^property[+].code = #child
+* #C50 ^property[=].valueCode = #C50.4
+* #C50 ^property[+].code = #child
+* #C50 ^property[=].valueCode = #C50.5
+* #C50 ^property[+].code = #child
+* #C50 ^property[=].valueCode = #C50.6
+* #C50 ^property[+].code = #child
+* #C50 ^property[=].valueCode = #C50.8
+* #C50 ^property[+].code = #child
+* #C50 ^property[=].valueCode = #C50.9
+* #C50 ^property[+].code = #exclusion
+* #C50 ^property[=].valueString = "Piel de la mama [C44.5]"
+* #C50 ^property[+].code = #parent
+* #C50 ^property[=].valueCode = #T
+* #C50.0 "Pezón" "Pezón"
+* #C50.0 ^property[0].code = #kind
+* #C50.0 ^property[=].valueCode = #category
+* #C50.0 ^property[+].code = #inclusion
+* #C50.0 ^property[=].valueString = "Areola"
+* #C50.0 ^property[+].code = #parent
+* #C50.0 ^property[=].valueCode = #C50
+* #C50.1 "Porción central de la mama" "Porción central de la mama"
+* #C50.1 ^property[0].code = #kind
+* #C50.1 ^property[=].valueCode = #category
+* #C50.1 ^property[+].code = #inclusion
+* #C50.1 ^property[=].valueString = "Región retroareolar"
+* #C50.1 ^property[+].code = #parent
+* #C50.1 ^property[=].valueCode = #C50
+* #C50.2 "Cuadrante superior interno de la mama" "Cuadrante superior interno de la mama"
+* #C50.2 ^property[0].code = #kind
+* #C50.2 ^property[=].valueCode = #category
+* #C50.2 ^property[+].code = #parent
+* #C50.2 ^property[=].valueCode = #C50
+* #C50.3 "Cuadrante inferior interno de la mama" "Cuadrante inferior interno de la mama"
+* #C50.3 ^property[0].code = #kind
+* #C50.3 ^property[=].valueCode = #category
+* #C50.3 ^property[+].code = #parent
+* #C50.3 ^property[=].valueCode = #C50
+* #C50.4 "Cuadrante superior externo de la mama" "Cuadrante superior externo de la mama"
+* #C50.4 ^property[0].code = #kind
+* #C50.4 ^property[=].valueCode = #category
+* #C50.4 ^property[+].code = #parent
+* #C50.4 ^property[=].valueCode = #C50
+* #C50.5 "Cuadrante inferior externo de la mama" "Cuadrante inferior externo de la mama"
+* #C50.5 ^property[0].code = #kind
+* #C50.5 ^property[=].valueCode = #category
+* #C50.5 ^property[+].code = #parent
+* #C50.5 ^property[=].valueCode = #C50
+* #C50.6 "Sobreposición de los cuadrantes internos de la mama" "Sobreposición de los cuadrantes internos de la mama"
+* #C50.6 ^property[0].code = #kind
+* #C50.6 ^property[=].valueCode = #category
+* #C50.6 ^property[+].code = #parent
+* #C50.6 ^property[=].valueCode = #C50
+* #C50.8 "Lesión solapada de la mama" "Lesión solapada de la mama"
+* #C50.8 ^property[0].code = #kind
+* #C50.8 ^property[=].valueCode = #category
+* #C50.8 ^property[+].code = #inclusion
+* #C50.8 ^property[=].valueCode = #"Línea media de la mama"
+* #C50.8 ^property[+].code = #inclusion
+* #C50.8 ^property[=].valueCode = #"Mama externa"
+* #C50.8 ^property[+].code = #inclusion
+* #C50.8 ^property[=].valueCode = #"Mama inferior"
+* #C50.8 ^property[+].code = #inclusion
+* #C50.8 ^property[=].valueCode = #"Mama interna"
+* #C50.8 ^property[+].code = #inclusion
+* #C50.8 ^property[=].valueCode = #"Mama superior"
+* #C50.8 ^property[+].code = #parent
+* #C50.8 ^property[=].valueCode = #C50
+* #C50.9 "Mama, SAI" "Mama, SAI"
+* #C50.9 ^property[0].code = #kind
+* #C50.9 ^property[=].valueCode = #category
+* #C50.9 ^property[+].code = #inclusion
+* #C50.9 ^property[=].valueString = "Glándula mamaria"
+* #C50.9 ^property[+].code = #parent
+* #C50.9 ^property[=].valueCode = #C50
+* #M "Morfología" "Morfología"
+* #M ^property[0].code = #kind
+* #M ^property[=].valueCode = #chapter
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #800
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #801-804
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #805-808
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #809-811
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #812-813
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #814-838
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #839-842
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #843
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #844-849
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #850-854
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #855
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #856-857
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #858
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #859-867
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #868-871
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #872-879
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #881-883
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #884
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #885-888
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #889-892
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #893-899
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #900-903
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #904
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #905
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #906-909
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #910
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #911
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #912-916
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #850-854
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #855
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #856-857
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #858
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #859-867
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #868-871
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #872-879
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #881-883
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #884
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #885-888
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #889-892
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #893-899
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #900-903
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #904
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #905
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #906-909
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #910
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #911
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #912-916
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #917
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #918-924
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #925
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #926
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #927-934
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #935-937
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #938-948
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #938-948
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #949-952
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #953
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #954-957
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #958
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #959
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #965-966
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #967-969
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #970-971
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #972
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #973
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #974
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #975
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #976
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #980-994
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #978
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #979
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #980
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #981-983
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #984-993
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #994
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #996
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #997
+* #M ^property[+].code = #child
+* #M ^property[=].valueCode = #998-999
+* #800 "Neoplasias, SAI " "Neoplasias, SAI "
+* #800 ^property[0].code = #kind
+* #800 ^property[=].valueCode = #category
+* #800 ^property[+].code = #child
+* #800 ^property[=].valueCode = #8000/0
+* #800 ^property[+].code = #child
+* #800 ^property[=].valueCode = #8000/1
+* #800 ^property[+].code = #child
+* #800 ^property[=].valueCode = #8000/3
+* #800 ^property[+].code = #child
+* #800 ^property[=].valueCode = #8000/6
+* #800 ^property[+].code = #child
+* #800 ^property[=].valueCode = #8000/9
+* #800 ^property[+].code = #child
+* #800 ^property[=].valueCode = #8001/0
+* #800 ^property[+].code = #child
+* #800 ^property[=].valueCode = #8001/1
+* #800 ^property[+].code = #child
+* #800 ^property[=].valueCode = #8001/3
+* #800 ^property[+].code = #child
+* #800 ^property[=].valueCode = #8002/3
+* #800 ^property[+].code = #child
+* #800 ^property[=].valueCode = #8003/3
+* #800 ^property[+].code = #child
+* #800 ^property[=].valueCode = #8004/3
+* #800 ^property[+].code = #child
+* #800 ^property[=].valueCode = #8005/0
+* #800 ^property[+].code = #child
+* #800 ^property[=].valueCode = #8005/3
+* #800 ^property[+].code = #parent
+* #800 ^property[=].valueCode = #M
+* #8000/0 "Neoplasia benigna" "Neoplasia benigna"
+* #8000/0 ^property[0].code = #kind
+* #8000/0 ^property[=].valueCode = #category
+* #8000/0 ^property[+].code = #inclusion
+* #8000/0 ^property[=].valueString = "Tumor benigno"
+* #8000/0 ^property[+].code = #inclusion
+* #8000/0 ^property[=].valueString = "Tumor benigno no clasifi cado"
+* #8000/0 ^property[+].code = #parent
+* #8000/0 ^property[=].valueCode = #800
+* #8000/1 " Neoplasia de benignidad o malignidad incierta" " Neoplasia de benignidad o malignidad incierta"
+* #8000/1 ^property[0].code = #kind
+* #8000/1 ^property[=].valueCode = #category
+* #8000/1 ^property[+].code = #inclusion
+* #8000/1 ^property[=].valueString = "Neoplasia, SAI"
+* #8000/1 ^property[+].code = #inclusion
+* #8000/1 ^property[=].valueString = "Tumor no clasificado sin certeza sobre comportamiento maligno o benigno"
+* #8000/1 ^property[+].code = #inclusion
+* #8000/1 ^property[=].valueCode = #"Tumor no clasificado de malignidad borderline"
+* #8000/1 ^property[+].code = #inclusion
+* #8000/1 ^property[=].valueCode = #"Tumor, SAI"
+* #8000/1 ^property[+].code = #parent
+* #8000/1 ^property[=].valueCode = #800
+* #8000/3 "Neoplasia maligna" "Neoplasia maligna"
+* #8000/3 ^property[0].code = #kind
+* #8000/3 ^property[=].valueCode = #category
+* #8000/3 ^property[+].code = #inclusion
+* #8000/3 ^property[=].valueString = "Blastoma, SAI"
+* #8000/3 ^property[+].code = #inclusion
+* #8000/3 ^property[=].valueString = "Cáncer"
+* #8000/3 ^property[+].code = #inclusion
+* #8000/3 ^property[=].valueString = "Malignidad"
+* #8000/3 ^property[+].code = #inclusion
+* #8000/3 ^property[=].valueString = "Tumor maligno no clasificado"
+* #8000/3 ^property[+].code = #inclusion
+* #8000/3 ^property[=].valueString = "Tumor maligno, SAI"
+* #8000/3 ^property[+].code = #parent
+* #8000/3 ^property[=].valueCode = #800
+* #8000/6 "Neoplasia metastásica" "Neoplasia metastásica"
+* #8000/6 ^property[0].code = #kind
+* #8000/6 ^property[=].valueCode = #category
+* #8000/6 ^property[+].code = #inclusion
+* #8000/6 ^property[=].valueString = "Émbolo tumoral"
+* #8000/6 ^property[+].code = #inclusion
+* #8000/6 ^property[=].valueString = "Neoplasia secundaria"
+* #8000/6 ^property[+].code = #inclusion
+* #8000/6 ^property[=].valueString = "Tumor metastásico"
+* #8000/6 ^property[+].code = #inclusion
+* #8000/6 ^property[=].valueString = "Tumor secundario"
+* #8000/6 ^property[+].code = #parent
+* #8000/6 ^property[=].valueCode = #800
+* #8000/9 "Neoplasia maligna, localización primaria o metastásica incierta" "Neoplasia maligna, localización primaria o metastásica incierta"
+* #8000/9 ^property[0].code = #kind
+* #8000/9 ^property[=].valueCode = #category
+* #8000/9 ^property[+].code = #inclusion
+* #8000/9 ^property[=].valueString = "Tumor maligno no clasificado, localización primaria o metastásica incierta"
+* #8000/9 ^property[+].code = #parent
+* #8000/9 ^property[=].valueCode = #800
+* #8001/0 "Células tumorales benignas" "Células tumorales benignas"
+* #8001/0 ^property[0].code = #kind
+* #8001/0 ^property[=].valueCode = #category
+* #8001/0 ^property[+].code = #parent
+* #8001/0 ^property[=].valueCode = #800
+* #8001/1 "Células tumorales de benignidad o malignidad incierta" "Células tumorales de benignidad o malignidad incierta"
+* #8001/1 ^property[0].code = #kind
+* #8001/1 ^property[=].valueCode = #category
+* #8001/1 ^property[+].code = #inclusion
+* #8001/1 ^property[=].valueCode = #"Células tumorales, SAI"
+* #8001/1 ^property[+].code = #parent
+* #8001/1 ^property[=].valueCode = #800
+* #8001/3 "Células tumorales malignas" "Células tumorales malignas"
+* #8001/3 ^property[0].code = #kind
+* #8001/3 ^property[=].valueCode = #category
+* #8001/3 ^property[+].code = #parent
+* #8001/3 ^property[=].valueCode = #800
+* #8002/3 "Tumor maligno de células pequeñas" "Tumor maligno de células pequeñas"
+* #8002/3 ^property[0].code = #kind
+* #8002/3 ^property[=].valueCode = #category
+* #8002/3 ^property[+].code = #parent
+* #8002/3 ^property[=].valueCode = #800
+* #8003/3 "Tumor maligno de células gigantes" "Tumor maligno de células gigantes"
+* #8003/3 ^property[0].code = #kind
+* #8003/3 ^property[=].valueCode = #category
+* #8003/3 ^property[+].code = #parent
+* #8003/3 ^property[=].valueCode = #800
+* #8004/3 "Tumor maligno de células fusiformes" "Tumor maligno de células fusiformes"
+* #8004/3 ^property[0].code = #kind
+* #8004/3 ^property[=].valueCode = #category
+* #8004/3 ^property[+].code = #inclusion
+* #8004/3 ^property[=].valueString = "Tumor maligno de tipo fusocelular"
+* #8004/3 ^property[+].code = #parent
+* #8004/3 ^property[=].valueCode = #800
+* #8005/0 "Tumor de células claras, SAI" "Tumor de células claras, SAI"
+* #8005/0 ^property[0].code = #kind
+* #8005/0 ^property[=].valueCode = #category
+* #8005/0 ^property[+].code = #parent
+* #8005/0 ^property[=].valueCode = #800
+* #8005/3 "Tumor maligno, tipo células claras" "Tumor maligno, tipo células claras"
+* #8005/3 ^property[0].code = #kind
+* #8005/3 ^property[=].valueCode = #category
+* #8005/3 ^property[+].code = #parent
+* #8005/3 ^property[=].valueCode = #800
+* #801-804 "Neoplasias epiteliales, SAI" "Neoplasias epiteliales, SAI"
+* #801-804 ^property[0].code = #kind
+* #801-804 ^property[=].valueCode = #block
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8010/0
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8010/2
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8010/3
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8010/6
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8010/9
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8011/0
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8011/3
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8012/3
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8013/3
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8014/3
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8015/3
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8020/3
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8021/3
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8022/3
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8030/3
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8031/3
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8032/3
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8033/3
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8034/3
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8035/3
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8036/3
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8037/3
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8040/0
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8040/1
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8041/3
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8042/3
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8043/3
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8044/3
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8045/3
+* #801-804 ^property[+].code = #child
+* #801-804 ^property[=].valueCode = #8046/3
+* #801-804 ^property[+].code = #parent
+* #801-804 ^property[=].valueCode = #M
+* #8010/0 "Tumor epitelial benigno" "Tumor epitelial benigno"
+* #8010/0 ^property[0].code = #kind
+* #8010/0 ^property[=].valueCode = #category
+* #8010/0 ^property[+].code = #parent
+* #8010/0 ^property[=].valueCode = #801-804
+* #8010/2 "Carcinoma in situ, SAI" "Carcinoma in situ, SAI"
+* #8010/2 ^property[0].code = #kind
+* #8010/2 ^property[=].valueCode = #category
+* #8010/2 ^property[+].code = #inclusion
+* #8010/2 ^property[=].valueString = "Carcinoma intraepitelial, SAI"
+* #8010/2 ^property[+].code = #inclusion
+* #8010/2 ^property[=].valueString = "Carcinoma no infi ltrante, SAI"
+* #8010/2 ^property[+].code = #inclusion
+* #8010/2 ^property[=].valueString = "Carcinoma no invasor, SAI"
+* #8010/2 ^property[+].code = #parent
+* #8010/2 ^property[=].valueCode = #801-804
+* #8010/3 "Carcinoma, SAI" "Carcinoma, SAI"
+* #8010/3 ^property[0].code = #kind
+* #8010/3 ^property[=].valueCode = #category
+* #8010/3 ^property[+].code = #inclusion
+* #8010/3 ^property[=].valueString = "Tumor epitelial maligno"
+* #8010/3 ^property[+].code = #parent
+* #8010/3 ^property[=].valueCode = #801-804
+* #8010/6 "Carcinoma metastásico, SAI" "Carcinoma metastásico, SAI"
+* #8010/6 ^property[0].code = #kind
+* #8010/6 ^property[=].valueCode = #category
+* #8010/6 ^property[+].code = #inclusion
+* #8010/6 ^property[=].valueString = "Carcinoma secundario"
+* #8010/6 ^property[+].code = #parent
+* #8010/6 ^property[=].valueCode = #801-804
+* #8010/9 "Carcinomatosis" "Carcinomatosis"
+* #8010/9 ^property[0].code = #kind
+* #8010/9 ^property[=].valueCode = #category
+* #8010/9 ^property[+].code = #parent
+* #8010/9 ^property[=].valueCode = #801-804
+* #8011/0 "Epitelioma benigno" "Epitelioma benigno"
+* #8011/0 ^property[0].code = #kind
+* #8011/0 ^property[=].valueCode = #category
+* #8011/0 ^property[+].code = #parent
+* #8011/0 ^property[=].valueCode = #801-804
+* #8011/3 "Epitelioma maligno" "Epitelioma maligno"
+* #8011/3 ^property[0].code = #kind
+* #8011/3 ^property[=].valueCode = #category
+* #8011/3 ^property[+].code = #inclusion
+* #8011/3 ^property[=].valueString = "Epitelioma, SAI"
+* #8011/3 ^property[+].code = #parent
+* #8011/3 ^property[=].valueCode = #801-804
+* #8012/3 "Carcinoma de células grandes, SAI " "Carcinoma de células grandes, SAI "
+* #8012/3 ^property[0].code = #kind
+* #8012/3 ^property[=].valueCode = #category
+* #8012/3 ^property[+].code = #parent
+* #8012/3 ^property[=].valueCode = #801-804
+* #8013/3 "Carcinoma neuroendocrino de células grandes" "Carcinoma neuroendocrino de células grandes"
+* #8013/3 ^property[0].code = #kind
+* #8013/3 ^property[=].valueCode = #category
+* #8013/3 ^property[+].code = #parent
+* #8013/3 ^property[=].valueCode = #801-804
+* #8014/3 "Carcinoma de células grandes con fenotipo rabdoide" "Carcinoma de células grandes con fenotipo rabdoide"
+* #8014/3 ^property[0].code = #kind
+* #8014/3 ^property[=].valueCode = #category
+* #8014/3 ^property[+].code = #parent
+* #8014/3 ^property[=].valueCode = #801-804
+* #8015/3 "Carcinoma de células vidriosas" "Carcinoma de células vidriosas"
+* #8015/3 ^property[0].code = #kind
+* #8015/3 ^property[=].valueCode = #category
+* #8015/3 ^property[+].code = #parent
+* #8015/3 ^property[=].valueCode = #801-804
+* #8020/3 "Carcinoma indiferenciado, SAI" "Carcinoma indiferenciado, SAI"
+* #8020/3 ^property[0].code = #kind
+* #8020/3 ^property[=].valueCode = #category
+* #8020/3 ^property[+].code = #parent
+* #8020/3 ^property[=].valueCode = #801-804
+* #8021/3 "Carcinoma de tipo anaplásico, SAI" "Carcinoma de tipo anaplásico, SAI"
+* #8021/3 ^property[0].code = #kind
+* #8021/3 ^property[=].valueCode = #category
+* #8021/3 ^property[+].code = #parent
+* #8021/3 ^property[=].valueCode = #801-804
+* #8022/3 "Carcinoma pleomorfo" "Carcinoma pleomorfo"
+* #8022/3 ^property[0].code = #kind
+* #8022/3 ^property[=].valueCode = #category
+* #8022/3 ^property[+].code = #parent
+* #8022/3 ^property[=].valueCode = #801-804
+* #8030/3 "Carcinoma de células gigantes y fusiformes" "Carcinoma de células gigantes y fusiformes"
+* #8030/3 ^property[0].code = #kind
+* #8030/3 ^property[=].valueCode = #category
+* #8030/3 ^property[+].code = #parent
+* #8030/3 ^property[=].valueCode = #801-804
+* #8031/3 "Carcinoma de células gigantes" "Carcinoma de células gigantes"
+* #8031/3 ^property[0].code = #kind
+* #8031/3 ^property[=].valueCode = #category
+* #8031/3 ^property[+].code = #inclusion
+* #8031/3 ^property[=].valueCode = #"Carcinoma gigantocelular"
+* #8031/3 ^property[+].code = #parent
+* #8031/3 ^property[=].valueCode = #801-804
+* #8032/ "Carcinoma de células fusiformes, SAI" "Carcinoma de células fusiformes, SAI"
+* #8032/ ^property[0].code = #kind
+* #8032/ ^property[=].valueCode = #category
+* #8032/ ^property[+].code = #inclusion
+* #8032/ ^property[=].valueString = "Carcinoma fusocelular"
+* #8032/ ^property[+].code = #parent
+* #8032/ ^property[=].valueCode = #801-804
+* #8033/3 "Carcinoma seudosarcomatoso" "Carcinoma seudosarcomatoso"
+* #8033/3 ^property[0].code = #kind
+* #8033/3 ^property[=].valueCode = #category
+* #8033/3 ^property[+].code = #inclusion
+* #8033/3 ^property[=].valueString = "Carcinoma sarcomatoide"
+* #8033/3 ^property[+].code = #parent
+* #8033/3 ^property[=].valueCode = #801-804
+* #8034/3 "Carcinoma de células poligonales" "Carcinoma de células poligonales"
+* #8034/3 ^property[0].code = #kind
+* #8034/3 ^property[=].valueCode = #category
+* #8034/3 ^property[+].code = #parent
+* #8034/3 ^property[=].valueCode = #801-804
+* #8035/3 "Carcinoma con células gigantes tipo osteoclasto" "Carcinoma con células gigantes tipo osteoclasto"
+* #8035/3 ^property[0].code = #kind
+* #8035/3 ^property[=].valueCode = #category
+* #8035/3 ^property[+].code = #parent
+* #8035/3 ^property[=].valueCode = #801-804
+* #8040/0 "Tumorlet, benigno" "Tumorlet, benigno"
+* #8040/0 ^property[0].code = #kind
+* #8040/0 ^property[=].valueCode = #category
+* #8040/0 ^property[+].code = #parent
+* #8040/0 ^property[=].valueCode = #801-804
+* #8041/0 "Tumorlet, SAI" "Tumorlet, SAI"
+* #8041/0 ^property[0].code = #kind
+* #8041/0 ^property[=].valueCode = #category
+* #8041/0 ^property[+].code = #parent
+* #8041/0 ^property[=].valueCode = #801-804
+* #8041/3 "Carcinoma de células pequeñas, SAI" "Carcinoma de células pequeñas, SAI"
+* #8041/3 ^property[0].code = #kind
+* #8041/3 ^property[=].valueCode = #category
+* #8041/3 ^property[+].code = #inclusion
+* #8041/3 ^property[=].valueCode = #"Carcinoma de células de reserva"
+* #8041/3 ^property[+].code = #inclusion
+* #8041/3 ^property[=].valueCode = #"Carcinoma de células redondas"
+* #8041/3 ^property[+].code = #inclusion
+* #8041/3 ^property[=].valueCode = #"Carcinoma microcítico"
+* #8041/3 ^property[+].code = #inclusion
+* #8041/3 ^property[=].valueCode = #"Carcinoma neuroendocrino de células pequeñas"
+* #8041/3 ^property[+].code = #parent
+* #8041/3 ^property[=].valueCode = #801-804
+* #8042/3 "Carcinoma de células en grano de avena(C34._)" "Carcinoma de células en grano de avena(C34._)"
+* #8042/3 ^property[0].code = #kind
+* #8042/3 ^property[=].valueCode = #category
+* #8042/3 ^property[+].code = #parent
+* #8042/3 ^property[=].valueCode = #801-804
+* #8043/3 "Carcinoma de células pequeñas, tipo fusiforme" "Carcinoma de células pequeñas, tipo fusiforme"
+* #8043/3 ^property[0].code = #kind
+* #8043/3 ^property[=].valueCode = #category
+* #8043/3 ^property[+].code = #parent
+* #8043/3 ^property[=].valueCode = #801-804
+* #8044/3 "Carcinoma de células pequeñas, tipo intermedio" "Carcinoma de células pequeñas, tipo intermedio"
+* #8044/3 ^property[0].code = #kind
+* #8044/3 ^property[=].valueCode = #category
+* #8044/3 ^property[+].code = #parent
+* #8044/3 ^property[=].valueCode = #801-804
+* #8045/3 "Carcinoma combinado de células pequeñas" "Carcinoma combinado de células pequeñas"
+* #8045/3 ^property[0].code = #kind
+* #8045/3 ^property[=].valueCode = #category
+* #8045/3 ^property[+].code = #inclusion
+* #8045/3 ^property[=].valueCode = #"Adenocarcinoma combinado de células pequeñas"
+* #8045/3 ^property[+].code = #inclusion
+* #8045/3 ^property[=].valueCode = #"Carcinoma combinado de células pequeñas y células escamosas"
+* #8045/3 ^property[+].code = #inclusion
+* #8045/3 ^property[=].valueCode = #"Carcinoma combinado de células pequeñas y células grandes"
+* #8045/3 ^property[+].code = #inclusion
+* #8045/3 ^property[=].valueCode = #"Carcinoma mixto de células pequeñas"
+* #8045/3 ^property[+].code = #parent
+* #8045/3 ^property[=].valueCode = #801-804
+* #805-808 "Neoplasias de células escamosas" "Neoplasias de células escamosas"
+* #805-808 ^property[0].code = #kind
+* #805-808 ^property[=].valueCode = #block
+* #805-808 ^property[+].code = #child
+* #805-808 ^property[=].valueCode = #8050/0
+* #805-808 ^property[+].code = #child
+* #805-808 ^property[=].valueCode = #8050/2
+* #805-808 ^property[+].code = #child
+* #805-808 ^property[=].valueCode = #8050/3
+* #805-808 ^property[+].code = #child
+* #805-808 ^property[=].valueCode = #8051/0
+* #805-808 ^property[+].code = #child
+* #805-808 ^property[=].valueCode = #8051/3
+* #805-808 ^property[+].code = #child
+* #805-808 ^property[=].valueCode = #8052/0
+* #805-808 ^property[+].code = #child
+* #805-808 ^property[=].valueCode = #8052/2
+* #805-808 ^property[+].code = #child
+* #805-808 ^property[=].valueCode = #8052/3
+* #805-808 ^property[+].code = #child
+* #805-808 ^property[=].valueCode = #8053/0
+* #805-808 ^property[+].code = #child
+* #805-808 ^property[=].valueCode = #8060/0
+* #805-808 ^property[+].code = #child
+* #805-808 ^property[=].valueCode = #8070/2
+* #805-808 ^property[+].code = #child
+* #805-808 ^property[=].valueCode = #8070/3
+* #805-808 ^property[+].code = #child
+* #805-808 ^property[=].valueCode = #8070/6
+* #805-808 ^property[+].code = #child
+* #805-808 ^property[=].valueCode = #8071/3
+* #805-808 ^property[+].code = #child
+* #805-808 ^property[=].valueCode = #8072/3
+* #805-808 ^property[+].code = #child
+* #805-808 ^property[=].valueCode = #8073/3
+* #805-808 ^property[+].code = #child
+* #805-808 ^property[=].valueCode = #8074/3
+* #805-808 ^property[+].code = #child
+* #805-808 ^property[=].valueCode = #8075/3
+* #805-808 ^property[+].code = #child
+* #805-808 ^property[=].valueCode = #8076/2
+* #805-808 ^property[+].code = #child
+* #805-808 ^property[=].valueCode = #8076/3
+* #805-808 ^property[+].code = #child
+* #805-808 ^property[=].valueCode = #8077/0
+* #805-808 ^property[+].code = #child
+* #805-808 ^property[=].valueCode = #8077/2
+* #805-808 ^property[+].code = #child
+* #805-808 ^property[=].valueCode = #8078/3
+* #805-808 ^property[+].code = #child
+* #805-808 ^property[=].valueCode = #8080/2
+* #805-808 ^property[+].code = #child
+* #805-808 ^property[=].valueCode = #8081/2
+* #805-808 ^property[+].code = #child
+* #805-808 ^property[=].valueCode = #8082/3
+* #805-808 ^property[+].code = #child
+* #805-808 ^property[=].valueCode = #8083/3
+* #805-808 ^property[+].code = #child
+* #805-808 ^property[=].valueCode = #8084/3
+* #805-808 ^property[+].code = #parent
+* #805-808 ^property[=].valueCode = #M
+* #8050/0 "Papiloma, SAI (excepto papiloma de vejiga 8120/1)" "Papiloma, SAI (excepto papiloma de vejiga 8120/1)"
+* #8050/0 ^property[0].code = #kind
+* #8050/0 ^property[=].valueCode = #category
+* #8050/0 ^property[+].code = #parent
+* #8050/0 ^property[=].valueCode = #805-808
+* #8050/2 "Carcinoma papilar in situ" "Carcinoma papilar in situ"
+* #8050/2 ^property[0].code = #kind
+* #8050/2 ^property[=].valueCode = #category
+* #8050/2 ^property[+].code = #parent
+* #8050/2 ^property[=].valueCode = #805-808
+* #8050/3 "Carcinoma papilar, SAI" "Carcinoma papilar, SAI"
+* #8050/3 ^property[0].code = #kind
+* #8050/3 ^property[=].valueCode = #category
+* #8050/3 ^property[+].code = #parent
+* #8050/3 ^property[=].valueCode = #805-808
+* #8051/0 "Papiloma verrugoso" "Papiloma verrugoso"
+* #8051/0 ^property[0].code = #kind
+* #8051/0 ^property[=].valueCode = #category
+* #8051/0 ^property[+].code = #parent
+* #8051/0 ^property[=].valueCode = #805-808
+* #8051/3 "Carcinoma verrugoso, SAI" "Carcinoma verrugoso, SAI"
+* #8051/3 ^property[0].code = #kind
+* #8051/3 ^property[=].valueCode = #category
+* #8051/3 ^property[+].code = #inclusion
+* #8051/3 ^property[=].valueString = "Carcinoma condilomatoso"
+* #8051/3 ^property[+].code = #inclusion
+* #8051/3 ^property[=].valueString = "Carcinoma epidermoide verrugoso"
+* #8051/3 ^property[+].code = #inclusion
+* #8051/3 ^property[=].valueString = "Carcinoma verrugoso de células escamosas"
+* #8051/3 ^property[+].code = #parent
+* #8051/3 ^property[=].valueCode = #805-808
+* #8052/0 "Papiloma epidermoide, SAI" "Papiloma epidermoide, SAI"
+* #8052/0 ^property[0].code = #kind
+* #8052/0 ^property[=].valueCode = #category
+* #8052/0 ^property[+].code = #inclusion
+* #8052/0 ^property[=].valueString = "Papiloma escamoso"
+* #8052/0 ^property[+].code = #inclusion
+* #8052/0 ^property[=].valueString = "Papiloma queratósico"
+* #8052/0 ^property[+].code = #parent
+* #8052/0 ^property[=].valueCode = #805-808
+* #8052/2 "Carcinoma papilar epidermoide no invasivo" "Carcinoma papilar epidermoide no invasivo"
+* #8052/2 ^property[0].code = #kind
+* #8052/2 ^property[=].valueCode = #category
+* #8052/2 ^property[+].code = #inclusion
+* #8052/2 ^property[=].valueString = "Carcinoma papilar epidermoide in situ"
+* #8052/2 ^property[+].code = #parent
+* #8052/2 ^property[=].valueCode = #805-808
+* #8052/3 "Carcinoma papilar de células escamosas" "Carcinoma papilar de células escamosas"
+* #8052/3 ^property[0].code = #kind
+* #8052/3 ^property[=].valueCode = #category
+* #8052/3 ^property[+].code = #inclusion
+* #8052/3 ^property[=].valueString = "Carcinoma epidermoide papilar"
+* #8052/3 ^property[+].code = #parent
+* #8052/3 ^property[=].valueCode = #805-808
+* #8053/0 "Papiloma de células escamosas invertido" "Papiloma de células escamosas invertido"
+* #8053/0 ^property[0].code = #kind
+* #8053/0 ^property[=].valueCode = #category
+* #8053/0 ^property[+].code = #parent
+* #8053/0 ^property[=].valueCode = #805-808
+* #8060/0 "Papilomatosis escamosa" "Papilomatosis escamosa"
+* #8060/0 ^property[0].code = #kind
+* #8060/0 ^property[=].valueCode = #category
+* #8060/0 ^property[+].code = #inclusion
+* #8060/0 ^property[=].valueString = "Papilomatosis, SAI"
+* #8060/0 ^property[+].code = #parent
+* #8060/0 ^property[=].valueCode = #805-808
+* #8070/2 "Carcinoma epidermoide in situ, SAI" "Carcinoma epidermoide in situ, SAI"
+* #8070/2 ^property[0].code = #kind
+* #8070/2 ^property[=].valueCode = #category
+* #8070/2 ^property[+].code = #inclusion
+* #8070/2 ^property[=].valueString = "Carcinoma de células escamosas in situ, SAI"
+* #8070/2 ^property[+].code = #inclusion
+* #8070/2 ^property[=].valueString = "Carcinoma espinocelular in situ, SAI"
+* #8070/2 ^property[+].code = #inclusion
+* #8070/2 ^property[=].valueString = "Carcinoma intraepidérmico, SAI"
+* #8070/2 ^property[+].code = #inclusion
+* #8070/2 ^property[=].valueString = "Carcinoma intraepitelial de células escamosas"
+* #8070/2 ^property[+].code = #parent
+* #8070/2 ^property[=].valueCode = #805-808
+* #8070/3 "Carcinoma epidermoide, SAI" "Carcinoma epidermoide, SAI"
+* #8070/3 ^property[0].code = #kind
+* #8070/3 ^property[=].valueCode = #category
+* #8070/3 ^property[+].code = #inclusion
+* #8070/3 ^property[=].valueString = "Carcinoma de células escamosas, SAI"
+* #8070/3 ^property[+].code = #inclusion
+* #8070/3 ^property[=].valueString = "Carcinoma escamoso"
+* #8070/3 ^property[+].code = #inclusion
+* #8070/3 ^property[=].valueString = "Carcinoma espinocelular, SAI"
+* #8070/3 ^property[+].code = #inclusion
+* #8070/3 ^property[=].valueString = "Epitelioma de células escamosas"
+* #8070/3 ^property[+].code = #parent
+* #8070/3 ^property[=].valueCode = #805-808
+* #8070/6 "Carcinoma metastásico de células escamosas, SAI" "Carcinoma metastásico de células escamosas, SAI"
+* #8070/6 ^property[0].code = #kind
+* #8070/6 ^property[=].valueCode = #category
+* #8070/6 ^property[+].code = #parent
+* #8070/6 ^property[=].valueCode = #805-808
+* #8071/3 "Carcinoma epidermoide, tipo queratinizante, SAI" "Carcinoma epidermoide, tipo queratinizante, SAI"
+* #8071/3 ^property[0].code = #kind
+* #8071/3 ^property[=].valueCode = #category
+* #8071/3 ^property[+].code = #inclusion
+* #8071/3 ^property[=].valueString = "Carcinoma de células escamosas grandes, tipo queratinizante"
+* #8071/3 ^property[+].code = #inclusion
+* #8071/3 ^property[=].valueString = "Carcinoma de células escamosas, tipo queratinizante"
+* #8071/3 ^property[+].code = #parent
+* #8071/3 ^property[=].valueCode = #805-808
+* #8072/3 "Carcinoma epidermoide de células grandes, tipo no queratinizante, SAI" "Carcinoma epidermoide de células grandes, tipo no queratinizante, SAI"
+* #8072/3 ^property[0].code = #kind
+* #8072/3 ^property[=].valueCode = #category
+* #8072/3 ^property[+].code = #inclusion
+* #8072/3 ^property[=].valueString = "Carcinoma de células escamosas, tipo no queratinizante, SAI"
+* #8072/3 ^property[+].code = #inclusion
+* #8072/3 ^property[=].valueString = "Carcinoma epidermoide de células grandes, tipo no queratinizante"
+* #8072/3 ^property[+].code = #parent
+* #8072/3 ^property[=].valueCode = #805-808
+* #8073/3 "Carcinoma epidermoide de células pequeñas, tipo no queratinizante" "Carcinoma epidermoide de células pequeñas, tipo no queratinizante"
+* #8073/3 ^property[0].code = #kind
+* #8073/3 ^property[=].valueCode = #category
+* #8073/3 ^property[+].code = #inclusion
+* #8073/3 ^property[=].valueString = "Carcinoma de células escamosas pequeñas, tipo no queratinizante"
+* #8073/3 ^property[+].code = #parent
+* #8073/3 ^property[=].valueCode = #805-808
+* #8074/3 "Carcinoma epidermoide de células fusiformes" "Carcinoma epidermoide de células fusiformes"
+* #8074/3 ^property[0].code = #kind
+* #8074/3 ^property[=].valueCode = #category
+* #8074/3 ^property[+].code = #inclusion
+* #8074/3 ^property[=].valueString = "Carcinoma de células escamosas, tipo fusocelular"
+* #8074/3 ^property[+].code = #inclusion
+* #8074/3 ^property[=].valueString = "Carcinoma epidermoide, sarcomatoide"
+* #8074/3 ^property[+].code = #parent
+* #8074/3 ^property[=].valueCode = #805-808
+* #8075/3 "Carcinoma epidermoide seudoglandular" "Carcinoma epidermoide seudoglandular"
+* #8075/3 ^property[0].code = #kind
+* #8075/3 ^property[=].valueCode = #category
+* #8075/3 ^property[+].code = #inclusion
+* #8075/3 ^property[=].valueString = "Carcinoma de células escamosas seudoglandular"
+* #8075/3 ^property[+].code = #inclusion
+* #8075/3 ^property[=].valueString = "Carcinoma de células escamosas, tipo adenoide"
+* #8075/3 ^property[+].code = #inclusion
+* #8075/3 ^property[=].valueString = "Carcinoma epidermoide, acantolítico"
+* #8075/3 ^property[+].code = #inclusion
+* #8075/3 ^property[=].valueString = "Carcinoma epidermoide, tipo adenoide"
+* #8075/3 ^property[+].code = #parent
+* #8075/3 ^property[=].valueCode = #805-808
+* #8076/2 "Carcinoma epidermoide in situ con invasión dudosa del estroma" "Carcinoma epidermoide in situ con invasión dudosa del estroma"
+* #8076/2 ^property[0].code = #kind
+* #8076/2 ^property[=].valueCode = #category
+* #8076/2 ^property[+].code = #inclusion
+* #8076/2 ^property[=].valueString = "Carcinoma de células escamosas in situ con invasión dudosa del estroma"
+* #8076/2 ^property[+].code = #parent
+* #8076/2 ^property[=].valueCode = #805-808
+* #8076/3 "Carcinoma epidermoide microinvasor" "Carcinoma epidermoide microinvasor"
+* #8076/3 ^property[0].code = #kind
+* #8076/3 ^property[=].valueCode = #category
+* #8076/3 ^property[+].code = #inclusion
+* #8076/3 ^property[=].valueString = "Carcinoma de células escamosas microinvasor"
+* #8076/3 ^property[+].code = #parent
+* #8076/3 ^property[=].valueCode = #805-808
+* #8077/0 "Neoplasia intraepitelial de células escamosas de bajo grado" "Neoplasia intraepitelial de células escamosas de bajo grado"
+* #8077/0 ^property[0].code = #kind
+* #8077/0 ^property[=].valueCode = #category
+* #8077/0 ^property[+].code = #inclusion
+* #8077/0 ^property[=].valueString = "Neoplasia (displasia) intraepitelial de células escamosas esofágica de bajo grado (C15._)"
+* #8077/0 ^property[+].code = #inclusion
+* #8077/0 ^property[=].valueString = "Neoplasia intraepitelial anal de bajo grado (C21.1)"
+* #8077/0 ^property[+].code = #inclusion
+* #8077/0 ^property[=].valueString = "Neoplasia intraepitelial cervical de bajo grado (C53._)"
+* #8077/0 ^property[+].code = #inclusion
+* #8077/0 ^property[=].valueString = "Neoplasia intraepitelial de células escamosas, grado I"
+* #8077/0 ^property[+].code = #inclusion
+* #8077/0 ^property[=].valueString = "Neoplasia intraepitelial de células escamosas, grado II"
+* #8077/0 ^property[+].code = #parent
+* #8077/0 ^property[=].valueCode = #805-808
+* #8077/2 "Neoplasia intraepitelial de células escamosas de alto grado" "Neoplasia intraepitelial de células escamosas de alto grado"
+* #8077/2 ^property[0].code = #kind
+* #8077/2 ^property[=].valueCode = #category
+* #8077/2 ^property[+].code = #inclusion
+* #8077/2 ^property[=].valueString = "AIN III (C21.1)"
+* #8077/2 ^property[+].code = #inclusion
+* #8077/2 ^property[=].valueString = "CIN III con displasia severa (C53._)"
+* #8077/2 ^property[+].code = #inclusion
+* #8077/2 ^property[=].valueString = "CIN III, SAI (C53._)"
+* #8077/2 ^property[+].code = #inclusion
+* #8077/2 ^property[=].valueString = "Neoplasia (displasia) intraepitelial de células escamosas esofágica de alto grado (C15._)"
+* #8077/2 ^property[+].code = #inclusion
+* #8077/2 ^property[=].valueString = "Neoplasia intraepitelial anal grado III (C21.1)"
+* #8077/2 ^property[+].code = #inclusion
+* #8077/2 ^property[=].valueString = "Neoplasia intraepitelial cervical grado III (C53._)"
+* #8077/2 ^property[+].code = #inclusion
+* #8077/2 ^property[=].valueString = "Neoplasia intraepitelial de células escamosas, grado III"
+* #8077/2 ^property[+].code = #inclusion
+* #8077/2 ^property[=].valueString = "Neoplasia intraepitelial vaginal grado III (C52._)"
+* #8077/2 ^property[+].code = #inclusion
+* #8077/2 ^property[=].valueString = "Neoplasia intraepitelial vulvar grado III (C51._)"
+* #8077/2 ^property[+].code = #inclusion
+* #8077/2 ^property[=].valueString = "VAIN III (C52._)"
+* #8077/2 ^property[+].code = #inclusion
+* #8077/2 ^property[=].valueString = "VIN III (C51._)"
+* #8077/2 ^property[+].code = #parent
+* #8077/2 ^property[=].valueCode = #805-808
+* #8078/3 "Carcinoma epidermoide con formación córnea" "Carcinoma epidermoide con formación córnea"
+* #8078/3 ^property[0].code = #kind
+* #8078/3 ^property[=].valueCode = #category
+* #8078/3 ^property[+].code = #parent
+* #8078/3 ^property[=].valueCode = #805-808
+* #8080/2 "Eritroplasia de Queyrat (C60._)" "Eritroplasia de Queyrat (C60._)"
+* #8080/2 ^property[0].code = #kind
+* #8080/2 ^property[=].valueCode = #category
+* #8080/2 ^property[+].code = #parent
+* #8080/2 ^property[=].valueCode = #805-808
+* #8081/2 "Enfermedad de Bowen (C44._)" "Enfermedad de Bowen (C44._)"
+* #8081/2 ^property[0].code = #kind
+* #8081/2 ^property[=].valueCode = #category
+* #8081/2 ^property[+].code = #inclusion
+* #8081/2 ^property[=].valueString = "Carcinoma de células escamosas intraepidérmico, tipo Bowen (C44._)"
+* #8081/2 ^property[+].code = #inclusion
+* #8081/2 ^property[=].valueString = "Carcinoma epidermoide intraepidérmico, tipo Bowen"
+* #8081/2 ^property[+].code = #parent
+* #8081/2 ^property[=].valueCode = #805-808
+* #8082/3 "Carcinoma linfoepitelial" "Carcinoma linfoepitelial"
+* #8082/3 ^property[0].code = #kind
+* #8082/3 ^property[=].valueCode = #category
+* #8082/3 ^property[+].code = #inclusion
+* #8082/3 ^property[=].valueString = "Carcinoma epidermoide con estroma linfoide"
+* #8082/3 ^property[+].code = #inclusion
+* #8082/3 ^property[=].valueString = "Carcinoma similar al linfoepitelioma"
+* #8082/3 ^property[+].code = #inclusion
+* #8082/3 ^property[=].valueString = "Linfoepitelioma"
+* #8082/3 ^property[+].code = #inclusion
+* #8082/3 ^property[=].valueString = "Tumor de Schminke (C11._)"
+* #8082/3 ^property[+].code = #parent
+* #8082/3 ^property[=].valueCode = #805-808
+* #8083/3 "Carcinoma basaloide de células escamosas" "Carcinoma basaloide de células escamosas"
+* #8083/3 ^property[0].code = #kind
+* #8083/3 ^property[=].valueCode = #category
+* #8083/3 ^property[+].code = #parent
+* #8083/3 ^property[=].valueCode = #805-808
+* #8084/3 "Carcinoma de células escamosas, tipo células claras" "Carcinoma de células escamosas, tipo células claras"
+* #8084/3 ^property[0].code = #kind
+* #8084/3 ^property[=].valueCode = #category
+* #8084/3 ^property[+].code = #parent
+* #8084/3 ^property[=].valueCode = #805-808
+* #850-854 "Neoplasias ductales y lobulares" "Neoplasias ductales y lobulares"
+* #850-854 ^property[0].code = #kind
+* #850-854 ^property[=].valueCode = #block
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8500/2
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8500/3
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8501/2
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8501/3
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8502/3
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8503/0
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8503/2
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8503/3
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8504/0
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8504/2
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8504/3
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8505/0
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8506/0
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8507/2
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8508/3
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8510/3
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8512/3
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8513/3
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8514/3
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8520/2
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8520/3
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8521/3
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8522/2
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8522/3
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8523/3
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8524/3
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8525/3
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8530/3
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8540/3
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8541/3
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8542/3
+* #850-854 ^property[+].code = #child
+* #850-854 ^property[=].valueCode = #8543/3
+* #8500/2 "Carcinoma intraductal no infi ltrante, SAI " "Carcinoma intraductal no infi ltrante, SAI "
+* #8500/2 ^property[0].code = #kind
+* #8500/2 ^property[=].valueCode = #category
+* #8500/2 ^property[+].code = #inclusion
+* #8500/2 ^property[=].valueString = "Adenocarcinoma intraductal no infi ltrante, SAI"
+* #8500/2 ^property[+].code = #inclusion
+* #8500/2 ^property[=].valueString = "Carcinoma ductal in situ, SAI (C50._)"
+* #8500/2 ^property[+].code = #inclusion
+* #8500/2 ^property[=].valueString = "Carcinoma intraductal, SAI"
+* #8500/2 ^property[+].code = #inclusion
+* #8500/2 ^property[=].valueString = "CDIS, SAI (C50._)"
+* #8500/2 ^property[+].code = #inclusion
+* #8500/2 ^property[=].valueString = "DIN 3 (C50._)"
+* #8500/2 ^property[+].code = #inclusion
+* #8500/2 ^property[=].valueString = "Neoplasia ductal intraepitelial 3 (C50._)"
+* #8500/2 ^property[+].code = #parent
+* #8500/2 ^property[=].valueCode = #850-854
+* #8500/3 "Carcinoma ductal infiltrante, SAI (C50._)" "Carcinoma ductal infiltrante, SAI (C50._)"
+* #8500/3 ^property[0].code = #kind
+* #8500/3 ^property[=].valueCode = #category
+* #8500/3 ^property[+].code = #inclusion
+* #8500/3 ^property[=].valueString = "Adenocarcinoma ductal infi ltrante (C50._)"
+* #8500/3 ^property[+].code = #inclusion
+* #8500/3 ^property[=].valueString = "Adenocarcinoma ductal, SAI"
+* #8500/3 ^property[+].code = #inclusion
+* #8500/3 ^property[=].valueString = "Carcinoma de células de los conductos"
+* #8500/3 ^property[+].code = #inclusion
+* #8500/3 ^property[=].valueString = "Carcinoma ductal, SAI"
+* #8500/3 ^property[+].code = #parent
+* #8500/3 ^property[=].valueCode = #850-854
+* #8501/2 "Comedocarcinoma no infi ltrante (C50._)" "Comedocarcinoma no infi ltrante (C50._)"
+* #8501/2 ^property[0].code = #kind
+* #8501/2 ^property[=].valueCode = #category
+* #8501/2 ^property[+].code = #inclusion
+* #8501/2 ^property[=].valueString = "Carcinoma ductal in situ, tipo comedo (C50._)"
+* #8501/2 ^property[+].code = #inclusion
+* #8501/2 ^property[=].valueString = "CDIS, tipo comedo (C50._)"
+* #8501/2 ^property[+].code = #parent
+* #8501/2 ^property[=].valueCode = #850-854
+* #8501/3 "Comedocarcinoma, SAI (C50._)" "Comedocarcinoma, SAI (C50._)"
+* #8501/3 ^property[0].code = #kind
+* #8501/3 ^property[=].valueCode = #category
+* #8501/3 ^property[+].code = #parent
+* #8501/3 ^property[=].valueCode = #850-854
+* #8502/3 "Carcinoma juvenil de la mama (C50._) " "Carcinoma juvenil de la mama (C50._) "
+* #8502/3 ^property[0].code = #kind
+* #8502/3 ^property[=].valueCode = #category
+* #8502/3 ^property[+].code = #inclusion
+* #8502/3 ^property[=].valueString = "Carcinoma secretor de la mama (C50._)"
+* #8502/3 ^property[+].code = #parent
+* #8502/3 ^property[=].valueCode = #850-854
+* #8503/0 "Papiloma intraductal" "Papiloma intraductal"
+* #8503/0 ^property[0].code = #kind
+* #8503/0 ^property[=].valueCode = #category
+* #8503/0 ^property[+].code = #inclusion
+* #8503/0 ^property[=].valueString = "Adenoma ductal, SAI"
+* #8503/0 ^property[+].code = #inclusion
+* #8503/0 ^property[=].valueString = "Neoplasia papilar intraductal con neoplasia intraepitelial de grado intermedio (C22._, C24.0"
+* #8503/0 ^property[+].code = #inclusion
+* #8503/0 ^property[=].valueString = "Neoplasia papilar intraductal, SAI"
+* #8503/0 ^property[+].code = #inclusion
+* #8503/0 ^property[=].valueString = "Neoplasia papilar intraquística con neoplasia intraepitelial de bajo grado (C23.9)"
+* #8503/0 ^property[+].code = #inclusion
+* #8503/0 ^property[=].valueString = "Neoplasia papilar intraquística, SAI"
+* #8503/0 ^property[+].code = #inclusion
+* #8503/0 ^property[=].valueString = "Neoplasia papilar intraductal con neoplasia  intraepitelial de bajo grado (C22._, C24.0)"
+* #8503/0 ^property[+].code = #inclusion
+* #8503/0 ^property[=].valueString = "Neoplasia papilar intraquística con neoplasia intraepitelial de grado intermedio (C23.9)"
+* #8503/0 ^property[+].code = #inclusion
+* #8503/0 ^property[=].valueString = "Neoplasia túbulo-papilar intraductal de bajo grado"
+* #8503/0 ^property[+].code = #inclusion
+* #8503/0 ^property[=].valueString = "Papiloma de los conductos"
+* #8503/0 ^property[+].code = #inclusion
+* #8503/0 ^property[=].valueString = "Papiloma intracanalicular"
+* #8503/0 ^property[+].code = #parent
+* #8503/0 ^property[=].valueCode = #850-854
+* #8503/3 "Adenocarcinoma papilar intraductal con invasión (C50._)" "Adenocarcinoma papilar intraductal con invasión (C50._)"
+* #8503/3 ^property[0].code = #kind
+* #8503/3 ^property[=].valueCode = #category
+* #8503/3 ^property[+].code = #inclusion
+* #8503/3 ^property[=].valueString = "Adenocarcinoma infiltrante y papilar"
+* #8503/3 ^property[+].code = #inclusion
+* #8503/3 ^property[=].valueString = "Adenocarcinoma papilar infiltrante"
+* #8503/3 ^property[+].code = #inclusion
+* #8503/3 ^property[=].valueString = "Neoplasia papilar intraductal con carcinoma invasivo asociado"
+* #8503/3 ^property[+].code = #inclusion
+* #8503/3 ^property[=].valueString = "Neoplasia papilar intraquística con carcinoma invasivo asociado (C23.9)"
+* #8503/3 ^property[+].code = #parent
+* #8503/3 ^property[=].valueCode = #850-854
+* #8504/0 "Adenoma papilar intraquístico" "Adenoma papilar intraquístico"
+* #8504/0 ^property[0].code = #kind
+* #8504/0 ^property[=].valueCode = #category
+* #8504/0 ^property[+].code = #inclusion
+* #8504/0 ^property[=].valueString = "Papiloma intraquístico"
+* #8504/0 ^property[+].code = #parent
+* #8504/0 ^property[=].valueCode = #850-854
+* #8504/2 "Carcinoma intraquístico no infiltrante" "Carcinoma intraquístico no infiltrante"
+* #8504/2 ^property[0].code = #kind
+* #8504/2 ^property[=].valueCode = #category
+* #8504/2 ^property[+].code = #parent
+* #8504/2 ^property[=].valueCode = #850-854
+* #8504/3 "Carcinoma intraquístico, SAI" "Carcinoma intraquístico, SAI"
+* #8504/3 ^property[0].code = #kind
+* #8504/3 ^property[=].valueCode = #category
+* #8504/3 ^property[+].code = #inclusion
+* #8504/3 ^property[=].valueString = "Adenocarcinoma papilar intraquístico"
+* #8504/3 ^property[+].code = #parent
+* #8504/3 ^property[=].valueCode = #850-854
+* #8505/0 "Papilomatosis intraductal, SAI" "Papilomatosis intraductal, SAI"
+* #8505/0 ^property[0].code = #kind
+* #8505/0 ^property[=].valueCode = #category
+* #8505/0 ^property[+].code = #inclusion
+* #8505/0 ^property[=].valueString = "Papilomatosis intracanalicular, SAI"
+* #8505/0 ^property[+].code = #inclusion
+* #8505/0 ^property[=].valueString = "Papilomatosis intraductal difusa"
+* #8505/0 ^property[+].code = #parent
+* #8505/0 ^property[=].valueCode = #850-854
+* #8506/0 "Adenoma del pezón (C50.0)" "Adenoma del pezón (C50.0)"
+* #8506/0 ^property[0].code = #kind
+* #8506/0 ^property[=].valueCode = #category
+* #8506/0 ^property[+].code = #inclusion
+* #8506/0 ^property[=].valueString = "Papilomatosis ductal subareolar (C50.0)"
+* #8506/0 ^property[+].code = #parent
+* #8506/0 ^property[=].valueCode = #850-854
+* #8507/2 "Carcinoma micropapilar intraductal (C50._)" "Carcinoma micropapilar intraductal (C50._)"
+* #8507/2 ^property[0].code = #kind
+* #8507/2 ^property[=].valueCode = #category
+* #8507/2 ^property[+].code = #inclusion
+* #8507/2 ^property[=].valueString = "Carcinoma ductal in situ micropapilar (C50._)"
+* #8507/2 ^property[+].code = #inclusion
+* #8507/2 ^property[=].valueString = "Carcinoma intraductal, adherente (C50._)"
+* #8507/2 ^property[+].code = #parent
+* #8507/2 ^property[=].valueCode = #850-854
+* #8508/3 "Carcinoma hipersecretor quístico (C50._)" "Carcinoma hipersecretor quístico (C50._)"
+* #8508/3 ^property[0].code = #kind
+* #8508/3 ^property[=].valueCode = #category
+* #8508/3 ^property[+].code = #parent
+* #8508/3 ^property[=].valueCode = #850-854
+* #8510/3 "Carcinoma medular, SAI" "Carcinoma medular, SAI"
+* #8510/3 ^property[0].code = #kind
+* #8510/3 ^property[=].valueCode = #category
+* #8510/3 ^property[+].code = #inclusion
+* #8510/3 ^property[=].valueString = "Adenocarcinoma medular"
+* #8510/3 ^property[+].code = #parent
+* #8510/3 ^property[=].valueCode = #850-854
+* #8512/3 "Carcinoma medular con estroma linfoide" "Carcinoma medular con estroma linfoide"
+* #8512/3 ^property[0].code = #kind
+* #8512/3 ^property[=].valueCode = #category
+* #8512/3 ^property[+].code = #parent
+* #8512/3 ^property[=].valueCode = #850-854
+* #8513/3 "Carcinoma medular atípico (C50._)" "Carcinoma medular atípico (C50._)"
+* #8513/3 ^property[0].code = #kind
+* #8513/3 ^property[=].valueCode = #category
+* #8513/3 ^property[+].code = #parent
+* #8513/3 ^property[=].valueCode = #850-854
+* #8520/2 "Carcinoma lobulillar in situ, SAI (C50._)" "Carcinoma lobulillar in situ, SAI (C50._)"
+* #8520/2 ^property[0].code = #kind
+* #8520/2 ^property[=].valueCode = #category
+* #8520/2 ^property[+].code = #inclusion
+* #8520/2 ^property[=].valueString = "Carcinoma lobulillar no infiltrante (C50._)"
+* #8520/2 ^property[+].code = #inclusion
+* #8520/2 ^property[=].valueString = "CLIS, SAI (C50._)"
+* #8520/2 ^property[+].code = #parent
+* #8520/2 ^property[=].valueCode = #850-854
+* #8521/3 "Carcinoma de los conductos terminales, infiltrante (C50._)" "Carcinoma de los conductos terminales, infiltrante (C50._)"
+* #8521/3 ^property[0].code = #kind
+* #8521/3 ^property[=].valueCode = #category
+* #8521/3 ^property[+].code = #inclusion
+* #8521/3 ^property[=].valueString = "Carcinoma de los canalículos terminales, infiltrante"
+* #8521/3 ^property[+].code = #parent
+* #8521/3 ^property[=].valueCode = #850-854
+* #8522/2 "Carcinoma intraductal y carcinoma lobulillar in situ (C50._)" "Carcinoma intraductal y carcinoma lobulillar in situ (C50._)"
+* #8522/2 ^property[0].code = #kind
+* #8522/2 ^property[=].valueCode = #category
+* #8522/2 ^property[+].code = #inclusion
+* #8522/2 ^property[=].valueString = "Carcinoma intracanalicular y carcinoma lobulillar in situ"
+* #8522/2 ^property[+].code = #parent
+* #8522/2 ^property[=].valueCode = #850-854
+* #8522/3 "Carcinoma ductal y lobulillar infiltrante (C50._)" "Carcinoma ductal y lobulillar infiltrante (C50._)"
+* #8522/3 ^property[0].code = #kind
+* #8522/3 ^property[=].valueCode = #category
+* #8522/3 ^property[+].code = #inclusion
+* #8522/3 ^property[=].valueString = "Carcinoma ductal y carcinoma lobulillar in situ (C50._)"
+* #8522/3 ^property[+].code = #inclusion
+* #8522/3 ^property[=].valueString = "Carcinoma intraductal y lobulillar"
+* #8522/3 ^property[+].code = #inclusion
+* #8522/3 ^property[=].valueString = "Carcinoma lobulillar infiltrante y carcinoma ductal in situ (C50._)"
+* #8522/3 ^property[+].code = #inclusion
+* #8522/3 ^property[=].valueString = "Carcinoma lobulillar y ductal (C50._)"
+* #8522/3 ^property[+].code = #parent
+* #8522/3 ^property[=].valueCode = #850-854
+* #8523/3 "Carcinoma ductal infiltrante mezclado con otros tipos de carcinoma (C50._)" "Carcinoma ductal infiltrante mezclado con otros tipos de carcinoma (C50._)"
+* #8523/3 ^property[0].code = #kind
+* #8523/3 ^property[=].valueCode = #category
+* #8523/3 ^property[+].code = #inclusion
+* #8523/3 ^property[=].valueString = "Carcinoma ductal y coloide infiltrante (C50._)"
+* #8523/3 ^property[+].code = #inclusion
+* #8523/3 ^property[=].valueString = "Carcinoma ductal y cribiforme infiltrante (C50._)"
+* #8523/3 ^property[+].code = #inclusion
+* #8523/3 ^property[=].valueString = "Carcinoma ductal y mucinoso infiltrante (C50._)"
+* #8523/3 ^property[+].code = #inclusion
+* #8523/3 ^property[=].valueString = "Carcinoma ductal y tubular infiltrante (C50._)"
+* #8523/3 ^property[+].code = #parent
+* #8523/3 ^property[=].valueCode = #850-854
+* #8524/3 "Carcinoma lobulillar infiltrante mezclado con otros tipos de carcinoma (C50._)" "Carcinoma lobulillar infiltrante mezclado con otros tipos de carcinoma (C50._)"
+* #8524/3 ^property[0].code = #kind
+* #8524/3 ^property[=].valueCode = #category
+* #8524/3 ^property[+].code = #parent
+* #8524/3 ^property[=].valueCode = #850-854
+* #8525/3 "Adenocarcinoma polimorfo de bajo grado" "Adenocarcinoma polimorfo de bajo grado"
+* #8525/3 ^property[0].code = #kind
+* #8525/3 ^property[=].valueCode = #category
+* #8525/3 ^property[+].code = #inclusion
+* #8525/3 ^property[=].valueString = "Adenocarcinoma de conductos terminales"
+* #8525/3 ^property[+].code = #parent
+* #8525/3 ^property[=].valueCode = #850-854
+* #8530/3 "Carcinoma inflamatorio (C50._)" "Carcinoma inflamatorio (C50._)"
+* #8530/3 ^property[0].code = #kind
+* #8530/3 ^property[=].valueCode = #category
+* #8530/3 ^property[+].code = #inclusion
+* #8530/3 ^property[=].valueString = "Adenocarcinoma inflamatorio (C50._)"
+* #8530/3 ^property[+].code = #parent
+* #8530/3 ^property[=].valueCode = #850-854
+* #8540/3 "Enfermedad de Paget, mamaria (C50._)" "Enfermedad de Paget, mamaria (C50._)"
+* #8540/3 ^property[0].code = #kind
+* #8540/3 ^property[=].valueCode = #category
+* #8540/3 ^property[+].code = #inclusion
+* #8540/3 ^property[=].valueString = "Enfermedad de Paget de la mama (C50._)"
+* #8540/3 ^property[+].code = #parent
+* #8540/3 ^property[=].valueCode = #850-854
+* #8541/3 "Enfermedad de Paget y carcinoma ductal infiltrante de la mama (C50._)" "Enfermedad de Paget y carcinoma ductal infiltrante de la mama (C50._)"
+* #8541/3 ^property[0].code = #kind
+* #8541/3 ^property[=].valueCode = #category
+* #8541/3 ^property[+].code = #inclusion
+* #8541/3 ^property[=].valueString = "Enfermedad de Paget y carcinoma canalicular infiltrante de la mama"
+* #8541/3 ^property[+].code = #parent
+* #8541/3 ^property[=].valueCode = #850-854
+* #8542/3 "Enfermedad de Paget extramamaria (excepto enfermedad de Paget de hueso)" "Enfermedad de Paget extramamaria (excepto enfermedad de Paget de hueso)"
+* #8542/3 ^property[0].code = #kind
+* #8542/3 ^property[=].valueCode = #category
+* #8542/3 ^property[+].code = #parent
+* #8542/3 ^property[=].valueCode = #850-854
+* #8543/3 "Enfermedad de Paget y carcinoma intraductal de la mama (C50._)" "Enfermedad de Paget y carcinoma intraductal de la mama (C50._)"
+* #8543/3 ^property[0].code = #kind
+* #8543/3 ^property[=].valueCode = #category
+* #8543/3 ^property[+].code = #parent
+* #8543/3 ^property[=].valueCode = #850-854
+* #855 "Neoplasias de células acinosas" "Neoplasias de células acinosas"
+* #855 ^property[0].code = #kind
+* #855 ^property[=].valueCode = #block
+* #855 ^property[+].code = #child
+* #855 ^property[=].valueCode = #8550/0
+* #855 ^property[+].code = #child
+* #855 ^property[=].valueCode = #8550/1
+* #855 ^property[+].code = #child
+* #855 ^property[=].valueCode = #8550/3
+* #855 ^property[+].code = #child
+* #855 ^property[=].valueCode = #8551/3
+* #855 ^property[+].code = #child
+* #855 ^property[=].valueCode = #8552/3
+* #855 ^property[+].code = #parent
+* #855 ^property[=].valueCode = #M
+* #8550/0 "Adenoma de células acinosas" "Adenoma de células acinosas"
+* #8550/0 ^property[0].code = #kind
+* #8550/0 ^property[=].valueCode = #category
+* #8550/0 ^property[+].code = #inclusion
+* #8550/0 ^property[=].valueString = "Adenoma acinoso"
+* #8550/0 ^property[+].code = #inclusion
+* #8550/0 ^property[=].valueString = "Adenoma de células acínicas"
+* #8550/0 ^property[+].code = #parent
+* #8550/0 ^property[=].valueCode = #855
+* #8550/1 "Tumor de células acinosas [obs]" "Tumor de células acinosas [obs]"
+* #8550/1 ^property[0].code = #kind
+* #8550/1 ^property[=].valueCode = #category
+* #8550/1 ^property[+].code = #inclusion
+* #8550/1 ^property[=].valueString = "Tumor acinocelular [obs]"
+* #8550/1 ^property[+].code = #inclusion
+* #8550/1 ^property[=].valueString = "Tumor de células acínicas [obs]"
+* #8550/1 ^property[+].code = #parent
+* #8550/1 ^property[=].valueCode = #855
+* #8550/3 "Carcinoma de células acinosas" "Carcinoma de células acinosas"
+* #8550/3 ^property[0].code = #kind
+* #8550/3 ^property[=].valueCode = #category
+* #8550/3 ^property[+].code = #inclusion
+* #8550/3 ^property[=].valueString = "Adenocarcinoma acinoso"
+* #8550/3 ^property[+].code = #inclusion
+* #8550/3 ^property[=].valueString = "Adenocarcinoma de células acínicas"
+* #8550/3 ^property[+].code = #inclusion
+* #8550/3 ^property[=].valueString = "Carcinoma acinoso"
+* #8550/3 ^property[+].code = #parent
+* #8550/3 ^property[=].valueCode = #855
+* #8551/3 "Cistadenocarcinoma células acinares" "Cistadenocarcinoma células acinares"
+* #8551/3 ^property[0].code = #kind
+* #8551/3 ^property[=].valueCode = #category
+* #8551/3 ^property[+].code = #parent
+* #8551/3 ^property[=].valueCode = #855
+* #8552/3 "Carcinoma acinar-ductal mixto" "Carcinoma acinar-ductal mixto"
+* #8552/3 ^property[0].code = #kind
+* #8552/3 ^property[=].valueCode = #category
+* #8552/3 ^property[+].code = #parent
+* #8552/3 ^property[=].valueCode = #855
+* #856-857 "Neoplasias epiteliales complejas" "Neoplasias epiteliales complejas"
+* #856-857 ^property[0].code = #kind
+* #856-857 ^property[=].valueCode = #block
+* #856-857 ^property[+].code = #child
+* #856-857 ^property[=].valueCode = #8560/0
+* #856-857 ^property[+].code = #child
+* #856-857 ^property[=].valueCode = #8560/3
+* #856-857 ^property[+].code = #child
+* #856-857 ^property[=].valueCode = #8561/0
+* #856-857 ^property[+].code = #child
+* #856-857 ^property[=].valueCode = #8562/3
+* #856-857 ^property[+].code = #child
+* #856-857 ^property[=].valueCode = #8570/3
+* #856-857 ^property[+].code = #child
+* #856-857 ^property[=].valueCode = #8571/3
+* #856-857 ^property[+].code = #child
+* #856-857 ^property[=].valueCode = #8572/3
+* #856-857 ^property[+].code = #child
+* #856-857 ^property[=].valueCode = #8573/3
+* #856-857 ^property[+].code = #child
+* #856-857 ^property[=].valueCode = #8574/3
+* #856-857 ^property[+].code = #child
+* #856-857 ^property[=].valueCode = #8575/3
+* #856-857 ^property[+].code = #child
+* #856-857 ^property[=].valueCode = #8576/3
+* #8560/0 "Papiloma mixto de células escamosas y glandular" "Papiloma mixto de células escamosas y glandular"
+* #8560/0 ^property[0].code = #kind
+* #8560/0 ^property[=].valueCode = #category
+* #8560/0 ^property[+].code = #parent
+* #8560/0 ^property[=].valueCode = #856-857
+* #8560/3 "Carcinoma adenoescamoso" "Carcinoma adenoescamoso"
+* #8560/3 ^property[0].code = #kind
+* #8560/3 ^property[=].valueCode = #category
+* #8560/3 ^property[+].code = #inclusion
+* #8560/3 ^property[=].valueString = "Adenocarcinoma y carcinoma de células escamosas, mixto"
+* #8560/3 ^property[+].code = #inclusion
+* #8560/3 ^property[=].valueString = "Adenocarcinoma y carcinoma epidermoide, mixto"
+* #8560/3 ^property[+].code = #parent
+* #8560/3 ^property[=].valueCode = #856-857
+* #8561/0 "Adenolinfoma (C07._, C08._)" "Adenolinfoma (C07._, C08._)"
+* #8561/0 ^property[0].code = #kind
+* #8561/0 ^property[=].valueCode = #category
+* #8561/0 ^property[+].code = #inclusion
+* #8561/0 ^property[=].valueString = "Cistadenoma papilar linfomatoso (C07._, C08._)"
+* #8561/0 ^property[+].code = #inclusion
+* #8561/0 ^property[=].valueString = "Tumor de Warthin (C07._, C08._)"
+* #8561/0 ^property[+].code = #parent
+* #8561/0 ^property[=].valueCode = #856-857
+* #8562/3 "Carcinoma epitelial-mioepitelial" "Carcinoma epitelial-mioepitelial"
+* #8562/3 ^property[0].code = #kind
+* #8562/3 ^property[=].valueCode = #category
+* #8562/3 ^property[+].code = #parent
+* #8562/3 ^property[=].valueCode = #856-857
+* #8570/3 "Adenocarcinoma con metaplasia escamosa" "Adenocarcinoma con metaplasia escamosa"
+* #8570/3 ^property[0].code = #kind
+* #8570/3 ^property[=].valueCode = #category
+* #8570/3 ^property[+].code = #inclusion
+* #8570/3 ^property[=].valueString = "Adenoacantoma"
+* #8570/3 ^property[+].code = #parent
+* #8570/3 ^property[=].valueCode = #856-857
+* #8571/3 "Adenocarcinoma con metaplasia ósea y cartilaginosa" "Adenocarcinoma con metaplasia ósea y cartilaginosa"
+* #8571/3 ^property[0].code = #kind
+* #8571/3 ^property[=].valueCode = #category
+* #8571/3 ^property[+].code = #inclusion
+* #8571/3 ^property[=].valueString = "Adenocarcinoma con metaplasia cartilaginosa"
+* #8571/3 ^property[+].code = #inclusion
+* #8571/3 ^property[=].valueString = "Adenocarcinoma con metaplasia ósea"
+* #8571/3 ^property[+].code = #parent
+* #8571/3 ^property[=].valueCode = #856-857
+* #8572/3 "Adenocarcinoma con metaplasia de células fusiformes" "Adenocarcinoma con metaplasia de células fusiformes"
+* #8572/3 ^property[0].code = #kind
+* #8572/3 ^property[=].valueCode = #category
+* #8572/3 ^property[+].code = #parent
+* #8572/3 ^property[=].valueCode = #856-857
+* #8573/3 "Adenocarcinoma con metaplasia apocrina" "Adenocarcinoma con metaplasia apocrina"
+* #8573/3 ^property[0].code = #kind
+* #8573/3 ^property[=].valueCode = #category
+* #8573/3 ^property[+].code = #inclusion
+* #8573/3 ^property[=].valueString = "Carcinoma con metaplasia apocrina"
+* #8573/3 ^property[+].code = #parent
+* #8573/3 ^property[=].valueCode = #856-857
+* #8574/3 "Adenocarcinoma con diferenciación neuroendocrina" "Adenocarcinoma con diferenciación neuroendocrina"
+* #8574/3 ^property[0].code = #kind
+* #8574/3 ^property[=].valueCode = #category
+* #8574/3 ^property[+].code = #inclusion
+* #8574/3 ^property[=].valueString = "Carcinoma con diferenciación neuroendocrina"
+* #8574/3 ^property[+].code = #parent
+* #8574/3 ^property[=].valueCode = #856-857
+* #8575/3 "Carcinoma metaplásico, SAI" "Carcinoma metaplásico, SAI"
+* #8575/3 ^property[0].code = #kind
+* #8575/3 ^property[=].valueCode = #category
+* #8575/3 ^property[+].code = #parent
+* #8575/3 ^property[=].valueCode = #856-857
+* #8576/3 "Adenocarcinoma hepatoide" "Adenocarcinoma hepatoide"
+* #8576/3 ^property[0].code = #kind
+* #8576/3 ^property[=].valueCode = #category
+* #8576/3 ^property[+].code = #inclusion
+* #8576/3 ^property[=].valueString = "Carcinoma hepatoide"
+* #8576/3 ^property[+].code = #parent
+* #8576/3 ^property[=].valueCode = #856-857

@@ -1,8 +1,8 @@
-Profile:        BundleTerminarInforme
+Profile:        BundleGenerarInforme
 Parent:         Bundle
-Id:             rbi-bundle-terminar-informe
-Title:          "Perfil de Bundle para Terminar Informe"
-Description:    "Perfil de Bundle que contiene los recursos necesarios para terminar un informe de patología."
+Id:             rbi-bundle-generar-informe
+Title:          "Perfil de Bundle para Generar Informe"
+Description:    "Perfil de Bundle que contiene los recursos necesarios para generar un informe de patología."
 
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1

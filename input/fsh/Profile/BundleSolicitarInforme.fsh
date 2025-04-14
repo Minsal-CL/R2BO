@@ -29,7 +29,7 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para soli
     Solicitud 1..1 and 
     Paciente 1..1 and
     RolProfesional 1..2 and
-    Profesional 1..1 and
+    Profesional 1..2 and
     Organizacion 1..2 and
     Muestra 1..1 
 

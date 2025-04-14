@@ -1,5 +1,5 @@
-Instance:       rbi-terminar-biopsia-bundle
-InstanceOf:     BundleTerminarInforme
+Instance:       rbi-generar-informe-bundle-ejemplo
+InstanceOf:     BundleGenerarInforme
 Usage:          #example
 Title:          "Ejemplo de Enviar un Informe de Anatomía Patológica"
 Description:    "Ejemplo de Bundle que contiene los recursos necesarios para solicitar un informe de anatomía patológica de una biopsia de un tejido mamario."

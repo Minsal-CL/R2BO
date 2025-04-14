@@ -35,7 +35,6 @@ dependencies:
     hl7.fhir.cl.minsal.nid: 0.4.6
     hl7.fhir.cl.clcore: 1.9.2
     hl7.fhir.us.mcode: 4.0.0
-    hl7.fhir.uv.tools: 0.3.0
     # hl7.fhir.cl.minsal.eis: 0.1.0
 #   hl7.fhir.us.core: 3.1.0
 #   hl7.fhir.us.mcode:
@@ -68,11 +67,16 @@ pages:
       - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
         valueCode: informative
     title: Uso de Sistemas Terminológicos
+  IteraccionesConServidor.md:
+    extension:
+      - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
+        valueCode: informative
+    title: Interacciones con el Repositorio Interoperable de Anatomías Patológicas
   ImplementationGuide-hl7.fhir.cl.minsal.rbi.md:
     extension:
       - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
         valueCode: informative
-    title: Recurso Guía de Implementación del Repositorio Interoperable de Biopsia
+    title: Recurso Guía de Implementación del Repositorio Interoperable de Anatomías Patológicas
      
 #   implementation.xml:
 #   examples.xml:
@@ -113,6 +117,7 @@ parameters:
 menu:
   Inicio: index.html
   Especificaciones Tecnicas:
+    Iteraciones Repositorio: IteraccionesConServidor.html
     Servicios Terminológicos: SistemasTerminologicos.html
   Artefactos: artifacts.html
   Historial de Cambios: changes.html

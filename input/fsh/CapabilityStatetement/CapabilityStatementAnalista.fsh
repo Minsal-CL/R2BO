@@ -76,6 +76,7 @@ Usage: #definition
   * operation
     * name = "export"
     * definition = "http://hl7.org/fhir/uv/bulkdata/OperationDefinition/export"
-    * documentation = "Operación para exportar los datos del repositorio de biopsia en formato FHIR Bulk Data, para analisis secundario"
+    * documentation = "Operación para exportar los datos del repositorio de informes de anatomia en formato FHIR Bulk Data, para analisis secundario"
+  
 
 
