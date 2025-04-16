@@ -28,7 +28,7 @@ Bundle
 
 El diagrama a continuación explica como debería ser la iteracción entre el usuario, el sistema informatico y el repositorio: 
 <div align="center"> 
-    {% import envio-solicitud.svg %}
+    {% include envio-solicitud.svg %}
 </div>
 
 ### Generar Informes
@@ -55,8 +55,9 @@ Bundle
 #### Iteracción esperada 
 
 El diagrama a continuación explica como debería ser la iteracción entre el usuario, el sistema informatico y el repositorio: 
+
 <div align="center"> 
-    {% import envio-informe.svg %}
+    {% include envio-informe.svg %}
 </div>
 
 ### Consultar Solicitudes e Informes
@@ -64,15 +65,20 @@ El diagrama a continuación explica como debería ser la iteracción entre el us
 Para consultar el estado de una solicitud y/o un informe solo deberá realizar la consulta al recurso **ServiceRequest** y **DiagnosticReport**. Las consultas permitiran concatenar para buscar mediante el identificador del paciente para traer la información como medio estandar de búsqueda.
 
 **Traer Solicitud**
+
 ```
 GET ServiceRequest?patient.identifier=9999999-9
 ```
+
 **Traer Informe**
+
 ```
 GET DiagnosticReport?patient.identifier=9999999-9
 ```
+
 **Traer Informe e Información Adicional**
 Se puede utilizar el parametro include para traer la información completa o parcializada de lo que se encuentran en la referencia.
+
 ```
 GET DiagnosticReport?patient.identifier=9999999-9?_include=Observation:result
 ```
