@@ -27,9 +27,10 @@ Bundle
 #### Iteracción esperada 
 
 El diagrama a continuación explica como debería ser la iteracción entre el usuario, el sistema informatico y el repositorio: 
-<div align="center"> 
+
+<!-- <div align="center"> 
     {% include envio-solicitud.svg %}
-</div>
+</div> -->
 
 ### Generar Informes
 
@@ -56,9 +57,9 @@ Bundle
 
 El diagrama a continuación explica como debería ser la iteracción entre el usuario, el sistema informatico y el repositorio: 
 
-<div align="center"> 
+<!-- <div align="center"> 
     {% include envio-informe.svg %}
-</div>
+</div> -->
 
 ### Consultar Solicitudes e Informes
 
