@@ -17,7 +17,6 @@ PAIS -> RepositorioBiopsia: Solicitud de Token de Autenticación
 activate RepositorioBiopsia
 alt Token válido
     RepositorioBiopsia -> PAIS: Respuesta con Token de Autenticación
-
     PAIS -> RepositorioBiopsia: Realiza un POST a la API FHIR
     RepositorioBiopsia -> RepositorioBiopsia: Valida formato del FHIR
     alt Formato válido
