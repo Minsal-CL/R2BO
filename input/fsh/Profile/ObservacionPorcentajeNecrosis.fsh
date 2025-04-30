@@ -1,6 +1,6 @@
-Profile:        ObservacionPorcentajeNecrosisRBI
+Profile:        ObservacionPorcentajeNecrosisRIAP
 Parent:         ResultadosReporteBiopsia
-Id:             rbi-observacion-porcentaje-necrosis
+Id:             riap-observacion-porcentaje-necrosis
 Title:          "Perfil de Observación Porcentaje Necrosis"
 Description:    "Registro del porcentaje de necrosis de una muestra un reporte de biopsia"
 

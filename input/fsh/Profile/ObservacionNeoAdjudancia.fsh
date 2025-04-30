@@ -1,6 +1,6 @@
 Profile:        ObservacionPostNeoadjudancia
 Parent:         ResultadosReporteBiopsia
-Id:             rbi-observacion-post-tratamiento-neoadjuvancia
+Id:             riap-observacion-post-tratamiento-neoadjuvancia
 Title:          "Perfil de Observación Evaluación Post Neoadyuvancia"
 Description:    "Evaluación post neadyudancia del reporte de biopsia"
 

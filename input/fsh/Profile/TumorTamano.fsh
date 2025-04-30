@@ -1,6 +1,6 @@
-Profile:        TamanoTumorRBI
+Profile:        TamanoTumorRIAP
 Parent:         ResultadosReporteBiopsia
-Id:             rbi-tamano-tumor
+Id:             riap-tamano-tumor
 Title:          "Perfil de Tamaño del Tumor"
 Description:    "Registro de las dimensiones de un tumor"
 
@@ -26,7 +26,7 @@ Description:    "Registro de las dimensiones de un tumor"
 * method from MetodosMedicionTumorVS (extensible)
 
 * specimen 1..1 MS
-* specimen only Reference(MuestraRBI)
+* specimen only Reference(MuestraRIAP)
 
 * component MS
   // * code.coding 1..1 MS

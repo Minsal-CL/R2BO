@@ -1,5 +1,5 @@
 ValueSet:       TNMCategoriaPatologicoNodosRegionalVS
-Id:             rbi-tnm-categoria-nodo-regional-patologico-vs
+Id:             riap-tnm-categoria-nodo-regional-patologico-vs
 Title:          "Set de Valores Categoría TNM Patológico Nodos Regional"
 Description:    "Set de valores utilizados para la categoría TNM patológico Nodos Regional"
 

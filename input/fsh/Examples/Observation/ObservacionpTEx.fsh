@@ -1,4 +1,4 @@
-Instance:       rbi-tnm-categoria-tumor-primario-ex
+Instance:       riap-tnm-categoria-tumor-primario-ex
 InstanceOf:     TNMCategoriaTumorPrimario
 Usage:          #example
 Title:          "Observacion de Ejemplo: Categoria TNM Tumor Primario"
@@ -8,7 +8,7 @@ Description:    "Ejemplo de una observación de categoría TNM de un tumor prima
 * category = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
 * code = $snomed#384625004
 * subject = Reference(paciente-requiere-examen)
-* performer = Reference(rbi-anatopatologo-hospital)
+* performer = Reference(riap-anatopatologo-hospital)
 * valueCodeableConcept = $snomed#1229852009 "pT2"	
-* specimen = Reference(rbi-specimen-example)
+* specimen = Reference(riap-specimen-example)
 * effectiveDateTime = "2021-06-01T12:00:00-04:00"

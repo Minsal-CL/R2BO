@@ -1,6 +1,6 @@
 Profile:        ObservacionGangliosLinfaticos
 Parent:         ResultadosReporteBiopsia
-Id:             rbi-observacion-ganglios-linfaticos
+Id:             riap-observacion-ganglios-linfaticos
 Title:          "Perfil de Observación Ganglios Linfáticos"
 Description:    "Registro de cantidad de ganglios linfáticos afectados por metastasis en reporte de biopsia"
 
@@ -16,7 +16,7 @@ Description:    "Registro de cantidad de ganglios linfáticos afectados por meta
 
 * ^abstract = false
 
-* obeys rbi-observacion-1
+* obeys riap-observacion-1
 * code = $loinc#92831-7
 * value[x] 1..1
 * value[x] only boolean

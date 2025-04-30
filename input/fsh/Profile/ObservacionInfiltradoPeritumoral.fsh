@@ -1,6 +1,6 @@
-Profile:        ObservacionInfiltradoPeritumoralRBI
+Profile:        ObservacionInfiltradoPeritumoralRIAP
 Parent:         ResultadosReporteBiopsia
-Id:             rbi-observacion-infiltracion-peritumoral
+Id:             riap-observacion-infiltracion-peritumoral
 Title:          "Perfil de Observación Infiltración Peritumoral"
 Description:    "Registro de la infiltración perineural de un tumor en reporte de biopsia"
 

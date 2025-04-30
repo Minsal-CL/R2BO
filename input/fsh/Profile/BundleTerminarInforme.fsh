@@ -1,6 +1,6 @@
 Profile:        BundleGenerarInforme
 Parent:         Bundle
-Id:             rbi-bundle-generar-informe
+Id:             riap-bundle-generar-informe
 Title:          "Perfil de Bundle para Generar Informe"
 Description:    "Perfil de Bundle que contiene los recursos necesarios para generar un informe de patología."
 
@@ -39,18 +39,18 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
     CategoriaT 0..1 and
     CategoriaN 0..1 and
     CategoriaM 0..1 and
-    ObservacionInfiltracionPerineuralRBI 0..1 and
+    ObservacionInfiltracionPerineuralRIAP 0..1 and
     ObservacionGangliosLinfaticos 0..1 and
-    ObservacionInfiltradoPeritumoralRBI 0..1 and
-    ObservacionInvasionLinfaticaRBI 0..1 and
-    ObservacionInvasionVascularRBI 0..1 and
+    ObservacionInfiltradoPeritumoralRIAP 0..1 and
+    ObservacionInvasionLinfaticaRIAP 0..1 and
+    ObservacionInvasionVascularRIAP 0..1 and
     ObservacionMargenQuirugico 0..1 and
     ObservacionCentricidad 0..1 and
     ObservacionMultifocalidad 0..1 and
     ObservacionPostNeoadjudancia 0..1 and
-    ObservacionPorcentajeNecrosisRBI 0..1 and
+    ObservacionPorcentajeNecrosisRIAP 0..1 and
     ObservacionTejidoTumoralAdjacente 0..1 and
-    TamanoTumorRBI 0..1 
+    TamanoTumorRIAP 0..1 
 
     // Resultados 0..*
 
@@ -80,7 +80,7 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
       * ^example.valueString = "Patient?identifier=1-9"
 * entry[RolProfesional]
   * resource 1..1 MS
-  * resource only RolProfesionalRBI
+  * resource only RolProfesionalRIAP
   * request 1..1
     * method 1..1
     * method = #POST
@@ -122,7 +122,7 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
 
 * entry[Muestra]
   * resource 1..1 MS
-  * resource only MuestraRBI
+  * resource only MuestraRIAP
   * request 1..1
     * method 1..1
     * method = #PUT
@@ -142,7 +142,7 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
 
 * entry[ObservacionMicroscopica]
   * resource 1..1 MS
-  * resource only ObservacionMicroscopicaRBI
+  * resource only ObservacionMicroscopicaRIAP
   * request 1..1
     * method 1..1
     * method = #POST
@@ -152,7 +152,7 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
 
 * entry[ObservacionMacroscopica]
   * resource 1..1 MS
-  * resource only ObservacionMacroscopicaRBI
+  * resource only ObservacionMacroscopicaRIAP
   * request 1..1
     * method 1..1
     * method = #POST
@@ -200,9 +200,9 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
     * url
       * ^short = "Uri del recurso \"Observation\""
 
-* entry[ObservacionInfiltracionPerineuralRBI]
+* entry[ObservacionInfiltracionPerineuralRIAP]
   * resource 1..1 MS
-  * resource only ObservacionInfiltracionPerineuralRBI
+  * resource only ObservacionInfiltracionPerineuralRIAP
   * request 1..1
     * method 1..1
     * method = #POST
@@ -220,9 +220,9 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
     * url
       * ^short = "Uri del recurso \"Observation\""
 
-* entry[ObservacionInfiltradoPeritumoralRBI]
+* entry[ObservacionInfiltradoPeritumoralRIAP]
   * resource 1..1 MS
-  * resource only ObservacionInfiltradoPeritumoralRBI
+  * resource only ObservacionInfiltradoPeritumoralRIAP
   * request 1..1
     * method 1..1
     * method = #POST
@@ -230,9 +230,9 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
     * url
       * ^short = "Uri del recurso \"Observation\""
 
-* entry[ObservacionInvasionLinfaticaRBI]
+* entry[ObservacionInvasionLinfaticaRIAP]
   * resource 1..1 MS
-  * resource only ObservacionInvasionLinfaticaRBI
+  * resource only ObservacionInvasionLinfaticaRIAP
   * request 1..1
     * method 1..1
     * method = #POST
@@ -240,9 +240,9 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
     * url
       * ^short = "Uri del recurso \"Observation\""
 
-* entry[ObservacionInvasionVascularRBI]
+* entry[ObservacionInvasionVascularRIAP]
   * resource 1..1 MS
-  * resource only ObservacionInvasionVascularRBI
+  * resource only ObservacionInvasionVascularRIAP
   * request 1..1
     * method 1..1
     * method = #POST
@@ -290,9 +290,9 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
     * url
       * ^short = "Uri del recurso \"Observation\""
   
-* entry[ObservacionPorcentajeNecrosisRBI]
+* entry[ObservacionPorcentajeNecrosisRIAP]
   * resource 1..1 MS
-  * resource only ObservacionPorcentajeNecrosisRBI
+  * resource only ObservacionPorcentajeNecrosisRIAP
   * request 1..1
     * method 1..1
     * method = #POST
@@ -310,9 +310,9 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
     * url
       * ^short = "Uri del recurso \"Observation\""
 
-* entry[TamanoTumorRBI]
+* entry[TamanoTumorRIAP]
   * resource 1..1 MS
-  * resource only TamanoTumorRBI
+  * resource only TamanoTumorRIAP
   * request 1..1
     * method 1..1
     * method = #POST

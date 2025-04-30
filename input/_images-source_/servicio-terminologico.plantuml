@@ -1,0 +1,33 @@
+@startuml recuperacion-informe
+
+title Diagrama de Iteracción entre el Sistema Informático y el Servicio Terminológico
+
+hide footbox
+
+!include ./style.iuml
+
+actor "Profesional" as usuario
+participant "Sistema Informático" as IS
+database "Servidor Terminológico" as ST
+
+usuario -> IS: Escribe Termino
+activate IS
+activate ST
+IS -> ST: Solicitud de Token
+alt Credenciales válidas
+    IS <- ST: Token
+    IS -> ST: Consulta mediante operación $expand
+    IS <- ST: Repuesta de posibles términos Snomed CT
+    usuario <- IS: Muestra posibles términos Snomed CT al usuario
+    usuario -> IS: Selecciona un término
+    IS -> ST: Utiliza operación $translate 
+    IS <- ST: Respuesta de traducción en Código CIE-10 o CIE-O
+    IS -> IS: Carga código Snomed-CT y CIE-10 o CIE-O en el recurso FHIR
+else Credenciales inválida
+    IS <- ST: Respuesta de error (401 Unauthorized)
+    IS -> usuario: Muestra mensaje de error
+    deactivate ST
+    deactivate IS
+end
+
+@enduml

@@ -1,6 +1,6 @@
 Profile:        InformeBiopsia
 Parent:         DiagnosticReport
-Id:             rbi-informe-biopsia
+Id:             riap-informe-biopsia
 Title:          "Perfil del Informe de Anatomía Patológica"
 Description:    "Informe de anatomía patológica"
 
@@ -44,11 +44,11 @@ Description:    "Informe de anatomía patológica"
 
 * performer 1..1 MS
   * ^short = "Anatomopatólogo que realiza el Informe"
-* performer only Reference(RolProfesionalRBI or MINSALPrestadorProfesional or MINSALPrestadorOrganizacional)
+* performer only Reference(RolProfesionalRIAP or MINSALPrestadorProfesional or MINSALPrestadorOrganizacional)
 
 * specimen 1..1 MS
   * ^short = "Muestra de Biopsia"
-* specimen only Reference(MuestraRBI)
+* specimen only Reference(MuestraRIAP)
 
 * result 2..* MS
   * ^short = "Resultados del Informe de Anatomía Patológica"
@@ -61,9 +61,9 @@ Description:    "Informe de anatomía patológica"
 * result contains Microscopia 1..1 MS and Macroscopia 1..1 MS and TNM 0..1 MS
 
 * result[Microscopia] ^short = "Resultados de Microscopía"
-* result[Microscopia] only Reference(ObservacionMicroscopicaRBI)
+* result[Microscopia] only Reference(ObservacionMicroscopicaRIAP)
 * result[Macroscopia] ^short = "Resultados de Macroscopía"
-* result[Macroscopia] only Reference(ObservacionMacroscopicaRBI)
+* result[Macroscopia] only Reference(ObservacionMacroscopicaRIAP)
 * result[TNM] ^short = "Estadificación patológica TNM"
 * result[TNM] only Reference(EstadificacionTNM)
 
@@ -85,7 +85,7 @@ Description:    "Informe de anatomía patológica"
 * conclusionCode[Morfologico] from MorfologicoSnomedCIEOVS (extensible)
 * conclusionCode[Morfologico]
   * id = "Morfologico"
-  * coding[SCT] from rbi-morfologico-VS (required)
+  * coding[SCT] from riap-morfologico-VS (required)
   * coding[CIEO] from CIEO3VS (required)
 
 * conclusionCode[Topografico] ^short = "Conclusión Topográfica"
@@ -93,7 +93,7 @@ Description:    "Informe de anatomía patológica"
 * conclusionCode[Topografico] from TopograficaSnomedCIEOVS (extensible)	
 * conclusionCode[Topografico]
   * id = "Topografico"
-  * coding[SCT] from rbi-topografica-VS (required)
+  * coding[SCT] from riap-topografica-VS (required)
   * coding[CIEO] from CIEO3VS (required)
 
 * presentedForm MS

@@ -1,5 +1,5 @@
-Instance:       rbi-tamano-tumor-ex
-InstanceOf:     TamanoTumorRBI
+Instance:       riap-tamano-tumor-ex
+InstanceOf:     TamanoTumorRIAP
 Usage:          #example
 Title:          "Observacion de Ejemplo: Tamaño del Tumor"
 Description:    "Ejemplo de una observación de tamaño del tumor de un reporte de biopsia"
@@ -8,8 +8,8 @@ Description:    "Ejemplo de una observación de tamaño del tumor de un reporte 
 * category = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
 * code = http://loinc.org#21889-1
 * subject = Reference(paciente-requiere-examen)
-* performer = Reference(rbi-anatopatologo-hospital)
-* specimen = Reference(rbi-specimen-example)
+* performer = Reference(riap-anatopatologo-hospital)
+* specimen = Reference(riap-specimen-example)
 * effectiveDateTime = "2021-06-01T12:00:00-04:00"
 * component[DimensionLargoTumor]
   * code = http://loinc.org#33728-7

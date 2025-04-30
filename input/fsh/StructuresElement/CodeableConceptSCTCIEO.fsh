@@ -1,6 +1,6 @@
 Profile:        CodeableConceptSCTCIEO
 Parent:         CodeableConcept
-Id:             rbi-codeableconcept-sct-cie-o
+Id:             riap-codeableconcept-sct-cie-o
 Title:          "Estructura del Dato CodeableConcept con SCT y CIE-O"
 Description:    "Esta definición permitira registra los datos que vengan desde snomed y cie-o, para ser utilizados en los informes de anatomía patológica"
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"

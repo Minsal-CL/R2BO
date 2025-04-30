@@ -1,4 +1,4 @@
-Instance:       rbi-generar-informe-bundle-ejemplo
+Instance:       riap-generar-informe-bundle-ejemplo
 InstanceOf:     BundleGenerarInforme
 Usage:          #example
 Title:          "Ejemplo de Enviar un Informe de Anatomía Patológica"
@@ -6,8 +6,8 @@ Description:    "Ejemplo de Bundle que contiene los recursos necesarios para sol
 
 * type = #transaction
 * entry[Solicitud]
-  * fullUrl = Canonical(rbi-solicitud-informe-apa-ej)
-  * resource = rbi-solicitud-informe-apa-ej
+  * fullUrl = Canonical(riap-solicitud-informe-apa-ej)
+  * resource = riap-solicitud-informe-apa-ej
   * request
     * method = #PUT
     * url = "ServiceRequest?identifier=111111101"
@@ -29,8 +29,8 @@ Description:    "Ejemplo de Bundle que contiene los recursos necesarios para sol
     * ifNoneExist = "PractitionerRole?practitioner.identifier=5135329-3&organization.identifier=121109"
 
 * entry[RolProfesional][1]
-  * fullUrl = Canonical(rbi-anatopatologo-hospital)
-  * resource = rbi-anatopatologo-hospital
+  * fullUrl = Canonical(riap-anatopatologo-hospital)
+  * resource = riap-anatopatologo-hospital
   * request
     * method = #POST
     * url = "PractitionerRole"
@@ -61,140 +61,140 @@ Description:    "Ejemplo de Bundle que contiene los recursos necesarios para sol
     * ifNoneExist = "Organization?identifier=121109"
 
 * entry[Muestra]
-  * fullUrl = Canonical(rbi-specimen-example)
-  * resource = rbi-specimen-example
+  * fullUrl = Canonical(riap-specimen-example)
+  * resource = riap-specimen-example
   * request
     * method = #PUT
     * url = "Specimen?identifier=110101101"
 
 * entry[InformeDiagnostico]
-  * fullUrl = Canonical(rbi-informe-biopsia-ex)
-  * resource = rbi-informe-biopsia-ex
+  * fullUrl = Canonical(riap-informe-biopsia-ex)
+  * resource = riap-informe-biopsia-ex
   * request
     * method = #POST
     * url = "DiagnosticReport"
 
 * entry[ObservacionMicroscopica]
-  * fullUrl = Canonical(rbi-observacion-microscopica-ex)
-  * resource = rbi-observacion-microscopica-ex
+  * fullUrl = Canonical(riap-observacion-microscopica-ex)
+  * resource = riap-observacion-microscopica-ex
   * request
     * method = #POST
     * url = "Observation"
 
 * entry[ObservacionMacroscopica]
-  * fullUrl = Canonical(rbi-observacion-macroscopica-ex)
-  * resource = rbi-observacion-macroscopica-ex
+  * fullUrl = Canonical(riap-observacion-macroscopica-ex)
+  * resource = riap-observacion-macroscopica-ex
   * request
     * method = #POST
     * url = "Observation"
 
 * entry[Estadificacion]
-  * fullUrl = Canonical(rbi-estadificacion-tnm-ex)
-  * resource = rbi-estadificacion-tnm-ex
+  * fullUrl = Canonical(riap-estadificacion-tnm-ex)
+  * resource = riap-estadificacion-tnm-ex
   * request
     * method = #POST
     * url = "Observation"
 
 * entry[CategoriaT]
-  * fullUrl = Canonical(rbi-tnm-categoria-tumor-primario-ex)
-  * resource = rbi-tnm-categoria-tumor-primario-ex
+  * fullUrl = Canonical(riap-tnm-categoria-tumor-primario-ex)
+  * resource = riap-tnm-categoria-tumor-primario-ex
   * request
     * method = #POST
     * url = "Observation"
 
 * entry[CategoriaN]
-  * fullUrl = Canonical(rbi-tnm-categoria-nodo-regional-ex)
-  * resource = rbi-tnm-categoria-nodo-regional-ex
+  * fullUrl = Canonical(riap-tnm-categoria-nodo-regional-ex)
+  * resource = riap-tnm-categoria-nodo-regional-ex
   * request
     * method = #POST
     * url = "Observation"
 
 * entry[CategoriaM]
-  * fullUrl = Canonical(rbi-tnm-categoria-metastasis-distantel-ex)
-  * resource = rbi-tnm-categoria-metastasis-distantel-ex
+  * fullUrl = Canonical(riap-tnm-categoria-metastasis-distantel-ex)
+  * resource = riap-tnm-categoria-metastasis-distantel-ex
   * request
     * method = #POST
     * url = "Observation"
 
-* entry[ObservacionInfiltracionPerineuralRBI]
-  * fullUrl = Canonical(rbi-observacion-infiltracion-perineural-ex)
-  * resource = rbi-observacion-infiltracion-perineural-ex
+* entry[ObservacionInfiltracionPerineuralRIAP]
+  * fullUrl = Canonical(riap-observacion-infiltracion-perineural-ex)
+  * resource = riap-observacion-infiltracion-perineural-ex
   * request
     * method = #POST
     * url = "Observation"
 
 * entry[ObservacionGangliosLinfaticos]
-  * fullUrl = Canonical(rbi-observacion-ganglios-linfaticos-ex)
-  * resource = rbi-observacion-ganglios-linfaticos-ex
+  * fullUrl = Canonical(riap-observacion-ganglios-linfaticos-ex)
+  * resource = riap-observacion-ganglios-linfaticos-ex
   * request
     * method = #POST
     * url = "Observation"
 
-* entry[ObservacionInfiltradoPeritumoralRBI]
-  * fullUrl = Canonical(rbi-observacion-infiltracion-peritumoral-ex)
-  * resource = rbi-observacion-infiltracion-peritumoral-ex
+* entry[ObservacionInfiltradoPeritumoralRIAP]
+  * fullUrl = Canonical(riap-observacion-infiltracion-peritumoral-ex)
+  * resource = riap-observacion-infiltracion-peritumoral-ex
   * request
     * method = #POST
     * url = "Observation"
 
-* entry[ObservacionInvasionLinfaticaRBI]
-  * fullUrl = Canonical(rbi-observacion-invasion-linfatica-ex)
-  * resource = rbi-observacion-invasion-linfatica-ex
+* entry[ObservacionInvasionLinfaticaRIAP]
+  * fullUrl = Canonical(riap-observacion-invasion-linfatica-ex)
+  * resource = riap-observacion-invasion-linfatica-ex
   * request
     * method = #POST
     * url = "Observation"
 
-* entry[ObservacionInvasionVascularRBI]
-  * fullUrl = Canonical(rbi-observacion-invasion-vascular-ex)
-  * resource = rbi-observacion-invasion-vascular-ex
+* entry[ObservacionInvasionVascularRIAP]
+  * fullUrl = Canonical(riap-observacion-invasion-vascular-ex)
+  * resource = riap-observacion-invasion-vascular-ex
   * request
     * method = #POST
     * url = "Observation"
 
 * entry[ObservacionMargenQuirugico]
-  * fullUrl = Canonical(rbi-observacion-margen-quirurgico-ex)
-  * resource = rbi-observacion-margen-quirurgico-ex
+  * fullUrl = Canonical(riap-observacion-margen-quirurgico-ex)
+  * resource = riap-observacion-margen-quirurgico-ex
   * request
     * method = #POST
     * url = "Observation"
 
 * entry[ObservacionCentricidad]
-  * fullUrl = Canonical(rbi-observacion-centricidad-ex)
-  * resource = rbi-observacion-centricidad-ex
+  * fullUrl = Canonical(riap-observacion-centricidad-ex)
+  * resource = riap-observacion-centricidad-ex
   * request
     * method = #POST
     * url = "Observation"
 
 * entry[ObservacionMultifocalidad]
-  * fullUrl = Canonical(rbi-observacion-multifocalidad-ex)
-  * resource = rbi-observacion-multifocalidad-ex
+  * fullUrl = Canonical(riap-observacion-multifocalidad-ex)
+  * resource = riap-observacion-multifocalidad-ex
   * request
     * method = #POST
     * url = "Observation"
 
-* entry[ObservacionPorcentajeNecrosisRBI]
-  * fullUrl = Canonical(rbi-observacion-porcentaje-necrosis-ex)
-  * resource = rbi-observacion-porcentaje-necrosis-ex
+* entry[ObservacionPorcentajeNecrosisRIAP]
+  * fullUrl = Canonical(riap-observacion-porcentaje-necrosis-ex)
+  * resource = riap-observacion-porcentaje-necrosis-ex
   * request
     * method = #POST
     * url = "Observation"
 
 * entry[ObservacionPostNeoadjudancia]
-  * fullUrl = Canonical(rbi-observacion-post-tratamiento-neoadjuvancia-ex)
-  * resource = rbi-observacion-post-tratamiento-neoadjuvancia-ex
+  * fullUrl = Canonical(riap-observacion-post-tratamiento-neoadjuvancia-ex)
+  * resource = riap-observacion-post-tratamiento-neoadjuvancia-ex
   * request
     * method = #POST
     * url = "Observation"
 
-* entry[TamanoTumorRBI]
-  * fullUrl = Canonical(rbi-tamano-tumor-ex)
-  * resource = rbi-tamano-tumor-ex
+* entry[TamanoTumorRIAP]
+  * fullUrl = Canonical(riap-tamano-tumor-ex)
+  * resource = riap-tamano-tumor-ex
   * request
     * method = #POST
     * url = "Observation"
 
-Instance:           rbi-specimen-example-2
-InstanceOf:         MuestraRBI
+Instance:           riap-specimen-example-2
+InstanceOf:         MuestraRIAP
 Usage:              #inline
 
 * meta.versionId = "2"

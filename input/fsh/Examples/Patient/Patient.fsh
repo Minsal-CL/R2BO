@@ -10,7 +10,7 @@ Description:    "Ejemplo de un paciente dentro del Indice Maestro del Paciente."
 * extension[PaisOrigen] = PaisOrigenMPIPac1
 * extension[Religion] = ReligionPac1
 * extension[PueblosAfrodescendiente] = PueblosAfrodescendientePac1
-* extension[PueblosOriginarios] = PuebloOriginarioPac1
+* extension[PuebloOriginario] = PuebloOriginarioPac1
 
 * identifier[0]
   * use = #official
@@ -91,7 +91,7 @@ Usage: #inline
 * valueBoolean = false
 
 Instance: PuebloOriginarioPac1
-InstanceOf: PueblosOriginarios
+InstanceOf: PueblosOriginariosMPI
 Usage: #inline
 
 * extension[pertenece].valueBoolean = false

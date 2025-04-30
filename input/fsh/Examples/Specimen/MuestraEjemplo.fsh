@@ -1,5 +1,5 @@
-Instance:           rbi-specimen-example
-InstanceOf:         MuestraRBI
+Instance:           riap-specimen-example
+InstanceOf:         MuestraRIAP
 Usage:              #example
 Title:              "Muestra de Mama"
 Description:        "Muestra de tejido de mamario"

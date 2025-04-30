@@ -3,11 +3,11 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: hl7.fhir.cl.minsal.rbi
-canonical: https://interoperabilidad.minsal.cl/fhir/ig/rbi
-name: RepositorioBiopsiaInteroperableMinsal
-title: Repositorio de Biopsia Interoperable del Ministerio de Salud
-description: Este es un repositorio que permitira almacenar y consultar 
+id: hl7.fhir.cl.minsal.riap
+canonical: https://interoperabilidad.minsal.cl/fhir/ig/riap
+name: RepositorioInteroperableAnatomiaPatologicaMinsal
+title: Repositorio Interoperable de Anatomías Patológicas del Ministerio de Salud
+description: Este es un repositorio que permitira almacenar y consultar los informes y solicitudes de anatomías patólogicas de los pacientes en Chile. El objetivo es que los laboratorios puedan compartir la información de los pacientes y sus informes con otros laboratorios y hospitales, permitiendo una mejor atención y seguimiento de los pacientes.
 status: draft # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
@@ -32,7 +32,7 @@ language: en
 # use cases, the value can be an object with keys for id, uri, and version.
 #
 dependencies:
-    hl7.fhir.cl.minsal.nid: 0.4.6
+    hl7.fhir.cl.minsal.nid: 0.4.7
     hl7.fhir.cl.clcore: 1.9.2
     hl7.fhir.us.mcode: 4.0.0
     # hl7.fhir.cl.minsal.eis: 0.1.0
@@ -72,7 +72,7 @@ pages:
       - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
         valueCode: informative
     title: Interacciones con el Repositorio Interoperable de Anatomías Patológicas
-  ImplementationGuide-hl7.fhir.cl.minsal.rbi.md:
+  ImplementationGuide-hl7.fhir.cl.minsal.riap.md:
     extension:
       - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
         valueCode: informative

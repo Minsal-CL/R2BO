@@ -1,5 +1,5 @@
 ValueSet:       InvasionLinfaticaVascularVS
-Id:             rbi-invasion-linfatica-VS
+Id:             riap-invasion-linfatica-VS
 Title:          "Set de Valores para Invasión Linfática y Vascular"
 Description:    "Posibles resultados de invasión linfática y vascular en un reporte de biopsia"
 

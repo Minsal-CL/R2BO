@@ -1,6 +1,6 @@
-Profile:        ObservacionInvasionLinfaticaRBI
+Profile:        ObservacionInvasionLinfaticaRIAP
 Parent:         ResultadosReporteBiopsia
-Id:             rbi-observacion-invasion-linfatica
+Id:             riap-observacion-invasion-linfatica
 Title:          "Perfil de Observación Invasión Linfatica"
 Description:    "Registro de la invasión linfatica de un tumor en reporte de biopsia"
 

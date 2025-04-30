@@ -14,3 +14,33 @@ e: {
   "error" : "Unable to expand included value set 'https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-cieo3-VS': Unable to expand imported value set: Error from http://tx.fhir.org/r4: The code system definition for http://terminology.hl7.org/CodeSystem/icd-o-3 is a fragment, so this expansion is not permitted unless the expansion parameter \"incomplete-ok\" has a value of \"true\" (and Error from http://tx.fhir.org/r4: The filter \"constraint = < 442083009, ^ 446608001\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/rbi/ValueSet/rbi-topografica-VS was not understood in the context of http://snomed.info/sct)"
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/riap/ValueSet/rbi-morfologicosct-cieo-VS", "version": "0.1.0"}####
+e: {
+  "error" : "Unable to expand included value set 'https://interoperabilidad.minsal.cl/fhir/ig/riap/ValueSet/rbi-cieo3-VS': Unable to expand imported value set: Error from http://tx.fhir.org/r4: The code system definition for http://terminology.hl7.org/CodeSystem/icd-o-3 is a fragment, so this expansion is not permitted unless the expansion parameter \"incomplete-ok\" has a value of \"true\" (and Error from http://tx.fhir.org/r4: The filter \"constraint = < 108369006, ^ 446608001\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/riap/ValueSet/rbi-morfologico-VS was not understood in the context of http://snomed.info/sct)"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/riap/ValueSet/rbi-snomed-hallazgos-clinicos-cie10-VS", "version": "0.1.0"}####
+e: {
+  "error" : "Unable to expand included value set 'https://interoperabilidad.minsal.cl/fhir/ig/riap/ValueSet/rbi-snomed-hallazgos-clinicos-VS': Unable to expand imported value set: Error from http://tx.fhir.org/r4: The filter \"constraint = < 404684003, ^ 447562003\" from the value set was not understood in the context of http://snomed.info/sct (and Error from http://tx.fhir.org/r4: The filter \"constraint = < 404684003, ^ 447562003\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/riap/ValueSet/rbi-snomed-hallazgos-clinicos-VS was not understood in the context of http://snomed.info/sct)"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/riap/ValueSet/rbi-topografica-cieo-VS", "version": "0.1.0"}####
+e: {
+  "error" : "Unable to expand included value set 'https://interoperabilidad.minsal.cl/fhir/ig/riap/ValueSet/rbi-cieo3-VS': Unable to expand imported value set: Error from http://tx.fhir.org/r4: The code system definition for http://terminology.hl7.org/CodeSystem/icd-o-3 is a fragment, so this expansion is not permitted unless the expansion parameter \"incomplete-ok\" has a value of \"true\" (and Error from http://tx.fhir.org/r4: The filter \"constraint = < 442083009, ^ 446608001\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/riap/ValueSet/rbi-topografica-VS was not understood in the context of http://snomed.info/sct)"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/riap/ValueSet/riap-morfologicosct-cieo-VS", "version": "0.1.0"}####
+e: {
+  "error" : "Unable to expand included value set 'https://interoperabilidad.minsal.cl/fhir/ig/riap/ValueSet/riap-cieo3-VS': Unable to expand imported value set: Error from http://tx.fhir.org/r4: The code system definition for http://terminology.hl7.org/CodeSystem/icd-o-3 is a fragment, so this expansion is not permitted unless the expansion parameter \"incomplete-ok\" has a value of \"true\" (and Error from https://tx.ontoserver.csiro.au/fhir: Error: [ddff8874-953d-442b-bdd2-5e8aef2a95d2]: A usable code system with URL http://terminology.hl7.org/CodeSystem/icd-o-3 could not be resolved.\r\nInformation: X-Request-Id: 79ef3761-2050-4ced-a6db-e80dc81450f5)"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/riap/ValueSet/riap-snomed-hallazgos-clinicos-cie10-VS", "version": "0.1.0"}####
+e: {
+  "error" : "Unable to expand included value set 'https://interoperabilidad.minsal.cl/fhir/ig/riap/ValueSet/riap-snomed-hallazgos-clinicos-VS': Unable to expand imported value set: Error from http://tx.fhir.org/r4: The filter \"constraint = < 404684003, ^ 447562003\" from the value set was not understood in the context of http://snomed.info/sct (and Error from https://tx.ontoserver.csiro.au/fhir: Error: [d620046c-3fda-4c9b-b138-40b9ace38372]: A usable code system with URL http://hl7.org/fhir/sid/icd-10|2019-covid-expanded could not be resolved.\r\nInformation: X-Request-Id: 924689a0-f027-4112-a54d-934874a7faaf)"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/riap/ValueSet/riap-topografica-cieo-VS", "version": "0.1.0"}####
+e: {
+  "error" : "Unable to expand included value set 'https://interoperabilidad.minsal.cl/fhir/ig/riap/ValueSet/riap-cieo3-VS': Unable to expand imported value set: Error from http://tx.fhir.org/r4: The code system definition for http://terminology.hl7.org/CodeSystem/icd-o-3 is a fragment, so this expansion is not permitted unless the expansion parameter \"incomplete-ok\" has a value of \"true\" (and Error from https://tx.ontoserver.csiro.au/fhir: Error: [ef9fe4b5-ddf9-47cc-bb25-95891e1e0c2a]: A usable code system with URL http://terminology.hl7.org/CodeSystem/icd-o-3 could not be resolved.\r\nInformation: X-Request-Id: 236b002d-619b-4fe0-b0ef-5fd3b1d3fb73)"
+}
+-------------------------------------------------------------------------------------

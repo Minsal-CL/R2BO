@@ -1,5 +1,5 @@
 ValueSet:       MorfologicoSnomedCIEOVS
-Id:             rbi-morfologicosct-cieo-VS
+Id:             riap-morfologicosct-cieo-VS
 Title:          "Set de Valores Morfología"
 Description:    "Set de valores utilizados para morfologías"
 

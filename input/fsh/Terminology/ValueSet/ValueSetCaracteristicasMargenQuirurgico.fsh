@@ -1,5 +1,5 @@
 ValueSet:       CaracteristicasMargenQuirurgicoVS
-Id:             rbi-caracteristicas-margen-quirurgico-VS
+Id:             riap-caracteristicas-margen-quirurgico-VS
 Title:          "Set de Valores de Caracteristicas del Margen Quirurgico"
 Description:    "Set de valores del nivel de compromiso del margen quiurgico en un reporte de biopsia"
 

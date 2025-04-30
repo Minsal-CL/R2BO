@@ -1,6 +1,6 @@
 Profile:        CategoriaTNM 
 Parent:         ObservacionCL
-Id:             rbi-categoria-tnm
+Id:             riap-categoria-tnm
 Title:          "Perfil de Origen para las Categorías T, N,  M (Abstracto)"
 Description:    "Perfil para originar las Categorías T, N, M"
 
@@ -25,11 +25,11 @@ Description:    "Perfil para originar las Categorías T, N, M"
 //   * ^short = "La condición asociada con la categoría TNM"
 // * focus only Reference(DiagnosticoCl)
 * performer MS
-* performer only Reference(RolProfesionalRBI or MINSALPrestadorProfesional or MINSALPrestadorOrganizacional)
+* performer only Reference(RolProfesionalRIAP or MINSALPrestadorProfesional or MINSALPrestadorOrganizacional)
 * value[x] MS
 * value[x] only CodeableConcept
 * dataAbsentReason MS
-* specimen only Reference(MuestraRBI)
+* specimen only Reference(MuestraRIAP)
 * method 0..1 MS
 * method from TNMStagingMethodVS (extensible)
 

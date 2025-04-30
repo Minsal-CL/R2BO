@@ -1,6 +1,6 @@
 Profile:        TNMCategoriaMetastasisDistante
 Parent:         CategoriaTNM
-Id:             rbi-tnm-categoria-metastasis-distante
+Id:             riap-tnm-categoria-metastasis-distante
 Title:          "Perfil de Categoria TNM de Metástasis Distante"
 Description:   "Categoría que describe la extensión de la metástasis de un tumor en ubicaciones anatómicas remotas, basada en evidencia como exámenes físicos, imágenes y/o biopsias."
 

@@ -1,6 +1,6 @@
-Profile:        ObservacionMicroscopicaRBI
+Profile:        ObservacionMicroscopicaRIAP
 Parent:         ResultadosReporteBiopsia
-Id:             rbi-observacion-microscopica
+Id:             riap-observacion-microscopica
 Title:          "Perfil de Observación Microscópica"
 Description:    "Registro de las observaciones microscópicas de un reporte de biopsia"
 

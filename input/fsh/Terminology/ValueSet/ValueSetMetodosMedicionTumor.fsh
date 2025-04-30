@@ -1,5 +1,5 @@
 ValueSet:       MetodosMedicionTumorVS
-Id:             rbi-metodos-medicion-VS
+Id:             riap-metodos-medicion-VS
 Title:          "Set de Valores de los Metodos de Medición del Tumor"
 Description:    "Set de valores utilizados para los metodos de medición de los tamaños de tumores"
 

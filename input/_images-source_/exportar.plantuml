@@ -1,0 +1,32 @@
+@startuml exportar
+
+title Diagrama de Secuencia para Exportar Información del Repositorio de Anatomía Patológica
+
+hide footbox
+
+!include ./style.iuml
+
+actor "Analista" as usuario
+participant "Sistema Analítica Externo" as SAE
+participant "Sistema Informático Externo" as SIE
+database "Repositorio Anatomías Patológicas" as RepositorioBiopsia
+
+usuario -> SIE: Genera exportación
+activate SIE
+SIE -> RepositorioBiopsia: Solicitud de Token de Autenticación
+activate RepositorioBiopsia
+alt Token válido
+    RepositorioBiopsia -> SIE: Respuesta con Token de Autenticación
+    SIE -> RepositorioBiopsia: Realiza Operación $export a la API FHIR
+    RepositorioBiopsia -> RepositorioBiopsia: Extracción copia de la base de datos
+
+    RepositorioBiopsia -> SIE: Respuesta exitosa (200 OK)
+    SIE -> usuario: Entrega Archivo de Exportación
+    usuario -> SAE: Importa Archivo de Exportación
+else Token inválido
+    RepositorioBiopsia -> SIE: Respuesta de error (401 Unauthorized)
+    SIE -> usuario: Notifica error de autenticación
+    deactivate RepositorioBiopsia
+end 
+deactivate SIE
+@enduml

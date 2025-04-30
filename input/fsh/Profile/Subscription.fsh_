@@ -1,0 +1,6 @@
+Profile:     SubscriptionRIAP
+Parent:      Subscription
+Id:          subscription-riap
+Title:       "Subscription"
+Description: ""
+* 

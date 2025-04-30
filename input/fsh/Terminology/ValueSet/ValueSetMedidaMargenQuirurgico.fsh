@@ -1,5 +1,5 @@
 ValueSet:       MedidaMargenQuirurgicoVS
-Id:             rbi-medida-margen-quirurgico-VS
+Id:             riap-medida-margen-quirurgico-VS
 Title:          "Set de Valores de la Medida de Margen Quirúrgico"
 Description:    "Valores aceptados para la medida del margen quirúrgico en un reporte de biopsia"
 

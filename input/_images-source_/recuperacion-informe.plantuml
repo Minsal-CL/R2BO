@@ -1,0 +1,30 @@
+@startuml recuperacion-informe
+
+title Diagrama de Secuencia para Recuperación de Información del Repositorio de Anatomía Patológica
+
+hide footbox
+
+!include ./style.iuml
+
+actor "Profesional" as usuario
+participant "Sistema Informático Externo" as SIE
+database "Repositorio Anatomías Patológicas" as RepositorioBiopsia
+
+usuario -> SIE: Genera consulta de anatomía patológica
+activate SIE
+SIE -> RepositorioBiopsia: Solicitud de Token de Autenticación
+activate RepositorioBiopsia
+alt Token válido
+    RepositorioBiopsia -> SIE: Respuesta con Token de Autenticación
+    SIE -> RepositorioBiopsia: Realiza un GET a la API FHIR con Query
+    RepositorioBiopsia -> RepositorioBiopsia: Busqueda en la base de datos
+    RepositorioBiopsia -> SIE: Respuesta exitosa (200 OK)
+    SIE -> usuario: Muestra información solicitada
+else Token inválido
+    RepositorioBiopsia -> SIE: Respuesta de error (401 Unauthorized)
+    SIE -> usuario: Notifica error de autenticación
+    deactivate RepositorioBiopsia
+end 
+deactivate SIE
+
+@enduml

@@ -1,6 +1,6 @@
-Profile:        MuestraRBI
+Profile:        MuestraRIAP
 Parent:         Specimen
-Id:             rbi-muestra-biopsia
+Id:             riap-muestra-biopsia
 Title:          "Perfil de Muestra"
 Description:    "Muestra de tejido o fluido biológico para análisis de antomía patologica."
 
@@ -37,7 +37,7 @@ Description:    "Muestra de tejido o fluido biológico para análisis de antomí
   * ^short = "Datos de la colección de la muestra"
   * collector 1..1 MS
     * ^short = "Profesional que recolecta la muestra"
-  * collector only Reference(RolProfesionalRBI)
+  * collector only Reference(RolProfesionalRIAP)
   * collected[x] 1..1 MS
   * collected[x] only dateTime
     * ^short = "Fecha y hora de la colección de la muestra"

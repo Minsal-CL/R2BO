@@ -1,4 +1,4 @@
-Instance: rbi-minsal-analisis
+Instance: riap-minsal-analisis
 InstanceOf: CapabilityStatement
 Title: "CapabilityStatement del Cliente Analista del Repositorio de Biopsia del Ministerio de Salud"
 Description: "CapabilityStatement para definir las caracteristicas mínimas del \"Cliente Analista\" que realiza analisis secundario de informes de anatomía patológica y sus resultados, para tomar decisiones de salud pública."	
@@ -8,7 +8,7 @@ Usage: #definition
 * extension[=].valueInteger = 1
 
 * version = "0.1.0"
-* name = "RbiMinsalAnalistaCapabilityStatement"
+* name = "RIAPMinsalAnalistaCapabilityStatement"
 * status = #active
 * experimental = true
 * date = "2025-03-05T15:30:00-03:00"
@@ -57,7 +57,7 @@ Usage: #definition
       * valueCode = #SHALL
     * type = #PractitionerRole
     * profile = Canonical(CoreRolClinicoCl)
-    * supportedProfile[0] = Canonical(RolProfesionalRBI)
+    * supportedProfile[0] = Canonical(RolProfesionalRIAP)
 
   * resource[+]
     * extension[0]
@@ -71,7 +71,7 @@ Usage: #definition
       * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
       * valueCode = #SHALL
     * type = #Specimen
-    * supportedProfile[0] = Canonical(MuestraRBI)
+    * supportedProfile[0] = Canonical(MuestraRIAP)
 
   * operation
     * name = "export"

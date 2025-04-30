@@ -1,6 +1,6 @@
 Profile:     SolicitudInformeAPA
 Parent:      ServiceRequest
-Id:          rbi-solicitud-informe-apa
+Id:          riap-solicitud-informe-apa
 Title:       "Perfil de Solicitud de Informe de Anatomía Patológica"
 Description: "Solicitud generada por el médico para la realización de un informe de anatomía patológica"
 
@@ -28,10 +28,10 @@ Description: "Solicitud generada por el médico para la realización de un infor
 * subject only Reference(MINSALPaciente)
 * requester 1..1 MS
   * ^short = "Profesional que solicita el informe de anatomía patológica"
-* requester only Reference(RolProfesionalRBI)
+* requester only Reference(RolProfesionalRIAP)
 * performer 1..1 MS
   * ^short = "Laboratorio o Anatomopatólogo que realizara el informe"
-* performer only Reference(MINSALPrestadorOrganizacional or RolProfesionalRBI)
+* performer only Reference(MINSALPrestadorOrganizacional or RolProfesionalRIAP)
 * locationCode MS
   * ^short = "Locación de a la cual está dirigida la solicitud"
 * reasonCode 1..1 MS
@@ -39,7 +39,7 @@ Description: "Solicitud generada por el médico para la realización de un infor
 * reasonCode only CodeableConceptSCTCIE10
 * reasonCode from SnomedCTHallazgosClinicosCIE10VS (extensible)
   * coding[SCT] from SnomedCTHallazgosClinicos (required)
-  * coding[CIE10] from rbi-cie10-vs (required)
+  * coding[CIE10] from riap-cie10-vs (required)
 * specimen 1..1 MS
   * ^short = "Muestra de Biopsia"
-* specimen only Reference(MuestraRBI)
+* specimen only Reference(MuestraRIAP)

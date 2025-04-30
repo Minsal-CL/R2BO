@@ -1,4 +1,4 @@
-Instance: rbi-minsal-consumidor
+Instance: riap-minsal-consumidor
 InstanceOf: CapabilityStatement
 Title: "CapabilityStatement Consumidor del Repositorio de Biopsia del Ministerio de Salud"
 Description: "CapabilityStatement para definir las caracteristicas mínimas del  para ver las interacciones posibles para buscar informes de anatomía patológica y sus resultados."	
@@ -8,7 +8,7 @@ Usage: #definition
 * extension[=].valueInteger = 1
 
 * version = "0.1.0"
-* name = "RbiMinsalConsumidorCapabilityStatement"
+* name = "RIAPMinsalConsumidorCapabilityStatement"
 * status = #active
 * experimental = true
 * date = "2025-03-05T15:30:00-03:00"
@@ -333,7 +333,7 @@ Usage: #definition
       * valueCode = #SHALL
     * type = #PractitionerRole
     * profile = Canonical(CoreRolClinicoCl)
-    * supportedProfile[0] = Canonical(RolProfesionalRBI)
+    * supportedProfile[0] = Canonical(RolProfesionalRIAP)
     * interaction[0]
       * code = #search-type
     * interaction[+]
@@ -463,7 +463,7 @@ Usage: #definition
       * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
       * valueCode = #SHALL
     * type = #Specimen
-    * supportedProfile[0] = Canonical(MuestraRBI)
+    * supportedProfile[0] = Canonical(MuestraRIAP)
     * interaction[0]
       * code = #search-type
     * interaction[+]

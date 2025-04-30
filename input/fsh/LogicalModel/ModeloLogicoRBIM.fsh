@@ -1,6 +1,6 @@
-Logical: ModeloLogicoRBI
+Logical: ModeloLogicoRIAP
 Parent: Base
-Id: ModeloLogicoRBI
+Id: ModeloLogicoRIAP
 Title: "Modelo Logico Repositorio de Biopsia"
 Description: "Modelo lógico para el conjunto de datos mínimo del repositorio de biopsia"
 // Characteristics: #can-be-target

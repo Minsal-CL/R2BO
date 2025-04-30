@@ -1,8 +1,8 @@
 {
-    "package-id": "hl7.fhir.cl.minsal.rbi",
+    "package-id": "hl7.fhir.cl.minsal.riap",
     "version": "0.1.0",
-    "desc": "Versión de desarrollo de la guía de implementación del Repositorio de Biopsia Interoperable del Ministerio de Salud",
-    "path": "https://interoperabilidad.minsal.cl/fhir/ig/rbi/0.1.0",
+    "desc": "Versión de desarrollo de la guía de implementación del Repositorio Interoperable de Anatomías Patológicas del Ministerio de Salud",
+    "path": "https://interoperabilidad.minsal.cl/fhir/ig/riap/0.1.0",
     "mode": "working",
     "changes": "changes.html",
     "status": "draft",
@@ -10,7 +10,7 @@
     "first": true,
     "fhirversion": "4.0.1",
     "category": "Clinical Records",
-    "title": "Guía de Implementación del Repositorio de Biopsia Interoperable del Ministerio de Salud de Chile",
-    "introduction": "Guía de implementación sobre el Repositorio de Biopsia Interoperable del Ministerio de Salud de Chile",
-    "ci-build": "https://build.fhir.org/ig/MINSAL-CL/rbi"
+    "title": "Guía de Implementación del Repositorio Interoperable de Anatomías Patológicas del Ministerio de Salud de Chile",
+    "introduction": "Guía de implementación sobre el Repositorio Interoperable de Anatomías Patológicas del Ministerio de Salud de Chile",
+    "ci-build": "https://build.fhir.org/ig/MINSAL-CL/riap"
 }

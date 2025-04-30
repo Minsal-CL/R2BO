@@ -1,6 +1,6 @@
 Profile:        ObservacionMargenQuirugico
 Parent:         ResultadosReporteBiopsia
-Id:             rbi-observacion-margen-quirurgico
+Id:             riap-observacion-margen-quirurgico
 Title:          "Perfil de Observación Margen Quirúrgico"
 Description:    "Observaciones del margen quirúrgico en reporte de biopsia"
 
