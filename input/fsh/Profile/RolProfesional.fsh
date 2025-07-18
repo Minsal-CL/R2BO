@@ -1,6 +1,6 @@
-Profile:        RolProfesionalRIAP
+Profile:        RolProfesionalRIBCO
 Parent:         CoreRolClinicoCl
-Id:             riap-rol-profesional-minsal
+Id:             ribco-rol-profesional-minsal
 Title:          "Perfil de Rol Profesional"
 Description:    "Rol que cumple un profesional en un establecimiento de salud. Este puede ser un profesional solicitante o un anatomopatólogo que realiza un informe."
 

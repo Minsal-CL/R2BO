@@ -1,5 +1,5 @@
-Instance:       riap-observacion-invasion-vascular-ex
-InstanceOf:     ObservacionInvasionVascularRIAP
+Instance:       ribco-observacion-invasion-vascular-ex
+InstanceOf:     ObservacionInvasionVascularRIBCO
 Usage:          #example
 Title:          "Observacion de Ejemplo: Invasión Vascular"
 Description:    "Ejemplo de una observación de invasión vascular de un reporte de biopsia"
@@ -8,7 +8,7 @@ Description:    "Ejemplo de una observación de invasión vascular de un reporte
 * category = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
 * code = $loinc#33740-2
 * subject = Reference(paciente-requiere-examen)
-* performer = Reference(riap-anatopatologo-hospital)
+* performer = Reference(ribco-anatopatologo-hospital)
 * valueCodeableConcept = $snomed#52101004  "Present"
-* specimen = Reference(riap-specimen-example)
+* specimen = Reference(ribco-specimen-example)
 * effectiveDateTime = "2021-06-01T12:00:00-04:00"

@@ -1,4 +1,4 @@
-Instance:       riap-tnm-categoria-metastasis-distantel-ex
+Instance:       ribco-tnm-categoria-metastasis-distantel-ex
 InstanceOf:     TNMCategoriaMetastasisDistante
 Usage:          #example
 Title:          "Observacion de Ejemplo: Categoria TNM Metástasis Distante"
@@ -8,7 +8,7 @@ Description:    "Ejemplo de una observación de categoría TNM de metástasis di
 * category = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
 * code = $snomed#371497001
 * subject = Reference(paciente-requiere-examen)
-* performer = Reference(riap-anatopatologo-hospital)
+* performer = Reference(ribco-anatopatologo-hospital)
 * valueCodeableConcept = $snomed#1229916009 "pM1"	
-* specimen = Reference(riap-specimen-example)
+* specimen = Reference(ribco-specimen-example)
 * effectiveDateTime = "2021-06-01T12:00:00-04:00"

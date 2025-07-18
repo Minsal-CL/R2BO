@@ -1,5 +1,5 @@
-Instance:           riap-specimen-example
-InstanceOf:         MuestraRIAP
+Instance:           ribco-specimen-example
+InstanceOf:         MuestraRIBCO
 Usage:              #example
 Title:              "Muestra de Mama"
 Description:        "Muestra de tejido de mamario"

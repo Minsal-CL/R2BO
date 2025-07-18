@@ -1,4 +1,4 @@
-Instance:       riap-solicitud-informe-apa-bundle
+Instance:       ribco-solicitud-informe-apa-bundle
 InstanceOf:     BundleSolicitarInforme
 Usage:          #example
 Title:          "Ejemplo de Solicitud Biopsia"
@@ -6,8 +6,8 @@ Description:    "Ejemplo de Bundle que contiene los recursos necesarios para sol
 
 * type = #transaction
 * entry[Solicitud]
-  * fullUrl = "https://interoperabilidad.minsal.cl/fhir/ig/riap/ServiceRequest/riap-solicitud-informe-apa-1-ej"
-  * resource = riap-solicitud-informe-apa-1-ej
+  * fullUrl = "https://interoperabilidad.minsal.cl/fhir/ig/ribco/ServiceRequest/ribco-solicitud-informe-apa-1-ej"
+  * resource = ribco-solicitud-informe-apa-1-ej
   * request
     * method = #POST
     * url = "ServiceRequest"
@@ -45,13 +45,13 @@ Description:    "Ejemplo de Bundle que contiene los recursos necesarios para sol
     * ifNoneExist = "Organization?identifier=121109"
 
 * entry[Muestra]
-  * fullUrl = Canonical(riap-specimen-example)
-  * resource = riap-specimen-example
+  * fullUrl = Canonical(ribco-specimen-example)
+  * resource = ribco-specimen-example
   * request
     * method = #POST
     * url = "Specimen"
 
-Instance:   riap-solicitud-informe-apa-1-ej
+Instance:   ribco-solicitud-informe-apa-1-ej
 InstanceOf: SolicitudInformeAPA
 Usage:      #inline
 
@@ -64,6 +64,6 @@ Usage:      #inline
 * subject = Reference(paciente-requiere-examen)
 * requester = Reference(ProfesionalHospital)
 * reasonCode = ReasonCodeSospechaDiagnostica
-* specimen = Reference(riap-specimen-example)
+* specimen = Reference(ribco-specimen-example)
 * performer = Reference(hospital-collector)	
 * locationCode  = http://terminology.hl7.org/CodeSystem/v3-RoleCode#HLAB "hospital laboratory"

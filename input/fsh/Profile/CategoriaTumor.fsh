@@ -1,6 +1,6 @@
 Profile:        TNMCategoriaTumorPrimario
 Parent:         CategoriaTNM
-Id:             riap-tnm-categoria-tumor-primario
+Id:             ribco-tnm-categoria-tumor-primario
 Title:          "Perfil de Categoria TNM Tumor Primario"
 Description:    "Categoría del tumor primario, basada en su tamaño y extensión, basada en evidencia como exámenes físicos, imágenes y/o biopsias."
 

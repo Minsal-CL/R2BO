@@ -1,5 +1,5 @@
 Extension:      TipoProcedimientoBiopsia
-Id:             riap-tipo-procedimientos-biopsias
+Id:             ribco-tipo-procedimientos-biopsias
 Title:          "Extensión Tipo de Procedimiento de Biopsia"
 Description:    "Extensión que define los tipos de procedimientos al momento de extraer muestras de tejido"
 Context:        CodeableConcept

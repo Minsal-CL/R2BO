@@ -1,5 +1,5 @@
 ValueSet:       TopograficaSnomedCIEOVS
-Id:             riap-topografica-cieo-VS
+Id:             ribco-topografica-cieo-VS
 Title:          "Set de Valores para Topografía"
 Description:    "Set de valores utilizados para la topografía"
 

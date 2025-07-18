@@ -1,5 +1,5 @@
 ValueSet:       TipoEspecimenVS
-Id:             riap-tipo-especimen-vs
+Id:             ribco-tipo-especimen-vs
 Title:          "Set de Valores de los Tipos de Especimen"
 Description:    "Códigos de tipos de especimen en Snomed"
 

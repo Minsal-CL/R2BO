@@ -1,5 +1,5 @@
 ValueSet:       ObservacionesBiopsiaVS
-Id:             riap-observaciones-biopsia-VS
+Id:             ribco-observaciones-biopsia-VS
 Title:          "Set de Valores para Observaciones Biopsia"
 Description:    "Observaciones realizadas durante el informe de biopsia"
 

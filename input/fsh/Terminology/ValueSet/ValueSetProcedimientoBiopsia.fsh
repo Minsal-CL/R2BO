@@ -1,5 +1,5 @@
 ValueSet:       ProcedimientosBiopsiaVS
-Id:             riap-procedimientos-biopsias-VS
+Id:             ribco-procedimientos-biopsias-VS
 Title:          "Set de Valores Para Procedimientos"
 Description:    "Set de valores utilizados para los procedimientos al momento de extraer muestras de tejido"
 
@@ -10,7 +10,7 @@ Description:    "Set de valores utilizados para los procedimientos al momento de
 * exclude codes from system $snomed where concept descendent-of #70871006
 
 ValueSet:       TipoProcedimientosBiopsiaVS
-Id:             riap-tipo-procedimientos-biopsias-VS
+Id:             ribco-tipo-procedimientos-biopsias-VS
 Title:          "Set de Valores Para Tipo de Procedimientos"
 Description:    "Set de valores utilizados para los tipos de procedimientos al momento de extraer muestras de tejido"
 

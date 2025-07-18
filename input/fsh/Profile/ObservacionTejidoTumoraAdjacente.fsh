@@ -1,6 +1,6 @@
 Profile:        ObservacionTejidoTumoralAdjacente
 Parent:         ResultadosReporteBiopsia
-Id:             riap-observacion-tejido-tumor-adjacente
+Id:             ribco-observacion-tejido-tumor-adjacente
 Title:          "Perfil de Observacion Tejido Tumoral Adjacente"
 Description:    "Registro de la presencia de tejido tumoral en tejido adyacente en un reporte de biopsia"
 

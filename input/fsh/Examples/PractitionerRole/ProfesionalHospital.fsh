@@ -1,5 +1,5 @@
 Instance:       ProfesionalHospital
-InstanceOf:     RolProfesionalRIAP
+InstanceOf:     RolProfesionalRIBCO
 Usage:          #example
 Title:          "Profesional del Hospital"
 Description:    "Profesional que trabaja en un hospital"

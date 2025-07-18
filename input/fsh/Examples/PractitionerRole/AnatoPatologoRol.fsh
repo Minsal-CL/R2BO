@@ -1,5 +1,5 @@
-Instance:       riap-anatopatologo-hospital
-InstanceOf:     RolProfesionalRIAP
+Instance:       ribco-anatopatologo-hospital
+InstanceOf:     RolProfesionalRIBCO
 Usage:          #example
 Title:          "Profesional de Anatomía Patológica del Hospital"
 Description:    "Profesional que realiza el informe de anatomía patológica en un hospital"

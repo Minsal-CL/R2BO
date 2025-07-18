@@ -1,6 +1,6 @@
-Profile:        ObservacionMicroscopicaRIAP
+Profile:        ObservacionMicroscopicaRIBCO
 Parent:         ResultadosReporteBiopsia
-Id:             riap-observacion-microscopica
+Id:             ribco-observacion-microscopica
 Title:          "Perfil de Observación Microscópica"
 Description:    "Registro de las observaciones microscópicas de un reporte de biopsia"
 

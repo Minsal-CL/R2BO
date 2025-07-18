@@ -1,4 +1,4 @@
-Instance:       riap-solicitud-informe-apa-ej
+Instance:       ribco-solicitud-informe-apa-ej
 InstanceOf:     SolicitudInformeAPA
 Usage:          #example
 Title:          "Ejemplo de una Solicitud de Biopsia"
@@ -13,7 +13,7 @@ Description:    "Solicitud de biopsia de tejido mamario"
 * subject = Reference(paciente-requiere-examen)
 * requester = Reference(ProfesionalHospital)
 * reasonCode = ReasonCodeSospechaDiagnostica
-* specimen = Reference(riap-specimen-example)
+* specimen = Reference(ribco-specimen-example)
 * performer = Reference(hospital-collector)	
 * locationCode  = http://terminology.hl7.org/CodeSystem/v3-RoleCode#HLAB "hospital laboratory"
 

@@ -14,13 +14,13 @@
   }
 }}####
 e: {
-  "source" : tx.fhir.org,
+  "source" : localhost,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:a39357d3-a93c-48ed-9c72-51f41aa1cf8d",
-    "timestamp" : "2025-03-03T15:12:02.220Z",
+    "identifier" : "urn:uuid:068ea27f-2ed0-45d7-b856-b5f204b2e02c",
+    "timestamp" : "2025-07-18T19:06:29.866Z",
     "total" : 249,
     "offset" : 0,
     "parameter" : [{
@@ -1312,13 +1312,13 @@ e: {
   }
 }}####
 e: {
-  "source" : tx.fhir.org,
+  "source" : localhost,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:4c45b7b2-b211-4ee5-9d57-326e3f4fcc55",
-    "timestamp" : "2025-03-03T15:12:05.534Z",
+    "identifier" : "urn:uuid:deca4ae4-5061-4dca-bd9c-6abf00ddafd4",
+    "timestamp" : "2025-07-18T19:06:29.912Z",
     "total" : 249,
     "offset" : 0,
     "parameter" : [{
@@ -2610,13 +2610,13 @@ e: {
   }
 }}####
 e: {
-  "source" : tx.fhir.org,
+  "source" : localhost,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:2ceebf31-d70c-4f18-bfef-54b3d742e83e",
-    "timestamp" : "2025-03-03T15:12:06.600Z",
+    "identifier" : "urn:uuid:d5bfc839-8311-43e9-919e-40a474b7fa4d",
+    "timestamp" : "2025-07-18T19:06:29.970Z",
     "total" : 249,
     "offset" : 0,
     "parameter" : [{

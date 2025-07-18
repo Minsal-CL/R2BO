@@ -1,12 +1,12 @@
 {
   "resourceType" : "TerminologyCapabilities",
   "id" : "FhirServer",
-  "url" : "http://tx.fhir.org/r4/TerminologyCapabilities/tx",
+  "url" : "http://localhost/r4/TerminologyCapabilities/tx",
   "version" : "2.0.0",
   "name" : "FHIRReferenceServerTerminologyCapabilities",
   "title" : "FHIR Reference Server Terminology Capability Statement",
   "status" : "active",
-  "date" : "2025-03-03T15:03:56.099Z",
+  "date" : "2025-07-18T18:59:49.488Z",
   "contact" : [{
     "telecom" : [{
       "system" : "other",
@@ -28,12 +28,6 @@
   },
   {
     "uri" : "http://dicom.nema.org/resources/ontology/DCM"
-  },
-  {
-    "uri" : "http://fdasis.nlm.nih.gov"
-  },
-  {
-    "uri" : "http://fhir.ohdsi.org/CodeSystem/concepts"
   },
   {
     "uri" : "http://healthit.gov/nhin/purposeofuse"
@@ -768,10 +762,10 @@
     "uri" : "http://hl7.org/fhir/sid/icd-9-cm"
   },
   {
-    "uri" : "http://hl7.org/fhir/sid/mvx"
+    "uri" : "http://hl7.org/fhir/sid/icf"
   },
   {
-    "uri" : "http://hl7.org/fhir/sid/ndc"
+    "uri" : "http://hl7.org/fhir/sid/mvx"
   },
   {
     "uri" : "http://hl7.org/fhir/slotstatus"
@@ -831,51 +825,6 @@
     "uri" : "http://hl7.org/fhir/unknown-content-code"
   },
   {
-    "uri" : "http://hl7.org/fhir/us/core/CodeSystem/careplan-category"
-  },
-  {
-    "uri" : "http://hl7.org/fhir/us/core/CodeSystem/condition-category"
-  },
-  {
-    "uri" : "http://hl7.org/fhir/us/core/CodeSystem/us-core-category"
-  },
-  {
-    "uri" : "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category"
-  },
-  {
-    "uri" : "http://hl7.org/fhir/us/core/CodeSystem/us-core-provenance-participant-type"
-  },
-  {
-    "uri" : "http://hl7.org/fhir/uv/sdc/CodeSystem/assemble-expectation"
-  },
-  {
-    "uri" : "http://hl7.org/fhir/uv/sdc/CodeSystem/chf-codes"
-  },
-  {
-    "uri" : "http://hl7.org/fhir/uv/sdc/CodeSystem/collapsible"
-  },
-  {
-    "uri" : "http://hl7.org/fhir/uv/sdc/CodeSystem/CSPHQ9"
-  },
-  {
-    "uri" : "http://hl7.org/fhir/uv/sdc/CodeSystem/entryMode"
-  },
-  {
-    "uri" : "http://hl7.org/fhir/uv/sdc/CodeSystem/keyboardType"
-  },
-  {
-    "uri" : "http://hl7.org/fhir/uv/sdc/CodeSystem/launchContext"
-  },
-  {
-    "uri" : "http://hl7.org/fhir/uv/sdc/CodeSystem/observation-extract-relationship"
-  },
-  {
-    "uri" : "http://hl7.org/fhir/uv/sdc/CodeSystem/questionnaire-answer-constraint"
-  },
-  {
-    "uri" : "http://hl7.org/fhir/uv/sdc/CodeSystem/temp"
-  },
-  {
     "uri" : "http://hl7.org/fhir/variable-type"
   },
   {
@@ -889,9 +838,6 @@
   },
   {
     "uri" : "http://hl7.org/fhir/w3c-provenance-activity-type"
-  },
-  {
-    "uri" : "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"
   },
   {
     "uri" : "http://loinc.org"
@@ -975,7 +921,16 @@
     "uri" : "http://terminology.hl7.org/CodeSystem/appropriateness-score"
   },
   {
+    "uri" : "http://terminology.hl7.org/CodeSystem/artifact-contribution-instance-type"
+  },
+  {
     "uri" : "http://terminology.hl7.org/CodeSystem/artifact-identifier-type"
+  },
+  {
+    "uri" : "http://terminology.hl7.org/CodeSystem/artifact-relationship-type"
+  },
+  {
+    "uri" : "http://terminology.hl7.org/CodeSystem/artifact-url-classifier"
   },
   {
     "uri" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes"
@@ -1029,6 +984,9 @@
     "uri" : "http://terminology.hl7.org/CodeSystem/certainty-subcomponent-type"
   },
   {
+    "uri" : "http://terminology.hl7.org/CodeSystem/certainty-type"
+  },
+  {
     "uri" : "http://terminology.hl7.org/CodeSystem/characteristic-method"
   },
   {
@@ -1039,6 +997,33 @@
   },
   {
     "uri" : "http://terminology.hl7.org/CodeSystem/chromosome-human"
+  },
+  {
+    "uri" : "http://terminology.hl7.org/CodeSystem/citation-artifact-classifier"
+  },
+  {
+    "uri" : "http://terminology.hl7.org/CodeSystem/citation-classification-type"
+  },
+  {
+    "uri" : "http://terminology.hl7.org/CodeSystem/citation-summary-style"
+  },
+  {
+    "uri" : "http://terminology.hl7.org/CodeSystem/cited-artifact-abstract-type"
+  },
+  {
+    "uri" : "http://terminology.hl7.org/CodeSystem/cited-artifact-classification-type"
+  },
+  {
+    "uri" : "http://terminology.hl7.org/CodeSystem/cited-artifact-contribution-type"
+  },
+  {
+    "uri" : "http://terminology.hl7.org/CodeSystem/cited-artifact-part-type"
+  },
+  {
+    "uri" : "http://terminology.hl7.org/CodeSystem/cited-artifact-status-type"
+  },
+  {
+    "uri" : "http://terminology.hl7.org/CodeSystem/cited-medium"
   },
   {
     "uri" : "http://terminology.hl7.org/CodeSystem/claimcareteamrole"
@@ -1140,6 +1125,18 @@
     "uri" : "http://terminology.hl7.org/CodeSystem/contract-type"
   },
   {
+    "uri" : "http://terminology.hl7.org/CodeSystem/contributor-role"
+  },
+  {
+    "uri" : "http://terminology.hl7.org/CodeSystem/contributor-summary-source"
+  },
+  {
+    "uri" : "http://terminology.hl7.org/CodeSystem/contributor-summary-style"
+  },
+  {
+    "uri" : "http://terminology.hl7.org/CodeSystem/contributor-summary-type"
+  },
+  {
     "uri" : "http://terminology.hl7.org/CodeSystem/copy-number-event"
   },
   {
@@ -1170,10 +1167,19 @@
     "uri" : "http://terminology.hl7.org/CodeSystem/definition-use"
   },
   {
+    "uri" : "http://terminology.hl7.org/CodeSystem/devicealert-activationState"
+  },
+  {
+    "uri" : "http://terminology.hl7.org/CodeSystem/devicealert-priority"
+  },
+  {
     "uri" : "http://terminology.hl7.org/CodeSystem/device-status-reason"
   },
   {
     "uri" : "http://terminology.hl7.org/CodeSystem/diagnosis-role"
+  },
+  {
+    "uri" : "http://terminology.hl7.org/CodeSystem/diagnosistype"
   },
   {
     "uri" : "http://terminology.hl7.org/CodeSystem/dicom-audit-lifecycle"
@@ -1338,6 +1344,9 @@
     "uri" : "http://terminology.hl7.org/CodeSystem/icd-o-3"
   },
   {
+    "uri" : "http://terminology.hl7.org/CodeSystem/ICHContextOfUse"
+  },
+  {
     "uri" : "http://terminology.hl7.org/CodeSystem/ILRSpeakingSkillScale"
   },
   {
@@ -1429,6 +1438,9 @@
   },
   {
     "uri" : "http://terminology.hl7.org/CodeSystem/media-type"
+  },
+  {
+    "uri" : "http://terminology.hl7.org/CodeSystem/medical-management-type"
   },
   {
     "uri" : "http://terminology.hl7.org/CodeSystem/medication-admin-category"
@@ -1551,6 +1563,9 @@
     "uri" : "http://terminology.hl7.org/CodeSystem/primary-source-type"
   },
   {
+    "uri" : "http://terminology.hl7.org/CodeSystem/procedure-type"
+  },
+  {
     "uri" : "http://terminology.hl7.org/CodeSystem/processpriority"
   },
   {
@@ -1561,6 +1576,9 @@
   },
   {
     "uri" : "http://terminology.hl7.org/CodeSystem/provenance-participant-type"
+  },
+  {
+    "uri" : "http://terminology.hl7.org/CodeSystem/published-in-type"
   },
   {
     "uri" : "http://terminology.hl7.org/CodeSystem/push-type-available"
@@ -1659,6 +1677,9 @@
     "uri" : "http://terminology.hl7.org/CodeSystem/state-change-reason"
   },
   {
+    "uri" : "http://terminology.hl7.org/CodeSystem/statistic-model-code"
+  },
+  {
     "uri" : "http://terminology.hl7.org/CodeSystem/statistic-type"
   },
   {
@@ -1702,6 +1723,9 @@
   },
   {
     "uri" : "http://terminology.hl7.org/CodeSystem/testscript-profile-origin-types"
+  },
+  {
+    "uri" : "http://terminology.hl7.org/CodeSystem/title-type"
   },
   {
     "uri" : "http://terminology.hl7.org/CodeSystem/triggerEventID"
@@ -3615,6 +3639,9 @@
     "uri" : "http://terminology.hl7.org/CodeSystem/variable-role"
   },
   {
+    "uri" : "http://terminology.hl7.org/CodeSystem/variable-role-subtype"
+  },
+  {
     "uri" : "http://terminology.hl7.org/CodeSystem/variant-state"
   },
   {
@@ -3642,25 +3669,160 @@
     "uri" : "http://www.ada.org/snodent"
   },
   {
-    "uri" : "http://www.ama-assn.org/go/cpt"
-  },
-  {
     "uri" : "http://www.cms.gov/Medicare/Coding/ICD10"
-  },
-  {
-    "uri" : "http://www.nlm.nih.gov/research/umls/rxnorm"
   },
   {
     "uri" : "http://www.whocc.no/atc"
   },
   {
-    "uri" : "https://nahdo.org/sopt"
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSAnamnesis"
   },
   {
-    "uri" : "https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html"
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSAreaUrbanoCensal"
   },
   {
-    "uri" : "https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/hsloc.html"
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSComunas"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSCondiciondelaActividad"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSConsultaMed"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSConsultaMedEspecialidad"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSConsultaOdontoEspecialidad"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSDiagnostico"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSEspecialidadBioquimica"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSEspecialidadFarma"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSEspecialidadMedica"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSEspecialidadOdontologica"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSEstadoCivil"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSIdentidadGenero"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSInstitucionEmiteEspecialidad"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSInstitucionEmiteTitulo"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSLeyPrevisionales"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSModalidadAtencionFonasa"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSNivelAtencion"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSNivelComplejidad"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSNivelInstruccion"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSOcupaciones"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSOcupacionesDetalladas"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSOtroTipoEstabAsistenciales"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSPaises"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSPrevision"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSProvincia"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSPueblosOriginarios"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSRegion"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSReligion"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSSEREMI"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSServiciosdeSalud"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSSexoBiologico"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSSituacionDiscapacidadNivel"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSSituacionDiscapacidadOrigen"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSTipoAtencionEstablecimiento"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSTipoEstabHospitalario"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSTipoEstablecimientosPublicos"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSTipoEstabPubAtenPrim"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSTipoEstabPubEspec"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSTipoOtroTelefono"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSTipoPertinenciaEstab"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSTipoPrestador"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSTiposDocumentosDEIS"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSTipoSistemaSalud"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSTipoVia"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSTituloProfesional"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSTramosFonasa"
+  },
+  {
+    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/CodeSystem/CSUCursoAprobado"
+  },
+  {
+    "uri" : "https://www.cms.gov/Medicare/Coding/place-of-service-codes/Place_of_Service_Code_Set"
   },
   {
     "uri" : "https://www.cms.gov/Medicare/Medicare-Fee-for-Service-Payment/HospitalAcqCond/Coding"
@@ -3709,9 +3871,6 @@
   },
   {
     "uri" : "urn:oid:2.16.840.1.113883.3.1937.98.5.8"
-  },
-  {
-    "uri" : "urn:oid:2.16.840.1.113883.6.238"
   }],
   "expansion" : {
     "parameter" : [{

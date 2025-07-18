@@ -1,5 +1,5 @@
 ValueSet:       TNMCategoriaMetastasisDistantePatologicoVS
-Id:             riap-tnm-categoria-metastasis-distante-patologico-vs
+Id:             ribco-tnm-categoria-metastasis-distante-patologico-vs
 Title:          "Set de Valores Categoría TNM Patológico Metastásico Distante"
 Description:    "Set de valores utilizados para la categoría TNM patológico metastásico distante"
 

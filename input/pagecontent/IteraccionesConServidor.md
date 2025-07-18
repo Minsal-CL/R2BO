@@ -1,39 +1,13 @@
 El reposito de biopsia, permitirá recibir solicitudes e informes de anatomías patológicas, cumpliendo con lo establecido en los CapabilityStatement:
-- [Solicitud de Informes](CapabilityStatement-riap-minsal-cliente-solicitud.html)
-- [Generación de Informes](CapabilityStatement-riap-minsal-cliente-informe.html)
-- [Consultor del Repositorio](CapabilityStatement-riap-minsal-consumidor.html)
-- [Analista del Repositorio](CapabilityStatement-riap-minsal-analisis.html)
 
-### Generar solicitudes
+- [Generación de Informes](CapabilityStatement-ribco-minsal-cliente-informe.html)
+- [Consultor del Repositorio](CapabilityStatement-ribco-minsal-consumidor.html)
+- [Analista del Repositorio](CapabilityStatement-ribco-minsal-analisis.html)
 
-Para generar solicitudes se debera enviar un bundle que cumpla con el perfil ["Solicitar Informes"](StructureDefinition-riap-bundle-solicitar-informe.html). 
-realizando una operación **POST** a la raíz del servidor.
-```
-Bundle
-|
-|-->Type: transaction
-|
-|-->Entry:
-      |
-      |--> ServiceRequest 
-      |--> Patient
-      |--> PractitionerRole
-      |--> Practitioner
-      |--> Organization
-      |--> Specimen
-```
-
-#### Iteracción esperada 
-
-El diagrama a continuación explica como debería ser la iteracción entre el usuario, el sistema informatico y el repositorio: 
-
-<div align="center"> 
-    <img src="envio-solicitud.svg" alt="Iteracciones con el servicio terminológico">
-</div>
 
 ### Generar Informes
 
-Este permiso permite actualizar solicitudes y en caso de que no existan crearlas, pero va enfocado principalmente a la publicación de informes de anatomía patológica dentro del repositorio. Para cumplir con el envío de información debe utilizar un bundle que cumpla con el perfil ["Generar Informe"](StructureDefinition-riap-bundle-generar-informe.html) realizando una operación **POST** a la raíz del servidor.
+Este permiso permite actualizar solicitudes y en caso de que no existan crearlas, pero va enfocado principalmente a la publicación de informes de anatomía patológica dentro del repositorio. Para cumplir con el envío de información debe utilizar un bundle que cumpla con el perfil ["Generar Informe"](StructureDefinition-ribco-bundle-generar-informe.html) realizando una operación **POST** a la raíz del servidor.
 
 ```
 Bundle
@@ -60,15 +34,9 @@ El diagrama a continuación explica como debería ser la iteracción entre el us
     <img src="envio-informe.svg" alt="Iteracciones con el servicio terminológico">
 </div>
 
-### Consultar Solicitudes e Informes
+### Consultar Informes
 
-Para consultar el estado de una solicitud y/o un informe solo deberá realizar la consulta al recurso **ServiceRequest** y **DiagnosticReport**. Las consultas permitiran concatenar para buscar mediante el identificador del paciente para traer la información como medio estandar de búsqueda.
-
-**Traer Solicitud**
-
-```
-GET ServiceRequest?patient.identifier=9999999-9
-```
+Para consultar el estado de una solicitud y/o un informe solo deberá realizar la consulta al recurso **DiagnosticReport**. Las consultas permitiran concatenar para buscar mediante el identificador del paciente para traer la información como medio estandar de búsqueda.
 
 **Traer Informe**
 

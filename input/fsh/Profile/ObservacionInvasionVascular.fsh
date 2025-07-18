@@ -1,6 +1,6 @@
-Profile:        ObservacionInvasionVascularRIAP
+Profile:        ObservacionInvasionVascularRIBCO
 Parent:         ResultadosReporteBiopsia
-Id:             riap-observacion-invasion-vascular
+Id:             ribco-observacion-invasion-vascular
 Title:          "Perfil de Observación Invasión Vascular"
 Description:    "Registro de la invasión vascular de un tumor en reporte de biopsia"
 

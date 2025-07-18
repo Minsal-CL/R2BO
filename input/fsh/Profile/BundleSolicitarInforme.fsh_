@@ -1,6 +1,6 @@
 Profile:        BundleSolicitarInforme
 Parent:         Bundle
-Id:             riap-bundle-solicitar-informe
+Id:             ribco-bundle-solicitar-informe
 Title:          "Perfil de Bundle para Solicitar Informe"
 Description:    "Perfil de Bundle que contiene los recursos necesarios para solicitar un informe de patología."
 
@@ -66,7 +66,7 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para soli
 * entry[RolProfesional]
   * resource 1..1 MS
     * ^short = "Rol profesional que solicita el informe de anatomía patológica o del Laboratorio de Patología"
-  * resource only RolProfesionalRIAP
+  * resource only RolProfesionalRIBCO
     * ^short = "Rol profesional según lo especificado para esta guía"
   * request 1..1
     * method 1..1
@@ -107,7 +107,7 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para soli
 
 * entry[Muestra]
   * resource 1..1 MS
-  * resource only MuestraRIAP
+  * resource only MuestraRIBCO
   * request 1..1
     * method 1..1
     * method = #POST

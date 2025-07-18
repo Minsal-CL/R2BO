@@ -1,5 +1,5 @@
 ValueSet:       CategoriaspTNMVS
-Id:             riap-categorias-pTNM-VS
+Id:             ribco-categorias-pTNM-VS
 Title:          "Set de Valores para Categorias pTNM"
 Description:    "Set de valores para las categorias para el TNM patológico"
 

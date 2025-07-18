@@ -1,8 +1,8 @@
 {
-    "package-id": "hl7.fhir.cl.minsal.riap",
+    "package-id": "hl7.fhir.cl.minsal.ribco",
     "version": "0.1.0",
     "desc": "Versión de desarrollo de la guía de implementación del Repositorio Interoperable de Anatomías Patológicas del Ministerio de Salud",
-    "path": "https://interoperabilidad.minsal.cl/fhir/ig/riap/0.1.0",
+    "path": "https://interoperabilidad.minsal.cl/fhir/ig/ribco/0.1.0",
     "mode": "working",
     "changes": "changes.html",
     "status": "draft",
@@ -12,5 +12,5 @@
     "category": "Clinical Records",
     "title": "Guía de Implementación del Repositorio Interoperable de Anatomías Patológicas del Ministerio de Salud de Chile",
     "introduction": "Guía de implementación sobre el Repositorio Interoperable de Anatomías Patológicas del Ministerio de Salud de Chile",
-    "ci-build": "https://build.fhir.org/ig/MINSAL-CL/riap"
+    "ci-build": "https://build.fhir.org/ig/MINSAL-CL/ribco"
 }

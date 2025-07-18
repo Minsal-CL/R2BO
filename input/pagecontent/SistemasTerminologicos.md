@@ -6,9 +6,9 @@ Dada la necesidad de codificar en distintas terminologías, el Ministerio de Sal
 
 Que mediante la operación [$expand](http://hl7.org/fhir/R4/valueset-operation-expand.html) permitirá la búsqueda de términos con un código SNOMED-CT, mientras que la operación [$translate](http://hl7.org/fhir/R4/conceptmap-operation-translate.html) permite convertir códigos a CIE-10 o CIE-O 3. Para facilitar aún más la búsqueda de estos términos en el servidor, se crearon los siguientes sets de valores:
 
-* [Snomed CT para Hallazgos Clínicos](ValueSet-riap-snomed-hallazgos-clinicos-VS.html)
-* [Snomed CT para Topografía](ValueSet-riap-topografica-VS.html)
-* [Snomed CT para Anomalías Morfológicas](ValueSet-riap-morfologico-VS.html)
+* [Snomed CT para Hallazgos Clínicos](ValueSet-ribco-snomed-hallazgos-clinicos-VS.html)
+* [Snomed CT para Topografía](ValueSet-ribco-topografica-VS.html)
+* [Snomed CT para Anomalías Morfológicas](ValueSet-ribco-morfologico-VS.html)
 
 ### Instrucciones de Operación Expand:
 
@@ -18,14 +18,14 @@ La operación [$expand](http://hl7.org/fhir/R4/valueset-operation-expand.html) s
 
 **Consulta**
 ```
-GET /ValueSet/riap-snomed-hallazgos-clinicos/$expand?displayLanguage=es,en&filter=Neoplasia Incierto Mama
+GET /ValueSet/ribco-snomed-hallazgos-clinicos/$expand?displayLanguage=es,en&filter=Neoplasia Incierto Mama
 ```
 **Respuesta**
 ```
 {
     "resourceType": "ValueSet",
-    "id": "riap-snomed-hallazgos-clinicos",
-    "url": "https://interoperabilidad.minsal.cl/fhir/ig/riap/ValueSet/riap-snomed-hallazgos-clinicos",
+    "id": "ribco-snomed-hallazgos-clinicos",
+    "url": "https://interoperabilidad.minsal.cl/fhir/ig/ribco/ValueSet/ribco-snomed-hallazgos-clinicos",
     "name": "SnomedCTHallazgosClinicos",
     "title": "ValueSet de Snomed CT para Hallazgos Clínicos",
     "status": "draft",

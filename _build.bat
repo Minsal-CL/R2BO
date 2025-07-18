@@ -354,6 +354,8 @@ IF NOT "%jar_location%"=="not_found" (
 GOTO end
 
 
+
+
 :publish_continuous
 
 SET JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF-8
