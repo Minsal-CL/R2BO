@@ -75,13 +75,10 @@ pages:
       - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
         valueCode: informative
     title: Interacciones con el Repositorio Interoperable de Anatomías Patológicas
-<<<<<<< HEAD
-  ImplementationGuide-hl7.fhir.cl.minsal.r2bo.md:
-=======
+  
   design-considerations.md:
     title: Consideraciones de Diseño
-  ImplementationGuide-hl7.fhir.cl.minsal.ribco.md:
->>>>>>> ba2950152cfc85cdb4ac1396d69dc71a64ece17f
+  ImplementationGuide-hl7.fhir.cl.minsal.r2bo.md:
     extension:
       - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
         valueCode: informative
