@@ -26,7 +26,7 @@ publisher:
   name: Unidad de Interoperabilidad - MINSAL
   url: https://interoperabilidad.minsal.cl
   # email: test@example.org
-language: en
+language: es
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.

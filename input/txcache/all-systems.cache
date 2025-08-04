@@ -1,20 +1,26 @@
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "url": "http://hl7.org/fhir/us/mcode/ValueSet/mcode-tnm-staging-method-vs", "version": "4.0.0"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: [0137de8a-19a1-4e03-9cd4-e1dc0e0b3914]: A usable code system with URL http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl could not be resolved.\r\nInformation: X-Request-Id: 0784cf1e-2623-43c3-aecf-39303e0ea274"
+}
+-------------------------------------------------------------------------------------
 {"code" : {
   "coding" : [{
     "system" : "urn:iso:std:iso:3166",
     "code" : "CL",
     "display" : "Chile"
   }]
-}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
   },
   {
     "name" : "displayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -39,16 +45,16 @@ v: {
       "system" : "urn:ietf:bcp:13"
     }]
   }
-}, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
   },
   {
     "name" : "displayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -65,16 +71,16 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "code" : "application/fhir+json"
-}, "url": "http://hl7.org/fhir/ValueSet/mimetypes", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "http://hl7.org/fhir/ValueSet/mimetypes", "version": "4.0.1", "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
   },
   {
     "name" : "displayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -98,16 +104,16 @@ v: {
       "system" : "urn:ietf:bcp:13"
     }]
   }
-}, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
   },
   {
     "name" : "displayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -124,16 +130,16 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "code" : "application/fhir+xml"
-}, "url": "http://hl7.org/fhir/ValueSet/mimetypes", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "http://hl7.org/fhir/ValueSet/mimetypes", "version": "4.0.1", "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
   },
   {
     "name" : "displayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -149,22 +155,22 @@ v: {
 }
 -------------------------------------------------------------------------------------
 {"code" : {
-  "code" : "en"
-}, "url": "http://hl7.org/fhir/ValueSet/languages", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "es"
+}, "url": "http://hl7.org/fhir/ValueSet/languages", "version": "4.0.1", "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
   },
   {
     "name" : "displayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "English",
-  "code" : "en",
+  "display" : "Spanish",
+  "code" : "es",
   "system" : "urn:ietf:bcp:47",
   "server" : "http://localhost/r4",
   "unknown-systems" : "",
@@ -184,39 +190,112 @@ v: {
     "code" : "C50.9"
   }],
   "text" : "Mama"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/ribco/ValueSet/ribco-topografica-cieo-VS", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/ribco/ValueSet/ribco-topografica-cieo-VS", "version": "0.1.0", "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
   },
   {
     "name" : "displayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
+  "display" : "Mama, SAI",
+  "code" : "C50.9",
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "version" : "2025",
   "severity" : "error",
-  "error" : "Error from http://localhost/r4: The filter \"concept in 442083009, 446608001\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/ribco/ValueSet/ribco-topografica-VS was not understood in the context of http://snomed.info/sct",
-  "class" : "SERVER_ERROR",
+  "error" : "A definition for CodeSystem 'http://snomed.info/sct' could not be found, so the code cannot be validated; A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000001000122104/version/20241201' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/11000201108/version/20250615,http://snomed.info/sct/900000000000207008/version/20250612,http://snomed.info/sct/900000000000207008/version/20250701]; The provided code 'http://snomed.info/sct#76752008' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/ribco/ValueSet/ribco-topografica-cieo-VS|0.1.0'; The system http://terminology.hl7.org/CodeSystem/icd-o-3 was found but did not contain enough information to properly validate the code \"C50.9\" (\"\") (mode = fragment)",
+  "class" : "UNKNOWN",
+  "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "UNKNOWN_CODESYSTEM_VERSION"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "http://localhost/r4"
+    }],
     "severity" : "error",
-    "code" : "exception",
+    "code" : "not-found",
     "details" : {
-      "text" : "Error from http://localhost/r4: The filter \"concept in 442083009, 446608001\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/ribco/ValueSet/ribco-topografica-VS was not understood in the context of http://snomed.info/sct"
-    }
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-found"
+      }],
+      "text" : "A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000001000122104/version/20241201' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/11000201108/version/20250615,http://snomed.info/sct/900000000000207008/version/20250612,http://snomed.info/sct/900000000000207008/version/20250701]"
+    },
+    "location" : ["CodeableConcept.coding[0].system"],
+    "expression" : ["CodeableConcept.coding[0].system"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "http://localhost/r4"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://snomed.info/sct#76752008' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/ribco/ValueSet/ribco-topografica-cieo-VS|0.1.0'"
+    },
+    "location" : ["CodeableConcept.coding[0].code"],
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "UNKNOWN_CODESYSTEM"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "http://localhost/r4"
+    }],
+    "severity" : "error",
+    "code" : "not-found",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-found"
+      }],
+      "text" : "A definition for CodeSystem 'http://snomed.info/sct' could not be found, so the code cannot be validated"
+    },
+    "location" : ["CodeableConcept.coding[0].system"],
+    "expression" : ["CodeableConcept.coding[0].system"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "http://localhost/r4"
+    }],
+    "severity" : "warning",
+    "code" : "not-found",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "vs-invalid"
+      }],
+      "text" : "The system http://terminology.hl7.org/CodeSystem/icd-o-3 was found but did not contain enough information to properly validate the code \"C50.9\" (\"\") (mode = fragment)"
+    },
+    "location" : ["CodeableConcept.coding[1]"],
+    "expression" : ["CodeableConcept.coding[1]"]
   }]
 }
 
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "url": "http://hl7.org/fhir/us/mcode/ValueSet/mcode-tnm-staging-method-vs", "version": "4.0.0"}####
-e: {
-  "from-server" : true,
-  "error" : "Error from http://localhost/r4: The code system definition for http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl is a fragment, so this expansion is not permitted unless the expansion parameter \"incomplete-ok\" has a value of \"true\""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -230,11 +309,11 @@ e: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
   },
   {
     "name" : "displayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {

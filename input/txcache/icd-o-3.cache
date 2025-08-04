@@ -2,23 +2,23 @@
 {"code" : {
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
   "code" : "8500/3"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
   },
   {
     "name" : "displayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Infiltrating duct carcinoma, NOS",
+  "display" : "Carcinoma ductal infiltrante, SAI (C50._)",
   "code" : "8500/3",
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "version" : "2000",
+  "version" : "2025",
   "server" : "http://localhost/r4",
   "unknown-systems" : "",
   "issues" : {
@@ -30,23 +30,23 @@ v: {
 {"code" : {
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
   "code" : "8500/3"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/ribco/ValueSet/ribco-cieo3-VS--0", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/ribco/ValueSet/ribco-cieo3-VS--0", "version": "0.1.0", "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
   },
   {
     "name" : "displayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Infiltrating duct carcinoma, NOS",
+  "display" : "Carcinoma ductal infiltrante, SAI (C50._)",
   "code" : "8500/3",
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "version" : "2000",
+  "version" : "2025",
   "server" : "http://localhost/r4",
   "unknown-systems" : "",
   "issues" : {
@@ -58,23 +58,23 @@ v: {
 {"code" : {
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
   "code" : "8500/3"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/ribco/ValueSet/ribco-cieo3-VS", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/ribco/ValueSet/ribco-cieo3-VS", "version": "0.1.0", "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
   },
   {
     "name" : "displayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Infiltrating duct carcinoma, NOS",
+  "display" : "Carcinoma ductal infiltrante, SAI (C50._)",
   "code" : "8500/3",
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "version" : "2000",
+  "version" : "2025",
   "server" : "http://localhost/r4",
   "unknown-systems" : "",
   "issues" : {
@@ -86,70 +86,27 @@ v: {
 {"code" : {
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
   "code" : "C50.9"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/ribco/ValueSet/ribco-cieo3-VS", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/ribco/ValueSet/ribco-cieo3-VS", "version": "0.1.0", "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
   },
   {
     "name" : "displayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
+  "display" : "Mama, SAI",
   "code" : "C50.9",
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "severity" : "error",
-  "error" : "The provided code 'http://terminology.hl7.org/CodeSystem/icd-o-3#C50.9' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/ribco/ValueSet/ribco-cieo3-VS|0.1.0'; Unknown Code 'C50.9' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment",
-  "class" : "UNKNOWN",
+  "version" : "2025",
   "server" : "http://localhost/r4",
   "unknown-systems" : "",
   "issues" : {
-  "resourceType" : "OperationOutcome",
-  "issue" : [{
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
-      "valueString" : "UNKNOWN_CODE_IN_FRAGMENT"
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
-      "valueUrl" : "http://localhost/r4"
-    }],
-    "severity" : "warning",
-    "code" : "code-invalid",
-    "details" : {
-      "coding" : [{
-        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
-        "code" : "invalid-code"
-      }],
-      "text" : "Unknown Code 'C50.9' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment"
-    },
-    "location" : ["Coding.code"],
-    "expression" : ["Coding.code"]
-  },
-  {
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
-      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
-      "valueUrl" : "http://localhost/r4"
-    }],
-    "severity" : "error",
-    "code" : "code-invalid",
-    "details" : {
-      "coding" : [{
-        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
-        "code" : "not-in-vs"
-      }],
-      "text" : "The provided code 'http://terminology.hl7.org/CodeSystem/icd-o-3#C50.9' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/ribco/ValueSet/ribco-cieo3-VS|0.1.0'"
-    },
-    "location" : ["Coding.code"],
-    "expression" : ["Coding.code"]
-  }]
+  "resourceType" : "OperationOutcome"
 }
 
 }
@@ -157,49 +114,27 @@ v: {
 {"code" : {
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
   "code" : "C50.9"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
   },
   {
     "name" : "displayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
+  "display" : "Mama, SAI",
   "code" : "C50.9",
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "version" : "2000",
-  "severity" : "warning",
-  "error" : "Unknown Code 'C50.9' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment",
+  "version" : "2025",
   "server" : "http://localhost/r4",
   "unknown-systems" : "",
   "issues" : {
-  "resourceType" : "OperationOutcome",
-  "issue" : [{
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
-      "valueString" : "UNKNOWN_CODE_IN_FRAGMENT"
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
-      "valueUrl" : "http://localhost/r4"
-    }],
-    "severity" : "warning",
-    "code" : "code-invalid",
-    "details" : {
-      "coding" : [{
-        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
-        "code" : "invalid-code"
-      }],
-      "text" : "Unknown Code 'C50.9' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment"
-    },
-    "location" : ["Coding.code"],
-    "expression" : ["Coding.code"]
-  }]
+  "resourceType" : "OperationOutcome"
 }
 
 }
@@ -229,7 +164,7 @@ e: {
   "title" : "Set de Valores de la Clasificación Internacional de Enfermedades Oncológicas 3ra Edición",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-07-18T14:58:44-04:00",
+  "date" : "2025-07-23T12:34:47-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -238,9 +173,9 @@ e: {
     }]
   }],
   "expansion" : {
-    "identifier" : "urn:uuid:772787a3-f40e-420c-9e0f-4fb33ba01719",
-    "timestamp" : "2025-07-18T19:04:19.230Z",
-    "total" : 3,
+    "identifier" : "urn:uuid:d0eee5b7-3900-4210-a8c2-16c1e016f002",
+    "timestamp" : "2025-07-23T16:41:46.928Z",
+    "total" : 315,
     "offset" : 0,
     "parameter" : [{
       "name" : "limitedExpansion",
@@ -248,7 +183,7 @@ e: {
     },
     {
       "name" : "displayLanguage",
-      "valueCode" : "en"
+      "valueCode" : "es"
     },
     {
       "name" : "excludeNested",
@@ -264,30 +199,1590 @@ e: {
     },
     {
       "name" : "fragment",
-      "valueUri" : "http://terminology.hl7.org/CodeSystem/icd-o-3|2000"
+      "valueUri" : "http://terminology.hl7.org/CodeSystem/icd-o-3|2025"
     },
     {
       "name" : "used-codesystem",
-      "valueUri" : "http://terminology.hl7.org/CodeSystem/icd-o-3|2000"
+      "valueUri" : "http://terminology.hl7.org/CodeSystem/icd-o-3|2025"
     },
     {
       "name" : "version",
-      "valueUri" : "http://terminology.hl7.org/CodeSystem/icd-o-3|2000"
+      "valueUri" : "http://terminology.hl7.org/CodeSystem/icd-o-3|2025"
     }],
     "contains" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-      "code" : "8500/3",
-      "display" : "Infiltrating duct carcinoma, NOS"
+      "code" : "T",
+      "display" : "Topografía",
+      "contains" : [{
+        "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code" : "C00-C14",
+        "display" : "Labío, Cavidad Oral y Faringe",
+        "contains" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C00",
+          "display" : "LABIO",
+          "contains" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C00.0",
+            "display" : "Labio superior, parte externa"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C00.1",
+            "display" : "Labio inferior, parte externa"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C00.2",
+            "display" : "Labio, parte externa, SAI"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C00.3",
+            "display" : "Mucosa del labio superior"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C00.4",
+            "display" : "Mucosa del labio inferior"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C00.5",
+            "display" : "Mucosa del labio, SAI"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C00.6",
+            "display" : "Comisura del labio"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C00.8",
+            "display" : "Lesión solapada del labio"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C00.9",
+            "display" : "Labio, SAI"
+          }]
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C01",
+          "display" : "BASE DE LA LENGUA",
+          "contains" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C01.9",
+            "display" : "Base de la lengua, SAI"
+          }]
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C02",
+          "display" : "OTRAS PARTES DE LA LENGUA Y LAS NO ESPECIFICADAS",
+          "contains" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C02.0",
+            "display" : "Superficie dorsal de la lengua, SAI"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C02.1",
+            "display" : "Borde de la lengua"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C02.2",
+            "display" : "Superficie ventral de la lengua, SAI"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C02.3",
+            "display" : "Dos tercios anteriores de la lengua, SAI"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C02.4",
+            "display" : "Amígdala lingual"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C02.8",
+            "display" : "Lesión solapada de la lengua"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C02.9",
+            "display" : "Lengua, SAI"
+          }]
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C03",
+          "display" : "ENCÍA",
+          "contains" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C03.0",
+            "display" : "Encía superior"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C03.1",
+            "display" : "Encía inferior"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C03.9",
+            "display" : "Encía, SAI"
+          }]
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C04",
+          "display" : "SUELO DE LA BOCA",
+          "contains" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C04.0",
+            "display" : "Parte anterior del suelo de la boca"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C04.1",
+            "display" : "Parte lateral del suelo de la boca"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C04.8",
+            "display" : "Lesión solapada del suelo de la boca"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C04.9",
+            "display" : "Suelo de la boca, SAI"
+          }]
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C05",
+          "display" : " PALADAR",
+          "contains" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C05.0",
+            "display" : "Paladar duro"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C05.1",
+            "display" : "Paladar blando, SAI"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C05.2",
+            "display" : "Úvula"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C05.8",
+            "display" : "Lesión solapada del paladar"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C05.9",
+            "display" : "Paladar, SAI"
+          }]
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C06",
+          "display" : "OTRAS PARTES DE LA BOCA Y LAS NO ESPECIFICADAS",
+          "contains" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C06.0",
+            "display" : "Mucosa de la mejilla"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C06.1",
+            "display" : "Vestíbulo de la boca"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C06.2",
+            "display" : "Área retromolar"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C06.8",
+            "display" : "Lesión solapada de otras partes y las no especificadas de la boca"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C06.9",
+            "display" : "Boca, SAI"
+          }]
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C07",
+          "display" : "GLÁNDULA PARÓTIDA",
+          "contains" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C07.9",
+            "display" : "Glándula parótida"
+          }]
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C08",
+          "display" : "Otras Glándulas Salivares Principales Y Las No Especificadas",
+          "contains" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C08.0",
+            "display" : "Glándula submandibular"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C08.1",
+            "display" : "Glándula sublingual"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C08.8",
+            "display" : "Lesión solapada de las glándulas salivales mayores"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C08.9",
+            "display" : "Lesión solapada de otras glándulas salivales principales y las no especificadas"
+          }]
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C09",
+          "display" : "Amígdala",
+          "contains" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C09.0",
+            "display" : "Fosa amigdalina"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C09.1",
+            "display" : "Pilar amigdalino"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C09.8",
+            "display" : "Lesión solapada de la amígdala"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C09.9",
+            "display" : "Amígdala, SAI"
+          }]
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C10",
+          "display" : "Orofaringe",
+          "contains" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C10.0",
+            "display" : "Valécula epiglótica"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C10.1",
+            "display" : "Cara anterior de la epiglotis"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C10.2",
+            "display" : "Pared lateral de la orofaringe"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C10.3",
+            "display" : "Pared posterior de la orofaringe"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C10.4",
+            "display" : "Hendidura branquial"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C10.8",
+            "display" : "Lesión solapada de la orofaringe"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C10.9",
+            "display" : "Orofaringe, SAI"
+          }]
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C11",
+          "display" : "Nasofaringe",
+          "contains" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C11.0",
+            "display" : "Pared superior de la nasofaringe"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C11.1",
+            "display" : "Pared posterior de la nasofaringe"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C11.2",
+            "display" : "Pared lateral de la nasofaringe"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C11.3",
+            "display" : "Pared anterior de la nasofaringe"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C11.8",
+            "display" : "Lesión solapada de la nasofaringe"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C11.9",
+            "display" : "Nasofaringe, SAI"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C12",
+            "display" : "Seno Piriforme"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C12.9",
+            "display" : "Seno piriforme"
+          }]
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C13",
+          "display" : "Hipofaringe",
+          "contains" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C13.0",
+            "display" : "Región postcricoidea"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C13.1",
+            "display" : "Cara hipofaríngea del pliegue aritenoepiglótico"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C13.2",
+            "display" : "Pared posterior de la hipofaringe"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C13.8",
+            "display" : "Lesión solapada de la hipofaringe"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C13.9",
+            "display" : "Hipofaringe, SAI"
+          }]
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C14",
+          "display" : "Otras Localizaciones Y Las Mal Definidas Del Labio, Cavidad Oral Y Faringe",
+          "contains" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C14.0",
+            "display" : "Faringe, SAI"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C14.2",
+            "display" : "Anillo de Waldeyer"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C14.8",
+            "display" : "Lesión solapada del labio, cavidad oral y faringe"
+          }]
+        }]
+      },
+      {
+        "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code" : "C15-C26",
+        "display" : "ÓRGANOS DIGESTIVOS",
+        "contains" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C15",
+          "display" : "ESÓFAGO",
+          "contains" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C15.0",
+            "display" : "Esófago cervical"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C15.1",
+            "display" : "Esófago torácico"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C15.2",
+            "display" : "Esófago abdominal"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C15.3",
+            "display" : "Tercio superior del esófago"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C15.4",
+            "display" : "Tercio medio del esófago"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C15.5",
+            "display" : "Tercio inferior del esófago"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C15.8",
+            "display" : "Lesión de sitios contiguos del esófago"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C15.9",
+            "display" : "Esófago, SAI"
+          }]
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C16",
+          "display" : "ESTÓMAGO",
+          "contains" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C16.0",
+            "display" : "Cardias, SAI"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C16.1",
+            "display" : "Fondo del estómago"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C16.2",
+            "display" : "Cuerpo del estómago"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C16.3",
+            "display" : "Antro gástrico"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C16.4",
+            "display" : "Píloro"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C16.5",
+            "display" : "Lesión de la curvatura menor, SAI (no clasificable entre C16.1-C16.4)"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C16.6",
+            "display" : "Lesión de la curvatura mayor, SAI (no clasificable entre C16.0-C16.4)"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C16.8",
+            "display" : "Lesión de sitios contiguos del estómago"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C16.9",
+            "display" : "Estómago, SAI"
+          }]
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C17",
+          "display" : "INTESTINO DELGADO",
+          "contains" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C17.0",
+            "display" : "Duodeno"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C17.1",
+            "display" : "Yeyuno"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C17.2",
+            "display" : "Íleon (excluye Válvula ileocecal C18.0)"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C17.3",
+            "display" : "Divertículo de Meckel (localización del tumor)"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C17.8",
+            "display" : "Lesión de sitios contiguos del intestino delgado"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C17.9",
+            "display" : "Intestino delgado, SAI"
+          }]
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C18",
+          "display" : "COLON",
+          "contains" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C18.0",
+            "display" : "Ciego"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C18.1",
+            "display" : "Apéndice"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C18.2",
+            "display" : "Colon ascendente"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C18.3",
+            "display" : "Ángulo hepático del colon"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C18.4",
+            "display" : "Colon transverso"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C18.5",
+            "display" : "Ángulo esplénico del colon"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C18.6",
+            "display" : "Colon descendente"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C18.7",
+            "display" : "Colon sigmoide"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C18.8",
+            "display" : "Lesión de sitios contiguos del colon"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C18.9",
+            "display" : "Colon, SAI"
+          }]
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C19",
+          "display" : "UNIÓN RECTOSIGMOIDEA",
+          "contains" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C19.9",
+            "display" : "Unión rectosigmoidea"
+          }]
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C20",
+          "display" : "RECTO",
+          "contains" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C20.9",
+            "display" : "Recto, SAI"
+          }]
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C21",
+          "display" : "ANO Y CANAL ANAL",
+          "contains" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C21.0",
+            "display" : "Ano, SAI"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C21.1",
+            "display" : "Canal anal"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C21.2",
+            "display" : "Zona cloacogénica"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C21.8",
+            "display" : "Lesión de sitios contiguos del recto, ano y canal anal"
+          }]
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C22",
+          "display" : "HÍGADO Y CONDUCTOS BILIARES INTRAHEPÁTICOS",
+          "contains" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C22.0",
+            "display" : "Hígado"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C22.1",
+            "display" : "Conducto biliar intrahepático"
+          }]
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C23",
+          "display" : "VESÍCULA BILIAR",
+          "contains" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C23.9",
+            "display" : "Vesícula biliar"
+          }]
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C24",
+          "display" : "OTRAS PARTES Y LAS NO ESPECIFICADAS DE LAS VÍAS BILIARES",
+          "contains" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C24.0",
+            "display" : "Vías biliares extrahepáticas"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C24.1",
+            "display" : "Ampolla de Vater"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C24.8",
+            "display" : "Lesión de sitios contiguos de las vías biliares"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C24.9",
+            "display" : "Vías biliares, SAI"
+          }]
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C25",
+          "display" : "PÁNCREAS",
+          "contains" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C25.0",
+            "display" : "Cabeza del páncreas"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C25.1",
+            "display" : "Cuerpo del páncreas"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C25.2",
+            "display" : "Cola del páncreas"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C25.3",
+            "display" : "Conducto pancreático"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C25.4",
+            "display" : "Islotes de Langerhans"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C25.7",
+            "display" : "Otras partes especificadas del páncreas"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C25.8",
+            "display" : "Lesión de sitios contiguos del páncreas"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C25.9",
+            "display" : "Páncreas, SAI"
+          }]
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C26",
+          "display" : "OTROS SITIOS Y LOS MAL DEFINIDOS DE LOS ÓRGANOS DIGESTIVOS",
+          "contains" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C26.0",
+            "display" : "Tracto intestinal, SAI"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C26.8",
+            "display" : "Lesión de sitios contiguos del sistema digestivo"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C26.9",
+            "display" : "Tracto gastrointestinal, SAI"
+          }]
+        }]
+      },
+      {
+        "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code" : "C40-C41",
+        "display" : "HUESOS, ARTICULACIONES Y CARTÍLAGOS ARTICULARES",
+        "contains" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C40",
+          "display" : "HUESOS, ARTICULACIONES Y CARTÍLAGOS ARTICULARES DE LOS MIEMBROS",
+          "contains" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C40.0",
+            "display" : "Articulación acromioclavicular"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C40.1",
+            "display" : "Articulación de la mano"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C40.2",
+            "display" : "Articulación de la rodilla, SAI"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C40.3",
+            "display" : "Articulación del pie"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C40.8",
+            "display" : "Lesión de sitios contiguos de los huesos, articulaciones y cartílagos articulares de las extremidades"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C40.9",
+            "display" : "Hueso de las extremidades, SAI"
+          }]
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C41",
+          "display" : "HUESOS, ARTICULACIONES Y CARTÍLAGOS ARTICULARES DE OTROS SITIOS Y DE LOS NO ESPECIFICADOS",
+          "contains" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C41.0",
+            "display" : "Calota"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C41.1",
+            "display" : "Mandíbula"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C41.2",
+            "display" : "Atlas"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C41.3",
+            "display" : "Apéndice xifoides"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C41.4",
+            "display" : "Acetábulo"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C41.8",
+            "display" : "Lesión de sitios contiguos de los huesos, las articulaciones y el cartílago articular"
+          },
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+            "code" : "C41.9",
+            "display" : "Hueso, SAI"
+          }]
+        }]
+      },
+      {
+        "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code" : "C42",
+        "display" : "SISTEMAS HEMATOPOYÉTICO Y RETICULOENDOTELIAL",
+        "contains" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C42.0",
+          "display" : "Sangre"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C42.1",
+          "display" : "Médula ósea"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C42.2",
+          "display" : "Bazo"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C42.3",
+          "display" : "Sistema reticuloendotelial, SAI"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C42.4",
+          "display" : "Sistema hematopoyético, SAI"
+        }]
+      },
+      {
+        "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code" : "C44",
+        "display" : "PIEL (excluye Piel de la vulva C51._, Piel del pene C60.9, y Piel del escroto C63.2)",
+        "contains" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C44.0",
+          "display" : "Piel del labio, SAI"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C44.1",
+          "display" : "Párpado"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C44.2",
+          "display" : "Oído externo"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C44.3",
+          "display" : "Piel de otras partes y las no especificadas de la cara"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C44.4",
+          "display" : "Piel del cuero cabelludo y del cuello"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C44.5",
+          "display" : "Piel del tronco"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C44.6",
+          "display" : "Piel del miembro superior y del hombro"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C44.7",
+          "display" : "Piel del miembro inferior y la cadera"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C44.8",
+          "display" : "Lesión de sitios contiguos de la piel"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C44.9",
+          "display" : "Piel, SAI"
+        }]
+      },
+      {
+        "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code" : "C50",
+        "display" : "C50 MAMA (excluye Piel de la mama C44.5)",
+        "contains" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C50.0",
+          "display" : "Areola"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C50.1",
+          "display" : "Porción central de la mama"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C50.2",
+          "display" : "Cuadrante superior interno de la mama"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C50.3",
+          "display" : "Cuadrante inferior interno de la mama"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C50.4",
+          "display" : "Cuadrante superior externo de la mama"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C50.5",
+          "display" : "Cuadrante inferior externo de la mama"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C50.6",
+          "display" : "Sobreposición de los cuadrantes internos de la mama"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C50.8",
+          "display" : "Lesión solapada de la mama"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "C50.9",
+          "display" : "Mama, SAI"
+        }]
+      }]
     },
     {
       "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-      "code" : "8140/3",
-      "display" : "Adenocarcinoma, NOS"
-    },
-    {
-      "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-      "code" : "8046/3",
-      "display" : "Non-small cell carcinoma"
+      "code" : "M",
+      "display" : "Morfología",
+      "contains" : [{
+        "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code" : "800",
+        "display" : "Neoplasias, SAI ",
+        "contains" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8000/0",
+          "display" : "Neoplasia benigna"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8000/1",
+          "display" : " Neoplasia de benignidad o malignidad incierta"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8000/3",
+          "display" : "Neoplasia maligna"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8000/6",
+          "display" : "Neoplasia metastásica"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8000/9",
+          "display" : "Neoplasia maligna, localización primaria o metastásica incierta"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8001/0",
+          "display" : "Células tumorales benignas"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8001/1",
+          "display" : "Células tumorales de benignidad o malignidad incierta"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8001/3",
+          "display" : "Células tumorales malignas"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8002/3",
+          "display" : "Tumor maligno de células pequeñas"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8003/3",
+          "display" : "Tumor maligno de células gigantes"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8004/3",
+          "display" : "Tumor maligno de células fusiformes"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8005/0",
+          "display" : "Tumor de células claras, SAI"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8005/3",
+          "display" : "Tumor maligno, tipo células claras"
+        }]
+      },
+      {
+        "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code" : "801-804",
+        "display" : "Neoplasias epiteliales, SAI",
+        "contains" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8010/0",
+          "display" : "Tumor epitelial benigno"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8010/2",
+          "display" : "Carcinoma in situ, SAI"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8010/3",
+          "display" : "Carcinoma, SAI"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8010/6",
+          "display" : "Carcinoma metastásico, SAI"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8010/9",
+          "display" : "Carcinomatosis"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8011/0",
+          "display" : "Epitelioma benigno"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8011/3",
+          "display" : "Epitelioma maligno"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8012/3",
+          "display" : "Carcinoma de células grandes, SAI "
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8013/3",
+          "display" : "Carcinoma neuroendocrino de células grandes"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8014/3",
+          "display" : "Carcinoma de células grandes con fenotipo rabdoide"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8015/3",
+          "display" : "Carcinoma de células vidriosas"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8020/3",
+          "display" : "Carcinoma indiferenciado, SAI"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8021/3",
+          "display" : "Carcinoma de tipo anaplásico, SAI"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8022/3",
+          "display" : "Carcinoma pleomorfo"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8030/3",
+          "display" : "Carcinoma de células gigantes y fusiformes"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8031/3",
+          "display" : "Carcinoma de células gigantes"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8032/",
+          "display" : "Carcinoma de células fusiformes, SAI"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8033/3",
+          "display" : "Carcinoma seudosarcomatoso"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8034/3",
+          "display" : "Carcinoma de células poligonales"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8035/3",
+          "display" : "Carcinoma con células gigantes tipo osteoclasto"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8040/0",
+          "display" : "Tumorlet, benigno"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8041/0",
+          "display" : "Tumorlet, SAI"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8041/3",
+          "display" : "Carcinoma de células pequeñas, SAI"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8042/3",
+          "display" : "Carcinoma de células en grano de avena(C34._)"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8043/3",
+          "display" : "Carcinoma de células pequeñas, tipo fusiforme"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8044/3",
+          "display" : "Carcinoma de células pequeñas, tipo intermedio"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8045/3",
+          "display" : "Carcinoma combinado de células pequeñas"
+        }]
+      },
+      {
+        "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code" : "805-808",
+        "display" : "Neoplasias de células escamosas",
+        "contains" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8050/0",
+          "display" : "Papiloma, SAI (excepto papiloma de vejiga 8120/1)"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8050/2",
+          "display" : "Carcinoma papilar in situ"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8050/3",
+          "display" : "Carcinoma papilar, SAI"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8051/0",
+          "display" : "Papiloma verrugoso"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8051/3",
+          "display" : "Carcinoma verrugoso, SAI"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8052/0",
+          "display" : "Papiloma epidermoide, SAI"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8052/2",
+          "display" : "Carcinoma papilar epidermoide no invasivo"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8052/3",
+          "display" : "Carcinoma papilar de células escamosas"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8053/0",
+          "display" : "Papiloma de células escamosas invertido"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8060/0",
+          "display" : "Papilomatosis escamosa"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8070/2",
+          "display" : "Carcinoma epidermoide in situ, SAI"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8070/3",
+          "display" : "Carcinoma epidermoide, SAI"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8070/6",
+          "display" : "Carcinoma metastásico de células escamosas, SAI"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8071/3",
+          "display" : "Carcinoma epidermoide, tipo queratinizante, SAI"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8072/3",
+          "display" : "Carcinoma epidermoide de células grandes, tipo no queratinizante, SAI"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8073/3",
+          "display" : "Carcinoma epidermoide de células pequeñas, tipo no queratinizante"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8074/3",
+          "display" : "Carcinoma epidermoide de células fusiformes"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8075/3",
+          "display" : "Carcinoma epidermoide seudoglandular"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8076/2",
+          "display" : "Carcinoma epidermoide in situ con invasión dudosa del estroma"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8076/3",
+          "display" : "Carcinoma epidermoide microinvasor"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8077/0",
+          "display" : "Neoplasia intraepitelial de células escamosas de bajo grado"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8077/2",
+          "display" : "Neoplasia intraepitelial de células escamosas de alto grado"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8078/3",
+          "display" : "Carcinoma epidermoide con formación córnea"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8080/2",
+          "display" : "Eritroplasia de Queyrat (C60._)"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8081/2",
+          "display" : "Enfermedad de Bowen (C44._)"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8082/3",
+          "display" : "Carcinoma linfoepitelial"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8083/3",
+          "display" : "Carcinoma basaloide de células escamosas"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8084/3",
+          "display" : "Carcinoma de células escamosas, tipo células claras"
+        }]
+      },
+      {
+        "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code" : "850-854",
+        "display" : "Neoplasias ductales y lobulares",
+        "contains" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8500/2",
+          "display" : "Carcinoma intraductal no infi ltrante, SAI "
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8500/3",
+          "display" : "Carcinoma ductal infiltrante, SAI (C50._)"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8501/2",
+          "display" : "Comedocarcinoma no infi ltrante (C50._)"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8501/3",
+          "display" : "Comedocarcinoma, SAI (C50._)"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8502/3",
+          "display" : "Carcinoma juvenil de la mama (C50._) "
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8503/0",
+          "display" : "Papiloma intraductal"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8503/3",
+          "display" : "Adenocarcinoma papilar intraductal con invasión (C50._)"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8504/0",
+          "display" : "Adenoma papilar intraquístico"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8504/2",
+          "display" : "Carcinoma intraquístico no infiltrante"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8504/3",
+          "display" : "Carcinoma intraquístico, SAI"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8505/0",
+          "display" : "Papilomatosis intraductal, SAI"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8506/0",
+          "display" : "Adenoma del pezón (C50.0)"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8507/2",
+          "display" : "Carcinoma micropapilar intraductal (C50._)"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8508/3",
+          "display" : "Carcinoma hipersecretor quístico (C50._)"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8510/3",
+          "display" : "Carcinoma medular, SAI"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8512/3",
+          "display" : "Carcinoma medular con estroma linfoide"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8513/3",
+          "display" : "Carcinoma medular atípico (C50._)"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8520/2",
+          "display" : "Carcinoma lobulillar in situ, SAI (C50._)"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8521/3",
+          "display" : "Carcinoma de los conductos terminales, infiltrante (C50._)"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8522/2",
+          "display" : "Carcinoma intraductal y carcinoma lobulillar in situ (C50._)"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8522/3",
+          "display" : "Carcinoma ductal y lobulillar infiltrante (C50._)"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8523/3",
+          "display" : "Carcinoma ductal infiltrante mezclado con otros tipos de carcinoma (C50._)"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8524/3",
+          "display" : "Carcinoma lobulillar infiltrante mezclado con otros tipos de carcinoma (C50._)"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8525/3",
+          "display" : "Adenocarcinoma polimorfo de bajo grado"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8530/3",
+          "display" : "Carcinoma inflamatorio (C50._)"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8540/3",
+          "display" : "Enfermedad de Paget, mamaria (C50._)"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8541/3",
+          "display" : "Enfermedad de Paget y carcinoma ductal infiltrante de la mama (C50._)"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8542/3",
+          "display" : "Enfermedad de Paget extramamaria (excepto enfermedad de Paget de hueso)"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8543/3",
+          "display" : "Enfermedad de Paget y carcinoma intraductal de la mama (C50._)"
+        }]
+      },
+      {
+        "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code" : "855",
+        "display" : "Neoplasias de células acinosas",
+        "contains" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8550/0",
+          "display" : "Adenoma de células acinosas"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8550/1",
+          "display" : "Tumor de células acinosas [obs]"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8550/3",
+          "display" : "Carcinoma de células acinosas"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8551/3",
+          "display" : "Cistadenocarcinoma células acinares"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8552/3",
+          "display" : "Carcinoma acinar-ductal mixto"
+        }]
+      },
+      {
+        "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+        "code" : "856-857",
+        "display" : "Neoplasias epiteliales complejas",
+        "contains" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8560/0",
+          "display" : "Papiloma mixto de células escamosas y glandular"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8560/3",
+          "display" : "Carcinoma adenoescamoso"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8561/0",
+          "display" : "Adenolinfoma (C07._, C08._)"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8562/3",
+          "display" : "Carcinoma epitelial-mioepitelial"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8570/3",
+          "display" : "Adenocarcinoma con metaplasia escamosa"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8571/3",
+          "display" : "Adenocarcinoma con metaplasia ósea y cartilaginosa"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8572/3",
+          "display" : "Adenocarcinoma con metaplasia de células fusiformes"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8573/3",
+          "display" : "Adenocarcinoma con metaplasia apocrina"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8574/3",
+          "display" : "Adenocarcinoma con diferenciación neuroendocrina"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8575/3",
+          "display" : "Carcinoma metaplásico, SAI"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+          "code" : "8576/3",
+          "display" : "Adenocarcinoma hepatoide"
+        }]
+      }]
     }]
   }
 },

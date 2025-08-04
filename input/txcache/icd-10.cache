@@ -3,16 +3,16 @@
   "system" : "http://hl7.org/fhir/sid/icd-10",
   "version" : "2019-covid-expanded",
   "code" : "D48.6"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
   },
   {
     "name" : "displayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -31,16 +31,16 @@ v: {
 {"code" : {
   "system" : "http://hl7.org/fhir/sid/icd-10",
   "code" : "D48.6"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/ribco/ValueSet/ribco-cie10-vs--0", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/ribco/ValueSet/ribco-cie10-vs--0", "version": "0.1.0", "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
   },
   {
     "name" : "displayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -60,16 +60,16 @@ v: {
   "system" : "http://hl7.org/fhir/sid/icd-10",
   "version" : "2019-covid-expanded",
   "code" : "D48.6"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/ribco/ValueSet/ribco-cie10-vs", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/ribco/ValueSet/ribco-cie10-vs", "version": "0.1.0", "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
   },
   {
     "name" : "displayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -90,8 +90,7 @@ v: {
   "compose" : {
     "inactive" : true,
     "include" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "version" : "2019-covid-expanded"
+      "system" : "http://hl7.org/fhir/sid/icd-10"
     }]
   }
 }}####
@@ -111,7 +110,7 @@ e: {
   "title" : "Set de Valores de la Clasificación Internacional de Enfermedades 10 Versión",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-07-18T14:58:44-04:00",
+  "date" : "2025-07-23T12:34:47-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -120,8 +119,8 @@ e: {
     }]
   }],
   "expansion" : {
-    "identifier" : "urn:uuid:d38aeb07-e45e-4da2-8252-8be0afe6b892",
-    "timestamp" : "2025-07-18T19:04:12.190Z",
+    "identifier" : "urn:uuid:e742a661-796c-47c4-aea3-343118bca5f0",
+    "timestamp" : "2025-07-23T16:41:08.227Z",
     "offset" : 0,
     "parameter" : [{
       "name" : "limitedExpansion",
@@ -129,7 +128,7 @@ e: {
     },
     {
       "name" : "displayLanguage",
-      "valueCode" : "en"
+      "valueCode" : "es"
     },
     {
       "name" : "excludeNested",

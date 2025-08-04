@@ -85,16 +85,12 @@ Description:    "Informe de anatomía patológica"
 * conclusionCode[Morfologico] from MorfologicoSnomedCIEOVS (extensible)
 * conclusionCode[Morfologico]
   * id = "Morfologico"
-  * coding[SCT] from ribco-morfologico-VS (required)
-  * coding[CIEO] from CIEO3VS (required)
 
 * conclusionCode[Topografico] ^short = "Conclusión Topográfica"
 * conclusionCode[Topografico] only CodeableConceptSCTCIEO
 * conclusionCode[Topografico] from TopograficaSnomedCIEOVS (extensible)	
 * conclusionCode[Topografico]
   * id = "Topografico"
-  * coding[SCT] from ribco-topografica-VS (required)
-  * coding[CIEO] from CIEO3VS (required)
 
 * presentedForm MS
   * ^short = "Representación del Informe de Anatomía Patológica"

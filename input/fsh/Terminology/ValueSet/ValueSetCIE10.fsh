@@ -4,4 +4,4 @@ Title:       "Set de Valores de la Clasificación Internacional de Enfermedades 
 Description: "Set de valores utilizados para la clasificación de enfermedades en su decima edición expansión al covid 2019"
 
 * ^experimental = true
-* include codes from system $ICD-10|2019-covid-expanded
+* include codes from system $ICD-10

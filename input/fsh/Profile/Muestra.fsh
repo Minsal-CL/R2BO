@@ -35,7 +35,7 @@ Description:    "Muestra de tejido o fluido biológico para análisis de antomí
 
 * collection 1..1 MS
   * ^short = "Datos de la colección de la muestra"
-  * collector 1..1 MS
+  * collector 0..1 MS
     * ^short = "Profesional que recolecta la muestra"
   * collector only Reference(RolProfesionalRIBCO)
   * collected[x] 1..1 MS

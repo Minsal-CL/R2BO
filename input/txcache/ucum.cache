@@ -2,16 +2,16 @@
 {"code" : {
   "system" : "http://unitsofmeasure.org",
   "code" : "%"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
   },
   {
     "name" : "displayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -30,16 +30,16 @@ v: {
 {"code" : {
   "system" : "http://unitsofmeasure.org",
   "code" : "mm"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
   },
   {
     "name" : "displayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -58,16 +58,16 @@ v: {
 {"code" : {
   "system" : "http://unitsofmeasure.org",
   "code" : "cm"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
   },
   {
     "name" : "displayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -106,13 +106,13 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:ad83b4f5-c289-466f-bc4e-f04aaf7b1285",
-    "timestamp" : "2025-07-18T19:01:01.536Z",
+    "identifier" : "urn:uuid:1fa43975-1571-4dd6-a333-058cddfd391b",
+    "timestamp" : "2025-07-23T16:37:32.873Z",
     "total" : 2,
     "offset" : 0,
     "parameter" : [{
       "name" : "displayLanguage",
-      "valueCode" : "en"
+      "valueCode" : "es"
     },
     {
       "name" : "excludeNested",
@@ -157,11 +157,11 @@ e: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
   },
   {
     "name" : "displayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -180,16 +180,44 @@ v: {
 {"code" : {
   "system" : "http://unitsofmeasure.org",
   "code" : "mm"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/ribco/ValueSet/ribco-medida-margen-quirurgico-VS", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
   },
   {
     "name" : "displayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "mm",
+  "code" : "mm",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "server" : "http://localhost/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "mm"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/ribco/ValueSet/ribco-medida-margen-quirurgico-VS", "version": "0.1.0", "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -208,16 +236,16 @@ v: {
 {"code" : {
   "system" : "http://unitsofmeasure.org",
   "code" : "cm"
-}, "url": "http://hl7.org/fhir/us/mcode/ValueSet/mcode-tumor-size-units-vs", "version": "4.0.0", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "http://hl7.org/fhir/us/mcode/ValueSet/mcode-tumor-size-units-vs", "version": "4.0.0", "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
   },
   {
     "name" : "displayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -256,13 +284,13 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:b91c7487-ec9c-485b-89f0-96291af59d9a",
-    "timestamp" : "2025-07-18T19:03:38.460Z",
+    "identifier" : "urn:uuid:35cd39d8-9a61-4a21-bd91-700c3c318362",
+    "timestamp" : "2025-07-23T16:40:17.216Z",
     "total" : 2,
     "offset" : 0,
     "parameter" : [{
       "name" : "displayLanguage",
-      "valueCode" : "en"
+      "valueCode" : "es"
     },
     {
       "name" : "excludeNested",
@@ -322,13 +350,13 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:b5981efa-95cc-4ce1-9e69-18d58b957cfc",
-    "timestamp" : "2025-07-18T19:03:46.177Z",
+    "identifier" : "urn:uuid:eff81959-1044-412e-bcf0-3987a04a9ad9",
+    "timestamp" : "2025-07-23T16:40:23.377Z",
     "total" : 2,
     "offset" : 0,
     "parameter" : [{
       "name" : "displayLanguage",
-      "valueCode" : "en"
+      "valueCode" : "es"
     },
     {
       "name" : "excludeNested",
@@ -388,13 +416,13 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:ea5b8dc6-0d41-4aed-99f9-9471ee8ee311",
-    "timestamp" : "2025-07-18T19:04:29.117Z",
+    "identifier" : "urn:uuid:441b84d9-7787-45f8-bf04-c1fa0a83121e",
+    "timestamp" : "2025-07-23T16:42:35.949Z",
     "total" : 2,
     "offset" : 0,
     "parameter" : [{
       "name" : "displayLanguage",
-      "valueCode" : "en"
+      "valueCode" : "es"
     },
     {
       "name" : "excludeNested",

@@ -14,6 +14,6 @@
 }}####
 e: {
   "from-server" : true,
-  "error" : "Error from http://localhost/r4: The code system definition for http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl is a fragment, so this expansion is not permitted unless the expansion parameter \"incomplete-ok\" has a value of \"true\""
+  "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: [85ea21f4-18f1-47ec-9819-c49563ab7661]: A usable code system with URL http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl could not be resolved.\r\nInformation: X-Request-Id: da4b11d6-7fcb-4356-9c20-a00bdb0e1f1b"
 }
 -------------------------------------------------------------------------------------
