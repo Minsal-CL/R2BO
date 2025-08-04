@@ -1,6 +1,6 @@
-Profile:        MuestraRIBCO
+Profile:        MuestraR2BO
 Parent:         Specimen
-Id:             ribco-muestra-biopsia
+Id:             r2bo-muestra-biopsia
 Title:          "Perfil de Muestra"
 Description:    "Muestra de tejido o fluido biológico para análisis de antomía patologica."
 
@@ -37,7 +37,7 @@ Description:    "Muestra de tejido o fluido biológico para análisis de antomí
   * ^short = "Datos de la colección de la muestra"
   * collector 0..1 MS
     * ^short = "Profesional que recolecta la muestra"
-  * collector only Reference(RolProfesionalRIBCO)
+  * collector only Reference(RolProfesionalR2BO)
   * collected[x] 1..1 MS
   * collected[x] only dateTime
     * ^short = "Fecha y hora de la colección de la muestra"

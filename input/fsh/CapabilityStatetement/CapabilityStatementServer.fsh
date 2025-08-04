@@ -1,4 +1,4 @@
-Instance: ribco-minsal-server
+Instance: r2bo-minsal-server
 InstanceOf: CapabilityStatement
 Title: "CapabilityStatement Servidor del Repositorio de Biopsia del Ministerio de Salud"
 Description: "CapabilityStatement para definir las caracteristicas mínimas del servidor para ver las interacciones posibles"
@@ -8,7 +8,7 @@ Usage: #definition
 * extension[=].valueInteger = 1
 
 * version = "0.1.0"
-* name = "RIBCOMinsalServerCapabilityStatement"
+* name = "R2BOMinsalServerCapabilityStatement"
 * status = #active
 * experimental = true
 * date = "2025-03-05T15:30:00-03:00"
@@ -346,7 +346,7 @@ Usage: #definition
       * valueCode = #SHALL
     * type = #PractitionerRole
     * profile = Canonical(CoreRolClinicoCl)
-    * supportedProfile[0] = Canonical(RolProfesionalRIBCO)
+    * supportedProfile[0] = Canonical(RolProfesionalR2BO)
     * interaction[0]
       * code = #create
     * interaction[+]
@@ -488,7 +488,7 @@ Usage: #definition
       * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
       * valueCode = #SHALL
     * type = #Specimen
-    * supportedProfile[0] = Canonical(MuestraRIBCO)
+    * supportedProfile[0] = Canonical(MuestraR2BO)
     * interaction[0]
       * code = #create
     * interaction[+]

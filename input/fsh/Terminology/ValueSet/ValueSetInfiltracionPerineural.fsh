@@ -1,5 +1,5 @@
 ValueSet:       RespuestasInfiltracionPerineuralVS
-Id:             ribco-respuestas-infiltracion-perineural-vs
+Id:             r2bo-respuestas-infiltracion-perineural-vs
 Title:          "Set de Valores Para Hallazgos de Infiltración Perineural"
 Description:    "Posibles hallazgos de infiltración perineural en un reporte de biopsia"
 

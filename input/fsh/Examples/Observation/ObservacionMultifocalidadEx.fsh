@@ -1,4 +1,4 @@
-Instance:       ribco-observacion-multifocalidad-ex
+Instance:       r2bo-observacion-multifocalidad-ex
 InstanceOf:     ObservacionMultifocalidad
 Usage:          #example
 Title:          "Observacion de Ejemplo: Multifocalidad"
@@ -9,8 +9,8 @@ Description:    "Ejemplo de una observación de multifocalidad de un reporte de 
 * code = $snomed#444696007
 * valueBoolean = true
 * subject = Reference(paciente-requiere-examen)
-* performer = Reference(ribco-anatopatologo-hospital)
-* specimen = Reference(ribco-specimen-example)
+* performer = Reference(r2bo-anatopatologo-hospital)
+* specimen = Reference(r2bo-specimen-example)
 * effectiveDateTime = "2021-06-01T12:00:00-04:00"
 * component
   * code = $snomed#410680006

@@ -1,4 +1,4 @@
-Instance:       ribco-observacion-ganglios-linfaticos-ex
+Instance:       r2bo-observacion-ganglios-linfaticos-ex
 InstanceOf:     ObservacionGangliosLinfaticos
 Usage:          #example
 Title:          "Observacion de Ejemplo: Ganglios Linfáticos"
@@ -9,8 +9,8 @@ Description:    "Ejemplo de una observación de los ganglios afectados de un rep
 * code = $loinc#92831-7
 * valueBoolean = true
 * subject = Reference(paciente-requiere-examen)
-* performer = Reference(ribco-anatopatologo-hospital)
-* specimen = Reference(ribco-specimen-example)
+* performer = Reference(r2bo-anatopatologo-hospital)
+* specimen = Reference(r2bo-specimen-example)
 * effectiveDateTime = "2021-06-01T12:00:00-04:00"
 * component
   * code = $snomed#410680006

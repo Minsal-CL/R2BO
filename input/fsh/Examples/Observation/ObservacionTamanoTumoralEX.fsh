@@ -1,5 +1,5 @@
-Instance:       ribco-tamano-tumor-ex
-InstanceOf:     TamanoTumorRIBCO
+Instance:       r2bo-tamano-tumor-ex
+InstanceOf:     TamanoTumorR2BO
 Usage:          #example
 Title:          "Observacion de Ejemplo: Tamaño del Tumor"
 Description:    "Ejemplo de una observación de tamaño del tumor de un reporte de biopsia"
@@ -8,8 +8,8 @@ Description:    "Ejemplo de una observación de tamaño del tumor de un reporte 
 * category = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
 * code = http://loinc.org#21889-1
 * subject = Reference(paciente-requiere-examen)
-* performer = Reference(ribco-anatopatologo-hospital)
-* specimen = Reference(ribco-specimen-example)
+* performer = Reference(r2bo-anatopatologo-hospital)
+* specimen = Reference(r2bo-specimen-example)
 * effectiveDateTime = "2021-06-01T12:00:00-04:00"
 * component[DimensionLargoTumor]
   * code = http://loinc.org#33728-7

@@ -1,6 +1,6 @@
-Profile:        RolProfesionalRIBCO
+Profile:        RolProfesionalR2BO
 Parent:         CoreRolClinicoCl
-Id:             ribco-rol-profesional-minsal
+Id:             r2bo-rol-profesional-minsal
 Title:          "Perfil de Rol Profesional"
 Description:    "Rol que cumple un profesional en un establecimiento de salud. Este puede ser un profesional solicitante o un anatomopatólogo que realiza un informe."
 
@@ -19,6 +19,6 @@ Description:    "Rol que cumple un profesional en un establecimiento de salud. E
 * organization 1..1 MS
 * organization only Reference(MINSALPrestadorOrganizacional)
 * code 1..1 MS
-* code from $VSTituloProfesional-NID (required)
+* code from ProfesionalesAutorizadosR2BO (extensible)
 * specialty MS
-* specialty from $VSEspecialidades-NID (required)
+* specialty from EspecialistasAutorizadosR2BO (extensible)

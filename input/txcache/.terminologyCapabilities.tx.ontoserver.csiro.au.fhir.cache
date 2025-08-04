@@ -5,15 +5,15 @@
   },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>CSIRO Terminology Server (Ontoserver ®)</h1><table><tr><td>Purpose</td><td>Description of terminology service capabilities</td></tr><tr><td>Publisher</td><td>Australian e-Health Research Centre, CSIRO</td></tr><tr><td>Version</td><td>6.22.7.1753281208627</td></tr><tr><td>Date</td><td>2025-07-24</td></tr></table><p>Ontoserver supports a large portion of the FHIR Terminology Services specification. In particular, it has native support for SNOMED CT, LOINC, and code systems defined via the FHIR CodeSystem resource. This extends to supporting use of all defined and default filters in a FHIR ValueSet, as well as the implicitly defined ValueSets for SNOMED CT and LOINC.</p><p>More details are available in the <a href=\"https://ontoserver.csiro.au/docs/6.22.7/api-fhir.html\">Ontoserver documentation</a></p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>CSIRO Terminology Server (Ontoserver ®)</h1><table><tr><td>Purpose</td><td>Description of terminology service capabilities</td></tr><tr><td>Publisher</td><td>Australian e-Health Research Centre, CSIRO</td></tr><tr><td>Version</td><td>6.22.8.1754317035262</td></tr><tr><td>Date</td><td>2025-08-05</td></tr></table><p>Ontoserver supports a large portion of the FHIR Terminology Services specification. In particular, it has native support for SNOMED CT, LOINC, and code systems defined via the FHIR CodeSystem resource. This extends to supporting use of all defined and default filters in a FHIR ValueSet, as well as the implicitly defined ValueSets for SNOMED CT and LOINC.</p><p>More details are available in the <a href=\"https://ontoserver.csiro.au/docs/6.22.8/api-fhir.html\">Ontoserver documentation</a></p></div>"
   },
   "url" : "https://tx.ontoserver.csiro.au/fhir/metadata?mode=terminology",
-  "version" : "6.22.7.1753281208627",
+  "version" : "6.22.8.1754317035262",
   "name" : "OntoserverTerminologyCapabilities",
   "title" : "Ontoserver® Terminology Capabilities Statement",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-07-24T00:33:28+10:00",
+  "date" : "2025-08-05T00:17:15+10:00",
   "publisher" : "Australian e-Health Research Centre, CSIRO",
   "contact" : [{
     "telecom" : [{
@@ -25,7 +25,7 @@
   "kind" : "capability",
   "software" : {
     "name" : "Ontoserver®",
-    "version" : "6.22.7"
+    "version" : "6.22.8"
   },
   "lockedDate" : false,
   "codeSystem" : [{
@@ -6099,7 +6099,7 @@
     },
     {
       "code" : "http://snomed.info/sct/32506021000036107/version/20250630",
-      "isDefault" : true,
+      "isDefault" : false,
       "compositional" : true
     },
     {
@@ -6119,6 +6119,26 @@
     },
     {
       "code" : "http://snomed.info/sct/11000172109/version/20250715",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/83821000000107/version/20250702",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/32506021000036107/version/20250731",
+      "isDefault" : true,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/51000202101/version/20250715",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/900000000000207008/version/20250801",
       "isDefault" : false,
       "compositional" : true
     }],
@@ -9781,6 +9801,11 @@
     },
     {
       "code" : "1.0.3",
+      "isDefault" : false,
+      "compositional" : false
+    },
+    {
+      "code" : "1.0.4",
       "isDefault" : true,
       "compositional" : false
     }],

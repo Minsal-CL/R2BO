@@ -1,6 +1,6 @@
-Profile:        ObservacionInvasionLinfaticaRIBCO
+Profile:        ObservacionInvasionLinfaticaR2BO
 Parent:         ResultadosReporteBiopsia
-Id:             ribco-observacion-invasion-linfatica
+Id:             r2bo-observacion-invasion-linfatica
 Title:          "Perfil de Observación Invasión Linfatica"
 Description:    "Registro de la invasión linfatica de un tumor en reporte de biopsia"
 

@@ -1,5 +1,5 @@
 ValueSet:       ReporteBiopsiaVS
-Id:             ribco-reporte-biopsia-vs
+Id:             r2bo-reporte-biopsia-vs
 Title:          "Set de Valores de los Reportes de Biopsia"
 Description:    "Códigos de tipos de reportes de biopsias en Snomed y LOINC"
 

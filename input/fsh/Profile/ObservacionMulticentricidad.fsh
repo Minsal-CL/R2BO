@@ -1,6 +1,6 @@
 Profile:        ObservacionCentricidad
 Parent:         ResultadosReporteBiopsia
-Id:             ribco-observacion-centricidad
+Id:             r2bo-observacion-centricidad
 Title:          "Perfil de Observación Multicentricidad"
 Description:    "Registro de la multicentricidad de un tumor en reporte de biopsia"
 
@@ -16,7 +16,7 @@ Description:    "Registro de la multicentricidad de un tumor en reporte de biops
 
 * ^abstract = false
 
-* obeys ribco-observacion-1
+* obeys r2bo-observacion-1
 * code = $loinc#42030-7
 * value[x] 1..1
 * value[x] only boolean

@@ -1,5 +1,5 @@
 ValueSet:       RespuestaInfiltracionPeritumoralVS
-Id:             ribco-respuestas-infiltracion-peritumoral-vs
+Id:             r2bo-respuestas-infiltracion-peritumoral-vs
 Title:          "Set de Valores Para Hallazgos de Infiltración Peritumoral"
 Description:    "Posibles hallazgos de infiltración peritumoral en un reporte de biopsia"
 

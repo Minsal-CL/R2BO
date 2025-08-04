@@ -1,6 +1,6 @@
 Profile:        ObservacionMultifocalidad
 Parent:         ResultadosReporteBiopsia
-Id:             ribco-observacion-multifocalidad
+Id:             r2bo-observacion-multifocalidad
 Title:          "Perfil de Observación Multifocalidad"
 Description:    "Registro de la multifocalidad de un tumor en reporte de biopsia"
 
@@ -16,7 +16,7 @@ Description:    "Registro de la multifocalidad de un tumor en reporte de biopsia
 
 * ^abstract = false
 
-* obeys ribco-observacion-1
+* obeys r2bo-observacion-1
 * code = $snomed#444696007
 * value[x] 1..1
 * value[x] only boolean

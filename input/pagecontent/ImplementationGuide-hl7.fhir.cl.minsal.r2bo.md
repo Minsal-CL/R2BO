@@ -1,15 +1,15 @@
 
 |||
 |---|---|
-|*Official URL*: https://interoperabilidad.minsal.cl/fhir/ig/ribco/ImplementationGuide/hl7.fhir.cl.minsal.ribco |*Version*: 0.1.0|
-|*NPM package name*: hl7.fhir.cl.minsal.ribco |*ComputableName*: RepositorioInteroperableAnatomiaPatologicaMinsal|
+|*Official URL*: https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ImplementationGuide/hl7.fhir.cl.minsal.r2bo |*Version*: 0.1.0|
+|*NPM package name*: hl7.fhir.cl.minsal.r2bo |*ComputableName*: RepositorioInteroperableAnatomiaPatologicaMinsal|
 |*Copyright/Legal*: Used by permission of HL7 International, all rights reserved Creative Commons License|
 {:.grid}
 
 {{ site.data.ig.description }}
 
-- [XML](ImplementationGuide-hl7.fhir.cl.minsal.ribco.xml)
-- [JSON](ImplementationGuide-hl7.fhir.cl.minsal.ribco.json)
+- [XML](ImplementationGuide-hl7.fhir.cl.minsal.r2bo.xml)
+- [JSON](ImplementationGuide-hl7.fhir.cl.minsal.r2bo.json)
 
 ### Perfiles Globales
 

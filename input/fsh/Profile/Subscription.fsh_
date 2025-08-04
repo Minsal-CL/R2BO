@@ -1,6 +1,6 @@
-Profile:     SubscriptionRIBCO
+Profile:     SubscriptionR2BO
 Parent:      Subscription
-Id:          subscription-ribco
+Id:          subscription-r2bo
 Title:       "Subscription"
 Description: ""
 * 

@@ -1,5 +1,5 @@
 ValueSet:       EstructuraAnatomicaVS
-Id:             ribco-estructuras-anatomincas-VS
+Id:             r2bo-estructuras-anatomincas-VS
 Title:          "Set de Valores Para los Sitios del Cuerpo"
 Description:    "Set de valores para las distintas estructuras corporales de donde se obtienen las muestras"
 

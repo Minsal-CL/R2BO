@@ -1,5 +1,5 @@
 ValueSet:    CIE10VS
-Id:          ribco-cie10-vs
+Id:          r2bo-cie10-vs
 Title:       "Set de Valores de la Clasificación Internacional de Enfermedades 10 Versión"
 Description: "Set de valores utilizados para la clasificación de enfermedades en su decima edición expansión al covid 2019"
 

@@ -1,6 +1,6 @@
-Profile:        ObservacionPorcentajeNecrosisRIBCO
+Profile:        ObservacionPorcentajeNecrosisR2BO
 Parent:         ResultadosReporteBiopsia
-Id:             ribco-observacion-porcentaje-necrosis
+Id:             r2bo-observacion-porcentaje-necrosis
 Title:          "Perfil de Observación Porcentaje Necrosis"
 Description:    "Registro del porcentaje de necrosis de una muestra un reporte de biopsia"
 

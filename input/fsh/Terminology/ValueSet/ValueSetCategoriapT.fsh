@@ -1,5 +1,5 @@
 ValueSet:       TNMCategoriaTumorPrimarioPatologicoVS
-Id:             ribco-tnm-categoria-tumor-primario-patologico-vs
+Id:             r2bo-tnm-categoria-tumor-primario-patologico-vs
 Title:          "Set de Valores Categoría TNM Patológico Tumor Primario"	
 Description:    "Set de valores utilizados para la categoría TNM patológico tumor primaro"
 

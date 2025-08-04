@@ -1,13 +1,13 @@
 El reposito de biopsia, permitirá recibir solicitudes e informes de anatomías patológicas, cumpliendo con lo establecido en los CapabilityStatement:
 
-- [Generación de Informes](CapabilityStatement-ribco-minsal-cliente-informe.html)
-- [Consultor del Repositorio](CapabilityStatement-ribco-minsal-consumidor.html)
-- [Analista del Repositorio](CapabilityStatement-ribco-minsal-analisis.html)
+- [Generación de Informes](CapabilityStatement-r2bo-minsal-cliente-informe.html)
+- [Consultor del Repositorio](CapabilityStatement-r2bo-minsal-consumidor.html)
+- [Analista del Repositorio](CapabilityStatement-r2bo-minsal-analisis.html)
 
 
 ### Generar Informes
 
-Este permiso permite actualizar solicitudes y en caso de que no existan crearlas, pero va enfocado principalmente a la publicación de informes de anatomía patológica dentro del repositorio. Para cumplir con el envío de información debe utilizar un bundle que cumpla con el perfil ["Generar Informe"](StructureDefinition-ribco-bundle-generar-informe.html) realizando una operación **POST** a la raíz del servidor.
+Este permiso permite actualizar solicitudes y en caso de que no existan crearlas, pero va enfocado principalmente a la publicación de informes de anatomía patológica dentro del repositorio. Para cumplir con el envío de información debe utilizar un bundle que cumpla con el perfil ["Generar Informe"](StructureDefinition-r2bo-bundle-generar-informe.html) realizando una operación **POST** a la raíz del servidor.
 
 ```
 Bundle

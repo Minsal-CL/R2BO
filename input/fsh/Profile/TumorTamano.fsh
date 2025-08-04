@@ -1,6 +1,6 @@
-Profile:        TamanoTumorRIBCO
+Profile:        TamanoTumorR2BO
 Parent:         ResultadosReporteBiopsia
-Id:             ribco-tamano-tumor
+Id:             r2bo-tamano-tumor
 Title:          "Perfil de Tamaño del Tumor"
 Description:    "Registro de las dimensiones de un tumor"
 
@@ -26,7 +26,7 @@ Description:    "Registro de las dimensiones de un tumor"
 * method from MetodosMedicionTumorVS (extensible)
 
 * specimen 1..1 MS
-* specimen only Reference(MuestraRIBCO)
+* specimen only Reference(MuestraR2BO)
 
 * component MS
   // * code.coding 1..1 MS

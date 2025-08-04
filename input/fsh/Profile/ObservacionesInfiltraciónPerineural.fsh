@@ -1,6 +1,6 @@
-Profile:        ObservacionInfiltracionPerineuralRIBCO
+Profile:        ObservacionInfiltracionPerineuralR2BO
 Parent:         ResultadosReporteBiopsia
-Id:             ribco-observacion-infiltracion-perineural
+Id:             r2bo-observacion-infiltracion-perineural
 Title:          "Perfil de Observación Infiltración Perineural"
 Description:    "Registro de la infiltración perineural de un tumor en reporte de biopsia"
 

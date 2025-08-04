@@ -1,6 +1,6 @@
 Profile:        InformeBiopsia
 Parent:         DiagnosticReport
-Id:             ribco-informe-biopsia
+Id:             r2bo-informe-biopsia
 Title:          "Perfil del Informe de Anatomía Patológica"
 Description:    "Informe de anatomía patológica"
 
@@ -44,11 +44,11 @@ Description:    "Informe de anatomía patológica"
 
 * performer 1..1 MS
   * ^short = "Anatomopatólogo que realiza el Informe"
-* performer only Reference(RolProfesionalRIBCO or MINSALPrestadorProfesional or MINSALPrestadorOrganizacional)
+* performer only Reference(RolProfesionalR2BO or MINSALPrestadorProfesional or MINSALPrestadorOrganizacional)
 
 * specimen 1..1 MS
   * ^short = "Muestra de Biopsia"
-* specimen only Reference(MuestraRIBCO)
+* specimen only Reference(MuestraR2BO)
 
 * result 2..* MS
   * ^short = "Resultados del Informe de Anatomía Patológica"
@@ -61,9 +61,9 @@ Description:    "Informe de anatomía patológica"
 * result contains Microscopia 1..1 MS and Macroscopia 1..1 MS and TNM 0..1 MS
 
 * result[Microscopia] ^short = "Resultados de Microscopía"
-* result[Microscopia] only Reference(ObservacionMicroscopicaRIBCO)
+* result[Microscopia] only Reference(ObservacionMicroscopicaR2BO)
 * result[Macroscopia] ^short = "Resultados de Macroscopía"
-* result[Macroscopia] only Reference(ObservacionMacroscopicaRIBCO)
+* result[Macroscopia] only Reference(ObservacionMacroscopicaR2BO)
 * result[TNM] ^short = "Estadificación patológica TNM"
 * result[TNM] only Reference(EstadificacionTNM)
 

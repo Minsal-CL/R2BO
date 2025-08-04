@@ -1,6 +1,6 @@
 Profile:        CodeableConceptSCTCIE10
 Parent:         CodeableConcept
-Id:             ribco-codeableconcept-sct-cie-10
+Id:             r2bo-codeableconcept-sct-cie-10
 Title:          "Estructura del Dato CodeableConcept con SCT y CIE-10"
 Description:    "Esta definición permitira registra los datos que vengan desde snomed y cie-10, para ser utilizados como códigos de sospecha o hipotesis diagnóstica"
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"

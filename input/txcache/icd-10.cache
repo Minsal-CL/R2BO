@@ -31,7 +31,7 @@ v: {
 {"code" : {
   "system" : "http://hl7.org/fhir/sid/icd-10",
   "code" : "D48.6"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/ribco/ValueSet/ribco-cie10-vs--0", "version": "0.1.0", "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cie10-vs--0", "version": "0.1.0", "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
@@ -60,7 +60,7 @@ v: {
   "system" : "http://hl7.org/fhir/sid/icd-10",
   "version" : "2019-covid-expanded",
   "code" : "D48.6"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/ribco/ValueSet/ribco-cie10-vs", "version": "0.1.0", "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cie10-vs", "version": "0.1.0", "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
@@ -99,18 +99,18 @@ e: {
   "error" : "Error from http://localhost/r4: The value set '' expansion has too many codes to display (>10000)"
 }
 -------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/ribco/ValueSet/ribco-cie10-vs", "version": "0.1.0"}####
+{"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cie10-vs", "version": "0.1.0"}####
 e: {
   "source" : localhost,
   "valueSet" : {
   "resourceType" : "ValueSet",
-  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/ribco/ValueSet/ribco-cie10-vs",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cie10-vs",
   "version" : "0.1.0",
   "name" : "CIE10VS",
   "title" : "Set de Valores de la Clasificación Internacional de Enfermedades 10 Versión",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-07-23T12:34:47-04:00",
+  "date" : "2025-08-04T12:13:59-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -119,8 +119,8 @@ e: {
     }]
   }],
   "expansion" : {
-    "identifier" : "urn:uuid:e742a661-796c-47c4-aea3-343118bca5f0",
-    "timestamp" : "2025-07-23T16:41:08.227Z",
+    "identifier" : "urn:uuid:5248e0e9-fafe-4664-aafc-44a2df45a9e7",
+    "timestamp" : "2025-08-04T16:20:14.034Z",
     "offset" : 0,
     "parameter" : [{
       "name" : "limitedExpansion",

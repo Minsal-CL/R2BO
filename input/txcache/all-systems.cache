@@ -2,7 +2,7 @@
 {"hierarchical" : false, "url": "http://hl7.org/fhir/us/mcode/ValueSet/mcode-tnm-staging-method-vs", "version": "4.0.0"}####
 e: {
   "from-server" : true,
-  "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: [0137de8a-19a1-4e03-9cd4-e1dc0e0b3914]: A usable code system with URL http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl could not be resolved.\r\nInformation: X-Request-Id: 0784cf1e-2623-43c3-aecf-39303e0ea274"
+  "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: [c9437619-6474-4520-bc9d-1bcbad637b2a]: A usable code system with URL http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl could not be resolved.\r\nInformation: X-Request-Id: 02cae7bd-28c1-4bec-b930-31547982b1b9"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -190,7 +190,7 @@ v: {
     "code" : "C50.9"
   }],
   "text" : "Mama"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/ribco/ValueSet/ribco-topografica-cieo-VS", "version": "0.1.0", "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS", "version": "0.1.0", "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
@@ -203,15 +203,12 @@ v: {
   }]
 }}####
 v: {
-  "display" : "Mama, SAI",
-  "code" : "C50.9",
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
   "version" : "2025",
   "severity" : "error",
-  "error" : "A definition for CodeSystem 'http://snomed.info/sct' could not be found, so the code cannot be validated; A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000001000122104/version/20241201' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/11000201108/version/20250615,http://snomed.info/sct/900000000000207008/version/20250612,http://snomed.info/sct/900000000000207008/version/20250701]; The provided code 'http://snomed.info/sct#76752008' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/ribco/ValueSet/ribco-topografica-cieo-VS|0.1.0'; The system http://terminology.hl7.org/CodeSystem/icd-o-3 was found but did not contain enough information to properly validate the code \"C50.9\" (\"\") (mode = fragment)",
+  "error" : "A definition for CodeSystem 'http://snomed.info/sct' could not be found, so the code cannot be validated; A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000001000122104/version/20241201' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/11000201108/version/20250615,http://snomed.info/sct/900000000000207008/version/20250612,http://snomed.info/sct/900000000000207008/version/20250701]; No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS|0.1.0'; The provided code 'http://snomed.info/sct#76752008' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS|0.1.0'; The provided code 'http://terminology.hl7.org/CodeSystem/icd-o-3#C50.9' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS|0.1.0'",
   "class" : "UNKNOWN",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
+  "unknown-systems" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201,http://snomed.info/sct",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -251,7 +248,7 @@ v: {
         "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
         "code" : "this-code-not-in-vs"
       }],
-      "text" : "The provided code 'http://snomed.info/sct#76752008' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/ribco/ValueSet/ribco-topografica-cieo-VS|0.1.0'"
+      "text" : "The provided code 'http://snomed.info/sct#76752008' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS|0.1.0'"
     },
     "location" : ["CodeableConcept.coding[0].code"],
     "expression" : ["CodeableConcept.coding[0].code"]
@@ -279,20 +276,43 @@ v: {
   },
   {
     "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
       "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
       "valueUrl" : "http://localhost/r4"
     }],
-    "severity" : "warning",
-    "code" : "not-found",
+    "severity" : "information",
+    "code" : "code-invalid",
     "details" : {
       "coding" : [{
         "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
-        "code" : "vs-invalid"
+        "code" : "this-code-not-in-vs"
       }],
-      "text" : "The system http://terminology.hl7.org/CodeSystem/icd-o-3 was found but did not contain enough information to properly validate the code \"C50.9\" (\"\") (mode = fragment)"
+      "text" : "The provided code 'http://terminology.hl7.org/CodeSystem/icd-o-3#C50.9' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS|0.1.0'"
     },
-    "location" : ["CodeableConcept.coding[1]"],
-    "expression" : ["CodeableConcept.coding[1]"]
+    "location" : ["CodeableConcept.coding[1].code"],
+    "expression" : ["CodeableConcept.coding[1].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "http://localhost/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS|0.1.0'"
+    }
   }]
 }
 

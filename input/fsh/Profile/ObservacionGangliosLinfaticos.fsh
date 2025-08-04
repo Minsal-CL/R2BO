@@ -1,6 +1,6 @@
 Profile:        ObservacionGangliosLinfaticos
 Parent:         ResultadosReporteBiopsia
-Id:             ribco-observacion-ganglios-linfaticos
+Id:             r2bo-observacion-ganglios-linfaticos
 Title:          "Perfil de Observación Ganglios Linfáticos"
 Description:    "Registro de cantidad de ganglios linfáticos afectados por metastasis en reporte de biopsia"
 
@@ -16,7 +16,7 @@ Description:    "Registro de cantidad de ganglios linfáticos afectados por meta
 
 * ^abstract = false
 
-* obeys ribco-observacion-1
+* obeys r2bo-observacion-1
 * code = $loinc#92831-7
 * value[x] 1..1
 * value[x] only boolean

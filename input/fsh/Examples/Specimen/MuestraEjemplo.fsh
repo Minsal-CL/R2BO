@@ -1,5 +1,5 @@
-Instance:           ribco-specimen-example
-InstanceOf:         MuestraRIBCO
+Instance:           r2bo-specimen-example
+InstanceOf:         MuestraR2BO
 Usage:              #example
 Title:              "Muestra de Mama"
 Description:        "Muestra de tejido de mamario"
@@ -12,9 +12,9 @@ Description:        "Muestra de tejido de mamario"
 * collection
   * collector = Reference(ProfesionalHospital)
   * collectedDateTime = "2021-06-01T10:00:00Z"
-  * bodySite = http://snomed.info/sct#76752008 "Structure of breast" 
+  * bodySite = http://snomed.info/sct#76752008
   * bodySite.extension[CalificadorLateralidad] = lateralidadIzquierda
-  * method = http://snomed.info/sct#122548005 "Biopsy of breast"
+  * method = http://snomed.info/sct#122548005
   * method.extension[MetodoProcedimiento] = MetodoIncisional
 * note.text = "Resección completa de tejido mamario, posible carcinoma"
 
@@ -22,9 +22,9 @@ Instance:   lateralidadIzquierda
 InstanceOf: LateralityQualifier
 Usage:      #inline
 
-* valueCodeableConcept = http://snomed.info/sct#7771000 "Left"
+* valueCodeableConcept = http://snomed.info/sct#7771000 
 
 Instance:   MetodoIncisional
 InstanceOf: TipoProcedimientoBiopsia
 Usage:      #inline
-* valueCodeableConcept = http://snomed.info/sct#8889005  "Excisional biopsy"
+* valueCodeableConcept = http://snomed.info/sct#8889005

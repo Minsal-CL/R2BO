@@ -1,6 +1,6 @@
 Profile:        ResultadosReporteBiopsia
 Parent:         ObservacionCL
-Id:             ribco-resultados-reporte-biopsia
+Id:             r2bo-resultados-reporte-biopsia
 Title:          "Perfil de Origen de Todos Los Resultados"
 Description:    "Perfil para todas las observaciones de los resultados de biopsias"
 
@@ -27,8 +27,8 @@ Description:    "Perfil para todas las observaciones de los resultados de biopsi
 //   * ^short = "La condición o diagnóstico asociado con la observación"
 // * focus only Reference(DiagnosticoCl)
 * performer MS
-* performer only Reference(RolProfesionalRIBCO or MINSALPrestadorProfesional or MINSALPrestadorOrganizacional)
+* performer only Reference(RolProfesionalR2BO or MINSALPrestadorProfesional or MINSALPrestadorOrganizacional)
 * value[x] MS
 * value[x] only CodeableConcept or string or boolean or Quantity or integer
 * dataAbsentReason MS
-* specimen only Reference(MuestraRIBCO)
+* specimen only Reference(MuestraR2BO)

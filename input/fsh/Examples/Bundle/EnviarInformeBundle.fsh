@@ -1,4 +1,4 @@
-Instance:       ribco-generar-informe-bundle-ejemplo
+Instance:       r2bo-generar-informe-bundle-ejemplo
 InstanceOf:     BundleGenerarInforme
 Usage:          #example
 Title:          "Ejemplo de Enviar un Informe de Anatomía Patológica"
@@ -6,8 +6,8 @@ Description:    "Ejemplo de Bundle que contiene los recursos necesarios para sol
 
 * type = #transaction
 * entry[Solicitud]
-  * fullUrl = Canonical(ribco-solicitud-informe-apa-ej)
-  * resource = ribco-solicitud-informe-apa-ej
+  * fullUrl = Canonical(r2bo-solicitud-informe-apa-ej)
+  * resource = r2bo-solicitud-informe-apa-ej
   * request
     * method = #PUT
     * url = "ServiceRequest?identifier=111111101"
@@ -29,8 +29,8 @@ Description:    "Ejemplo de Bundle que contiene los recursos necesarios para sol
     * ifNoneExist = "PractitionerRole?practitioner.identifier=5135329-3&organization.identifier=121109"
 
 * entry[RolProfesional][1]
-  * fullUrl = Canonical(ribco-anatopatologo-hospital)
-  * resource = ribco-anatopatologo-hospital
+  * fullUrl = Canonical(r2bo-anatopatologo-hospital)
+  * resource = r2bo-anatopatologo-hospital
   * request
     * method = #POST
     * url = "PractitionerRole"
@@ -61,140 +61,140 @@ Description:    "Ejemplo de Bundle que contiene los recursos necesarios para sol
     * ifNoneExist = "Organization?identifier=121109"
 
 * entry[Muestra]
-  * fullUrl = Canonical(ribco-specimen-example)
-  * resource = ribco-specimen-example
+  * fullUrl = Canonical(r2bo-specimen-example)
+  * resource = r2bo-specimen-example
   * request
     * method = #PUT
     * url = "Specimen?identifier=110101101"
 
 * entry[InformeDiagnostico]
-  * fullUrl = Canonical(ribco-informe-biopsia-ex)
-  * resource = ribco-informe-biopsia-ex
+  * fullUrl = Canonical(r2bo-informe-biopsia-ex)
+  * resource = r2bo-informe-biopsia-ex
   * request
     * method = #POST
     * url = "DiagnosticReport"
 
 * entry[ObservacionMicroscopica]
-  * fullUrl = Canonical(ribco-observacion-microscopica-ex)
-  * resource = ribco-observacion-microscopica-ex
+  * fullUrl = Canonical(r2bo-observacion-microscopica-ex)
+  * resource = r2bo-observacion-microscopica-ex
   * request
     * method = #POST
     * url = "Observation"
 
 * entry[ObservacionMacroscopica]
-  * fullUrl = Canonical(ribco-observacion-macroscopica-ex)
-  * resource = ribco-observacion-macroscopica-ex
+  * fullUrl = Canonical(r2bo-observacion-macroscopica-ex)
+  * resource = r2bo-observacion-macroscopica-ex
   * request
     * method = #POST
     * url = "Observation"
 
 * entry[Estadificacion]
-  * fullUrl = Canonical(ribco-estadificacion-tnm-ex)
-  * resource = ribco-estadificacion-tnm-ex
+  * fullUrl = Canonical(r2bo-estadificacion-tnm-ex)
+  * resource = r2bo-estadificacion-tnm-ex
   * request
     * method = #POST
     * url = "Observation"
 
 * entry[CategoriaT]
-  * fullUrl = Canonical(ribco-tnm-categoria-tumor-primario-ex)
-  * resource = ribco-tnm-categoria-tumor-primario-ex
+  * fullUrl = Canonical(r2bo-tnm-categoria-tumor-primario-ex)
+  * resource = r2bo-tnm-categoria-tumor-primario-ex
   * request
     * method = #POST
     * url = "Observation"
 
 * entry[CategoriaN]
-  * fullUrl = Canonical(ribco-tnm-categoria-nodo-regional-ex)
-  * resource = ribco-tnm-categoria-nodo-regional-ex
+  * fullUrl = Canonical(r2bo-tnm-categoria-nodo-regional-ex)
+  * resource = r2bo-tnm-categoria-nodo-regional-ex
   * request
     * method = #POST
     * url = "Observation"
 
 * entry[CategoriaM]
-  * fullUrl = Canonical(ribco-tnm-categoria-metastasis-distantel-ex)
-  * resource = ribco-tnm-categoria-metastasis-distantel-ex
+  * fullUrl = Canonical(r2bo-tnm-categoria-metastasis-distantel-ex)
+  * resource = r2bo-tnm-categoria-metastasis-distantel-ex
   * request
     * method = #POST
     * url = "Observation"
 
-* entry[ObservacionInfiltracionPerineuralRIBCO]
-  * fullUrl = Canonical(ribco-observacion-infiltracion-perineural-ex)
-  * resource = ribco-observacion-infiltracion-perineural-ex
+* entry[ObservacionInfiltracionPerineuralR2BO]
+  * fullUrl = Canonical(r2bo-observacion-infiltracion-perineural-ex)
+  * resource = r2bo-observacion-infiltracion-perineural-ex
   * request
     * method = #POST
     * url = "Observation"
 
 * entry[ObservacionGangliosLinfaticos]
-  * fullUrl = Canonical(ribco-observacion-ganglios-linfaticos-ex)
-  * resource = ribco-observacion-ganglios-linfaticos-ex
+  * fullUrl = Canonical(r2bo-observacion-ganglios-linfaticos-ex)
+  * resource = r2bo-observacion-ganglios-linfaticos-ex
   * request
     * method = #POST
     * url = "Observation"
 
-* entry[ObservacionInfiltradoPeritumoralRIBCO]
-  * fullUrl = Canonical(ribco-observacion-infiltracion-peritumoral-ex)
-  * resource = ribco-observacion-infiltracion-peritumoral-ex
+* entry[ObservacionInfiltradoPeritumoralR2BO]
+  * fullUrl = Canonical(r2bo-observacion-infiltracion-peritumoral-ex)
+  * resource = r2bo-observacion-infiltracion-peritumoral-ex
   * request
     * method = #POST
     * url = "Observation"
 
-* entry[ObservacionInvasionLinfaticaRIBCO]
-  * fullUrl = Canonical(ribco-observacion-invasion-linfatica-ex)
-  * resource = ribco-observacion-invasion-linfatica-ex
+* entry[ObservacionInvasionLinfaticaR2BO]
+  * fullUrl = Canonical(r2bo-observacion-invasion-linfatica-ex)
+  * resource = r2bo-observacion-invasion-linfatica-ex
   * request
     * method = #POST
     * url = "Observation"
 
-* entry[ObservacionInvasionVascularRIBCO]
-  * fullUrl = Canonical(ribco-observacion-invasion-vascular-ex)
-  * resource = ribco-observacion-invasion-vascular-ex
+* entry[ObservacionInvasionVascularR2BO]
+  * fullUrl = Canonical(r2bo-observacion-invasion-vascular-ex)
+  * resource = r2bo-observacion-invasion-vascular-ex
   * request
     * method = #POST
     * url = "Observation"
 
 * entry[ObservacionMargenQuirugico]
-  * fullUrl = Canonical(ribco-observacion-margen-quirurgico-ex)
-  * resource = ribco-observacion-margen-quirurgico-ex
+  * fullUrl = Canonical(r2bo-observacion-margen-quirurgico-ex)
+  * resource = r2bo-observacion-margen-quirurgico-ex
   * request
     * method = #POST
     * url = "Observation"
 
 * entry[ObservacionCentricidad]
-  * fullUrl = Canonical(ribco-observacion-centricidad-ex)
-  * resource = ribco-observacion-centricidad-ex
+  * fullUrl = Canonical(r2bo-observacion-centricidad-ex)
+  * resource = r2bo-observacion-centricidad-ex
   * request
     * method = #POST
     * url = "Observation"
 
 * entry[ObservacionMultifocalidad]
-  * fullUrl = Canonical(ribco-observacion-multifocalidad-ex)
-  * resource = ribco-observacion-multifocalidad-ex
+  * fullUrl = Canonical(r2bo-observacion-multifocalidad-ex)
+  * resource = r2bo-observacion-multifocalidad-ex
   * request
     * method = #POST
     * url = "Observation"
 
-* entry[ObservacionPorcentajeNecrosisRIBCO]
-  * fullUrl = Canonical(ribco-observacion-porcentaje-necrosis-ex)
-  * resource = ribco-observacion-porcentaje-necrosis-ex
+* entry[ObservacionPorcentajeNecrosisR2BO]
+  * fullUrl = Canonical(r2bo-observacion-porcentaje-necrosis-ex)
+  * resource = r2bo-observacion-porcentaje-necrosis-ex
   * request
     * method = #POST
     * url = "Observation"
 
 * entry[ObservacionPostNeoadjudancia]
-  * fullUrl = Canonical(ribco-observacion-post-tratamiento-neoadjuvancia-ex)
-  * resource = ribco-observacion-post-tratamiento-neoadjuvancia-ex
+  * fullUrl = Canonical(r2bo-observacion-post-tratamiento-neoadjuvancia-ex)
+  * resource = r2bo-observacion-post-tratamiento-neoadjuvancia-ex
   * request
     * method = #POST
     * url = "Observation"
 
-* entry[TamanoTumorRIBCO]
-  * fullUrl = Canonical(ribco-tamano-tumor-ex)
-  * resource = ribco-tamano-tumor-ex
+* entry[TamanoTumorR2BO]
+  * fullUrl = Canonical(r2bo-tamano-tumor-ex)
+  * resource = r2bo-tamano-tumor-ex
   * request
     * method = #POST
     * url = "Observation"
 
-Instance:           ribco-specimen-example-2
-InstanceOf:         MuestraRIBCO
+Instance:           r2bo-specimen-example-2
+InstanceOf:         MuestraR2BO
 Usage:              #inline
 
 * meta.versionId = "2"
@@ -206,9 +206,9 @@ Usage:              #inline
 * collection
   * collector = Reference(ProfesionalHospital)
   * collectedDateTime = "2021-06-01T10:00:00Z"
-  * bodySite = http://snomed.info/sct#76752008 "Structure of breast" 
+  * bodySite = http://snomed.info/sct#76752008
   * bodySite.extension[CalificadorLateralidad] = lateralidadIzquierda
-  * method = http://snomed.info/sct#122548005 "Biopsy of breast"
+  * method = http://snomed.info/sct#122548005
   * method.extension[MetodoProcedimiento] = MetodoIncisional
 * note.text = "Resección completa de tejido mamario, posible carcinoma"
 

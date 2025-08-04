@@ -1,5 +1,5 @@
 ValueSet:       MorfologicoSnomedCIEOVS
-Id:             ribco-morfologicosct-cieo-VS
+Id:             r2bo-morfologicosct-cieo-VS
 Title:          "Set de Valores Morfología"
 Description:    "Set de valores utilizados para morfologías"
 

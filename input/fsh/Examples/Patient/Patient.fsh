@@ -69,7 +69,7 @@ Instance: PaisDireccionPac1
 InstanceOf: PaisDireccion
 Usage: #inline
 
-*  valueCodeableConcept = urn:iso:std:iso:3166#152 "Chile"
+*  valueCodeableConcept = CSCodPaises#152 "Chile"
 
 Instance: PaisOrigenMPIPac1
 InstanceOf: PaisOrigenMPI

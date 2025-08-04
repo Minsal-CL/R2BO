@@ -1,6 +1,6 @@
 Profile:        CategoriaTNM 
 Parent:         ObservacionCL
-Id:             ribco-categoria-tnm
+Id:             r2bo-categoria-tnm
 Title:          "Perfil de Origen para las Categorías T, N,  M (Abstracto)"
 Description:    "Perfil para originar las Categorías T, N, M"
 
@@ -25,11 +25,11 @@ Description:    "Perfil para originar las Categorías T, N, M"
 //   * ^short = "La condición asociada con la categoría TNM"
 // * focus only Reference(DiagnosticoCl)
 * performer MS
-* performer only Reference(RolProfesionalRIBCO or MINSALPrestadorProfesional or MINSALPrestadorOrganizacional)
+* performer only Reference(RolProfesionalR2BO or MINSALPrestadorProfesional or MINSALPrestadorOrganizacional)
 * value[x] MS
 * value[x] only CodeableConcept
 * dataAbsentReason MS
-* specimen only Reference(MuestraRIBCO)
+* specimen only Reference(MuestraR2BO)
 * method 0..1 MS
 * method from TNMStagingMethodVS (extensible)
 

@@ -1,6 +1,6 @@
 Profile:        TNMCategoriaNodoRegional
 Parent:         CategoriaTNM
-Id:             ribco-tnm-categoria-nodo-regional
+Id:             r2bo-tnm-categoria-nodo-regional
 Title:          "Perfil de Categoria TNM Nodos Regional"
 Description:    "Categoría de la presencia o ausencia de metástasis en los ganglios linfáticos regionales, basada en evidencia como exámenes físicos, imágenes y/o biopsias."
 

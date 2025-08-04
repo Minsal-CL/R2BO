@@ -1,6 +1,6 @@
 Profile:        EstadificacionTNM 
 Parent:         ResultadosReporteBiopsia
-Id:             ribco-estadificacion-tnm
+Id:             r2bo-estadificacion-tnm
 Title:          "Perfil de Grupo Estadificación TNM"
 Description:    "Perfil grupo de estadificación TNM"
 
@@ -26,12 +26,12 @@ Description:    "Perfil grupo de estadificación TNM"
 //   * ^short = "La condición asociada con la categoría TNM"
 // * focus only Reference(DiagnosticoCl)
 * performer MS
-* performer only Reference(RolProfesionalRIBCO or MINSALPrestadorProfesional or MINSALPrestadorOrganizacional)
+* performer only Reference(RolProfesionalR2BO or MINSALPrestadorProfesional or MINSALPrestadorOrganizacional)
 * value[x] MS
 * value[x] only CodeableConcept
 * value[x] from TNMStageGroupVS (required)
 * dataAbsentReason MS
-* specimen only Reference(MuestraRIBCO)
+* specimen only Reference(MuestraR2BO)
 * method 0..1 MS
 * method from TNMStagingMethodVS (extensible)
 * hasMember 0..* MS

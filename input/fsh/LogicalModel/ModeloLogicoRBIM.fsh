@@ -1,4 +1,4 @@
-Logical: ModeloLogicoRIBCO
+Logical: ModeloLogicoR2BO
 Parent: Base
 Id: ModeloLogicoRI
 Title: "Modelo Logico Repositorio de Biopsia"
