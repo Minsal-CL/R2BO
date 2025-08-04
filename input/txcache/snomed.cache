@@ -42956,3 +42956,535 @@ v: {
 
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "269497004"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of uncertain behaviour of breast",
+  "code" : "269497004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250731",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "122548005"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Biopsy of breast",
+  "code" : "122548005",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250731",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "76752008"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Structure of breast",
+  "code" : "76752008",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250731",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "385001000"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Perineural invasion by tumour not identified",
+  "code" : "385001000",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250731",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "369762001"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Marked peritumoral lymphocytic response",
+  "code" : "369762001",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250731",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "52101004"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Present",
+  "code" : "52101004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250731",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1229957002"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "pN2 (AJCC)",
+  "code" : "1229957002",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250731",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1229916009"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "pM1 (AJCC)",
+  "code" : "1229916009",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250731",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "10828004"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Positive",
+  "code" : "10828004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250731",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "269497004"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of uncertain behaviour of breast",
+  "code" : "269497004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250731",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "8889005"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Excisional biopsy",
+  "code" : "8889005",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250731",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "7771000"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Left",
+  "code" : "7771000",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250731",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1229957002"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "pN2 (AJCC)",
+  "code" : "1229957002",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250731",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1229916009"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "pM1 (AJCC)",
+  "code" : "1229916009",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250731",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "122548005"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Biopsy of breast",
+  "code" : "122548005",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250731",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "385001000"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Perineural invasion by tumour not identified",
+  "code" : "385001000",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250731",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "369762001"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Marked peritumoral lymphocytic response",
+  "code" : "369762001",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250731",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "52101004"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Present",
+  "code" : "52101004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250731",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "10828004"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Positive",
+  "code" : "10828004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/32506021000036107/version/20250731",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------

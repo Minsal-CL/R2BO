@@ -1,12 +1,8 @@
-Logical: ModeloLogicoR2BO
-Parent: Base
-Id: ModeloLogicoRI
-Title: "Modelo Logico Repositorio de Biopsia"
-Description: "Modelo lógico para el conjunto de datos mínimo del repositorio de biopsia"
-Logical: PacienteRIAPLogico
-Id: ModeloLogicoPacienteRIAP
-Title: "Modelo Logico De un Paciente del RIAP"
-Description: "Modelo lógico para el conjunto de datos mínimo de un paciente del RIAP."
+
+Logical: PacienteR2BOLogico
+Id: ModeloLogicoPacienteR2BO
+Title: "Modelo Logico De un Paciente del R2BO"
+Description: "Modelo lógico para el conjunto de datos mínimo de un paciente del R2BO."
 Characteristics: #can-be-target
 
 * nombres 1..1 SU HumanName "El nombre de las personas naturales, es la designación que dan los padres o representantes legales al momento de realizar la inscripción de nacimiento en la oficina del SRCI."
@@ -23,15 +19,15 @@ Characteristics: #can-be-target
 * fechaDeNacimiento 0..1 SU dateTime "Momento exacto por el cual un ser humano deja de estar alojado en el vientre de su madre y se corta el cordón umbilical que lo une a la placenta. Se expresa en términos de día, mes y año."
 * edad 0..1 SU Age "Tiempo de existencia de una persona, intervalo de tiempo estimado o calculado entre el día, mes y año del nacimiento y el día, mes y año en que ocurre un hecho o acontecimiento en cualquier momento posterior al nacimiento. Se expresa en años, meses, semanas, días u horas de vida."
 
-Logical: InformePatologicoRIAPLogico
-Id: ModeloLogicoInformePatologicoRIAP
-Title: "Modelo Lógico de Informe Patológico del RIAP"
-Description: "Modelo lógico para el conjunto de datos mínimo de un informe patológico del RIAP"
+Logical: InformePatologicoR2BOLogico
+Id: ModeloLogicoInformePatologicoR2BO
+Title: "Modelo Lógico de Informe Patológico del R2BO"
+Description: "Modelo lógico para el conjunto de datos mínimo de un informe patológico del R2BO"
 // Characteristics: #can-be-target
 
 * nroDeBiopsia 1..1 SU Identifier "Corresponde a una identificación única del informe de biopsia del establecimiento que analiza la muestra."
-* paciente 1..1 SU Reference(PacienteRIAPLogico) "Corresponde al paciente al cual se le realiza la biopsia."
-* solicitud 1..1 SU Reference(SolicitudRIAPLogico) "Corresponde a la solicitud de biopsia del paciente, la cual contiene los datos clínicos y antecedentes relevantes para el análisis de la muestra."
+* paciente 1..1 SU Reference(PacienteR2BOLogico) "Corresponde al paciente al cual se le realiza la biopsia."
+* solicitud 1..1 SU Reference(SolicitudR2BOLogico) "Corresponde a la solicitud de biopsia del paciente, la cual contiene los datos clínicos y antecedentes relevantes para el análisis de la muestra."
 * establecimientoDeOrigen 1..1 SU Reference(Organization) "Corresponde al establecimiento de origen de la toma de la muestra."
 * servicioClinicoDeOrigen 1..1 SU Reference(Organization) "Servicio clinico en el cual se encuentra el paciente, o al cual se le debe informar del resultado de esta biopsia."
 * establecimientoQueInforma 1..1 SU Reference(Organization) "Corresponde al establecimiento que informa el análisis de la muestra."
@@ -78,10 +74,10 @@ Description: "Modelo lógico para el conjunto de datos mínimo de un informe pat
   * categoriaMetastasisPrimario 0..1 SU CodeableConcept "Categoría de metástasis a distancia"
 
 
-Logical: SolicitudRIAPLogico
-Id: ModeloLogicoSolicitudRIAP
-Title: "Modelo Lógico de Solicitud del RIAP"
-Description: "Modelo lógico para el conjunto de datos mínimo de una solicitud del RIAP"
+Logical: SolicitudR2BOLogico
+Id: ModeloLogicoSolicitudR2BO
+Title: "Modelo Lógico de Solicitud del R2BO"
+Description: "Modelo lógico para el conjunto de datos mínimo de una solicitud del R2BO"
 Characteristics: #can-be-target  
 
 * nroDeMuestra 1..1 SU Identifier "Cantidad de muestras analizadas."
