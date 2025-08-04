@@ -3,11 +3,11 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: hl7.fhir.cl.minsal.r2bo
-canonical: https://interoperabilidad.minsal.cl/fhir/ig/r2bo
-name: RepositorioReportesBiopsiasOncologicas
-title: Repositorio de Reportes de Biopsias Oncológicas
-description: Este es un repositorio que permitira almacenar y consultar los reportes de anatomías patólogicas oncológicas de los pacientes en Chile. El objetivo es que los laboratorios puedan compartir la información de los pacientes y sus informes con otros laboratorios y hospitales, permitiendo una mejor atención y seguimiento de los pacientes.
+id: hl7.fhir.cl.minsal.ribco
+canonical: https://interoperabilidad.minsal.cl/fhir/ig/ribco
+name: RepositorioInteroperableAnatomiaPatologicaMinsal
+title: Repositorio de Informes de Biopsias Críticas Oncológicas
+description: Este es un repositorio que permitira almacenar y consultar los informes y solicitudes de anatomías patólogicas de los pacientes en Chile. El objetivo es que los laboratorios puedan compartir la información de los pacientes y sus informes con otros laboratorios y hospitales, permitiendo una mejor atención y seguimiento de los pacientes.
 status: draft # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
@@ -58,6 +58,8 @@ dependencies:
 pages:
   index.md:
     title: Inicio
+    contributors.md:
+      title: Contribuidores
   changes.md:
     extension:
       - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
@@ -68,12 +70,12 @@ pages:
       - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
         valueCode: informative
     title: Uso de Sistemas Terminológicos
-  IteraccionesConServidor.md:
+  InteraccionesConServidor.md:
     extension:
       - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
         valueCode: informative
     title: Interacciones con el Repositorio Interoperable de Anatomías Patológicas
-  ImplementationGuide-hl7.fhir.cl.minsal.r2bo.md:
+  ImplementationGuide-hl7.fhir.cl.minsal.ribco.md:
     extension:
       - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
         valueCode: informative
@@ -118,9 +120,10 @@ parameters:
 menu:
   Inicio: index.html
   Especificaciones Tecnicas:
-    Iteraciones Repositorio: IteraccionesConServidor.html
+    Interaciones Repositorio: InteraccionesConServidor.html
     Servicios Terminológicos: SistemasTerminologicos.html
   Artefactos: artifacts.html
+  Consideraciones de Diseño: design-consideration.html
   Historial de Cambios: changes.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
