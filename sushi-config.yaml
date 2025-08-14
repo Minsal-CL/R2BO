@@ -130,7 +130,7 @@ menu:
     Interaciones Repositorio: InteraccionesConServidor.html
     Servicios Terminológicos: SistemasTerminologicos.html
   Artefactos: artifacts.html
-  Consideraciones de Diseño: design-consideration.html
+  Consideraciones de Diseño: design-considerations.html
   Historial de Cambios: changes.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
