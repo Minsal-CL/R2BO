@@ -4,6 +4,7 @@ Usage:          #example
 Title:          "Observacion de Ejemplo: Multifocalidad"
 Description:    "Ejemplo de una observación de multifocalidad de un reporte de biopsia"
 
+* basedOn = Reference(r2bo-solicitud-informe-apa-ej)
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
 * code = $snomed#444696007

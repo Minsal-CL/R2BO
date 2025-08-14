@@ -1,33 +1,4 @@
 -------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:iso:std:iso:3166",
-  "code" : "152",
-  "display" : "Chile"
-}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201"
-  },
-  {
-    "name" : "displayLanguage",
-    "valueCode" : "es"
-  }]
-}}####
-v: {
-  "display" : "Chile",
-  "code" : "152",
-  "system" : "urn:iso:std:iso:3166",
-  "version" : "2018",
-  "server" : "http://localhost/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -48,8 +19,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:2dab78c2-efe5-48df-92b2-499c7115e875",
-    "timestamp" : "2025-08-04T16:23:44.870Z",
+    "identifier" : "urn:uuid:9b252359-ff88-4f46-a350-dbb223e6e7d2",
+    "timestamp" : "2025-08-14T18:33:30.921Z",
     "total" : 249,
     "offset" : 0,
     "parameter" : [{
@@ -1346,8 +1317,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:0368fa16-c410-4408-86d5-0346088dde1f",
-    "timestamp" : "2025-08-04T16:23:44.930Z",
+    "identifier" : "urn:uuid:9a96471f-692e-48af-949a-3fc114e8116a",
+    "timestamp" : "2025-08-14T18:33:31.028Z",
     "total" : 249,
     "offset" : 0,
     "parameter" : [{
@@ -2644,8 +2615,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:1fa2880a-e6a9-426c-94cd-0f31ac704865",
-    "timestamp" : "2025-08-04T16:23:44.978Z",
+    "identifier" : "urn:uuid:e168e0c6-e89c-474e-b3f2-2659a11bb030",
+    "timestamp" : "2025-08-14T18:33:31.085Z",
     "total" : 249,
     "offset" : 0,
     "parameter" : [{

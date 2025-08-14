@@ -16,6 +16,9 @@ Description:    "Perfil para todas las observaciones de los resultados de biopsi
 
 * ^abstract = true
 
+* basedOn 1..1 MS
+  * ^short = "Solicitud por la cual se realizo la prueba"
+* basedOn only Reference(SolicitudInformeAPA)
 * status MS
 * code MS
 * code from ObservacionesBiopsiaVS (extensible)

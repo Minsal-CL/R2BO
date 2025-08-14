@@ -3,6 +3,8 @@
   "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801" : null,
   "http://unstats.un.org/unsd/methods/m49/m49.htm|null" : null,
   "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201" : null,
+  "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250501" : null,
   "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CodigoPaises|null" : null,
-  "http://hl7.org/fhir/sid/icd-10|2019-covid-expanded" : null
+  "http://hl7.org/fhir/sid/icd-10|2019-covid-expanded" : null,
+  "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615" : null
 }

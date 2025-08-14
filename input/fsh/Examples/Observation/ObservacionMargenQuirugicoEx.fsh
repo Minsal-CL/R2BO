@@ -4,6 +4,7 @@ Usage:          #example
 Title:          "Observacion de Ejemplo: Margen Quirúrgico"
 Description:    "Ejemplo de observación de margen quirúrgico en reporte de biopsia"
 
+* basedOn = Reference(r2bo-solicitud-informe-apa-ej)
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
 * code = $snomed#396631001

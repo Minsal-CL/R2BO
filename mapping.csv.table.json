@@ -39,7 +39,7 @@
     {
       "field": " Display",
       "title": " Display",
-      "width": 727,
+      "width": 697,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",

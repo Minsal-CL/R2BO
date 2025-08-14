@@ -16,6 +16,10 @@ Description:    "Perfil para originar las Categorías T, N, M"
 
 * ^abstract = true
 
+* basedOn 1..1 MS
+  * ^short = "Solicitud por la cual se realizo la prueba"
+* basedOn only Reference(SolicitudInformeAPA)
+
 * status MS
 * code MS
 * code from CategoriaspTNMVS (extensible)

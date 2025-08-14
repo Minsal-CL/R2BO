@@ -4,6 +4,7 @@ Usage:          #example
 Title:          "Observacion de Ejemplo: Tamaño del Tumor"
 Description:    "Ejemplo de una observación de tamaño del tumor de un reporte de biopsia"
 
+* basedOn = Reference(r2bo-solicitud-informe-apa-ej)
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
 * code = http://loinc.org#21889-1

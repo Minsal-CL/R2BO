@@ -3,5 +3,13 @@
         "activityBar.background": "#4A1A49",
         "titleBar.activeBackground": "#672566",
         "titleBar.activeForeground": "#FDF9FD"
-    }
+    },
+    "terminal.integrated.automationProfile.linux": {
+
+    },
+    "terminal.integrated.automationProfile.windows": {
+
+    },
+    "terminal.integrated.defaultProfile.windows": null,
+    "java.jdt.ls.java.home": ""
 }

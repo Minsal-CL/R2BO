@@ -4,6 +4,7 @@ Usage:          #example
 Title:          "Observacion de Ejemplo: Categoria TNM Nodos Regional"
 Description:    "Ejemplo de una observación de categoría TNM de nodos regionales de un reporte de biopsia"
 
+* basedOn = Reference(r2bo-solicitud-informe-apa-ej)
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
 * code = $snomed#371494008

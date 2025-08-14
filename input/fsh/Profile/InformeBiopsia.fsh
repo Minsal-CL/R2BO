@@ -1,8 +1,8 @@
 Profile:        InformeBiopsia
 Parent:         DiagnosticReport
 Id:             r2bo-informe-biopsia
-Title:          "Perfil del Informe de Anatomía Patológica"
-Description:    "Informe de anatomía patológica"
+Title:          "Perfil del Reporte de Anatomía Patológica"
+Description:    "Reporte de anatomía patológica"
 
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
@@ -16,6 +16,9 @@ Description:    "Informe de anatomía patológica"
 
 * ^abstract = false
 
+* extension contains ExtensionComposition named composition 0..1 MS
+* extension[composition] ^short = "Refernecia al composition del documento"
+
 * identifier 1..1 MS
   * ^short = "Identificador del Informe de Anatomía Patológica"
 
@@ -28,6 +31,7 @@ Description:    "Informe de anatomía patológica"
 * status = #final
 
 * category 1..1 MS
+* category from CategoriaReporteBiopsiaVS (extensible)
   * ^short = "Categoría del Informe de Anatomía Patológica"
 * category = http://terminology.hl7.org/CodeSystem/v2-0074#PAT "Pathology (gross & histopath, not surgical)"
   
@@ -88,7 +92,7 @@ Description:    "Informe de anatomía patológica"
 
 * conclusionCode[Topografico] ^short = "Conclusión Topográfica"
 * conclusionCode[Topografico] only CodeableConceptSCTCIEO
-* conclusionCode[Topografico] from TopograficaSnomedCIEOVS (extensible)	
+* conclusionCode[Topografico] from TopograficaSnomedCIEOVS (extensible)
 * conclusionCode[Topografico]
   * id = "Topografico"
 

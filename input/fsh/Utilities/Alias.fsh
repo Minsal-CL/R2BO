@@ -10,3 +10,4 @@ Alias: $VSTituloProfesional-NID = https://interoperabilidad.minsal.cl/fhir/ig/ni
 Alias: $CSEspecialidades-NID = https://interoperabilidad.minsal.cl/fhir/ig/nid/CodeSystem/CSEspecialidadMed	
 Alias: $CSTituloProfesional-NID = https://interoperabilidad.minsal.cl/fhir/ig/nid/CodeSystem/CSTituloProfesional
 Alias: CSCodPaises = https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CodPais
+Alias: v2-0074 = http://terminology.hl7.org/CodeSystem/v2-0074

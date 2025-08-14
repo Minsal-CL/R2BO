@@ -4,6 +4,7 @@ Usage:          #example
 Title:          "Observacion de Ejemplo: Tejido Tumoral Adjacente"
 Description:    "Ejemplo de la presencia de tejido tumoral en tejido adyacente de un reporte de biopsia"
 
+* basedOn = Reference(r2bo-solicitud-informe-apa-ej)
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
 * code = $loinc#81168-7

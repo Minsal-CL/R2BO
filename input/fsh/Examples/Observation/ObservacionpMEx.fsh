@@ -4,6 +4,7 @@ Usage:          #example
 Title:          "Observacion de Ejemplo: Categoria TNM Metástasis Distante"
 Description:    "Ejemplo de una observación de categoría TNM de metástasis distante de un reporte de biopsia"
 
+* basedOn = Reference(r2bo-solicitud-informe-apa-ej)
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
 * code = $snomed#371497001

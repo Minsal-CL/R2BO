@@ -4,6 +4,7 @@ Usage:          #example
 Title:          "Observacion de Ejemplo: Ganglios Linfáticos"
 Description:    "Ejemplo de una observación de los ganglios afectados de un reporte de biopsia"
 
+* basedOn = Reference(r2bo-solicitud-informe-apa-ej)
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
 * code = $loinc#92831-7

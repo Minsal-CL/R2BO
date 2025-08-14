@@ -4,6 +4,7 @@ Usage:          #example
 Title:          "Observacion de Ejemplo: Macroscopía"
 Description:    "Ejemplo de una observación macrosópica de un reporte de biopsia"
 
+* basedOn = Reference(r2bo-solicitud-informe-apa-ej)
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
 * code = $loinc#74574-5 

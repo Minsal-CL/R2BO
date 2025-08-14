@@ -4,6 +4,7 @@ Usage:          #example
 Title:          "Observacion de Ejemplo: Evaluación Post Neoadyuvancia"
 Description:    "Ejemplo de una observación realizada en un reporte de biopsia, posterioa a una neoadyuvancia"
 
+* basedOn = Reference(r2bo-solicitud-informe-apa-ej)
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
 * code = $loinc#84891-1
