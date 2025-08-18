@@ -4,14 +4,13 @@
   "code" : "M"
 }, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
-  "id" : "exp-params",
   "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
   },
   {
-    "name" : "displayLanguage",
-    "valueCode" : "es"
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
   }]
 }}####
 v: {
@@ -20,6 +19,7 @@ v: {
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
   "version" : "2025",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -31,14 +31,13 @@ v: {
   "code" : "T"
 }, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
-  "id" : "exp-params",
   "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
   },
   {
-    "name" : "displayLanguage",
-    "valueCode" : "es"
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
   }]
 }}####
 v: {
@@ -47,6 +46,7 @@ v: {
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
   "version" : "2025",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -58,14 +58,13 @@ v: {
   "code" : "M"
 }, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
-  "id" : "exp-params",
   "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
   },
   {
-    "name" : "displayLanguage",
-    "valueCode" : "es"
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
   }]
 }}####
 v: {
@@ -74,6 +73,7 @@ v: {
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
   "version" : "2025",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -85,14 +85,13 @@ v: {
   "code" : "T"
 }, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
-  "id" : "exp-params",
   "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
   },
   {
-    "name" : "displayLanguage",
-    "valueCode" : "es"
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
   }]
 }}####
 v: {
@@ -101,6 +100,7 @@ v: {
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
   "version" : "2025",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -110,16 +110,15 @@ v: {
 {"code" : {
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
   "code" : "8500/3"
-}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
-  "id" : "exp-params",
   "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
   },
   {
-    "name" : "displayLanguage",
-    "valueCode" : "es"
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
   }]
 }}####
 v: {
@@ -128,6 +127,7 @@ v: {
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
   "version" : "2025",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -137,16 +137,15 @@ v: {
 {"code" : {
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
   "code" : "8500/3"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cieo3-m-VS--0", "version": "0.1.0", "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cieo3-m-VS--0", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
-  "id" : "exp-params",
   "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
   },
   {
-    "name" : "displayLanguage",
-    "valueCode" : "es"
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
   }]
 }}####
 v: {
@@ -155,6 +154,7 @@ v: {
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
   "version" : "2025",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -164,16 +164,15 @@ v: {
 {"code" : {
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
   "code" : "C50.9"
-}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
-  "id" : "exp-params",
   "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
   },
   {
-    "name" : "displayLanguage",
-    "valueCode" : "es"
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
   }]
 }}####
 v: {
@@ -182,6 +181,7 @@ v: {
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
   "version" : "2025",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -208,15 +208,11 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:aeb662bf-031b-469e-b909-3058cb91977b",
-    "timestamp" : "2025-08-11T21:07:35.645Z",
+    "identifier" : "urn:uuid:b16fac11-694b-4ae9-b901-6b0d6c61a124",
+    "timestamp" : "2025-08-18T20:37:15.623Z",
     "total" : 4232,
     "offset" : 0,
     "parameter" : [{
-      "name" : "displayLanguage",
-      "valueCode" : "es"
-    },
-    {
       "name" : "excludeNested",
       "valueBoolean" : false
     },
@@ -1964,7 +1960,7 @@ e: {
     {
       "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
       "code" : "8500/2",
-      "display" : "Carcinoma intraductal no infiltrante, SAI (C50._)"
+      "display" : "Carcinoma intraductal no infiltrante, SAI"
     },
     {
       "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
@@ -2294,7 +2290,7 @@ e: {
     {
       "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
       "code" : "8590/1",
-      "display" : "Tumor del estroma gonadal"
+      "display" : "Tumor del estroma gonadal de los cordones sexuales, SAI"
     },
     {
       "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
@@ -2314,7 +2310,7 @@ e: {
     {
       "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
       "code" : "8600/0",
-      "display" : "Tumor de células de la teca (C56.9)"
+      "display" : "Tecoma, SAI (C56.9)"
     },
     {
       "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
@@ -2439,7 +2435,7 @@ e: {
     {
       "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
       "code" : "8650/1",
-      "display" : "Tumor de células de Leyding, benigno (C62._)"
+      "display" : "Tumor de células de Leyding, SAI (C62._)"
     },
     {
       "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
@@ -4929,7 +4925,7 @@ e: {
     {
       "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
       "code" : "9670/3",
-      "display" : "Linfoma maligno, linfocítico, células B pequeñas, SAI"
+      "display" : "Linfoma maligno, linfocítico, células B pequeñas, SAI (ver también M-9823/3)"
     },
     {
       "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
@@ -4979,7 +4975,7 @@ e: {
     {
       "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
       "code" : "9690/3",
-      "display" : "Linfoma folicular, SAI"
+      "display" : "Linfoma folicular, SAI (ver también M-9675/3)"
     },
     {
       "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
@@ -5261,15 +5257,11 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:f3e23cb5-9516-4b83-8ceb-9f05dea6970c",
-    "timestamp" : "2025-08-11T21:07:49.092Z",
+    "identifier" : "urn:uuid:c47a83f4-62a6-4540-85ba-14d41ac0b776",
+    "timestamp" : "2025-08-18T20:37:36.885Z",
     "total" : 2359,
     "offset" : 0,
     "parameter" : [{
-      "name" : "displayLanguage",
-      "valueCode" : "es"
-    },
-    {
       "name" : "excludeNested",
       "valueBoolean" : false
     },
@@ -5775,12 +5767,12 @@ e: {
         {
           "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
           "code" : "C16.5",
-          "display" : "Lesión de la curvatura menor, SAI (no clasificable entre C16.1-C16.4)"
+          "display" : "Lesión de la curvatura menor, SAI"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
           "code" : "C16.6",
-          "display" : "Lesión de la curvatura mayor, SAI (no clasificable entre C16.0-C16.4)"
+          "display" : "Lesión de la curvatura mayor, SAI"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
@@ -5810,12 +5802,12 @@ e: {
         {
           "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
           "code" : "C17.2",
-          "display" : "Íleon (excluye Válvula ileocecal C18.0)"
+          "display" : "Íleon"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
           "code" : "C17.3",
-          "display" : "Divertículo de Meckel (localización del tumor)"
+          "display" : "Divertículo de Meckel"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
@@ -6255,22 +6247,22 @@ e: {
         "contains" : [{
           "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
           "code" : "C40.0",
-          "display" : "Articulación acromioclavicular"
+          "display" : "Huesos largos y articulaciones de la extremidad superior, escápula y articulaciones asociadas"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
           "code" : "C40.1",
-          "display" : "Articulación de la mano"
+          "display" : "Huesos cortos de la extremidad superior y articulaciones asociadas"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
           "code" : "C40.2",
-          "display" : "Articulación de la rodilla, SAI"
+          "display" : "Huesos largos de la extremidad inferior y articulaciones asociadas"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
           "code" : "C40.3",
-          "display" : "Articulación del pie"
+          "display" : "Huesos cortos de la extremidad inferior y articulaciones asociadas"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
@@ -6290,7 +6282,7 @@ e: {
         "contains" : [{
           "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
           "code" : "C41.0",
-          "display" : "Calota"
+          "display" : "Huesos del cráneo y de la cara y articulaciones asociadas (excluye Mandíbula C41.1)"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
@@ -6300,17 +6292,17 @@ e: {
         {
           "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
           "code" : "C41.2",
-          "display" : "Atlas"
+          "display" : "Columna vertebral (excluye Sacro y Cóccix C41.4)"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
           "code" : "C41.3",
-          "display" : "Apéndice xifoides"
+          "display" : "Costilla, esternón, clavícula y articulaciones asociadas"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
           "code" : "C41.4",
-          "display" : "Acetábulo"
+          "display" : "Huesos de la pelvis, sacro, cóccix y articulaciones asociadas"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
@@ -6416,7 +6408,7 @@ e: {
       "contains" : [{
         "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
         "code" : "C47.0",
-        "display" : "Nervios periféricos y sistema nervioso autónomo de cabeza"
+        "display" : "Nervios periféricos y sistema nervioso autónomo de la cabeza, la cara y el cuello"
       },
       {
         "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
@@ -6436,12 +6428,12 @@ e: {
       {
         "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
         "code" : "C47.4",
-        "display" : "Nervios periféricos y sistema nervioso autónomo de abdomen"
+        "display" : "Nervios periféricos y sistema nervioso autónomo del abdomen"
       },
       {
         "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
         "code" : "C47.5",
-        "display" : "Nervios periféricos y sistema nervioso autónomo de región inguinal"
+        "display" : "Nervios periféricos y sistema nervioso autónomo de la pelvis"
       },
       {
         "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
@@ -6541,7 +6533,7 @@ e: {
       "contains" : [{
         "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
         "code" : "C50.0",
-        "display" : "Areola"
+        "display" : "Pezón"
       },
       {
         "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
@@ -6785,7 +6777,7 @@ e: {
         {
           "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
           "code" : "C60.2",
-          "display" : "Cuerpo cavernoso"
+          "display" : "Cuerpo del pene"
         },
         {
           "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
@@ -7157,490 +7149,5 @@ e: {
   }
 },
   "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "code" : "M"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250501"
-  },
-  {
-    "name" : "displayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Morfología",
-  "code" : "M",
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "version" : "2025",
-  "server" : "http://localhost/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "code" : "T"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250501"
-  },
-  {
-    "name" : "displayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Topografía",
-  "code" : "T",
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "version" : "2025",
-  "server" : "http://localhost/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "code" : "M"
-}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250501"
-  },
-  {
-    "name" : "displayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Morfología",
-  "code" : "M",
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "version" : "2025",
-  "server" : "http://localhost/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "code" : "T"
-}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250501"
-  },
-  {
-    "name" : "displayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Topografía",
-  "code" : "T",
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "version" : "2025",
-  "server" : "http://localhost/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "code" : "8500/3"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250501"
-  },
-  {
-    "name" : "displayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Carcinoma ductal infiltrante, SAI (C50._)",
-  "code" : "8500/3",
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "version" : "2025",
-  "server" : "http://localhost/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "code" : "8500/3"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cieo3-m-VS--0", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250501"
-  },
-  {
-    "name" : "displayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Carcinoma ductal infiltrante, SAI (C50._)",
-  "code" : "8500/3",
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "version" : "2025",
-  "server" : "http://localhost/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "code" : "C50.9"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250501"
-  },
-  {
-    "name" : "displayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Mama, SAI",
-  "code" : "C50.9",
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "version" : "2025",
-  "server" : "http://localhost/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "code" : "M"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "code" : "M",
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "version" : "2000",
-  "severity" : "warning",
-  "error" : "Unknown Code 'M' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment",
-  "server" : "https://tx.fhir.org/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome",
-  "issue" : [{
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
-      "valueString" : "UNKNOWN_CODE_IN_FRAGMENT"
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
-      "valueUrl" : "https://tx.fhir.org/r4"
-    }],
-    "severity" : "warning",
-    "code" : "code-invalid",
-    "details" : {
-      "coding" : [{
-        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
-        "code" : "invalid-code"
-      }],
-      "text" : "Unknown Code 'M' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment"
-    },
-    "location" : ["Coding.code"],
-    "expression" : ["Coding.code"]
-  }]
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "code" : "T"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "code" : "T",
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "version" : "2000",
-  "severity" : "warning",
-  "error" : "Unknown Code 'T' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment",
-  "server" : "https://tx.fhir.org/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome",
-  "issue" : [{
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
-      "valueString" : "UNKNOWN_CODE_IN_FRAGMENT"
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
-      "valueUrl" : "https://tx.fhir.org/r4"
-    }],
-    "severity" : "warning",
-    "code" : "code-invalid",
-    "details" : {
-      "coding" : [{
-        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
-        "code" : "invalid-code"
-      }],
-      "text" : "Unknown Code 'T' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment"
-    },
-    "location" : ["Coding.code"],
-    "expression" : ["Coding.code"]
-  }]
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "code" : "M"
-}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "code" : "M",
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "version" : "2000",
-  "severity" : "warning",
-  "error" : "Unknown Code 'M' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment",
-  "server" : "https://tx.fhir.org/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome",
-  "issue" : [{
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
-      "valueString" : "UNKNOWN_CODE_IN_FRAGMENT"
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
-      "valueUrl" : "https://tx.fhir.org/r4"
-    }],
-    "severity" : "warning",
-    "code" : "code-invalid",
-    "details" : {
-      "coding" : [{
-        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
-        "code" : "invalid-code"
-      }],
-      "text" : "Unknown Code 'M' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment"
-    },
-    "location" : ["Coding.code"],
-    "expression" : ["Coding.code"]
-  }]
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "code" : "T"
-}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "code" : "T",
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "version" : "2000",
-  "severity" : "warning",
-  "error" : "Unknown Code 'T' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment",
-  "server" : "https://tx.fhir.org/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome",
-  "issue" : [{
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
-      "valueString" : "UNKNOWN_CODE_IN_FRAGMENT"
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
-      "valueUrl" : "https://tx.fhir.org/r4"
-    }],
-    "severity" : "warning",
-    "code" : "code-invalid",
-    "details" : {
-      "coding" : [{
-        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
-        "code" : "invalid-code"
-      }],
-      "text" : "Unknown Code 'T' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment"
-    },
-    "location" : ["Coding.code"],
-    "expression" : ["Coding.code"]
-  }]
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "code" : "8500/3"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Infiltrating duct carcinoma, NOS",
-  "code" : "8500/3",
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "version" : "2000",
-  "server" : "https://tx.fhir.org/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "code" : "8500/3"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cieo3-m-VS--0", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "severity" : "error",
-  "error" : "Error from https://tx.fhir.org/r4: Unable to locate code 'M'",
-  "class" : "SERVER_ERROR",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "code" : "C50.9"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "code" : "C50.9",
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "version" : "2000",
-  "severity" : "warning",
-  "error" : "Unknown Code 'C50.9' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment",
-  "server" : "https://tx.fhir.org/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome",
-  "issue" : [{
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
-      "valueString" : "UNKNOWN_CODE_IN_FRAGMENT"
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
-      "valueUrl" : "https://tx.fhir.org/r4"
-    }],
-    "severity" : "warning",
-    "code" : "code-invalid",
-    "details" : {
-      "coding" : [{
-        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
-        "code" : "invalid-code"
-      }],
-      "text" : "Unknown Code 'C50.9' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment"
-    },
-    "location" : ["Coding.code"],
-    "expression" : ["Coding.code"]
-  }]
-}
-
 }
 -------------------------------------------------------------------------------------

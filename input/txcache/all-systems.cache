@@ -5,16 +5,15 @@
     "code" : "CL",
     "display" : "Chile"
   }]
-}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
-  "id" : "exp-params",
   "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
   },
   {
-    "name" : "displayLanguage",
-    "valueCode" : "es"
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
   }]
 }}####
 v: {
@@ -23,6 +22,7 @@ v: {
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -38,16 +38,15 @@ v: {
       "system" : "urn:ietf:bcp:13"
     }]
   }
-}, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
-  "id" : "exp-params",
   "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
   },
   {
-    "name" : "displayLanguage",
-    "valueCode" : "es"
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
   }]
 }}####
 v: {
@@ -55,6 +54,7 @@ v: {
   "code" : "application/fhir+json",
   "system" : "urn:ietf:bcp:13",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -63,16 +63,15 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "code" : "application/fhir+json"
-}, "url": "http://hl7.org/fhir/ValueSet/mimetypes", "version": "4.0.1", "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "http://hl7.org/fhir/ValueSet/mimetypes", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
-  "id" : "exp-params",
   "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
   },
   {
-    "name" : "displayLanguage",
-    "valueCode" : "es"
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
   }]
 }}####
 v: {
@@ -80,6 +79,7 @@ v: {
   "code" : "application/fhir+json",
   "system" : "urn:ietf:bcp:13",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -95,16 +95,15 @@ v: {
       "system" : "urn:ietf:bcp:13"
     }]
   }
-}, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
-  "id" : "exp-params",
   "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
   },
   {
-    "name" : "displayLanguage",
-    "valueCode" : "es"
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
   }]
 }}####
 v: {
@@ -112,6 +111,7 @@ v: {
   "code" : "application/fhir+xml",
   "system" : "urn:ietf:bcp:13",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -120,16 +120,15 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "code" : "application/fhir+xml"
-}, "url": "http://hl7.org/fhir/ValueSet/mimetypes", "version": "4.0.1", "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "http://hl7.org/fhir/ValueSet/mimetypes", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
-  "id" : "exp-params",
   "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
   },
   {
-    "name" : "displayLanguage",
-    "valueCode" : "es"
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
   }]
 }}####
 v: {
@@ -137,6 +136,7 @@ v: {
   "code" : "application/fhir+xml",
   "system" : "urn:ietf:bcp:13",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -144,24 +144,24 @@ v: {
 }
 -------------------------------------------------------------------------------------
 {"code" : {
-  "code" : "es"
-}, "url": "http://hl7.org/fhir/ValueSet/languages", "version": "4.0.1", "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "en"
+}, "url": "http://hl7.org/fhir/ValueSet/languages", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
-  "id" : "exp-params",
   "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
   },
   {
-    "name" : "displayLanguage",
-    "valueCode" : "es"
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
   }]
 }}####
 v: {
-  "display" : "Spanish",
-  "code" : "es",
+  "display" : "English",
+  "code" : "en",
   "system" : "urn:ietf:bcp:47",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -178,16 +178,15 @@ v: {
     "code" : "C50.9"
   }],
   "text" : "Mama"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS", "version": "0.1.0", "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
-  "id" : "exp-params",
   "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
   },
   {
-    "name" : "displayLanguage",
-    "valueCode" : "es"
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
   }]
 }}####
 v: {
@@ -210,500 +209,25 @@ v: {
 {"hierarchical" : false, "url": "http://hl7.org/fhir/us/mcode/ValueSet/mcode-tnm-staging-method-vs", "version": "4.0.0"}####
 e: {
   "from-server" : true,
-  "error" : "Error from http://localhost/r4: Unable to provide support for code system http://snomed.info/sct"
+  "error" : "Error from http://localhost/r4: The code system definition for http://snomed.info/sct has no content, so this expansion cannot be performed"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS", "version": "0.1.0"}####
 e: {
   "from-server" : true,
-  "error" : "Error from http://localhost/r4: Unable to provide support for code system http://snomed.info/sct"
+  "error" : "Error from http://localhost/r4: The code system definition for http://snomed.info/sct has no content, so this expansion cannot be performed"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS", "version": "0.1.0"}####
 e: {
   "from-server" : true,
-  "error" : "Error from http://localhost/r4: Unable to provide support for code system http://snomed.info/sct"
+  "error" : "Error from http://localhost/r4: The code system definition for http://snomed.info/sct has no content, so this expansion cannot be performed"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs", "version": "0.1.0"}####
 e: {
   "from-server" : true,
-  "error" : "Error from http://localhost/r4: Unable to provide support for code system http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "coding" : [{
-    "system" : "urn:iso:std:iso:3166",
-    "code" : "CL",
-    "display" : "Chile"
-  }]
-}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
-  },
-  {
-    "name" : "displayLanguage",
-    "valueCode" : "es"
-  }]
-}}####
-v: {
-  "display" : "Chile",
-  "code" : "CL",
-  "system" : "urn:iso:std:iso:3166",
-  "version" : "2018",
-  "server" : "http://localhost/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "coding" : [{
-    "system" : "urn:iso:std:iso:3166",
-    "code" : "CL",
-    "display" : "Chile"
-  }]
-}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250501"
-  },
-  {
-    "name" : "displayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Chile",
-  "code" : "CL",
-  "system" : "urn:iso:std:iso:3166",
-  "version" : "2018",
-  "server" : "http://localhost/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "code" : "application/fhir+json"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "urn:ietf:bcp:13"
-    }]
-  }
-}, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250501"
-  },
-  {
-    "name" : "displayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "application/fhir+json",
-  "code" : "application/fhir+json",
-  "system" : "urn:ietf:bcp:13",
-  "server" : "http://localhost/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "code" : "application/fhir+json"
-}, "url": "http://hl7.org/fhir/ValueSet/mimetypes", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250501"
-  },
-  {
-    "name" : "displayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "application/fhir+json",
-  "code" : "application/fhir+json",
-  "system" : "urn:ietf:bcp:13",
-  "server" : "http://localhost/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "code" : "application/fhir+xml"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "urn:ietf:bcp:13"
-    }]
-  }
-}, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250501"
-  },
-  {
-    "name" : "displayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "application/fhir+xml",
-  "code" : "application/fhir+xml",
-  "system" : "urn:ietf:bcp:13",
-  "server" : "http://localhost/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "code" : "application/fhir+xml"
-}, "url": "http://hl7.org/fhir/ValueSet/mimetypes", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250501"
-  },
-  {
-    "name" : "displayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "application/fhir+xml",
-  "code" : "application/fhir+xml",
-  "system" : "urn:ietf:bcp:13",
-  "server" : "http://localhost/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "code" : "en"
-}, "url": "http://hl7.org/fhir/ValueSet/languages", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250501"
-  },
-  {
-    "name" : "displayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "English",
-  "code" : "en",
-  "system" : "urn:ietf:bcp:47",
-  "server" : "http://localhost/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "coding" : [{
-    "system" : "http://snomed.info/sct",
-    "code" : "76752008"
-  },
-  {
-    "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-    "code" : "C50.9"
-  }],
-  "text" : "Mama"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250501"
-  },
-  {
-    "name" : "displayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "severity" : "error",
-  "error" : "Error from http://localhost/r4: The filter \"constraint = < 442083009, ^ 446608001\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-VS was not understood in the context of http://snomed.info/sct (1)",
-  "class" : "SERVER_ERROR",
-  "issues" : {
-  "resourceType" : "OperationOutcome",
-  "issue" : [{
-    "severity" : "error",
-    "code" : "exception",
-    "details" : {
-      "text" : "Error from http://localhost/r4: The filter \"constraint = < 442083009, ^ 446608001\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-VS was not understood in the context of http://snomed.info/sct (1)"
-    }
-  }]
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "coding" : [{
-    "system" : "urn:iso:std:iso:3166",
-    "code" : "CL",
-    "display" : "Chile"
-  }]
-}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250501"
-  },
-  {
-    "name" : "displayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Chile",
-  "code" : "CL",
-  "system" : "urn:iso:std:iso:3166",
-  "version" : "2018",
-  "server" : "http://localhost/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "coding" : [{
-    "system" : "urn:iso:std:iso:3166",
-    "code" : "CL",
-    "display" : "Chile"
-  }]
-}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Chile",
-  "code" : "CL",
-  "system" : "urn:iso:std:iso:3166",
-  "version" : "2018",
-  "server" : "https://tx.fhir.org/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "code" : "application/fhir+json"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "urn:ietf:bcp:13"
-    }]
-  }
-}, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "application/fhir+json",
-  "code" : "application/fhir+json",
-  "system" : "urn:ietf:bcp:13",
-  "server" : "https://tx.fhir.org/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "code" : "application/fhir+json"
-}, "url": "http://hl7.org/fhir/ValueSet/mimetypes", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "application/fhir+json",
-  "code" : "application/fhir+json",
-  "system" : "urn:ietf:bcp:13",
-  "server" : "https://tx.fhir.org/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "code" : "application/fhir+xml"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "urn:ietf:bcp:13"
-    }]
-  }
-}, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "application/fhir+xml",
-  "code" : "application/fhir+xml",
-  "system" : "urn:ietf:bcp:13",
-  "server" : "https://tx.fhir.org/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "code" : "application/fhir+xml"
-}, "url": "http://hl7.org/fhir/ValueSet/mimetypes", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "application/fhir+xml",
-  "code" : "application/fhir+xml",
-  "system" : "urn:ietf:bcp:13",
-  "server" : "https://tx.fhir.org/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "code" : "en"
-}, "url": "http://hl7.org/fhir/ValueSet/languages", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "English",
-  "code" : "en",
-  "system" : "urn:ietf:bcp:47",
-  "server" : "https://tx.fhir.org/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "coding" : [{
-    "system" : "http://snomed.info/sct",
-    "code" : "76752008"
-  },
-  {
-    "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-    "code" : "C50.9"
-  }],
-  "text" : "Mama"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "severity" : "error",
-  "error" : "Error from https://tx.fhir.org/r4: The filter \"constraint = < 442083009, ^ 446608001\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-VS was not understood in the context of http://snomed.info/sct (1)",
-  "class" : "SERVER_ERROR",
-  "issues" : {
-  "resourceType" : "OperationOutcome",
-  "issue" : [{
-    "severity" : "error",
-    "code" : "exception",
-    "details" : {
-      "text" : "Error from https://tx.fhir.org/r4: The filter \"constraint = < 442083009, ^ 446608001\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-VS was not understood in the context of http://snomed.info/sct (1)"
-    }
-  }]
-}
-
+  "error" : "Error from http://localhost/r4: The code system definition for http://snomed.info/sct has no content, so this expansion cannot be performed"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -728,7 +252,7 @@ v: {
   "code" : "CL",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "server" : "https://tx.fhir.org/r4",
+  "server" : "http://localhost/r4",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"

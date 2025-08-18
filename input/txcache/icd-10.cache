@@ -3,16 +3,15 @@
   "system" : "http://hl7.org/fhir/sid/icd-10",
   "version" : "2019-covid-expanded",
   "code" : "D48.6"
-}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
-  "id" : "exp-params",
   "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
   },
   {
-    "name" : "displayLanguage",
-    "valueCode" : "es"
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
   }]
 }}####
 v: {
@@ -21,6 +20,7 @@ v: {
   "system" : "http://hl7.org/fhir/sid/icd-10",
   "version" : "2019-covid-expanded",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -30,16 +30,15 @@ v: {
 {"code" : {
   "system" : "http://hl7.org/fhir/sid/icd-10",
   "code" : "D48.6"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cie10-vs--0", "version": "0.1.0", "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cie10-vs--0", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
-  "id" : "exp-params",
   "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
   },
   {
-    "name" : "displayLanguage",
-    "valueCode" : "es"
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
   }]
 }}####
 v: {
@@ -48,6 +47,7 @@ v: {
   "system" : "http://hl7.org/fhir/sid/icd-10",
   "version" : "2019-covid-expanded",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -58,16 +58,15 @@ v: {
   "system" : "http://hl7.org/fhir/sid/icd-10",
   "version" : "2019-covid-expanded",
   "code" : "D48.6"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cie10-vs", "version": "0.1.0", "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cie10-vs", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
-  "id" : "exp-params",
   "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
   },
   {
-    "name" : "displayLanguage",
-    "valueCode" : "es"
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
   }]
 }}####
 v: {
@@ -76,6 +75,7 @@ v: {
   "system" : "http://hl7.org/fhir/sid/icd-10",
   "version" : "2019-covid-expanded",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -107,7 +107,7 @@ e: {
   "title" : "Set de Valores de la Clasificación Internacional de Enfermedades 10 Versión",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-08-11T17:00:43-04:00",
+  "date" : "2025-08-18T16:31:29-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -116,16 +116,12 @@ e: {
     }]
   }],
   "expansion" : {
-    "identifier" : "urn:uuid:b6d1da55-86fe-4079-a99f-d8d24e61e3f7",
-    "timestamp" : "2025-08-11T21:07:26.341Z",
+    "identifier" : "urn:uuid:88b1a43e-ef36-4c52-b9d8-bbbcc24b7ea9",
+    "timestamp" : "2025-08-18T20:36:53.800Z",
     "offset" : 0,
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
-    },
-    {
-      "name" : "displayLanguage",
-      "valueCode" : "es"
     },
     {
       "name" : "excludeNested",
@@ -5150,171 +5146,5 @@ e: {
   }
 },
   "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "version" : "2019-covid-expanded",
-  "code" : "D48.6"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250501"
-  },
-  {
-    "name" : "displayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Breast",
-  "code" : "D48.6",
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "version" : "2019-covid-expanded",
-  "server" : "http://localhost/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "D48.6"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cie10-vs--0", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250501"
-  },
-  {
-    "name" : "displayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Breast",
-  "code" : "D48.6",
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "version" : "2019-covid-expanded",
-  "server" : "http://localhost/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "version" : "2019-covid-expanded",
-  "code" : "D48.6"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cie10-vs", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250501"
-  },
-  {
-    "name" : "displayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Breast",
-  "code" : "D48.6",
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "version" : "2019-covid-expanded",
-  "server" : "http://localhost/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "version" : "2019-covid-expanded",
-  "code" : "D48.6"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Breast",
-  "code" : "D48.6",
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "version" : "2019-covid-expanded",
-  "server" : "https://tx.fhir.org/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "D48.6"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cie10-vs--0", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Breast",
-  "code" : "D48.6",
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "version" : "2019-covid-expanded",
-  "server" : "https://tx.fhir.org/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "version" : "2019-covid-expanded",
-  "code" : "D48.6"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cie10-vs", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Breast",
-  "code" : "D48.6",
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "version" : "2019-covid-expanded",
-  "server" : "https://tx.fhir.org/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
 }
 -------------------------------------------------------------------------------------

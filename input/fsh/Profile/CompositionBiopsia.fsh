@@ -18,6 +18,8 @@ Description:    "Este recurso representa la cabecera del documento de un reporte
 
 * extension contains ExtensionReporteDiagnostico named ReporteBiopsia 1..1 MS
 
+* obeys r2bo-comp-1 
+
 * identifier 1.. MS 
   * ^short = "Identificador del reporte"
 
@@ -52,7 +54,7 @@ Description:    "Este recurso representa la cabecera del documento de un reporte
 * section contains
   solicitud 1..1 MS and
   muestra 1..1 MS and
-  macroscopica 1..1 MS and
+  macroscopica 0..1 MS and
   microscopica 1..1 MS and
   hallazgos 1..1 MS and
   conclusiones 1..1 MS and

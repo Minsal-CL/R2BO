@@ -16,6 +16,8 @@ Description:    "Reporte de anatomía patológica"
 
 * ^abstract = false
 
+* obeys r2bo-diag-1
+
 * extension contains ExtensionComposition named composition 0..1 MS
 * extension[composition] ^short = "Refernecia al composition del documento"
 
@@ -54,15 +56,15 @@ Description:    "Reporte de anatomía patológica"
   * ^short = "Muestra de Biopsia"
 * specimen only Reference(MuestraR2BO)
 
-* result 2..* MS
+* result MS
   * ^short = "Resultados del Informe de Anatomía Patológica"
-  * ^slicing.discriminator.type = #value
-  * ^slicing.discriminator.path = "resolve().code"
+  * ^slicing.discriminator.type = #profile
+  * ^slicing.discriminator.path = "$this.resolve()"
   * ^slicing.rules = #open
   * ^slicing.description = "Distintos Resultados del Informe de Anatomía Patológica"
   * ^slicing.ordered = false
 * result only Reference(ResultadosReporteBiopsia)
-* result contains Microscopia 1..1 MS and Macroscopia 1..1 MS and TNM 0..1 MS
+* result contains Microscopia 1..1 MS and Macroscopia 0..1 MS and TNM 0..1 MS and Resultados ..* 
 
 * result[Microscopia] ^short = "Resultados de Microscopía"
 * result[Microscopia] only Reference(ObservacionMicroscopicaR2BO)
@@ -70,6 +72,8 @@ Description:    "Reporte de anatomía patológica"
 * result[Macroscopia] only Reference(ObservacionMacroscopicaR2BO)
 * result[TNM] ^short = "Estadificación patológica TNM"
 * result[TNM] only Reference(EstadificacionTNM)
+* result[Resultados] ^short = "Otros posibles resultados"
+* result[Resultados] only Reference(ObservacionInfiltracionPerineuralR2BO or ObservacionGangliosLinfaticos or ObservacionInfiltradoPeritumoralR2BO or ObservacionInvasionLinfaticaR2BO or ObservacionInvasionVascularR2BO or ObservacionMargenQuirugico or ObservacionCentricidad or ObservacionMultifocalidad or ObservacionPostNeoadjudancia or ObservacionPorcentajeNecrosisR2BO or ObservacionTejidoTumoralAdjacente or TamanoTumorR2BO)
 
 * conclusion 1..1 MS
   * ^short = "Conclusión narrativa del informe de anatomía patológica"

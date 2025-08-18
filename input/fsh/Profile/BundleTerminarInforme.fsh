@@ -28,13 +28,15 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
 * entry contains 
     Solicitud 1..1 and 
     Paciente 1..1 and
-    RolProfesional 2..2 and
-    Profesional 2..2 and
-    Organizacion 1..2 and
+    RolProfesional 2..* and
+    Profesional 2..* and
+    Organizacion 1..* and
     Muestra 1..1 and
+    CabeceraDocumento 1..1 and
     InformeDiagnostico 1..1 and
+    Tumor 1..1 and
     ObservacionMicroscopica 1..1 and
-    ObservacionMacroscopica 1..1 and
+    ObservacionMacroscopica 0..1 and
     Estadificacion 0..1 and
     CategoriaT 0..1 and
     CategoriaN 0..1 and
@@ -139,6 +141,26 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
     * url 1..1
     * url
       * ^short = "Uri del recurso \"DiagnosticReport\""
+
+* entry[CabeceraDocumento]
+  * resource 1..1 MS
+  * resource only CompositionBiopsia
+  * request 1..1
+    * method 1..1
+    * method = #POST
+    * url 1..1
+    * url
+      * ^short = "Uri del recurso \"Composition\""
+
+* entry[Tumor]
+  * resource 1..1 MS
+  * resource only R2BOTumor
+  * request 1..1
+    * method 1..1
+    * method = #POST
+    * url 1..1
+    * url
+      * ^short = "Uri del recurso \"BodyStructure\""
 
 * entry[ObservacionMicroscopica]
   * resource 1..1 MS
