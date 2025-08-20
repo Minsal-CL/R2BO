@@ -23,7 +23,6 @@ v: {
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -56,7 +55,6 @@ v: {
   "code" : "application/fhir+json",
   "system" : "urn:ietf:bcp:13",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -82,7 +80,6 @@ v: {
   "code" : "application/fhir+json",
   "system" : "urn:ietf:bcp:13",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -115,7 +112,6 @@ v: {
   "code" : "application/fhir+xml",
   "system" : "urn:ietf:bcp:13",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -141,7 +137,6 @@ v: {
   "code" : "application/fhir+xml",
   "system" : "urn:ietf:bcp:13",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -167,7 +162,6 @@ v: {
   "code" : "en",
   "system" : "urn:ietf:bcp:47",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -243,9 +237,47 @@ v: {
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "76752008"
+  },
+  {
+    "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+    "code" : "C50.9"
+  }],
+  "text" : "Mama"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS", "version": "0.2.0", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "Error from http://localhost/r4: The filter \"constraint = ^446608001,<91723000\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-VS was not understood in the context of http://snomed.info/sct (1)",
+  "class" : "SERVER_ERROR",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "severity" : "error",
+    "code" : "exception",
+    "details" : {
+      "text" : "Error from http://localhost/r4: The filter \"constraint = ^446608001,<91723000\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-VS was not understood in the context of http://snomed.info/sct (1)"
+    }
+  }]
 }
 
 }

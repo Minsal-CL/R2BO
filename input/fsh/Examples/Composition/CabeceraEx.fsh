@@ -66,8 +66,8 @@ Description:    "Documento de un informe de anatomía patológica de biopsia de 
   * code.text = "Conclusiones de Biopsia"
   * text.status = #generated
   * text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>Conclusiones de Biopsia</div>"
-  * entry[0] = Reference(r2bo-tumor-ex)
-  * entry[1] = Reference(r2bo-estadificacion-tnm-ex)
+  * entry[DescripcionTumor] = Reference(r2bo-tumor-ex)
+  * entry[TNM] = Reference(r2bo-estadificacion-tnm-ex)
 
 * section[Notas]
   * code = $loinc#22638-1

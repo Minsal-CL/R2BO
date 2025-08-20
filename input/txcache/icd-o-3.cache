@@ -20,7 +20,6 @@ v: {
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
   "version" : "2025",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -48,7 +47,6 @@ v: {
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
   "version" : "2025",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -76,7 +74,6 @@ v: {
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
   "version" : "2025",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -104,7 +101,6 @@ v: {
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
   "version" : "2025",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -132,7 +128,6 @@ v: {
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
   "version" : "2025",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -160,7 +155,6 @@ v: {
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
   "version" : "2025",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -188,7 +182,6 @@ v: {
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
   "version" : "2025",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7156,5 +7149,33 @@ e: {
   }
 },
   "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "code" : "8500/3"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cieo3-m-VS--0", "version": "0.2.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Carcinoma ductal infiltrante, SAI (C50._)",
+  "code" : "8500/3",
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "version" : "2025",
+  "server" : "http://localhost/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
 }
 -------------------------------------------------------------------------------------

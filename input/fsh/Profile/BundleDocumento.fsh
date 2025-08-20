@@ -1,4 +1,4 @@
-Profile:        BundleDocumento
+Profile:        R2BOBundleDocumento
 Parent:         Bundle
 Id:             r2bo-bundle-documento
 Title:          "Perfil de Bundle del Documento"
