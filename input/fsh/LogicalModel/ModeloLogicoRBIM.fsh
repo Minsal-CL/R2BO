@@ -10,7 +10,7 @@ Characteristics: #can-be-target
 * segundoApellido 0..1 SU string "El apellido distingue a la persona del resto de los integrantes de la sociedad y el nombre de pila, lo individualiza jurídicamente de los restantes hijos de los mismos padres."
 * tipoDeDocumento 1..1 SU CodeableConcept "Identificar el tipo del documento de identidad, por el cual se va a identificar el paciente."
   * numeroDeDocumento 1..1 SU string "Número de documento de identidad del paciente."
-  * run 0..1 SU string "El RUN es el n° de identificación que entrega la mayor credibilidad para la individualización inequívoca de las personas y se debe utilizar en todas las personas que lo poseen. En Chile es único, irrepetible e intransferible que posee todo chileno resida o no en Chile.  "
+  * run 0..1 SU string "El RUN es el n° de identificación que entrega la mayor credibilidad para la individualización inequívoca de las personas y se debe utilizar en todas las personas que lo poseen. En Chile es único, irrepetible e intransferible que posee todo chileno resida o no en Chile."
   * digitoVerificador 0..1 SU string "Parte de la estructura del RUN y debe permitir valor numérico, incluído el cero y la letra k mayúscula o minúscula."
   * runProvisorio 0..1 SU string "Es el documento entregado de forma provisoria, por una entidad publica chilena."
   * dni 0..1 SU string "Es el numero de documento de identificacion de un extranjero, documento entregado en el país de origen"

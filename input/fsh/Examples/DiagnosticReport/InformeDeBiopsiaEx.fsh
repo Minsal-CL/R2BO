@@ -1,8 +1,10 @@
 Instance:       r2bo-informe-biopsia-ex
-InstanceOf:     InformeBiopsia 
+InstanceOf:     R2BOInformeBiopsia
 Usage:          #example
 Title:          "Informe de Anatomía Patológica de Biopsia de Mama"
 Description:    "Ejecución de un informe de anatomía patológica de biopsia de mama"
+
+* extension[composition] = ext-ex-composition
 
 * identifier.value = "r2bo-2020-0001"
 * basedOn = Reference(r2bo-solicitud-informe-apa-ej)
@@ -49,3 +51,9 @@ Usage: #inline
 * coding[SCT] = $snomed#76752008
 * coding[CIEO] = $ICD-O-3#C50.9
 * text = "Mama"
+
+Instance: ext-ex-composition
+InstanceOf: ExtensionComposition
+Usage: #inline
+
+* valueReference = Reference(r2bo-documento-biopsia-ex)

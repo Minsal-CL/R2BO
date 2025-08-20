@@ -1,8 +1,8 @@
 Extension:      ExtensionReporteDiagnostico
 Id:             r2bo-extension-referencia-diagnosticReport
-Title:          "Extensión De Referencia al Report"
+Title:          "Extensión De Referencia al Reporte"
 Description:    "Extensión que genera la referencia al reporte el cual permite generar un documento en FHIR"
-Context:        DiagnosticReport
+Context:        Composition
 
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
@@ -14,4 +14,4 @@ Context:        DiagnosticReport
 * ^experimental = true
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* value[x] only Reference(InformeBiopsia)
+* value[x] only Reference(R2BOInformeBiopsia)

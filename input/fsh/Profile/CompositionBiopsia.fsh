@@ -1,7 +1,7 @@
-Profile:        CompositionBiopsia
+Profile:        R2BOCompositionBiopsia
 Parent:         DocumentoCl
 Id:             r2bo-composition-biopsia
-Title:          "Documento de Biopsía"
+Title:          "Perfil del Documento de Biopsía"
 Description:    "Este recurso representa la cabecera del documento de un reporte de analisis de anatomía patológica"
 
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
@@ -54,8 +54,8 @@ Description:    "Este recurso representa la cabecera del documento de un reporte
 * section contains
   solicitud 1..1 MS and
   muestra 1..1 MS and
-  macroscopica 0..1 MS and
-  microscopica 1..1 MS and
+  macroscopia 0..1 MS and
+  microscopia 1..1 MS and
   hallazgos 1..1 MS and
   conclusiones 1..1 MS and
   Notas 0..1 
@@ -72,13 +72,13 @@ Description:    "Este recurso representa la cabecera del documento de un reporte
   * entry 1..1
   * entry only Reference(MuestraR2BO)
 
-* section[macroscopica]
+* section[macroscopia]
   * ^short = "Observaciones realizadas a la muestra a simple vista"
   * code = $loinc#22634-0
   * entry 1..1
   * entry only Reference(ObservacionMacroscopicaR2BO)
 
-* section[microscopica]
+* section[microscopia]
   * ^short = "Observaciones realizadas a traves de un microscopio"
   * code = $loinc#22635-7
   * entry 1..1
@@ -109,5 +109,6 @@ Description:    "Este recurso representa la cabecera del documento de un reporte
 
 * section[Notas]
   * ^short = "Notas en texto libre"
+  * code = $loinc#22638-1
   * text 1..1 MS 
   * text ^short = "Notas que se pueden dejar como texto narrativo"

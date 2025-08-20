@@ -1,10 +1,11 @@
 {
   "urn:ietf:bcp:13|null" : null,
-  "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801" : null,
+  "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701" : null,
   "http://unstats.un.org/unsd/methods/m49/m49.htm|null" : null,
-  "http://snomed.info/sct|http://snomed.info/sct/900000001000122104/version/20241201" : null,
-  "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250501" : null,
-  "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CodigoPaises|null" : null,
-  "http://hl7.org/fhir/sid/icd-10|2019-covid-expanded" : null,
-  "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615" : null
+  "http://terminology.hl7.org/CodeSystem/v2-00741" : null,
+  "http://hl7.org/fhir/sid/icd-10|2019-covid-expanded" : {
+    "server" : "http://localhost/r4",
+    "filename" : "cs-58dd6e75-5538-4025-b600-c1d15ace61ba.json"
+  },
+  "http://terminology.hl7.org/CodeSystem/v2-00741|2.5.0" : null
 }

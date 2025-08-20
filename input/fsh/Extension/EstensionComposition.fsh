@@ -14,4 +14,4 @@ Context:        DiagnosticReport
 * ^experimental = true
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* value[x] only Reference(CompositionBiopsia)
+* value[x] only Reference(R2BOCompositionBiopsia)

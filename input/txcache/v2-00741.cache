@@ -1,0 +1,130 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v2-00741",
+      "version" : "2.5.0",
+      "concept" : [{
+        "code" : "CP",
+        "display" : "Cytopathology"
+      },
+      {
+        "code" : "PAT",
+        "display" : "Pathology (gross & histopath, not surgical)"
+      },
+      {
+        "code" : "HM",
+        "display" : "Hematology"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from https://tx.ontoserver.csiro.au/fhir/: Error: [40b722d4-7caa-41cb-9923-228aa66754ef]: A usable code system with URL http://terminology.hl7.org/CodeSystem/v2-00741|2.5.0 could not be resolved.\r\nInformation: X-Request-Id: a406250e-8ea2-4325-a2fe-e8cabbb5140c"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.org/CodeSystem/v2-00741",
+  "version" : "2.5.0",
+  "code" : "CP"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "code" : "CP",
+  "system" : "http://terminology.hl7.org/CodeSystem/v2-00741",
+  "version" : "2.5.0",
+  "severity" : "error",
+  "error" : "A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/v2-00741' version '2.5.0' could not be found, so the code cannot be validated. Valid versions: []; Unable to check whether the code is in the value set '' because the code system http://terminology.hl7.org/CodeSystem/v2-00741|2.5.0 was not found",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.ontoserver.csiro.au/fhir/",
+  "unknown-systems" : "http://terminology.hl7.org/CodeSystem/v2-00741|2.5.0",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir/"
+    }],
+    "severity" : "warning",
+    "code" : "not-found",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "vs-invalid"
+      }],
+      "text" : "Unable to check whether the code is in the value set '' because the code system http://terminology.hl7.org/CodeSystem/v2-00741|2.5.0 was not found"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir/"
+    }],
+    "severity" : "error",
+    "code" : "not-found",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-found"
+      }],
+      "text" : "A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/v2-00741' version '2.5.0' could not be found, so the code cannot be validated. Valid versions: []"
+    },
+    "location" : ["Coding.system"],
+    "expression" : ["Coding.system"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v2-00741",
+      "version" : "2.5.0",
+      "concept" : [{
+        "code" : "CP",
+        "display" : "Cytopathology"
+      },
+      {
+        "code" : "PAT",
+        "display" : "Pathology (gross & histopath, not surgical)"
+      },
+      {
+        "code" : "HM",
+        "display" : "Hematology"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from https://tx.ontoserver.csiro.au/fhir/: Error: [a7afb31c-bdeb-4567-841f-438284d35e34]: A usable code system with URL http://terminology.hl7.org/CodeSystem/v2-00741|2.5.0 could not be resolved.\r\nInformation: X-Request-Id: 017765f8-90f5-432c-a11f-3cba60c7d970"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categoria-reporte-biopsia-vs", "version": "0.1.0"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from https://tx.ontoserver.csiro.au/fhir/: Error: [30d9a158-d789-4708-ab85-ee04901e4b48]: A usable code system with URL http://terminology.hl7.org/CodeSystem/v2-00741|2.5.0 could not be resolved.\r\nInformation: X-Request-Id: 01d7e004-5307-4d15-b732-c34457061584"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categoria-reporte-biopsia-vs", "version": "0.2.0"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from https://tx.ontoserver.csiro.au/fhir/: Error: [3bbf5748-1f3b-4f3a-9dc8-4518af58bfea]: A usable code system with URL http://terminology.hl7.org/CodeSystem/v2-00741|2.5.0 could not be resolved.\r\nInformation: X-Request-Id: 105cf5d1-6b69-4aaa-8a39-f996bd0b38df"
+}
+-------------------------------------------------------------------------------------

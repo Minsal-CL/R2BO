@@ -9,7 +9,7 @@ name: RepositorioReportesBiopsiasOncologicas
 title: Repositorio de Reportes de Biopsias Oncológicas
 description: Este es un repositorio que permitira almacenar y consultar los reportes de anatomías patólogicas oncológicas de los pacientes en Chile. El objetivo es que los laboratorios puedan compartir la información de los pacientes y sus informes con otros laboratorios y hospitales, permitiendo una mejor atención y seguimiento de los pacientes.
 status: draft # draft | active | retired | unknown
-version: 0.1.0
+version: 0.2.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 releaseLabel: ci-build
@@ -107,6 +107,8 @@ pages:
 parameters:
   path-tx-cache: input/txcache
   path-expansion-params: '../../input/_resources/exp-params.json'
+  pin-canonicals: pin-multiples
+  generate-uml: all  
   # path-resource:
   #   - input/resources
   #   - fsh-generated/resources

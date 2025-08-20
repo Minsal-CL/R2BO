@@ -7,9 +7,10 @@
   }]
 }, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -40,9 +41,10 @@ v: {
   }
 }, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -65,9 +67,10 @@ v: {
   "code" : "application/fhir+json"
 }, "url": "http://hl7.org/fhir/ValueSet/mimetypes", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -97,9 +100,10 @@ v: {
   }
 }, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -122,9 +126,10 @@ v: {
   "code" : "application/fhir+xml"
 }, "url": "http://hl7.org/fhir/ValueSet/mimetypes", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -147,9 +152,10 @@ v: {
   "code" : "en"
 }, "url": "http://hl7.org/fhir/ValueSet/languages", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -180,9 +186,10 @@ v: {
   "text" : "Mama"
 }, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -191,7 +198,7 @@ v: {
 }}####
 v: {
   "severity" : "error",
-  "error" : "Error from http://localhost/r4: The filter \"constraint = < 442083009, ^ 446608001\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-VS was not understood in the context of http://snomed.info/sct (1)",
+  "error" : "Error from http://localhost/r4: The filter \"constraint = ^446608001,<91723000\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-VS was not understood in the context of http://snomed.info/sct (1)",
   "class" : "SERVER_ERROR",
   "issues" : {
   "resourceType" : "OperationOutcome",
@@ -199,7 +206,7 @@ v: {
     "severity" : "error",
     "code" : "exception",
     "details" : {
-      "text" : "Error from http://localhost/r4: The filter \"constraint = < 442083009, ^ 446608001\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-VS was not understood in the context of http://snomed.info/sct (1)"
+      "text" : "Error from http://localhost/r4: The filter \"constraint = ^446608001,<91723000\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-VS was not understood in the context of http://snomed.info/sct (1)"
     }
   }]
 }
@@ -209,25 +216,7 @@ v: {
 {"hierarchical" : false, "url": "http://hl7.org/fhir/us/mcode/ValueSet/mcode-tnm-staging-method-vs", "version": "4.0.0"}####
 e: {
   "from-server" : true,
-  "error" : "Error from http://localhost/r4: The code system definition for http://snomed.info/sct has no content, so this expansion cannot be performed"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS", "version": "0.1.0"}####
-e: {
-  "from-server" : true,
-  "error" : "Error from http://localhost/r4: The code system definition for http://snomed.info/sct has no content, so this expansion cannot be performed"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS", "version": "0.1.0"}####
-e: {
-  "from-server" : true,
-  "error" : "Error from http://localhost/r4: The code system definition for http://snomed.info/sct has no content, so this expansion cannot be performed"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs", "version": "0.1.0"}####
-e: {
-  "from-server" : true,
-  "error" : "Error from http://localhost/r4: The code system definition for http://snomed.info/sct has no content, so this expansion cannot be performed"
+  "error" : "Error from http://localhost/r4: The code system definition for http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl is a fragment, so this expansion is not permitted unless the expansion parameter \"incomplete-ok\" has a value of \"true\""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -238,9 +227,10 @@ e: {
   }]
 }, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",

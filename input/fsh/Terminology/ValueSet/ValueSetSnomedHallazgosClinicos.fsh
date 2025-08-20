@@ -7,4 +7,5 @@ Este ValueSet contiene los códigos de Snomed CT que representan hallazgos clín
 * insert SetCopyrightSCT
 * ^experimental = true
 
+//* include codes from system $snomed where constraint = #"< 404684003, ^ 447562003"
 * include codes from system $snomed where constraint = #"< 404684003, ^ 447562003"

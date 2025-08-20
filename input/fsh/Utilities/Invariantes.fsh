@@ -5,7 +5,7 @@ Severity:       #error
 
 Invariant:      r2bo-diag-1
 Description:    "Si el reporte es de categoría patológico la observación macroscópica debe existir"
-Expression:     "(category.coding.where(code = 'PAT').exists()) implies (result.resolve().exists(o | o.conformsTo('https://interoperabilidad.minsal.cl/fhir/ig/r2bo/StructureDefinition/r2bo-observacion-macroscopica')))"
+Expression:     "(category.coding.where(code = 'PAT').exists()) implies (result.resolve().where(conformsTo('https://interoperabilidad.minsal.cl/fhir/ig/r2bo/StructureDefinition/r2bo-observacion-macroscopica')).exists())"
 Severity:       #error
 
 Invariant:      r2bo-comp-1

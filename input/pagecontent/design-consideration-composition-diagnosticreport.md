@@ -16,6 +16,6 @@ En relación con los paquetes de documentos, se adoptan las siguientes directric
 classDiagram
     class ApDiagnosticReport
     class ApComposition
-    ApDiagnosticReport --> ApComposition: composition
+    ApDiagnosticReport --> ApComposition: extension[composition]
     ApComposition --> ApDiagnosticReport: extension[diagnosticReport-reference]
 ```

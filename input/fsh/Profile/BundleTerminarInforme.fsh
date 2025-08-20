@@ -2,7 +2,7 @@ Profile:        BundleGenerarInforme
 Parent:         Bundle
 Id:             r2bo-bundle-generar-informe
 Title:          "Perfil de Bundle para Generar Informe"
-Description:    "Perfil de Bundle que contiene los recursos necesarios para generar un informe de patología."
+Description:    "Perfil de Bundle que contiene los recursos necesarios para generar un informe de patología y cargarlos en el repositorio."
 
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
@@ -24,6 +24,12 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
 * entry ^slicing.rules = #open
 * entry ^slicing.description = "Diferenciador de recursos por tipo y perfil"
 * entry ^slicing.ordered = false
+
+* entry
+  * fullUrl 1..1 MS
+  * fullUrl ^short = "URL completa del recurso, la cual puede ser un urn:uuid o un URL de un recurso existente"
+  * resource 1..1 MS
+  * resource ^short = "Recurso que se está incluyendo en el Bundle"
 
 * entry contains 
     Solicitud 1..1 and 
@@ -134,7 +140,7 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
 
 * entry[InformeDiagnostico]
   * resource 1..1 MS
-  * resource only InformeBiopsia
+  * resource only R2BOInformeBiopsia
   * request 1..1
     * method 1..1
     * method = #POST
@@ -144,7 +150,7 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
 
 * entry[CabeceraDocumento]
   * resource 1..1 MS
-  * resource only CompositionBiopsia
+  * resource only R2BOCompositionBiopsia
   * request 1..1
     * method 1..1
     * method = #POST
@@ -183,7 +189,7 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
       * ^short = "Uri del recurso \"Observation\""
 
 * entry[Estadificacion]
-  * resource 0..1 MS
+  * resource 1..1 MS
   * resource only EstadificacionTNM 
   * request 1..1
     * method 1..1

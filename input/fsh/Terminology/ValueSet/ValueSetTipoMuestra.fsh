@@ -7,7 +7,7 @@ Description:    "Códigos de tipos de especimen en Snomed"
 // * ^experimental = true
 // * include codes from system $snomed where concept descendent-of #86273004
 
-* insert SetCopyrightLOINC&SNOMED
+* insert SetCopyrightSCT
 * ^experimental = true
 * include codes from system $snomed where concept descendent-of #123038009
 

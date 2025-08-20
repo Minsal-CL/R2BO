@@ -4,9 +4,10 @@
   "code" : "M"
 }, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -31,9 +32,10 @@ v: {
   "code" : "T"
 }, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -58,9 +60,10 @@ v: {
   "code" : "M"
 }, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -85,9 +88,10 @@ v: {
   "code" : "T"
 }, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -112,9 +116,10 @@ v: {
   "code" : "8500/3"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -139,9 +144,10 @@ v: {
   "code" : "8500/3"
 }, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cieo3-m-VS--0", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -166,9 +172,10 @@ v: {
   "code" : "C50.9"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -208,8 +215,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:b16fac11-694b-4ae9-b901-6b0d6c61a124",
-    "timestamp" : "2025-08-18T20:37:15.623Z",
+    "identifier" : "urn:uuid:2804acca-d7d9-4951-b9a0-0164f400fe8f",
+    "timestamp" : "2025-08-20T19:10:23.171Z",
     "total" : 4232,
     "offset" : 0,
     "parameter" : [{
@@ -5257,8 +5264,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:c47a83f4-62a6-4540-85ba-14d41ac0b776",
-    "timestamp" : "2025-08-18T20:37:36.885Z",
+    "identifier" : "urn:uuid:dd639d57-84ec-435b-80bf-d0e899298ddc",
+    "timestamp" : "2025-08-20T19:10:31.892Z",
     "total" : 2359,
     "offset" : 0,
     "parameter" : [{

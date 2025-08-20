@@ -28,6 +28,10 @@ Description:    "Registro de las dimensiones de un tumor"
 * specimen 1..1 MS
 * specimen only Reference(MuestraR2BO)
 
+* focus 0..1 MS
+* focus only Reference(R2BOTumor)
+* focus ^short = "Tumor al cual se está midiendo el tamaño"
+
 * component MS
   // * code.coding 1..1 MS
   * ^slicing.discriminator.type = #pattern

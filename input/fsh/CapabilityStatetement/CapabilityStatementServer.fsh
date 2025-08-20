@@ -42,7 +42,7 @@ Usage: #definition
       * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
       * valueCode = #SHALL
     * type = #DiagnosticReport
-    * supportedProfile[0] = Canonical(InformeBiopsia)
+    * supportedProfile[0] = Canonical(R2BOInformeBiopsia)
     * interaction[0]
       * code = #create
     * interaction[+]

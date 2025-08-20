@@ -4,9 +4,10 @@
   "code" : "102034-6"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -19,7 +20,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -31,9 +31,10 @@ v: {
   "code" : "74574-5"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -46,7 +47,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -58,9 +58,10 @@ v: {
   "code" : "92831-7"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -73,7 +74,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -85,9 +85,10 @@ v: {
   "code" : "33739-4"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -100,7 +101,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -112,9 +112,10 @@ v: {
   "code" : "33740-2"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -127,7 +128,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -139,9 +139,10 @@ v: {
   "code" : "42030-7"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -154,7 +155,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -166,9 +166,10 @@ v: {
   "code" : "84891-1"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -181,7 +182,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -193,9 +193,10 @@ v: {
   "code" : "21889-1"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -208,7 +209,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -220,9 +220,10 @@ v: {
   "code" : "33737-8"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -235,7 +236,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -247,9 +247,10 @@ v: {
   "code" : "81168-7"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -262,7 +263,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -274,9 +274,10 @@ v: {
   "code" : "33728-7"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -289,7 +290,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -301,9 +301,10 @@ v: {
   "code" : "33729-5"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -316,7 +317,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -378,8 +378,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:cbe9cf1a-bac0-45ef-8023-560c7c2a1e2c",
-    "timestamp" : "2025-08-18T20:33:31.974Z",
+    "identifier" : "urn:uuid:e55fd6d2-49c9-4f99-9fdb-24781b9a3648",
+    "timestamp" : "2025-08-20T19:07:43.330Z",
     "total" : 10,
     "offset" : 0,
     "parameter" : [{
@@ -462,9 +462,10 @@ e: {
   "code" : "LP121003-0"
 }, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -477,7 +478,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -489,9 +489,10 @@ v: {
   "code" : "102034-6"
 }, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -504,7 +505,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -516,9 +516,10 @@ v: {
   "code" : "74574-5"
 }, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -531,7 +532,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -543,9 +543,10 @@ v: {
   "code" : "33739-4"
 }, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -558,7 +559,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -570,9 +570,10 @@ v: {
   "code" : "33740-2"
 }, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -585,7 +586,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -597,9 +597,10 @@ v: {
   "code" : "21889-1"
 }, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -612,7 +613,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -624,9 +624,10 @@ v: {
   "code" : "42030-7"
 }, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -639,7 +640,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -651,9 +651,10 @@ v: {
   "code" : "92831-7"
 }, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -666,7 +667,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -678,9 +678,10 @@ v: {
   "code" : "81168-7"
 }, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -693,7 +694,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -705,9 +705,10 @@ v: {
   "code" : "84891-1"
 }, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -720,7 +721,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -732,9 +732,10 @@ v: {
   "code" : "33737-8"
 }, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -747,7 +748,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -759,9 +759,10 @@ v: {
   "code" : "LP121003-0"
 }, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -774,7 +775,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -786,9 +786,10 @@ v: {
   "code" : "22636-5"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -801,7 +802,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -813,9 +813,10 @@ v: {
   "code" : "22633-2"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -828,7 +829,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -840,9 +840,10 @@ v: {
   "code" : "22634-0"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -855,7 +856,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -867,9 +867,10 @@ v: {
   "code" : "22635-7"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -882,7 +883,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -894,9 +894,10 @@ v: {
   "code" : "33746-9"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -909,7 +910,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -921,9 +921,10 @@ v: {
   "code" : "22637-3"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -936,7 +937,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -948,9 +948,10 @@ v: {
   "code" : "42030-7"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -963,7 +964,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -975,9 +975,10 @@ v: {
   "code" : "92831-7"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -990,7 +991,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1002,9 +1002,10 @@ v: {
   "code" : "33739-4"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -1017,7 +1018,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1029,9 +1029,10 @@ v: {
   "code" : "33740-2"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -1044,7 +1045,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1056,9 +1056,10 @@ v: {
   "code" : "74574-5"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -1071,7 +1072,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1083,9 +1083,10 @@ v: {
   "code" : "33737-8"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -1098,7 +1099,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1110,9 +1110,10 @@ v: {
   "code" : "102034-6"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -1125,7 +1126,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1137,9 +1137,10 @@ v: {
   "code" : "84891-1"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -1152,7 +1153,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1164,9 +1164,10 @@ v: {
   "code" : "81168-7"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -1179,7 +1180,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1191,9 +1191,10 @@ v: {
   "code" : "21889-1"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -1206,7 +1207,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1218,9 +1218,10 @@ v: {
   "code" : "33728-7"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -1233,7 +1234,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1245,9 +1245,10 @@ v: {
   "code" : "33729-5"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -1260,7 +1261,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1272,9 +1272,10 @@ v: {
   "code" : "102034-6"
 }, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -1287,7 +1288,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1299,9 +1299,10 @@ v: {
   "code" : "74574-5"
 }, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -1314,7 +1315,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1326,9 +1326,10 @@ v: {
   "code" : "92831-7"
 }, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -1341,7 +1342,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1353,9 +1353,10 @@ v: {
   "code" : "33739-4"
 }, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -1368,7 +1369,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1380,9 +1380,10 @@ v: {
   "code" : "33740-2"
 }, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -1395,7 +1396,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1407,9 +1407,10 @@ v: {
   "code" : "33737-8"
 }, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -1422,7 +1423,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1434,9 +1434,10 @@ v: {
   "code" : "42030-7"
 }, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -1449,7 +1450,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1461,9 +1461,10 @@ v: {
   "code" : "84891-1"
 }, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -1476,7 +1477,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1488,9 +1488,10 @@ v: {
   "code" : "21889-1"
 }, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -1503,7 +1504,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1515,9 +1515,10 @@ v: {
   "code" : "66110-8"
 }, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -1530,7 +1531,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1542,9 +1542,10 @@ v: {
   "code" : "66110-8"
 }, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs--0", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -1557,7 +1558,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1569,9 +1569,10 @@ v: {
   "code" : "81168-7"
 }, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -1584,11 +1585,144 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
 
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "102034-6",
+        "display" : "Pathology report microscopic observation in Specimen"
+      },
+      {
+        "code" : "74574-5",
+        "display" : "Macroscopic observation [Interpretation] in Specimen Narrative"
+      },
+      {
+        "code" : "33739-4",
+        "display" : "Lymphatic.small vessel.invasion [Identifier] in Specimen by CAP cancer protocols"
+      },
+      {
+        "code" : "33740-2",
+        "display" : "Venous.large vessel.invasion [Identifier] in Specimen by CAP cancer protocols"
+      },
+      {
+        "code" : "21889-1",
+        "display" : "Size Tumor"
+      },
+      {
+        "code" : "42030-7",
+        "display" : "Multiple tumors reported as single primary Cancer"
+      },
+      {
+        "code" : "92831-7",
+        "display" : "Lymph nodes with metastasis [#] in Cancer specimen"
+      },
+      {
+        "code" : "81168-7",
+        "display" : "Site of adjacent organ or tissue involvement Cancer specimen"
+      },
+      {
+        "code" : "84891-1",
+        "display" : "Pathology report post neoadjuvant therapy assessment in Specimen"
+      },
+      {
+        "code" : "33737-8",
+        "display" : "Distance of tumor from closest margin"
+      }]
+    }]
+  }
+}}####
+e: {
+  "source" : localhost,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:6a624762-9b90-47ad-9450-b7bbe6d490c4",
+    "timestamp" : "2025-08-20T19:09:57.922Z",
+    "total" : 10,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://loinc.org|2.80"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.80"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "102034-6",
+      "display" : "Pathology report microscopic observation in Specimen"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "74574-5",
+      "display" : "Macroscopic observation [Interpretation] in Specimen Narrative"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "33739-4",
+      "display" : "Lymphatic.small vessel.invasion [Identifier] in Specimen by CAP cancer protocols"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "33740-2",
+      "display" : "Venous.large vessel.invasion [Identifier] in Specimen by CAP cancer protocols"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "21889-1",
+      "display" : "Size Tumor"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "42030-7",
+      "display" : "Multiple tumors reported as single primary Cancer"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "92831-7",
+      "display" : "Lymph nodes with metastasis [#] in Cancer specimen"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "81168-7",
+      "display" : "Site of adjacent organ or tissue involvement Cancer specimen"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "84891-1",
+      "display" : "Tumor response to neoadjuvant therapy"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "33737-8",
+      "display" : "Distance of tumor from closest margin"
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
@@ -1626,8 +1760,8 @@ e: {
   "experimental" : false,
   "date" : "2019-11-01T09:29:23+11:00",
   "expansion" : {
-    "identifier" : "urn:uuid:568a2f91-eb2d-404a-864f-10fae0e2602a",
-    "timestamp" : "2025-08-18T20:36:24.127Z",
+    "identifier" : "urn:uuid:12c2bef9-5494-4ec2-9ed3-3afb081f3521",
+    "timestamp" : "2025-08-20T19:09:57.978Z",
     "offset" : 0,
     "parameter" : [{
       "name" : "limitedExpansion",
@@ -6678,8 +6812,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:6cfa39a5-6aef-4a5e-878b-a6c4941e4200",
-    "timestamp" : "2025-08-18T20:37:46.817Z",
+    "identifier" : "urn:uuid:9a896aea-703e-41a4-a7c1-f3d35baa4ed4",
+    "timestamp" : "2025-08-20T19:10:50.799Z",
     "total" : 26,
     "offset" : 0,
     "parameter" : [{
@@ -6842,9 +6976,10 @@ e: {
   "code" : "42030-7"
 }, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -6857,7 +6992,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6869,9 +7003,10 @@ v: {
   "code" : "92831-7"
 }, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -6884,7 +7019,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6896,9 +7030,10 @@ v: {
   "code" : "33739-4"
 }, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -6911,7 +7046,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6923,9 +7057,10 @@ v: {
   "code" : "33740-2"
 }, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -6938,7 +7073,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6950,9 +7084,10 @@ v: {
   "code" : "74574-5"
 }, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -6965,7 +7100,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6977,9 +7111,10 @@ v: {
   "code" : "33737-8"
 }, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -6992,7 +7127,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7004,9 +7138,10 @@ v: {
   "code" : "102034-6"
 }, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -7019,7 +7154,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7031,9 +7165,10 @@ v: {
   "code" : "84891-1"
 }, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -7046,7 +7181,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7058,9 +7192,10 @@ v: {
   "code" : "81168-7"
 }, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -7073,7 +7208,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7085,9 +7219,10 @@ v: {
   "code" : "21889-1"
 }, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -7100,7 +7235,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7112,9 +7246,10 @@ v: {
   "code" : "33728-7"
 }, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -7127,7 +7262,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7139,9 +7273,10 @@ v: {
   "code" : "33729-5"
 }, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
+  "id" : "exp-params",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -7154,6 +7289,444 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "66110-8"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Breast Pathology biopsy report",
+  "code" : "66110-8",
+  "system" : "http://loinc.org",
+  "version" : "2.80",
+  "server" : "https://tx.ontoserver.csiro.au/fhir/",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "22638-1"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Pathology report comments [Interpretation] Narrative",
+  "code" : "22638-1",
+  "system" : "http://loinc.org",
+  "version" : "2.80",
+  "server" : "https://tx.ontoserver.csiro.au/fhir/",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "102034-6"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Pathology report microscopic observation in Specimen",
+  "code" : "102034-6",
+  "system" : "http://loinc.org",
+  "version" : "2.80",
+  "server" : "https://tx.ontoserver.csiro.au/fhir/",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "74574-5"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Macroscopic observation [Interpretation] in Specimen Narrative",
+  "code" : "74574-5",
+  "system" : "http://loinc.org",
+  "version" : "2.80",
+  "server" : "https://tx.ontoserver.csiro.au/fhir/",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "92831-7"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Lymph nodes with metastasis [#] in Cancer specimen",
+  "code" : "92831-7",
+  "system" : "http://loinc.org",
+  "version" : "2.80",
+  "server" : "https://tx.ontoserver.csiro.au/fhir/",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "33739-4"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Lymphatic.small vessel.invasion [Identifier] in Specimen by CAP cancer protocols",
+  "code" : "33739-4",
+  "system" : "http://loinc.org",
+  "version" : "2.80",
+  "server" : "https://tx.ontoserver.csiro.au/fhir/",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "33740-2"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Venous.large vessel.invasion [Identifier] in Specimen by CAP cancer protocols",
+  "code" : "33740-2",
+  "system" : "http://loinc.org",
+  "version" : "2.80",
+  "server" : "https://tx.ontoserver.csiro.au/fhir/",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "33737-8"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Distance of tumor from closest margin",
+  "code" : "33737-8",
+  "system" : "http://loinc.org",
+  "version" : "2.80",
+  "server" : "https://tx.ontoserver.csiro.au/fhir/",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "42030-7"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Multiple tumors reported as single primary Cancer",
+  "code" : "42030-7",
+  "system" : "http://loinc.org",
+  "version" : "2.80",
+  "server" : "https://tx.ontoserver.csiro.au/fhir/",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "84891-1"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Tumor response to neoadjuvant therapy",
+  "code" : "84891-1",
+  "system" : "http://loinc.org",
+  "version" : "2.80",
+  "server" : "https://tx.ontoserver.csiro.au/fhir/",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "21889-1"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Size Tumor",
+  "code" : "21889-1",
+  "system" : "http://loinc.org",
+  "version" : "2.80",
+  "server" : "https://tx.ontoserver.csiro.au/fhir/",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "66110-8"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs--0", "version": "0.2.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Breast Pathology biopsy report",
+  "code" : "66110-8",
+  "system" : "http://loinc.org",
+  "version" : "2.80",
+  "server" : "https://tx.ontoserver.csiro.au/fhir/",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "66110-8"
+}, "url": "http://hl7.org/fhir/ValueSet/doc-typecodes--0", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "code" : "66110-8",
+  "system" : "http://loinc.org",
+  "version" : "2.80",
+  "severity" : "error",
+  "error" : "The provided code 'http://loinc.org#66110-8' was not found in the value set 'http://hl7.org/fhir/ValueSet/doc-typecodes--0|4.0.1'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.ontoserver.csiro.au/fhir/",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir/"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#66110-8' was not found in the value set 'http://hl7.org/fhir/ValueSet/doc-typecodes--0|4.0.1'"
+    },
+    "location" : ["Coding.code"],
+    "expression" : ["Coding.code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "66110-8"
+}, "url": "http://hl7.org/fhir/ValueSet/report-codes--0", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Breast Pathology biopsy report",
+  "code" : "66110-8",
+  "system" : "http://loinc.org",
+  "version" : "2.80",
+  "server" : "https://tx.ontoserver.csiro.au/fhir/",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "81168-7"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Site of adjacent organ or tissue involvement Cancer specimen",
+  "code" : "81168-7",
+  "system" : "http://loinc.org",
+  "version" : "2.80",
+  "server" : "https://tx.ontoserver.csiro.au/fhir/",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"

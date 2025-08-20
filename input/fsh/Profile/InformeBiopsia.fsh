@@ -1,4 +1,4 @@
-Profile:        InformeBiopsia
+Profile:        R2BOInformeBiopsia
 Parent:         DiagnosticReport
 Id:             r2bo-informe-biopsia
 Title:          "Perfil del Reporte de Anatomía Patológica"
@@ -56,10 +56,10 @@ Description:    "Reporte de anatomía patológica"
   * ^short = "Muestra de Biopsia"
 * specimen only Reference(MuestraR2BO)
 
-* result MS
+* result
   * ^short = "Resultados del Informe de Anatomía Patológica"
   * ^slicing.discriminator.type = #profile
-  * ^slicing.discriminator.path = "$this.resolve()"
+  * ^slicing.discriminator.path = "resolve()"
   * ^slicing.rules = #open
   * ^slicing.description = "Distintos Resultados del Informe de Anatomía Patológica"
   * ^slicing.ordered = false
@@ -73,7 +73,20 @@ Description:    "Reporte de anatomía patológica"
 * result[TNM] ^short = "Estadificación patológica TNM"
 * result[TNM] only Reference(EstadificacionTNM)
 * result[Resultados] ^short = "Otros posibles resultados"
-* result[Resultados] only Reference(ObservacionInfiltracionPerineuralR2BO or ObservacionGangliosLinfaticos or ObservacionInfiltradoPeritumoralR2BO or ObservacionInvasionLinfaticaR2BO or ObservacionInvasionVascularR2BO or ObservacionMargenQuirugico or ObservacionCentricidad or ObservacionMultifocalidad or ObservacionPostNeoadjudancia or ObservacionPorcentajeNecrosisR2BO or ObservacionTejidoTumoralAdjacente or TamanoTumorR2BO)
+* result[Resultados] only Reference(
+    ObservacionInfiltracionPerineuralR2BO or
+    ObservacionGangliosLinfaticos or
+    ObservacionInfiltradoPeritumoralR2BO or
+    ObservacionInvasionLinfaticaR2BO or
+    ObservacionInvasionVascularR2BO or
+    ObservacionMargenQuirugico or
+    ObservacionCentricidad or
+    ObservacionMultifocalidad or
+    ObservacionPostNeoadjudancia or
+    ObservacionPorcentajeNecrosisR2BO or
+    ObservacionTejidoTumoralAdjacente or
+    TamanoTumorR2BO
+  )
 
 * conclusion 1..1 MS
   * ^short = "Conclusión narrativa del informe de anatomía patológica"

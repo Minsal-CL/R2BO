@@ -11,6 +11,7 @@ Set de valores utilizados para las estructuras corporales que permiten el mapeo 
 // * include codes from system $snomed where concept in #446608001 , ^ 446608001
 // * include codes from system $snomed where concept descendent-of #91723000
 
-* include codes from system $snomed where constraint = #"< 442083009, ^ 446608001"
+* include codes from system $snomed where constraint = #"^446608001,<91723000"
+//* exclude codes from system $snomed where concept descendent-of #
 * $snomed#87100004
 * $snomed#21229009
