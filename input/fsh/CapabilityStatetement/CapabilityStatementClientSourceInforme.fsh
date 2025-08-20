@@ -1,4 +1,4 @@
-Instance: R2BO-minsal-cliente-informe
+Instance: r2bo-minsal-cliente-informe
 InstanceOf: CapabilityStatement
 Title: "CapabilityStatement Cliente de Origen de Informes del Repositorio de Biopsia del Ministerio de Salud"
 Description: "CapabilityStatement para definir las caracteristicas mínimas del cliente que realiza la creación de informes de anatomía patológica y sus resultados."
