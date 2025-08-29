@@ -1,17 +1,45 @@
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "102034-6"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "66110-8"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Informe de biopsia patológica: Seno : Punto temporal: Hallazgo: Narrativo:",
+  "code" : "66110-8",
+  "system" : "http://loinc.org",
+  "version" : "2.80",
+  "server" : "http://localhost/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "102034-6"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -20,6 +48,7 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -29,24 +58,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "74574-5"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Macroscopic observation [Interpretation] in Specimen Narrative",
+  "display" : "Observación macroscópica: XXX : Punto temporal: Impresión / interpretación del estudio: Narrativo:",
   "code" : "74574-5",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -56,24 +86,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "92831-7"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Lymph nodes with metastasis [#] in Cancer specimen",
+  "display" : "Ganglios linfáticos con metástasis: Espécimen de cáncer : Punto temporal: Número (recuento): Cuantitativo:",
   "code" : "92831-7",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -83,24 +114,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "33739-4"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Lymphatic.small vessel.invasion [Identifier] in Specimen by CAP cancer protocols",
+  "display" : "Invasión linfática de vasos subs: Muestra : Punto temporal: Presencia o identidad: Nominal: Protocolos de cáncer de CAP",
   "code" : "33739-4",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -110,105 +142,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "33740-2"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Venous.large vessel.invasion [Identifier] in Specimen by CAP cancer protocols",
+  "display" : "Invasión de vasos grandes venosos: Muestra : Punto temporal: Presencia o identidad: Nominal: Protocolos de cáncer de CAP",
   "code" : "33740-2",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "42030-7"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Multiple tumors reported as single primary Cancer",
-  "code" : "42030-7",
-  "system" : "http://loinc.org",
-  "version" : "2.80",
-  "server" : "http://localhost/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "84891-1"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Tumor response to neoadjuvant therapy",
-  "code" : "84891-1",
-  "system" : "http://loinc.org",
-  "version" : "2.80",
-  "server" : "http://localhost/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "21889-1"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Size Tumor",
-  "code" : "21889-1",
-  "system" : "http://loinc.org",
-  "version" : "2.80",
-  "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -218,24 +170,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "33737-8"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Distance of tumor from closest margin",
+  "display" : "Distancia del tumor al margen más cercano: Muestra : Punto temporal: Largo: Cuantitativo:",
   "code" : "33737-8",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -244,25 +197,82 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "81168-7"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "42030-7"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Site of adjacent organ or tissue involvement Cancer specimen",
-  "code" : "81168-7",
+  "display" : "Múltiples tumores informados como primarios únicos:Cancer.XXX :Punto temporal:Tipo:Nominal:",
+  "code" : "42030-7",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "84891-1"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Respuesta a la terapia neoadyuvante: Muestra de cáncer colorrectal : Punto temporal: Presencia o umbral: Ordinal:",
+  "code" : "84891-1",
+  "system" : "http://loinc.org",
+  "version" : "2.80",
+  "server" : "http://localhost/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "21889-1"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Tamaño:Tumor :Punto temporal:Len:Cuantitativo:",
+  "code" : "21889-1",
+  "system" : "http://loinc.org",
+  "version" : "2.80",
+  "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -272,24 +282,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "33728-7"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Size.maximum dimension in Tumor",
+  "display" : "Size.max.dimension: Tumor : Punto temporal: Largo: Cuantitativo:",
   "code" : "33728-7",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -299,24 +310,53 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "33729-5"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Size additional dimension in Tumor",
+  "display" : "Tamaño dimensión adicional: Tumor : Punto temporal: Largo: Cuantitativo:",
   "code" : "33729-5",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "81168-7"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Sitio de afectación de órganos o tejidos adyacentes:Espécimen de cáncer :Punto temporal:Anat:Nominal:",
+  "code" : "81168-7",
+  "system" : "http://loinc.org",
+  "version" : "2.80",
+  "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -378,8 +418,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:e55fd6d2-49c9-4f99-9fdb-24781b9a3648",
-    "timestamp" : "2025-08-20T19:07:43.330Z",
+    "identifier" : "urn:uuid:c458dc42-83c1-46d4-b23e-a1d42678ce54",
+    "timestamp" : "2025-08-22T15:42:26.281Z",
     "total" : 10,
     "offset" : 0,
     "parameter" : [{
@@ -465,11 +505,11 @@ e: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -478,6 +518,7 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -492,11 +533,11 @@ v: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -505,6 +546,7 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -519,11 +561,11 @@ v: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -532,6 +574,7 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -546,11 +589,11 @@ v: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -559,6 +602,7 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -573,11 +617,11 @@ v: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -586,6 +630,7 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -600,11 +645,11 @@ v: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -613,6 +658,7 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -627,11 +673,11 @@ v: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -640,6 +686,7 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -654,11 +701,11 @@ v: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -667,6 +714,7 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -681,11 +729,11 @@ v: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -694,6 +742,7 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -708,11 +757,11 @@ v: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -721,6 +770,7 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -735,11 +785,11 @@ v: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -748,6 +798,7 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -762,11 +813,11 @@ v: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -775,6 +826,7 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -784,24 +836,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "22636-5"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Pathology report relevant history Narrative",
+  "display" : "Informe de ruta relevante Hx:Muestra :Punto temporal:Tipo:Narrativo:",
   "code" : "22636-5",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -811,24 +864,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "22633-2"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Pathology report site of origin Narrative",
+  "display" : "Informe de ruta sitio de origen:Muestra :Punto temporal:Anat:Narrativo:",
   "code" : "22633-2",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -838,24 +892,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "22634-0"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Pathology report gross observation Narrative",
+  "display" : "Informe de ruta observación cruzada:Muestra :Punto temporal:Tipo:Narrativo:",
   "code" : "22634-0",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -865,24 +920,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "22635-7"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Pathology report microscopic observation Narrative Other stain",
+  "display" : "Informe de ruta observación microscópica:Muestra :Punto temporal:Tipo:Narrativo:XXX stain",
   "code" : "22635-7",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -892,24 +948,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "33746-9"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Pathologic findings",
+  "display" : "Hallazgos patológicos: Muestra : Punto temporal: Hallazgo: Narrativo:",
   "code" : "33746-9",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -919,24 +976,53 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "22637-3"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Pathology report final diagnosis Narrative",
+  "display" : "Informe de ruta diagnóstico final:Muestra :Punto temporal:Interpretación:Narrativo:",
   "code" : "22637-3",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "22638-1"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Informe de ruta comentarios:Muestra :Punto temporal:Interpretación:Narrativo:",
+  "code" : "22638-1",
+  "system" : "http://loinc.org",
+  "version" : "2.80",
+  "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -946,24 +1032,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "42030-7"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Multiple tumors reported as single primary Cancer",
+  "display" : "Múltiples tumores informados como primarios únicos:Cancer.XXX :Punto temporal:Tipo:Nominal:",
   "code" : "42030-7",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -973,24 +1060,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "92831-7"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Lymph nodes with metastasis [#] in Cancer specimen",
+  "display" : "Ganglios linfáticos con metástasis: Espécimen de cáncer : Punto temporal: Número (recuento): Cuantitativo:",
   "code" : "92831-7",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1000,24 +1088,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "33739-4"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Lymphatic.small vessel.invasion [Identifier] in Specimen by CAP cancer protocols",
+  "display" : "Invasión linfática de vasos subs: Muestra : Punto temporal: Presencia o identidad: Nominal: Protocolos de cáncer de CAP",
   "code" : "33739-4",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1027,24 +1116,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "33740-2"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Venous.large vessel.invasion [Identifier] in Specimen by CAP cancer protocols",
+  "display" : "Invasión de vasos grandes venosos: Muestra : Punto temporal: Presencia o identidad: Nominal: Protocolos de cáncer de CAP",
   "code" : "33740-2",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1054,24 +1144,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "74574-5"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Macroscopic observation [Interpretation] in Specimen Narrative",
+  "display" : "Observación macroscópica: XXX : Punto temporal: Impresión / interpretación del estudio: Narrativo:",
   "code" : "74574-5",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1081,24 +1172,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "33737-8"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Distance of tumor from closest margin",
+  "display" : "Distancia del tumor al margen más cercano: Muestra : Punto temporal: Largo: Cuantitativo:",
   "code" : "33737-8",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1108,16 +1200,16 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "102034-6"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -1126,6 +1218,7 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1135,24 +1228,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "84891-1"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Tumor response to neoadjuvant therapy",
+  "display" : "Respuesta a la terapia neoadyuvante: Muestra de cáncer colorrectal : Punto temporal: Presencia o umbral: Ordinal:",
   "code" : "84891-1",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1162,24 +1256,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "81168-7"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Site of adjacent organ or tissue involvement Cancer specimen",
+  "display" : "Sitio de afectación de órganos o tejidos adyacentes:Espécimen de cáncer :Punto temporal:Anat:Nominal:",
   "code" : "81168-7",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1189,24 +1284,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "21889-1"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Size Tumor",
+  "display" : "Tamaño:Tumor :Punto temporal:Len:Cuantitativo:",
   "code" : "21889-1",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1216,24 +1312,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "33728-7"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Size.maximum dimension in Tumor",
+  "display" : "Size.max.dimension: Tumor : Punto temporal: Largo: Cuantitativo:",
   "code" : "33728-7",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1243,24 +1340,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "33729-5"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Size additional dimension in Tumor",
+  "display" : "Tamaño dimensión adicional: Tumor : Punto temporal: Largo: Cuantitativo:",
   "code" : "33729-5",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1269,25 +1367,54 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "102034-6"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "66110-8"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Pathology report microscopic observation in Specimen",
-  "code" : "102034-6",
+  "display" : "Informe de biopsia patológica: Seno : Punto temporal: Hallazgo: Narrativo:",
+  "code" : "66110-8",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "66110-8"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs--0", "version": "0.2.0", "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Informe de biopsia patológica: Seno : Punto temporal: Hallazgo: Narrativo:",
+  "code" : "66110-8",
+  "system" : "http://loinc.org",
+  "version" : "2.80",
+  "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1297,24 +1424,53 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "74574-5"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Macroscopic observation [Interpretation] in Specimen Narrative",
+  "display" : "Observación macroscópica: XXX : Punto temporal: Impresión / interpretación del estudio: Narrativo:",
   "code" : "74574-5",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "102034-6"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Pathology report microscopic observation in Specimen",
+  "code" : "102034-6",
+  "system" : "http://loinc.org",
+  "version" : "2.80",
+  "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1324,24 +1480,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "92831-7"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Lymph nodes with metastasis [#] in Cancer specimen",
+  "display" : "Ganglios linfáticos con metástasis: Espécimen de cáncer : Punto temporal: Número (recuento): Cuantitativo:",
   "code" : "92831-7",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1351,24 +1508,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "33739-4"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Lymphatic.small vessel.invasion [Identifier] in Specimen by CAP cancer protocols",
+  "display" : "Invasión linfática de vasos subs: Muestra : Punto temporal: Presencia o identidad: Nominal: Protocolos de cáncer de CAP",
   "code" : "33739-4",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1378,24 +1536,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "33740-2"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Venous.large vessel.invasion [Identifier] in Specimen by CAP cancer protocols",
+  "display" : "Invasión de vasos grandes venosos: Muestra : Punto temporal: Presencia o identidad: Nominal: Protocolos de cáncer de CAP",
   "code" : "33740-2",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1405,24 +1564,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "33737-8"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Distance of tumor from closest margin",
+  "display" : "Distancia del tumor al margen más cercano: Muestra : Punto temporal: Largo: Cuantitativo:",
   "code" : "33737-8",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1432,24 +1592,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "42030-7"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Multiple tumors reported as single primary Cancer",
+  "display" : "Múltiples tumores informados como primarios únicos:Cancer.XXX :Punto temporal:Tipo:Nominal:",
   "code" : "42030-7",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1459,24 +1620,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "84891-1"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Tumor response to neoadjuvant therapy",
+  "display" : "Respuesta a la terapia neoadyuvante: Muestra de cáncer colorrectal : Punto temporal: Presencia o umbral: Ordinal:",
   "code" : "84891-1",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1486,24 +1648,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "21889-1"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Size Tumor",
+  "display" : "Tamaño:Tumor :Punto temporal:Len:Cuantitativo:",
   "code" : "21889-1",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1513,26 +1676,51 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "66110-8"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "http://hl7.org/fhir/ValueSet/doc-typecodes--0", "version": "4.0.1", "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Breast Pathology biopsy report",
+  "display" : "Informe de biopsia patológica: Seno : Punto temporal: Hallazgo: Narrativo:",
   "code" : "66110-8",
   "system" : "http://loinc.org",
   "version" : "2.80",
+  "severity" : "error",
+  "error" : "The provided code 'http://loinc.org#66110-8' was not found in the value set 'http://hl7.org/fhir/ValueSet/doc-typecodes--0|4.0.1'",
+  "class" : "UNKNOWN",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "http://localhost/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#66110-8' was not found in the value set 'http://hl7.org/fhir/ValueSet/doc-typecodes--0|4.0.1'"
+    },
+    "location" : ["Coding.code"],
+    "expression" : ["Coding.code"]
+  }]
 }
 
 }
@@ -1540,24 +1728,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "66110-8"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs--0", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "http://hl7.org/fhir/ValueSet/report-codes--0", "version": "4.0.1", "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Breast Pathology biopsy report",
+  "display" : "Informe de biopsia patológica: Seno : Punto temporal: Hallazgo: Narrativo:",
   "code" : "66110-8",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1567,24 +1756,25 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "81168-7"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.1.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
-  "display" : "Site of adjacent organ or tissue involvement Cancer specimen",
+  "display" : "Sitio de afectación de órganos o tejidos adyacentes:Espécimen de cáncer :Punto temporal:Anat:Nominal:",
   "code" : "81168-7",
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1646,8 +1836,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:6a624762-9b90-47ad-9450-b7bbe6d490c4",
-    "timestamp" : "2025-08-20T19:09:57.922Z",
+    "identifier" : "urn:uuid:c125c550-effb-47c1-be36-820611c7a90c",
+    "timestamp" : "2025-08-22T15:46:00.554Z",
     "total" : 10,
     "offset" : 0,
     "parameter" : [{
@@ -1760,8 +1950,8 @@ e: {
   "experimental" : false,
   "date" : "2019-11-01T09:29:23+11:00",
   "expansion" : {
-    "identifier" : "urn:uuid:12c2bef9-5494-4ec2-9ed3-3afb081f3521",
-    "timestamp" : "2025-08-20T19:09:57.978Z",
+    "identifier" : "urn:uuid:57f460df-471c-4c5e-91e7-ae993612ad85",
+    "timestamp" : "2025-08-22T15:46:00.661Z",
     "offset" : 0,
     "parameter" : [{
       "name" : "limitedExpansion",
@@ -6812,8 +7002,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:9a896aea-703e-41a4-a7c1-f3d35baa4ed4",
-    "timestamp" : "2025-08-20T19:10:50.799Z",
+    "identifier" : "urn:uuid:0852468a-0cea-4278-a401-9508a654dc25",
+    "timestamp" : "2025-08-22T15:46:47.972Z",
     "total" : 26,
     "offset" : 0,
     "parameter" : [{
@@ -6979,11 +7169,11 @@ e: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -6992,6 +7182,7 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7006,11 +7197,11 @@ v: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -7019,6 +7210,7 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7033,11 +7225,11 @@ v: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -7046,6 +7238,7 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7060,11 +7253,11 @@ v: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -7073,6 +7266,7 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7087,11 +7281,11 @@ v: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -7100,6 +7294,7 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7114,11 +7309,11 @@ v: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -7127,6 +7322,7 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7141,11 +7337,11 @@ v: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -7154,6 +7350,7 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7168,11 +7365,11 @@ v: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -7181,6 +7378,7 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7195,11 +7393,11 @@ v: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -7208,6 +7406,7 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7222,11 +7421,11 @@ v: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -7235,6 +7434,7 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7249,11 +7449,11 @@ v: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -7262,6 +7462,7 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7276,11 +7477,11 @@ v: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "es"
   }]
 }}####
 v: {
@@ -7289,444 +7490,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.80",
   "server" : "http://localhost/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "66110-8"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Breast Pathology biopsy report",
-  "code" : "66110-8",
-  "system" : "http://loinc.org",
-  "version" : "2.80",
-  "server" : "https://tx.ontoserver.csiro.au/fhir/",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "22638-1"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Pathology report comments [Interpretation] Narrative",
-  "code" : "22638-1",
-  "system" : "http://loinc.org",
-  "version" : "2.80",
-  "server" : "https://tx.ontoserver.csiro.au/fhir/",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "102034-6"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Pathology report microscopic observation in Specimen",
-  "code" : "102034-6",
-  "system" : "http://loinc.org",
-  "version" : "2.80",
-  "server" : "https://tx.ontoserver.csiro.au/fhir/",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "74574-5"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Macroscopic observation [Interpretation] in Specimen Narrative",
-  "code" : "74574-5",
-  "system" : "http://loinc.org",
-  "version" : "2.80",
-  "server" : "https://tx.ontoserver.csiro.au/fhir/",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "92831-7"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Lymph nodes with metastasis [#] in Cancer specimen",
-  "code" : "92831-7",
-  "system" : "http://loinc.org",
-  "version" : "2.80",
-  "server" : "https://tx.ontoserver.csiro.au/fhir/",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "33739-4"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Lymphatic.small vessel.invasion [Identifier] in Specimen by CAP cancer protocols",
-  "code" : "33739-4",
-  "system" : "http://loinc.org",
-  "version" : "2.80",
-  "server" : "https://tx.ontoserver.csiro.au/fhir/",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "33740-2"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Venous.large vessel.invasion [Identifier] in Specimen by CAP cancer protocols",
-  "code" : "33740-2",
-  "system" : "http://loinc.org",
-  "version" : "2.80",
-  "server" : "https://tx.ontoserver.csiro.au/fhir/",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "33737-8"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Distance of tumor from closest margin",
-  "code" : "33737-8",
-  "system" : "http://loinc.org",
-  "version" : "2.80",
-  "server" : "https://tx.ontoserver.csiro.au/fhir/",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "42030-7"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Multiple tumors reported as single primary Cancer",
-  "code" : "42030-7",
-  "system" : "http://loinc.org",
-  "version" : "2.80",
-  "server" : "https://tx.ontoserver.csiro.au/fhir/",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "84891-1"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Tumor response to neoadjuvant therapy",
-  "code" : "84891-1",
-  "system" : "http://loinc.org",
-  "version" : "2.80",
-  "server" : "https://tx.ontoserver.csiro.au/fhir/",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "21889-1"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Size Tumor",
-  "code" : "21889-1",
-  "system" : "http://loinc.org",
-  "version" : "2.80",
-  "server" : "https://tx.ontoserver.csiro.au/fhir/",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "66110-8"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs--0", "version": "0.2.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Breast Pathology biopsy report",
-  "code" : "66110-8",
-  "system" : "http://loinc.org",
-  "version" : "2.80",
-  "server" : "https://tx.ontoserver.csiro.au/fhir/",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "66110-8"
-}, "url": "http://hl7.org/fhir/ValueSet/doc-typecodes--0", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "code" : "66110-8",
-  "system" : "http://loinc.org",
-  "version" : "2.80",
-  "severity" : "error",
-  "error" : "The provided code 'http://loinc.org#66110-8' was not found in the value set 'http://hl7.org/fhir/ValueSet/doc-typecodes--0|4.0.1'",
-  "class" : "UNKNOWN",
-  "server" : "https://tx.ontoserver.csiro.au/fhir/",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome",
-  "issue" : [{
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
-      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir/"
-    }],
-    "severity" : "error",
-    "code" : "code-invalid",
-    "details" : {
-      "coding" : [{
-        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
-        "code" : "not-in-vs"
-      }],
-      "text" : "The provided code 'http://loinc.org#66110-8' was not found in the value set 'http://hl7.org/fhir/ValueSet/doc-typecodes--0|4.0.1'"
-    },
-    "location" : ["Coding.code"],
-    "expression" : ["Coding.code"]
-  }]
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "66110-8"
-}, "url": "http://hl7.org/fhir/ValueSet/report-codes--0", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Breast Pathology biopsy report",
-  "code" : "66110-8",
-  "system" : "http://loinc.org",
-  "version" : "2.80",
-  "server" : "https://tx.ontoserver.csiro.au/fhir/",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "81168-7"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS--1", "version": "0.2.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Site of adjacent organ or tissue involvement Cancer specimen",
-  "code" : "81168-7",
-  "system" : "http://loinc.org",
-  "version" : "2.80",
-  "server" : "https://tx.ontoserver.csiro.au/fhir/",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
