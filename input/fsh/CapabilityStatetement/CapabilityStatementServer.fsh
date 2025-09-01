@@ -69,8 +69,6 @@ Usage: #definition
     * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/BodyStructure-morphology"
     * searchParam[=].type = #token
     * searchParam[=].documentation = "Tipo de estructura"
-    * searchParam[=].type = #uri
-    * searchParam[=].documentation = "Profiles this resource claims to conform to"
     * searchParam[+].name = "patient"
     * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/BodyStructure-patient"
     * searchParam[=].type = #reference
@@ -138,8 +136,8 @@ Usage: #definition
     * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/clinical-identifier"
     * searchParam[=].type = #token
     * searchParam[=].documentation = "Identificador del documento"
-    * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Composition-period"
     * searchParam[+].name = "period"
+    * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Composition-period"
     * searchParam[=].type = #date
     * searchParam[=].documentation = "El periodo de tiempo que el documento cubre (recomendado)"
     * searchParam[+].name = "author"

@@ -1,30 +1,15 @@
 -------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS", "version": "0.1.0"}####
+{"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS", "version": "0.1.1-draft"}####
 e: {
   "error" : "Unable to expand included value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologico-VS': Unable to expand imported value set: Error from http://localhost/r4: The filter \"constraint = <108369006,^446608001\" from the value set was not understood in the context of http://snomed.info/sct (3) (and Error from http://localhost/r4: The filter \"constraint = <108369006,^446608001\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologico-VS was not understood in the context of http://snomed.info/sct (3))"
 }
 -------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-snomed-hallazgos-clinicos-cie10-VS", "version": "0.1.0"}####
+{"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-snomed-hallazgos-clinicos-cie10-VS", "version": "0.1.1-draft"}####
 e: {
   "error" : "Unable to expand included value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-snomed-hallazgos-clinicos-VS': Unable to expand imported value set: Error from http://localhost/r4: The filter \"constraint = < 404684003, ^ 447562003\" from the value set was not understood in the context of http://snomed.info/sct (3) (and Error from http://localhost/r4: The filter \"constraint = < 404684003, ^ 447562003\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-snomed-hallazgos-clinicos-VS was not understood in the context of http://snomed.info/sct (3))"
 }
 -------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS", "version": "0.1.0"}####
-e: {
-  "error" : "Unable to expand included value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-VS': Unable to expand imported value set: Error from http://localhost/r4: The filter \"constraint = ^446608001,<91723000\" from the value set was not understood in the context of http://snomed.info/sct (3) (and Error from http://localhost/r4: The filter \"constraint = ^446608001,<91723000\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-VS was not understood in the context of http://snomed.info/sct (3))"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS", "version": "0.2.0"}####
-e: {
-  "error" : "Unable to expand included value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologico-VS': Unable to expand imported value set: Error from http://localhost/r4: The filter \"constraint = <108369006,^446608001\" from the value set was not understood in the context of http://snomed.info/sct (3) (and Error from http://localhost/r4: The filter \"constraint = <108369006,^446608001\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologico-VS was not understood in the context of http://snomed.info/sct (3))"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-snomed-hallazgos-clinicos-cie10-VS", "version": "0.2.0"}####
-e: {
-  "error" : "Unable to expand included value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-snomed-hallazgos-clinicos-VS': Unable to expand imported value set: Error from http://localhost/r4: The filter \"constraint = < 404684003, ^ 447562003\" from the value set was not understood in the context of http://snomed.info/sct (3) (and Error from http://localhost/r4: The filter \"constraint = < 404684003, ^ 447562003\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-snomed-hallazgos-clinicos-VS was not understood in the context of http://snomed.info/sct (3))"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS", "version": "0.2.0"}####
+{"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS", "version": "0.1.1-draft"}####
 e: {
   "error" : "Unable to expand included value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-VS': Unable to expand imported value set: Error from http://localhost/r4: The filter \"constraint = ^446608001,<91723000\" from the value set was not understood in the context of http://snomed.info/sct (3) (and Error from http://localhost/r4: The filter \"constraint = ^446608001,<91723000\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-VS was not understood in the context of http://snomed.info/sct (3))"
 }

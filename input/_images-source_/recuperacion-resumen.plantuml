@@ -1,0 +1,35 @@
+@startuml recuperacion-resumen
+
+title Diagrama de Secuencia para Recuperación del Resumen del Informe
+
+hide footbox
+
+!include ./style.iuml
+
+actor "Profesional" as usuario
+participant "Sistema Integral de Gestión Oncológica" as SIGO
+database "Repositorio Anatomías Patológicas" as RepositorioBiopsia
+
+usuario -> SIGO: Genera consulta de anatomía patológica
+activate SIGO
+SIGO -> RepositorioBiopsia: Solicitud de Token de Autenticación
+activate RepositorioBiopsia
+alt Token válido
+    RepositorioBiopsia -> SIGO: Respuesta con Token de Autenticación
+    SIGO -> RepositorioBiopsia: Realiza un GET a la API FHIR DiagnosticReport
+    RepositorioBiopsia -> RepositorioBiopsia: Busqueda en la base de datos
+    alt Informe encontrado
+        RepositorioBiopsia -> SIGO: Respuesta exitosa (200 OK)
+        SIGO -> usuario: Muestra información solicitada
+    else Informe no encontrado
+        RepositorioBiopsia -> SIGO: Respuesta de error (404 Not Found)
+        SIGO -> usuario: Notifica que no se encontró el informe
+    end
+else Token inválido
+    RepositorioBiopsia -> SIGO: Respuesta de error (401 Unauthorized)
+    SIGO -> usuario: Notifica error de autenticación
+    deactivate RepositorioBiopsia
+    deactivate SIGO
+    return
+end 
+@enduml

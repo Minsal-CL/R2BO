@@ -15,14 +15,29 @@
   }]
 }}####
 v: {
-  "display" : "mm",
+  "display" : "millimeter",
   "code" : "mm",
   "system" : "http://unitsofmeasure.org",
-  "version" : "2.2",
-  "server" : "http://localhost/r4",
+  "version" : "2.1",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
   "unknown-systems" : "",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to draft CodeSystem http://unitsofmeasure.org|2.1"
+    }
+  }]
 }
 
 }
@@ -43,14 +58,29 @@ v: {
   }]
 }}####
 v: {
-  "display" : "%",
+  "display" : "percent",
   "code" : "%",
   "system" : "http://unitsofmeasure.org",
-  "version" : "2.2",
-  "server" : "http://localhost/r4",
+  "version" : "2.1",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
   "unknown-systems" : "",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to draft CodeSystem http://unitsofmeasure.org|2.1"
+    }
+  }]
 }
 
 }
@@ -71,14 +101,29 @@ v: {
   }]
 }}####
 v: {
-  "display" : "cm",
+  "display" : "centimeter",
   "code" : "cm",
   "system" : "http://unitsofmeasure.org",
-  "version" : "2.2",
-  "server" : "http://localhost/r4",
+  "version" : "2.1",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
   "unknown-systems" : "",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to draft CodeSystem http://unitsofmeasure.org|2.1"
+    }
+  }]
 }
 
 }
@@ -101,16 +146,28 @@ v: {
   }
 }}####
 e: {
-  "source" : localhost,
+  "source" : tx.ontoserver.csiro.au,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:954cee6e-46b1-4e80-9adf-63fac9040892",
-    "timestamp" : "2025-08-22T15:42:26.151Z",
+    "identifier" : "urn:uuid:d4a7db06-08a4-4749-94ad-7d634adbea00",
+    "timestamp" : "2025-09-02T06:46:40+10:00",
     "total" : 2,
     "offset" : 0,
     "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "http://unitsofmeasure.org|2.1"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://unitsofmeasure.org|2.1"
+    },
+    {
+      "name" : "warning-draft",
+      "valueUri" : "http://unitsofmeasure.org|2.1"
+    },
+    {
       "name" : "excludeNested",
       "valueBoolean" : true
     },
@@ -121,24 +178,16 @@ e: {
     {
       "name" : "count",
       "valueInteger" : 1000
-    },
-    {
-      "name" : "used-codesystem",
-      "valueUri" : "http://unitsofmeasure.org|2.2"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "http://unitsofmeasure.org|2.2"
     }],
     "contains" : [{
       "system" : "http://unitsofmeasure.org",
       "code" : "cm",
-      "display" : "cm"
+      "display" : "Centimeter"
     },
     {
       "system" : "http://unitsofmeasure.org",
       "code" : "mm",
-      "display" : "mm"
+      "display" : "Millimeter"
     }]
   }
 },
@@ -161,14 +210,29 @@ e: {
   }]
 }}####
 v: {
-  "display" : "cm",
+  "display" : "centimeter",
   "code" : "cm",
   "system" : "http://unitsofmeasure.org",
-  "version" : "2.2",
-  "server" : "http://localhost/r4",
+  "version" : "2.1",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
   "unknown-systems" : "",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to draft CodeSystem http://unitsofmeasure.org|2.1"
+    }
+  }]
 }
 
 }
@@ -176,7 +240,7 @@ v: {
 {"code" : {
   "system" : "http://unitsofmeasure.org",
   "code" : "mm"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-medida-margen-quirurgico-VS", "version": "0.1.1-draft", "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [{
@@ -189,42 +253,74 @@ v: {
   }]
 }}####
 v: {
-  "display" : "mm",
+  "display" : "millimeter",
   "code" : "mm",
   "system" : "http://unitsofmeasure.org",
-  "version" : "2.2",
-  "server" : "http://localhost/r4",
+  "version" : "2.1",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
   "unknown-systems" : "",
   "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://unitsofmeasure.org",
-  "code" : "mm"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-medida-margen-quirurgico-VS", "version": "0.2.0", "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "id" : "exp-params",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to draft CodeSystem http://unitsofmeasure.org|2.1"
+    }
   },
   {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "es"
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to draft ValueSet https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-medida-margen-quirurgico-VS|0.1.1-draft"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to experimental ValueSet https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-medida-margen-quirurgico-VS|0.1.1-draft"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to informative ValueSet https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-medida-margen-quirurgico-VS|0.1.1-draft"
+    }
   }]
-}}####
-v: {
-  "display" : "mm",
-  "code" : "mm",
-  "system" : "http://unitsofmeasure.org",
-  "version" : "2.2",
-  "server" : "http://localhost/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
 }
 
 }
@@ -245,14 +341,29 @@ v: {
   }]
 }}####
 v: {
-  "display" : "cm",
+  "display" : "centimeter",
   "code" : "cm",
   "system" : "http://unitsofmeasure.org",
-  "version" : "2.2",
-  "server" : "http://localhost/r4",
+  "version" : "2.1",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
   "unknown-systems" : "",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to draft CodeSystem http://unitsofmeasure.org|2.1"
+    }
+  }]
 }
 
 }
@@ -275,16 +386,28 @@ v: {
   }
 }}####
 e: {
-  "source" : localhost,
+  "source" : tx.ontoserver.csiro.au,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:a5423566-31f1-4da8-ba78-1b42b4e4b44b",
-    "timestamp" : "2025-08-22T15:46:06.519Z",
+    "identifier" : "urn:uuid:f846c498-aaa0-44d1-a272-e656f11a22af",
+    "timestamp" : "2025-09-02T06:57:53+10:00",
     "total" : 2,
     "offset" : 0,
     "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "http://unitsofmeasure.org|2.1"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://unitsofmeasure.org|2.1"
+    },
+    {
+      "name" : "warning-draft",
+      "valueUri" : "http://unitsofmeasure.org|2.1"
+    },
+    {
       "name" : "excludeNested",
       "valueBoolean" : true
     },
@@ -295,24 +418,16 @@ e: {
     {
       "name" : "count",
       "valueInteger" : 1000
-    },
-    {
-      "name" : "used-codesystem",
-      "valueUri" : "http://unitsofmeasure.org|2.2"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "http://unitsofmeasure.org|2.2"
     }],
     "contains" : [{
       "system" : "http://unitsofmeasure.org",
       "code" : "cm",
-      "display" : "cm"
+      "display" : "Centimeter"
     },
     {
       "system" : "http://unitsofmeasure.org",
       "code" : "mm",
-      "display" : "mm"
+      "display" : "Millimeter"
     }]
   }
 },
@@ -337,16 +452,28 @@ e: {
   }
 }}####
 e: {
-  "source" : localhost,
+  "source" : tx.ontoserver.csiro.au,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:89d4d92c-3909-4779-ac4d-a691cce292b1",
-    "timestamp" : "2025-08-22T15:46:13.109Z",
+    "identifier" : "urn:uuid:a6bb9d8b-068b-447a-a671-826097970354",
+    "timestamp" : "2025-09-02T06:58:06+10:00",
     "total" : 2,
     "offset" : 0,
     "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "http://unitsofmeasure.org|2.1"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://unitsofmeasure.org|2.1"
+    },
+    {
+      "name" : "warning-draft",
+      "valueUri" : "http://unitsofmeasure.org|2.1"
+    },
+    {
       "name" : "excludeNested",
       "valueBoolean" : true
     },
@@ -357,86 +484,16 @@ e: {
     {
       "name" : "count",
       "valueInteger" : 1000
-    },
-    {
-      "name" : "used-codesystem",
-      "valueUri" : "http://unitsofmeasure.org|2.2"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "http://unitsofmeasure.org|2.2"
     }],
     "contains" : [{
       "system" : "http://unitsofmeasure.org",
       "code" : "mm",
-      "display" : "mm"
+      "display" : "Millimeter"
     },
     {
       "system" : "http://unitsofmeasure.org",
       "code" : "cm",
-      "display" : "cm"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://unitsofmeasure.org",
-      "concept" : [{
-        "code" : "cm",
-        "display" : "Centimeter"
-      },
-      {
-        "code" : "mm",
-        "display" : "Millimeter"
-      }]
-    }]
-  }
-}}####
-e: {
-  "source" : localhost,
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:e414eced-ae8b-41d4-80d6-6e71c2d8c729",
-    "timestamp" : "2025-08-22T15:46:38.672Z",
-    "total" : 2,
-    "offset" : 0,
-    "parameter" : [{
-      "name" : "excludeNested",
-      "valueBoolean" : false
-    },
-    {
-      "name" : "offset",
-      "valueInteger" : 0
-    },
-    {
-      "name" : "count",
-      "valueInteger" : 1000
-    },
-    {
-      "name" : "used-codesystem",
-      "valueUri" : "http://unitsofmeasure.org|2.2"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "http://unitsofmeasure.org|2.2"
-    }],
-    "contains" : [{
-      "system" : "http://unitsofmeasure.org",
-      "code" : "cm",
-      "display" : "cm"
-    },
-    {
-      "system" : "http://unitsofmeasure.org",
-      "code" : "mm",
-      "display" : "mm"
+      "display" : "Centimeter"
     }]
   }
 },

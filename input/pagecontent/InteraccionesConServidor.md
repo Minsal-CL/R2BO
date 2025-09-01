@@ -23,11 +23,10 @@ Bundle
       |--> Organization
       |--> Specimen
       |--> DiagnosticReport
+      |--> Composition
+      |--> BodyStructure
       |--> Observation
 ```
-
-#### Iteracción esperada 
-
 El diagrama a continuación explica como debería ser la iteracción entre el usuario, el sistema informatico y el repositorio: 
 
 <div align="center"> 
@@ -38,25 +37,27 @@ El diagrama a continuación explica como debería ser la iteracción entre el us
 
 Para consultar el estado de una solicitud y/o un informe solo deberá realizar la consulta al recurso **DiagnosticReport**. Las consultas permitiran concatenar para buscar mediante el identificador del paciente para traer la información como medio estandar de búsqueda.
 
-**Traer Informe**
+**Traer Resumen Informe**
 
 ```
 GET DiagnosticReport?patient.identifier=9999999-9
 ```
-
-**Traer Informe e Información Adicional**
-Se puede utilizar el parametro include para traer la información completa o parcializada de lo que se encuentran en la referencia.
-
-```
-GET DiagnosticReport?patient.identifier=9999999-9?_include=Observation:result
-```
-
-#### Iteracción esperada 
-
-El diagrama a continuación explica como debería ser la iteracción entre el usuario, el sistema informatico y el repositorio: 
+El diagrama a continuación explica como debería ser la iteracción entre el usuario, la plataforma SIGO y el repositorio: 
 
 <div align="center"> 
-    <img src="recuperacion-informe.svg" alt="Iteracciones con el servicio terminológico">
+    <img src="recuperacion-resumen.svg" alt="Iteracciones para recuperar informe">
+</div>
+
+**Traer Informe**
+Se puede utilizar el recurso *DiagnosticReport* contiene una extensión la cual referencia a un recurso **Composition** la cual permite generar el documento completo de informe de biopsía utilizando la operación [$document]().
+
+```
+GET Composition/{idRecurso}/$document
+```
+El diagrama a continuación explica como debería ser la iteracción entre el usuario, la plataforma SIGO y el repositorio: 
+
+<div align="center"> 
+    <img src="recuperacion-informe.svg" alt="Iteracciones para recuperar resumen">
 </div>
 
 ### Analista del Repositorio
