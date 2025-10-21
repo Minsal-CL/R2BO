@@ -18,6 +18,12 @@ Description: "Solicitud generada por el médico para la realización de un infor
   * ^definition = "Estado de la Solicitud"
 * intent MS
   * ^definition = "Propósito de la Solicitud"
+  
+* priority 1..1 MS
+  * ^short = "routine = \"Diferida\", asap  = \"Rápida\""
+  * ^definition = "Urgencia de la Solicitud de biopsia"
+* priority from VSPrioridadSolicitudR2BO (required)
+
 * code 1..1 MS
   * ^short = "Código de la Solicitud"
   * ^definition = "Código que define el tipo de solicitud"

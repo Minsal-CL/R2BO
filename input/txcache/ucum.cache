@@ -7,7 +7,7 @@
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -50,7 +50,7 @@ v: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -93,7 +93,7 @@ v: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -151,8 +151,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:d4a7db06-08a4-4749-94ad-7d634adbea00",
-    "timestamp" : "2025-09-02T06:46:40+10:00",
+    "identifier" : "urn:uuid:842c22f9-1099-4887-a8e5-f874d25f173f",
+    "timestamp" : "2025-09-09T03:22:53+10:00",
     "total" : 2,
     "offset" : 0,
     "parameter" : [{
@@ -202,7 +202,7 @@ e: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -245,7 +245,7 @@ v: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -333,7 +333,7 @@ v: {
   "id" : "exp-params",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -391,8 +391,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:f846c498-aaa0-44d1-a272-e656f11a22af",
-    "timestamp" : "2025-09-02T06:57:53+10:00",
+    "identifier" : "urn:uuid:cd33d055-8e30-491b-9433-16ddd6aa135b",
+    "timestamp" : "2025-09-09T03:34:50+10:00",
     "total" : 2,
     "offset" : 0,
     "parameter" : [{
@@ -457,8 +457,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:a6bb9d8b-068b-447a-a671-826097970354",
-    "timestamp" : "2025-09-02T06:58:06+10:00",
+    "identifier" : "urn:uuid:10740030-9819-4901-aaea-f38c7dcac31d",
+    "timestamp" : "2025-09-09T03:35:05+10:00",
     "total" : 2,
     "offset" : 0,
     "parameter" : [{
@@ -494,6 +494,72 @@ e: {
       "system" : "http://unitsofmeasure.org",
       "code" : "cm",
       "display" : "Centimeter"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://unitsofmeasure.org",
+      "concept" : [{
+        "code" : "cm",
+        "display" : "Centimeter"
+      },
+      {
+        "code" : "mm",
+        "display" : "Millimeter"
+      }]
+    }]
+  }
+}}####
+e: {
+  "source" : tx.ontoserver.csiro.au,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:8f8c572f-f25a-47db-a370-a5f613dc34ce",
+    "timestamp" : "2025-09-09T03:35:53+10:00",
+    "total" : 2,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "http://unitsofmeasure.org|2.1"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://unitsofmeasure.org|2.1"
+    },
+    {
+      "name" : "warning-draft",
+      "valueUri" : "http://unitsofmeasure.org|2.1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    }],
+    "contains" : [{
+      "system" : "http://unitsofmeasure.org",
+      "code" : "cm",
+      "display" : "Centimeter"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "mm",
+      "display" : "Millimeter"
     }]
   }
 },

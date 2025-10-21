@@ -35,3 +35,4 @@ Description:    "Perfil para todas las observaciones de los resultados de biopsi
 * value[x] only CodeableConcept or string or boolean or Quantity or integer
 * dataAbsentReason MS
 * specimen only Reference(MuestraR2BO)
+

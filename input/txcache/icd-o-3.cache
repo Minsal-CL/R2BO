@@ -1,0 +1,51 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "M"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: [a4b39f9a-4008-46fa-82ef-be5fa192063c]: A usable code system with URL http://terminology.hl7.org/CodeSystem/icd-o-3 could not be resolved.\r\nInformation: X-Request-Id: fb4eae86-be3b-487c-9980-bde7ace563fc"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cieo3-m-VS", "version": "0.1.1-draft"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: [32cf49f5-c8de-4536-9e2c-c8213bb1a983]: A usable code system with URL http://terminology.hl7.org/CodeSystem/icd-o-3 could not be resolved.\r\nInformation: X-Request-Id: 061822b3-8139-46cd-b691-3573588bc66d"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "T"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: [d3b94dff-ccf3-49b0-a679-6f2adb8b8562]: A usable code system with URL http://terminology.hl7.org/CodeSystem/icd-o-3 could not be resolved.\r\nInformation: X-Request-Id: 4b60f38e-fcfe-4bb1-af1c-87b112d368ae"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cieo3-t-VS", "version": "0.1.1-draft"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: [4d1bf342-11b0-4843-9a2d-d6060e8538ad]: A usable code system with URL http://terminology.hl7.org/CodeSystem/icd-o-3 could not be resolved.\r\nInformation: X-Request-Id: eb1b7d2f-6818-45fa-a9a8-d473c1247020"
+}
+-------------------------------------------------------------------------------------

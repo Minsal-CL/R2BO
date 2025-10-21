@@ -1,6 +1,6 @@
 {
     "package-id": "hl7.fhir.cl.minsal.r2bo",
-    "version": "0.1.0-draft",
+    "version": "0.1.1-draft",
     "desc": "Versión de desarrollo de la guía de implementación del Repositorio Interoperable de Anatomías Patológicas del Ministerio de Salud",
     "path": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/0.1.0-draft",
     "mode": "working",

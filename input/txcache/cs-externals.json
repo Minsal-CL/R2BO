@@ -1,11 +1,10 @@
 {
+  "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20250515" : null,
   "urn:ietf:bcp:13|null" : null,
+  "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701" : null,
   "http://unstats.un.org/unsd/methods/m49/m49.htm|null" : null,
-  "http://terminology.hl7.org/CodeSystem/v2-00741" : null,
   "http://hl7.org/fhir/sid/icd-10|2019-covid-expanded" : {
     "server" : "http://localhost/r4",
-    "filename" : "cs-05b0dc6b-cccd-4b5b-a0d0-738ebe8e9ec2.json"
-  },
-  "http://terminology.hl7.org/CodeSystem/v2-00741|2.5.0" : null,
-  "http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20250615" : null
+    "filename" : "cs-c8d573b4-1839-47ab-a4f0-359c3ea4a8e1.json"
+  }
 }

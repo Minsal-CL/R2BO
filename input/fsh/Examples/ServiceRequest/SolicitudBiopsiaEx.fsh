@@ -8,6 +8,7 @@ Description:    "Solicitud de biopsia de tejido mamario"
 * identifier.value = "111111101"
 * status = #completed
 * intent = #order
+* priority = #routine
 * code = $snomed#116784002
 * code.text = "Informe de Biopsia"
 * subject = Reference(paciente-requiere-examen)

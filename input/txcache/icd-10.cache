@@ -24,7 +24,7 @@ e: {
   "title" : "Set de Valores de la Clasificación Internacional de Enfermedades 10 Versión",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-09-01T14:38:30-04:00",
+  "date" : "2025-09-08T11:59:03-03:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -33,8 +33,8 @@ e: {
     }]
   }],
   "expansion" : {
-    "identifier" : "urn:uuid:58c7cac7-9867-4383-9b35-28e11078af4a",
-    "timestamp" : "2025-09-01T18:46:09.639Z",
+    "identifier" : "urn:uuid:aa751c32-31b7-4007-92b8-9ea4c04088c6",
+    "timestamp" : "2025-09-08T15:03:15.925Z",
     "offset" : 0,
     "parameter" : [{
       "name" : "limitedExpansion",
