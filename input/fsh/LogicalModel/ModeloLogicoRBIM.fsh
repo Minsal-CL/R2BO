@@ -26,7 +26,7 @@ Description: "Modelo lógico para el conjunto de datos mínimo de un informe pat
 // Characteristics: #can-be-target
 
 * nroDeBiopsia 1..1 SU Identifier "Corresponde a una identificación única del informe de biopsia del establecimiento que analiza la muestra."
-* paciente 1..1 SU Reference(PacienteR2BOLogico) "Corresponde al paciente al cual se le realiza la biopsia."
+* paciente 1..1 SU Reference(Patient) "Corresponde al paciente al cual se le realiza la biopsia."
 * solicitud 1..1 SU Reference(SolicitudR2BOLogico) "Corresponde a la solicitud de biopsia del paciente, la cual contiene los datos clínicos y antecedentes relevantes para el análisis de la muestra."
 * establecimientoDeOrigen 1..1 SU Reference(Organization) "Corresponde al establecimiento de origen de la toma de la muestra."
 * servicioClinicoDeOrigen 1..1 SU Reference(Organization) "Servicio clinico en el cual se encuentra el paciente, o al cual se le debe informar del resultado de esta biopsia."
