@@ -58,7 +58,7 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para el d
     ObservacionMultifocalidad 0..1 and
     ObservacionPostNeoadjudancia 0..1 and
     ObservacionPorcentajeNecrosisR2BO 0..1 and
-    ObservacionTejidoTumoralAdjacente 0..1 and
+    ObservacionTejidoNoTumoralAdjacente 0..1 and
     TamanoTumorR2BO 0..1
 
 * entry[CabeceraDocumento]
@@ -169,9 +169,9 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para el d
   * resource only ObservacionPorcentajeNecrosisR2BO
 
 
-* entry[ObservacionTejidoTumoralAdjacente]
+* entry[ObservacionTejidoNoTumoralAdjacente]
   
-  * resource only ObservacionTejidoTumoralAdjacente
+  * resource only ObservacionTejidoNoTumoralAdjacente
 
 * entry[TamanoTumorR2BO]
   

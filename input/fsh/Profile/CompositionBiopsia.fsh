@@ -88,7 +88,7 @@ Description:    "Este recurso representa la cabecera del documento de un reporte
   * ^short = "Resultado de observaciones que fueron realizadas a la muestra"
   * code = $loinc#33746-9
   * entry 0..*
-  * entry only Reference(ObservacionInfiltracionPerineuralR2BO or ObservacionGangliosLinfaticos or ObservacionInfiltradoPeritumoralR2BO or ObservacionInvasionLinfaticaR2BO or ObservacionInvasionVascularR2BO or ObservacionMargenQuirugico or ObservacionCentricidad or ObservacionMultifocalidad or ObservacionPostNeoadjudancia or ObservacionPorcentajeNecrosisR2BO or ObservacionTejidoTumoralAdjacente or TamanoTumorR2BO)
+  * entry only Reference(ObservacionInfiltracionPerineuralR2BO or ObservacionGangliosLinfaticos or ObservacionInfiltradoPeritumoralR2BO or ObservacionInvasionLinfaticaR2BO or ObservacionInvasionVascularR2BO or ObservacionMargenQuirugico or ObservacionCentricidad or ObservacionMultifocalidad or ObservacionPostNeoadjudancia or ObservacionPorcentajeNecrosisR2BO or ObservacionTejidoNoTumoralAdjacente or TamanoTumorR2BO)
   * emptyReason 0..1 
 
 * section[conclusiones]

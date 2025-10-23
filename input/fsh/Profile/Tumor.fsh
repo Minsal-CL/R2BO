@@ -45,6 +45,9 @@ Description:    "Este recurso permite entregar la morfología y la topograí res
 * location only CodeableConceptSCTCIEO
 * location from TopograficaSnomedCIEOVS (extensible)	
 
+* description 0..1 MS
+  * ^short = "Descripción adicional del tumor"
+
 // * locationQualifier MS
 //   * ^short = "Sitio del cuerpo modificado"
 // * locationQualifier from BodyLocationAndLateralityQualifierVS (required)

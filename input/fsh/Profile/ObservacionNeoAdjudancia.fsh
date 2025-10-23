@@ -17,4 +17,6 @@ Description:    "Evaluación post neadyudancia del reporte de biopsia"
 * ^abstract = false
 
 * code = $loinc#84891-1
-* value[x] only string
+* value[x] only string or CodeableConcept
+* value[x] ^short = "Observación post neoadyuvancia"
+* valueCodeableConcept from ObservacionNeoAdyuvanciaVS (preferred)

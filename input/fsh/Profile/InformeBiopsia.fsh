@@ -84,7 +84,7 @@ Description:    "Reporte de anatomía patológica"
     ObservacionMultifocalidad or
     ObservacionPostNeoadjudancia or
     ObservacionPorcentajeNecrosisR2BO or
-    ObservacionTejidoTumoralAdjacente or
+    ObservacionTejidoNoTumoralAdjacente or
     TamanoTumorR2BO
   )
 

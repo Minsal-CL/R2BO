@@ -1,7 +1,7 @@
-Profile:        ObservacionTejidoTumoralAdjacente
+Profile:        ObservacionTejidoNoTumoralAdjacente
 Parent:         ResultadosReporteBiopsia
-Id:             r2bo-observacion-tejido-tumor-adjacente
-Title:          "Perfil de Observacion Tejido Tumoral Adjacente"
+Id:             r2bo-observacion-tejido-no-tumor-adjacente
+Title:          "Perfil de Observacion Tejido No Tumoral Adjacente"
 Description:    "Registro de la presencia de tejido tumoral en tejido adyacente en un reporte de biopsia"
 
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"

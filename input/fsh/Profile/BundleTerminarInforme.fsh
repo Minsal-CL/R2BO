@@ -57,7 +57,7 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
     ObservacionMultifocalidad 0..1 and
     ObservacionPostNeoadjudancia 0..1 and
     ObservacionPorcentajeNecrosisR2BO 0..1 and
-    ObservacionTejidoTumoralAdjacente 0..1 and
+    ObservacionTejidoNoTumoralAdjacente 0..1 and
     TamanoTumorR2BO 0..1 
 
     // Resultados 0..*
@@ -328,9 +328,9 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
     * url
       * ^short = "Uri del recurso \"Observation\""
 
-* entry[ObservacionTejidoTumoralAdjacente]
+* entry[ObservacionTejidoNoTumoralAdjacente]
   * resource 1..1 MS
-  * resource only ObservacionTejidoTumoralAdjacente
+  * resource only ObservacionTejidoNoTumoralAdjacente
   * request 1..1
     * method 1..1
     * method = #POST

@@ -49,3 +49,306 @@ e: {
   "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: [4d1bf342-11b0-4843-9a2d-d6060e8538ad]: A usable code system with URL http://terminology.hl7.org/CodeSystem/icd-o-3 could not be resolved.\r\nInformation: X-Request-Id: eb1b7d2f-6818-45fa-a9a8-d473c1247020"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "code" : "M"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "code" : "M",
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "version" : "2000",
+  "severity" : "warning",
+  "error" : "Unknown Code 'M' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment",
+  "server" : "https://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "UNKNOWN_CODE_IN_FRAGMENT"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "warning",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-code"
+      }],
+      "text" : "Unknown Code 'M' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment"
+    },
+    "location" : ["Coding.code"],
+    "expression" : ["Coding.code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "code" : "T"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "code" : "T",
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "version" : "2000",
+  "severity" : "warning",
+  "error" : "Unknown Code 'T' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment",
+  "server" : "https://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "UNKNOWN_CODE_IN_FRAGMENT"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "warning",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-code"
+      }],
+      "text" : "Unknown Code 'T' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment"
+    },
+    "location" : ["Coding.code"],
+    "expression" : ["Coding.code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "code" : "M"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "code" : "M",
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "version" : "2000",
+  "severity" : "warning",
+  "error" : "Unknown Code 'M' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment",
+  "server" : "https://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "UNKNOWN_CODE_IN_FRAGMENT"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "warning",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-code"
+      }],
+      "text" : "Unknown Code 'M' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment"
+    },
+    "location" : ["Coding.code"],
+    "expression" : ["Coding.code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "code" : "T"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "code" : "T",
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "version" : "2000",
+  "severity" : "warning",
+  "error" : "Unknown Code 'T' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment",
+  "server" : "https://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "UNKNOWN_CODE_IN_FRAGMENT"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "warning",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-code"
+      }],
+      "text" : "Unknown Code 'T' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment"
+    },
+    "location" : ["Coding.code"],
+    "expression" : ["Coding.code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "code" : "8500/3"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Infiltrating duct carcinoma, NOS",
+  "code" : "8500/3",
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "version" : "2000",
+  "server" : "https://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "code" : "8500/3"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cieo3-m-VS--0", "version": "0.1.1-draft", "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "Error from https://tx.fhir.org/r4: Unable to locate code 'M'",
+  "class" : "SERVER_ERROR",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "code" : "C50.9"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "code" : "C50.9",
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "version" : "2000",
+  "severity" : "warning",
+  "error" : "Unknown Code 'C50.9' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment",
+  "server" : "https://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "UNKNOWN_CODE_IN_FRAGMENT"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "warning",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-code"
+      }],
+      "text" : "Unknown Code 'C50.9' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment"
+    },
+    "location" : ["Coding.code"],
+    "expression" : ["Coding.code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------

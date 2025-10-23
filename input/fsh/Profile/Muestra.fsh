@@ -52,8 +52,3 @@ Description:    "Muestra de tejido o fluido biológico para análisis de antomí
     * extension[MetodoProcedimiento] ^short = "Método de procedimiento"
   * method from ProcedimientosBiopsiaVS (extensible)
   * fastingStatus[x] from http://terminology.hl7.org/ValueSet/v2-0916|2.0.0 (extensible)
-
-* note 0..* MS
-  * ^short = "Nota de texto libre para describir la muestra, por ejemplo el detalle de topografico"
-  * text 1..1 MS 
-    * ^short = "Nota de texto libre"

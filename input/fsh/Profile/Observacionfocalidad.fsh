@@ -1,8 +1,8 @@
 Profile:        ObservacionMultifocalidad
 Parent:         ResultadosReporteBiopsia
 Id:             r2bo-observacion-multifocalidad
-Title:          "Perfil de Observación Multifocalidad"
-Description:    "Registro de la multifocalidad de un tumor en reporte de biopsia"
+Title:          "Perfil de Observación Focalidad"
+Description:    "Registro de la focalidad de un tumor en reporte de biopsia"
 
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1

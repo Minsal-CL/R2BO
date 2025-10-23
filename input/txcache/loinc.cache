@@ -20,7 +20,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -48,7 +47,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -76,7 +74,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -104,7 +101,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -132,7 +128,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -160,7 +155,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -188,7 +182,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -216,7 +209,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -244,7 +236,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -272,7 +263,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -300,7 +290,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -328,7 +317,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -356,7 +344,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -518,7 +505,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -546,7 +532,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -574,7 +559,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -602,7 +586,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -630,7 +613,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -658,7 +640,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -686,7 +667,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -714,7 +694,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -742,7 +721,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -770,7 +748,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -798,7 +775,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -826,7 +802,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -854,7 +829,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -882,7 +856,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -910,7 +883,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -938,7 +910,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -966,7 +937,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -994,7 +964,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1022,7 +991,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1050,7 +1018,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1078,7 +1045,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1106,7 +1072,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1134,7 +1099,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1162,7 +1126,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1190,7 +1153,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1218,7 +1180,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1246,7 +1207,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1274,7 +1234,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1302,7 +1261,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1330,7 +1288,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1358,7 +1315,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1386,7 +1342,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1414,7 +1369,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1444,7 +1398,6 @@ v: {
   "error" : "The provided code 'http://loinc.org#66110-8' was not found in the value set 'http://hl7.org/fhir/ValueSet/doc-typecodes--0|4.0.1'",
   "class" : "UNKNOWN",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -1489,7 +1442,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1517,7 +1469,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7262,7 +7213,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7290,7 +7240,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7318,7 +7267,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7346,7 +7294,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7374,7 +7321,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7402,7 +7348,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7430,7 +7375,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7458,7 +7402,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7486,7 +7429,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7514,7 +7456,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7542,7 +7483,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7570,10 +7510,668 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "LA26537-3",
+        "display" : "No prior treatment"
+      },
+      {
+        "code" : "LA26538-1",
+        "display" : "Complete response (Grade 0 - No viable cancer cells)"
+      },
+      {
+        "code" : "LA26539-9",
+        "display" : "Moderate response (Grade 1 - Single cells or small groups of cancer cells)"
+      },
+      {
+        "code" : "LA26540-7",
+        "display" : "Mminimal response (Grade 2 - Residual cancer outgrown by fibrosis)"
+      },
+      {
+        "code" : "LA26541-5",
+        "display" : "Poor response (Grade 3 - Minimal or no tumor kill; extensive)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "source" : tx.fhir.org,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:9927864f-abf8-41c7-a3a3-4297aaf9fd90",
+    "timestamp" : "2025-10-21T19:58:26.263Z",
+    "total" : 5,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://loinc.org|2.81"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.81"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "LA26537-3",
+      "display" : "No prior treatment"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA26538-1",
+      "display" : "Complete response (Grade 0 - No viable cancer cells)"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA26539-9",
+      "display" : "Moderate response (Grade 1 - Single cells or small groups of cancer cells)"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA26540-7",
+      "display" : "Mminimal response (Grade 2 - Residual cancer outgrown by fibrosis)"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA26541-5",
+      "display" : "Poor response (Grade 3 - Minimal or no tumor kill; extensive)"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA26537-3"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "No prior treatment",
+  "code" : "LA26537-3",
+  "system" : "http://loinc.org",
+  "version" : "2.81",
+  "server" : "https://tx.fhir.org/r4",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
 
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA26538-1"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Complete response (Grade 0 - No viable cancer cells)",
+  "code" : "LA26538-1",
+  "system" : "http://loinc.org",
+  "version" : "2.81",
+  "server" : "https://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA26539-9"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Moderate response (Grade 1 - Single cells or small groups of cancer cells)",
+  "code" : "LA26539-9",
+  "system" : "http://loinc.org",
+  "version" : "2.81",
+  "server" : "https://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA26540-7"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Mminimal response (Grade 2 - Residual cancer outgrown by fibrosis)",
+  "code" : "LA26540-7",
+  "system" : "http://loinc.org",
+  "version" : "2.81",
+  "server" : "https://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA26541-5"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Poor response (Grade 3 - Minimal or no tumor kill; extensive)",
+  "code" : "LA26541-5",
+  "system" : "http://loinc.org",
+  "version" : "2.81",
+  "server" : "https://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "74574-5"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Macroscopic observation [Interpretation] in Specimen Narrative",
+  "code" : "74574-5",
+  "system" : "http://loinc.org",
+  "version" : "2.81",
+  "server" : "https://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "33739-4"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Lymphatic.small vessel.invasion [Identifier] in Specimen by CAP cancer protocols",
+  "code" : "33739-4",
+  "system" : "http://loinc.org",
+  "version" : "2.81",
+  "server" : "https://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "33740-2"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Venous.large vessel.invasion [Identifier] in Specimen by CAP cancer protocols",
+  "code" : "33740-2",
+  "system" : "http://loinc.org",
+  "version" : "2.81",
+  "server" : "https://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "21889-1"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Size Tumor",
+  "code" : "21889-1",
+  "system" : "http://loinc.org",
+  "version" : "2.81",
+  "server" : "https://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "42030-7"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Multiple tumors reported as single primary Cancer",
+  "code" : "42030-7",
+  "system" : "http://loinc.org",
+  "version" : "2.81",
+  "server" : "https://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "92831-7"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Lymph nodes with metastasis [#] in Cancer specimen",
+  "code" : "92831-7",
+  "system" : "http://loinc.org",
+  "version" : "2.81",
+  "server" : "https://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "81168-7"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Site of adjacent organ or tissue involvement Cancer specimen",
+  "code" : "81168-7",
+  "system" : "http://loinc.org",
+  "version" : "2.81",
+  "server" : "https://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "84891-1"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Tumor response to neoadjuvant therapy",
+  "code" : "84891-1",
+  "system" : "http://loinc.org",
+  "version" : "2.81",
+  "server" : "https://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "33737-8"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "id" : "exp-params",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Distance of tumor from closest margin",
+  "code" : "33737-8",
+  "system" : "http://loinc.org",
+  "version" : "2.81",
+  "server" : "https://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "LA26537-3",
+        "display" : "No prior treatment"
+      },
+      {
+        "code" : "LA26538-1",
+        "display" : "Complete response (Grade 0 - No viable cancer cells)"
+      },
+      {
+        "code" : "LA26539-9",
+        "display" : "Moderate response (Grade 1 - Single cells or small groups of cancer cells)"
+      },
+      {
+        "code" : "LA26540-7",
+        "display" : "Mminimal response (Grade 2 - Residual cancer outgrown by fibrosis)"
+      },
+      {
+        "code" : "LA26541-5",
+        "display" : "Poor response (Grade 3 - Minimal or no tumor kill; extensive)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "source" : tx.fhir.org,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:2a704483-9fa2-468f-a494-2c62960e5e71",
+    "timestamp" : "2025-10-21T20:01:54.014Z",
+    "total" : 5,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://loinc.org|2.81"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.81"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "LA26537-3",
+      "display" : "No prior treatment"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA26538-1",
+      "display" : "Complete response (Grade 0 - No viable cancer cells)"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA26539-9",
+      "display" : "Moderate response (Grade 1 - Single cells or small groups of cancer cells)"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA26540-7",
+      "display" : "Mminimal response (Grade 2 - Residual cancer outgrown by fibrosis)"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA26541-5",
+      "display" : "Poor response (Grade 3 - Minimal or no tumor kill; extensive)"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "LA26537-3",
+        "display" : "No prior treatment"
+      },
+      {
+        "code" : "LA26538-1",
+        "display" : "Complete response (Grade 0 - No viable cancer cells)"
+      },
+      {
+        "code" : "LA26539-9",
+        "display" : "Moderate response (Grade 1 - Single cells or small groups of cancer cells)"
+      },
+      {
+        "code" : "LA26540-7",
+        "display" : "Mminimal response (Grade 2 - Residual cancer outgrown by fibrosis)"
+      },
+      {
+        "code" : "LA26541-5",
+        "display" : "Poor response (Grade 3 - Minimal or no tumor kill; extensive)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "source" : tx.fhir.org,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:81a461cb-7e80-415c-b5cc-9eb63746d1ee",
+    "timestamp" : "2025-10-21T20:02:51.873Z",
+    "total" : 5,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://loinc.org|2.81"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.81"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "LA26537-3",
+      "display" : "No prior treatment"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA26538-1",
+      "display" : "Complete response (Grade 0 - No viable cancer cells)"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA26539-9",
+      "display" : "Moderate response (Grade 1 - Single cells or small groups of cancer cells)"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA26540-7",
+      "display" : "Mminimal response (Grade 2 - Residual cancer outgrown by fibrosis)"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA26541-5",
+      "display" : "Poor response (Grade 3 - Minimal or no tumor kill; extensive)"
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
