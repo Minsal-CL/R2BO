@@ -107,12 +107,12 @@ Description:    "Ejemplo de Bundle que contiene los recursos de un documento de 
   * resource = r2bo-observacion-margen-quirurgico-ex
  
 
-* entry[ObservacionCentricidad]
+* entry[ObservacionMulticentricidad]
   * fullUrl = Canonical(r2bo-observacion-centricidad-ex)
   * resource = r2bo-observacion-centricidad-ex
  
 
-* entry[ObservacionMultifocalidad]
+* entry[ObservacionFocalidad]
   * fullUrl = Canonical(r2bo-observacion-multifocalidad-ex)
   * resource = r2bo-observacion-multifocalidad-ex
  

@@ -80,11 +80,11 @@ Description:    "Reporte de anatomía patológica"
     ObservacionInvasionLinfaticaR2BO or
     ObservacionInvasionVascularR2BO or
     ObservacionMargenQuirugico or
-    ObservacionCentricidad or
-    ObservacionMultifocalidad or
+    ObservacionMulticentricidad or
+    ObservacionFocalidad or
     ObservacionPostNeoadjudancia or
     ObservacionPorcentajeNecrosisR2BO or
-    ObservacionTejidoNoTumoralAdjacente or
+    ObservacionTejidoNoTumoralAdyacente or
     TamanoTumorR2BO
   )
 

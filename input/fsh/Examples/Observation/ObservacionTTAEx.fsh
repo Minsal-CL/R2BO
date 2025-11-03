@@ -1,5 +1,5 @@
 Instance:       r2bo-observacion-tejido-tumor-adjacente-ex
-InstanceOf:     ObservacionTejidoNoTumoralAdjacente
+InstanceOf:     ObservacionTejidoNoTumoralAdyacente
 Usage:          #example
 Title:          "Observacion de Ejemplo: Tejido Tumoral Adjacente"
 Description:    "Ejemplo de la presencia de tejido tumoral en tejido adyacente de un reporte de biopsia"

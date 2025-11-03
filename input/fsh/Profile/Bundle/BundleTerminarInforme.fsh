@@ -53,11 +53,11 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
     ObservacionInvasionLinfaticaR2BO 0..1 and
     ObservacionInvasionVascularR2BO 0..1 and
     ObservacionMargenQuirugico 0..1 and
-    ObservacionCentricidad 0..1 and
-    ObservacionMultifocalidad 0..1 and
+    ObservacionMulticentricidad 0..1 and
+    ObservacionFocalidad 0..1 and
     ObservacionPostNeoadjudancia 0..1 and
     ObservacionPorcentajeNecrosisR2BO 0..1 and
-    ObservacionTejidoNoTumoralAdjacente 0..1 and
+    ObservacionTejidoNoTumoralAdyacente 0..1 and
     TamanoTumorR2BO 0..1 
 
     // Resultados 0..*
@@ -288,9 +288,9 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
     * url
       * ^short = "Uri del recurso \"Observation\""
 
-* entry[ObservacionCentricidad]
+* entry[ObservacionMulticentricidad]
   * resource 1..1 MS
-  * resource only ObservacionCentricidad
+  * resource only ObservacionMulticentricidad
   * request 1..1
     * method 1..1
     * method = #POST
@@ -298,9 +298,9 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
     * url
       * ^short = "Uri del recurso \"Observation\""
 
-* entry[ObservacionMultifocalidad]
+* entry[ObservacionFocalidad]
   * resource 1..1 MS
-  * resource only ObservacionMultifocalidad
+  * resource only ObservacionFocalidad
   * request 1..1
     * method 1..1
     * method = #POST
@@ -328,9 +328,9 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
     * url
       * ^short = "Uri del recurso \"Observation\""
 
-* entry[ObservacionTejidoNoTumoralAdjacente]
+* entry[ObservacionTejidoNoTumoralAdyacente]
   * resource 1..1 MS
-  * resource only ObservacionTejidoNoTumoralAdjacente
+  * resource only ObservacionTejidoNoTumoralAdyacente
   * request 1..1
     * method 1..1
     * method = #POST

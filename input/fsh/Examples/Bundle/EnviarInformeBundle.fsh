@@ -172,14 +172,14 @@ Description:    "Ejemplo de Bundle que contiene los recursos necesarios para sol
     * method = #POST
     * url = "Observation"
 
-* entry[ObservacionCentricidad]
+* entry[ObservacionMulticentricidad]
   * fullUrl = Canonical(r2bo-observacion-centricidad-ex)
   * resource = r2bo-observacion-centricidad-ex
   * request
     * method = #POST
     * url = "Observation"
 
-* entry[ObservacionMultifocalidad]
+* entry[ObservacionFocalidad]
   * fullUrl = Canonical(r2bo-observacion-multifocalidad-ex)
   * resource = r2bo-observacion-multifocalidad-ex
   * request

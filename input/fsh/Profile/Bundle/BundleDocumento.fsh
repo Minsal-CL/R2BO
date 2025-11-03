@@ -54,11 +54,11 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para el d
     ObservacionInvasionLinfaticaR2BO 0..1 and
     ObservacionInvasionVascularR2BO 0..1 and
     ObservacionMargenQuirugico 0..1 and
-    ObservacionCentricidad 0..1 and
-    ObservacionMultifocalidad 0..1 and
+    ObservacionMulticentricidad 0..1 and
+    ObservacionFocalidad 0..1 and
     ObservacionPostNeoadjudancia 0..1 and
     ObservacionPorcentajeNecrosisR2BO 0..1 and
-    ObservacionTejidoNoTumoralAdjacente 0..1 and
+    ObservacionTejidoNoTumoralAdyacente 0..1 and
     TamanoTumorR2BO 0..1
 
 * entry[CabeceraDocumento]
@@ -151,14 +151,14 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para el d
   * resource only ObservacionMargenQuirugico
   
 
-* entry[ObservacionCentricidad]
+* entry[ObservacionMulticentricidad]
   
-  * resource only ObservacionCentricidad
+  * resource only ObservacionMulticentricidad
 
 
-* entry[ObservacionMultifocalidad]
+* entry[ObservacionFocalidad]
   
-  * resource only ObservacionMultifocalidad
+  * resource only ObservacionFocalidad
 
 * entry[ObservacionPostNeoadjudancia]
   
@@ -169,9 +169,9 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para el d
   * resource only ObservacionPorcentajeNecrosisR2BO
 
 
-* entry[ObservacionTejidoNoTumoralAdjacente]
+* entry[ObservacionTejidoNoTumoralAdyacente]
   
-  * resource only ObservacionTejidoNoTumoralAdjacente
+  * resource only ObservacionTejidoNoTumoralAdyacente
 
 * entry[TamanoTumorR2BO]
   

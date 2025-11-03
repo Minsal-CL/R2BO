@@ -1,5 +1,5 @@
 Instance:       r2bo-observacion-multifocalidad-ex
-InstanceOf:     ObservacionMultifocalidad
+InstanceOf:     ObservacionFocalidad
 Usage:          #example
 Title:          "Observacion de Ejemplo: Multifocalidad"
 Description:    "Ejemplo de una observación de multifocalidad de un reporte de biopsia"

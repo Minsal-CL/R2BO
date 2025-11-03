@@ -1,7 +1,7 @@
 ValueSet:       InvasionLinfaticaVascularVS
 Id:             r2bo-invasion-linfatica-VS
-Title:          "Set de Valores para Invasión Linfática y Vascular"
-Description:    "Posibles resultados de invasión linfática y vascular en un reporte de biopsia"
+Title:          "Set de Valores para Invasión Linfática, Vascular, Tumoral"
+Description:    "Posibles resultados de invasión linfática, vascular y tumoral en un reporte de biopsia"
 
 * insert SetCopyrightSCT
 * ^experimental = true

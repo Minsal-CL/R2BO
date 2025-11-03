@@ -1,6 +1,6 @@
-Profile:        ObservacionCentricidad
+Profile:        ObservacionMulticentricidad
 Parent:         ResultadosReporteBiopsia
-Id:             r2bo-observacion-centricidad
+Id:             r2bo-observacion-multicentricidad
 Title:          "Perfil de Observación Multicentricidad"
 Description:    "Registro de la multicentricidad de un tumor en reporte de biopsia"
 

@@ -1,5 +1,5 @@
 Instance:       r2bo-observacion-centricidad-ex
-InstanceOf:     ObservacionCentricidad
+InstanceOf:     ObservacionMulticentricidad
 Usage:          #example
 Title:          "Observacion de Ejemplo: Multicentricidad"
 Description:    "Ejemplo de una observación de multicentricidad de un reporte de biopsia"

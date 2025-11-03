@@ -1,8 +1,8 @@
-Profile:        ObservacionTejidoNoTumoralAdjacente
+Profile:        ObservacionFocalidad
 Parent:         ResultadosReporteBiopsia
-Id:             r2bo-observacion-tejido-no-tumor-adjacente
-Title:          "Perfil de Observacion Tejido No Tumoral Adjacente"
-Description:    "Registro de la presencia de tejido tumoral en tejido adyacente en un reporte de biopsia"
+Id:             r2bo-observacion-focalidad
+Title:          "Perfil de Observación Focalidad"
+Description:    "Registro de la focalidad de un tumor en reporte de biopsia"
 
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
@@ -16,5 +16,12 @@ Description:    "Registro de la presencia de tejido tumoral en tejido adyacente 
 
 * ^abstract = false
 
-* code = $loinc#81168-7
-* value[x] only string
+* obeys r2bo-observacion-1
+* code = $snomed#444696007
+* value[x] 1..1
+* value[x] only boolean
+* component 0..1 MS 
+  * code = $snomed#410680006
+  * value[x] 1..1 
+  * value[x] only integer
+
