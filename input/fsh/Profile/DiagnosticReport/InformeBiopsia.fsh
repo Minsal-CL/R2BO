@@ -106,6 +106,8 @@ Description:    "Reporte de anatomía patológica"
 * conclusionCode[Morfologico] from MorfologicoSnomedCIEOVS (extensible)
 * conclusionCode[Morfologico]
   * id = "Morfologico"
+  * extension contains ExtensionGradoDiferenciacion named gradoDiferenciacion 0..1 MS
+    * ^short = "Grado de diferenciación tumoral"
 
 * conclusionCode[Topografico] ^short = "Conclusión Topográfica"
 * conclusionCode[Topografico] only CodeableConceptSCTCIEO

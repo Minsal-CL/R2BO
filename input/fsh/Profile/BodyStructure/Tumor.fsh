@@ -1,7 +1,7 @@
 Profile:        R2BOTumor
 Parent:         BodyStructure   
 Id:             r2bo-tumor
-Title:          "Peril de la Morfología y Topología del Tumor"
+Title:          "Perfil de la Morfología y Topología del Tumor"
 Description:    "Este recurso permite entregar la morfología y la topología resultante de un informe de anatomía patológica"
 
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"

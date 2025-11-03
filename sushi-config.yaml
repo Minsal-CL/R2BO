@@ -87,6 +87,12 @@ pages:
       - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
         valueCode: informative
     title: Recurso Guía de Implementación del Repositorio Interoperable de Anatomías Patológicas
+  Downloads.md:
+    extension:
+      - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
+        valueCode: informative
+    title: Descargas
+
      
 #   implementation.xml:
 #   examples.xml:
@@ -134,6 +140,7 @@ menu:
   Artefactos: artifacts.html
   Consideraciones de Diseño: design-consideration.html
   Historial de Cambios: changes.html
+  Descargas: Downloads.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │

@@ -1,0 +1,8 @@
+* [Guía Completa](full-ig.zip)
+* [Package](package.tgz)
+* [Definiciones en JSON](definitions.json.zip)
+* [Ejemplos en JSON](examples.json.zip)
+* [Definiciones en XML](definitions.xml.zip)
+* [Ejemplos en XML](examples.xml.zip)
+* [Definiciones en TTL](definitions.ttl.zip)
+* [Ejemplos en TTL](examples.ttl.zip)

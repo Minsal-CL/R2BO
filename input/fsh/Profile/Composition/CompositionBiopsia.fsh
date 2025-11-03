@@ -99,9 +99,9 @@ Description:    "Este recurso representa la cabecera del documento de un reporte
   * entry ^slicing.rules = #open
   * entry ^slicing.description = "Diferenciación entre las conclusiones"
   * entry ^slicing.ordered = false
-  
+  * entry 1..2 MS
   * entry only Reference(EstadificacionTNM  or R2BOTumor or DiagnosticoCl)
-  * entry contains TNM 1..1 MS and DescripcionTumor 1..1 MS
+  * entry contains TNM 0..1 MS and DescripcionTumor 1..1 MS
   * entry[TNM] ^short = "Resultado del TNM Patológico"
   * entry[TNM] only Reference(EstadificacionTNM)
   * entry[DescripcionTumor] ^short = "Conclusión Morfológica y Topográfica del tumor"
