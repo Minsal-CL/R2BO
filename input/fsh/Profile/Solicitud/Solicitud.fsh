@@ -46,6 +46,6 @@ Description: "Solicitud generada por el médico para la realización de un infor
 * reasonCode from SnomedCTHallazgosClinicosCIE10VS (extensible)
   * coding[SCT] from SnomedCTHallazgosClinicos (required)
   * coding[CIE10] from r2bo-cie10-vs (required)
-* specimen 1..1 MS
+* specimen 1..* MS
   * ^short = "Muestra de Biopsia"
 * specimen only Reference(MuestraR2BO)

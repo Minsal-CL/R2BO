@@ -69,7 +69,7 @@ Description:    "Este recurso representa la cabecera del documento de un reporte
 * section[muestra]
   * ^short = "Describe la muestra por la cual se realizo el informe"
   * code = $loinc#22633-2
-  * entry 1..1
+  * entry 1..*
   * entry only Reference(MuestraR2BO)
 
 * section[macroscopia]

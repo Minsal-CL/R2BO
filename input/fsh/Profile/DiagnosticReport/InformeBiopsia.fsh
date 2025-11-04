@@ -52,7 +52,7 @@ Description:    "Reporte de anatomía patológica"
   * ^short = "Anatomopatólogo que realiza el Informe"
 * performer only Reference(RolProfesionalR2BO or MINSALPrestadorProfesional or MINSALPrestadorOrganizacional)
 
-* specimen 1..1 MS
+* specimen 1..* MS
   * ^short = "Muestra de Biopsia"
 * specimen only Reference(MuestraR2BO)
 

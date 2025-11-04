@@ -112,7 +112,7 @@ pages:
 #
 parameters:
   path-tx-cache: input/txcache
-  path-expansion-params: '../../input/_resources/exp-params.json'
+  # path-expansion-params: '../../input/_resources/exp-params.json'
   pin-canonicals: pin-multiples
   # generate-uml: all  
   # path-resource:
