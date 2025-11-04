@@ -88,24 +88,23 @@ Description:    "Este recurso representa la cabecera del documento de un reporte
   * ^short = "Resultado de observaciones que fueron realizadas a la muestra"
   * code = $loinc#33746-9
   * entry 0..*
-  * entry only Reference(ObservacionInfiltracionPerineuralR2BO or ObservacionGangliosLinfaticos or ObservacionInfiltradoPeritumoralR2BO or ObservacionInvasionLinfaticaR2BO or ObservacionInvasionVascularR2BO or ObservacionMargenQuirugico or ObservacionMulticentricidad or ObservacionFocalidad or ObservacionPostNeoadjudancia or ObservacionPorcentajeNecrosisR2BO or ObservacionTejidoNoTumoralAdyacente or TamanoTumorR2BO)
+  * entry only Reference(EstadificacionTNM or ObservacionInfiltracionPerineuralR2BO or ObservacionGangliosLinfaticos or ObservacionInfiltradoPeritumoralR2BO or ObservacionInvasionLinfaticaR2BO or ObservacionInvasionVascularR2BO or ObservacionMargenQuirugico or ObservacionMulticentricidad or ObservacionFocalidad or ObservacionPostNeoadjudancia or ObservacionPorcentajeNecrosisR2BO or ObservacionTejidoNoTumoralAdyacente or TamanoTumorR2BO)
   * emptyReason 0..1 
+
 
 * section[conclusiones]
   * ^short = "Observaciones realizadas a traves de un microscopio"
   * code = $loinc#22637-3
   * entry ^slicing.discriminator.type = #profile
-  * entry ^slicing.discriminator.path = "$this"
+  * entry ^slicing.discriminator.path = "$this.resolve()"
   * entry ^slicing.rules = #open
   * entry ^slicing.description = "Diferenciación entre las conclusiones"
   * entry ^slicing.ordered = false
   * entry 1..2 MS
-  * entry only Reference(EstadificacionTNM  or R2BOTumor or DiagnosticoCl)
-  * entry contains TNM 0..1 MS and DescripcionTumor 1..1 MS
-  * entry[TNM] ^short = "Resultado del TNM Patológico"
-  * entry[TNM] only Reference(EstadificacionTNM)
+  * entry only Reference(R2BOTumor or DiagnosticoCl)
+  * entry contains DescripcionTumor 1..1 
   * entry[DescripcionTumor] ^short = "Conclusión Morfológica y Topográfica del tumor"
-  * entry[DescripcionTumor] only Reference(R2BOTumor)
+  * entry[DescripcionTumor] only Reference(R2BOTumor) 
 
 * section[Notas]
   * ^short = "Notas en texto libre"

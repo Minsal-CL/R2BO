@@ -60,6 +60,7 @@ Description:    "Documento de un informe de anatomía patológica de biopsia de 
   * entry[8] = Reference(r2bo-observacion-porcentaje-necrosis-ex)
   * entry[9] = Reference(r2bo-observacion-post-tratamiento-neoadjuvancia-ex)
   * entry[10] = Reference(r2bo-tamano-tumor-ex)
+  * entry[11] = Reference(r2bo-estadificacion-tnm-ex)
 
 * section[conclusiones]
   * code = $loinc#22637-3
@@ -67,8 +68,7 @@ Description:    "Documento de un informe de anatomía patológica de biopsia de 
   * text.status = #generated
   * text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>Conclusiones de Biopsia</div>"
   * entry[DescripcionTumor] = Reference(r2bo-tumor-ex)
-  * entry[TNM] = Reference(r2bo-estadificacion-tnm-ex)
-
+  
 * section[Notas]
   * code = $loinc#22638-1
   * code.text = "Notas del Informe de Biopsia"
