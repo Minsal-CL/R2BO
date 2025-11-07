@@ -5087,7 +5087,6 @@ v: {
   "version" : "2019-covid-expanded",
   "server" : "http://localhost/r4",
   "diagnostics" : "0 0 : start\r\n16 16: tx-op\r\n16 0: 0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cie10-vs|0.1.1-draft: Analysing\r\n16 0: 0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cie10-vs|0.1.1-draft: Parameters: disp-lang=es, default-to-latest\r\n16 0: 0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cie10-vs|0.1.1-draft: Version Rules: http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20250701/0\r\n47 31: 31ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cie10-vs|0.1.1-draft: CodeSystem found: \"http://hl7.org/fhir/sid/icd-10|2019-covid-expanded (from fhir.tx.support.r4#0.32.0)\"\r\n47 0: 31ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cie10-vs|0.1.1-draft: Validate \"[http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#D48.6 (\"\")]\"\r\n47 0: 31ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cie10-vs|0.1.1-draft: Check \"http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#D48.6\"\r\n47 0: 31ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cie10-vs|0.1.1-draft: CodeSystem found: http://hl7.org/fhir/sid/icd-10|2019-covid-expanded (from fhir.tx.support.r4#0.32.0) for http://hl7.org/fhir/sid/icd-10|2019-covid-expanded\r\n47 0: 31ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cie10-vs|0.1.1-draft: Code \"D48.6\" found in http://hl7.org/fhir/sid/icd-10|2019-covid-expanded (from fhir.tx.support.r4#0.32.0)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10148,5 +10147,39 @@ e: {
   }
 },
   "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "version" : "2019-covid-expanded",
+  "code" : "D48.6"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cie10-vs", "version": "0.1.1-draft", "langs":"es", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Breast",
+  "code" : "D48.6",
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "version" : "2019-covid-expanded",
+  "server" : "http://localhost/r4",
+  "diagnostics" : "0 0 : start\r\n0 0: tx-op\r\n0 0: 0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cie10-vs|0.1.1-draft: Analysing\r\n0 0: 0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cie10-vs|0.1.1-draft: Parameters: disp-lang=es, default-to-latest\r\n0 0: 0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cie10-vs|0.1.1-draft: CodeSystem found: \"http://hl7.org/fhir/sid/icd-10|2019-covid-expanded (from fhir.tx.support.r4#0.32.0)\"\r\n0 0: 0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cie10-vs|0.1.1-draft: Validate \"[http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#D48.6 (\"\")]\"\r\n0 0: 0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cie10-vs|0.1.1-draft: Check \"http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#D48.6\"\r\n0 0: 0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cie10-vs|0.1.1-draft: CodeSystem found: http://hl7.org/fhir/sid/icd-10|2019-covid-expanded (from fhir.tx.support.r4#0.32.0) for http://hl7.org/fhir/sid/icd-10|2019-covid-expanded\r\n0 0: 0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cie10-vs|0.1.1-draft: Code \"D48.6\" found in http://hl7.org/fhir/sid/icd-10|2019-covid-expanded (from fhir.tx.support.r4#0.32.0)\r\n",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "language": "en", "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cie10-vs", "version": "0.1.1-draft"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: [279778a0-8974-474b-b722-81631271ee23]: A usable code system with URL http://hl7.org/fhir/sid/icd-10 could not be resolved.\r\nInformation: X-Request-Id: 27e30411-4033-44b9-9f9b-316107a3bf95"
 }
 -------------------------------------------------------------------------------------

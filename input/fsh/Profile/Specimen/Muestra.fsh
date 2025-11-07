@@ -24,13 +24,6 @@ Description:    "Muestra de tejido o fluido biológico para análisis de antomí
 * type MS
   * ^short = "Tipo de material que forma el espécimen."
 * type from TipoEspecimenVS (extensible)
-// * type ^binding.extension[0].extension[0].url = "purpose"
-// * type ^binding.extension[=].extension[=].valueCode = #candidate
-// * type ^binding.extension[=].extension[+].url = "valueSet"
-// * type ^binding.extension[=].extension[=].valueCanonical = Canonical(TipoEspecimenVS)
-// * type ^binding.extension[=].extension[+].url = "documentation"
-// * type ^binding.extension[=].extension[=].valueMarkdown = "Set de Valores de los Tipos de Especimen"
-// * type ^binding.extension[=].url = "http://hl7.org/fhir/tools/StructureDefinition/additional-binding"
 * type ^binding.description = "Set de Valores para los tipos de muestras que puedan ser obtenidos"
 
 * collection 1..1 MS
@@ -52,4 +45,7 @@ Description:    "Muestra de tejido o fluido biológico para análisis de antomí
     * extension[MetodoProcedimiento] ^short = "Método de procedimiento"
   * method from ProcedimientosBiopsiaVS (extensible)
   * fastingStatus[x] from http://terminology.hl7.org/ValueSet/v2-0916|2.0.0 (extensible)
+
+* note 0..* MS
+  * ^short = "Notas sobre la muestra"
 

@@ -367,7 +367,6 @@ v: {
   "version" : "2025",
   "server" : "http://localhost/r4",
   "diagnostics" : "0 0 : start\r\n15 15: tx-op\r\n15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing\r\n15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=en, en-US, default-to-latest\r\n15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Version Rules: http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20250701/0\r\n15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate \"[http://terminology.hl7.org/CodeSystem/icd-o-3#M (\"\")]\"\r\n15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check \"http://terminology.hl7.org/CodeSystem/icd-o-3#M\"\r\n15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Using CodeSystem \"http://terminology.hl7.org/CodeSystem/icd-o-3|2025 (from fhir.tx.support.r4#0.32.0)\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -395,7 +394,6 @@ v: {
   "version" : "2025",
   "server" : "http://localhost/r4",
   "diagnostics" : "0 0 : start\r\n15 15: tx-op\r\n15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing\r\n15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=en, en-US, default-to-latest\r\n15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Version Rules: http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20250701/0\r\n15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate \"[http://terminology.hl7.org/CodeSystem/icd-o-3#T (\"\")]\"\r\n15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check \"http://terminology.hl7.org/CodeSystem/icd-o-3#T\"\r\n15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Using CodeSystem \"http://terminology.hl7.org/CodeSystem/icd-o-3|2025 (from fhir.tx.support.r4#0.32.0)\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -423,7 +421,6 @@ v: {
   "version" : "2025",
   "server" : "http://localhost/r4",
   "diagnostics" : "0 0 : start\r\n0 0: tx-op\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=es, default-to-latest\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Version Rules: http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20250701/0\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate \"[http://terminology.hl7.org/CodeSystem/icd-o-3#M (\"\")]\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check \"http://terminology.hl7.org/CodeSystem/icd-o-3#M\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Using CodeSystem \"http://terminology.hl7.org/CodeSystem/icd-o-3|2025 (from fhir.tx.support.r4#0.32.0)\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -451,7 +448,6 @@ v: {
   "version" : "2025",
   "server" : "http://localhost/r4",
   "diagnostics" : "0 0 : start\r\n0 0: tx-op\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=es, default-to-latest\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Version Rules: http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20250701/0\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate \"[http://terminology.hl7.org/CodeSystem/icd-o-3#T (\"\")]\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check \"http://terminology.hl7.org/CodeSystem/icd-o-3#T\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Using CodeSystem \"http://terminology.hl7.org/CodeSystem/icd-o-3|2025 (from fhir.tx.support.r4#0.32.0)\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7439,5 +7435,125 @@ e: {
   }
 },
   "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "code" : "M"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Morfología",
+  "code" : "M",
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "version" : "2025",
+  "server" : "http://localhost/r4",
+  "diagnostics" : "0 0 : start\r\n0 0: tx-op\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=en, en-US, default-to-latest\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate \"[http://terminology.hl7.org/CodeSystem/icd-o-3#M (\"\")]\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check \"http://terminology.hl7.org/CodeSystem/icd-o-3#M\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Using CodeSystem \"http://terminology.hl7.org/CodeSystem/icd-o-3|2025 (from fhir.tx.support.r4#0.32.0)\" (content = complete)\r\n",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "code" : "T"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Topografía",
+  "code" : "T",
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "version" : "2025",
+  "server" : "http://localhost/r4",
+  "diagnostics" : "0 0 : start\r\n0 0: tx-op\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=en, en-US, default-to-latest\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate \"[http://terminology.hl7.org/CodeSystem/icd-o-3#T (\"\")]\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check \"http://terminology.hl7.org/CodeSystem/icd-o-3#T\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Using CodeSystem \"http://terminology.hl7.org/CodeSystem/icd-o-3|2025 (from fhir.tx.support.r4#0.32.0)\" (content = complete)\r\n",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "code" : "M"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Morfología",
+  "code" : "M",
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "version" : "2025",
+  "server" : "http://localhost/r4",
+  "diagnostics" : "0 0 : start\r\n0 0: tx-op\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=es, default-to-latest\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate \"[http://terminology.hl7.org/CodeSystem/icd-o-3#M (\"\")]\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check \"http://terminology.hl7.org/CodeSystem/icd-o-3#M\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Using CodeSystem \"http://terminology.hl7.org/CodeSystem/icd-o-3|2025 (from fhir.tx.support.r4#0.32.0)\" (content = complete)\r\n",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "code" : "T"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "Topografía",
+  "code" : "T",
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "version" : "2025",
+  "server" : "http://localhost/r4",
+  "diagnostics" : "0 0 : start\r\n0 0: tx-op\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=es, default-to-latest\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate \"[http://terminology.hl7.org/CodeSystem/icd-o-3#T (\"\")]\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check \"http://terminology.hl7.org/CodeSystem/icd-o-3#T\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Using CodeSystem \"http://terminology.hl7.org/CodeSystem/icd-o-3|2025 (from fhir.tx.support.r4#0.32.0)\" (content = complete)\r\n",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "language": "en", "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cieo3-m-VS", "version": "0.1.1-draft"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: [4b90cae5-f619-4998-8246-a87d8fbb6684]: A usable code system with URL http://terminology.hl7.org/CodeSystem/icd-o-3 could not be resolved.\r\nInformation: X-Request-Id: 24668cf8-a08c-4774-ad74-9a15b6ed713c"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "language": "en", "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-cieo3-t-VS", "version": "0.1.1-draft"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: [23c5be77-8ac9-4cd1-8789-b7afcba1c760]: A usable code system with URL http://terminology.hl7.org/CodeSystem/icd-o-3 could not be resolved.\r\nInformation: X-Request-Id: a2ed747b-a8f1-417d-8880-6da32f4c15eb"
 }
 -------------------------------------------------------------------------------------

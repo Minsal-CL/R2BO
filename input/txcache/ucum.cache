@@ -608,7 +608,6 @@ v: {
   "version" : "2.2",
   "server" : "http://localhost/r4",
   "diagnostics" : "0 0 : start\r\n0 0: tx-op\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=es, default-to-latest\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Version Rules: http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20250701/0\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate \"[http://unitsofmeasure.org#mm (\"\")]\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check \"http://unitsofmeasure.org#mm\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Using CodeSystem \"http://unitsofmeasure.org|2.2\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -636,7 +635,6 @@ v: {
   "version" : "2.2",
   "server" : "http://localhost/r4",
   "diagnostics" : "0 0 : start\r\n0 0: tx-op\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=es, default-to-latest\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Version Rules: http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20250701/0\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate \"[http://unitsofmeasure.org#% (\"\")]\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check \"http://unitsofmeasure.org#%\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Using CodeSystem \"http://unitsofmeasure.org|2.2\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -664,7 +662,6 @@ v: {
   "version" : "2.2",
   "server" : "http://localhost/r4",
   "diagnostics" : "0 0 : start\r\n0 0: tx-op\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=es, default-to-latest\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Version Rules: http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20250701/0\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate \"[http://unitsofmeasure.org#cm (\"\")]\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check \"http://unitsofmeasure.org#cm\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Using CodeSystem \"http://unitsofmeasure.org|2.2\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -757,7 +754,6 @@ v: {
   "error" : "Wrong Display Name 'Centimeter' for http://unitsofmeasure.org#cm. Valid display is 'cm' (for the language(s) 'en, en-US')",
   "server" : "http://localhost/r4",
   "diagnostics" : "0 0 : start\r\n0 0: tx-op\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=en, en-US, default-to-latest, display-warning\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Version Rules: http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20250701/0\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate \"[http://unitsofmeasure.org#cm (\"Centimeter\")]\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check \"http://unitsofmeasure.org#cm\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Using CodeSystem \"http://unitsofmeasure.org|2.2\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -808,7 +804,6 @@ v: {
   "severity" : "warning",
   "error" : "Wrong Display Name 'Millimeter' for http://unitsofmeasure.org#mm. Valid display is 'mm' (for the language(s) 'en, en-US')",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -857,7 +852,6 @@ v: {
   "version" : "2.2",
   "server" : "http://localhost/r4",
   "diagnostics" : "0 0 : start\r\n15 15: tx-op\r\n15 0: 0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-medida-margen-quirurgico-VS|0.1.1-draft: Analysing\r\n15 0: 0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-medida-margen-quirurgico-VS|0.1.1-draft: Parameters: disp-lang=es, default-to-latest\r\n15 0: 0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-medida-margen-quirurgico-VS|0.1.1-draft: Version Rules: http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20250701/0\r\n15 0: 0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-medida-margen-quirurgico-VS|0.1.1-draft: CodeSystem found: \"http://unitsofmeasure.org|2.2\"\r\n15 0: 0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-medida-margen-quirurgico-VS|0.1.1-draft: Validate \"[http://unitsofmeasure.org#mm (\"\")]\"\r\n15 0: 0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-medida-margen-quirurgico-VS|0.1.1-draft: Check \"http://unitsofmeasure.org#mm\"\r\n15 0: 0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-medida-margen-quirurgico-VS|0.1.1-draft: CodeSystem found: http://unitsofmeasure.org|2.2 for http://unitsofmeasure.org\r\n15 0: 0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-medida-margen-quirurgico-VS|0.1.1-draft: Code \"mm\" found in http://unitsofmeasure.org|2.2\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -885,7 +879,6 @@ v: {
   "version" : "2.2",
   "server" : "http://localhost/r4",
   "diagnostics" : "0 0 : start\r\n0 0: tx-op\r\n0 0: 0ms http://hl7.org/fhir/us/mcode/ValueSet/mcode-tumor-size-units-vs|4.0.0: Analysing\r\n0 0: 0ms http://hl7.org/fhir/us/mcode/ValueSet/mcode-tumor-size-units-vs|4.0.0: Parameters: disp-lang=es, default-to-latest\r\n0 0: 0ms http://hl7.org/fhir/us/mcode/ValueSet/mcode-tumor-size-units-vs|4.0.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20250701/0\r\n0 0: 0ms http://hl7.org/fhir/us/mcode/ValueSet/mcode-tumor-size-units-vs|4.0.0: CodeSystem found: \"http://unitsofmeasure.org|2.2\"\r\n0 0: 0ms http://hl7.org/fhir/us/mcode/ValueSet/mcode-tumor-size-units-vs|4.0.0: Validate \"[http://unitsofmeasure.org#cm (\"\")]\"\r\n0 0: 0ms http://hl7.org/fhir/us/mcode/ValueSet/mcode-tumor-size-units-vs|4.0.0: Check \"http://unitsofmeasure.org#cm\"\r\n0 0: 0ms http://hl7.org/fhir/us/mcode/ValueSet/mcode-tumor-size-units-vs|4.0.0: CodeSystem found: http://unitsofmeasure.org|2.2 for http://unitsofmeasure.org\r\n0 0: 0ms http://hl7.org/fhir/us/mcode/ValueSet/mcode-tumor-size-units-vs|4.0.0: Code \"cm\" found in http://unitsofmeasure.org|2.2\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -952,5 +945,496 @@ e: {
   }
 },
   "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "mm"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "mm",
+  "code" : "mm",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "server" : "http://localhost/r4",
+  "diagnostics" : "0 0 : start\r\n0 0: tx-op\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=es, default-to-latest\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate \"[http://unitsofmeasure.org#mm (\"\")]\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check \"http://unitsofmeasure.org#mm\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Using CodeSystem \"http://unitsofmeasure.org|2.2\" (content = complete)\r\n",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "%"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "%",
+  "code" : "%",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "server" : "http://localhost/r4",
+  "diagnostics" : "0 0 : start\r\n15 15: tx-op\r\n15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing\r\n15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=es, default-to-latest\r\n15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate \"[http://unitsofmeasure.org#% (\"\")]\"\r\n15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check \"http://unitsofmeasure.org#%\"\r\n15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Using CodeSystem \"http://unitsofmeasure.org|2.2\" (content = complete)\r\n",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "cm"
+}, "valueSet" :null, "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "cm",
+  "code" : "cm",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "server" : "http://localhost/r4",
+  "diagnostics" : "0 0 : start\r\n16 16: tx-op\r\n16 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing\r\n16 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=es, default-to-latest\r\n16 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate \"[http://unitsofmeasure.org#cm (\"\")]\"\r\n16 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check \"http://unitsofmeasure.org#cm\"\r\n16 0: 0ms http://hl7.org/fhir/ValueSet/@all: Using CodeSystem \"http://unitsofmeasure.org|2.2\" (content = complete)\r\n",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "cm",
+  "display" : "Centimeter"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "cm",
+  "code" : "cm",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "severity" : "warning",
+  "error" : "Wrong Display Name 'Centimeter' for http://unitsofmeasure.org#cm. Valid display is 'cm' (for the language(s) 'en, en-US')",
+  "server" : "http://localhost/r4",
+  "diagnostics" : "0 0 : start\r\n16 16: tx-op\r\n16 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing\r\n16 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=en, en-US, default-to-latest, display-warning\r\n16 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate \"[http://unitsofmeasure.org#cm (\"Centimeter\")]\"\r\n16 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check \"http://unitsofmeasure.org#cm\"\r\n16 0: 0ms http://hl7.org/fhir/ValueSet/@all: Using CodeSystem \"http://unitsofmeasure.org|2.2\" (content = complete)\r\n",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "Display_Name_for__should_be_one_of__instead_of"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "http://localhost/r4"
+    }],
+    "severity" : "warning",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "Wrong Display Name 'Centimeter' for http://unitsofmeasure.org#cm. Valid display is 'cm' (for the language(s) 'en, en-US')"
+    },
+    "location" : ["Coding.display"],
+    "expression" : ["Coding.display"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "mm",
+  "display" : "Millimeter"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "mm",
+  "code" : "mm",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "severity" : "warning",
+  "error" : "Wrong Display Name 'Millimeter' for http://unitsofmeasure.org#mm. Valid display is 'mm' (for the language(s) 'en, en-US')",
+  "server" : "http://localhost/r4",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "Display_Name_for__should_be_one_of__instead_of"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "http://localhost/r4"
+    }],
+    "severity" : "warning",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "Wrong Display Name 'Millimeter' for http://unitsofmeasure.org#mm. Valid display is 'mm' (for the language(s) 'en, en-US')"
+    },
+    "location" : ["Coding.display"],
+    "expression" : ["Coding.display"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "mm"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-medida-margen-quirurgico-VS", "version": "0.1.1-draft", "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "mm",
+  "code" : "mm",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "server" : "http://localhost/r4",
+  "diagnostics" : "0 0 : start\r\n0 0: tx-op\r\n0 0: 0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-medida-margen-quirurgico-VS|0.1.1-draft: Analysing\r\n0 0: 0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-medida-margen-quirurgico-VS|0.1.1-draft: Parameters: disp-lang=es, default-to-latest\r\n0 0: 0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-medida-margen-quirurgico-VS|0.1.1-draft: CodeSystem found: \"http://unitsofmeasure.org|2.2\"\r\n0 0: 0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-medida-margen-quirurgico-VS|0.1.1-draft: Validate \"[http://unitsofmeasure.org#mm (\"\")]\"\r\n0 0: 0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-medida-margen-quirurgico-VS|0.1.1-draft: Check \"http://unitsofmeasure.org#mm\"\r\n0 0: 0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-medida-margen-quirurgico-VS|0.1.1-draft: CodeSystem found: http://unitsofmeasure.org|2.2 for http://unitsofmeasure.org\r\n0 0: 0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-medida-margen-quirurgico-VS|0.1.1-draft: Code \"mm\" found in http://unitsofmeasure.org|2.2\r\n",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "cm"
+}, "url": "http://hl7.org/fhir/us/mcode/ValueSet/mcode-tumor-size-units-vs", "version": "4.0.0", "langs":"es", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es"
+  }]
+}}####
+v: {
+  "display" : "cm",
+  "code" : "cm",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "server" : "http://localhost/r4",
+  "diagnostics" : "0 0 : start\r\n16 16: tx-op\r\n16 0: 0ms http://hl7.org/fhir/us/mcode/ValueSet/mcode-tumor-size-units-vs|4.0.0: Analysing\r\n16 0: 0ms http://hl7.org/fhir/us/mcode/ValueSet/mcode-tumor-size-units-vs|4.0.0: Parameters: disp-lang=es, default-to-latest\r\n16 0: 0ms http://hl7.org/fhir/us/mcode/ValueSet/mcode-tumor-size-units-vs|4.0.0: CodeSystem found: \"http://unitsofmeasure.org|2.2\"\r\n16 0: 0ms http://hl7.org/fhir/us/mcode/ValueSet/mcode-tumor-size-units-vs|4.0.0: Validate \"[http://unitsofmeasure.org#cm (\"\")]\"\r\n16 0: 0ms http://hl7.org/fhir/us/mcode/ValueSet/mcode-tumor-size-units-vs|4.0.0: Check \"http://unitsofmeasure.org#cm\"\r\n16 0: 0ms http://hl7.org/fhir/us/mcode/ValueSet/mcode-tumor-size-units-vs|4.0.0: CodeSystem found: http://unitsofmeasure.org|2.2 for http://unitsofmeasure.org\r\n16 0: 0ms http://hl7.org/fhir/us/mcode/ValueSet/mcode-tumor-size-units-vs|4.0.0: Code \"cm\" found in http://unitsofmeasure.org|2.2\r\n",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "mm"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "millimeter",
+  "code" : "mm",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.1",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to draft CodeSystem http://unitsofmeasure.org|2.1"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "%"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "percent",
+  "code" : "%",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.1",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to draft CodeSystem http://unitsofmeasure.org|2.1"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "cm"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "centimeter",
+  "code" : "cm",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.1",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to draft CodeSystem http://unitsofmeasure.org|2.1"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "mm"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-medida-margen-quirurgico-VS", "version": "0.1.1-draft", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "millimeter",
+  "code" : "mm",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.1",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to draft CodeSystem http://unitsofmeasure.org|2.1"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to draft ValueSet https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-medida-margen-quirurgico-VS|0.1.1-draft"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to experimental ValueSet https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-medida-margen-quirurgico-VS|0.1.1-draft"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to informative ValueSet https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-medida-margen-quirurgico-VS|0.1.1-draft"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "cm"
+}, "url": "http://hl7.org/fhir/us/mcode/ValueSet/mcode-tumor-size-units-vs", "version": "4.0.0", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "centimeter",
+  "code" : "cm",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.1",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to draft CodeSystem http://unitsofmeasure.org|2.1"
+    }
+  }]
+}
+
 }
 -------------------------------------------------------------------------------------
