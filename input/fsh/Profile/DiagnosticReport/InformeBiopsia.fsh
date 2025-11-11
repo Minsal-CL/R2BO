@@ -102,7 +102,7 @@ Description:    "Reporte de anatomía patológica"
 * conclusionCode contains Morfologico 0..1 MS and Topografico 0..1 MS
 
 * conclusionCode[Morfologico] ^short = "Conclusión Morfológica"
-* conclusionCode[Morfologico] only CodeableConceptSCTCIEO
+// * conclusionCode[Morfologico] only CodeableConceptSCTCIEO
 * conclusionCode[Morfologico] from MorfologicoSnomedCIEOVS (extensible)
 * conclusionCode[Morfologico]
   * id = "Morfologico"
@@ -110,7 +110,7 @@ Description:    "Reporte de anatomía patológica"
     * ^short = "Grado de diferenciación tumoral"
 
 * conclusionCode[Topografico] ^short = "Conclusión Topográfica"
-* conclusionCode[Topografico] only CodeableConceptSCTCIEO
+// * conclusionCode[Topografico] only CodeableConceptSCTCIEO
 * conclusionCode[Topografico] from TopograficaSnomedCIEOVS (extensible)
 * conclusionCode[Topografico]
   * id = "Topografico"

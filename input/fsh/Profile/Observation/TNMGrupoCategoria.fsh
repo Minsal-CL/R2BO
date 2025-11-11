@@ -25,9 +25,6 @@ Description:    "Perfil para originar las Categorías T, N, M"
 * code from CategoriaspTNMVS (extensible)
 * subject 1..1 MS
 * subject only Reference(MINSALPaciente)
-// * focus MS
-//   * ^short = "La condición asociada con la categoría TNM"
-// * focus only Reference(DiagnosticoCl)
 * performer MS
 * performer only Reference(RolProfesionalR2BO or MINSALPrestadorProfesional or MINSALPrestadorOrganizacional)
 * value[x] MS
@@ -36,7 +33,6 @@ Description:    "Perfil para originar las Categorías T, N, M"
 * specimen only Reference(MuestraR2BO)
 * method 0..1 MS
 * method from TNMStagingMethodVS (extensible)
-
 
 * device 0..0
 * device ^short = "No usado en este perfil"

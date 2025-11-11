@@ -47,5 +47,5 @@ Description:    "Muestra de tejido o fluido biológico para análisis de antomí
   * fastingStatus[x] from http://terminology.hl7.org/ValueSet/v2-0916|2.0.0 (extensible)
 
 * note 0..* MS
-  * ^short = "Notas sobre la muestra"
+  * ^short = "Detalle u observación adiciona a la topografía al momento de extraer la muestra."
 

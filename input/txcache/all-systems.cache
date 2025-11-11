@@ -5769,7 +5769,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -5940,7 +5939,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -6014,7 +6012,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -6087,7 +6084,6 @@ v: {
   "error" : "No valid coding was found for the value set 'http://hl7.org/fhir/us/mcode/ValueSet/mcode-tnm-stage-group-staging-type-vs|4.0.0'; The provided code 'http://loinc.org#92831-7' was not found in the value set 'http://hl7.org/fhir/us/mcode/ValueSet/mcode-tnm-stage-group-staging-type-vs|4.0.0'",
   "class" : "UNKNOWN",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -6148,7 +6144,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -6222,7 +6217,6 @@ v: {
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/32506021000036107/version/20251031",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -6295,7 +6289,6 @@ v: {
   "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-NeoAdyuvancia-VS|0.1.1-draft'; The provided code 'http://snomed.info/sct#385001000' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-NeoAdyuvancia-VS|0.1.1-draft'",
   "class" : "UNKNOWN",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -6356,7 +6349,6 @@ v: {
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/32506021000036107/version/20251031",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -6429,7 +6421,6 @@ v: {
   "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-NeoAdyuvancia-VS|0.1.1-draft'; The provided code 'http://snomed.info/sct#369762001' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-NeoAdyuvancia-VS|0.1.1-draft'",
   "class" : "UNKNOWN",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -6489,7 +6480,6 @@ v: {
   "error" : "No valid coding was found for the value set 'http://hl7.org/fhir/us/mcode/ValueSet/mcode-tnm-stage-group-staging-type-vs|4.0.0'; The provided code 'http://loinc.org#33739-4' was not found in the value set 'http://hl7.org/fhir/us/mcode/ValueSet/mcode-tnm-stage-group-staging-type-vs|4.0.0'",
   "class" : "UNKNOWN",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -6550,7 +6540,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -6623,7 +6612,6 @@ v: {
   "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-NeoAdyuvancia-VS|0.1.1-draft'; The provided code 'http://snomed.info/sct#52101004' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-NeoAdyuvancia-VS|0.1.1-draft'",
   "class" : "UNKNOWN",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -6683,7 +6671,6 @@ v: {
   "error" : "No valid coding was found for the value set 'http://hl7.org/fhir/us/mcode/ValueSet/mcode-tnm-stage-group-staging-type-vs|4.0.0'; The provided code 'http://loinc.org#33740-2' was not found in the value set 'http://hl7.org/fhir/us/mcode/ValueSet/mcode-tnm-stage-group-staging-type-vs|4.0.0'",
   "class" : "UNKNOWN",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -6744,7 +6731,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -6818,7 +6804,6 @@ v: {
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/32506021000036107/version/20251031",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -6892,7 +6877,6 @@ v: {
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/32506021000036107/version/20251031",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -6966,7 +6950,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -7039,7 +7022,6 @@ v: {
   "error" : "No valid coding was found for the value set 'http://hl7.org/fhir/us/mcode/ValueSet/mcode-tnm-stage-group-staging-type-vs|4.0.0'; The provided code 'http://loinc.org#42030-7' was not found in the value set 'http://hl7.org/fhir/us/mcode/ValueSet/mcode-tnm-stage-group-staging-type-vs|4.0.0'",
   "class" : "UNKNOWN",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -7100,7 +7082,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -7174,7 +7155,6 @@ v: {
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/32506021000036107/version/20251031",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -7248,7 +7228,6 @@ v: {
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/32506021000036107/version/20251031",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -7321,7 +7300,6 @@ v: {
   "error" : "No valid coding was found for the value set 'http://hl7.org/fhir/us/mcode/ValueSet/mcode-tnm-stage-group-staging-type-vs|4.0.0'; The provided code 'http://loinc.org#84891-1' was not found in the value set 'http://hl7.org/fhir/us/mcode/ValueSet/mcode-tnm-stage-group-staging-type-vs|4.0.0'",
   "class" : "UNKNOWN",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -7382,7 +7360,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -7455,7 +7432,6 @@ v: {
   "error" : "No valid coding was found for the value set 'http://hl7.org/fhir/us/mcode/ValueSet/mcode-tnm-stage-group-staging-type-vs|4.0.0'; The provided code 'http://loinc.org#21889-1' was not found in the value set 'http://hl7.org/fhir/us/mcode/ValueSet/mcode-tnm-stage-group-staging-type-vs|4.0.0'",
   "class" : "UNKNOWN",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -7516,7 +7492,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -7660,7 +7635,6 @@ v: {
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/32506021000036107/version/20251031",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -7733,7 +7707,6 @@ v: {
   "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.1.1-draft'; The provided code 'http://snomed.info/sct#384625004' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.1.1-draft'",
   "class" : "UNKNOWN",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -7838,7 +7811,6 @@ v: {
   "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.1.1-draft'; The provided code 'http://snomed.info/sct#371494008' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.1.1-draft'",
   "class" : "UNKNOWN",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -7943,7 +7915,6 @@ v: {
   "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.1.1-draft'; The provided code 'http://snomed.info/sct#371497001' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.1.1-draft'",
   "class" : "UNKNOWN",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -8048,7 +8019,6 @@ v: {
   "error" : "No valid coding was found for the value set 'http://hl7.org/fhir/us/mcode/ValueSet/mcode-tnm-stage-group-staging-type-vs|4.0.0'; The provided code 'http://loinc.org#102034-6' was not found in the value set 'http://hl7.org/fhir/us/mcode/ValueSet/mcode-tnm-stage-group-staging-type-vs|4.0.0'",
   "class" : "UNKNOWN",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -8108,7 +8078,6 @@ v: {
   "error" : "No valid coding was found for the value set 'http://hl7.org/fhir/us/mcode/ValueSet/mcode-tnm-stage-group-staging-type-vs|4.0.0'; The provided code 'http://loinc.org#74574-5' was not found in the value set 'http://hl7.org/fhir/us/mcode/ValueSet/mcode-tnm-stage-group-staging-type-vs|4.0.0'",
   "class" : "UNKNOWN",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -8168,7 +8137,6 @@ v: {
   "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.1.1-draft'; The provided code 'http://loinc.org#102034-6' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.1.1-draft'",
   "class" : "UNKNOWN",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -8228,7 +8196,6 @@ v: {
   "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.1.1-draft'; The provided code 'http://loinc.org#74574-5' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.1.1-draft'",
   "class" : "UNKNOWN",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -8288,7 +8255,6 @@ v: {
   "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.1.1-draft'; The provided code 'http://loinc.org#92831-7' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.1.1-draft'",
   "class" : "UNKNOWN",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -8348,7 +8314,6 @@ v: {
   "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.1.1-draft'; The provided code 'http://loinc.org#33739-4' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.1.1-draft'",
   "class" : "UNKNOWN",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -8408,7 +8373,6 @@ v: {
   "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.1.1-draft'; The provided code 'http://loinc.org#33740-2' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.1.1-draft'",
   "class" : "UNKNOWN",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -8468,7 +8432,6 @@ v: {
   "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.1.1-draft'; The provided code 'http://loinc.org#42030-7' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.1.1-draft'",
   "class" : "UNKNOWN",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -8528,7 +8491,6 @@ v: {
   "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.1.1-draft'; The provided code 'http://loinc.org#84891-1' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.1.1-draft'",
   "class" : "UNKNOWN",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -8588,7 +8550,6 @@ v: {
   "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.1.1-draft'; The provided code 'http://loinc.org#21889-1' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.1.1-draft'",
   "class" : "UNKNOWN",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -8648,7 +8609,6 @@ v: {
   "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-NeoAdyuvancia-VS|0.1.1-draft'; The provided code 'http://snomed.info/sct#1229852009' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-NeoAdyuvancia-VS|0.1.1-draft'",
   "class" : "UNKNOWN",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -8708,7 +8668,6 @@ v: {
   "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-NeoAdyuvancia-VS|0.1.1-draft'; The provided code 'http://snomed.info/sct#1229957002' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-NeoAdyuvancia-VS|0.1.1-draft'",
   "class" : "UNKNOWN",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -8768,7 +8727,6 @@ v: {
   "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-NeoAdyuvancia-VS|0.1.1-draft'; The provided code 'http://snomed.info/sct#1229916009' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-NeoAdyuvancia-VS|0.1.1-draft'",
   "class" : "UNKNOWN",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -8969,7 +8927,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -9025,5 +8982,290 @@ v: {
 e: {
   "from-server" : true,
   "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: [89740eb7-da8c-4c91-903f-1223abbf87bc]: A usable code system with URL http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl could not be resolved.\r\nInformation: X-Request-Id: 89223243-b5e4-4143-8564-b153c2f23f73"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "urn:iso:std:iso:3166",
+    "code" : "CL",
+    "display" : "Chile"
+  }]
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Chile",
+  "code" : "CL",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "2018",
+  "server" : "http://localhost:8080/r4",
+  "diagnostics" : "0 0 : start\r\n0 0: tx-op\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Analysing\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Parameters: disp-lang=en, default-to-latest\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166:-2|2021 (from fhir.tx.support.r4#0.32.0)\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"http://unstats.un.org/unsd/methods/m49/m49.htm|\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Validate \"[urn:iso:std:iso:3166#CL (\"Chile\")]\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Check \"urn:iso:std:iso:3166#CL\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Code \"CL\" found in urn:iso:std:iso:3166|2018\r\n",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "application/fhir+json"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:bcp:13"
+    }]
+  }
+}, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "application/fhir+json",
+  "code" : "application/fhir+json",
+  "system" : "urn:ietf:bcp:13",
+  "server" : "http://localhost:8080/r4",
+  "diagnostics" : "0 0 : start\r\n16 16: tx-op\r\n16 0: 0ms urn:uuid:827d0543-effa-4171-80d6-e28767313b9b: Analysing\r\n16 0: 0ms urn:uuid:827d0543-effa-4171-80d6-e28767313b9b: Parameters: disp-lang=en, default-to-latest\r\n16 0: 0ms urn:uuid:827d0543-effa-4171-80d6-e28767313b9b: CodeSystem found: \"urn:ietf:bcp:13|\"\r\n16 0: 0ms urn:uuid:827d0543-effa-4171-80d6-e28767313b9b: Validate \"[#application/fhir+json (\"\")]\" and infer system\r\n16 0: 0ms urn:uuid:827d0543-effa-4171-80d6-e28767313b9b: Check \"#application/fhir+json\"\r\n16 0: 0ms urn:uuid:827d0543-effa-4171-80d6-e28767313b9b: Inferred CodeSystem = \"urn:ietf:bcp:13\"\r\n16 0: 0ms urn:uuid:827d0543-effa-4171-80d6-e28767313b9b: CodeSystem found: urn:ietf:bcp:13| for urn:ietf:bcp:13\r\n16 0: 0ms urn:uuid:827d0543-effa-4171-80d6-e28767313b9b: Code \"application/fhir+json\" found in urn:ietf:bcp:13|\r\n",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "application/fhir+json"
+}, "url": "http://hl7.org/fhir/ValueSet/mimetypes", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "application/fhir+json",
+  "code" : "application/fhir+json",
+  "system" : "urn:ietf:bcp:13",
+  "server" : "http://localhost:8080/r4",
+  "diagnostics" : "0 0 : start\r\n0 0: tx-op\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Analysing\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Parameters: disp-lang=en, default-to-latest\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: CodeSystem found: \"urn:ietf:bcp:13|\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Validate \"[#application/fhir+json (\"\")]\" and infer system\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Check \"#application/fhir+json\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Inferred CodeSystem = \"urn:ietf:bcp:13\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: CodeSystem found: urn:ietf:bcp:13| for urn:ietf:bcp:13\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Code \"application/fhir+json\" found in urn:ietf:bcp:13|\r\n",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "application/fhir+xml"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:bcp:13"
+    }]
+  }
+}, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "application/fhir+xml",
+  "code" : "application/fhir+xml",
+  "system" : "urn:ietf:bcp:13",
+  "server" : "http://localhost:8080/r4",
+  "diagnostics" : "0 0 : start\r\n0 0: tx-op\r\n0 0: 0ms urn:uuid:0d1fbf87-e75d-4f73-8528-2b259263f0c2: Analysing\r\n0 0: 0ms urn:uuid:0d1fbf87-e75d-4f73-8528-2b259263f0c2: Parameters: disp-lang=en, default-to-latest\r\n0 0: 0ms urn:uuid:0d1fbf87-e75d-4f73-8528-2b259263f0c2: CodeSystem found: \"urn:ietf:bcp:13|\"\r\n0 0: 0ms urn:uuid:0d1fbf87-e75d-4f73-8528-2b259263f0c2: Validate \"[#application/fhir+xml (\"\")]\" and infer system\r\n0 0: 0ms urn:uuid:0d1fbf87-e75d-4f73-8528-2b259263f0c2: Check \"#application/fhir+xml\"\r\n0 0: 0ms urn:uuid:0d1fbf87-e75d-4f73-8528-2b259263f0c2: Inferred CodeSystem = \"urn:ietf:bcp:13\"\r\n0 0: 0ms urn:uuid:0d1fbf87-e75d-4f73-8528-2b259263f0c2: CodeSystem found: urn:ietf:bcp:13| for urn:ietf:bcp:13\r\n0 0: 0ms urn:uuid:0d1fbf87-e75d-4f73-8528-2b259263f0c2: Code \"application/fhir+xml\" found in urn:ietf:bcp:13|\r\n",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "application/fhir+xml"
+}, "url": "http://hl7.org/fhir/ValueSet/mimetypes", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "application/fhir+xml",
+  "code" : "application/fhir+xml",
+  "system" : "urn:ietf:bcp:13",
+  "server" : "http://localhost:8080/r4",
+  "diagnostics" : "0 0 : start\r\n0 0: tx-op\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Analysing\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Parameters: disp-lang=en, default-to-latest\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: CodeSystem found: \"urn:ietf:bcp:13|\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Validate \"[#application/fhir+xml (\"\")]\" and infer system\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Check \"#application/fhir+xml\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Inferred CodeSystem = \"urn:ietf:bcp:13\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: CodeSystem found: urn:ietf:bcp:13| for urn:ietf:bcp:13\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Code \"application/fhir+xml\" found in urn:ietf:bcp:13|\r\n",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "en"
+}, "url": "http://hl7.org/fhir/ValueSet/languages", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "English",
+  "code" : "en",
+  "system" : "urn:ietf:bcp:47",
+  "server" : "http://localhost:8080/r4",
+  "diagnostics" : "0 0 : start\r\n47 47: tx-op\r\n47 0: 0ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Analysing\r\n47 0: 0ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Parameters: disp-lang=en, default-to-latest\r\n47 0: 0ms http://hl7.org/fhir/ValueSet/languages|4.0.1: CodeSystem found: \"urn:ietf:bcp:47|\"\r\n47 0: 0ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Validate \"[#en (\"\")]\" and infer system\r\n47 0: 0ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Check \"#en\"\r\n47 0: 0ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Inferred CodeSystem = \"urn:ietf:bcp:47\"\r\n47 0: 0ms http://hl7.org/fhir/ValueSet/languages|4.0.1: CodeSystem found: urn:ietf:bcp:47| for urn:ietf:bcp:47\r\n47 0: 0ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Code \"en\" found in urn:ietf:bcp:47|\r\n",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "82711006"
+  },
+  {
+    "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+    "code" : "8500/3"
+  }],
+  "text" : "Carcinoma ductal infiltrante"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS", "version": "0.1.1-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "Error from http://localhost:8080/r4: The filter \"constraint = <108369006,^446608001\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologico-VS was not understood in the context of http://snomed.info/sct (1)",
+  "class" : "SERVER_ERROR",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "severity" : "error",
+    "code" : "exception",
+    "details" : {
+      "text" : "Error from http://localhost:8080/r4: The filter \"constraint = <108369006,^446608001\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologico-VS was not understood in the context of http://snomed.info/sct (1)"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "76752008"
+  },
+  {
+    "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+    "code" : "C50.9"
+  }],
+  "text" : "Mama"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS", "version": "0.1.1-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "Error from http://localhost:8080/r4: The filter \"constraint = ^446608001,<91723000\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-VS was not understood in the context of http://snomed.info/sct (1)",
+  "class" : "SERVER_ERROR",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "severity" : "error",
+    "code" : "exception",
+    "details" : {
+      "text" : "Error from http://localhost:8080/r4: The filter \"constraint = ^446608001,<91723000\" from the value set https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-VS was not understood in the context of http://snomed.info/sct (1)"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "urn:iso:std:iso:3166",
+    "code" : "CL",
+    "display" : "Chile"
+  }]
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:8080",
+  "class" : "SERVER_ERROR",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "severity" : "error",
+    "code" : "exception",
+    "details" : {
+      "text" : "java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:8080"
+    }
+  }]
+}
+
 }
 -------------------------------------------------------------------------------------

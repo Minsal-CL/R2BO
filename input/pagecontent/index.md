@@ -1,45 +1,65 @@
-# Repositorio de resultados de biopsias oncológicas Ministerio de Salud
+# Repositorio de Reportes de Biopsias Oncológicas del Ministerio de Salud
 
-### Antecedentes
-El cáncer se encuentra entre las principales causas de muerte a nivel mundial. De acuerdo a las estadísticas publicadas por la organización panamericana de la salud (OPS), en 2022 se registraron más de 4,2 millones de casos nuevos y 1,4 millones de muertes por cáncer. Las proyecciones de la OMS indican que los nuevos casos de cáncer aumentarán en un 77% para el 2050. De acuerdo a la estadística publicada por el instituto nacional del cáncer de Estados Unidos el 39,5% de los hombres y mujeres serán diagnosticados con cáncer en algún punto de sus vidas. En Chile el cáncer se ha convertido en una de las principales causas de muerte. En 2022 se registraron aproximadamente 59,876 casos nuevos con 31,440 fallecimientos por esta enfermedad lo que representa un aumento con respecto a años anteriores.
+### Introducción
+El diagnóstico anatomopatológico cumple un rol central en la atención de salud, especialmente, en la confirmación de enfermedades oncológicas. Los informes de biopsias constituyen evidencia crítica para la toma de decisiones clínicas, la continuidad de cuidados y la vigilancia sanitaria. Sin embargo, su disponibilidad y trazabilidad en el sistema público de salud presenta desafíos, dada la heterogeneidad de los sistemas locales y la ausencia de mecanismos estructurados de interoperabilidad.
+Con el objetivo de avanzar hacia una salud digital interoperable, centrada en el paciente y basada en datos confiables, el Ministerio de Salud de Chile ha desarrollado esta guía de implementación para el **Repositorio de Reportes de Biopsias Oncológicas (R2BO)**. Esta guía forma parte de los esfuerzos de fortalecimiento de la arquitectura de interoperabilidad nacional y se enmarca en la **Estrategia Nacional de Salud Digital 2020–2030**.
 
-La red de anatomía patológica, contempla a los establecimientos de atención primaria de salud (APS) y los establecimientos hospitalarios como parte fundamental del pronóstico y diagnóstico de patologías oncológicas. La referencia técnica de anatomía patológica desde la división de gestión de la red asistencial (DIGERA) de la subsecretaría de redes asistenciales en coordinación con el departamento de salud digital, departamento de tecnologías de información y comunicaciones, la agencia nacional de prevención y control del cáncer (ANCAN), el departamento de estadísticas e información de salud abre paréntesis (DEIS) entre otras, han trabajado en la publicación de diversas normativas que alcanzan a los establecimientos involucrados en el proceso asistencial.
-
-El R2BO (Repositorio de Resultados de Biopsias Oncológicas) es una iniciativa orientada a aumentar la interoperabilidad creando un repositorio de las biopsias oncológicas que almacene el conjunto de elementos de información estructurada oncológica proveniente desde los sistemas de información de anatomía patológica conocidos como Pathology Information Systems (PaIS). El objetivo principal del R2BO es dar un paso hacia adelante en la captura de datos de calidad para notificación, seguimiento tratamiento e investigación de todos los pacientes con cáncer.
 
 ### Alcance
 
-Esta guia de implementación especifica los datos en un estudio de anatomía patológica en el contexto Chileno, como un modelo FHIR. Define:
-* La estructura y contenido de un reporte de anatomía patológica FHIR.
-* Diferentes opciones para publicar y buscar estos reportes.
-* Descubrimiento de los mecanismos disponibles para acceder a la información de los reportes.
+La creación del R2BO responde a múltiples hitos de política pública sanitaria, entre los que destacan:
 
-Esta especificación es para ser utilizada en una variedad de modelos de despliegue, que incluyen: el intercambio de datos entre los sistemas de anatomía patológica y sus organizaciones locales o regionales, y el intercambio de información entre organizaciones locales/regionales con el nivel central ministerial. En todos estos casos, es importante que sea compatible con el ecosistema existente.
+* La **Ley Nacional del Cáncer N.º 21.258**, que establece la notificación obligatoria de los casos confirmados de cáncer a partir del diagnóstico anatomopatológico.
+* El **Plan Nacional de Cáncer 2022-2027**, que establece el fortalecimiento de la vigilancia epidemiológica y la gestión de casos oncológicos mediante integración y desarrollo de los registros oncológicos.
+* La **Ley N.º 21.668 de Interoperabilidad de la Ficha Clínica Electrónica**, que mandata a los establecimientos públicos y privados a implementar soluciones de intercambio de información clínica conforme a estándares interoperables definidos por la Autoridad Sanitaria.
+* La **Resolución exenta N° 173**, del 31 de enero de 2024, Déjase constancia, en cumplimiento de lo mandatado en la Ley Nacional de Cáncer y su reglamento, del desarrollo e implementación de la plataforma de soporte del registro Nacional de Cáncer. 
 
-Actualmente no existe una estategia definida de intercambio de información, por lo que se avanzará hacia:
-* **Intercambio basado en documentos**, el documento es representado como un Bundle de Documento FHIR.
-* **Acceso a documentos basados en API REST**, como una {{Composition}} y un {{DiagnosticReport}}, para cada documento incluyendo instancias de los recursos referidos.
+A partir de este marco, se reconoce la necesidad de consolidar datos clínicos de alta relevancia en el marco del **Sistema Nacional de Registros de Cáncer**, el cual incluye: 
 
-La especificación recibe esta denominación para que pueda ser utilizada en todos estos escenarios de despliegue.
+* El Sistema Integral de Gestión Oncológica **(SIGO)**,
+* El Registro Nacional de Cáncer Infantil **(RENCI)**,
+* Los Registros Poblacionales de Cáncer **(RPC)**
+* Los Registros Hospitalarios de Cáncer **(RHC)**
+* Egresos hospitalarios y estadísticas vitales del Departamento de Estadísticas e Información en Salud **(DEIS)**
+,
+En este contexto, la información generada por los Servicios de Anatomía Patológica adquiere una dimensión clave. Los informes de biopsias, al ser clave en la confirmación diagnóstica, requieren una estructura que permita su integración, trazabilidad y reutilización con fines clínicos, regulatorios y sanitarios. La ausencia de interoperabilidad estructurada ha limitado su aprovechamiento en la continuidad del cuidado, la auditoría clínica, y la generación de conocimiento. 
 
-### Propósito
+### Descripción
 
-El objetivo de esta Guía de implementación es definir una norma chilena para el informe de estudios de anatomía patológica con el fin de facilitar la armonización entre los sistemas de información en el punto de servicio y sentar las bases para el formato nacional de intercambio de informes de apoyo clínico.
+Este proyecto habilita un repositorio interoperable nacional que centraliza los informes de biopsias histológicas validadas, con diagnóstico oncológico permitiendo su uso tanto por clínicos como por plataformas institucionales. El modelo de intercambio se basa en el estándar **HL7® FHIR®**, y utiliza terminologías clínicas internacionales como **SNOMED CT**, **CIE-O**, **CIE-10** y **LOINC** para asegurar interoperabilidad semántica.
+El diseño del proceso y de los modelos de datos se construyó utilizando una **metodología orientada a procesos, centrada en el paciente y basada en evidencia**, integrando perspectivas clínicas, normativas y técnicas.
+El desarrollo fue impulsado por un equipo multidisciplinario del Ministerio de Salud, con participación de:
+Gabinete Ministerial
+* La Unidad de Interoperabilidad del Departamento de Tecnologías de la Información y Comunicaciones (TIC),
+Subsecretaría de Salud Pública
+* División de Planificación Sanitaria Departamento de Estadísticas e Información en Salud (DEIS),
+* División de Prevención y Control de Enfermedades:  Agencia Nacional de Prevención y Control del Cáncer (ANACAN),
+* División de Planificación Sanitaria Oficina de Vigilancia Epidemiológica de Cáncer del Departamento de Epidemiología
+Subsecretaria de Redes Asistenciales
+* Departamento de Salud Digital,
+* División de Gestión de la Red Asistencial - Departamento de GES y Redes Complejas (Unidad de Oncología),
+* División de Gestión de la red Asistencial – Departamento de gestión ambulatoria y Apoyo Diagnóstico (Anatomía Patológica)
+Cabe destacar que contó con la Asesoría de la Sociedad Chilena de Anatomía Patológica y la colaboración de médicos patólogos y tecnólogos médicos pertenecientes a establecimientos de salud de los Servicios de Salud.  
 
-### Convenciones
+### Objetivos del Proyecto
+#### General
+Implementar un repositorio interoperable que permita la consolidación y consulta de los informes de biopsias oncológicas histológicas generados en todos los laboratorios de anatomía patológica del país, garantizando su disponibilidad para el diagnóstico clínico, el seguimiento de pacientes, la toma de decisiones y el monitoreo epidemiológico.
+#### Específicos
+* Operacionalizar la notificación obligatoria de cáncer, mandatada por la Ley N.º 21.258, a partir del informe de biopsia validado.
+* Promover el uso de estándares de interoperabilidad, como HL7 FHIR, SNOMED CT, CIE –O y CIE –10 y LOINC, para el intercambio y representación de datos clínicos.
+* Habilitar a MINSAL desarrollar procesos de auditoría clínica, control de calidad y análisis institucional mediante datos estandarizados.
+* Habilitar a MINSAL para consolidar información crítica que pueda ser utilizada para investigación, planificación sanitaria y vigilancia epidemiológica.
 
-Esta guía de implementación utiliza terminología específica para señalar las declaraciones que son relevantes a la hora de evaluar la conformidad de una solución con la guía:
-
-**DEBERÁ (SHALL)** indica los requisitos que deben cumplirse para ser conforme con la especificación.
-
-**DEBERÍA (SHOULD)** indica comportamientos que se recomiendan encarecidamente (y que podrían dar lugar a problemas de interoperabilidad o a un comportamiento subóptimo si no se cumplen), pero que, para esta versión de la especificación, no afectan a la determinación de la conformidad con la especificación.
-
-**PODRÁ (MAY)** describe comportamientos opcionales que los implementadores son libres de considerar, pero sobre cuya adopción no hay ninguna recomendación a favor o en contra.
 
 
-### Dependencias
+### Objetivos de la Guía de Implementación
+#### General
+Proveer las directrices que garanticen la tributación de los informes definidos al repositorio de reportes de biopsias oncológicas (R2BO), conforme a los estándares nacionales definidos por el Ministerio de Salud.
 
-***TBD***
+#### Específicos
+* Describir los flujos de información y a los actores involucrados en el envío de informes al Repositorio de Reportes de Biopsias Oncológicas
+* Documentar los perfiles FHIR y extensiones nacionales utilizadas en el modelo de interoperabilidad.
+* Proporcionar ejemplos de casos de uso clínicos y sanitarios que demuestran la aplicación del modelo.
 
 ### Autores y contribuidores 
 

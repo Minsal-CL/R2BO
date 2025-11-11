@@ -1203,7 +1203,6 @@ v: {
   "system" : "http://unitsofmeasure.org",
   "version" : "2.1",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -1245,7 +1244,6 @@ v: {
   "system" : "http://unitsofmeasure.org",
   "version" : "2.1",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -1287,7 +1285,6 @@ v: {
   "system" : "http://unitsofmeasure.org",
   "version" : "2.1",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -1329,7 +1326,6 @@ v: {
   "system" : "http://unitsofmeasure.org",
   "version" : "2.1",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -1416,7 +1412,6 @@ v: {
   "system" : "http://unitsofmeasure.org",
   "version" : "2.1",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -1433,6 +1428,109 @@ v: {
       }],
       "text" : "Reference to draft CodeSystem http://unitsofmeasure.org|2.1"
     }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "cm",
+  "display" : "Centimeter"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "cm",
+  "code" : "cm",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "severity" : "warning",
+  "error" : "Wrong Display Name 'Centimeter' for http://unitsofmeasure.org#cm. Valid display is 'cm' (for the language(s) 'en, en-US')",
+  "server" : "http://localhost:8080/r4",
+  "diagnostics" : "0 0 : start\r\n0 0: tx-op\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=en, en-US, default-to-latest, display-warning\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate \"[http://unitsofmeasure.org#cm (\"Centimeter\")]\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check \"http://unitsofmeasure.org#cm\"\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Using CodeSystem \"http://unitsofmeasure.org|2.2\" (content = complete)\r\n",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "Display_Name_for__should_be_one_of__instead_of"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "http://localhost:8080/r4"
+    }],
+    "severity" : "warning",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "Wrong Display Name 'Centimeter' for http://unitsofmeasure.org#cm. Valid display is 'cm' (for the language(s) 'en, en-US')"
+    },
+    "location" : ["Coding.display"],
+    "expression" : ["Coding.display"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "mm",
+  "display" : "Millimeter"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "mm",
+  "code" : "mm",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "severity" : "warning",
+  "error" : "Wrong Display Name 'Millimeter' for http://unitsofmeasure.org#mm. Valid display is 'mm' (for the language(s) 'en, en-US')",
+  "server" : "http://localhost:8080/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "Display_Name_for__should_be_one_of__instead_of"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "http://localhost:8080/r4"
+    }],
+    "severity" : "warning",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "Wrong Display Name 'Millimeter' for http://unitsofmeasure.org#mm. Valid display is 'mm' (for the language(s) 'en, en-US')"
+    },
+    "location" : ["Coding.display"],
+    "expression" : ["Coding.display"]
   }]
 }
 

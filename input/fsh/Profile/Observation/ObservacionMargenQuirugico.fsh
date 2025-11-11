@@ -18,9 +18,6 @@ Description:    "Observaciones del margen quirúrgico en reporte de biopsia"
 
 * code = $snomed#396631001
 * value[x] 0..0 
-// * value[x] only CodeableConcept
-// * value[x] from InvasionLinfaticaVascularVS (required)
-// * value[x] ^binding.description = "Posibles resultados de invasión linfática en un reporte de biopsia"
 * component ^slicing.discriminator.type = #value
 * component ^slicing.discriminator.path = "code"
 * component ^slicing.rules = #closed

@@ -22,3 +22,6 @@ Description:    "Rol que cumple un profesional en un establecimiento de salud. E
 * code from ProfesionalesAutorizadosR2BO (extensible)
 * specialty MS
 * specialty from EspecialistasAutorizadosR2BO (extensible)
+* location 0..1 MS
+* location only Reference(R2BOServicioSolicitante)
+* location ^short = "Servicio por el cual proviene el Rol Profesional"

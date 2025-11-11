@@ -35,21 +35,21 @@ Description:    "Ejecución de un informe de anatomía patológica de biopsia de
 * conclusionCode[Topografico] = DeLaMama
 
 Instance: carcinomaductalinfiltrante
-InstanceOf: CodeableConceptSCTCIEO
+InstanceOf: CodeableConcept
 Usage: #inline 
 
 * id = "Morfologico"
-* coding[SCT] = $snomed#82711006
-* coding[CIEO] = $ICD-O-3#8500/3
+* coding[0] = $snomed#82711006
+* coding[+] = $ICD-O-3#8500/3
 * text = "Carcinoma ductal infiltrante"
 
 Instance: DeLaMama
-InstanceOf: CodeableConceptSCTCIEO
+InstanceOf: CodeableConcept
 Usage: #inline 
 
 * id = "Topografico"
-* coding[SCT] = $snomed#76752008
-* coding[CIEO] = $ICD-O-3#C50.9
+* coding[0] = $snomed#76752008
+* coding[+] = $ICD-O-3#C50.9
 * text = "Mama"
 
 Instance: ext-ex-composition

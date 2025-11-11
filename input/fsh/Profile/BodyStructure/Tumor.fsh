@@ -21,12 +21,12 @@ Description:    "Este recurso permite entregar la morfología y la topología re
 
 * morphology 1..1 MS
   * ^short = "Tipo de estructura"
-* morphology only CodeableConceptSCTCIEO
+// * morphology only CodeableConceptSCTCIEO
 * morphology from MorfologicoSnomedCIEOVS (extensible)
 
 * location 1..1 MS
   * ^short = "Sitio del cuerpo"
-* location only CodeableConceptSCTCIEO
+// * location only CodeableConceptSCTCIEO
 * location from TopograficaSnomedCIEOVS (extensible)	
 
 * description 0..1 MS

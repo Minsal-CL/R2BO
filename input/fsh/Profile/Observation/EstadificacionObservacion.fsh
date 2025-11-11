@@ -22,9 +22,6 @@ Description:    "Perfil grupo de estadificación TNM"
 * code = $snomed#399588009
 * subject 1..1 MS
 * subject only Reference(MINSALPaciente)
-// * focus MS
-//   * ^short = "La condición asociada con la categoría TNM"
-// * focus only Reference(DiagnosticoCl)
 * performer MS
 * performer only Reference(RolProfesionalR2BO or MINSALPrestadorProfesional or MINSALPrestadorOrganizacional)
 * value[x] MS

@@ -19,8 +19,8 @@ Description:    "Solicitud de biopsia de tejido mamario"
 * locationCode  = http://terminology.hl7.org/CodeSystem/v3-RoleCode#HLAB "hospital laboratory"
 
 Instance:       ReasonCodeSospechaDiagnostica
-InstanceOf:     CodeableConceptSCTCIE10
+InstanceOf:     CodeableConcept
 Usage: #inline
 
-* coding[SCT] = $snomed#269497004 
-* coding[CIE10] = $ICD-10|2019-covid-expanded#D48.6
+* coding[0] = $snomed#269497004 
+* coding[+] = $ICD-10|2019-covid-expanded#D48.6
