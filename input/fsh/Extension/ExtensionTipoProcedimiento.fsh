@@ -1,4 +1,4 @@
-Extension:      TipoProcedimientoBiopsia
+Extension:      ExtensionTipoProcedimientoBiopsia
 Id:             r2bo-extension-tipo-procedimientos-biopsias
 Title:          "Extensión Tipo de Procedimiento de Biopsia"
 Description:    "Extensión que define los tipos de procedimientos al momento de extraer muestras de tejido"
