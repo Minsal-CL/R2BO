@@ -27,13 +27,23 @@ Description: "Modelo lógico para el conjunto de datos mínimo de un informe pat
 
 * nroDeBiopsia 1..1 SU Identifier "Corresponde a una identificación única del informe de biopsia del establecimiento que analiza la muestra."
 * paciente 1..1 SU Reference(PacienteR2BOLogico) "Corresponde al paciente al cual se le realiza la biopsia."
-* solicitud 1..1 SU Reference(SolicitudR2BOLogico) "Corresponde a la solicitud de biopsia del paciente, la cual contiene los datos clínicos y antecedentes relevantes para el análisis de la muestra."
-* establecimientoDeOrigen 1..1 SU Reference(Organization) "Corresponde al establecimiento de origen de la toma de la muestra."
-* servicioClinicoDeOrigen 1..1 SU Reference(Organization) "Servicio clinico en el cual se encuentra el paciente, o al cual se le debe informar del resultado de esta biopsia."
+* solicitud 1..1 SU BackboneElement "Corresponde a la solicitud de biopsia del paciente, la cual contiene los datos clínicos y antecedentes relevantes para el análisis de la muestra."
+  * nroDeMuestra 1..1 SU Identifier "Cantidad de muestras analizadas."
+  * muestraOrgano 1..1 SU CodeableConcept "Se refiere al fragmento o tejido extraído del cuerpo del paciente que será analizado en el laboratorio de anatomía patológica. Este término abarca cualquier porción de tejido o células obtenidas mediante un procedimiento clínico (como una biopsia o citología) y es la base del diagnóstico histopatológico."
+  * tipoProcedimiento 1..1 SU CodeableConcept "Se refiere al método específico empleado para obtener la muestra de tejido o células que será analizada en el laboratorio. Este campo describe el procedimiento realizado, lo cual permite al equipo médico entender el método de extracción y su contexto clínico, ambos importantes para interpretar correctamente los resultados."
+  * hipotesisDiagnostica 1..1 SU CodeableConcept "Diagnóstico inicial planteado por el médico tratante basado en los signos, síntomas y antecedentes del paciente, que orienta las pruebas diagnósticas necesarias para confirmar o descartar la enfermedad sospechada. Esta hipótesis permite planificar el abordaje clínico mientras se espera el diagnóstico definitivo."
+  * medicoSolicitante 1..1 SU Reference(Practitioner) "Nombre del médico que genera la solicitud de biopsia."
+  * rutMedicoSolicitante 1..1 SU string "corresponde al número identificador único del profesional médico solicitante." 
+  * servicioClinicoDeOrigen 1..1 SU Reference(Location) "Servicio clinico en el cual se encuentra el paciente, o al cual se le debe informar del resultado de esta biopsia."
+  * establecimientoDeOrigen 1..1 SU Reference(Organization) "Corresponde al establecimiento de origen de la toma de la muestra."
+  * medicoIntervencionista 1..1 SU Reference(Practitioner) "Nombre del médico que toma la muestra para la biopsia."
+  * rutMedicoIntervencionista 1..1 SU string "Corresponde al número identificador único del profesional médico intervencionista."
+  * fechaDeTomaDeMuestra 1..1 SU dateTime "Corresponde al día en que se extrajo el tejido o las células del paciente para ser analizadas en el laboratorio."
+  * fechaDeRecepcionDeMuestra 1..1 SU dateTime "Corresponde a la fecha de recepción de la muestra en el lugar de análisis."
+  * tipoDeBiopsia 1..1 SU CodeableConcept "se define como la categorización del procedimiento empleado para la obtención del tejido, con base en su técnica, extensión y objetivo clínico"
 * establecimientoQueInforma 1..1 SU Reference(Organization) "Corresponde al establecimiento que informa el análisis de la muestra."
 * patologoQueInforma 1..1 SU Reference(Practitioner) "Corresponde al patólogo que informa el análisis de la muestra."
-* fechaDeTomaDeMuestra 1..1 SU dateTime "Corresponde al día en que se extrajo el tejido o las células del paciente para ser analizadas en el laboratorio."
-* fechaDeRecepcionDeMuestra 1..1 SU dateTime "Corresponde a la fecha de recepción de la muestra en el lugar de análisis."
+* rutPatologoQueInforma 1..1 SU string "Corresponde al número identificador único del profesional médico patólogo que informa el análisis de la muestra."
 * fechaDeInforme 1..1 SU dateTime "Corresponde a la fecha en que se emite el informe con el resultado de la muestra analizada."
 
 /// Descripción Macroscópica y microscópica
@@ -41,7 +51,6 @@ Description: "Modelo lógico para el conjunto de datos mínimo de un informe pat
 * descripcionMicroscopica 0..1 SU string "se refiere al análisis detallado de las células y tejidos de la muestra bajo el microscopio, después de haber sido procesada y teñida en el laboratorio de anatomía patológica. Este examen permite identificar cambios en la estructura celular y la arquitectura del tejido que puedan indicar enfermedades o condiciones anormales."
 
 /// Tipo de biopsia
-* tipoDeBiopsia 1..1 SU CodeableConcept "se define como la categorización del procedimiento empleado para la obtención del tejido, con base en su técnica, extensión y objetivo clínico"
 * lateralidad 1..1 SU CodeableConcept "se refiere a la identificación del lado del cuerpo donde se tomó la muestra. Este término es relevante especialmente en órganos o estructuras pares, como mamas, riñones, pulmones, ovarios, o extremidades, para garantizar precisión en el diagnóstico y tratamiento."
 * detalleTopografia 1..1 SU CodeableConcept "se refiere a la descripción exacta de la localización del tumor dentro de la muestra de tejido extraída durante el procedimiento quirúrgico. Esta variable es fundamental en el informe de patología, ya que proporciona detalles sobre la relación del tumor con las estructuras adyacentes y su posición dentro del tejido extirpado."
 * invasionVascularLinfatica 1..1 SU boolean "se refiere a la presencia de células tumorales dentro de los vasos linfáticos. Es un hallazgo importante en la anatomía patológica, especialmente en el diagnóstico y pronóstico de tumores malignos, ya que indica la capacidad del tumor de diseminarse a través del sistema linfático hacia ganglios linfáticos u otros órganos distantes"
@@ -72,19 +81,3 @@ Description: "Modelo lógico para el conjunto de datos mínimo de un informe pat
   * categoriaTumorPrimario 0..1 SU CodeableConcept "Categoría del tumor primario"
   * categoriaNodosPrimario 0..1 SU CodeableConcept "Categoría de los ganglios linfáticos regionales"
   * categoriaMetastasisPrimario 0..1 SU CodeableConcept "Categoría de metástasis a distancia"
-
-
-Logical: SolicitudR2BOLogico
-Id: ModeloLogicoSolicitudR2BO
-Title: "Modelo Lógico de Solicitud del R2BO"
-Description: "Modelo lógico para el conjunto de datos mínimo de una solicitud del R2BO"
-Characteristics: #can-be-target  
-
-* nroDeMuestra 1..1 SU Identifier "Cantidad de muestras analizadas."
-* muestraOrgano 1..1 SU CodeableConcept "Se refiere al fragmento o tejido extraído del cuerpo del paciente que será analizado en el laboratorio de anatomía patológica. Este término abarca cualquier porción de tejido o células obtenidas mediante un procedimiento clínico (como una biopsia o citología) y es la base del diagnóstico histopatológico."
-* tipoProcedimiento 1..1 SU CodeableConcept "Se refiere al método específico empleado para obtener la muestra de tejido o células que será analizada en el laboratorio. Este campo describe el procedimiento realizado, lo cual permite al equipo médico entender el método de extracción y su contexto clínico, ambos importantes para interpretar correctamente los resultados."
-* hipotesisDiagnostica 1..1 SU CodeableConcept "Diagnóstico inicial planteado por el médico tratante basado en los signos, síntomas y antecedentes del paciente, que orienta las pruebas diagnósticas necesarias para confirmar o descartar la enfermedad sospechada. Esta hipótesis permite planificar el abordaje clínico mientras se espera el diagnóstico definitivo."
-* medicoSolicitante 1..1 SU Reference(Practitioner) "Nombre del médico que genera la solicitud de biopsia."
-* rutMedicoSolicitante 1..1 SU string "corresponde al número identificador único del profesional médico solicitante."
-* medicoIntervencionista 1..1 SU Reference(Practitioner) "Nombre del médico que toma la muestra para la biopsia."
-* rutMedicoIntervencionista 1..1 SU string "Corresponde al número identificador único del profesional médico intervencionista."

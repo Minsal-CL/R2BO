@@ -35,6 +35,7 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
     Solicitud 1..1 and 
     Paciente 1..1 and
     RolProfesional 2..* and
+    ServicioSolicitante 0..* and
     Profesional 2..* and
     Organizacion 1..* and
     Muestra 1..1 and
@@ -73,6 +74,7 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
       * ^short = "Uri del recurso \"ServiceRequest\" + Identifier de la solicitud"
       * ^example.label = "General" 
       * ^example.valueUri = "ServiceRequest?identifier=12314"
+
 * entry[Paciente]
   * resource 1..1 MS
   * resource only MINSALPaciente
@@ -86,6 +88,7 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
       * ^short = "En caso de no existir el recurso paciente por RUT, lo crea"
       * ^example.label = "General" 
       * ^example.valueString = "Patient?identifier=1-9"
+
 * entry[RolProfesional]
   * resource 1..1 MS
   * resource only RolProfesionalR2BO
@@ -99,6 +102,20 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
       * ^short = "En caso de no existir el recurso rol profesional por RUT más el identificador de la organización, lo crea"
       * ^example.label = "General" 
       * ^example.valueString = "PractitionerRole?practitioner.identifier=1-9&organization.identifier=1312"
+
+* entry[ServicioSolicitante]
+  * resource 1..1 MS
+  * resource only R2BOServicioSolicitante
+  * request 1..1
+    * method 1..1
+    * method = #POST
+    * url 1..1
+    * url
+      * ^short = "Uri del recurso \"Location\""
+    * ifNoneExist 1..1
+      * ^short = "En caso de no existir el recurso location, lo crea"
+      * ^example.label = "General" 
+      * ^example.valueString = "Location?name=Pediatria"
 
 * entry[Profesional]
   * resource 1..1 MS
@@ -124,7 +141,7 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
     * url
       * ^short = "Uri del recurso \"Organization\""
     * ifNoneExist 1..1
-      * ^short = "En caso de no existir el recurso organización por RUT, lo crea"
+      * ^short = "En caso de no existir el recurso organización por código DEIS, lo crea"
       * ^example.label = "General" 
       * ^example.valueString = "Organization?identifier=1-9"
 

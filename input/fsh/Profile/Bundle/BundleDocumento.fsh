@@ -39,6 +39,7 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para el d
     Paciente 1..1 and
     RolProfesional 2..* and
     Profesional 2..* and
+    ServicioSolicitante 0..* and
     Organizacion 1..* and
     Muestra 1..1 and
     Tumor 1..1 and
@@ -76,7 +77,10 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para el d
 * entry[RolProfesional]
   
   * resource only RolProfesionalR2BO
+
+* entry[ServicioSolicitante]
   
+  * resource only R2BOServicioSolicitante
 
 * entry[Profesional]
   

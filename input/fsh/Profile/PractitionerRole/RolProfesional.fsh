@@ -2,7 +2,7 @@ Profile:        RolProfesionalR2BO
 Parent:         CoreRolClinicoCl
 Id:             r2bo-rol-profesional-minsal
 Title:          "Perfil de Rol Profesional"
-Description:    "Rol que cumple un profesional en un establecimiento de salud. Este puede ser un profesional solicitante o un anatomopatólogo que realiza un informe."
+Description:    "Rol que cumple un profesional en un establecimiento de salud. Este puede ser un profesional solicitante, el medico intervencionista o un anatomopatólogo que realiza un informe."
 
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
@@ -24,4 +24,4 @@ Description:    "Rol que cumple un profesional en un establecimiento de salud. E
 * specialty from EspecialistasAutorizadosR2BO (extensible)
 * location 0..1 MS
 * location only Reference(R2BOServicioSolicitante)
-* location ^short = "Servicio por el cual proviene el Rol Profesional"
+* location ^short = "Servicio por el cual proviene el Rol Profesional, es usado principalmente para los profesionales solicitantes."

@@ -25,6 +25,6 @@ Usage:      #inline
 * valueCodeableConcept = http://snomed.info/sct#7771000 
 
 Instance:   MetodoIncisional
-InstanceOf: TipoProcedimientoBiopsia
+InstanceOf: ExtensionTipoProcedimientoBiopsia
 Usage:      #inline
 * valueCodeableConcept = http://snomed.info/sct#8889005

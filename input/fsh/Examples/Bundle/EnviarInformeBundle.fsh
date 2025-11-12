@@ -36,6 +36,14 @@ Description:    "Ejemplo de Bundle que contiene los recursos necesarios para sol
     * url = "PractitionerRole"
     * ifNoneExist = "PractitionerRole?practitioner.identifier=19283789-2&organization.identifier=121109"
 
+* entry[ServicioSolicitante][0]
+  * fullUrl = Canonical(r2bo-localizacion-MedicinaGeneral)
+  * resource = r2bo-localizacion-MedicinaGeneral
+  * request
+    * method = #POST
+    * url = "Location"
+    * ifNoneExist = "Location?name=Medicina General"
+
 * entry[Profesional][0]
   * fullUrl = Canonical(profesional-hospital-collector)
   * resource = profesional-hospital-collector

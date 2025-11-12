@@ -41,7 +41,7 @@ Description:    "Muestra de tejido o fluido biológico para análisis de antomí
   * bodySite from EstructuraAnatomicaVS (extensible)
   * method 1..1 MS
     * ^short = "Método de colección de la muestra"
-    * extension contains TipoProcedimientoBiopsia named MetodoProcedimiento 1..1 MS
+    * extension contains ExtensionTipoProcedimientoBiopsia named MetodoProcedimiento 1..1 MS
     * extension[MetodoProcedimiento] ^short = "Método de procedimiento"
   * method from ProcedimientosBiopsiaVS (extensible)
   * fastingStatus[x] from http://terminology.hl7.org/ValueSet/v2-0916|2.0.0 (extensible)
