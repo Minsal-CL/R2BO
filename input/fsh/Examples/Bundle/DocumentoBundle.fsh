@@ -4,7 +4,9 @@ Usage:          #example
 Title:          "Ejemplo del Documento un Informe de Anatomía Patológica"
 Description:    "Ejemplo de Bundle que contiene los recursos de un documento de informe de anatomía patológica de una biopsia de un tejido mamario."
 
-* identifier.value = "r2bo-2020-0001"
+* identifier
+  * system = "https://sigo.minsal.cl/" 
+  * value = "r2bo-2020-0001"
 * type = #document
 * timestamp = "2021-08-01T10:00:00-04:00"
 

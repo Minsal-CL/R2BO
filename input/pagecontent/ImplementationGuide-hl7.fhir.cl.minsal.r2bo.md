@@ -27,6 +27,10 @@
 
 {% include ip-statements.xhtml %}
 
+### Parametros de Expansión
+
+{% include expansion-params.xhtml %}
+
 ### Parametros de Configuración
 
 - code: copyrightyear <br/>value: 2025+

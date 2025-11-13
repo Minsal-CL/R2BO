@@ -62,31 +62,37 @@ pages:
     title: Inicio
     contributors.md:
       title: Contribuidores
-  changes.md:
-    extension:
-      - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
-        valueCode: informative
-    title: Historial de Cambios
-  SistemasTerminologicos.md:
-    extension:
-      - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
-        valueCode: informative
-    title: Uso de Sistemas Terminológicos
-  InteraccionesConServidor.md:
-    extension:
-      - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
-        valueCode: informative
-    title: Interacciones con el Repositorio Interoperable de Anatomías Patológicas
+
   design-consideration.md:
     extension:
       - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
         valueCode: informative
     title: Consideraciones de Diseño
+
+  SistemasTerminologicos.md:
+    extension:
+      - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
+        valueCode: informative
+    title: Uso de Sistemas Terminológicos
+
+  InteraccionesConServidor.md:
+    extension:
+      - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
+        valueCode: informative
+    title: Interacciones con el Repositorio Interoperable de Anatomías Patológicas
+  
   ImplementationGuide-hl7.fhir.cl.minsal.r2bo.md:
     extension:
       - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
         valueCode: informative
-    title: Recurso Guía de Implementación del Repositorio Interoperable de Anatomías Patológicas
+    title: Recurso Guía de Implementación del Repositorio Interoperable de Anatomías 
+    
+  changes.md:
+    extension:
+      - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
+        valueCode: informative
+    title: Historial de Cambios
+
   Downloads.md:
     extension:
       - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
@@ -134,13 +140,21 @@ parameters:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Inicio: index.html
-  Especificaciones Tecnicas:
-    Interaciones Repositorio: InteraccionesConServidor.html
-    Servicios Terminológicos: SistemasTerminologicos.html
-  Artefactos: artifacts.html
   Consideraciones de Diseño: design-consideration.html
+  Especificaciones Tecnicas:
+    Servicios Terminológicos: SistemasTerminologicos.html
+    Interaciones Repositorio: InteraccionesConServidor.html
   Historial de Cambios: changes.html
   Descargas: Downloads.html
+  Artefactos: 
+    Capability Statements: artifacts.html#behavior-capability-statements
+    Modelos Lógicos: artifacts.html#structures-logical-models
+    Perfiles: artifacts.html#structures-resource-profiles
+    Extensiones: artifacts.html#structures-extension-definitions
+    Value Sets: artifacts.html#terminology-value-sets
+    Code Systems: artifacts.html#terminology-code-systems
+    Ejemplos: artifacts.html#example-example-instances
+    
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
