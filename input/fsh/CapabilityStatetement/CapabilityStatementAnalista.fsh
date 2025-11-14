@@ -22,7 +22,7 @@ Usage: #definition
 * format[+] = #application/fhir+xml
 
 
-* implementationGuide[0] = Canonical(hl7.fhir.cl.clcore)
+* implementationGuide[0] = Canonical(hl7.fhir.cl.clcore|1.9.4)
 * implementationGuide[1] = Canonical(hl7.fhir.cl.minsal.nid)
 * implementationGuide[2] = Canonical(hl7.fhir.us.mcode)
 
