@@ -6,9 +6,9 @@ Dada la necesidad de codificar en distintas terminologías, el Ministerio de Sal
 
 Que mediante la operación [$expand](http://hl7.org/fhir/R4/valueset-operation-expand.html) permitirá la búsqueda de términos con un código SNOMED-CT, mientras que la operación [$translate](http://hl7.org/fhir/R4/conceptmap-operation-translate.html) permite convertir códigos a CIE-10 o CIE-O 3. Para facilitar aún más la búsqueda de estos términos en el servidor, se crearon los siguientes sets de valores:
 
-* [Snomed CT para Hallazgos Clínicos](ValueSet-r2bo-snomed-hallazgos-clinicos-VS.html)
-* [Snomed CT para Topografía](ValueSet-r2bo-topografica-VS.html)
-* [Snomed CT para Anomalías Morfológicas](ValueSet-r2bo-morfologico-VS.html)
+* [Snomed CT para Hallazgos Clínicos](ValueSet-r2bo-snomed-hallazgos-clinicos-cie10-VS.html)
+* [Snomed CT para Topografía](ValueSet-r2bo-topografica-cieo-VS.html)
+* [Snomed CT para Anomalías Morfológicas](ValueSet-r2bo-morfologicosct-cieo-VS.html)
 
 ### Instrucciones de Operación Expand:
 

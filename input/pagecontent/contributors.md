@@ -10,3 +10,4 @@ Esta guia es el resultado de un esfuerzo múltidisciplinario que involucra a dif
 | Contribuidor          |  Cristhian Pavéz | Ministerio de Salud de Chile, Departamento de Salud Digital |
 | Contribuidor          |  Pablo Almendras | Ministerio de Salud de Chile, Departamento de Salud Digital |
 | Contribuidor             |  María Loreto Rodriguez | Ministerio de Salud de Chile, Departamento de tecnología de la Información |
+| Contribuidor             |  Daily Piedras | Ministerio de Salud de Chile, División de Planificación Sanitaria Departamento de Estadísticas e Información en Salu |

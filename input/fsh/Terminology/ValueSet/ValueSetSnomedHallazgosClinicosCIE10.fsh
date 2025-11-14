@@ -6,5 +6,5 @@ Description:    "Este ValueSet contiene los códigos de Snomed CT que representa
 * insert SetCopyrightSCT
 * ^experimental = true
 
-* include codes from valueset SnomedCTHallazgosClinicos
-* include codes from valueset CIE10VS
+* include codes from system $snomed where concept descendent-of #"404684003"
+* include codes from system $ICD-10

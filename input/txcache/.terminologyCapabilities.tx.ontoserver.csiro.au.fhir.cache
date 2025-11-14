@@ -4,16 +4,15 @@
     "profile" : ["http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities"]
   },
   "text" : {
-    "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>CSIRO Terminology Server (Ontoserver ®)</h1><table><tr><td>Purpose</td><td>Description of terminology service capabilities</td></tr><tr><td>Publisher</td><td>Australian e-Health Research Centre, CSIRO</td></tr><tr><td>Version</td><td>6.23.0.1762956716640</td></tr><tr><td>Date</td><td>2025-11-13</td></tr></table><p>Ontoserver supports a large portion of the FHIR Terminology Services specification. In particular, it has native support for SNOMED CT, LOINC, and code systems defined via the FHIR CodeSystem resource. This extends to supporting use of all defined and default filters in a FHIR ValueSet, as well as the implicitly defined ValueSets for SNOMED CT and LOINC.</p><p>More details are available in the <a href=\"https://ontoserver.csiro.au/docs/6.23.0/api-fhir.html\">Ontoserver documentation</a></p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>CSIRO Terminology Server (Ontoserver ®)</h1><table><tr><td>Publisher</td><td>Australian e-Health Research Centre, CSIRO</td></tr><tr><td>Version</td><td>6.23.2.1763125687945</td></tr><tr><td>Date</td><td>2025-11-14</td></tr></table><p>Ontoserver supports a large portion of the FHIR Terminology Services specification. In particular, it has native support for SNOMED CT, LOINC, and code systems defined via the FHIR CodeSystem resource. This extends to supporting use of all defined and default filters in a FHIR ValueSet, as well as the implicitly defined ValueSets for SNOMED CT and LOINC.</p><p>More details are available in the <a href=\"https://ontoserver.csiro.au/docs/6.23.2/api-fhir.html\">Ontoserver documentation</a></p></div>"
   },
   "url" : "https://tx.ontoserver.csiro.au/fhir/metadata?mode=terminology",
-  "version" : "6.23.0.1762956716640",
-  "name" : "OntoserverTerminologyCapabilities",
-  "title" : "Ontoserver® Terminology Capabilities Statement",
+  "version" : "6.23.2.1763125687945",
+  "name" : "FHIR_Conformance_statement_for_Ontoserver",
+  "title" : "FHIR Conformance statement for OntoserverÂ®",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-11-13T00:11:56+10:00",
+  "date" : "2025-11-14T23:08:07+10:00",
   "publisher" : "Australian e-Health Research Centre, CSIRO",
   "contact" : [{
     "telecom" : [{
@@ -21,11 +20,10 @@
       "value" : "ontoserver-support@csiro.au"
     }]
   }],
-  "purpose" : "Description of terminology service capabilities",
   "kind" : "capability",
   "software" : {
     "name" : "Ontoserver®",
-    "version" : "6.23.0"
+    "version" : "6.23.2"
   },
   "lockedDate" : false,
   "codeSystem" : [{
@@ -317,18 +315,18 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/adverse-event-causality-assess",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0287",
     "version" : [{
-      "code" : "4.0.1",
+      "code" : "2.9",
       "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0287",
+    "uri" : "http://terminology.hl7.org/CodeSystem/adverse-event-causality-assess",
     "version" : [{
-      "code" : "2.9",
+      "code" : "4.0.1",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -353,7 +351,7 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/need",
+    "uri" : "http://terminology.hl7.org/CodeSystem/medicationknowledge-package-type",
     "version" : [{
       "code" : "4.0.1",
       "isDefault" : true,
@@ -362,7 +360,7 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/medicationknowledge-package-type",
+    "uri" : "http://terminology.hl7.org/CodeSystem/need",
     "version" : [{
       "code" : "4.0.1",
       "isDefault" : true,
@@ -418,13 +416,13 @@
   {
     "uri" : "http://terminology.hl7.org/CodeSystem/v2-0074",
     "version" : [{
-      "code" : "2.5.0",
-      "isDefault" : false,
+      "code" : "2.9",
+      "isDefault" : true,
       "compositional" : false
     },
     {
-      "code" : "2.9",
-      "isDefault" : true,
+      "code" : "2.5.0",
+      "isDefault" : false,
       "compositional" : false
     }],
     "subsumption" : true
@@ -475,18 +473,18 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://hl7.org/fhir/history-status",
+    "uri" : "http://unitsofmeasure.org",
     "version" : [{
-      "code" : "4.0.1",
+      "code" : "2.1",
       "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
   },
   {
-    "uri" : "http://unitsofmeasure.org",
+    "uri" : "http://hl7.org/fhir/history-status",
     "version" : [{
-      "code" : "2.1",
+      "code" : "4.0.1",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -691,18 +689,18 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://hl7.org/fhir/list-mode",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0065",
     "version" : [{
-      "code" : "4.0.1",
+      "code" : "2.9",
       "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0065",
+    "uri" : "http://hl7.org/fhir/list-mode",
     "version" : [{
-      "code" : "2.9",
+      "code" : "4.0.1",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -754,18 +752,18 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/name-assembly-order",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0092",
     "version" : [{
-      "code" : "4.0.1",
+      "code" : "2.9",
       "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0092",
+    "uri" : "http://terminology.hl7.org/CodeSystem/name-assembly-order",
     "version" : [{
-      "code" : "2.9",
+      "code" : "4.0.1",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -912,23 +910,23 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://hl7.org/fhir/restful-capability-mode",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0085",
     "version" : [{
-      "code" : "4.0.1",
+      "code" : "2.9",
       "isDefault" : true,
+      "compositional" : false
+    },
+    {
+      "code" : "2.5.0",
+      "isDefault" : false,
       "compositional" : false
     }],
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0085",
+    "uri" : "http://hl7.org/fhir/restful-capability-mode",
     "version" : [{
-      "code" : "2.5.0",
-      "isDefault" : false,
-      "compositional" : false
-    },
-    {
-      "code" : "2.9",
+      "code" : "4.0.1",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -1287,6 +1285,15 @@
     "subsumption" : true
   },
   {
+    "uri" : "http://terminology.hl7.org/CodeSystem/common-tags",
+    "version" : [{
+      "code" : "4.0.1",
+      "isDefault" : true,
+      "compositional" : false
+    }],
+    "subsumption" : true
+  },
+  {
     "uri" : "http://terminology.hl7.org/CodeSystem/question-max-occurs",
     "version" : [{
       "code" : "4.0.1",
@@ -1297,24 +1304,6 @@
   },
   {
     "uri" : "http://terminology.hl7.org/CodeSystem/measure-scoring",
-    "version" : [{
-      "code" : "4.0.1",
-      "isDefault" : true,
-      "compositional" : false
-    }],
-    "subsumption" : true
-  },
-  {
-    "uri" : "http://terminology.hl7.org/CodeSystem/common-tags",
-    "version" : [{
-      "code" : "4.0.1",
-      "isDefault" : true,
-      "compositional" : false
-    }],
-    "subsumption" : true
-  },
-  {
-    "uri" : "http://hl7.org/fhir/spdx-license",
     "version" : [{
       "code" : "4.0.1",
       "isDefault" : true,
@@ -1335,6 +1324,15 @@
     "uri" : "http://terminology.hl7.org/CodeSystem/v2-0216",
     "version" : [{
       "code" : "2.9",
+      "isDefault" : true,
+      "compositional" : false
+    }],
+    "subsumption" : true
+  },
+  {
+    "uri" : "http://hl7.org/fhir/spdx-license",
+    "version" : [{
+      "code" : "4.0.1",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -1386,18 +1384,18 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/supplyrequest-reason",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0211",
     "version" : [{
-      "code" : "4.0.1",
+      "code" : "2.9",
       "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0211",
+    "uri" : "http://terminology.hl7.org/CodeSystem/supplyrequest-reason",
     "version" : [{
-      "code" : "2.9",
+      "code" : "4.0.1",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -1512,6 +1510,15 @@
     "subsumption" : true
   },
   {
+    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0205",
+    "version" : [{
+      "code" : "2.9",
+      "isDefault" : true,
+      "compositional" : false
+    }],
+    "subsumption" : true
+  },
+  {
     "uri" : "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
     "version" : [{
       "code" : "2018-08-12",
@@ -1529,15 +1536,6 @@
     },
     {
       "code" : "4.3.0",
-      "isDefault" : true,
-      "compositional" : false
-    }],
-    "subsumption" : true
-  },
-  {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0205",
-    "version" : [{
-      "code" : "2.9",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -1992,18 +1990,18 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://hl7.org/fhir/link-type",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0460",
     "version" : [{
-      "code" : "4.0.1",
+      "code" : "2.9",
       "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0460",
+    "uri" : "http://hl7.org/fhir/link-type",
     "version" : [{
-      "code" : "2.9",
+      "code" : "4.0.1",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -2127,14 +2125,33 @@
     "subsumption" : true
   },
   {
+    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0220",
+    "version" : [{
+      "code" : "2.9",
+      "isDefault" : true,
+      "compositional" : false
+    }],
+    "subsumption" : true
+  },
+  {
     "uri" : "http://loinc.org",
     "version" : [{
-      "code" : "2.67",
+      "code" : "2.77",
       "isDefault" : false,
       "compositional" : false
     },
     {
-      "code" : "2.77",
+      "code" : "2.78",
+      "isDefault" : false,
+      "compositional" : false
+    },
+    {
+      "code" : "2.81",
+      "isDefault" : true,
+      "compositional" : false
+    },
+    {
+      "code" : "2.67",
       "isDefault" : false,
       "compositional" : false
     },
@@ -2159,11 +2176,6 @@
       "compositional" : false
     },
     {
-      "code" : "2.78",
-      "isDefault" : false,
-      "compositional" : false
-    },
-    {
       "code" : "2.79",
       "isDefault" : false,
       "compositional" : false
@@ -2171,20 +2183,6 @@
     {
       "code" : "2.80",
       "isDefault" : false,
-      "compositional" : false
-    },
-    {
-      "code" : "2.81",
-      "isDefault" : true,
-      "compositional" : false
-    }],
-    "subsumption" : true
-  },
-  {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0220",
-    "version" : [{
-      "code" : "2.9",
-      "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
@@ -2222,15 +2220,6 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://hl7.org/fhir/event-status",
-    "version" : [{
-      "code" : "4.0.1",
-      "isDefault" : true,
-      "compositional" : false
-    }],
-    "subsumption" : true
-  },
-  {
     "uri" : "http://terminology.hl7.org/CodeSystem/v2-0224",
     "version" : [{
       "code" : "2.9",
@@ -2243,6 +2232,15 @@
     "uri" : "http://terminology.hl7.org/CodeSystem/v2-0466",
     "version" : [{
       "code" : "2.9",
+      "isDefault" : true,
+      "compositional" : false
+    }],
+    "subsumption" : true
+  },
+  {
+    "uri" : "http://hl7.org/fhir/event-status",
+    "version" : [{
+      "code" : "4.0.1",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -2312,18 +2310,18 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v3-TableCellVerticalAlign",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0492",
     "version" : [{
-      "code" : "2018-08-12",
+      "code" : "2.9",
       "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0492",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v3-TableCellVerticalAlign",
     "version" : [{
-      "code" : "2.9",
+      "code" : "2018-08-12",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -2735,18 +2733,18 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/measure-type",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0004",
     "version" : [{
-      "code" : "4.0.1",
+      "code" : "2.9",
       "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0004",
+    "uri" : "http://terminology.hl7.org/CodeSystem/measure-type",
     "version" : [{
-      "code" : "2.9",
+      "code" : "4.0.1",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -2794,18 +2792,18 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://hl7.org/fhir/composition-attestation-mode",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0270",
     "version" : [{
-      "code" : "4.0.1",
+      "code" : "2.9",
       "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0270",
+    "uri" : "http://hl7.org/fhir/composition-attestation-mode",
     "version" : [{
-      "code" : "2.9",
+      "code" : "4.0.1",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -2830,18 +2828,18 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0273",
     "version" : [{
-      "code" : "4.0.1",
+      "code" : "2.9",
       "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0273",
+    "uri" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
     "version" : [{
-      "code" : "2.9",
+      "code" : "4.0.1",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -2920,18 +2918,18 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v3-hl7ITSVersionCode",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0277",
     "version" : [{
-      "code" : "2018-08-12",
+      "code" : "2.9",
       "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0277",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v3-hl7ITSVersionCode",
     "version" : [{
-      "code" : "2.9",
+      "code" : "2018-08-12",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -3189,15 +3187,6 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://hl7.org/fhir/action-condition-kind",
-    "version" : [{
-      "code" : "4.0.1",
-      "isDefault" : true,
-      "compositional" : false
-    }],
-    "subsumption" : true
-  },
-  {
     "uri" : "https://healthterminologies.gov.au/fhir/CodeSystem/hisproviderclassification-1",
     "version" : [{
       "code" : "1.0.0",
@@ -3206,6 +3195,15 @@
     },
     {
       "code" : "1.0.1",
+      "isDefault" : true,
+      "compositional" : false
+    }],
+    "subsumption" : true
+  },
+  {
+    "uri" : "http://hl7.org/fhir/action-condition-kind",
+    "version" : [{
+      "code" : "4.0.1",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -3239,15 +3237,6 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v3-EntityCode",
-    "version" : [{
-      "code" : "2018-08-12",
-      "isDefault" : true,
-      "compositional" : false
-    }],
-    "subsumption" : true
-  },
-  {
     "uri" : "http://terminology.hl7.org/CodeSystem/ex-relatedclaimrelationship",
     "version" : [{
       "code" : "4.0.1",
@@ -3260,6 +3249,15 @@
     "uri" : "http://terminology.hl7.org/CodeSystem/v2-0615",
     "version" : [{
       "code" : "2.9",
+      "isDefault" : true,
+      "compositional" : false
+    }],
+    "subsumption" : true
+  },
+  {
+    "uri" : "http://terminology.hl7.org/CodeSystem/v3-EntityCode",
+    "version" : [{
+      "code" : "2018-08-12",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -3322,13 +3320,13 @@
   {
     "uri" : "http://terminology.hl7.org/CodeSystem/data-absent-reason",
     "version" : [{
-      "code" : "4.0.1",
-      "isDefault" : false,
+      "code" : "4.3.0",
+      "isDefault" : true,
       "compositional" : false
     },
     {
-      "code" : "4.3.0",
-      "isDefault" : true,
+      "code" : "4.0.1",
+      "isDefault" : false,
       "compositional" : false
     }],
     "subsumption" : true
@@ -3542,7 +3540,7 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://hl7.org/fhir/unknown-content-code",
+    "uri" : "http://terminology.hl7.org/CodeSystem/medication-admin-status",
     "version" : [{
       "code" : "4.0.1",
       "isDefault" : true,
@@ -3551,7 +3549,7 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/medication-admin-status",
+    "uri" : "http://hl7.org/fhir/unknown-content-code",
     "version" : [{
       "code" : "4.0.1",
       "isDefault" : true,
@@ -3947,6 +3945,15 @@
     "subsumption" : true
   },
   {
+    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0882",
+    "version" : [{
+      "code" : "2.9",
+      "isDefault" : true,
+      "compositional" : false
+    }],
+    "subsumption" : true
+  },
+  {
     "uri" : "https://healthterminologies.gov.au/fhir/CodeSystem/anzsco-designation-type-1",
     "version" : [{
       "code" : "1.0.1",
@@ -3960,15 +3967,6 @@
     },
     {
       "code" : "1.0.3",
-      "isDefault" : true,
-      "compositional" : false
-    }],
-    "subsumption" : true
-  },
-  {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0882",
-    "version" : [{
-      "code" : "2.9",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -4029,18 +4027,18 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v3-TargetAwareness",
+    "uri" : "http://terminology.hl7.org/CodeSystem/fundsreserve",
     "version" : [{
-      "code" : "2018-08-12",
+      "code" : "4.0.1",
       "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/fundsreserve",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v3-TargetAwareness",
     "version" : [{
-      "code" : "4.0.1",
+      "code" : "2018-08-12",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -4137,18 +4135,18 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v3-ExposureMode",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0437",
     "version" : [{
-      "code" : "2018-08-12",
+      "code" : "2.9",
       "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0437",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v3-ExposureMode",
     "version" : [{
-      "code" : "2.9",
+      "code" : "2018-08-12",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -4282,18 +4280,18 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "uri" : "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
     "version" : [{
-      "code" : "2018-08-12",
+      "code" : "4.0.1",
       "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
     "version" : [{
-      "code" : "4.0.1",
+      "code" : "2018-08-12",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -4336,15 +4334,6 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://hl7.org/fhir/namingsystem-type",
-    "version" : [{
-      "code" : "4.0.1",
-      "isDefault" : true,
-      "compositional" : false
-    }],
-    "subsumption" : true
-  },
-  {
     "uri" : "http://terminology.hl7.org/CodeSystem/v2-0427",
     "version" : [{
       "code" : "2.9",
@@ -4357,6 +4346,15 @@
     "uri" : "http://terminology.hl7.org/CodeSystem/v2-0669",
     "version" : [{
       "code" : "2.9",
+      "isDefault" : true,
+      "compositional" : false
+    }],
+    "subsumption" : true
+  },
+  {
+    "uri" : "http://hl7.org/fhir/namingsystem-type",
+    "version" : [{
+      "code" : "4.0.1",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -4905,6 +4903,15 @@
     "subsumption" : true
   },
   {
+    "uri" : "http://terminology.hl7.org/CodeSystem/coverage-class",
+    "version" : [{
+      "code" : "4.0.1",
+      "isDefault" : true,
+      "compositional" : false
+    }],
+    "subsumption" : true
+  },
+  {
     "uri" : "https://healthterminologies.gov.au/fhir/CodeSystem/ihi-status-1",
     "version" : [{
       "code" : "1.0.1",
@@ -4918,15 +4925,6 @@
     },
     {
       "code" : "1.0.3",
-      "isDefault" : true,
-      "compositional" : false
-    }],
-    "subsumption" : true
-  },
-  {
-    "uri" : "http://terminology.hl7.org/CodeSystem/coverage-class",
-    "version" : [{
-      "code" : "4.0.1",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -5197,17 +5195,82 @@
     }],
     "uri" : "http://snomed.info/sct",
     "version" : [{
+      "code" : "http://snomed.info/sct/900000000000207008/version/20240201",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/20611000087101/version/20220331",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/11000146104/version/20210930",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/20611000087101/version/20210930",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/11000221109/version/20211130",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/900000000000207008/version/20200731",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/11000221109/version/20231130",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/900000000000207008/version/20250301",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/45991000052106/version/20241130",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/11000221109/version/20241130",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/900000000000207008/version/20250401",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/11000172109/version/20250515",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/32506021000036107/version/20250531",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
       "code" : "http://snomed.info/sct/32506021000036107/version/20230731",
       "isDefault" : false,
       "compositional" : true
     },
     {
-      "code" : "http://snomed.info/sct/32506021000036107/version/20220731",
+      "code" : "http://snomed.info/sct/32506021000036107/version/20220630",
       "isDefault" : false,
       "compositional" : true
     },
     {
-      "code" : "http://snomed.info/sct/32506021000036107/version/20220630",
+      "code" : "http://snomed.info/sct/32506021000036107/version/20220731",
       "isDefault" : false,
       "compositional" : true
     },
@@ -5232,6 +5295,11 @@
       "compositional" : true
     },
     {
+      "code" : "http://snomed.info/sct/900000000000207008/version/20240301",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
       "code" : "http://snomed.info/sct/21000210109/version/20211001",
       "isDefault" : false,
       "compositional" : true
@@ -5242,22 +5310,12 @@
       "compositional" : true
     },
     {
-      "code" : "http://snomed.info/sct/900000000000207008/version/20240201",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/20611000087101/version/20220331",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
       "code" : "http://snomed.info/sct/11000146104/version/20230331",
       "isDefault" : false,
       "compositional" : true
     },
     {
-      "code" : "http://snomed.info/sct/11000146104/version/20210930",
+      "code" : "http://snomed.info/sct/11000274103/version/20240515",
       "isDefault" : false,
       "compositional" : true
     },
@@ -5272,42 +5330,22 @@
       "compositional" : true
     },
     {
+      "code" : "http://snomed.info/sct/11000234105/version/20230215",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/32506021000036107/version/20240531",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
       "code" : "http://snomed.info/xsct/332351000009108/version/20201008",
       "isDefault" : false,
       "compositional" : true
     },
     {
       "code" : "http://snomed.info/sct/900000000000207008/version/20230731",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/20611000087101/version/20210930",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/32506021000036107/version/20240229",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/11000181102/version/20231130",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/900000000000207008/version/20240301",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/11000274103/version/20240515",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/32506021000036107/version/20240531",
       "isDefault" : false,
       "compositional" : true
     },
@@ -5333,6 +5371,16 @@
     },
     {
       "code" : "http://snomed.info/sct/900000000000207008/version/20220630",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/32506021000036107/version/20240229",
+      "isDefault" : false,
+      "compositional" : true
+    },
+    {
+      "code" : "http://snomed.info/sct/11000181102/version/20231130",
       "isDefault" : false,
       "compositional" : true
     },
@@ -5383,11 +5431,6 @@
     },
     {
       "code" : "http://snomed.info/sct/21000210109/version/20220401",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/11000234105/version/20230215",
       "isDefault" : false,
       "compositional" : true
     },
@@ -5458,11 +5501,6 @@
     },
     {
       "code" : "http://snomed.info/sct/11000221109/version/20230531",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/11000221109/version/20211130",
       "isDefault" : false,
       "compositional" : true
     },
@@ -5677,16 +5715,6 @@
       "compositional" : true
     },
     {
-      "code" : "http://snomed.info/sct/900000000000207008/version/20200731",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/11000221109/version/20231130",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
       "code" : "http://snomed.info/sct/731000124108/version/20200901",
       "isDefault" : false,
       "compositional" : true
@@ -5857,11 +5885,6 @@
       "compositional" : true
     },
     {
-      "code" : "http://snomed.info/sct/900000000000207008/version/20250301",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
       "code" : "http://snomed.info/sct/11000146104/version/20250228",
       "isDefault" : false,
       "compositional" : true
@@ -5932,11 +5955,6 @@
       "compositional" : true
     },
     {
-      "code" : "http://snomed.info/sct/45991000052106/version/20241130",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
       "code" : "http://snomed.info/sct/45991000052106/version/20240531",
       "isDefault" : false,
       "compositional" : true
@@ -5973,11 +5991,6 @@
     },
     {
       "code" : "http://snomed.info/sct/11000234105/version/20240815",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/11000221109/version/20241130",
       "isDefault" : false,
       "compositional" : true
     },
@@ -6027,11 +6040,6 @@
       "compositional" : true
     },
     {
-      "code" : "http://snomed.info/sct/900000000000207008/version/20250401",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
       "code" : "http://snomed.info/sct/554471000005108/version/20250331",
       "isDefault" : false,
       "compositional" : true
@@ -6063,16 +6071,6 @@
     },
     {
       "code" : "http://snomed.info/sct/11000220105/version/20250421",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/11000172109/version/20250515",
-      "isDefault" : false,
-      "compositional" : true
-    },
-    {
-      "code" : "http://snomed.info/sct/32506021000036107/version/20250531",
       "isDefault" : false,
       "compositional" : true
     },
@@ -6368,7 +6366,7 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://hl7.org/fhir/related-artifact-type",
+    "uri" : "http://hl7.org/fhir/gender-identity",
     "version" : [{
       "code" : "4.0.1",
       "isDefault" : true,
@@ -6377,7 +6375,7 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://hl7.org/fhir/gender-identity",
+    "uri" : "http://hl7.org/fhir/related-artifact-type",
     "version" : [{
       "code" : "4.0.1",
       "isDefault" : true,
@@ -6472,18 +6470,18 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v3-LanguageAbilityMode",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0178",
     "version" : [{
-      "code" : "2018-08-12",
+      "code" : "2.9",
       "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0178",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v3-LanguageAbilityMode",
     "version" : [{
-      "code" : "2.9",
+      "code" : "2018-08-12",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -6623,17 +6621,12 @@
   {
     "uri" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
     "version" : [{
-      "code" : "20200531",
-      "isDefault" : false,
-      "compositional" : false
-    },
-    {
       "code" : "20181231",
       "isDefault" : false,
       "compositional" : false
     },
     {
-      "code" : "20210222",
+      "code" : "20200531",
       "isDefault" : false,
       "compositional" : false
     },
@@ -6643,12 +6636,17 @@
       "compositional" : false
     },
     {
-      "code" : "20210924",
+      "code" : "20211104",
       "isDefault" : false,
       "compositional" : false
     },
     {
-      "code" : "20211104",
+      "code" : "20210222",
+      "isDefault" : false,
+      "compositional" : false
+    },
+    {
+      "code" : "20210924",
       "isDefault" : false,
       "compositional" : false
     },
@@ -6744,18 +6742,18 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v3-IdentifierScope",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0167",
     "version" : [{
-      "code" : "2018-08-12",
+      "code" : "2.9",
       "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0167",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v3-IdentifierScope",
     "version" : [{
-      "code" : "2.9",
+      "code" : "2018-08-12",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -6771,18 +6769,18 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://hl7.org/fhir/product-status",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0169",
     "version" : [{
-      "code" : "4.0.1",
+      "code" : "2.9",
       "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0169",
+    "uri" : "http://hl7.org/fhir/product-status",
     "version" : [{
-      "code" : "2.9",
+      "code" : "4.0.1",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -6888,18 +6886,18 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
+    "uri" : "http://hl7.org/fhir/contract-action-status",
     "version" : [{
-      "code" : "2018-08-12",
+      "code" : "4.0.1",
       "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
   },
   {
-    "uri" : "http://hl7.org/fhir/contract-action-status",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
     "version" : [{
-      "code" : "4.0.1",
+      "code" : "2018-08-12",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -7016,18 +7014,18 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://hl7.org/fhir/consent-state-codes",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0187",
     "version" : [{
-      "code" : "4.0.1",
+      "code" : "2.9",
       "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0187",
+    "uri" : "http://hl7.org/fhir/consent-state-codes",
     "version" : [{
-      "code" : "2.9",
+      "code" : "4.0.1",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -7432,7 +7430,7 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://hl7.org/fhir/search-xpath-usage",
+    "uri" : "http://terminology.hl7.org/CodeSystem/missingtoothreason",
     "version" : [{
       "code" : "4.0.1",
       "isDefault" : true,
@@ -7441,7 +7439,7 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/missingtoothreason",
+    "uri" : "http://hl7.org/fhir/search-xpath-usage",
     "version" : [{
       "code" : "4.0.1",
       "isDefault" : true,
@@ -7636,18 +7634,18 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://hl7.org/fhir/action-grouping-behavior",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0336",
     "version" : [{
-      "code" : "4.0.1",
+      "code" : "2.9",
       "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0336",
+    "uri" : "http://hl7.org/fhir/action-grouping-behavior",
     "version" : [{
-      "code" : "2.9",
+      "code" : "4.0.1",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -7663,7 +7661,7 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://hl7.org/fhir/map-model-mode",
+    "uri" : "http://terminology.hl7.org/CodeSystem/claim-exception",
     "version" : [{
       "code" : "4.0.1",
       "isDefault" : true,
@@ -7672,7 +7670,7 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/claim-exception",
+    "uri" : "http://hl7.org/fhir/map-model-mode",
     "version" : [{
       "code" : "4.0.1",
       "isDefault" : true,
@@ -7710,6 +7708,11 @@
   {
     "uri" : "https://healthterminologies.gov.au/fhir/CodeSystem/separation-mode-1",
     "version" : [{
+      "code" : "1.0.2",
+      "isDefault" : true,
+      "compositional" : false
+    },
+    {
       "code" : "1.0.0",
       "isDefault" : false,
       "compositional" : false
@@ -7717,11 +7720,6 @@
     {
       "code" : "1.0.1",
       "isDefault" : false,
-      "compositional" : false
-    },
-    {
-      "code" : "1.0.2",
-      "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
@@ -8286,18 +8284,18 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://hl7.org/fhir/identity-assuranceLevel",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0376",
     "version" : [{
-      "code" : "4.0.1",
+      "code" : "2.9",
       "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0376",
+    "uri" : "http://hl7.org/fhir/identity-assuranceLevel",
     "version" : [{
-      "code" : "2.9",
+      "code" : "4.0.1",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -8539,18 +8537,18 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/restful-security-service",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0392",
     "version" : [{
-      "code" : "4.0.1",
+      "code" : "2.9",
       "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0392",
+    "uri" : "http://terminology.hl7.org/CodeSystem/restful-security-service",
     "version" : [{
-      "code" : "2.9",
+      "code" : "4.0.1",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -8593,7 +8591,7 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://hl7.org/fhir/allergy-intolerance-criticality",
+    "uri" : "http://hl7.org/fhir/contract-scope",
     "version" : [{
       "code" : "4.0.1",
       "isDefault" : true,
@@ -8602,7 +8600,7 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://hl7.org/fhir/contract-scope",
+    "uri" : "http://hl7.org/fhir/allergy-intolerance-criticality",
     "version" : [{
       "code" : "4.0.1",
       "isDefault" : true,
@@ -8881,18 +8879,18 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/container-cap",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0144",
     "version" : [{
-      "code" : "4.0.1",
+      "code" : "2.9",
       "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0144",
+    "uri" : "http://terminology.hl7.org/CodeSystem/container-cap",
     "version" : [{
-      "code" : "2.9",
+      "code" : "4.0.1",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -8973,13 +8971,13 @@
   {
     "uri" : "http://terminology.hl7.org.au/CodeSystem/medicine-item-change",
     "version" : [{
-      "code" : "4.0.0",
-      "isDefault" : false,
+      "code" : "4.1.0",
+      "isDefault" : true,
       "compositional" : false
     },
     {
-      "code" : "4.1.0",
-      "isDefault" : true,
+      "code" : "4.0.0",
+      "isDefault" : false,
       "compositional" : false
     }],
     "subsumption" : true
@@ -9038,18 +9036,18 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/research-study-phase",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0734",
     "version" : [{
-      "code" : "4.0.1",
+      "code" : "2.9",
       "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0734",
+    "uri" : "http://terminology.hl7.org/CodeSystem/research-study-phase",
     "version" : [{
-      "code" : "2.9",
+      "code" : "4.0.1",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -9074,18 +9072,18 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://hl7.org/fhir/conditional-delete-status",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0739",
     "version" : [{
-      "code" : "4.0.1",
+      "code" : "2.9",
       "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0739",
+    "uri" : "http://hl7.org/fhir/conditional-delete-status",
     "version" : [{
-      "code" : "2.9",
+      "code" : "4.0.1",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -9238,6 +9236,11 @@
   {
     "uri" : "https://healthterminologies.gov.au/fhir/CodeSystem/nctis-request-urgency-values-1",
     "version" : [{
+      "code" : "1.0.3",
+      "isDefault" : true,
+      "compositional" : false
+    },
+    {
       "code" : "1.0.2",
       "isDefault" : false,
       "compositional" : false
@@ -9245,11 +9248,6 @@
     {
       "code" : "1.0.1",
       "isDefault" : false,
-      "compositional" : false
-    },
-    {
-      "code" : "1.0.3",
-      "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
@@ -9548,18 +9546,18 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v3-QueryRequestLimit",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0505",
     "version" : [{
-      "code" : "2018-08-12",
+      "code" : "2.9",
       "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0505",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v3-QueryRequestLimit",
     "version" : [{
-      "code" : "2.9",
+      "code" : "2018-08-12",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -9903,17 +9901,17 @@
   {
     "uri" : "https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1",
     "version" : [{
-      "code" : "1.0.1",
-      "isDefault" : false,
-      "compositional" : false
-    },
-    {
       "code" : "1.0.2",
       "isDefault" : false,
       "compositional" : false
     },
     {
       "code" : "1.0.3",
+      "isDefault" : false,
+      "compositional" : false
+    },
+    {
+      "code" : "1.0.1",
       "isDefault" : false,
       "compositional" : false
     },
@@ -9939,7 +9937,7 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://hl7.org/fhir/metric-operational-status",
+    "uri" : "http://terminology.hl7.org/CodeSystem/adjudication-error",
     "version" : [{
       "code" : "4.0.1",
       "isDefault" : true,
@@ -9948,7 +9946,7 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/adjudication-error",
+    "uri" : "http://hl7.org/fhir/metric-operational-status",
     "version" : [{
       "code" : "4.0.1",
       "isDefault" : true,
@@ -10164,15 +10162,6 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v3-Calendar",
-    "version" : [{
-      "code" : "2018-08-12",
-      "isDefault" : true,
-      "compositional" : false
-    }],
-    "subsumption" : true
-  },
-  {
     "uri" : "http://terminology.hl7.org/CodeSystem/v2-0559",
     "version" : [{
       "code" : "2.9",
@@ -10185,6 +10174,15 @@
     "uri" : "http://terminology.hl7.org/CodeSystem/v2-0317",
     "version" : [{
       "code" : "2.9",
+      "isDefault" : true,
+      "compositional" : false
+    }],
+    "subsumption" : true
+  },
+  {
+    "uri" : "http://terminology.hl7.org/CodeSystem/v3-Calendar",
+    "version" : [{
+      "code" : "2018-08-12",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -10209,18 +10207,18 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://hl7.org/fhir/variable-type",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0550",
     "version" : [{
-      "code" : "4.0.1",
+      "code" : "2.9",
       "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0550",
+    "uri" : "http://hl7.org/fhir/variable-type",
     "version" : [{
-      "code" : "2.9",
+      "code" : "4.0.1",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -10553,7 +10551,7 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://hl7.org/fhir/days-of-week",
+    "uri" : "http://hl7.org/fhir/practitioner-specialty",
     "version" : [{
       "code" : "4.0.1",
       "isDefault" : true,
@@ -10562,7 +10560,7 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://hl7.org/fhir/practitioner-specialty",
+    "uri" : "http://hl7.org/fhir/days-of-week",
     "version" : [{
       "code" : "4.0.1",
       "isDefault" : true,
@@ -10851,7 +10849,7 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/message-transport",
+    "uri" : "http://terminology.hl7.org/CodeSystem/benefit-unit",
     "version" : [{
       "code" : "4.0.1",
       "isDefault" : true,
@@ -10860,7 +10858,7 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/benefit-unit",
+    "uri" : "http://terminology.hl7.org/CodeSystem/message-transport",
     "version" : [{
       "code" : "4.0.1",
       "isDefault" : true,
@@ -10923,7 +10921,7 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+    "uri" : "http://terminology.hl7.org/CodeSystem/message-reasons-encounter",
     "version" : [{
       "code" : "4.0.1",
       "isDefault" : true,
@@ -10932,7 +10930,7 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/message-reasons-encounter",
+    "uri" : "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
     "version" : [{
       "code" : "4.0.1",
       "isDefault" : true,
@@ -10968,6 +10966,15 @@
     "subsumption" : true
   },
   {
+    "uri" : "http://terminology.hl7.org/CodeSystem/immunization-subpotent-reason",
+    "version" : [{
+      "code" : "4.0.1",
+      "isDefault" : true,
+      "compositional" : false
+    }],
+    "subsumption" : true
+  },
+  {
     "uri" : "http://terminology.hl7.org/CodeSystem/smart-capabilities",
     "version" : [{
       "code" : "4.0.1",
@@ -10980,15 +10987,6 @@
     "uri" : "http://terminology.hl7.org/CodeSystem/v3-CalendarType",
     "version" : [{
       "code" : "2018-08-12",
-      "isDefault" : true,
-      "compositional" : false
-    }],
-    "subsumption" : true
-  },
-  {
-    "uri" : "http://terminology.hl7.org/CodeSystem/immunization-subpotent-reason",
-    "version" : [{
-      "code" : "4.0.1",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -11283,18 +11281,18 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v3-SetOperator",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0918",
     "version" : [{
-      "code" : "2018-08-12",
+      "code" : "2.9",
       "isDefault" : true,
       "compositional" : false
     }],
     "subsumption" : true
   },
   {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0918",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v3-SetOperator",
     "version" : [{
-      "code" : "2.9",
+      "code" : "2018-08-12",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -11346,15 +11344,6 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://hl7.org/fhir/resource-slicing-rules",
-    "version" : [{
-      "code" : "4.0.1",
-      "isDefault" : true,
-      "compositional" : false
-    }],
-    "subsumption" : true
-  },
-  {
     "uri" : "http://terminology.hl7.org/CodeSystem/v2-0922",
     "version" : [{
       "code" : "2.9",
@@ -11364,7 +11353,7 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://hl7.org/fhir/guidance-response-status",
+    "uri" : "http://hl7.org/fhir/resource-slicing-rules",
     "version" : [{
       "code" : "4.0.1",
       "isDefault" : true,
@@ -11376,6 +11365,15 @@
     "uri" : "http://terminology.hl7.org/CodeSystem/v2-0923",
     "version" : [{
       "code" : "2.9",
+      "isDefault" : true,
+      "compositional" : false
+    }],
+    "subsumption" : true
+  },
+  {
+    "uri" : "http://hl7.org/fhir/guidance-response-status",
+    "version" : [{
+      "code" : "4.0.1",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -11682,6 +11680,15 @@
     "subsumption" : true
   },
   {
+    "uri" : "http://hl7.org/fhir/contract-security-control",
+    "version" : [{
+      "code" : "4.0.1",
+      "isDefault" : true,
+      "compositional" : false
+    }],
+    "subsumption" : true
+  },
+  {
     "uri" : "https://healthterminologies.gov.au/fhir/CodeSystem/australian-healthcare-entitlement-type-1",
     "version" : [{
       "code" : "1.0.1",
@@ -11701,7 +11708,7 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://hl7.org/fhir/contract-security-control",
+    "uri" : "http://hl7.org/fhir/research-element-type",
     "version" : [{
       "code" : "4.0.1",
       "isDefault" : true,
@@ -11710,9 +11717,9 @@
     "subsumption" : true
   },
   {
-    "uri" : "http://hl7.org/fhir/research-element-type",
+    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0702",
     "version" : [{
-      "code" : "4.0.1",
+      "code" : "2.9",
       "isDefault" : true,
       "compositional" : false
     }],
@@ -11727,15 +11734,6 @@
     },
     {
       "code" : "2018-08-12",
-      "isDefault" : true,
-      "compositional" : false
-    }],
-    "subsumption" : true
-  },
-  {
-    "uri" : "http://terminology.hl7.org/CodeSystem/v2-0702",
-    "version" : [{
-      "code" : "2.9",
       "isDefault" : true,
       "compositional" : false
     }],

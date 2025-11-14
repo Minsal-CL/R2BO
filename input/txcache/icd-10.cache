@@ -10183,3 +10183,17 @@ e: {
   "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: [279778a0-8974-474b-b722-81631271ee23]: A usable code system with URL http://hl7.org/fhir/sid/icd-10 could not be resolved.\r\nInformation: X-Request-Id: 27e30411-4033-44b9-9f9b-316107a3bf95"
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10"
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://localhost/r4: The value set '' expansion has too many codes to display (>10000)"
+}
+-------------------------------------------------------------------------------------

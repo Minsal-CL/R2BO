@@ -59,7 +59,7 @@ dependencies:
 #
 pages:
   index.md:
-    title: Inicio
+    title: Repositorio de Reportes de Biopsias Oncológicas del Ministerio de Salud
     contributors.md:
       title: Contribuidores
 
@@ -117,7 +117,7 @@ pages:
 # http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html
 #
 parameters:
-  path-tx-cache: input/txcache
+  path-tx-cache: input\txcache
   path-expansion-params: '../../input/_resources/exp-params.json'
   pin-canonicals: pin-multiples
   # generate-uml: all  
@@ -140,8 +140,8 @@ parameters:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Inicio: index.html
-  Consideraciones de Diseño: design-consideration.html
   Especificaciones Tecnicas:
+    Consideraciones de Diseño: design-consideration.html
     Servicios Terminológicos: SistemasTerminologicos.html
     Interaciones Repositorio: InteraccionesConServidor.html
   Historial de Cambios: changes.html
