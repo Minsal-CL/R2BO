@@ -1,200 +1,4 @@
 -------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "code" : "M"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "code" : "M",
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "version" : "2000",
-  "severity" : "warning",
-  "error" : "Unknown Code 'M' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment",
-  "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0 0 : start\r\n31 31   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n31 0    : 0ms  : Parameters: disp-lang=en, en-US, default-to-latest\r\n31 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n47 16   : 16ms : Prepare include: \"()\"\r\n47 0    : 16ms : Validate \"[http://terminology.hl7.org/CodeSystem/icd-o-3#M (\"\")]\"\r\n47 0    : 16ms : Check \"http://terminology.hl7.org/CodeSystem/icd-o-3#M\"\r\n47 0    : 16ms : Using CodeSystem \"http://terminology.hl7.org/CodeSystem/icd-o-3|2000 (from fhir.tx.support.r4#0.32.0)\" (content = fragment)\r\n",
-  "issues" : {
-  "resourceType" : "OperationOutcome",
-  "issue" : [{
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
-      "valueString" : "UNKNOWN_CODE_IN_FRAGMENT"
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
-      "valueUrl" : "https://tx.hl7chile.cl/r4"
-    }],
-    "severity" : "warning",
-    "code" : "code-invalid",
-    "details" : {
-      "coding" : [{
-        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
-        "code" : "invalid-code"
-      }],
-      "text" : "Unknown Code 'M' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment"
-    },
-    "location" : ["Coding.code"],
-    "expression" : ["Coding.code"]
-  }]
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "code" : "T"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "code" : "T",
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "version" : "2000",
-  "severity" : "warning",
-  "error" : "Unknown Code 'T' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment",
-  "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=en, en-US, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n16 0    : 0ms  : Prepare include: \"()\"\r\n16 0    : 0ms  : Validate \"[http://terminology.hl7.org/CodeSystem/icd-o-3#T (\"\")]\"\r\n16 0    : 0ms  : Check \"http://terminology.hl7.org/CodeSystem/icd-o-3#T\"\r\n16 0    : 0ms  : Using CodeSystem \"http://terminology.hl7.org/CodeSystem/icd-o-3|2000 (from fhir.tx.support.r4#0.32.0)\" (content = fragment)\r\n",
-  "issues" : {
-  "resourceType" : "OperationOutcome",
-  "issue" : [{
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
-      "valueString" : "UNKNOWN_CODE_IN_FRAGMENT"
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
-      "valueUrl" : "https://tx.hl7chile.cl/r4"
-    }],
-    "severity" : "warning",
-    "code" : "code-invalid",
-    "details" : {
-      "coding" : [{
-        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
-        "code" : "invalid-code"
-      }],
-      "text" : "Unknown Code 'T' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment"
-    },
-    "location" : ["Coding.code"],
-    "expression" : ["Coding.code"]
-  }]
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "code" : "M"
-}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "code" : "M",
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "version" : "2000",
-  "severity" : "warning",
-  "error" : "Unknown Code 'M' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment",
-  "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://terminology.hl7.org/CodeSystem/icd-o-3#M (\"\")]\"\r\n0 0     : 0ms  : Check \"http://terminology.hl7.org/CodeSystem/icd-o-3#M\"\r\n0 0     : 0ms  : Using CodeSystem \"http://terminology.hl7.org/CodeSystem/icd-o-3|2000 (from fhir.tx.support.r4#0.32.0)\" (content = fragment)\r\n",
-  "issues" : {
-  "resourceType" : "OperationOutcome",
-  "issue" : [{
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
-      "valueString" : "UNKNOWN_CODE_IN_FRAGMENT"
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
-      "valueUrl" : "https://tx.hl7chile.cl/r4"
-    }],
-    "severity" : "warning",
-    "code" : "code-invalid",
-    "details" : {
-      "coding" : [{
-        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
-        "code" : "invalid-code"
-      }],
-      "text" : "Unknown Code 'M' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment"
-    },
-    "location" : ["Coding.code"],
-    "expression" : ["Coding.code"]
-  }]
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "code" : "T"
-}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "code" : "T",
-  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-  "version" : "2000",
-  "severity" : "warning",
-  "error" : "Unknown Code 'T' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment",
-  "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://terminology.hl7.org/CodeSystem/icd-o-3#T (\"\")]\"\r\n0 0     : 0ms  : Check \"http://terminology.hl7.org/CodeSystem/icd-o-3#T\"\r\n0 0     : 0ms  : Using CodeSystem \"http://terminology.hl7.org/CodeSystem/icd-o-3|2000 (from fhir.tx.support.r4#0.32.0)\" (content = fragment)\r\n",
-  "issues" : {
-  "resourceType" : "OperationOutcome",
-  "issue" : [{
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
-      "valueString" : "UNKNOWN_CODE_IN_FRAGMENT"
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
-      "valueUrl" : "https://tx.hl7chile.cl/r4"
-    }],
-    "severity" : "warning",
-    "code" : "code-invalid",
-    "details" : {
-      "coding" : [{
-        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
-        "code" : "invalid-code"
-      }],
-      "text" : "Unknown Code 'T' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/icd-o-3' version '2000' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment"
-    },
-    "location" : ["Coding.code"],
-    "expression" : ["Coding.code"]
-  }]
-}
-
-}
--------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -211,7 +15,7 @@ v: {
 }}####
 e: {
   "from-server" : true,
-  "error" : "Error from https://tx.hl7chile.cl/r4: The code system definition for http://terminology.hl7.org/CodeSystem/icd-o-3 is a fragment, so this expansion is not permitted unless the expansion parameter \"incomplete-ok\" has a value of \"true\""
+  "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: [324dce7e-d5d5-4b95-b17a-0eb8d07482ba]: A usable code system with URL http://terminology.hl7.org/CodeSystem/icd-o-3 could not be resolved.\r\nInformation: X-Request-Id: 04ebd320-ca69-43d7-8494-a596c0abdc60"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
@@ -230,6 +34,118 @@ e: {
 }}####
 e: {
   "from-server" : true,
-  "error" : "Error from https://tx.hl7chile.cl/r4: The code system definition for http://terminology.hl7.org/CodeSystem/icd-o-3 is a fragment, so this expansion is not permitted unless the expansion parameter \"incomplete-ok\" has a value of \"true\""
+  "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: [1e7b3652-0446-44b8-a3f4-7ccca24c124c]: A usable code system with URL http://terminology.hl7.org/CodeSystem/icd-o-3 could not be resolved.\r\nInformation: X-Request-Id: 96697f1b-0b24-464f-a2fd-d5a2a6630c3d"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "code" : "M"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Morfología",
+  "code" : "M",
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "version" : "CL-2025",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, en-US, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://terminology.hl7.org/CodeSystem/icd-o-3#M (\"\")]\"\r\n0 0     : 0ms  : Check \"http://terminology.hl7.org/CodeSystem/icd-o-3#M\"\r\n0 0     : 0ms  : Using CodeSystem \"http://terminology.hl7.org/CodeSystem/icd-o-3|CL-2025 (from fhir.tx.support.r4#0.32.0)\" (content = complete)\r\n",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "code" : "T"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Topografía",
+  "code" : "T",
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "version" : "CL-2025",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0 0 : start\r\n15 15   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n15 0    : 0ms  : Parameters: disp-lang=en, en-US, default-to-latest\r\n15 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n15 0    : 0ms  : Prepare include: \"()\"\r\n15 0    : 0ms  : Validate \"[http://terminology.hl7.org/CodeSystem/icd-o-3#T (\"\")]\"\r\n15 0    : 0ms  : Check \"http://terminology.hl7.org/CodeSystem/icd-o-3#T\"\r\n15 0    : 0ms  : Using CodeSystem \"http://terminology.hl7.org/CodeSystem/icd-o-3|CL-2025 (from fhir.tx.support.r4#0.32.0)\" (content = complete)\r\n",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "code" : "M"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Morfología",
+  "code" : "M",
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "version" : "CL-2025",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://terminology.hl7.org/CodeSystem/icd-o-3#M (\"\")]\"\r\n0 0     : 0ms  : Check \"http://terminology.hl7.org/CodeSystem/icd-o-3#M\"\r\n0 0     : 0ms  : Using CodeSystem \"http://terminology.hl7.org/CodeSystem/icd-o-3|CL-2025 (from fhir.tx.support.r4#0.32.0)\" (content = complete)\r\n",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "code" : "T"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Topografía",
+  "code" : "T",
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "version" : "CL-2025",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://terminology.hl7.org/CodeSystem/icd-o-3#T (\"\")]\"\r\n0 0     : 0ms  : Check \"http://terminology.hl7.org/CodeSystem/icd-o-3#T\"\r\n0 0     : 0ms  : Using CodeSystem \"http://terminology.hl7.org/CodeSystem/icd-o-3|CL-2025 (from fhir.tx.support.r4#0.32.0)\" (content = complete)\r\n",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
 }
 -------------------------------------------------------------------------------------

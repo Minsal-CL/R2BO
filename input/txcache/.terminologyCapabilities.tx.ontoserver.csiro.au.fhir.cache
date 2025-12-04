@@ -4,15 +4,15 @@
     "profile" : ["http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities"]
   },
   "text" : {
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>CSIRO Terminology Server (Ontoserver ®)</h1><table><tr><td>Publisher</td><td>Australian e-Health Research Centre, CSIRO</td></tr><tr><td>Version</td><td>6.23.2.1764772879068</td></tr><tr><td>Date</td><td>2025-12-04</td></tr></table><p>Ontoserver supports a large portion of the FHIR Terminology Services specification. In particular, it has native support for SNOMED CT, LOINC, and code systems defined via the FHIR CodeSystem resource. This extends to supporting use of all defined and default filters in a FHIR ValueSet, as well as the implicitly defined ValueSets for SNOMED CT and LOINC.</p><p>More details are available in the <a href=\"https://ontoserver.csiro.au/docs/6.23.2/api-fhir.html\">Ontoserver documentation</a></p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>CSIRO Terminology Server (Ontoserver ®)</h1><table><tr><td>Publisher</td><td>Australian e-Health Research Centre, CSIRO</td></tr><tr><td>Version</td><td>6.23.2.1764864085128</td></tr><tr><td>Date</td><td>2025-12-05</td></tr></table><p>Ontoserver supports a large portion of the FHIR Terminology Services specification. In particular, it has native support for SNOMED CT, LOINC, and code systems defined via the FHIR CodeSystem resource. This extends to supporting use of all defined and default filters in a FHIR ValueSet, as well as the implicitly defined ValueSets for SNOMED CT and LOINC.</p><p>More details are available in the <a href=\"https://ontoserver.csiro.au/docs/6.23.2/api-fhir.html\">Ontoserver documentation</a></p></div>"
   },
   "url" : "https://tx.ontoserver.csiro.au/fhir/metadata?mode=terminology",
-  "version" : "6.23.2.1764772879068",
+  "version" : "6.23.2.1764864085128",
   "name" : "FHIR_Conformance_statement_for_Ontoserver",
   "title" : "FHIR Conformance statement for OntoserverÂ®",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-12-04T00:41:19+10:00",
+  "date" : "2025-12-05T02:01:25+10:00",
   "publisher" : "Australian e-Health Research Centre, CSIRO",
   "contact" : [{
     "telecom" : [{
