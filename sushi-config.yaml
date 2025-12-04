@@ -33,7 +33,7 @@ language: en
 # use cases, the value can be an object with keys for id, uri, and version.
 #
 dependencies:
-    hl7.fhir.cl.minsal.nid: 0.4.7
+    hl7.fhir.cl.minsal.nid: 0.4.8
     hl7.fhir.cl.clcore: 1.9.4
     # hl7.fhir.cl.clips: 0.4.0
     hl7.fhir.us.mcode: 4.0.0

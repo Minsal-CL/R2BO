@@ -1,16 +1,5 @@
 {
-  "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20250515" : null,
   "http://unstats.un.org/unsd/methods/m49/m49.htm" : null,
-  "urn:ietf:bcp:13|null" : null,
   "urn:ietf:bcp:13" : null,
-  "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701" : null,
-  "http://unstats.un.org/unsd/methods/m49/m49.htm|null" : null,
-  "http://hl7.org/fhir/sid/icd-10|2019-covid-expanded" : {
-    "server" : "http://localhost/r4",
-    "filename" : "cs-c8d573b4-1839-47ab-a4f0-359c3ea4a8e1.json"
-  },
-  "http://snomed.info/sct" : {
-    "server" : "http://localhost/r4",
-    "filename" : "cs-b6080182-862f-4967-8518-8ca3afb49472.json"
-  }
+  "http://snomed.info/sct" : null
 }

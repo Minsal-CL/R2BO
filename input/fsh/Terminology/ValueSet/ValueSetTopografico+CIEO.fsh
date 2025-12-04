@@ -9,7 +9,7 @@ Description:    "Set de valores utilizados para la topografía, estos pueden ser
 // * include codes from valueset TopograficaSnomedVS
 // * include codes from valueset CIEO3TVS
 
-* include codes from system $snomed where expression = #"^446608001,<91723000"
+* include codes from system $snomed where constraint = #"^446608001,<91723000"
 //* exclude codes from system $snomed where concept descendent-of #
 * $snomed#87100004
 * $snomed#21229009
