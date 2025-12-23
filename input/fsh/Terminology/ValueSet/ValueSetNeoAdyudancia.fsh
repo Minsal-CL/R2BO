@@ -5,8 +5,8 @@ Description: "Posibles valores para las observaciones realizadas en la evaluaci√
 * insert SetCopyrightLOINC
 * ^experimental = true
 
-* $loinc#LA26537-3 "No prior treatment"
-* $loinc#LA26538-1 "Complete response (Grade 0 - No viable cancer cells)"
-* $loinc#LA26539-9 "Moderate response (Grade 1 - Single cells or small groups of cancer cells)"
-* $loinc#LA26540-7 "Mminimal response (Grade 2 - Residual cancer outgrown by fibrosis)"
-* $loinc#LA26541-5 "Poor response (Grade 3 - Minimal or no tumor kill; extensive)"
+* $loinc|2.81#LA26537-3 "No prior treatment"
+* $loinc|2.81#LA26538-1 "Complete response (Grade 0 - No viable cancer cells)"
+* $loinc|2.81#LA26539-9 "Moderate response (Grade 1 - Single cells or small groups of cancer cells)"
+* $loinc|2.81#LA26540-7 "Mminimal response (Grade 2 - Residual cancer outgrown by fibrosis)"
+* $loinc|2.81#LA26541-5 "Poor response (Grade 3 - Minimal or no tumor kill; extensive)"

@@ -1,8 +1,8 @@
-Profile:        BundleGenerarInforme
+Profile:        BundleGenerarNotificacion
 Parent:         Bundle
-Id:             r2bo-bundle-generar-informe
-Title:          "Perfil de Bundle para Generar Informe"
-Description:    "Perfil de Bundle que contiene los recursos necesarios para generar un informe de patología y cargarlos en el repositorio."
+Id:             r2bo-bundle-generar-notificacion
+Title:          "Perfil de Bundle: Generar Notificación Obligatoria"
+Description:    "Perfil de Bundle que contiene los recursos necesarios para generar la notificación patología y cargarlos en el repositorio."
 
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1

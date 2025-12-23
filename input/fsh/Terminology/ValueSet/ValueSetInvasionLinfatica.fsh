@@ -5,6 +5,6 @@ Description:    "Posibles resultados de invasión linfática, vascular y tumoral
 
 * insert SetCopyrightSCT
 * ^experimental = true
-* $snomed#2667000   "Absent"
-* $snomed#52101004  "Present"
-* $snomed#82334004  "Indeterminatee"
+* $snomed|http://snomed.info/sct/900000000000207008/version/20251101#2667000   "Absent"
+* $snomed|http://snomed.info/sct/900000000000207008/version/20251101#52101004  "Present"
+* $snomed|http://snomed.info/sct/900000000000207008/version/20251101#82334004  "Indeterminatee"

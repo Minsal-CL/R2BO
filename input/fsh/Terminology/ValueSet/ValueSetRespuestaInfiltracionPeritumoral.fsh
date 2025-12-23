@@ -7,6 +7,6 @@ Description:    "Posibles hallazgos de infiltración peritumoral en un reporte d
 * ^experimental = true
 // * include codes from system $snomed where concept descendent-of #373376008
 
-* $snomed#369762001
-* $snomed#369761008
-* $snomed#370069009
+* $snomed|http://snomed.info/sct/900000000000207008/version/20251101#369762001
+* $snomed|http://snomed.info/sct/900000000000207008/version/20251101#369761008
+* $snomed|http://snomed.info/sct/900000000000207008/version/20251101#370069009

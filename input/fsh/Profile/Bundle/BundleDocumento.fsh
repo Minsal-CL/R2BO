@@ -1,7 +1,7 @@
 Profile:        R2BOBundleDocumento
 Parent:         Bundle
 Id:             r2bo-bundle-documento
-Title:          "Perfil de Bundle del Documento"
+Title:          "Perfil de Bundle: Documento de Anatomía Patológica"
 Description:    "Perfil de Bundle que contiene los recursos necesarios para el documento de anatomía patológica."
 
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"

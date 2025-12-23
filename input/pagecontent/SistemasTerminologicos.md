@@ -4,7 +4,7 @@ Dada la necesidad de codificar en distintas terminologías, el Ministerio de Sal
 * CIE-10
 * CIE-O
 
-Que mediante la operación [$expand](http://hl7.org/fhir/R4/valueset-operation-expand.html) permitirá la búsqueda de términos con un código SNOMED-CT, mientras que la operación [$translate](http://hl7.org/fhir/R4/conceptmap-operation-translate.html) permite convertir códigos a CIE-10 o CIE-O 3. Para facilitar aún más la búsqueda de estos términos en el servidor, se crearon los siguientes sets de valores:
+Que mediante la operación [$expand](http://hl7.org/fhir/R4/valueset-operation-expand.html) permitirá la búsqueda de términos con un código SNOMED-CT o algún termino de la Clasificación internacional de Enfermedades. En caso de ser requerido los terminos snomed de estos valueSet permiten ser convertidos en CIE usando la operación [$translate](http://hl7.org/fhir/R4/conceptmap-operation-translate.html).
 
 * [Snomed CT para Hallazgos Clínicos](ValueSet-r2bo-snomed-hallazgos-clinicos-cie10-VS.html)
 * [Snomed CT para Topografía](ValueSet-r2bo-topografica-cieo-VS.html)
@@ -12,13 +12,13 @@ Que mediante la operación [$expand](http://hl7.org/fhir/R4/valueset-operation-e
 
 ### Instrucciones de Operación Expand:
 
-La operación [$expand](http://hl7.org/fhir/R4/valueset-operation-expand.html) se puede realizar a un ValueSet base o específico, como se dijo anteriormente, se crearon 3 de estos para facilitar la búsqueda de estos términos. Por lo que, se requiere el ID del ValueSet que desea realizar la búsqueda más los parámetros **displayLanguage** y **filter** para utilizar esta operación.
+La operación [$expand](http://hl7.org/fhir/R4/valueset-operation-expand.html) se puede realizar a un ValueSet base o específico, como se dijo anteriormente, se crearon 3 de estos para facilitar la búsqueda de estos términos. Por lo que, se requiere el ID del ValueSet que desea realizar la búsqueda más los parámetros **displayLanguage** y **filter** para utilizar esta operación. En caso de no encontrar el termino exacto puede activar los **includeDesignations** lo que permitirá mostrar los sinónimos de los terminos.
 
 #### Ejemplo:
 
 **Consulta**
 ```
-GET /ValueSet/r2bo-snomed-hallazgos-clinicos/$expand?displayLanguage=es,en&filter=Neoplasia Incierto Mama
+GET /ValueSet/r2bo-snomed-hallazgos-clinicos/$expand?displayLanguage=es,en&includeDesignations=false&filter=Neoplasia Incierto Mama
 ```
 **Respuesta**
 ```

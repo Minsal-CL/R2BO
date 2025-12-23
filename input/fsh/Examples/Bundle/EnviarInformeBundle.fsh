@@ -1,5 +1,5 @@
 Instance:       r2bo-generar-informe-bundle-ejemplo
-InstanceOf:     BundleGenerarInforme
+InstanceOf:     BundleGenerarNotificacion
 Usage:          #example
 Title:          "Ejemplo de Enviar un Informe de Anatomía Patológica"
 Description:    "Ejemplo de Bundle que contiene los recursos necesarios para solicitar un informe de anatomía patológica de una biopsia de un tejido mamario."
@@ -42,7 +42,7 @@ Description:    "Ejemplo de Bundle que contiene los recursos necesarios para sol
   * request
     * method = #POST
     * url = "Location"
-    * ifNoneExist = "Location?name=Medicina General"
+    * ifNoneExist = "Location?name=Medicina%20General"
 
 * entry[Profesional][0]
   * fullUrl = Canonical(profesional-hospital-collector)

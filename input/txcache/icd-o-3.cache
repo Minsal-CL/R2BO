@@ -1,42 +1,4 @@
 -------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-      "filter" : [{
-        "property" : "concept",
-        "op" : "descendent-of",
-        "value" : "M"
-      }]
-    }]
-  }
-}}####
-e: {
-  "from-server" : true,
-  "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: [324dce7e-d5d5-4b95-b17a-0eb8d07482ba]: A usable code system with URL http://terminology.hl7.org/CodeSystem/icd-o-3 could not be resolved.\r\nInformation: X-Request-Id: 04ebd320-ca69-43d7-8494-a596c0abdc60"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
-      "filter" : [{
-        "property" : "concept",
-        "op" : "descendent-of",
-        "value" : "T"
-      }]
-    }]
-  }
-}}####
-e: {
-  "from-server" : true,
-  "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: [1e7b3652-0446-44b8-a3f4-7ccca24c124c]: A usable code system with URL http://terminology.hl7.org/CodeSystem/icd-o-3 could not be resolved.\r\nInformation: X-Request-Id: 96697f1b-0b24-464f-a2fd-d5a2a6630c3d"
-}
--------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
   "code" : "M"
@@ -57,8 +19,7 @@ v: {
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
   "version" : "CL-2025",
   "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, en-US, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://terminology.hl7.org/CodeSystem/icd-o-3#M (\"\")]\"\r\n0 0     : 0ms  : Check \"http://terminology.hl7.org/CodeSystem/icd-o-3#M\"\r\n0 0     : 0ms  : Using CodeSystem \"http://terminology.hl7.org/CodeSystem/icd-o-3|CL-2025 (from fhir.tx.support.r4#0.32.0)\" (content = complete)\r\n",
-  "unknown-systems" : "",
+  "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=en, en-US, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n16 0    : 0ms  : Prepare include: \"()\"\r\n16 0    : 0ms  : Validate \"[http://terminology.hl7.org/CodeSystem/icd-o-3#M (\"\")]\"\r\n16 0    : 0ms  : Check \"http://terminology.hl7.org/CodeSystem/icd-o-3#M\"\r\n16 0    : 0ms  : Using CodeSystem \"http://terminology.hl7.org/CodeSystem/icd-o-3|CL-2025 (from fhir.tx.support.r4#0.32.0)\" (content = complete)\r\n",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -85,8 +46,7 @@ v: {
   "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
   "version" : "CL-2025",
   "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0 0 : start\r\n15 15   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n15 0    : 0ms  : Parameters: disp-lang=en, en-US, default-to-latest\r\n15 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n15 0    : 0ms  : Prepare include: \"()\"\r\n15 0    : 0ms  : Validate \"[http://terminology.hl7.org/CodeSystem/icd-o-3#T (\"\")]\"\r\n15 0    : 0ms  : Check \"http://terminology.hl7.org/CodeSystem/icd-o-3#T\"\r\n15 0    : 0ms  : Using CodeSystem \"http://terminology.hl7.org/CodeSystem/icd-o-3|CL-2025 (from fhir.tx.support.r4#0.32.0)\" (content = complete)\r\n",
-  "unknown-systems" : "",
+  "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, en-US, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://terminology.hl7.org/CodeSystem/icd-o-3#T (\"\")]\"\r\n0 0     : 0ms  : Check \"http://terminology.hl7.org/CodeSystem/icd-o-3#T\"\r\n0 0     : 0ms  : Using CodeSystem \"http://terminology.hl7.org/CodeSystem/icd-o-3|CL-2025 (from fhir.tx.support.r4#0.32.0)\" (content = complete)\r\n",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -114,7 +74,6 @@ v: {
   "version" : "CL-2025",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://terminology.hl7.org/CodeSystem/icd-o-3#M (\"\")]\"\r\n0 0     : 0ms  : Check \"http://terminology.hl7.org/CodeSystem/icd-o-3#M\"\r\n0 0     : 0ms  : Using CodeSystem \"http://terminology.hl7.org/CodeSystem/icd-o-3|CL-2025 (from fhir.tx.support.r4#0.32.0)\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -142,10 +101,47 @@ v: {
   "version" : "CL-2025",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://terminology.hl7.org/CodeSystem/icd-o-3#T (\"\")]\"\r\n0 0     : 0ms  : Check \"http://terminology.hl7.org/CodeSystem/icd-o-3#T\"\r\n0 0     : 0ms  : Using CodeSystem \"http://terminology.hl7.org/CodeSystem/icd-o-3|CL-2025 (from fhir.tx.support.r4#0.32.0)\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
 
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "M"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: [a256759f-1c49-4d6e-ac8e-e72dedac7f16]: A usable code system with URL http://terminology.hl7.org/CodeSystem/icd-o-3 could not be resolved.\r\nInformation: X-Request-Id: 821c8905-04fb-4286-928e-e7767838bedd"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "T"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: [7fb646a7-1893-48d4-b453-7a638a2e3dc8]: A usable code system with URL http://terminology.hl7.org/CodeSystem/icd-o-3 could not be resolved.\r\nInformation: X-Request-Id: f36b35d8-d4c1-4692-9798-f0b42d1b2bf2"
 }
 -------------------------------------------------------------------------------------

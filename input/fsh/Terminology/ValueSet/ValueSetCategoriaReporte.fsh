@@ -5,6 +5,6 @@ Description:    "Códigos de tipos de categoría de reportes de biopsias en HL7"
 
 * ^experimental = true
 
-* v2-0074#CP    "Cytopathology"
-* v2-0074#PAT   "Pathology (gross & histopath, not surgical)"
-* v2-0074#HM    "Hematology"
+* v2-0074|3.0.0#CP    "Cytopathology"
+* v2-0074|3.0.0#PAT   "Pathology (gross & histopath, not surgical)"
+* v2-0074|3.0.0#HM    "Hematology"

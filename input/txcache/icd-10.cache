@@ -4,12 +4,13 @@
   "compose" : {
     "inactive" : true,
     "include" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10"
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "version" : "2019-covid-expanded"
     }]
   }
 }}####
 e: {
   "from-server" : true,
-  "error" : "Error from https://tx.hl7chile.cl/r4: The value set '' expansion has too many codes to display (>10000)"
+  "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: [cf1d3347-093e-48fc-b01d-441632105fa8]: A usable code system with URL http://hl7.org/fhir/sid/icd-10|2019-covid-expanded could not be resolved.\r\nInformation: X-Request-Id: 60fc2cf8-2df5-4f95-9aff-4c60018e3820"
 }
 -------------------------------------------------------------------------------------

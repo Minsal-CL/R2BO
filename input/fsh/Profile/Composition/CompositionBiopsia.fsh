@@ -1,7 +1,7 @@
 Profile:        R2BOCompositionBiopsia
 Parent:         DocumentoCl
 Id:             r2bo-composition-biopsia
-Title:          "Perfil del Documento de Biopsía"
+Title:          "Perfil de la Cabecera del Documento de Biopsía"
 Description:    "Este recurso representa la cabecera del documento de un reporte de analisis de anatomía patológica"
 
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"

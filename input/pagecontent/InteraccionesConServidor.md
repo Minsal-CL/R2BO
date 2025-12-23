@@ -7,7 +7,7 @@ El reposito de biopsia, permitirá recibir solicitudes e informes de anatomías 
 
 ### Generar Informes
 
-Este permiso permite actualizar solicitudes y en caso de que no existan crearlas, pero va enfocado principalmente a la publicación de informes de anatomía patológica dentro del repositorio. Para cumplir con el envío de información debe utilizar un bundle que cumpla con el perfil ["Generar Informe"](StructureDefinition-r2bo-bundle-generar-informe.html) realizando una operación **POST** a la raíz del servidor.
+Este permiso permite actualizar solicitudes y en caso de que no existan crearlas, pero va enfocado principalmente a la publicación de informes de anatomía patológica dentro del repositorio. Para cumplir con el envío de información debe utilizar un bundle que cumpla con el perfil ["Generar Informe"](StructureDefinition-r2bo-bundle-generar-notificacion.html) realizando una operación **POST** a la raíz del servidor.
 
 ```
 Bundle
