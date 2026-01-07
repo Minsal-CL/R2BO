@@ -8,6 +8,7 @@ Description:    "Ejemplo de observación de margen quirúrgico en reporte de bio
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
 * code = $snomed#396631001
+* valueCodeableConcept = $loinc#LA27146-2
 * subject = Reference(paciente-requiere-examen)
 * performer = Reference(r2bo-anatopatologo-hospital)
 * specimen = Reference(r2bo-specimen-example)

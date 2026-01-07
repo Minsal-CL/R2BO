@@ -1,0 +1,94 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "language": "en", "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs", "version": "0.1.1-ballot"}####
+e: {
+  "source" : tx.ontoserver.csiro.au,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "url" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs",
+  "version" : "0.1.1-ballot",
+  "name" : "TipoDeMargenQuirurgicaMQVS",
+  "title" : "Tipo de Margen Quirúrgico",
+  "status" : "draft",
+  "experimental" : true,
+  "copyright" : "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc",
+  "expansion" : {
+    "identifier" : "urn:uuid:6adc6aa5-8f55-4e74-8311-3c596fdefe40",
+    "timestamp" : "2026-01-07T22:16:09+10:00",
+    "total" : 7,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "http://loinc.org|2.81"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.81"
+    },
+    {
+      "name" : "displayLanguage",
+      "valueCode" : "en"
+    },
+    {
+      "name" : "warning-draft",
+      "valueUri" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs|0.1.1-ballot"
+    },
+    {
+      "name" : "warning-experimental",
+      "valueUri" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs|0.1.1-ballot"
+    },
+    {
+      "name" : "used-valueset",
+      "valueUri" : "http://loinc.org/vs/LL4348-0"
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "LA27147-0",
+      "display" : "Circumferential margin"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA27146-2",
+      "display" : "Deep margin"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA27149-6",
+      "display" : "Distal margin"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA27148-8",
+      "display" : "Mesenteric margin"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA27150-4",
+      "display" : "Mucosal margin"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA46-8",
+      "display" : "Other"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA27145-4",
+      "display" : "Proximal margin"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

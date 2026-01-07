@@ -17,14 +17,18 @@ Description:    "Observaciones del margen quirúrgico en reporte de biopsia"
 * ^abstract = false
 
 * code = $snomed#396631001
-* value[x] 0..0 
+* value[x] ^short = "Margen Quirúrgico en reporte de biopsia"
+* value[x] ^definition = "Tipo de margen quirúrgico obtenido en el caso de un posible paciente con cáncer"
+* value[x] only CodeableConcept
+* value[x] from TipoDeMargenQuirurgicaMQVS (required)
+
 * component ^slicing.discriminator.type = #value
 * component ^slicing.discriminator.path = "code"
 * component ^slicing.rules = #closed
 * component ^slicing.description = "Diferencia entre los slice de caracteristicas del Margen Quirurgico"
 * component ^slicing.ordered = false
 * component 1..2 MS 
-* component contains Medida 0..1 and Caracteristicas 0..1
+* component contains Caracteristicas 0..1 and Medida 0..1
 
 * component[Caracteristicas]
   * code from ObservacionesBiopsiaVS (required)

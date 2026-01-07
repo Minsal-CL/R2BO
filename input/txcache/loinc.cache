@@ -20,7 +20,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#66110-8 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#66110-8\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -48,7 +47,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n16 0    : 0ms  : Prepare include: \"()\"\r\n16 0    : 0ms  : Validate \"[http://loinc.org#102034-6 (\"\")]\"\r\n16 0    : 0ms  : Check \"http://loinc.org#102034-6\"\r\n16 0    : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -76,7 +74,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#74574-5 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#74574-5\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -104,7 +101,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#92831-7 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#92831-7\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -132,7 +128,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#33739-4 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#33739-4\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -160,7 +155,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#33740-2 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#33740-2\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -188,7 +182,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n15 15   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n15 0    : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n15 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n15 0    : 0ms  : Prepare include: \"()\"\r\n15 0    : 0ms  : Validate \"[http://loinc.org#33737-8 (\"\")]\"\r\n15 0    : 0ms  : Check \"http://loinc.org#33737-8\"\r\n15 0    : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -216,7 +209,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#42030-7 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#42030-7\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -244,7 +236,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#84891-1 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#84891-1\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -272,7 +263,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n63 63   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n63 0    : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n63 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n63 0    : 0ms  : Prepare include: \"()\"\r\n63 0    : 0ms  : Validate \"[http://loinc.org#21889-1 (\"\")]\"\r\n63 0    : 0ms  : Check \"http://loinc.org#21889-1\"\r\n63 0    : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -300,7 +290,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n16 0    : 0ms  : Prepare include: \"()\"\r\n16 0    : 0ms  : Validate \"[http://loinc.org#33728-7 (\"\")]\"\r\n16 0    : 0ms  : Check \"http://loinc.org#33728-7\"\r\n16 0    : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -328,7 +317,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n16 0    : 0ms  : Prepare include: \"()\"\r\n16 0    : 0ms  : Validate \"[http://loinc.org#33729-5 (\"\")]\"\r\n16 0    : 0ms  : Check \"http://loinc.org#33729-5\"\r\n16 0    : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -356,7 +344,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n16 0    : 0ms  : Prepare include: \"()\"\r\n16 0    : 0ms  : Validate \"[http://loinc.org#81168-7 (\"\")]\"\r\n16 0    : 0ms  : Check \"http://loinc.org#81168-7\"\r\n16 0    : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -602,7 +589,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=en, en-US, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n16 0    : 0ms  : Prepare include: \"()\"\r\n16 0    : 0ms  : Validate \"[http://loinc.org|2.81#LP121003-0 (\"\")]\"\r\n16 0    : 0ms  : Check \"http://loinc.org|2.81#LP121003-0\"\r\n16 0    : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -632,7 +618,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, en-US, default-to-latest, display-warning\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org|2.81#LA26537-3 (\"No prior treatment\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org|2.81#LA26537-3\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -661,7 +646,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -690,7 +674,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -719,7 +702,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -748,7 +730,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -778,7 +759,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, en-US, default-to-latest, display-warning\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org|2.81#102034-6 (\"Pathology report microscopic observation in Specimen\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org|2.81#102034-6\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -807,7 +787,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -836,7 +815,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -865,7 +843,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -894,7 +871,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -923,7 +899,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -952,7 +927,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -981,7 +955,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1012,7 +985,6 @@ v: {
   "severity" : "warning",
   "error" : "Wrong Display Name 'Pathology report post neoadjuvant therapy assessment in Specimen' for http://loinc.org#84891-1. Valid display is one of 4 choices: 'Tumor response to neoadjuvant therapy' (en-US), 'Tumor response to neoadjuvant therapy' (en-US), 'Tumor resp to neoadjvt therapy' (en-US) or 'Response to neoadjuvant therapy, Colorectal cancer specimen' (en-US) (for the language(s) 'en, en-US')",
   "server" : "https://tx.hl7chile.cl/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -1062,7 +1034,6 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1091,7 +1062,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n16 0    : 0ms  : Prepare include: \"()\"\r\n16 0    : 0ms  : Validate \"[http://loinc.org|2.81#LP121003-0 (\"\")]\"\r\n16 0    : 0ms  : Check \"http://loinc.org|2.81#LP121003-0\"\r\n16 0    : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1121,7 +1091,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#22636-5 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#22636-5\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1151,7 +1120,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#22633-2 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#22633-2\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1181,7 +1149,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n16 0    : 0ms  : Prepare include: \"()\"\r\n16 0    : 0ms  : Validate \"[http://loinc.org#22634-0 (\"\")]\"\r\n16 0    : 0ms  : Check \"http://loinc.org#22634-0\"\r\n16 0    : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1211,7 +1178,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#22635-7 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#22635-7\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1241,7 +1207,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#33746-9 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#33746-9\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1271,7 +1236,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#22637-3 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#22637-3\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1301,7 +1265,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#22638-1 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#22638-1\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1331,7 +1294,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#92831-7 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#92831-7\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1361,7 +1323,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n16 0    : 0ms  : Prepare include: \"()\"\r\n16 0    : 0ms  : Validate \"[http://loinc.org#33739-4 (\"\")]\"\r\n16 0    : 0ms  : Check \"http://loinc.org#33739-4\"\r\n16 0    : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1391,7 +1352,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n16 0    : 0ms  : Prepare include: \"()\"\r\n16 0    : 0ms  : Validate \"[http://loinc.org#33740-2 (\"\")]\"\r\n16 0    : 0ms  : Check \"http://loinc.org#33740-2\"\r\n16 0    : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1421,7 +1381,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n16 0    : 0ms  : Prepare include: \"()\"\r\n16 0    : 0ms  : Validate \"[http://loinc.org#74574-5 (\"\")]\"\r\n16 0    : 0ms  : Check \"http://loinc.org#74574-5\"\r\n16 0    : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1451,7 +1410,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n15 15   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n15 0    : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n15 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n15 0    : 0ms  : Prepare include: \"()\"\r\n15 0    : 0ms  : Validate \"[http://loinc.org#33737-8 (\"\")]\"\r\n15 0    : 0ms  : Check \"http://loinc.org#33737-8\"\r\n15 0    : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1481,7 +1439,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#102034-6 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#102034-6\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1511,7 +1468,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#42030-7 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#42030-7\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1541,7 +1497,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#84891-1 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#84891-1\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1571,7 +1526,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#81168-7 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#81168-7\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1601,7 +1555,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#21889-1 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#21889-1\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1631,7 +1584,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n16 0    : 0ms  : Prepare include: \"()\"\r\n16 0    : 0ms  : Validate \"[http://loinc.org#33728-7 (\"\")]\"\r\n16 0    : 0ms  : Check \"http://loinc.org#33728-7\"\r\n16 0    : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1661,7 +1613,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#33729-5 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#33729-5\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1692,7 +1643,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n15 15   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n15 0    : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n15 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n15 0    : 0ms  : Prepare include: \"()\"\r\n15 0    : 0ms  : Validate \"[http://loinc.org#22636-5 (\"\")]\"\r\n15 0    : 0ms  : Check \"http://loinc.org#22636-5\"\r\n15 0    : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1723,7 +1673,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#22633-2 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#22633-2\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1754,7 +1703,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n16 0    : 0ms  : Prepare include: \"()\"\r\n16 0    : 0ms  : Validate \"[http://loinc.org#22634-0 (\"\")]\"\r\n16 0    : 0ms  : Check \"http://loinc.org#22634-0\"\r\n16 0    : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1785,7 +1733,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#22635-7 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#22635-7\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1816,7 +1763,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#33746-9 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#33746-9\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1847,7 +1793,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n15 15   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n15 0    : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n15 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n15 0    : 0ms  : Prepare include: \"()\"\r\n15 0    : 0ms  : Validate \"[http://loinc.org#22637-3 (\"\")]\"\r\n15 0    : 0ms  : Check \"http://loinc.org#22637-3\"\r\n15 0    : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1878,7 +1823,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n16 0    : 0ms  : Prepare include: \"()\"\r\n16 0    : 0ms  : Validate \"[http://loinc.org#22638-1 (\"\")]\"\r\n16 0    : 0ms  : Check \"http://loinc.org#22638-1\"\r\n16 0    : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1909,7 +1853,6 @@ v: {
   "class" : "UNKNOWN",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/doc-typecodes|4.0.1 for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"(http://loinc.org)(SCALE_TYP=Doc)\"\r\n0 0     : 0ms  : CodeSystem found: \"http://loinc.org|2.81\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#66110-8 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#66110-8\"\r\n0 0     : 0ms  : CodeSystem found: http://loinc.org|2.81 for http://loinc.org\r\n0 0     : 0ms  : check code in (http://loinc.org)(SCALE_TYP=Doc) at CodeableConcept.coding[0]\r\n2094 2094: 2094ms : Filter \"SCALE_TYP=Doc\": Code \"66110-8\" not found in http://loinc.org|2.81\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -1980,7 +1923,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/report-codes|4.0.1 for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"(http://loinc.org)\"\r\n0 0     : 0ms  : CodeSystem found: \"http://loinc.org|2.81\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#66110-8 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#66110-8\"\r\n0 0     : 0ms  : CodeSystem found: http://loinc.org|2.81 for http://loinc.org\r\n0 0     : 0ms  : check code in (http://loinc.org) at CodeableConcept.coding[0]\r\n0 0     : 0ms  : Code \"66110-8\" found in http://loinc.org|2.81\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7600,7 +7542,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, en-US, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#92831-7 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#92831-7\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7628,7 +7569,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, en-US, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#33739-4 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#33739-4\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7656,7 +7596,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n15 15   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n15 0    : 0ms  : Parameters: disp-lang=en, en-US, default-to-latest\r\n15 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n15 0    : 0ms  : Prepare include: \"()\"\r\n15 0    : 0ms  : Validate \"[http://loinc.org#33740-2 (\"\")]\"\r\n15 0    : 0ms  : Check \"http://loinc.org#33740-2\"\r\n15 0    : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7684,7 +7623,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=en, en-US, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n16 0    : 0ms  : Prepare include: \"()\"\r\n16 0    : 0ms  : Validate \"[http://loinc.org#74574-5 (\"\")]\"\r\n16 0    : 0ms  : Check \"http://loinc.org#74574-5\"\r\n16 0    : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7712,7 +7650,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n15 15   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n15 0    : 0ms  : Parameters: disp-lang=en, en-US, default-to-latest\r\n15 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n15 0    : 0ms  : Prepare include: \"()\"\r\n15 0    : 0ms  : Validate \"[http://loinc.org#33737-8 (\"\")]\"\r\n15 0    : 0ms  : Check \"http://loinc.org#33737-8\"\r\n15 0    : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7740,7 +7677,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, en-US, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#102034-6 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#102034-6\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7768,7 +7704,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=en, en-US, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n16 0    : 0ms  : Prepare include: \"()\"\r\n16 0    : 0ms  : Validate \"[http://loinc.org#42030-7 (\"\")]\"\r\n16 0    : 0ms  : Check \"http://loinc.org#42030-7\"\r\n16 0    : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7796,7 +7731,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, en-US, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#84891-1 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#84891-1\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7824,7 +7758,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, en-US, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#81168-7 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#81168-7\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7852,7 +7785,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, en-US, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#21889-1 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#21889-1\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7880,7 +7812,6 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, en-US, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#33728-7 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#33728-7\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7908,6 +7839,229 @@ v: {
   "version" : "2.81",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, en-US, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#33729-5 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#33729-5\"\r\n0 0     : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "LIST",
+        "op" : "=",
+        "value" : "LL4348-0"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: There is no declared filter called LIST on code system http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA27146-2"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Deep margin",
+  "code" : "LA27146-2",
+  "system" : "http://loinc.org",
+  "version" : "2.81",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA27146-2"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs", "version": "0.1.1-ballot", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Deep margin",
+  "code" : "LA27146-2",
+  "system" : "http://loinc.org",
+  "version" : "2.81",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to draft ValueSet https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs|0.1.1-ballot"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to experimental ValueSet https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs|0.1.1-ballot"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA27146-2"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-NeoAdyuvancia-VS", "version": "0.1.1-ballot", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-NeoAdyuvancia-VS|0.1.1-ballot'; The provided code 'http://loinc.org#LA27146-2' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-NeoAdyuvancia-VS|0.1.1-ballot'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-NeoAdyuvancia-VS|0.1.1-ballot'"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to draft ValueSet https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-NeoAdyuvancia-VS|0.1.1-ballot"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to experimental ValueSet https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-NeoAdyuvancia-VS|0.1.1-ballot"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA27146-2' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-NeoAdyuvancia-VS|0.1.1-ballot'"
+    },
+    "location" : ["CodeableConcept.coding[0].code"],
+    "expression" : ["CodeableConcept.coding[0].code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA27146-2"
+  }]
+}, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Deep margin",
+  "code" : "LA27146-2",
+  "system" : "http://loinc.org",
+  "version" : "2.81",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"

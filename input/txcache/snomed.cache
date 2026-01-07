@@ -27265,7 +27265,6 @@ v: {
   "error" : "Unknown code '<108369006,^446608001' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20251101'",
   "class" : "UNKNOWN",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -27312,7 +27311,6 @@ v: {
   "error" : "Unknown code '^449080006' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20251101'",
   "class" : "UNKNOWN",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -27359,7 +27357,6 @@ v: {
   "error" : "Unknown code '^446608001,<91723000' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20251101'",
   "class" : "UNKNOWN",
   "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -37592,5 +37589,365 @@ e: {
   }
 },
   "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "385001000"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs", "version": "0.1.1-ballot", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs|0.1.1-ballot'; The provided code 'http://snomed.info/sct#385001000' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs|0.1.1-ballot'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs|0.1.1-ballot'"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://snomed.info/sct#385001000' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs|0.1.1-ballot'"
+    },
+    "location" : ["CodeableConcept.coding[0].code"],
+    "expression" : ["CodeableConcept.coding[0].code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "369762001"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs", "version": "0.1.1-ballot", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs|0.1.1-ballot'; The provided code 'http://snomed.info/sct#369762001' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs|0.1.1-ballot'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs|0.1.1-ballot'"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://snomed.info/sct#369762001' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs|0.1.1-ballot'"
+    },
+    "location" : ["CodeableConcept.coding[0].code"],
+    "expression" : ["CodeableConcept.coding[0].code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "52101004"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs", "version": "0.1.1-ballot", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs|0.1.1-ballot'; The provided code 'http://snomed.info/sct#52101004' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs|0.1.1-ballot'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs|0.1.1-ballot'"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://snomed.info/sct#52101004' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs|0.1.1-ballot'"
+    },
+    "location" : ["CodeableConcept.coding[0].code"],
+    "expression" : ["CodeableConcept.coding[0].code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "1229852009"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs", "version": "0.1.1-ballot", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs|0.1.1-ballot'; The provided code 'http://snomed.info/sct#1229852009' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs|0.1.1-ballot'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs|0.1.1-ballot'"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://snomed.info/sct#1229852009' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs|0.1.1-ballot'"
+    },
+    "location" : ["CodeableConcept.coding[0].code"],
+    "expression" : ["CodeableConcept.coding[0].code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "1229957002"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs", "version": "0.1.1-ballot", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs|0.1.1-ballot'; The provided code 'http://snomed.info/sct#1229957002' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs|0.1.1-ballot'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs|0.1.1-ballot'"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://snomed.info/sct#1229957002' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs|0.1.1-ballot'"
+    },
+    "location" : ["CodeableConcept.coding[0].code"],
+    "expression" : ["CodeableConcept.coding[0].code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "1229916009"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs", "version": "0.1.1-ballot", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs|0.1.1-ballot'; The provided code 'http://snomed.info/sct#1229916009' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs|0.1.1-ballot'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs|0.1.1-ballot'"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://snomed.info/sct#1229916009' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/tipo-de-margen-quirurgica-mq-vs|0.1.1-ballot'"
+    },
+    "location" : ["CodeableConcept.coding[0].code"],
+    "expression" : ["CodeableConcept.coding[0].code"]
+  }]
+}
+
 }
 -------------------------------------------------------------------------------------

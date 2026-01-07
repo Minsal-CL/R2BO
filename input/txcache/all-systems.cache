@@ -2671,3 +2671,423 @@ e: {
   "error" : "Error from https://tx.ontoserver.csiro.au/fhir: Error: [9fd519d9-88c3-4661-9b51-33e597c34f44]: A usable code system with URL http://terminology.hl7.org/CodeSystem/icd-o-3 could not be resolved.\r\nInformation: X-Request-Id: 3c891acd-8117-464b-abfc-751701cd0a5f"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA27146-2"
+  }]
+}, "url": "http://hl7.org/fhir/us/mcode/ValueSet/mcode-tnm-stage-group-vs", "version": "4.0.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'http://hl7.org/fhir/us/mcode/ValueSet/mcode-tnm-stage-group-vs|4.0.0'; The provided code 'http://loinc.org#LA27146-2' was not found in the value set 'http://hl7.org/fhir/us/mcode/ValueSet/mcode-tnm-stage-group-vs|4.0.0'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'http://hl7.org/fhir/us/mcode/ValueSet/mcode-tnm-stage-group-vs|4.0.0'"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA27146-2' was not found in the value set 'http://hl7.org/fhir/us/mcode/ValueSet/mcode-tnm-stage-group-vs|4.0.0'"
+    },
+    "location" : ["CodeableConcept.coding[0].code"],
+    "expression" : ["CodeableConcept.coding[0].code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA27146-2"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-respuestas-infiltracion-perineural-vs", "version": "0.1.1-ballot", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-respuestas-infiltracion-perineural-vs|0.1.1-ballot'; The provided code 'http://loinc.org#LA27146-2' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-respuestas-infiltracion-perineural-vs|0.1.1-ballot'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-respuestas-infiltracion-perineural-vs|0.1.1-ballot'"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA27146-2' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-respuestas-infiltracion-perineural-vs|0.1.1-ballot'"
+    },
+    "location" : ["CodeableConcept.coding[0].code"],
+    "expression" : ["CodeableConcept.coding[0].code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA27146-2"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-respuestas-infiltracion-peritumoral-vs", "version": "0.1.1-ballot", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-respuestas-infiltracion-peritumoral-vs|0.1.1-ballot'; The provided code 'http://loinc.org#LA27146-2' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-respuestas-infiltracion-peritumoral-vs|0.1.1-ballot'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-respuestas-infiltracion-peritumoral-vs|0.1.1-ballot'"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA27146-2' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-respuestas-infiltracion-peritumoral-vs|0.1.1-ballot'"
+    },
+    "location" : ["CodeableConcept.coding[0].code"],
+    "expression" : ["CodeableConcept.coding[0].code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA27146-2"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-invasion-linfatica-VS", "version": "0.1.1-ballot", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-invasion-linfatica-VS|0.1.1-ballot'; The provided code 'http://loinc.org#LA27146-2' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-invasion-linfatica-VS|0.1.1-ballot'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-invasion-linfatica-VS|0.1.1-ballot'"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA27146-2' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-invasion-linfatica-VS|0.1.1-ballot'"
+    },
+    "location" : ["CodeableConcept.coding[0].code"],
+    "expression" : ["CodeableConcept.coding[0].code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA27146-2"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs", "version": "0.1.1-ballot", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.1.1-ballot'; The provided code 'http://loinc.org#LA27146-2' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.1.1-ballot'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.1.1-ballot'"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA27146-2' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.1.1-ballot'"
+    },
+    "location" : ["CodeableConcept.coding[0].code"],
+    "expression" : ["CodeableConcept.coding[0].code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA27146-2"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs", "version": "0.1.1-ballot", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.1.1-ballot'; The provided code 'http://loinc.org#LA27146-2' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.1.1-ballot'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.1.1-ballot'"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA27146-2' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.1.1-ballot'"
+    },
+    "location" : ["CodeableConcept.coding[0].code"],
+    "expression" : ["CodeableConcept.coding[0].code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA27146-2"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs", "version": "0.1.1-ballot", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.1.1-ballot'; The provided code 'http://loinc.org#LA27146-2' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.1.1-ballot'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.ontoserver.csiro.au/fhir",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.1.1-ballot'"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA27146-2' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.1.1-ballot'"
+    },
+    "location" : ["CodeableConcept.coding[0].code"],
+    "expression" : ["CodeableConcept.coding[0].code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
