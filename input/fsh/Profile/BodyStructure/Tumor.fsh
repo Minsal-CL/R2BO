@@ -16,11 +16,12 @@ Description:    "Este recurso permite entregar la morfología y la topología re
 
 * ^abstract = false
 
-* extension contains ExtensionGradoDiferenciacion named gradoDiferenciacion 0..1 MS
-  * ^short = "Grado de diferenciación tumoral"
+
 
 * morphology 1..1 MS
   * ^short = "Tipo de estructura"
+  * extension contains ExtensionGradoDiferenciacion named gradoDiferenciacion 0..1 MS
+    * ^short = "Grado de diferenciación tumoral"
 // * morphology only CodeableConceptSCTCIEO
 * morphology from MorfologicoSnomedCIEOVS (extensible)
 

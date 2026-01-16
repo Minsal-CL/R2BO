@@ -18,7 +18,7 @@ Description:    "Reporte de anatomía patológica"
 
 * obeys r2bo-diag-1
 
-* extension contains ExtensionComposition named composition 0..1 MS
+* extension contains ExtensionComposition named composition 1..1 MS
 * extension[composition] ^short = "Refernecia al composition del documento"
 
 * identifier 1..1 MS
@@ -64,7 +64,7 @@ Description:    "Reporte de anatomía patológica"
   * ^slicing.description = "Distintos Resultados del Informe de Anatomía Patológica"
   * ^slicing.ordered = false
 * result only Reference(ResultadosReporteBiopsia)
-* result contains Microscopia 1..1 MS and Macroscopia 0..1 MS and TNM 0..1 MS and Resultados ..* 
+* result contains Microscopia 1..* MS and Macroscopia 0..* MS and TNM 0..1 MS 
 
 * result[Microscopia] ^short = "Resultados de Microscopía"
 * result[Microscopia] only Reference(ObservacionMicroscopicaR2BO)
@@ -72,21 +72,21 @@ Description:    "Reporte de anatomía patológica"
 * result[Macroscopia] only Reference(ObservacionMacroscopicaR2BO)
 * result[TNM] ^short = "Estadificación patológica TNM"
 * result[TNM] only Reference(EstadificacionTNM)
-* result[Resultados] ^short = "Otros posibles resultados"
-* result[Resultados] only Reference(
-    ObservacionInfiltracionPerineuralR2BO or
-    ObservacionGangliosLinfaticos or
-    ObservacionInfiltradoPeritumoralR2BO or
-    ObservacionInvasionLinfaticaR2BO or
-    ObservacionInvasionVascularR2BO or
-    ObservacionMargenQuirugico or
-    ObservacionMulticentricidad or
-    ObservacionFocalidad or
-    ObservacionPostNeoadjudancia or
-    ObservacionPorcentajeNecrosisR2BO or
-    ObservacionTejidoNoTumoralAdyacente or
-    TamanoTumorR2BO
-  )
+// * result[Resultados] ^short = "Otros posibles resultados"
+// * result[Resultados] only Reference(
+//     ObservacionInfiltracionPerineuralR2BO or
+//     ObservacionGangliosLinfaticos or
+//     ObservacionInfiltradoPeritumoralR2BO or
+//     ObservacionInvasionLinfaticaR2BO or
+//     ObservacionInvasionVascularR2BO or
+//     ObservacionMargenQuirugico or
+//     ObservacionMulticentricidad or
+//     ObservacionFocalidad or
+//     ObservacionPostNeoadjudancia or
+//     ObservacionPorcentajeNecrosisR2BO or
+//     ObservacionTejidoNoTumoralAdyacente or
+//     TamanoTumorR2BO
+// )
 
 * conclusion 1..1 MS
   * ^short = "Conclusión narrativa del informe de anatomía patológica"

@@ -1,3 +1,7 @@
+### Versión 0.2.0
+
+Se eliminaron observaciones especificos con sus ValueSet, para disminuir la complejidad de la guía de implementación
+
 ### Versión 0.1.1
 
 Se crearon los perfiles para generar documento FHIR, inspirados en la guía de [HL7 Europa Imaging Study Report](https://build.fhir.org/ig/hl7-eu/imaging/).

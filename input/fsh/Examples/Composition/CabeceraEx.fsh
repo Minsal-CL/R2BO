@@ -44,23 +44,23 @@ Description:    "Documento de un informe de anatomía patológica de biopsia de 
   * text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>Microscopia de Biopsia</div>"
   * entry[0] = Reference(r2bo-observacion-microscopica-ex)
 
-* section[hallazgos]
-  * code = $loinc#33746-9
-  * code.text = "Hallazgos de Biopsia"
-  * text.status = #generated
-  * text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>Hallazgos de Biopsia</div>"
-  * entry[0] = Reference(r2bo-observacion-ganglios-linfaticos-ex)
-  * entry[1] = Reference(r2bo-observacion-infiltracion-perineural-ex)
-  * entry[2] = Reference(r2bo-observacion-infiltracion-peritumoral-ex)
-  * entry[3] = Reference(r2bo-observacion-invasion-linfatica-ex)
-  * entry[4] = Reference(r2bo-observacion-invasion-vascular-ex)
-  * entry[5] = Reference(r2bo-observacion-margen-quirurgico-ex)
-  * entry[6] = Reference(r2bo-observacion-centricidad-ex)
-  * entry[7] = Reference(r2bo-observacion-multifocalidad-ex)
-  * entry[8] = Reference(r2bo-observacion-porcentaje-necrosis-ex)
-  * entry[9] = Reference(r2bo-observacion-post-tratamiento-neoadjuvancia-ex)
-  * entry[10] = Reference(r2bo-tamano-tumor-ex)
-  * entry[11] = Reference(r2bo-estadificacion-tnm-ex)
+// * section[hallazgos]
+//   * code = $loinc#33746-9
+//   * code.text = "Hallazgos de Biopsia"
+//   * text.status = #generated
+//   * text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>Hallazgos de Biopsia</div>"
+//   * entry[0] = Reference(r2bo-observacion-ganglios-linfaticos-ex)
+//   * entry[1] = Reference(r2bo-observacion-infiltracion-perineural-ex)
+//   * entry[2] = Reference(r2bo-observacion-infiltracion-peritumoral-ex)
+//   * entry[3] = Reference(r2bo-observacion-invasion-linfatica-ex)
+//   * entry[4] = Reference(r2bo-observacion-invasion-vascular-ex)
+//   * entry[5] = Reference(r2bo-observacion-margen-quirurgico-ex)
+//   * entry[6] = Reference(r2bo-observacion-centricidad-ex)
+//   * entry[7] = Reference(r2bo-observacion-multifocalidad-ex)
+//   * entry[8] = Reference(r2bo-observacion-porcentaje-necrosis-ex)
+//   * entry[9] = Reference(r2bo-observacion-post-tratamiento-neoadjuvancia-ex)
+//   * entry[10] = Reference(r2bo-tamano-tumor-ex)
+//   * entry[11] = Reference(r2bo-estadificacion-tnm-ex)
 
 * section[conclusiones]
   * code = $loinc#22637-3

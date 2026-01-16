@@ -47,19 +47,19 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
     Estadificacion 0..1 and
     CategoriaT 0..1 and
     CategoriaN 0..1 and
-    CategoriaM 0..1 and
-    ObservacionInfiltracionPerineuralR2BO 0..1 and
-    ObservacionGangliosLinfaticos 0..1 and
-    ObservacionInfiltradoPeritumoralR2BO 0..1 and
-    ObservacionInvasionLinfaticaR2BO 0..1 and
-    ObservacionInvasionVascularR2BO 0..1 and
-    ObservacionMargenQuirugico 0..1 and
-    ObservacionMulticentricidad 0..1 and
-    ObservacionFocalidad 0..1 and
-    ObservacionPostNeoadjudancia 0..1 and
-    ObservacionPorcentajeNecrosisR2BO 0..1 and
-    ObservacionTejidoNoTumoralAdyacente 0..1 and
-    TamanoTumorR2BO 0..1 
+    CategoriaM 0..1 //and
+    // ObservacionInfiltracionPerineuralR2BO 0..1 and
+    // ObservacionGangliosLinfaticos 0..1 and
+    // ObservacionInfiltradoPeritumoralR2BO 0..1 and
+    // ObservacionInvasionLinfaticaR2BO 0..1 and
+    // ObservacionInvasionVascularR2BO 0..1 and
+    // ObservacionMargenQuirugico 0..1 and
+    // ObservacionMulticentricidad 0..1 and
+    // ObservacionFocalidad 0..1 and
+    // ObservacionPostNeoadjudancia 0..1 and
+    // ObservacionPorcentajeNecrosisR2BO 0..1 and
+    // ObservacionTejidoNoTumoralAdyacente 0..1 and
+    // TamanoTumorR2BO 0..1 
 
     // Resultados 0..*
 
@@ -245,122 +245,122 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
     * url
       * ^short = "Uri del recurso \"Observation\""
 
-* entry[ObservacionInfiltracionPerineuralR2BO]
-  * resource 1..1 MS
-  * resource only ObservacionInfiltracionPerineuralR2BO
-  * request 1..1
-    * method 1..1
-    * method = #POST
-    * url 1..1
-    * url
-      * ^short = "Uri del recurso \"Observation\""
+// * entry[ObservacionInfiltracionPerineuralR2BO]
+//   * resource 1..1 MS
+//   * resource only ObservacionInfiltracionPerineuralR2BO
+//   * request 1..1
+//     * method 1..1
+//     * method = #POST
+//     * url 1..1
+//     * url
+//       * ^short = "Uri del recurso \"Observation\""
 
-* entry[ObservacionGangliosLinfaticos]
-  * resource 1..1 MS
-  * resource only ObservacionGangliosLinfaticos
-  * request 1..1
-    * method 1..1
-    * method = #POST
-    * url 1..1
-    * url
-      * ^short = "Uri del recurso \"Observation\""
+// * entry[ObservacionGangliosLinfaticos]
+//   * resource 1..1 MS
+//   * resource only ObservacionGangliosLinfaticos
+//   * request 1..1
+//     * method 1..1
+//     * method = #POST
+//     * url 1..1
+//     * url
+//       * ^short = "Uri del recurso \"Observation\""
 
-* entry[ObservacionInfiltradoPeritumoralR2BO]
-  * resource 1..1 MS
-  * resource only ObservacionInfiltradoPeritumoralR2BO
-  * request 1..1
-    * method 1..1
-    * method = #POST
-    * url 1..1
-    * url
-      * ^short = "Uri del recurso \"Observation\""
+// * entry[ObservacionInfiltradoPeritumoralR2BO]
+//   * resource 1..1 MS
+//   * resource only ObservacionInfiltradoPeritumoralR2BO
+//   * request 1..1
+//     * method 1..1
+//     * method = #POST
+//     * url 1..1
+//     * url
+//       * ^short = "Uri del recurso \"Observation\""
 
-* entry[ObservacionInvasionLinfaticaR2BO]
-  * resource 1..1 MS
-  * resource only ObservacionInvasionLinfaticaR2BO
-  * request 1..1
-    * method 1..1
-    * method = #POST
-    * url 1..1
-    * url
-      * ^short = "Uri del recurso \"Observation\""
+// * entry[ObservacionInvasionLinfaticaR2BO]
+//   * resource 1..1 MS
+//   * resource only ObservacionInvasionLinfaticaR2BO
+//   * request 1..1
+//     * method 1..1
+//     * method = #POST
+//     * url 1..1
+//     * url
+//       * ^short = "Uri del recurso \"Observation\""
 
-* entry[ObservacionInvasionVascularR2BO]
-  * resource 1..1 MS
-  * resource only ObservacionInvasionVascularR2BO
-  * request 1..1
-    * method 1..1
-    * method = #POST
-    * url 1..1
-    * url
-      * ^short = "Uri del recurso \"Observation\""
+// * entry[ObservacionInvasionVascularR2BO]
+//   * resource 1..1 MS
+//   * resource only ObservacionInvasionVascularR2BO
+//   * request 1..1
+//     * method 1..1
+//     * method = #POST
+//     * url 1..1
+//     * url
+//       * ^short = "Uri del recurso \"Observation\""
 
-* entry[ObservacionMargenQuirugico]
-  * resource 1..1 MS
-  * resource only ObservacionMargenQuirugico
-  * request 1..1
-    * method 1..1
-    * method = #POST
-    * url 1..1
-    * url
-      * ^short = "Uri del recurso \"Observation\""
+// * entry[ObservacionMargenQuirugico]
+//   * resource 1..1 MS
+//   * resource only ObservacionMargenQuirugico
+//   * request 1..1
+//     * method 1..1
+//     * method = #POST
+//     * url 1..1
+//     * url
+//       * ^short = "Uri del recurso \"Observation\""
 
-* entry[ObservacionMulticentricidad]
-  * resource 1..1 MS
-  * resource only ObservacionMulticentricidad
-  * request 1..1
-    * method 1..1
-    * method = #POST
-    * url 1..1
-    * url
-      * ^short = "Uri del recurso \"Observation\""
+// * entry[ObservacionMulticentricidad]
+//   * resource 1..1 MS
+//   * resource only ObservacionMulticentricidad
+//   * request 1..1
+//     * method 1..1
+//     * method = #POST
+//     * url 1..1
+//     * url
+//       * ^short = "Uri del recurso \"Observation\""
 
-* entry[ObservacionFocalidad]
-  * resource 1..1 MS
-  * resource only ObservacionFocalidad
-  * request 1..1
-    * method 1..1
-    * method = #POST
-    * url 1..1
-    * url
-      * ^short = "Uri del recurso \"Observation\""
+// * entry[ObservacionFocalidad]
+//   * resource 1..1 MS
+//   * resource only ObservacionFocalidad
+//   * request 1..1
+//     * method 1..1
+//     * method = #POST
+//     * url 1..1
+//     * url
+//       * ^short = "Uri del recurso \"Observation\""
 
-* entry[ObservacionPostNeoadjudancia]
-  * resource 1..1 MS
-  * resource only ObservacionPostNeoadjudancia
-  * request 1..1
-    * method 1..1
-    * method = #POST
-    * url 1..1
-    * url
-      * ^short = "Uri del recurso \"Observation\""
+// * entry[ObservacionPostNeoadjudancia]
+//   * resource 1..1 MS
+//   * resource only ObservacionPostNeoadjudancia
+//   * request 1..1
+//     * method 1..1
+//     * method = #POST
+//     * url 1..1
+//     * url
+//       * ^short = "Uri del recurso \"Observation\""
   
-* entry[ObservacionPorcentajeNecrosisR2BO]
-  * resource 1..1 MS
-  * resource only ObservacionPorcentajeNecrosisR2BO
-  * request 1..1
-    * method 1..1
-    * method = #POST
-    * url 1..1
-    * url
-      * ^short = "Uri del recurso \"Observation\""
+// * entry[ObservacionPorcentajeNecrosisR2BO]
+//   * resource 1..1 MS
+//   * resource only ObservacionPorcentajeNecrosisR2BO
+//   * request 1..1
+//     * method 1..1
+//     * method = #POST
+//     * url 1..1
+//     * url
+//       * ^short = "Uri del recurso \"Observation\""
 
-* entry[ObservacionTejidoNoTumoralAdyacente]
-  * resource 1..1 MS
-  * resource only ObservacionTejidoNoTumoralAdyacente
-  * request 1..1
-    * method 1..1
-    * method = #POST
-    * url 1..1
-    * url
-      * ^short = "Uri del recurso \"Observation\""
+// * entry[ObservacionTejidoNoTumoralAdyacente]
+//   * resource 1..1 MS
+//   * resource only ObservacionTejidoNoTumoralAdyacente
+//   * request 1..1
+//     * method 1..1
+//     * method = #POST
+//     * url 1..1
+//     * url
+//       * ^short = "Uri del recurso \"Observation\""
 
-* entry[TamanoTumorR2BO]
-  * resource 1..1 MS
-  * resource only TamanoTumorR2BO
-  * request 1..1
-    * method 1..1
-    * method = #POST
-    * url 1..1
-    * url
-      * ^short = "Uri del recurso \"Observation\""
+// * entry[TamanoTumorR2BO]
+//   * resource 1..1 MS
+//   * resource only TamanoTumorR2BO
+//   * request 1..1
+//     * method 1..1
+//     * method = #POST
+//     * url 1..1
+//     * url
+//       * ^short = "Uri del recurso \"Observation\""

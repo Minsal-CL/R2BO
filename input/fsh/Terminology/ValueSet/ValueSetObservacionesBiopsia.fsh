@@ -6,6 +6,7 @@ Description:    "Observaciones realizadas durante el informe de biopsia"
 * insert SetCopyrightLOINC&SNOMED
 * ^experimental = true
 
+//* $snomed|http://snomed.info/sct/900000000000207008/version/20251101#385361009 " International Federation of Gynecology and Obstetrics stage for gynecological malignancy"
 * $snomed|http://snomed.info/sct/900000000000207008/version/20251101#399588009 "Pathologic TNM stage grouping"
 * $snomed|http://snomed.info/sct/900000000000207008/version/20251101#371513001 "Presence of direct invasion by primary malignant neoplasm to nerve"
 * $snomed|http://snomed.info/sct/900000000000207008/version/20251101#405921002 "Percentage of neoplasm involved by necrosis"

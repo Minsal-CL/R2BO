@@ -24,6 +24,9 @@ Description:    "Este recurso representa la cabecera del documento de un reporte
   * ^short = "Identificador del reporte"
 
 * status 1.. MS
+* subject 1..1 MS
+  * ^short = "Paciente al cual se le realizó el informe de biopsía" 
+* subject only Reference(MINSALPaciente)
 * type  1.. MS
   * ^short = "Tipo de documento, que representa al informe de biopsía"
 * type from ReporteBiopsiaVS (extensible)
@@ -56,7 +59,7 @@ Description:    "Este recurso representa la cabecera del documento de un reporte
   muestra 1..1 MS and
   macroscopia 0..1 MS and
   microscopia 1..1 MS and
-  hallazgos 1..1 MS and
+  // hallazgos 1..1 MS and
   conclusiones 1..1 MS and
   Notas 0..1 
 
@@ -75,21 +78,21 @@ Description:    "Este recurso representa la cabecera del documento de un reporte
 * section[macroscopia]
   * ^short = "Observaciones realizadas a la muestra a simple vista"
   * code = $loinc#22634-0
-  * entry 1..1
+  * entry 1..*
   * entry only Reference(ObservacionMacroscopicaR2BO)
 
 * section[microscopia]
   * ^short = "Observaciones realizadas a traves de un microscopio"
   * code = $loinc#22635-7
-  * entry 1..1
+  * entry 1..*
   * entry only Reference(ObservacionMicroscopicaR2BO)
 
-* section[hallazgos]
-  * ^short = "Resultado de observaciones que fueron realizadas a la muestra"
-  * code = $loinc#33746-9
-  * entry 0..*
-  * entry only Reference(EstadificacionTNM or ObservacionInfiltracionPerineuralR2BO or ObservacionGangliosLinfaticos or ObservacionInfiltradoPeritumoralR2BO or ObservacionInvasionLinfaticaR2BO or ObservacionInvasionVascularR2BO or ObservacionMargenQuirugico or ObservacionMulticentricidad or ObservacionFocalidad or ObservacionPostNeoadjudancia or ObservacionPorcentajeNecrosisR2BO or ObservacionTejidoNoTumoralAdyacente or TamanoTumorR2BO)
-  * emptyReason 0..1 
+// * section[hallazgos]
+//   * ^short = "Resultado de observaciones que fueron realizadas a la muestra"
+//   * code = $loinc#33746-9
+//   * entry 0..*
+//   * entry only Reference(EstadificacionTNM or ObservacionInfiltracionPerineuralR2BO or ObservacionGangliosLinfaticos or ObservacionInfiltradoPeritumoralR2BO or ObservacionInvasionLinfaticaR2BO or ObservacionInvasionVascularR2BO or ObservacionMargenQuirugico or ObservacionMulticentricidad or ObservacionFocalidad or ObservacionPostNeoadjudancia or ObservacionPorcentajeNecrosisR2BO or ObservacionTejidoNoTumoralAdyacente or TamanoTumorR2BO)
+//   * emptyReason 0..1 
 
 
 * section[conclusiones]

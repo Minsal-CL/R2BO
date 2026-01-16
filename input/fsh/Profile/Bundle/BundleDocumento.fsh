@@ -48,19 +48,19 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para el d
     Estadificacion 0..1 and
     CategoriaT 0..1 and
     CategoriaN 0..1 and
-    CategoriaM 0..1 and
-    ObservacionInfiltracionPerineuralR2BO 0..1 and
-    ObservacionGangliosLinfaticos 0..1 and
-    ObservacionInfiltradoPeritumoralR2BO 0..1 and
-    ObservacionInvasionLinfaticaR2BO 0..1 and
-    ObservacionInvasionVascularR2BO 0..1 and
-    ObservacionMargenQuirugico 0..1 and
-    ObservacionMulticentricidad 0..1 and
-    ObservacionFocalidad 0..1 and
-    ObservacionPostNeoadjudancia 0..1 and
-    ObservacionPorcentajeNecrosisR2BO 0..1 and
-    ObservacionTejidoNoTumoralAdyacente 0..1 and
-    TamanoTumorR2BO 0..1
+    CategoriaM 0..1 //and
+    // ObservacionInfiltracionPerineuralR2BO 0..1 and
+    // ObservacionGangliosLinfaticos 0..1 and
+    // ObservacionInfiltradoPeritumoralR2BO 0..1 and
+    // ObservacionInvasionLinfaticaR2BO 0..1 and
+    // ObservacionInvasionVascularR2BO 0..1 and
+    // ObservacionMargenQuirugico 0..1 and
+    // ObservacionMulticentricidad 0..1 and
+    // ObservacionFocalidad 0..1 and
+    // ObservacionPostNeoadjudancia 0..1 and
+    // ObservacionPorcentajeNecrosisR2BO 0..1 and
+    // ObservacionTejidoNoTumoralAdyacente 0..1 and
+    // TamanoTumorR2BO 0..1
 
 * entry[CabeceraDocumento]
   
@@ -128,55 +128,55 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para el d
   
   * resource only TNMCategoriaMetastasisDistante
   
-* entry[ObservacionInfiltracionPerineuralR2BO]
+// * entry[ObservacionInfiltracionPerineuralR2BO]
   
-  * resource only ObservacionInfiltracionPerineuralR2BO
+//   * resource only ObservacionInfiltracionPerineuralR2BO
 
-* entry[ObservacionGangliosLinfaticos]
+// * entry[ObservacionGangliosLinfaticos]
   
-  * resource only ObservacionGangliosLinfaticos
+//   * resource only ObservacionGangliosLinfaticos
 
-* entry[ObservacionInfiltradoPeritumoralR2BO]
+// * entry[ObservacionInfiltradoPeritumoralR2BO]
   
-  * resource only ObservacionInfiltradoPeritumoralR2BO
+//   * resource only ObservacionInfiltradoPeritumoralR2BO
   
-* entry[ObservacionInvasionLinfaticaR2BO]
+// * entry[ObservacionInvasionLinfaticaR2BO]
   
-  * resource only ObservacionInvasionLinfaticaR2BO
+//   * resource only ObservacionInvasionLinfaticaR2BO
   
 
-* entry[ObservacionInvasionVascularR2BO]
+// * entry[ObservacionInvasionVascularR2BO]
   
-  * resource only ObservacionInvasionVascularR2BO
+//   * resource only ObservacionInvasionVascularR2BO
  
 
-* entry[ObservacionMargenQuirugico]
+// * entry[ObservacionMargenQuirugico]
   
-  * resource only ObservacionMargenQuirugico
+//   * resource only ObservacionMargenQuirugico
   
 
-* entry[ObservacionMulticentricidad]
+// * entry[ObservacionMulticentricidad]
   
-  * resource only ObservacionMulticentricidad
+//   * resource only ObservacionMulticentricidad
 
 
-* entry[ObservacionFocalidad]
+// * entry[ObservacionFocalidad]
   
-  * resource only ObservacionFocalidad
+//   * resource only ObservacionFocalidad
 
-* entry[ObservacionPostNeoadjudancia]
+// * entry[ObservacionPostNeoadjudancia]
   
-  * resource only ObservacionPostNeoadjudancia
+//   * resource only ObservacionPostNeoadjudancia
   
-* entry[ObservacionPorcentajeNecrosisR2BO]
+// * entry[ObservacionPorcentajeNecrosisR2BO]
   
-  * resource only ObservacionPorcentajeNecrosisR2BO
+//   * resource only ObservacionPorcentajeNecrosisR2BO
 
 
-* entry[ObservacionTejidoNoTumoralAdyacente]
+// * entry[ObservacionTejidoNoTumoralAdyacente]
   
-  * resource only ObservacionTejidoNoTumoralAdyacente
+//   * resource only ObservacionTejidoNoTumoralAdyacente
 
-* entry[TamanoTumorR2BO]
+// * entry[TamanoTumorR2BO]
   
-  * resource only TamanoTumorR2BO
+//   * resource only TamanoTumorR2BO

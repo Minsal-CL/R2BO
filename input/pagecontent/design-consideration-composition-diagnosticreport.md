@@ -15,7 +15,7 @@ En relación con los paquetes de documentos, se adoptan las siguientes directric
 ``` mermaid
 classDiagram
     class ApDiagnosticReport
-    class ApComposition
+    class ApComposition 
     ApDiagnosticReport --> ApComposition: extension[composition]
     ApComposition --> ApDiagnosticReport: extension[diagnosticReport-reference]
 ```

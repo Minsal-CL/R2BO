@@ -18,4 +18,6 @@ Tejido No Tumoral Adyacente,http://loinc.org, 81168-7, Site of adjacent organ or
 Evaluación Post Neoadyuvancia,http://loinc.org, 84891-1, Pathology report post neoadjuvant therapy assessment in Specimen
 Margen Quirurgico Característica,http://snomed.info/sct, 396631001, Surgical margin observable
 Margen Quirurgico Medida,http://loinc.org, 33737-8, Distance of tumor from closest margin
+Score ISUP, http://loinc.org, 94734-1, Prostate cancer grade group [Score] in Prostate tumor Qualitative
+Invasion de cuello vesical, http://snomed.info/sct, 716821000004105, Presence of direct invasion by primary malignant neoplasm to urinary bladder neck
 Reporte de Biopsia,http://loinc.org, LP121003-0, Pathology biopsy report

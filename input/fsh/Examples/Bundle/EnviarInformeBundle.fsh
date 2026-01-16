@@ -138,82 +138,82 @@ Description:    "Ejemplo de Bundle que contiene los recursos necesarios para sol
     * method = #POST
     * url = "Observation"
 
-* entry[ObservacionInfiltracionPerineuralR2BO]
-  * fullUrl = Canonical(r2bo-observacion-infiltracion-perineural-ex)
-  * resource = r2bo-observacion-infiltracion-perineural-ex
-  * request
-    * method = #POST
-    * url = "Observation"
+// * entry[ObservacionInfiltracionPerineuralR2BO]
+//   * fullUrl = Canonical(r2bo-observacion-infiltracion-perineural-ex)
+//   * resource = r2bo-observacion-infiltracion-perineural-ex
+//   * request
+//     * method = #POST
+//     * url = "Observation"
 
-* entry[ObservacionGangliosLinfaticos]
-  * fullUrl = Canonical(r2bo-observacion-ganglios-linfaticos-ex)
-  * resource = r2bo-observacion-ganglios-linfaticos-ex
-  * request
-    * method = #POST
-    * url = "Observation"
+// * entry[ObservacionGangliosLinfaticos]
+//   * fullUrl = Canonical(r2bo-observacion-ganglios-linfaticos-ex)
+//   * resource = r2bo-observacion-ganglios-linfaticos-ex
+//   * request
+//     * method = #POST
+//     * url = "Observation"
 
-* entry[ObservacionInfiltradoPeritumoralR2BO]
-  * fullUrl = Canonical(r2bo-observacion-infiltracion-peritumoral-ex)
-  * resource = r2bo-observacion-infiltracion-peritumoral-ex
-  * request
-    * method = #POST
-    * url = "Observation"
+// * entry[ObservacionInfiltradoPeritumoralR2BO]
+//   * fullUrl = Canonical(r2bo-observacion-infiltracion-peritumoral-ex)
+//   * resource = r2bo-observacion-infiltracion-peritumoral-ex
+//   * request
+//     * method = #POST
+//     * url = "Observation"
 
-* entry[ObservacionInvasionLinfaticaR2BO]
-  * fullUrl = Canonical(r2bo-observacion-invasion-linfatica-ex)
-  * resource = r2bo-observacion-invasion-linfatica-ex
-  * request
-    * method = #POST
-    * url = "Observation"
+// * entry[ObservacionInvasionLinfaticaR2BO]
+//   * fullUrl = Canonical(r2bo-observacion-invasion-linfatica-ex)
+//   * resource = r2bo-observacion-invasion-linfatica-ex
+//   * request
+//     * method = #POST
+//     * url = "Observation"
 
-* entry[ObservacionInvasionVascularR2BO]
-  * fullUrl = Canonical(r2bo-observacion-invasion-vascular-ex)
-  * resource = r2bo-observacion-invasion-vascular-ex
-  * request
-    * method = #POST
-    * url = "Observation"
+// * entry[ObservacionInvasionVascularR2BO]
+//   * fullUrl = Canonical(r2bo-observacion-invasion-vascular-ex)
+//   * resource = r2bo-observacion-invasion-vascular-ex
+//   * request
+//     * method = #POST
+//     * url = "Observation"
 
-* entry[ObservacionMargenQuirugico]
-  * fullUrl = Canonical(r2bo-observacion-margen-quirurgico-ex)
-  * resource = r2bo-observacion-margen-quirurgico-ex
-  * request
-    * method = #POST
-    * url = "Observation"
+// * entry[ObservacionMargenQuirugico]
+//   * fullUrl = Canonical(r2bo-observacion-margen-quirurgico-ex)
+//   * resource = r2bo-observacion-margen-quirurgico-ex
+//   * request
+//     * method = #POST
+//     * url = "Observation"
 
-* entry[ObservacionMulticentricidad]
-  * fullUrl = Canonical(r2bo-observacion-centricidad-ex)
-  * resource = r2bo-observacion-centricidad-ex
-  * request
-    * method = #POST
-    * url = "Observation"
+// * entry[ObservacionMulticentricidad]
+//   * fullUrl = Canonical(r2bo-observacion-centricidad-ex)
+//   * resource = r2bo-observacion-centricidad-ex
+//   * request
+//     * method = #POST
+//     * url = "Observation"
 
-* entry[ObservacionFocalidad]
-  * fullUrl = Canonical(r2bo-observacion-multifocalidad-ex)
-  * resource = r2bo-observacion-multifocalidad-ex
-  * request
-    * method = #POST
-    * url = "Observation"
+// * entry[ObservacionFocalidad]
+//   * fullUrl = Canonical(r2bo-observacion-multifocalidad-ex)
+//   * resource = r2bo-observacion-multifocalidad-ex
+//   * request
+//     * method = #POST
+//     * url = "Observation"
 
-* entry[ObservacionPorcentajeNecrosisR2BO]
-  * fullUrl = Canonical(r2bo-observacion-porcentaje-necrosis-ex)
-  * resource = r2bo-observacion-porcentaje-necrosis-ex
-  * request
-    * method = #POST
-    * url = "Observation"
+// * entry[ObservacionPorcentajeNecrosisR2BO]
+//   * fullUrl = Canonical(r2bo-observacion-porcentaje-necrosis-ex)
+//   * resource = r2bo-observacion-porcentaje-necrosis-ex
+//   * request
+//     * method = #POST
+//     * url = "Observation"
 
-* entry[ObservacionPostNeoadjudancia]
-  * fullUrl = Canonical(r2bo-observacion-post-tratamiento-neoadjuvancia-ex)
-  * resource = r2bo-observacion-post-tratamiento-neoadjuvancia-ex
-  * request
-    * method = #POST
-    * url = "Observation"
+// * entry[ObservacionPostNeoadjudancia]
+//   * fullUrl = Canonical(r2bo-observacion-post-tratamiento-neoadjuvancia-ex)
+//   * resource = r2bo-observacion-post-tratamiento-neoadjuvancia-ex
+//   * request
+//     * method = #POST
+//     * url = "Observation"
 
-* entry[TamanoTumorR2BO]
-  * fullUrl = Canonical(r2bo-tamano-tumor-ex)
-  * resource = r2bo-tamano-tumor-ex
-  * request
-    * method = #POST
-    * url = "Observation"
+// * entry[TamanoTumorR2BO]
+//   * fullUrl = Canonical(r2bo-tamano-tumor-ex)
+//   * resource = r2bo-tamano-tumor-ex
+//   * request
+//     * method = #POST
+//     * url = "Observation"
 
 Instance:           r2bo-specimen-example-2
 InstanceOf:         MuestraR2BO

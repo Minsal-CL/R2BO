@@ -79,57 +79,57 @@ Description:    "Ejemplo de Bundle que contiene los recursos de un documento de 
   * resource = r2bo-tnm-categoria-metastasis-distantel-ex
  
 
-* entry[ObservacionInfiltracionPerineuralR2BO]
-  * fullUrl = Canonical(r2bo-observacion-infiltracion-perineural-ex)
-  * resource = r2bo-observacion-infiltracion-perineural-ex
+// * entry[ObservacionInfiltracionPerineuralR2BO]
+//   * fullUrl = Canonical(r2bo-observacion-infiltracion-perineural-ex)
+//   * resource = r2bo-observacion-infiltracion-perineural-ex
  
 
-* entry[ObservacionGangliosLinfaticos]
-  * fullUrl = Canonical(r2bo-observacion-ganglios-linfaticos-ex)
-  * resource = r2bo-observacion-ganglios-linfaticos-ex
+// * entry[ObservacionGangliosLinfaticos]
+//   * fullUrl = Canonical(r2bo-observacion-ganglios-linfaticos-ex)
+//   * resource = r2bo-observacion-ganglios-linfaticos-ex
  
 
-* entry[ObservacionInfiltradoPeritumoralR2BO]
-  * fullUrl = Canonical(r2bo-observacion-infiltracion-peritumoral-ex)
-  * resource = r2bo-observacion-infiltracion-peritumoral-ex
+// * entry[ObservacionInfiltradoPeritumoralR2BO]
+//   * fullUrl = Canonical(r2bo-observacion-infiltracion-peritumoral-ex)
+//   * resource = r2bo-observacion-infiltracion-peritumoral-ex
  
 
-* entry[ObservacionInvasionLinfaticaR2BO]
-  * fullUrl = Canonical(r2bo-observacion-invasion-linfatica-ex)
-  * resource = r2bo-observacion-invasion-linfatica-ex
+// * entry[ObservacionInvasionLinfaticaR2BO]
+//   * fullUrl = Canonical(r2bo-observacion-invasion-linfatica-ex)
+//   * resource = r2bo-observacion-invasion-linfatica-ex
  
 
-* entry[ObservacionInvasionVascularR2BO]
-  * fullUrl = Canonical(r2bo-observacion-invasion-vascular-ex)
-  * resource = r2bo-observacion-invasion-vascular-ex
+// * entry[ObservacionInvasionVascularR2BO]
+//   * fullUrl = Canonical(r2bo-observacion-invasion-vascular-ex)
+//   * resource = r2bo-observacion-invasion-vascular-ex
  
 
-* entry[ObservacionMargenQuirugico]
-  * fullUrl = Canonical(r2bo-observacion-margen-quirurgico-ex)
-  * resource = r2bo-observacion-margen-quirurgico-ex
+// * entry[ObservacionMargenQuirugico]
+//   * fullUrl = Canonical(r2bo-observacion-margen-quirurgico-ex)
+//   * resource = r2bo-observacion-margen-quirurgico-ex
  
 
-* entry[ObservacionMulticentricidad]
-  * fullUrl = Canonical(r2bo-observacion-centricidad-ex)
-  * resource = r2bo-observacion-centricidad-ex
+// * entry[ObservacionMulticentricidad]
+//   * fullUrl = Canonical(r2bo-observacion-centricidad-ex)
+//   * resource = r2bo-observacion-centricidad-ex
  
 
-* entry[ObservacionFocalidad]
-  * fullUrl = Canonical(r2bo-observacion-multifocalidad-ex)
-  * resource = r2bo-observacion-multifocalidad-ex
+// * entry[ObservacionFocalidad]
+//   * fullUrl = Canonical(r2bo-observacion-multifocalidad-ex)
+//   * resource = r2bo-observacion-multifocalidad-ex
  
 
-* entry[ObservacionPorcentajeNecrosisR2BO]
-  * fullUrl = Canonical(r2bo-observacion-porcentaje-necrosis-ex)
-  * resource = r2bo-observacion-porcentaje-necrosis-ex
+// * entry[ObservacionPorcentajeNecrosisR2BO]
+//   * fullUrl = Canonical(r2bo-observacion-porcentaje-necrosis-ex)
+//   * resource = r2bo-observacion-porcentaje-necrosis-ex
  
 
-* entry[ObservacionPostNeoadjudancia]
-  * fullUrl = Canonical(r2bo-observacion-post-tratamiento-neoadjuvancia-ex)
-  * resource = r2bo-observacion-post-tratamiento-neoadjuvancia-ex
+// * entry[ObservacionPostNeoadjudancia]
+//   * fullUrl = Canonical(r2bo-observacion-post-tratamiento-neoadjuvancia-ex)
+//   * resource = r2bo-observacion-post-tratamiento-neoadjuvancia-ex
  
 
-* entry[TamanoTumorR2BO]
-  * fullUrl = Canonical(r2bo-tamano-tumor-ex)
-  * resource = r2bo-tamano-tumor-ex
+// * entry[TamanoTumorR2BO]
+//   * fullUrl = Canonical(r2bo-tamano-tumor-ex)
+//   * resource = r2bo-tamano-tumor-ex
 
