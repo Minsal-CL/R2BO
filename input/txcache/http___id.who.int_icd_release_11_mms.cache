@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://id.who.int/icd/release/11/mms"
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "class" : "UNKNOWN",
+  "error" : "Error from https://tx.hl7chile.cl/r4: A definition for CodeSystem 'http://id.who.int/icd/release/11/mms' could not be found, so the value set cannot be expanded"
+}
+-------------------------------------------------------------------------------------

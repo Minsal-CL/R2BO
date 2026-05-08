@@ -2,7 +2,15 @@
     "workbench.colorCustomizations": {
         "activityBar.background": "#4A1A49",
         "titleBar.activeBackground": "#672566",
-        "titleBar.activeForeground": "#FDF9FD"
+        "titleBar.activeForeground": "#FDF9FD",
+        "titleBar.inactiveBackground": "#4A1A49",
+        "titleBar.inactiveForeground": "#FDF9FD",
+        "statusBar.background": "#4A1A49",
+        "statusBar.foreground": "#FDF9FD",
+        "statusBar.debuggingBackground": "#4A1A49",
+        "statusBar.debuggingForeground": "#FDF9FD",
+        "statusBar.noFolderBackground": "#4A1A49",
+        "statusBar.noFolderForeground": "#FDF9FD"
     },
     "terminal.integrated.automationProfile.linux": {
 

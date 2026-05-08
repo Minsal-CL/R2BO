@@ -21,7 +21,6 @@ v: {
   "version" : "2018",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n15 15   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n15 0    : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n15 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n15 0    : 0ms  : Prepare include: \"()\"\r\n15 0    : 0ms  : Validate \"[urn:iso:std:iso:3166#152 (\"Chile\")]\"\r\n15 0    : 0ms  : Check \"urn:iso:std:iso:3166#152\"\r\n15 0    : 0ms  : Using CodeSystem \"urn:iso:std:iso:3166|2018\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -49,7 +48,6 @@ v: {
   "version" : "2018",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais--0|1.9.4 for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n16 0    : 0ms  : Prepare include: \"(urn:iso:std:iso:3166)(004,008,010,012,016,020,024,028,031,032,036,040,044,048,050,051,052,056,060,064,068,070,072,074,076,084,086,090,092,096,100,104,108,112,116,120,124,132,136,140,144,148,152,156,158,162,166,170,174,175,178,180,184,188,191,192,196,203,204,208,212,214,218,222,226,231,232,233,234,238,239,242,246,248,250,254,258,260,262,266,268,270,275,276,288,292,296,300,304,308,312,316,320,324,328,332,334,336,340,344,348,352,356,360,364,368,372,376,380,384,388,392,398,400,404,408,410,414,417,418,422,426,428,430,434,438,440,442,446,450,454,458,462,466,470,474,478,480,484,492,496,498,499,500,504,508,512,516,520,524,528,531,533,534,535,540,548,554,558,562,566,570,574,578,580,581,583,584,585,586,591,598,600,604,608,612,616,620,624,626,630,634,638,642,643,646,652,654,659,660,662,663,666,670,674,678,682,686,688,690,694,702,703,704,705,706,710,716,724,728,729,732,740,744,748,752,756,760,762,764,768,772,776,780,784,788,792,795,796,798,800,804,807,818,826,831,832,833,834,840,850,854,858,860,862,876,882,887,894)\"\r\n16 0    : 0ms  : CodeSystem found: \"urn:iso:std:iso:3166|2018\"\r\n16 0    : 0ms  : Validate \"[urn:iso:std:iso:3166#152 (\"\")]\"\r\n16 0    : 0ms  : Check \"urn:iso:std:iso:3166#152\"\r\n16 0    : 0ms  : CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\r\n16 0    : 0ms  : check code in (urn:iso:std:iso:3166)(004,008,010,012,016,020,024,028,031,032,036,040,044,048,050,051,052,056,060,064,068,070,072,074,076,084,086,090,092,096,100,104,108,112,116,120,124,132,136,140,144,148,152,156,158,162,166,170,174,175,178,180,184,188,191,192,196,203,204,208,212,214,218,222,226,231,232,233,234,238,239,242,246,248,250,254,258,260,262,266,268,270,275,276,288,292,296,300,304,308,312,316,320,324,328,332,334,336,340,344,348,352,356,360,364,368,372,376,380,384,388,392,398,400,404,408,410,414,417,418,422,426,428,430,434,438,440,442,446,450,454,458,462,466,470,474,478,480,484,492,496,498,499,500,504,508,512,516,520,524,528,531,533,534,535,540,548,554,558,562,566,570,574,578,580,581,583,584,585,586,591,598,600,604,608,612,616,620,624,626,630,634,638,642,643,646,652,654,659,660,662,663,666,670,674,678,682,686,688,690,694,702,703,704,705,706,710,716,724,728,729,732,740,744,748,752,756,760,762,764,768,772,776,780,784,788,792,795,796,798,800,804,807,818,826,831,832,833,834,840,850,854,858,860,862,876,882,887,894) at Coding\r\n16 0    : 0ms  : Code \"152\" found in urn:iso:std:iso:3166|2018\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -78,7 +76,6 @@ v: {
   "version" : "2018",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[urn:iso:std:iso:3166#858 (\"Uruguay\")]\"\r\n0 0     : 0ms  : Check \"urn:iso:std:iso:3166#858\"\r\n0 0     : 0ms  : Using CodeSystem \"urn:iso:std:iso:3166|2018\" (content = complete)\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -106,7 +103,6 @@ v: {
   "version" : "2018",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9 for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"(urn:iso:std:iso:3166)(code/[0-9]{3})\"\r\n0 0     : 0ms  : CodeSystem found: \"urn:iso:std:iso:3166|2018\"\r\n15 15   : 15ms : Validate \"[urn:iso:std:iso:3166#858 (\"\")]\"\r\n15 0    : 15ms : Check \"urn:iso:std:iso:3166#858\"\r\n15 0    : 15ms : CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\r\n15 0    : 15ms : check code in (urn:iso:std:iso:3166)(code/[0-9]{3}) at Coding\r\n15 0    : 15ms : Filter \"code/[0-9]{3}\": Code \"858\" found in urn:iso:std:iso:3166|2018\r\n",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -128,6 +124,7 @@ v: {
   }
 }}####
 e: {
+  "class" : "UNKNOWN",
   "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
@@ -1418,6 +1415,7 @@ e: {
   }
 }}####
 e: {
+  "class" : "UNKNOWN",
   "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
@@ -2918,6 +2916,7 @@ e: {
   }
 }}####
 e: {
+  "class" : "UNKNOWN",
   "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
@@ -4191,5 +4190,229 @@ e: {
   }
 },
   "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:iso:std:iso:3166",
+  "code" : "152",
+  "display" : "Chile"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Chile",
+  "code" : "152",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "2018",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[urn:iso:std:iso:3166#152 (\"Chile\")]\"\r\n0 0     : 0ms  : Check \"urn:iso:std:iso:3166#152\"\r\n0 0     : 0ms  : Using CodeSystem \"urn:iso:std:iso:3166|2018\" (content = complete)\r\n",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:iso:std:iso:3166",
+  "code" : "152"
+}, "url": "https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais--0", "version": "1.9.4", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Chile",
+  "code" : "152",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "2018",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0 0 : start\r\n15 15   : 0ms  : Analysing https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais--0|1.9.4 for validation purposes\r\n15 0    : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n15 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n15 0    : 0ms  : Prepare include: \"(urn:iso:std:iso:3166)(004,008,010,012,016,020,024,028,031,032,036,040,044,048,050,051,052,056,060,064,068,070,072,074,076,084,086,090,092,096,100,104,108,112,116,120,124,132,136,140,144,148,152,156,158,162,166,170,174,175,178,180,184,188,191,192,196,203,204,208,212,214,218,222,226,231,232,233,234,238,239,242,246,248,250,254,258,260,262,266,268,270,275,276,288,292,296,300,304,308,312,316,320,324,328,332,334,336,340,344,348,352,356,360,364,368,372,376,380,384,388,392,398,400,404,408,410,414,417,418,422,426,428,430,434,438,440,442,446,450,454,458,462,466,470,474,478,480,484,492,496,498,499,500,504,508,512,516,520,524,528,531,533,534,535,540,548,554,558,562,566,570,574,578,580,581,583,584,585,586,591,598,600,604,608,612,616,620,624,626,630,634,638,642,643,646,652,654,659,660,662,663,666,670,674,678,682,686,688,690,694,702,703,704,705,706,710,716,724,728,729,732,740,744,748,752,756,760,762,764,768,772,776,780,784,788,792,795,796,798,800,804,807,818,826,831,832,833,834,840,850,854,858,860,862,876,882,887,894)\"\r\n15 0    : 0ms  : CodeSystem found: \"urn:iso:std:iso:3166|2018\"\r\n15 0    : 0ms  : Validate \"[urn:iso:std:iso:3166#152 (\"\")]\"\r\n15 0    : 0ms  : Check \"urn:iso:std:iso:3166#152\"\r\n15 0    : 0ms  : CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\r\n15 0    : 0ms  : check code in (urn:iso:std:iso:3166)(004,008,010,012,016,020,024,028,031,032,036,040,044,048,050,051,052,056,060,064,068,070,072,074,076,084,086,090,092,096,100,104,108,112,116,120,124,132,136,140,144,148,152,156,158,162,166,170,174,175,178,180,184,188,191,192,196,203,204,208,212,214,218,222,226,231,232,233,234,238,239,242,246,248,250,254,258,260,262,266,268,270,275,276,288,292,296,300,304,308,312,316,320,324,328,332,334,336,340,344,348,352,356,360,364,368,372,376,380,384,388,392,398,400,404,408,410,414,417,418,422,426,428,430,434,438,440,442,446,450,454,458,462,466,470,474,478,480,484,492,496,498,499,500,504,508,512,516,520,524,528,531,533,534,535,540,548,554,558,562,566,570,574,578,580,581,583,584,585,586,591,598,600,604,608,612,616,620,624,626,630,634,638,642,643,646,652,654,659,660,662,663,666,670,674,678,682,686,688,690,694,702,703,704,705,706,710,716,724,728,729,732,740,744,748,752,756,760,762,764,768,772,776,780,784,788,792,795,796,798,800,804,807,818,826,831,832,833,834,840,850,854,858,860,862,876,882,887,894) at Coding\r\n15 0    : 0ms  : Code \"152\" found in urn:iso:std:iso:3166|2018\r\n",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:iso:std:iso:3166",
+  "code" : "858",
+  "display" : "Uruguay"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Uruguay",
+  "code" : "858",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "2018",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n16 0    : 0ms  : Prepare include: \"()\"\r\n16 0    : 0ms  : Validate \"[urn:iso:std:iso:3166#858 (\"Uruguay\")]\"\r\n16 0    : 0ms  : Check \"urn:iso:std:iso:3166#858\"\r\n16 0    : 0ms  : Using CodeSystem \"urn:iso:std:iso:3166|2018\" (content = complete)\r\n",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:iso:std:iso:3166",
+  "code" : "858"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0", "version": "0.4.9", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Uruguay",
+  "code" : "858",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "2018",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9 for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n16 0    : 0ms  : Prepare include: \"(urn:iso:std:iso:3166)(code/[0-9]{3})\"\r\n16 0    : 0ms  : CodeSystem found: \"urn:iso:std:iso:3166|2018\"\r\n16 0    : 0ms  : Validate \"[urn:iso:std:iso:3166#858 (\"\")]\"\r\n16 0    : 0ms  : Check \"urn:iso:std:iso:3166#858\"\r\n16 0    : 0ms  : CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\r\n16 0    : 0ms  : check code in (urn:iso:std:iso:3166)(code/[0-9]{3}) at Coding\r\n16 0    : 0ms  : Filter \"code/[0-9]{3}\": Code \"858\" found in urn:iso:std:iso:3166|2018\r\n",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:iso:std:iso:3166",
+  "code" : "152",
+  "display" : "Chile"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Chile",
+  "code" : "152",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "20210120",
+  "server" : "http://localhost/r4",
+  "diagnostics" : "0ms tx-op\n18ms urn:iso:std:iso:3166/vs|20210120: Validate \"[urn:iso:std:iso:3166#152 (\"Chile\")]\"\n19ms urn:iso:std:iso:3166/vs|20210120: Check \"urn:iso:std:iso:3166#152\"\n21ms urn:iso:std:iso:3166/vs|20210120: CodeSystem found: urn:iso:std:iso:3166|20210120 for urn:iso:std:iso:3166|20210120\n23ms urn:iso:std:iso:3166/vs|20210120: check code in (urn:iso:std:iso:3166) at Coding\n23ms urn:iso:std:iso:3166/vs|20210120: Code \"152\" found in urn:iso:std:iso:3166|20210120",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:iso:std:iso:3166",
+  "code" : "152"
+}, "url": "https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais--0", "version": "1.9.4", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Chile",
+  "code" : "152",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "20210120",
+  "server" : "http://localhost/r4",
+  "diagnostics" : "0ms tx-op\n6ms https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais--0|1.9.4: Analysing https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais--0|1.9.4 for validation purposes\n6ms https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais--0|1.9.4: Parameters: disp-lang=en, generate-narrative, default-to-latest\n7ms https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais--0|1.9.4: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20260401\n9ms https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais--0|1.9.4: Prepare include[0]: \"(urn:iso:std:iso:3166)(004,008,010,012,016,020,024,028,031,032,036,040,044,048,050,051,052,056,060,064,068,070,072,074,076,084,086,090,092,096,100,104,108,112,116,120,124,132,136,140,144,148,152,156,158,162,166,170,174,175,178,180,184,188,191,192,196,203,204,208,212,214,218,222,226,231,232,233,234,238,239,242,246,248,250,254,258,260,262,266,268,270,275,276,288,292,296,300,304,308,312,316,320,324,328,332,334,336,340,344,348,352,356,360,364,368,372,376,380,384,388,392,398,400,404,408,410,414,417,418,422,426,428,430,434,438,440,442,446,450,454,458,462,466,470,474,478,480,484,492,496,498,499,500,504,508,512,516,520,524,528,531,533,534,535,540,548,554,558,562,566,570,574,578,580,581,583,584,585,586,591,598,600,604,608,612,616,620,624,626,630,634,638,642,643,646,652,654,659,660,662,663,666,670,674,678,682,686,688,690,694,702,703,704,705,706,710,716,724,728,729,732,740,744,748,752,756,760,762,764,768,772,776,780,784,788,792,795,796,798,800,804,807,818,826,831,832,833,834,840,850,854,858,860,862,876,882,887,894)\"\n10ms https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais--0|1.9.4: CodeSystem found: \"urn:iso:std:iso:3166|20210120\"\n10ms https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais--0|1.9.4: Validate \"[urn:iso:std:iso:3166#152 (\"undefined\")]\"\n14ms https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais--0|1.9.4: Check \"urn:iso:std:iso:3166#152\"\n15ms https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais--0|1.9.4: CodeSystem found: urn:iso:std:iso:3166|20210120 for urn:iso:std:iso:3166\n19ms https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais--0|1.9.4: check code in (urn:iso:std:iso:3166)(004,008,010,012,016,020,024,028,031,032,036,040,044,048,050,051,052,056,060,064,068,070,072,074,076,084,086,090,092,096,100,104,108,112,116,120,124,132,136,140,144,148,152,156,158,162,166,170,174,175,178,180,184,188,191,192,196,203,204,208,212,214,218,222,226,231,232,233,234,238,239,242,246,248,250,254,258,260,262,266,268,270,275,276,288,292,296,300,304,308,312,316,320,324,328,332,334,336,340,344,348,352,356,360,364,368,372,376,380,384,388,392,398,400,404,408,410,414,417,418,422,426,428,430,434,438,440,442,446,450,454,458,462,466,470,474,478,480,484,492,496,498,499,500,504,508,512,516,520,524,528,531,533,534,535,540,548,554,558,562,566,570,574,578,580,581,583,584,585,586,591,598,600,604,608,612,616,620,624,626,630,634,638,642,643,646,652,654,659,660,662,663,666,670,674,678,682,686,688,690,694,702,703,704,705,706,710,716,724,728,729,732,740,744,748,752,756,760,762,764,768,772,776,780,784,788,792,795,796,798,800,804,807,818,826,831,832,833,834,840,850,854,858,860,862,876,882,887,894) at Coding\n20ms https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais--0|1.9.4: Code \"152\" found in urn:iso:std:iso:3166|20210120",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:iso:std:iso:3166",
+  "code" : "858",
+  "display" : "Uruguay"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Uruguay",
+  "code" : "858",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "20210120",
+  "server" : "http://localhost/r4",
+  "diagnostics" : "0ms tx-op\n2ms urn:iso:std:iso:3166/vs|20210120: Validate \"[urn:iso:std:iso:3166#858 (\"Uruguay\")]\"\n3ms urn:iso:std:iso:3166/vs|20210120: Check \"urn:iso:std:iso:3166#858\"\n4ms urn:iso:std:iso:3166/vs|20210120: CodeSystem found: urn:iso:std:iso:3166|20210120 for urn:iso:std:iso:3166|20210120\n4ms urn:iso:std:iso:3166/vs|20210120: check code in (urn:iso:std:iso:3166) at Coding\n5ms urn:iso:std:iso:3166/vs|20210120: Code \"858\" found in urn:iso:std:iso:3166|20210120",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:iso:std:iso:3166",
+  "code" : "858"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0", "version": "0.4.9", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Uruguay",
+  "code" : "858",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "20210120",
+  "server" : "http://localhost/r4",
+  "diagnostics" : "0ms tx-op\n1ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: Analysing https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9 for validation purposes\n1ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: Parameters: disp-lang=en, generate-narrative, default-to-latest\n1ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20260401\n1ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: Prepare include[0]: \"(urn:iso:std:iso:3166)(coderegex[0-9]{3})\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: CodeSystem found: \"urn:iso:std:iso:3166|20210120\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: Validate \"[urn:iso:std:iso:3166#858 (\"undefined\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: Check \"urn:iso:std:iso:3166#858\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: CodeSystem found: urn:iso:std:iso:3166|20210120 for urn:iso:std:iso:3166\n4ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: check code in (urn:iso:std:iso:3166)(coderegex[0-9]{3}) at Coding\n1205ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: Filter code regex [0-9]{3}: Code \"858\" found in urn:iso:std:iso:3166|20210120",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
 }
 -------------------------------------------------------------------------------------

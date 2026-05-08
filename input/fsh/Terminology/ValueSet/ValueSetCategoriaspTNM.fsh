@@ -5,6 +5,6 @@ Description:    "Set de valores para las categorias para el TNM patológico"
 
 * insert SetCopyrightSCT
 * ^experimental = true
-* $snomed|http://snomed.info/sct/900000000000207008/version/20251101#384625004 "pT category"
-* $snomed|http://snomed.info/sct/900000000000207008/version/20251101#371494008 "pN category"
-* $snomed|http://snomed.info/sct/900000000000207008/version/20251101#371497001 "pM category"
+* $snomed|http://snomed.info/sct/900000000000207008/version/20260401#384625004 "pT category"
+* $snomed|http://snomed.info/sct/900000000000207008/version/20260401#371494008 "pN category"
+* $snomed|http://snomed.info/sct/900000000000207008/version/20260401#371497001 "pM category"

@@ -5,7 +5,7 @@ Title: "Modelo Logico De un Paciente del R2BO"
 Description: "Modelo lógico para el conjunto de datos mínimo de un paciente del R2BO."
 Characteristics: #can-be-target
 
-* nombres 1..1 SU HumanName "El nombre de las personas naturales, es la designación que dan los padres o representantes legales al momento de realizar la inscripción de nacimiento en la oficina del SRCI."
+* nombres 1..* SU string "El nombre de las personas naturales, es la designación que dan los padres o representantes legales al momento de realizar la inscripción de nacimiento en la oficina del SRCI."
 * primerApellido 1..1 SU string "El apellido distingue a la persona del resto de los integrantes de la sociedad y el nombre de pila, lo individualiza jurídicamente de los restantes hijos de los mismos padres."
 * segundoApellido 0..1 SU string "El apellido distingue a la persona del resto de los integrantes de la sociedad y el nombre de pila, lo individualiza jurídicamente de los restantes hijos de los mismos padres."
 * tipoDeDocumento 1..1 SU CodeableConcept "Identificar el tipo del documento de identidad, por el cual se va a identificar el paciente."

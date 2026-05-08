@@ -13,7 +13,54 @@
   }
 }}####
 e: {
-  "from-server" : true,
-  "error" : "Error from https://tx.hl7chile.cl/r4: The code system definition for http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl is a fragment, so this expansion is not permitted unless the expansion parameter \"incomplete-ok\" has a value of \"true\""
+  "source" : localhost,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
+      "valueBoolean" : true
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed-reason",
+      "valueString" : "This extension is based on a fragment of the code system http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
+    }],
+    "identifier" : "urn:uuid:d431f0d9-d6fe-42f5-97b2-2ce8ffd3aa51",
+    "timestamp" : "2026-05-08T19:54:45.552Z",
+    "total" : 1,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "includeDefinition",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-fragment",
+      "valueUri" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl|null"
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
+    }],
+    "contains" : [{
+      "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+      "code" : "C188404",
+      "display" : "Union for International Cancer Control Stage"
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
