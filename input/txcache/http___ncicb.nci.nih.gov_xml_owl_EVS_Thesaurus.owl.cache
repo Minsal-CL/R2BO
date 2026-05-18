@@ -13,7 +13,7 @@
   }
 }}####
 e: {
-  "source" : localhost,
+  "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
@@ -26,8 +26,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed-reason",
       "valueString" : "This extension is based on a fragment of the code system http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
     }],
-    "identifier" : "urn:uuid:d431f0d9-d6fe-42f5-97b2-2ce8ffd3aa51",
-    "timestamp" : "2026-05-08T19:54:45.552Z",
+    "identifier" : "urn:uuid:51462a7e-996d-4b5d-bcb2-0fae0c31db28",
+    "timestamp" : "2026-05-18T16:52:14.272Z",
     "total" : 1,
     "offset" : 0,
     "parameter" : [{

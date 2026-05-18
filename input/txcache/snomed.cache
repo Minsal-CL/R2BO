@@ -14,7 +14,7 @@
   }
 }}####
 e: {
-  "source" : localhost,
+  "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
@@ -23,8 +23,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:5855f859-fb94-4201-b6e9-3300b7707a48",
-    "timestamp" : "2026-05-08T19:12:03.954Z",
+    "identifier" : "urn:uuid:17c54c02-9fb0-4fe8-a81c-ef0175f76dcd",
+    "timestamp" : "2026-05-18T16:52:08.667Z",
     "offset" : 0,
     "parameter" : [{
       "name" : "excludeNested",
@@ -5077,13 +5077,13 @@ e: {
   }
 }}####
 e: {
-  "source" : localhost,
+  "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:2a602059-e1f7-4efc-8cd3-59f01b0d9d5e",
-    "timestamp" : "2026-05-08T19:54:43.499Z",
+    "identifier" : "urn:uuid:4174715b-d4a4-4ab6-9f4c-118ad56b9f53",
+    "timestamp" : "2026-05-18T16:52:09.743Z",
     "total" : 3,
     "offset" : 0,
     "parameter" : [{
@@ -5145,7 +5145,7 @@ e: {
   }
 }}####
 e: {
-  "source" : localhost,
+  "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
@@ -5154,8 +5154,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:cfa284a1-8903-4359-9fb3-ae4479d5bd69",
-    "timestamp" : "2026-05-08T19:33:06.650Z",
+    "identifier" : "urn:uuid:cce3f7ea-8774-47e1-b727-3fdafdeee002",
+    "timestamp" : "2026-05-18T16:52:10.345Z",
     "total" : 143,
     "offset" : 0,
     "parameter" : [{
@@ -5917,7 +5917,7 @@ e: {
   }
 }}####
 e: {
-  "source" : localhost,
+  "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
@@ -5926,8 +5926,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:0b512f1f-7204-457b-ae20-4f1da90c8f04",
-    "timestamp" : "2026-05-08T19:33:07.231Z",
+    "identifier" : "urn:uuid:7372bc0d-3012-45b3-8588-1ccc3277d5b5",
+    "timestamp" : "2026-05-18T16:52:11.134Z",
     "total" : 141,
     "offset" : 0,
     "parameter" : [{
@@ -6679,7 +6679,7 @@ e: {
   }
 }}####
 e: {
-  "source" : localhost,
+  "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
@@ -6688,8 +6688,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:ff186cb1-74d7-42f2-bf31-8cb2064da252",
-    "timestamp" : "2026-05-08T19:54:43.624Z",
+    "identifier" : "urn:uuid:fabc387e-e7bb-49c8-bfc6-b5ea8ed18a2b",
+    "timestamp" : "2026-05-18T16:52:11.933Z",
     "total" : 138,
     "offset" : 0,
     "parameter" : [{
@@ -7437,13 +7437,13 @@ e: {
   }
 }}####
 e: {
-  "source" : localhost,
+  "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:aa40b9e1-a335-49b7-b7d5-e13673d738da",
-    "timestamp" : "2026-05-08T19:54:43.775Z",
+    "identifier" : "urn:uuid:4d8cb118-2dde-4a09-9849-f9d2e24a1916",
+    "timestamp" : "2026-05-18T16:52:12.564Z",
     "total" : 4,
     "offset" : 0,
     "parameter" : [{
@@ -7518,13 +7518,13 @@ e: {
   }
 }}####
 e: {
-  "source" : localhost,
+  "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:77905df1-8783-4282-9ed3-005f92b3349d",
-    "timestamp" : "2026-05-08T19:54:45.609Z",
+    "identifier" : "urn:uuid:b2600a32-568e-467b-a409-05fe63da3302",
+    "timestamp" : "2026-05-18T16:52:14.905Z",
     "total" : 3,
     "offset" : 0,
     "parameter" : [{
@@ -7583,7 +7583,7 @@ e: {
   }
 }}####
 e: {
-  "source" : localhost,
+  "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
@@ -7592,8 +7592,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:9eee561c-f6cc-4f53-a02d-bc24a112ee2a",
-    "timestamp" : "2026-05-08T19:33:09.811Z",
+    "identifier" : "urn:uuid:9b0bc78a-c109-4c17-bf6d-44b5699c717b",
+    "timestamp" : "2026-05-18T16:52:15.508Z",
     "offset" : 0,
     "parameter" : [{
       "name" : "excludeNested",
@@ -12638,7 +12638,7 @@ e: {
 e: {
   "from-server" : true,
   "class" : "UNKNOWN",
-  "error" : "Error from http://localhost/r4: Error: Invalid ECL expression: '< 108369006 |Neoplasm (morphologic abnormality)|,^ 446608001 |SNOMED CT to ICD-O simple map reference set (foundation metadata concept)|': (Parser error at token 3: Unexpected tokens after end of expression. Current token: COMMA(,))"
+  "error" : "Error from https://tx.hl7chile.cl/r4: Error: Invalid ECL expression: '< 108369006 |Neoplasm (morphologic abnormality)|,^ 446608001 |SNOMED CT to ICD-O simple map reference set (foundation metadata concept)|': (Parser error at token 3: Unexpected tokens after end of expression. Current token: COMMA(,))"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
@@ -12684,13 +12684,13 @@ e: {
   }
 }}####
 e: {
-  "source" : localhost,
+  "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:aef50527-68be-49b1-8a50-85a7236c93fc",
-    "timestamp" : "2026-05-08T19:54:46.073Z",
+    "identifier" : "urn:uuid:4250c366-f9de-406d-8289-5504b9c3190f",
+    "timestamp" : "2026-05-18T16:52:18.772Z",
     "total" : 8,
     "offset" : 0,
     "parameter" : [{
@@ -12774,7 +12774,7 @@ e: {
   }
 }}####
 e: {
-  "source" : localhost,
+  "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
@@ -12783,8 +12783,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:90d30e7f-5a0d-4a2c-a5b3-a0f8a22e2454",
-    "timestamp" : "2026-05-08T19:26:44.752Z",
+    "identifier" : "urn:uuid:046c2b4b-7977-4403-b8eb-93117bd1c7f3",
+    "timestamp" : "2026-05-18T16:52:19.997Z",
     "total" : 129,
     "offset" : 0,
     "parameter" : [{
@@ -13473,7 +13473,7 @@ e: {
   }
 }}####
 e: {
-  "source" : localhost,
+  "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
@@ -13482,8 +13482,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:f5e182c0-532a-4ec7-bcbe-034f4a029db2",
-    "timestamp" : "2026-05-08T19:26:46.314Z",
+    "identifier" : "urn:uuid:74e5514b-3f8f-4837-9749-948c6bc24424",
+    "timestamp" : "2026-05-18T16:52:20.806Z",
     "total" : 48,
     "offset" : 0,
     "parameter" : [{
@@ -13767,7 +13767,7 @@ e: {
   }
 }}####
 e: {
-  "source" : localhost,
+  "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
@@ -13776,8 +13776,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:62223ea7-e850-4a2d-968a-0357213a8e28",
-    "timestamp" : "2026-05-08T19:26:46.742Z",
+    "identifier" : "urn:uuid:fe10d314-d6f0-4684-a596-8eef7844dde8",
+    "timestamp" : "2026-05-18T16:52:21.424Z",
     "total" : 1582,
     "offset" : 0,
     "parameter" : [{
@@ -18821,7 +18821,7 @@ e: {
   }
 }}####
 e: {
-  "source" : localhost,
+  "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
@@ -18830,8 +18830,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:20b4eb08-f2d0-45fc-ad87-afe00171859f",
-    "timestamp" : "2026-05-08T19:54:46.772Z",
+    "identifier" : "urn:uuid:bb1cbe61-9801-4307-a90f-cd27d336ca17",
+    "timestamp" : "2026-05-18T16:52:23.205Z",
     "total" : 4,
     "offset" : 0,
     "parameter" : [{
@@ -18895,7 +18895,7 @@ e: {
   }
 }}####
 e: {
-  "source" : localhost,
+  "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
@@ -18904,8 +18904,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:6161383d-a87a-46ff-b704-e727cbace5b5",
-    "timestamp" : "2026-05-08T19:54:46.836Z",
+    "identifier" : "urn:uuid:6e03c616-cec1-4f66-a362-be4b1bd25b0e",
+    "timestamp" : "2026-05-18T16:52:23.834Z",
     "total" : 1,
     "offset" : 0,
     "parameter" : [{
@@ -18962,7 +18962,7 @@ e: {
   }
 }}####
 e: {
-  "source" : localhost,
+  "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
@@ -18971,8 +18971,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:cc205a65-e9e9-4030-9d63-8aca01057d34",
-    "timestamp" : "2026-05-08T19:33:13.304Z",
+    "identifier" : "urn:uuid:87e5cbaa-7792-47c6-943d-f2442b001318",
+    "timestamp" : "2026-05-18T16:52:25.471Z",
     "total" : 1841,
     "offset" : 0,
     "parameter" : [{
@@ -24017,13 +24017,13 @@ e: {
   }
 }}####
 e: {
-  "source" : localhost,
+  "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:ab98716f-312d-4fd0-8b14-83e5106a9c85",
-    "timestamp" : "2026-05-08T19:54:47.080Z",
+    "identifier" : "urn:uuid:28ef4f3b-b992-4157-9161-8082be1a7c96",
+    "timestamp" : "2026-05-18T16:52:26.544Z",
     "total" : 2,
     "offset" : 0,
     "parameter" : [{
@@ -24077,7 +24077,7 @@ e: {
   }
 }}####
 e: {
-  "source" : localhost,
+  "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
@@ -24086,8 +24086,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:3d451477-ac35-4851-a923-ae22ae174a2d",
-    "timestamp" : "2026-05-08T19:54:47.165Z",
+    "identifier" : "urn:uuid:94891420-d062-45b0-811b-226d1d6694b1",
+    "timestamp" : "2026-05-18T16:52:27.159Z",
     "total" : 13,
     "offset" : 0,
     "parameter" : [{
@@ -24196,7 +24196,7 @@ e: {
   }
 }}####
 e: {
-  "source" : localhost,
+  "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
@@ -24205,8 +24205,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:9ce04d2b-8a63-4c2f-a604-dc7752c84d93",
-    "timestamp" : "2026-05-08T19:54:47.252Z",
+    "identifier" : "urn:uuid:7f542f73-889e-40d8-9880-b8c3f4626d4c",
+    "timestamp" : "2026-05-18T16:52:27.780Z",
     "total" : 20,
     "offset" : 0,
     "parameter" : [{
@@ -24350,7 +24350,7 @@ e: {
   }
 }}####
 e: {
-  "source" : localhost,
+  "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
@@ -24359,8 +24359,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:55cdf613-a605-4eb0-bdb4-41dcf26ec393",
-    "timestamp" : "2026-05-08T19:54:47.346Z",
+    "identifier" : "urn:uuid:ab36e955-2146-47e4-bec3-93d30c33670b",
+    "timestamp" : "2026-05-18T16:52:28.409Z",
     "total" : 39,
     "offset" : 0,
     "parameter" : [{
@@ -24601,6 +24601,6 @@ e: {
 e: {
   "from-server" : true,
   "class" : "UNKNOWN",
-  "error" : "Error from http://localhost/r4: Error: Invalid ECL expression: '< 91723000 |Anatomical structure (body structure)|,^ 446608001 |SNOMED CT to ICD-O simple map reference set (foundation metadata concept)|': (Parser error at token 3: Unexpected tokens after end of expression. Current token: COMMA(,))"
+  "error" : "Error from https://tx.hl7chile.cl/r4: Error: Invalid ECL expression: '< 91723000 |Anatomical structure (body structure)|,^ 446608001 |SNOMED CT to ICD-O simple map reference set (foundation metadata concept)|': (Parser error at token 3: Unexpected tokens after end of expression. Current token: COMMA(,))"
 }
 -------------------------------------------------------------------------------------

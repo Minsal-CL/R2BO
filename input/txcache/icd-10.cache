@@ -10,13 +10,13 @@
   }
 }}####
 e: {
-  "source" : localhost,
+  "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:aa4b4c3d-eae2-4fb6-9323-c1237b97f42c",
-    "timestamp" : "2026-05-08T19:12:07.706Z",
+    "identifier" : "urn:uuid:cfc6c462-d363-45cb-be52-df7adb91c6a0",
+    "timestamp" : "2026-05-18T16:52:24.444Z",
     "offset" : 0,
     "parameter" : [{
       "name" : "excludeNested",

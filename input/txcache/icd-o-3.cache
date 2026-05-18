@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS", "version": "0.2.0-draft"}####
 e: {
-  "source" : localhost,
+  "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "url" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS",
@@ -10,7 +10,7 @@ e: {
   "title" : "Set de Valores Morfología",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2026-05-08T15:35:22-04:00",
+  "date" : "2026-05-18T12:41:15-04:00",
   "contact" : [{
     "name" : "Unidad de Interoperabilidad - MINSAL",
     "telecom" : [{
@@ -34,8 +34,8 @@ e: {
     }]
   }],
   "expansion" : {
-    "identifier" : "urn:uuid:0be48d01-4759-4ab2-b599-a9054b502b71",
-    "timestamp" : "2026-05-08T19:54:45.833Z",
+    "identifier" : "urn:uuid:13f02460-5360-416d-86f6-8320efc59f8b",
+    "timestamp" : "2026-05-18T16:52:17.879Z",
     "total" : 2069,
     "offset" : 0,
     "parameter" : [{
@@ -5081,7 +5081,7 @@ e: {
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS", "version": "0.2.0-draft"}####
 e: {
-  "source" : localhost,
+  "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "url" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS",
@@ -5090,7 +5090,7 @@ e: {
   "title" : "Set de Valores para Topografía",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2026-05-08T15:35:22-04:00",
+  "date" : "2026-05-18T12:41:15-04:00",
   "contact" : [{
     "name" : "Unidad de Interoperabilidad - MINSAL",
     "telecom" : [{
@@ -5114,8 +5114,8 @@ e: {
     }]
   }],
   "expansion" : {
-    "identifier" : "urn:uuid:e7182cd3-ac63-4b10-b5be-0ce3dd826bd9",
-    "timestamp" : "2026-05-08T19:54:47.569Z",
+    "identifier" : "urn:uuid:193f39eb-4af1-4111-8c2b-a301d900d8ea",
+    "timestamp" : "2026-05-18T16:52:30.271Z",
     "total" : 1373,
     "offset" : 0,
     "parameter" : [{
