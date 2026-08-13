@@ -3,6 +3,7 @@ Id: r2bo-profesional-autorizado-VS
 Title: "Profesionales Autorizados"
 Description: "Estos son los profesionales autorizados para realizar informes o solicitudes de anatomías patológicas"
 
+* ^language = #es
 * ^experimental = true
 
 * CSTituloProfesional#1 "MÉDICO CIRUJANO"
@@ -15,6 +16,7 @@ Id: r2bo-especialistas-autorizado-VS
 Title: "Especialistas Autorizados"
 Description: "Estos son los especialistas autorizados para realizar informes anatomías patológicas"
 
+* ^language = #es
 * ^experimental = true
 
 * CSEspecialidadMed#1 "ANATOMÍA PATOLÓGICA"

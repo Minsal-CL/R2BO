@@ -75,13 +75,6 @@ Description:    "Ejemplo de Bundle que contiene los recursos necesarios para sol
     * method = #PUT
     * url = "Specimen?identifier=110101101"
 
-* entry[CabeceraDocumento]
-  * fullUrl = Canonical(r2bo-documento-biopsia-ex)
-  * resource = r2bo-documento-biopsia-ex
-  * request
-    * method = #POST
-    * url = "Composition"
-
 * entry[InformeDiagnostico]
   * fullUrl = Canonical(r2bo-informe-biopsia-ex)
   * resource = r2bo-informe-biopsia-ex
@@ -89,26 +82,26 @@ Description:    "Ejemplo de Bundle que contiene los recursos necesarios para sol
     * method = #POST
     * url = "DiagnosticReport"
 
-* entry[ObservacionMicroscopica]
-  * fullUrl = Canonical(r2bo-observacion-microscopica-ex)
-  * resource = r2bo-observacion-microscopica-ex
-  * request
-    * method = #POST
-    * url = "Observation"
+// * entry[ObservacionMicroscopica]
+//   * fullUrl = Canonical(r2bo-observacion-microscopica-ex)
+//   * resource = r2bo-observacion-microscopica-ex
+//   * request
+//     * method = #POST
+//     * url = "Observation"
 
-* entry[Tumor]
-  * fullUrl = Canonical(r2bo-tumor-ex)
-  * resource = r2bo-tumor-ex
-  * request
-    * method = #POST
-    * url = "BodyStructure"
+// * entry[Tumor]
+//   * fullUrl = Canonical(r2bo-tumor-ex)
+//   * resource = r2bo-tumor-ex
+//   * request
+//     * method = #POST
+//     * url = "BodyStructure"
 
-* entry[ObservacionMacroscopica]
-  * fullUrl = Canonical(r2bo-observacion-macroscopica-ex)
-  * resource = r2bo-observacion-macroscopica-ex
-  * request
-    * method = #POST
-    * url = "Observation"
+// * entry[ObservacionMacroscopica]
+//   * fullUrl = Canonical(r2bo-observacion-macroscopica-ex)
+//   * resource = r2bo-observacion-macroscopica-ex
+//   * request
+//     * method = #POST
+//     * url = "Observation"
 
 * entry[Estadificacion]
   * fullUrl = Canonical(r2bo-estadificacion-tnm-ex)

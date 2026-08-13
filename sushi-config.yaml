@@ -45,7 +45,7 @@ dependencies:
     hl7.fhir.cl.clcore: 1.9.4
     # hl7.fhir.cl.clips: 0.4.0
     hl7.fhir.us.mcode: 4.0.0
-    # hl7.fhir.uv.extensions.r4: 5.2.0
+    # hl7.fhir.uv.extensions.r4: 5.3.0
     # hl7.fhir.cl.minsal.eis: 0.1.0
 #   hl7.fhir.us.core: 3.1.0
 #   hl7.fhir.us.mcode:
@@ -77,11 +77,11 @@ pages:
         valueCode: informative
     title: Consideraciones de Diseño
 
-  SistemasTerminologicos.md:
-    extension:
-      - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
-        valueCode: informative
-    title: Uso de Sistemas Terminológicos
+  # SistemasTerminologicos.md:
+  #  extension:
+  #    - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
+  #      valueCode: informative
+  #  title: Uso de Sistemas Terminológicos
 
   InteraccionesConServidor.md:
     extension:
@@ -151,7 +151,7 @@ menu:
   Inicio: index.html
   Especificaciones Tecnicas:
     Consideraciones de Diseño: design-consideration.html
-    Servicios Terminológicos: SistemasTerminologicos.html
+    # Servicios Terminológicos: SistemasTerminologicos.html
     Interaciones Repositorio: InteraccionesConServidor.html
   Historial de Cambios: changes.html
   Descargas: Downloads.html

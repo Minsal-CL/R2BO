@@ -35,22 +35,22 @@ Usage: #definition
     * service = http://terminology.hl7.org/CodeSystem/restful-security-service#OAuth
     * description = "OAuth2 usando el APIG del Ministerio de Salud para generar Tokens para enviar y acceder al respositorio"
     
-  * resource[0] //BodyStructure
-    * extension[0]
-      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
-      * valueCode = #SHALL
-    * type = #BodyStructure
-    * supportedProfile[0] = Canonical(R2BOTumor)
+  // * resource[0] //BodyStructure
+  //   * extension[0]
+  //     * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+  //     * valueCode = #SHALL
+  //   * type = #BodyStructure
+  //   * supportedProfile[0] = Canonical(R2BOTumor)
 
-  * resource[+] //Composition
-    * extension[0]
-      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
-      * valueCode = #SHALL
-    * type = #Composition
-    * profile = Canonical(DocumentoCl)
-    * supportedProfile[0] = Canonical(R2BOCompositionBiopsia)
+  // * resource[0] //Composition
+  //   * extension[0]
+  //     * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+  //     * valueCode = #SHALL
+  //   * type = #Composition
+  //   * profile = Canonical(DocumentoCl)
+  //   * supportedProfile[0] = Canonical(R2BOCompositionBiopsia)
 
-  * resource[+] //DiagnosticReport
+  * resource[0] //DiagnosticReport
     * extension[0]
       * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
       * valueCode = #SHALL

@@ -16,10 +16,13 @@ Description:    "Reporte de anatomía patológica"
 
 * ^abstract = false
 
-* obeys r2bo-diag-1
+// * obeys r2bo-diag-1
 
-* extension contains ExtensionComposition named composition 1..1 MS
-* extension[composition] ^short = "Refernecia al composition del documento"
+// * extension contains ExtensionComposition named composition 1..1 MS
+// * extension[composition] ^short = "Refernecia al composition del documento"
+
+* extension contains ExtensionAddendum named addendum 0..1 MS
+* extension[addendum] ^short = "Referencia a un informe previo que necesita ser actualizado"
 
 * identifier 1..1 MS
   * ^short = "Identificador del Informe de Anatomía Patológica"
@@ -39,7 +42,9 @@ Description:    "Reporte de anatomía patológica"
   
 * code 1..1 MS
   * ^short = "Código del Informe de Anatomía Patológica"
-* code from ReporteBiopsiaVS (extensible)
+* code from ReporteBiopsiaVS (preferred)
+* code ^example.label = "CodeableConcept"
+* code ^example.valueCodeableConcept = http://snomed.info/sct#726566009 "Pathology biopsy report"
 
 * subject 1..1 MS
   * ^short = "Paciente del Informe de Anatomía Patológica"
@@ -64,12 +69,12 @@ Description:    "Reporte de anatomía patológica"
   * ^slicing.description = "Distintos Resultados del Informe de Anatomía Patológica"
   * ^slicing.ordered = false
 * result only Reference(ResultadosReporteBiopsia)
-* result contains Microscopia 1..* MS and Macroscopia 0..* MS and TNM 0..1 MS 
+* result contains TNM 0..1 MS // and Microscopia 1..* MS and Macroscopia 0..* MS and 
 
-* result[Microscopia] ^short = "Resultados de Microscopía"
-* result[Microscopia] only Reference(ObservacionMicroscopicaR2BO)
-* result[Macroscopia] ^short = "Resultados de Macroscopía"
-* result[Macroscopia] only Reference(ObservacionMacroscopicaR2BO)
+// * result[Microscopia] ^short = "Resultados de Microscopía"
+// * result[Microscopia] only Reference(ObservacionMicroscopicaR2BO)
+// * result[Macroscopia] ^short = "Resultados de Macroscopía"
+// * result[Macroscopia] only Reference(ObservacionMacroscopicaR2BO)
 * result[TNM] ^short = "Estadificación patológica TNM"
 * result[TNM] only Reference(EstadificacionTNM)
 // * result[Resultados] ^short = "Otros posibles resultados"
@@ -103,17 +108,38 @@ Description:    "Reporte de anatomía patológica"
 
 * conclusionCode[Morfologico] ^short = "Conclusión Morfológica"
 // * conclusionCode[Morfologico] only CodeableConceptSCTCIEO
-* conclusionCode[Morfologico] from MorfologicoSnomedCIEOVS (extensible)
+* conclusionCode[Morfologico] from MorfologicoCIEOVS (extensible)
 * conclusionCode[Morfologico]
   * id = "Morfologico"
   * extension contains ExtensionGradoDiferenciacion named gradoDiferenciacion 0..1 MS
     * ^short = "Grado de diferenciación tumoral"
+  * ^binding.extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/additional-binding"
+  * ^binding.extension[=].extension[0].url = "key"
+  * ^binding.extension[=].extension[=].valueId = "1"
+  * ^binding.extension[=].extension[+].url = "purpose"
+  * ^binding.extension[=].extension[=].valueCode = #extensible
+  * ^binding.extension[=].extension[+].url = "valueSet"
+  * ^binding.extension[=].extension[=].valueCanonical = Canonical(MorfologicoCIE11VS)
+  * ^binding.extension[=].extension[+].url = "documentation"
+  * ^binding.extension[=].extension[=].valueMarkdown = "Set de valores utilizados para CIE-11 Códigos de Extensión Histopatológicos par ser usado en la morfología de neoplasias"
+  * ^binding.extension[=].extension[+].url = "shortDoco"
+  * ^binding.extension[=].extension[=].valueString = "Set de valores utilizados para CIE-11 que permiten el mapeo a la CIE-O 3.2 Morfológico"
 
 * conclusionCode[Topografico] ^short = "Conclusión Topográfica"
-// * conclusionCode[Topografico] only CodeableConceptSCTCIEO
-* conclusionCode[Topografico] from TopograficaSnomedCIEOVS (extensible)
+* conclusionCode[Topografico] from TopograficaCIEOVS (extensible)
 * conclusionCode[Topografico]
   * id = "Topografico"
+  * ^binding.extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/additional-binding"
+  * ^binding.extension[=].extension[0].url = "key"
+  * ^binding.extension[=].extension[=].valueId = "1"
+  * ^binding.extension[=].extension[+].url = "purpose"
+  * ^binding.extension[=].extension[=].valueCode = #extensible
+  * ^binding.extension[=].extension[+].url = "valueSet"
+  * ^binding.extension[=].extension[=].valueCanonical = Canonical(TopograficaCIE11VS)
+  * ^binding.extension[=].extension[+].url = "documentation"
+  * ^binding.extension[=].extension[=].valueMarkdown = "Set de valores utilizados para la topografía de la CIE-11 para Anatomía y topografía"
+  * ^binding.extension[=].extension[+].url = "shortDoco"
+  * ^binding.extension[=].extension[=].valueString = "Set de valores utilizados para la topografía de la CIE-11 que permiten el mapeo a la CIE-O 3.2 Tográfico"
 
 * presentedForm MS
   * ^short = "Representación del Informe de Anatomía Patológica"

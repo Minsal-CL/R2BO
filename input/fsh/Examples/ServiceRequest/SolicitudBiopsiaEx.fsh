@@ -22,5 +22,4 @@ Instance:       ReasonCodeSospechaDiagnostica
 InstanceOf:     CodeableConcept
 Usage: #inline
 
-* coding[0] = $snomed#269497004 
 * coding[+] = $ICD-10|2019-covid-expanded#D48.6

@@ -5,4 +5,4 @@ Description:    "Set de valores utilizados para la categoría TNM patológico tu
 
 * insert SetCopyrightSCT
 * ^experimental = true
-* include codes from system $snomed|http://snomed.info/sct/900000000000207008/version/20260401 where concept descendent-of #1222589003
+* include codes from system $snomed|http://snomed.info/sct/21000325107/version/20260315 where concept descendent-of #1222589003

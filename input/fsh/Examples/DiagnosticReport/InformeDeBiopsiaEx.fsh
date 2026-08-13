@@ -4,7 +4,6 @@ Usage:          #example
 Title:          "Informe de Anatomía Patológica de Biopsia de Mama"
 Description:    "Ejecución de un informe de anatomía patológica de biopsia de mama"
 
-* extension[composition] = ext-ex-composition
 
 * identifier.value = "r2bo-2020-0001"
 * basedOn = Reference(r2bo-solicitud-informe-apa-ej)
@@ -16,8 +15,6 @@ Description:    "Ejecución de un informe de anatomía patológica de biopsia de
 * issued = "2021-08-01T10:00:00-04:00"
 * performer = Reference(r2bo-anatopatologo-hospital)
 * specimen = Reference(r2bo-specimen-example)
-* result[Microscopia] = Reference(r2bo-observacion-microscopica-ex)
-* result[Macroscopia] = Reference(r2bo-observacion-macroscopica-ex)
 * result[TNM] = Reference(r2bo-estadificacion-tnm-ex)
 // * result[Resultados][0] = Reference(r2bo-observacion-ganglios-linfaticos-ex)
 // * result[Resultados][+] = Reference(r2bo-observacion-infiltracion-perineural-ex)
@@ -39,8 +36,7 @@ InstanceOf: CodeableConcept
 Usage: #inline 
 
 * id = "Morfologico"
-* coding[0] = $snomed#82711006
-* coding[+] = $ICD-O-3#8500/3
+* coding[0] = $ICD-O-3#8500/3
 * text = "Carcinoma ductal infiltrante"
 
 Instance: DeLaMama
@@ -48,12 +44,5 @@ InstanceOf: CodeableConcept
 Usage: #inline 
 
 * id = "Topografico"
-* coding[0] = $snomed#76752008
-* coding[+] = $ICD-O-3#C50.9
+* coding[0] = $ICD-O-3#C50.9
 * text = "Mama"
-
-Instance: ext-ex-composition
-InstanceOf: ExtensionComposition
-Usage: #inline
-
-* valueReference = Reference(r2bo-documento-biopsia-ex)

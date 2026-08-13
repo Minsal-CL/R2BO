@@ -42,7 +42,7 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para el d
     ServicioSolicitante 0..* and
     Organizacion 1..* and
     Muestra 1..1 and
-    Tumor 1..1 and
+    // Tumor 1..1 and
     ObservacionMicroscopica 1..1 and
     ObservacionMacroscopica 0..1 and
     Estadificacion 0..1 and
@@ -96,9 +96,9 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para el d
   
   * resource only MuestraR2BO
 
-* entry[Tumor]
+// * entry[Tumor]
   
-  * resource only R2BOTumor
+//   * resource only R2BOTumor
   
 * entry[ObservacionMicroscopica]
   

@@ -2,7 +2,7 @@ Profile:        BundleGenerarNotificacion
 Parent:         Bundle
 Id:             r2bo-bundle-generar-notificacion
 Title:          "Perfil de Bundle: Generar Notificación Obligatoria"
-Description:    "Perfil de Bundle que contiene los recursos necesarios para generar la notificación patología y cargarlos en el repositorio."
+Description:    "Perfil de Bundle que contiene los recursos necesarios para generar la notificación oncológica por anatomía patológica y cargarlos en el repositorio."
 
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
@@ -39,11 +39,11 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
     Profesional 2..* and
     Organizacion 1..* and
     Muestra 1..1 and
-    CabeceraDocumento 1..1 and
+    // CabeceraDocumento 1..1 and
     InformeDiagnostico 1..1 and
-    Tumor 1..1 and
-    ObservacionMicroscopica 1..1 and
-    ObservacionMacroscopica 0..1 and
+    // Tumor 1..1 and
+    // ObservacionMicroscopica 1..1 and
+    // ObservacionMacroscopica 0..1 and
     Estadificacion 0..1 and
     CategoriaT 0..1 and
     CategoriaN 0..1 and
@@ -165,45 +165,45 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
     * url
       * ^short = "Uri del recurso \"DiagnosticReport\""
 
-* entry[CabeceraDocumento]
-  * resource 1..1 MS
-  * resource only R2BOCompositionBiopsia
-  * request 1..1
-    * method 1..1
-    * method = #POST
-    * url 1..1
-    * url
-      * ^short = "Uri del recurso \"Composition\""
+// * entry[CabeceraDocumento]
+//   * resource 1..1 MS
+//   * resource only R2BOCompositionBiopsia
+//   * request 1..1
+//     * method 1..1
+//     * method = #POST
+//     * url 1..1
+//     * url
+//       * ^short = "Uri del recurso \"Composition\""
 
-* entry[Tumor]
-  * resource 1..1 MS
-  * resource only R2BOTumor
-  * request 1..1
-    * method 1..1
-    * method = #POST
-    * url 1..1
-    * url
-      * ^short = "Uri del recurso \"BodyStructure\""
+// * entry[Tumor]
+//   * resource 1..1 MS
+//   * resource only R2BOTumor
+//   * request 1..1
+//     * method 1..1
+//     * method = #POST
+//     * url 1..1
+//     * url
+//       * ^short = "Uri del recurso \"BodyStructure\""
 
-* entry[ObservacionMicroscopica]
-  * resource 1..1 MS
-  * resource only ObservacionMicroscopicaR2BO
-  * request 1..1
-    * method 1..1
-    * method = #POST
-    * url 1..1
-    * url
-      * ^short = "Uri del recurso \"Observation\""
+// * entry[ObservacionMicroscopica]
+//   * resource 1..1 MS
+//   * resource only ObservacionMicroscopicaR2BO
+//   * request 1..1
+//     * method 1..1
+//     * method = #POST
+//     * url 1..1
+//     * url
+//       * ^short = "Uri del recurso \"Observation\""
 
-* entry[ObservacionMacroscopica]
-  * resource 1..1 MS
-  * resource only ObservacionMacroscopicaR2BO
-  * request 1..1
-    * method 1..1
-    * method = #POST
-    * url 1..1
-    * url
-      * ^short = "Uri del recurso \"Observation\""
+// * entry[ObservacionMacroscopica]
+//   * resource 1..1 MS
+//   * resource only ObservacionMacroscopicaR2BO
+//   * request 1..1
+//     * method 1..1
+//     * method = #POST
+//     * url 1..1
+//     * url
+//       * ^short = "Uri del recurso \"Observation\""
 
 * entry[Estadificacion]
   * resource 1..1 MS

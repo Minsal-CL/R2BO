@@ -6,13 +6,13 @@ hide footbox
 
 !include ./style.iuml
 
-actor "Anatopatólogo" as usuario
+actor "Anatomopatólogo" as usuario
 participant "Sistema Informático de Anatomía Patológica" as PAIS
 database "Repositorio Anatomías Patológicas" as RepositorioBiopsia
 
 usuario -> PAIS: Genera informe de anatomía patológica
 activate PAIS
-PAIS -> PAIS: Genera informe en estructura FHIR (xml o json)
+PAIS -> PAIS: Empaqueta el informe en un FHIR DiagnosticReport
 PAIS -> RepositorioBiopsia: Solicitud de Token de Autenticación
 activate RepositorioBiopsia
 alt Token válido
@@ -20,7 +20,6 @@ alt Token válido
     PAIS -> RepositorioBiopsia: Realiza un POST a la API FHIR
     RepositorioBiopsia -> RepositorioBiopsia: Valida formato del FHIR
     alt Formato válido
-        RepositorioBiopsia -> RepositorioBiopsia: Actualiza solicitud de informe
         RepositorioBiopsia -> RepositorioBiopsia: Almacena el informe en la base de datos 
         RepositorioBiopsia -> PAIS: Respuesta exitosa (201 Created)
     else Formato inválido

@@ -54,38 +54,43 @@ Description:    "Este recurso representa la cabecera del documento de un reporte
 * section ^slicing.description = "Diferencias entre cada sección del documento"
 * section ^slicing.ordered = false
 
-* section contains
-  solicitud 1..1 MS and
-  muestra 1..1 MS and
-  macroscopia 0..1 MS and
-  microscopia 1..1 MS and
+* section contains Notas 0..1 MS
+  // solicitud 1..1 MS and
+  // muestra 1..1 MS and
+  // macroscopia 0..1 MS and
+  // microscopia 1..1 MS and
   // hallazgos 1..1 MS and
-  conclusiones 1..1 MS and
-  Notas 0..1 
+  // conclusiones 1..1 MS and
 
-* section[solicitud]
-  * ^short = "Indica la solicitud por la cual se generó el documento, con su sospecha diagnóstica"
-  * code = $loinc#22636-5
-  * entry 1..1
-  * entry only Reference(SolicitudInformeAPA)
+* section[Notas]
+  * ^short = "Notas en texto libre"
+  * code = $loinc#22638-1
+  * text 1..1 MS 
+  * text ^short = "Notas que se pueden dejar como texto narrativo"
 
-* section[muestra]
-  * ^short = "Describe la muestra por la cual se realizo el informe"
-  * code = $loinc#22633-2
-  * entry 1..*
-  * entry only Reference(MuestraR2BO)
+// * section[solicitud]
+//   * ^short = "Indica la solicitud por la cual se generó el documento, con su sospecha diagnóstica"
+//   * code = $loinc#22636-5
+//   * entry 1..1
+//   * entry only Reference(SolicitudInformeAPA)
 
-* section[macroscopia]
-  * ^short = "Observaciones realizadas a la muestra a simple vista"
-  * code = $loinc#22634-0
-  * entry 1..*
-  * entry only Reference(ObservacionMacroscopicaR2BO)
+// * section[muestra]
+//   * ^short = "Describe la muestra por la cual se realizo el informe"
+//   * code = $loinc#22633-2
+//   * entry 1..*
+//   * entry only Reference(MuestraR2BO)
 
-* section[microscopia]
-  * ^short = "Observaciones realizadas a traves de un microscopio"
-  * code = $loinc#22635-7
-  * entry 1..*
-  * entry only Reference(ObservacionMicroscopicaR2BO)
+// * section[macroscopia]
+//   * ^short = "Observaciones realizadas a la muestra a simple vista"
+//   * code = $loinc#22634-0
+//   * entry 1..*
+//   * entry only Reference(ObservacionMacroscopicaR2BO)
+
+// * section[microscopia]
+//   * ^short = "Observaciones realizadas a traves de un microscopio"
+//   * code = $loinc#22635-7
+//   * entry 1..*
+//   * entry only Reference(ObservacionMicroscopicaR2BO)
 
 // * section[hallazgos]
 //   * ^short = "Resultado de observaciones que fueron realizadas a la muestra"
@@ -95,22 +100,17 @@ Description:    "Este recurso representa la cabecera del documento de un reporte
 //   * emptyReason 0..1 
 
 
-* section[conclusiones]
-  * ^short = "Observaciones realizadas a traves de un microscopio"
-  * code = $loinc#22637-3
-  * entry ^slicing.discriminator.type = #profile
-  * entry ^slicing.discriminator.path = "$this.resolve()"
-  * entry ^slicing.rules = #open
-  * entry ^slicing.description = "Diferenciación entre las conclusiones"
-  * entry ^slicing.ordered = false
-  * entry 1..2 MS
-  * entry only Reference(R2BOTumor or DiagnosticoCl)
-  * entry contains DescripcionTumor 1..1 
-  * entry[DescripcionTumor] ^short = "Conclusión Morfológica y Topográfica del tumor"
-  * entry[DescripcionTumor] only Reference(R2BOTumor) 
+// * section[conclusiones]
+//   * ^short = "Observaciones realizadas a traves de un microscopio"
+//   * code = $loinc#22637-3
+//   * entry ^slicing.discriminator.type = #profile
+//   * entry ^slicing.discriminator.path = "$this.resolve()"
+//   * entry ^slicing.rules = #open
+//   * entry ^slicing.description = "Diferenciación entre las conclusiones"
+//   * entry ^slicing.ordered = false
+//   * entry 1..2 MS
+//   * entry only Reference(R2BOTumor or DiagnosticoCl)
+//   * entry contains DescripcionTumor 1..1 
+//   * entry[DescripcionTumor] ^short = "Conclusión Morfológica y Topográfica del tumor"
+//   * entry[DescripcionTumor] only Reference(R2BOTumor) 
 
-* section[Notas]
-  * ^short = "Notas en texto libre"
-  * code = $loinc#22638-1
-  * text 1..1 MS 
-  * text ^short = "Notas que se pueden dejar como texto narrativo"

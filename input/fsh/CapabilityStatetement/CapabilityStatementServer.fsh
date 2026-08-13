@@ -37,133 +37,133 @@ Usage: #definition
   * security
     * service = http://terminology.hl7.org/CodeSystem/restful-security-service#OAuth
     * description = "OAuth2 usando el APIG del Ministerio de Salud para generar Tokens para enviar y acceder al respositorio"
-  * resource[0] //BodyStructure
-    * extension[0]
-      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
-      * valueCode = #SHALL
-    * type = #BodyStructure
-    * supportedProfile[0] = Canonical(R2BOTumor)
-    * interaction[0]
-      * code = #create
-    * interaction[+]
-      * code = #search-type
-    * interaction[+]
-      * code = #read
-    * interaction[+]
-      * code = #vread
-    * interaction[+]
-      * code = #update
-    * interaction[+]
-      * code = #delete
-    * referencePolicy[0] = #literal
-    * referencePolicy[+] = #logical
-    * searchInclude[0] = "*"
-    * searchInclude[+] = "BodyStructure:patient"
-    * searchRevInclude[0] = "Composition:entry"
-    * searchRevInclude[+] = "Observation:focus"
-    * searchParam[0].name = "identifier"
-    * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/BodyStructure-identifier"
-    * searchParam[=].type = #token
-    * searchParam[=].documentation = "Identificador de la Estructura Corporal"
-    * searchParam[+].name = "morphology"
-    * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/BodyStructure-morphology"
-    * searchParam[=].type = #token
-    * searchParam[=].documentation = "Tipo de estructura"
-    * searchParam[+].name = "patient"
-    * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/BodyStructure-patient"
-    * searchParam[=].type = #reference
-    * searchParam[=].documentation = "Individuo al que se refiere"
-    * searchParam[+].name = "location"
-    * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/BodyStructure-location"
-    * searchParam[=].type = #token
-    * searchParam[=].documentation = "Sitio del cuerpo"
-    * searchParam[+].name = "_id"
-    * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Resource-id"
-    * searchParam[=].type = #token
-    * searchParam[=].documentation = "Id logico dentro del servidor de la estructura corporal"
+  // * resource[0] //BodyStructure
+  //   * extension[0]
+  //     * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+  //     * valueCode = #SHALL
+  //   * type = #BodyStructure
+  //   * supportedProfile[0] = Canonical(R2BOTumor)
+  //   * interaction[0]
+  //     * code = #create
+  //   * interaction[+]
+  //     * code = #search-type
+  //   * interaction[+]
+  //     * code = #read
+  //   * interaction[+]
+  //     * code = #vread
+  //   * interaction[+]
+  //     * code = #update
+  //   * interaction[+]
+  //     * code = #delete
+  //   * referencePolicy[0] = #literal
+  //   * referencePolicy[+] = #logical
+  //   * searchInclude[0] = "*"
+  //   * searchInclude[+] = "BodyStructure:patient"
+  //   * searchRevInclude[0] = "Composition:entry"
+  //   * searchRevInclude[+] = "Observation:focus"
+  //   * searchParam[0].name = "identifier"
+  //   * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/BodyStructure-identifier"
+  //   * searchParam[=].type = #token
+  //   * searchParam[=].documentation = "Identificador de la Estructura Corporal"
+  //   * searchParam[+].name = "morphology"
+  //   * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/BodyStructure-morphology"
+  //   * searchParam[=].type = #token
+  //   * searchParam[=].documentation = "Tipo de estructura"
+  //   * searchParam[+].name = "patient"
+  //   * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/BodyStructure-patient"
+  //   * searchParam[=].type = #reference
+  //   * searchParam[=].documentation = "Individuo al que se refiere"
+  //   * searchParam[+].name = "location"
+  //   * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/BodyStructure-location"
+  //   * searchParam[=].type = #token
+  //   * searchParam[=].documentation = "Sitio del cuerpo"
+  //   * searchParam[+].name = "_id"
+  //   * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Resource-id"
+  //   * searchParam[=].type = #token
+  //   * searchParam[=].documentation = "Id logico dentro del servidor de la estructura corporal"
 
-  * resource[+] //Composition
-    * extension[0]
-      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
-      * valueCode = #SHALL
-    * type = #Composition
-    * profile = Canonical(DocumentoCl)
-    * supportedProfile[0] = Canonical(R2BOCompositionBiopsia)
-    * interaction[0]
-      * code = #create
-    * interaction[+]
-      * code = #search-type
-    * interaction[+]
-      * code = #read
-    * interaction[+]
-      * code = #vread
-    * interaction[+]
-      * code = #update
-    * interaction[+]
-      * code = #delete
-    * referencePolicy[0] = #literal
-    * referencePolicy[+] = #logical
-    * searchInclude[0] = "*"
-    * searchInclude[+] = "Composition:attester"
-    * searchInclude[+] = "Composition:author"
-    * searchInclude[+] = "Composition:entry"
-    * searchInclude[+] = "Composition:patient"
-    * searchInclude[+] = "Composition:subject"
-    * searchParam[0].name = "date"
-    * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/clinical-date"
-    * searchParam[=].type = #date
-    * searchParam[=].documentation = "Fecha de la creación del documento"
-    * searchParam[+].name = "subject"
-    * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Composition-subject"
-    * searchParam[=].type = #reference
-    * searchParam[=].documentation = "Sobre quién o qué es el documento"
-    * searchParam[+].name = "section"
-    * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Composition-section"
-    * searchParam[=].type = #token
-    * searchParam[=].documentation = "Clasificación de la sección (recomendado)"
-    * searchParam[+].name = "type"
-    * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/clinical-type"
-    * searchParam[=].type = #token
-    * searchParam[=].documentation = "Tipo de documento, que representa al informe de biopsía"
-    * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Composition-title"
-    * searchParam[=].type = #string
-    * searchParam[=].documentation = "titulo legible para humanos"
-    * searchParam[+].name = "patient"
-    * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/clinical-patient"
-    * searchParam[=].type = #reference
-    * searchParam[=].documentation = "Paciente asociado al documento"
-    * searchParam[+].name = "identifier"
-    * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/clinical-identifier"
-    * searchParam[=].type = #token
-    * searchParam[=].documentation = "Identificador del documento"
-    * searchParam[+].name = "period"
-    * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Composition-period"
-    * searchParam[=].type = #date
-    * searchParam[=].documentation = "El periodo de tiempo que el documento cubre (recomendado)"
-    * searchParam[+].name = "author"
-    * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Composition-author"
-    * searchParam[=].type = #reference
-    * searchParam[=].documentation = "Quien o que creo el documento"
-    * searchParam[+].name = "entry"
-    * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Composition-entry"
-    * searchParam[=].type = #reference
-    * searchParam[=].documentation = "Referencia aresursos incluidos en el documento"
-    * searchParam[+].name = "_id"
-    * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Resource-id"
-    * searchParam[=].type = #token
-    * searchParam[=].documentation = "Id logico dentro del servidor del documento"
-    * searchParam[+].name = "category"
-    * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Composition-category"
-    * searchParam[=].type = #token
-    * searchParam[=].documentation = "Categoría del documento"
-    * searchParam[+].name = "status"
-    * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Composition-status"
-    * searchParam[=].type = #token
-    * searchParam[=].documentation = "preliminary | final | amended | entered-in-error"
-    * operation[0].name = "document"
-    * operation[=].definition = "http://hl7.org/fhir/OperationDefinition/Composition-document"
+  // * resource[0] //Composition
+  //   * extension[0]
+  //     * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+  //     * valueCode = #SHALL
+  //   * type = #Composition
+  //   * profile = Canonical(DocumentoCl)
+  //   * supportedProfile[0] = Canonical(R2BOCompositionBiopsia)
+  //   * interaction[0]
+  //     * code = #create
+  //   * interaction[+]
+  //     * code = #search-type
+  //   * interaction[+]
+  //     * code = #read
+  //   * interaction[+]
+  //     * code = #vread
+  //   * interaction[+]
+  //     * code = #update
+  //   * interaction[+]
+  //     * code = #delete
+  //   * referencePolicy[0] = #literal
+  //   * referencePolicy[+] = #logical
+  //   * searchInclude[0] = "*"
+  //   * searchInclude[+] = "Composition:attester"
+  //   * searchInclude[+] = "Composition:author"
+  //   * searchInclude[+] = "Composition:entry"
+  //   * searchInclude[+] = "Composition:patient"
+  //   * searchInclude[+] = "Composition:subject"
+  //   * searchParam[0].name = "date"
+  //   * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/clinical-date"
+  //   * searchParam[=].type = #date
+  //   * searchParam[=].documentation = "Fecha de la creación del documento"
+  //   * searchParam[+].name = "subject"
+  //   * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Composition-subject"
+  //   * searchParam[=].type = #reference
+  //   * searchParam[=].documentation = "Sobre quién o qué es el documento"
+  //   * searchParam[+].name = "section"
+  //   * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Composition-section"
+  //   * searchParam[=].type = #token
+  //   * searchParam[=].documentation = "Clasificación de la sección (recomendado)"
+  //   * searchParam[+].name = "type"
+  //   * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/clinical-type"
+  //   * searchParam[=].type = #token
+  //   * searchParam[=].documentation = "Tipo de documento, que representa al informe de biopsía"
+  //   * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Composition-title"
+  //   * searchParam[=].type = #string
+  //   * searchParam[=].documentation = "titulo legible para humanos"
+  //   * searchParam[+].name = "patient"
+  //   * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/clinical-patient"
+  //   * searchParam[=].type = #reference
+  //   * searchParam[=].documentation = "Paciente asociado al documento"
+  //   * searchParam[+].name = "identifier"
+  //   * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/clinical-identifier"
+  //   * searchParam[=].type = #token
+  //   * searchParam[=].documentation = "Identificador del documento"
+  //   * searchParam[+].name = "period"
+  //   * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Composition-period"
+  //   * searchParam[=].type = #date
+  //   * searchParam[=].documentation = "El periodo de tiempo que el documento cubre (recomendado)"
+  //   * searchParam[+].name = "author"
+  //   * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Composition-author"
+  //   * searchParam[=].type = #reference
+  //   * searchParam[=].documentation = "Quien o que creo el documento"
+  //   * searchParam[+].name = "entry"
+  //   * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Composition-entry"
+  //   * searchParam[=].type = #reference
+  //   * searchParam[=].documentation = "Referencia aresursos incluidos en el documento"
+  //   * searchParam[+].name = "_id"
+  //   * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Resource-id"
+  //   * searchParam[=].type = #token
+  //   * searchParam[=].documentation = "Id logico dentro del servidor del documento"
+  //   * searchParam[+].name = "category"
+  //   * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Composition-category"
+  //   * searchParam[=].type = #token
+  //   * searchParam[=].documentation = "Categoría del documento"
+  //   * searchParam[+].name = "status"
+  //   * searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Composition-status"
+  //   * searchParam[=].type = #token
+  //   * searchParam[=].documentation = "preliminary | final | amended | entered-in-error"
+  //   * operation[0].name = "document"
+  //   * operation[=].definition = "http://hl7.org/fhir/OperationDefinition/Composition-document"
 
-  * resource[+] //DiagnosticReport
+  * resource[0] //DiagnosticReport
     * extension[0]
       * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
       * valueCode = #SHALL

@@ -1,12 +1,6 @@
 {
-  "http://unstats.un.org/unsd/methods/m49/m49.htm" : null,
-  "urn:ietf:bcp:13" : null,
-  "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401" : {
-    "server" : "https://tx.ontoserver.csiro.au/fhir",
-    "filename" : "cs-1098e085-b91d-4be4-a1df-8767a8dfb731.json"
-  },
+  "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315" : null,
   "http://hl7.org/fhir/sid/icd-10" : null,
   "http://loinc.org" : null,
-  "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101" : null,
   "http://snomed.info/sct" : null
 }

@@ -6,14 +6,14 @@ Title:       "Mapeo de Modelo Lógico a Informe"
 Description: ""
 
 * -> "DiagnosticReport"
-* nroDeBiopsia -> "DiagnosticReport.identifier[0]" "Identificador del Informe de Anatomía Patológica" 
+* identificadorInforme -> "DiagnosticReport.identifier[0]" "Identificador del Informe de Anatomía Patológica" 
 * paciente -> "DiagnosticReport.subject" "Paciente del Informe de Anatomía Patológica"
 * solicitud -> "DiagnosticReport.basedOn[0]" "Solicitud de Biopsia"
 * establecimientoQueInforma -> "DiagnosticReport.performer[0]" "Establecimiento en que Anatomopatólogo que realiza el Informe"
 * patologoQueInforma -> "DiagnosticReport.performer[0]" "Anatomopatólogo que realiza el Informe"
 * fechaDeInforme -> "DiagnosticReport.issued" "Fecha de Emisión del Informe de Anatomía Patológica"
-* descripcionMacroscopica -> "DiagnosticReport.result" "Resultados del Informe de Anatomía Patológica"
-* descripcionMicroscopica -> "DiagnosticReport.result[1]" "Resultados del Informe de Anatomía Patológica"
+//* descripcionMacroscopica -> "DiagnosticReport.result" "Resultados del Informe de Anatomía Patológica"
+//* descripcionMicroscopica -> "DiagnosticReport.result[1]" "Resultados del Informe de Anatomía Patológica"
 * categoriaTNM -> "DiagnosticReport.result[3]" "Resultados del Informe de Anatomía Patológica"
 // * invasionVascularLinfatica -> "DiagnosticReport.result[4]" "Resultados del Informe de Anatomía Patológica"
 // * invasionVascularSanguinea -> "DiagnosticReport.result[5]" "Resultados del Informe de Anatomía Patológica"
@@ -48,7 +48,7 @@ Description: "Mapeo entre el modelo lógico de Informe R2BO y el perfil de Muest
 * solicitud.fechaDeRecepcionDeMuestra -> "Specimen.receivedTime" "Fecha de recepción de la muestra"
 * solicitud.tipoDeBiopsia -> "Specimen.collection[0].method" "Método de colección de la muestra"
 * lateralidad -> "Specimen.collection[0].bodySite.extension" "Calificador para lateralidad para este sitio del cuerpo"
-* detalleTopografia -> "Specimen.note" "Notas sobre la topografía al momento de extraer la muestra"
+//* detalleTopografia -> "Specimen.note" "Notas sobre la topografía al momento de extraer la muestra"
 
 Mapping:     ResultadoTNMModeloInformeMap
 Source:      ModeloLogicoInformePatologicoR2BO

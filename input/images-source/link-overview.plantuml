@@ -1,0 +1,56 @@
+@startuml
+
+skinparam linetype ortho
+scale 0.9
+
+' artifact "Composition: Cabecera del Documento de Biopsía" as composition
+artifact "DiagnosticReport: Reporte de Anatomía Patológica" as diagnosticReport
+artifact "Observation Results: Todas las Observaciones de los Resultados de Biopsias" as result
+artifact "Patient: Paciente MINSAL" as humanPatient
+artifact "Practitioner: Prestador Profesional " as Practitioner
+artifact "PractitionerRole: Rol Profesional" as PractitionerRole
+artifact "ServiceRequest: Solicitud de Informe de Anatomía Patológica" as ServiceRequest
+artifact "Specimen: Muestra" as Specimen
+artifact "Organization: Organización" as Organization
+
+' url of composition is  [[StructureDefinition-r2bo-composition-biopsia.html]]
+url of diagnosticReport is  [[StructureDefinition-r2bo-informe-biopsia.html]]
+url of result [[StructureDefinition-r2bo-resultados-reporte-biopsia.html]]
+url of humanPatient [[https://interoperabilidad.minsal.cl/fhir/ig/nid/0.4.6/StructureDefinition-MINSALPaciente.html]]
+url of Practitioner [[https://interoperabilidad.minsal.cl/fhir/ig/nid/0.4.6/StructureDefinition-MINSALPrestadorProfesional.html]]
+url of PractitionerRole [[StructureDefinition-r2bo-rol-profesional-minsal.html]]
+url of ServiceRequest [[StructureDefinition-r2bo-solicitud-informe-apa.html]]
+url of Specimen [[StructureDefinition-r2bo-muestra-biopsia.html]]
+url of Organization [[https://interoperabilidad.minsal.cl/fhir/ig/nid/0.4.6/StructureDefinition-MINSALPrestadorOrganizacional.html]]
+
+
+' diagnosticReport --> composition
+diagnosticReport --> result
+diagnosticReport --> humanPatient
+diagnosticReport --> PractitionerRole
+diagnosticReport --> ServiceRequest
+diagnosticReport --> Specimen
+
+
+' composition --> diagnosticReport
+' composition --> result
+' composition --> PractitionerRole
+' composition --> Specimen
+' composition --> ServiceRequest
+' composition --> humanPatient
+
+result --> humanPatient
+result --> PractitionerRole
+result --> ServiceRequest
+result --> Specimen
+
+ServiceRequest --> humanPatient
+
+Specimen --> humanPatient
+Specimen --> PractitionerRole
+Specimen --> ServiceRequest
+
+PractitionerRole --> Practitioner
+PractitionerRole --> Organization
+
+@enduml

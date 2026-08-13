@@ -1,21 +1,13 @@
-### Representación FHIR del informe de anatomía patológica
+### Representación FHIR de la Notificación Obligatoria de Cancer
 
-En esta guía de implementación se sigue el enfoque que un informe de estudio de anatomía patológica:
-* está representado por un recurso `DiagnosticReport` y un recurso `Composition`.
-* el `DiagnosticReport` siempre apuntará a un  `Composition`.
-* la composición a la que se hace referencia:
-  * define la estructura del informe, a menudo solo una sección;
-  * proporciona un medio para ensamblar el informe como un documento (es decir, como un paquete de tipo 'documento')
-* El Bundle de documentos representa el informe legalmente firmable e incluye todos los datos que caracterizan el informe.
+En esta guía de implementación se sigue el enfoque de un estudio de anatomía patológica representado por un recurso `DiagnosticReport`, el cual contiene los datos mínimos para cumplir con la notificación obligatoria, más un pdf con el informe completo.
 
-En relación con los paquetes de documentos, se adoptan las siguientes directrices:
-* El paquete de documentos **DEBERÁ** incluir cualquier recurso que forme parte del gráfico de recursos que haga referencia o sea referenciado desde el conjunto de la composición, ya sea directa o indirectamente (por ejemplo, recursivamente en una cadena).
+El siguiente diagrama representa una vista general de los perfiles especificados en esta guía.
 
+La relación más importante inicia desde el recurso DiagnosticReport [R2BOInformeBiopsia](StructureDefinition-r2bo-informe-biopsia.html) desde la perspectiva REST.
+<div>
+<p>{% include link-overview.svg %}</p>
+<p>Figura 1 - Vista general de la Relación de los Perfiles</p>
+<p></p>
+</div>
 
-``` mermaid
-classDiagram
-    class ApDiagnosticReport
-    class ApComposition 
-    ApDiagnosticReport --> ApComposition: extension[composition]
-    ApComposition --> ApDiagnosticReport: extension[diagnosticReport-reference]
-```

@@ -43,9 +43,19 @@ Description: "Solicitud generada por el médico para la realización de un infor
 * reasonCode 1..1 MS
   * ^short = "Sospecha Diagnóstica"
 // * reasonCode only CodeableConceptSCTCIE10
-* reasonCode from SnomedCTHallazgosClinicosCIE10VS (extensible)
-  // * coding[SCT] from SnomedCTHallazgosClinicos (required)
-  // * coding[CIE10] from r2bo-cie10-vs (required)
+* reasonCode from HallazgosClinicosCIE10VS (extensible)
+  * ^binding.extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/additional-binding"
+  * ^binding.extension[=].extension[0].url = "key"
+  * ^binding.extension[=].extension[=].valueId = "1"
+  * ^binding.extension[=].extension[+].url = "purpose"
+  * ^binding.extension[=].extension[=].valueCode = #extensible
+  * ^binding.extension[=].extension[+].url = "valueSet"
+  * ^binding.extension[=].extension[=].valueCanonical = Canonical(HallazgosClinicosCIE11VS)
+  * ^binding.extension[=].extension[+].url = "documentation"
+  * ^binding.extension[=].extension[=].valueMarkdown = "Set de valores utilizados de la CIE-11 para neoplasias"
+  * ^binding.extension[=].extension[+].url = "shortDoco"
+  * ^binding.extension[=].extension[=].valueString = "Set de valores utilizados para la neoplasias de la CIE-11 que permiten el mapeo a la CIE-10"
+
 * specimen 1..* MS
   * ^short = "Muestra de Biopsia"
 * specimen only Reference(MuestraR2BO)

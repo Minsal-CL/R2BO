@@ -14,13 +14,16 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:bb202a97-e29e-4689-9d32-5b3d182a9ebe",
-    "timestamp" : "2026-01-16T15:25:50.561Z",
-    "total" : 5099,
+    "identifier" : "urn:uuid:6da52540-65ea-4f52-b20e-79e465b90cdc",
+    "timestamp" : "2026-08-13T20:27:51.921Z",
     "offset" : 0,
     "parameter" : [{
       "name" : "excludeNested",
       "valueBoolean" : true
+    },
+    {
+      "name" : "includeDefinition",
+      "valueBoolean" : false
     },
     {
       "name" : "offset",
@@ -29,10 +32,6 @@ e: {
     {
       "name" : "count",
       "valueInteger" : 1000
-    },
-    {
-      "name" : "warning-draft",
-      "valueUri" : "urn:iso:std:iso:3166:-2|2021"
     },
     {
       "name" : "used-codesystem",

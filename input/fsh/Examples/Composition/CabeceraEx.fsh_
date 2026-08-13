@@ -16,33 +16,33 @@ Description:    "Documento de un informe de anatomía patológica de biopsia de 
 * title = "Informe de Biopsia de Mama"
 * author = Reference(r2bo-anatopatologo-hospital)
 
-* section[solicitud]
-  * code = $loinc#22636-5
-  * code.text = "Solicitud de Biopsia"
-  * text.status = #generated
-  * text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>Solicitud de Biopsia</div>"
-  * entry[0] = Reference(r2bo-solicitud-informe-apa-ej)
+// * section[solicitud]
+//   * code = $loinc#22636-5
+//   * code.text = "Solicitud de Biopsia"
+//   * text.status = #generated
+//   * text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>Solicitud de Biopsia</div>"
+//   * entry[0] = Reference(r2bo-solicitud-informe-apa-ej)
 
-* section[muestra]
-  * code = $loinc#22633-2
-  * code.text = "Muestra de Biopsia"
-  * text.status = #generated
-  * text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>Muestra de Biopsia</div>"
-  * entry[0] = Reference(r2bo-specimen-example)
+// * section[muestra]
+//   * code = $loinc#22633-2
+//   * code.text = "Muestra de Biopsia"
+//   * text.status = #generated
+//   * text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>Muestra de Biopsia</div>"
+//   * entry[0] = Reference(r2bo-specimen-example)
 
-* section[macroscopia]
-  * code = $loinc#22634-0
-  * code.text = "Macroscopia de Biopsia"
-  * text.status = #generated
-  * text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>Macroscopia de Biopsia</div>"
-  * entry[0] = Reference(r2bo-observacion-macroscopica-ex)
+// * section[macroscopia]
+//   * code = $loinc#22634-0
+//   * code.text = "Macroscopia de Biopsia"
+//   * text.status = #generated
+//   * text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>Macroscopia de Biopsia</div>"
+//   * entry[0] = Reference(r2bo-observacion-macroscopica-ex)
 
-* section[microscopia]
-  * code = $loinc#22635-7
-  * code.text = "Microscopia de Biopsia"
-  * text.status = #generated
-  * text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>Microscopia de Biopsia</div>"
-  * entry[0] = Reference(r2bo-observacion-microscopica-ex)
+// * section[microscopia]
+//   * code = $loinc#22635-7
+//   * code.text = "Microscopia de Biopsia"
+//   * text.status = #generated
+//   * text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>Microscopia de Biopsia</div>"
+//   * entry[0] = Reference(r2bo-observacion-microscopica-ex)
 
 // * section[hallazgos]
 //   * code = $loinc#33746-9
@@ -62,12 +62,12 @@ Description:    "Documento de un informe de anatomía patológica de biopsia de 
 //   * entry[10] = Reference(r2bo-tamano-tumor-ex)
 //   * entry[11] = Reference(r2bo-estadificacion-tnm-ex)
 
-* section[conclusiones]
-  * code = $loinc#22637-3
-  * code.text = "Conclusiones de Biopsia"
-  * text.status = #generated
-  * text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>Conclusiones de Biopsia</div>"
-  * entry[DescripcionTumor] = Reference(r2bo-tumor-ex)
+// * section[conclusiones]
+//   * code = $loinc#22637-3
+//   * code.text = "Conclusiones de Biopsia"
+//   * text.status = #generated
+//   * text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>Conclusiones de Biopsia</div>"
+//   * entry[DescripcionTumor] = Reference(r2bo-tumor-ex)
   
 * section[Notas]
   * code = $loinc#22638-1

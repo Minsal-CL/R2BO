@@ -50,9 +50,9 @@ Description:    "Ejemplo de Bundle que contiene los recursos de un documento de 
   * fullUrl = Canonical(r2bo-observacion-microscopica-ex)
   * resource = r2bo-observacion-microscopica-ex
 
-* entry[Tumor]
-  * fullUrl = Canonical(r2bo-tumor-ex)
-  * resource = r2bo-tumor-ex
+// * entry[Tumor]
+//   * fullUrl = Canonical(r2bo-tumor-ex)
+//   * resource = r2bo-tumor-ex
 
 * entry[ObservacionMacroscopica]
   * fullUrl = Canonical(r2bo-observacion-macroscopica-ex)

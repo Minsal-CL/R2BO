@@ -1,7 +1,7 @@
 Profile:        ResultadosReporteBiopsia
 Parent:         ObservacionCL
 Id:             r2bo-resultados-reporte-biopsia
-Title:          "Perfil de Origen de Todos Los Resultados"
+Title:          "Perfil de Para Todas las Observaciones de los Resultados de Biopsias"
 Description:    "Perfil para todas las observaciones de los resultados de biopsias"
 
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
