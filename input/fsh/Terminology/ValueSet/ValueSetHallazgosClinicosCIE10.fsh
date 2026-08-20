@@ -4,7 +4,7 @@ Title:          "ValueSet Para Hallazgos Clínicos"
 Description:    "Este ValueSet contiene los códigos que representan las neoplasias de la CIE 10"
 
 //* insert SetCopyrightSCT
-* ^experimental = true
+* ^experimental = false
 
 //* include codes from system $snomed|http://snomed.info/sct/21000325107/version/20260315 where constraint = #"^449080006"
 //* include codes from system $snomed where concept in #449080006

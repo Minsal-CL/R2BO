@@ -11,7 +11,7 @@ Description:    "Registro de las dimensiones de un tumor"
 * ^extension[=].valueCode = #draft
 
 * ^status = #draft
-* ^experimental = true
+* ^experimental = false
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
 * ^abstract = false

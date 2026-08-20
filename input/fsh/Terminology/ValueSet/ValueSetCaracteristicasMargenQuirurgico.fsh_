@@ -4,7 +4,7 @@ Title:          "Set de Valores de Caracteristicas del Margen Quirurgico"
 Description:    "Set de valores del nivel de compromiso del margen quiurgico en un reporte de biopsia"
 
 * insert SetCopyrightSCT
-* ^experimental = true
+* ^experimental = false
 
 * $snomed|http://snomed.info/sct/900000000000207008/version/20260401#248448006 "Involved"
 * $snomed|http://snomed.info/sct/900000000000207008/version/20260401#10828004  "Positive"

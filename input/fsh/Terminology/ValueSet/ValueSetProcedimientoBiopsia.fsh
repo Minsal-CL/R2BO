@@ -4,7 +4,7 @@ Title:          "Set de Valores Para Procedimientos"
 Description:    "Set de valores utilizados para los procedimientos al momento de extraer muestras de tejido"
 
 * insert SetCopyrightSCT
-* ^experimental = true
+* ^experimental = false
 
 * include codes from system $snomed|http://snomed.info/sct/21000325107/version/20260315 where concept descendent-of #86273004
 * exclude codes from system $snomed|http://snomed.info/sct/21000325107/version/20260315 where concept descendent-of #8889005
@@ -17,7 +17,7 @@ Description:    "Set de valores utilizados para los tipos de procedimientos al m
 
 
 * insert SetCopyrightSCT
-* ^experimental = true
+* ^experimental = false
 
 * $snomed|http://snomed.info/sct/900000000000207008/version/20260401#8889005 
 * $snomed|http://snomed.info/sct/900000000000207008/version/20260401#70871006

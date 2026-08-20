@@ -4,7 +4,7 @@ Title:          "Set de Valores Morfología"
 Description:    "Set de valores utilizados para morfologías en CIE-O 3.2 Morfológico"
 
 * insert SetCopyrightSCT
-* ^experimental = true
+* ^experimental = false
 
 // * include codes from valueset MorfologicoSnomedVS
 // * include codes from valueset CIEO3MVS

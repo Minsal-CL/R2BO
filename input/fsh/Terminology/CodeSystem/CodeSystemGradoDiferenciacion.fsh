@@ -5,7 +5,7 @@ Description: "Grado de diferenciación tumoral según clasificación de la OMS"
 
 * ^caseSensitive = false
 * ^content = #complete
-* ^experimental = true
+* ^experimental = false
 
 * #1  "Grado I  Bien diferenciado Diferenciado, SAI" "Grado I  Bien diferenciado Diferenciado, SAI"
 * #2  "Grado II Moderadamente diferenciado, Moderadamente bien diferenciado, Diferenciación intermedio" "Grado II Moderadamente diferenciado, Moderadamente bien diferenciado, Diferenciación intermedio"

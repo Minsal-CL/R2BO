@@ -4,11 +4,11 @@ Title:          "Set de Valores de los Reportes de Biopsia"
 Description:    "Códigos de tipos de reportes de biopsias en Snomed y LOINC"
 
 // * insert SetCopyrightSCT
-// * ^experimental = true
+// * ^experimental = false
 // * include codes from system $snomed where concept descendent-of #86273004
 * ^language = #en
 * insert SetCopyrightLOINC&SNOMED
-* ^experimental = true
+* ^experimental = false
 
 //* include codes from system $loinc where COMPONENT = #LP61728-9
 * include codes from system $loinc|2.82 where COMPONENT = #LP121003-0

@@ -11,7 +11,7 @@ Description:    "Categoría de la presencia o ausencia de metástasis en los gan
 * ^extension[=].valueCode = #draft
 
 * ^status = #draft
-* ^experimental = true
+* ^experimental = false
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
 * ^abstract = false

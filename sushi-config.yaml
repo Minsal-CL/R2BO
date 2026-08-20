@@ -126,6 +126,7 @@ pages:
 #
 parameters:
   path-tx-cache: input\txcache
+  auto-oid-root: 2.16.840.1.113883.2.22.40.8
   path-expansion-params: '../../input/_resources/exp-params.json'
   pin-canonicals: pin-multiples
   path-resource:

@@ -11,7 +11,7 @@ Description:    "Rol que cumple un profesional en un establecimiento de salud. E
 * ^extension[=].valueCode = #draft
 
 * ^status = #draft
-* ^experimental = true
+* ^experimental = false
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
 * practitioner 1..1 MS

@@ -54,12 +54,6 @@
     "candidates" : ["https://tx.hl7chile.cl/r4"]
   },
   {
-    "system" : "http://loinc.org in en, en-US",
-    "url" : "http://loinc.org",
-    "authoritative" : [],
-    "candidates" : ["https://tx.hl7chile.cl/r4"]
-  },
-  {
     "system" : "http://loinc.org|2.82",
     "url" : "http://loinc.org|2.82",
     "authoritative" : [],
@@ -127,12 +121,6 @@
   },
   {
     "system" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401 in en",
-    "url" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401",
-    "authoritative" : [],
-    "candidates" : ["https://tx.hl7chile.cl/r4"]
-  },
-  {
-    "system" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401 in en, en-US",
     "url" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401",
     "authoritative" : [],
     "candidates" : ["https://tx.hl7chile.cl/r4"]

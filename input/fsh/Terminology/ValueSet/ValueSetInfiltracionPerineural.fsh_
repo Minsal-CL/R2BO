@@ -4,7 +4,7 @@ Title:          "Set de Valores Para Hallazgos de Infiltración Perineural"
 Description:    "Posibles hallazgos de infiltración perineural en un reporte de biopsia. Este conjunto de valores decienden del concepto: 396394004 hallazgo relacionado con invasión perineural"
 
 * insert SetCopyrightSCT
-* ^experimental = true
+* ^experimental = false
 //* include codes from system $snomed where concept descendent-of #396394004
 
 * $snomed|http://snomed.info/sct/900000000000207008/version/20260401#370051000

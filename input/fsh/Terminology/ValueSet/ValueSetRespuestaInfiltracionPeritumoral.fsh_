@@ -4,7 +4,7 @@ Title:          "Set de Valores Para Hallazgos de Infiltración Peritumoral"
 Description:    "Posibles hallazgos de infiltración peritumoral en un reporte de biopsia. Este conjunto de valores decienden del concepto: 373376008 respuesta linfocítica peritumoral - hallazgo"
 
 * insert SetCopyrightSCT
-* ^experimental = true
+* ^experimental = false
 // * include codes from system $snomed where concept descendent-of #373376008
 
 * $snomed|http://snomed.info/sct/900000000000207008/version/20260401#369762001

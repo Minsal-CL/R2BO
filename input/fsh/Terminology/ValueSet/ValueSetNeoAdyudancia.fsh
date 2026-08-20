@@ -3,7 +3,7 @@ Id: r2bo-observaciones-NeoAdyuvancia-VS
 Title: "Set de Valores de Resultados de Observación Post Neoadyuvancia"
 Description: "Posibles valores para las observaciones realizadas en la evaluación post neoadyuvancia de un reporte de biopsia"
 * insert SetCopyrightLOINC
-* ^experimental = true
+* ^experimental = false
 
 * $loinc|2.82#LA26537-3 "No prior treatment"
 * $loinc|2.82#LA26538-1 "Complete response (Grade 0 - No viable cancer cells)"

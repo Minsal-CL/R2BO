@@ -10,7 +10,7 @@ Usage: #definition
 * version = "0.1.0"
 * name = "R2BOMinsalServerCapabilityStatement"
 * status = #active
-* experimental = true
+* experimental = false
 * date = "2025-03-05T15:30:00-03:00"
 
 

@@ -11,7 +11,7 @@ Description:    "Muestra de tejido o fluido biológico para análisis de antomí
 * ^extension[=].valueCode = #draft
 
 * ^status = #draft
-* ^experimental = true
+* ^experimental = false
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
 * subject 1..1 MS

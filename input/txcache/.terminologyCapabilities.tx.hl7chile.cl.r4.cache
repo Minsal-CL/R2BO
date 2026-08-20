@@ -2,11 +2,9 @@
   "resourceType" : "TerminologyCapabilities",
   "id" : "FhirServer",
   "url" : "https://tx.hl7chile.cl/r4/TerminologyCapabilities/tx",
-  "version" : "0.10.1",
   "name" : "FHIRTerminologyServer",
   "title" : "FHIR Terminology Server",
   "status" : "active",
-  "date" : "2026-08-13T20:18:14.900Z",
   "contact" : [{
     "telecom" : [{
       "system" : "other",

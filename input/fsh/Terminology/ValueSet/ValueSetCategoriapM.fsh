@@ -4,5 +4,5 @@ Title:          "Set de Valores Categoría TNM Patológico Metastásico Distante
 Description:    "Set de valores utilizados para la categoría TNM patológico metastásico distante"
 
 * insert SetCopyrightSCT
-* ^experimental = true
+* ^experimental = false
 * include codes from system $snomed|http://snomed.info/sct/21000325107/version/20260315 where concept descendent-of #1222591006

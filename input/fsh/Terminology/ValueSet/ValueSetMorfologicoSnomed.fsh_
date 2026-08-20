@@ -6,6 +6,6 @@ Set de valores utilizados para la anomalías morfológicas que permiten el mapeo
 """
 
 * insert SetCopyrightSCT
-* ^experimental = true
+* ^experimental = false
 
 * include codes from system $snomed where constraint = #"<108369006,^446608001"

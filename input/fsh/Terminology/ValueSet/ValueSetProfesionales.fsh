@@ -4,7 +4,7 @@ Title: "Profesionales Autorizados"
 Description: "Estos son los profesionales autorizados para realizar informes o solicitudes de anatomías patológicas"
 
 * ^language = #es
-* ^experimental = true
+* ^experimental = false
 
 * CSTituloProfesional#1 "MÉDICO CIRUJANO"
 * CSTituloProfesional#2 "CIRUJANO DENTISTA"
@@ -17,6 +17,6 @@ Title: "Especialistas Autorizados"
 Description: "Estos son los especialistas autorizados para realizar informes anatomías patológicas"
 
 * ^language = #es
-* ^experimental = true
+* ^experimental = false
 
 * CSEspecialidadMed#1 "ANATOMÍA PATOLÓGICA"

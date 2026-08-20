@@ -11,7 +11,7 @@ Description:    "Categoría del tumor primario, basada en su tamaño y extensió
 * ^extension[=].valueCode = #draft
 
 * ^status = #draft
-* ^experimental = true
+* ^experimental = false
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
 * ^abstract = false

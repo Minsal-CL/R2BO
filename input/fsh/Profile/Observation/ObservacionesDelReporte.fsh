@@ -11,7 +11,7 @@ Description:    "Perfil para todas las observaciones de los resultados de biopsi
 * ^extension[=].valueCode = #draft
 
 * ^status = #draft
-* ^experimental = true
+* ^experimental = false
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
 * ^abstract = true

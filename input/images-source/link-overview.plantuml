@@ -16,12 +16,12 @@ artifact "Organization: Organización" as Organization
 ' url of composition is  [[StructureDefinition-r2bo-composition-biopsia.html]]
 url of diagnosticReport is  [[StructureDefinition-r2bo-informe-biopsia.html]]
 url of result [[StructureDefinition-r2bo-resultados-reporte-biopsia.html]]
-url of humanPatient [[https://interoperabilidad.minsal.cl/fhir/ig/nid/0.4.6/StructureDefinition-MINSALPaciente.html]]
-url of Practitioner [[https://interoperabilidad.minsal.cl/fhir/ig/nid/0.4.6/StructureDefinition-MINSALPrestadorProfesional.html]]
+' url of humanPatient [[https://interoperabilidad.minsal.cl/fhir/ig/nid/0.4.6/StructureDefinition-MINSALPaciente.html]]
+' url of Practitioner [[https://interoperabilidad.minsal.cl/fhir/ig/nid/0.4.6/StructureDefinition-MINSALPrestadorProfesional.html]]
 url of PractitionerRole [[StructureDefinition-r2bo-rol-profesional-minsal.html]]
 url of ServiceRequest [[StructureDefinition-r2bo-solicitud-informe-apa.html]]
 url of Specimen [[StructureDefinition-r2bo-muestra-biopsia.html]]
-url of Organization [[https://interoperabilidad.minsal.cl/fhir/ig/nid/0.4.6/StructureDefinition-MINSALPrestadorOrganizacional.html]]
+' url of Organization [[https://interoperabilidad.minsal.cl/fhir/ig/nid/0.4.6/StructureDefinition-MINSALPrestadorOrganizacional.html]]
 
 
 ' diagnosticReport --> composition

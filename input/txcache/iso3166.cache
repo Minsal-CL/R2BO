@@ -20,7 +20,7 @@ v: {
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
   "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0ms tx-op\n1ms urn:iso:std:iso:3166/vs|2018: Validate \"[urn:iso:std:iso:3166#152 (\"Chile\")]\"\n1ms urn:iso:std:iso:3166/vs|2018: Check \"urn:iso:std:iso:3166#152\"\n1ms urn:iso:std:iso:3166/vs|2018: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166|2018\n1ms urn:iso:std:iso:3166/vs|2018: check code in (urn:iso:std:iso:3166) at Coding\n1ms urn:iso:std:iso:3166/vs|2018: Code \"152\" found in urn:iso:std:iso:3166|2018",
+  "diagnostics" : "0ms tx-op\n0ms urn:iso:std:iso:3166/vs|2018: Validate \"[urn:iso:std:iso:3166#152 (\"Chile\")]\"\n1ms urn:iso:std:iso:3166/vs|2018: Check \"urn:iso:std:iso:3166#152\"\n1ms urn:iso:std:iso:3166/vs|2018: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166|2018\n1ms urn:iso:std:iso:3166/vs|2018: check code in (urn:iso:std:iso:3166) at Coding\n1ms urn:iso:std:iso:3166/vs|2018: Code \"152\" found in urn:iso:std:iso:3166|2018",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -75,7 +75,7 @@ v: {
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
   "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0ms tx-op\n1ms urn:iso:std:iso:3166/vs|2018: Validate \"[urn:iso:std:iso:3166#858 (\"Uruguay\")]\"\n1ms urn:iso:std:iso:3166/vs|2018: Check \"urn:iso:std:iso:3166#858\"\n1ms urn:iso:std:iso:3166/vs|2018: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166|2018\n1ms urn:iso:std:iso:3166/vs|2018: check code in (urn:iso:std:iso:3166) at Coding\n1ms urn:iso:std:iso:3166/vs|2018: Code \"858\" found in urn:iso:std:iso:3166|2018",
+  "diagnostics" : "0ms tx-op\n0ms urn:iso:std:iso:3166/vs|2018: Validate \"[urn:iso:std:iso:3166#858 (\"Uruguay\")]\"\n1ms urn:iso:std:iso:3166/vs|2018: Check \"urn:iso:std:iso:3166#858\"\n1ms urn:iso:std:iso:3166/vs|2018: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166|2018\n1ms urn:iso:std:iso:3166/vs|2018: check code in (urn:iso:std:iso:3166) at Coding\n1ms urn:iso:std:iso:3166/vs|2018: Code \"858\" found in urn:iso:std:iso:3166|2018",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -102,7 +102,7 @@ v: {
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
   "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: Analysing https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9 for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: Prepare include[0]: \"(urn:iso:std:iso:3166)(coderegex[0-9]{3})\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: Validate \"[urn:iso:std:iso:3166#858 (\"undefined\")]\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: Check \"urn:iso:std:iso:3166#858\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\n1ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: check code in (urn:iso:std:iso:3166)(coderegex[0-9]{3}) at Coding\n4ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: Filter code regex [0-9]{3}: Code \"858\" found in urn:iso:std:iso:3166|2018",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: Analysing https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9 for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: Prepare include[0]: \"(urn:iso:std:iso:3166)(coderegex[0-9]{3})\"\n0ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: Validate \"[urn:iso:std:iso:3166#858 (\"undefined\")]\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: Check \"urn:iso:std:iso:3166#858\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\n1ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: check code in (urn:iso:std:iso:3166)(coderegex[0-9]{3}) at Coding\n2ms https://interoperabilidad.minsal.cl/fhir/ig/nid/ValueSet/vs-codigos-paises-nid--0|0.4.9: Filter code regex [0-9]{3}: Code \"858\" found in urn:iso:std:iso:3166|2018",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -129,8 +129,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:dd6b172b-e64a-4978-9b70-eebacc88d558",
-    "timestamp" : "2026-08-13T20:27:45.072Z",
+    "identifier" : "urn:uuid:bca25645-5499-4e20-b895-198c3705a640",
+    "timestamp" : "2026-08-20T13:24:40.520Z",
     "total" : 249,
     "offset" : 0,
     "parameter" : [{
@@ -1423,8 +1423,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:81764a1b-d9fa-477f-9192-446b13829adb",
-    "timestamp" : "2026-08-13T20:27:46.185Z",
+    "identifier" : "urn:uuid:ee4cc1f3-37dd-4202-a308-eed8d2029365",
+    "timestamp" : "2026-08-20T13:24:40.832Z",
     "total" : 291,
     "offset" : 0,
     "parameter" : [{
@@ -2927,8 +2927,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:97edfb44-db8e-4f29-b12e-1528d96358e3",
-    "timestamp" : "2026-08-13T20:27:47.284Z",
+    "identifier" : "urn:uuid:b33992c2-2b32-4ec8-930a-dfc4a5e2e7c2",
+    "timestamp" : "2026-08-20T13:24:40.997Z",
     "total" : 249,
     "offset" : 0,
     "parameter" : [{

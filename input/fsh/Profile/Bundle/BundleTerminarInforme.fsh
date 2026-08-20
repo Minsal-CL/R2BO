@@ -11,7 +11,7 @@ Description:    "Perfil de Bundle que contiene los recursos necesarios para gene
 * ^extension[=].valueCode = #draft
 
 * ^status = #draft
-* ^experimental = true
+* ^experimental = false
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
 * ^abstract = false

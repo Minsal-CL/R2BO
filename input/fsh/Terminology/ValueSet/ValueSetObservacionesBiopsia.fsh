@@ -4,7 +4,7 @@ Title:          "Set de Valores para Observaciones Biopsia"
 Description:    "Observaciones realizadas durante el informe de biopsia"
 
 * insert SetCopyrightLOINC&SNOMED
-* ^experimental = true
+* ^experimental = false
 
 //* $snomed|http://snomed.info/sct/900000000000207008/version/20260401#385361009 " International Federation of Gynecology and Obstetrics stage for gynecological malignancy"
 * $snomed|http://snomed.info/sct/900000000000207008/version/20260401#399588009 "Pathologic TNM stage grouping"

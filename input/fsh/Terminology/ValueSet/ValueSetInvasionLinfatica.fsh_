@@ -4,7 +4,7 @@ Title:          "Set de Valores para Invasión Linfática, Vascular, Tumoral"
 Description:    "Posibles resultados de invasión linfática, vascular y tumoral en un reporte de biopsia"
 
 * insert SetCopyrightSCT
-* ^experimental = true
+* ^experimental = false
 * $snomed|http://snomed.info/sct/900000000000207008/version/20260401#2667000   "Absent"
 * $snomed|http://snomed.info/sct/900000000000207008/version/20260401#52101004  "Present"
 * $snomed|http://snomed.info/sct/900000000000207008/version/20260401#82334004  "Indeterminatee"
