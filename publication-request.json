@@ -10,10 +10,10 @@
     "first": true,
     "fhirversion": "4.0.1",
     "category": "Laboratory Report",
-    "registry-description": "Repositorio Interoperable de Informes Anatomías Patológicas del Ministerio de Salud de Chile",
+    "registry-description": "Repositorio de Reportes de Biopsias Oncológicas del Ministerio de Salud de Chile",
     "registry-country": "CL",
     "registry-authority": "Ministerio de Salud de Chile",
-    "title": "Guía de Implementación del Repositorio Interoperable de Anatomías Patológicas del Ministerio de Salud de Chile",
-    "introduction": "Guía de implementación sobre el Repositorio Interoperable de Anatomías Patológicas del Ministerio de Salud de Chile",
+    "title": "Repositorio de Reportes de Biopsias Oncológicas",
+    "introduction": "Guía de implementación sobre el RRepositorio de Reportes de Biopsias Oncológicas del Ministerio de Salud de Chile",
     "ci-build": "https://build.fhir.org/ig/MINSAL-CL/R2BO"
 }
