@@ -224,6 +224,5 @@ Usage:              #inline
   * bodySite = http://snomed.info/sct#76752008
   * bodySite.extension[CalificadorLateralidad] = lateralidadIzquierda
   * method = http://snomed.info/sct#122548005
-  * method.extension[MetodoProcedimiento] = MetodoIncisional
 * note.text = "Resección completa de tejido mamario, posible carcinoma"
 

@@ -15,7 +15,7 @@ Description:        "Muestra de tejido de mamario"
   * bodySite = http://snomed.info/sct#76752008
   * bodySite.extension[CalificadorLateralidad] = lateralidadIzquierda
   * method = http://snomed.info/sct#122548005
-  * method.extension[MetodoProcedimiento] = MetodoIncisional
+  // * method.extension[MetodoProcedimiento] = MetodoIncisional
 * note.text = "Resección completa de tejido mamario, posible carcinoma"
 
 Instance:   lateralidadIzquierda
@@ -24,7 +24,7 @@ Usage:      #inline
 
 * valueCodeableConcept = http://snomed.info/sct#7771000 
 
-Instance:   MetodoIncisional
-InstanceOf: ExtensionTipoProcedimientoBiopsia
-Usage:      #inline
-* valueCodeableConcept = http://snomed.info/sct#8889005
+// Instance:   MetodoIncisional
+// InstanceOf: ExtensionTipoProcedimientoBiopsia
+// Usage:      #inline
+// * valueCodeableConcept = http://snomed.info/sct#8889005

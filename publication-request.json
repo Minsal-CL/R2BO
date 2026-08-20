@@ -1,19 +1,11 @@
 {
     "package-id": "hl7.fhir.cl.minsal.r2bo",
-    "version": "0.3.0-draft",
+    "version": "0.3.1-draft",
     "desc": "Versión de desarrollo de la guía de implementación del Repositorio Interoperable de Anatomías Patológicas del Ministerio de Salud",
-    "path": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/0.3.0-draft",
+    "path": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/0.3.1-draft",
     "mode": "working",
     "changes": "changes.html",
     "status": "draft",
     "sequence": "STU1",
-    "first": true,
-    "fhirversion": "4.0.1",
-    "category": "Laboratory Report",
-    "registry-description": "Repositorio de Reportes de Biopsias Oncológicas del Ministerio de Salud de Chile",
-    "registry-country": "CL",
-    "registry-authority": "Ministerio de Salud de Chile",
-    "title": "Repositorio de Reportes de Biopsias Oncológicas",
-    "introduction": "Guía de implementación sobre el RRepositorio de Reportes de Biopsias Oncológicas del Ministerio de Salud de Chile",
-    "ci-build": "https://build.fhir.org/ig/MINSAL-CL/R2BO"
+    "first": false
 }
