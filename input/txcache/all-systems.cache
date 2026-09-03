@@ -133,7 +133,7 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "code" : "application/fhir+json"
-}, "url": "urn:uuid:6a1156be-f46f-42f8-ae2e-49f3636099af", "version": "1", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "urn:uuid:c693490b-e1ef-4d24-af5b-30dcff092608", "version": "1", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "system-version",
@@ -149,7 +149,7 @@ v: {
   "code" : "application/fhir+json",
   "system" : "urn:ietf:bcp:13",
   "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0ms tx-op\n0ms urn:uuid:6a1156be-f46f-42f8-ae2e-49f3636099af|1: Analysing urn:uuid:6a1156be-f46f-42f8-ae2e-49f3636099af|1 for validation purposes\n0ms urn:uuid:6a1156be-f46f-42f8-ae2e-49f3636099af|1: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms urn:uuid:6a1156be-f46f-42f8-ae2e-49f3636099af|1: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms urn:uuid:6a1156be-f46f-42f8-ae2e-49f3636099af|1: Prepare include[0]: \"(urn:ietf:bcp:13)\"\n1ms urn:uuid:6a1156be-f46f-42f8-ae2e-49f3636099af|1: CodeSystem found: \"urn:ietf:bcp:13|null\"\n1ms urn:uuid:6a1156be-f46f-42f8-ae2e-49f3636099af|1: Validate \"[undefined#application/fhir+json (\"undefined\")]\" and infer system\n1ms urn:uuid:6a1156be-f46f-42f8-ae2e-49f3636099af|1: Check \"undefined#application/fhir+json\"\n1ms urn:uuid:6a1156be-f46f-42f8-ae2e-49f3636099af|1: Inferred CodeSystem = \"urn:ietf:bcp:13\"\n1ms urn:uuid:6a1156be-f46f-42f8-ae2e-49f3636099af|1: CodeSystem found: urn:ietf:bcp:13|null for urn:ietf:bcp:13\n1ms urn:uuid:6a1156be-f46f-42f8-ae2e-49f3636099af|1: check code in (urn:ietf:bcp:13) at \n1ms urn:uuid:6a1156be-f46f-42f8-ae2e-49f3636099af|1: Code \"application/fhir+json\" found in urn:ietf:bcp:13|null",
+  "diagnostics" : "0ms tx-op\n0ms urn:uuid:c693490b-e1ef-4d24-af5b-30dcff092608|1: Analysing urn:uuid:c693490b-e1ef-4d24-af5b-30dcff092608|1 for validation purposes\n0ms urn:uuid:c693490b-e1ef-4d24-af5b-30dcff092608|1: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms urn:uuid:c693490b-e1ef-4d24-af5b-30dcff092608|1: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms urn:uuid:c693490b-e1ef-4d24-af5b-30dcff092608|1: Prepare include[0]: \"(urn:ietf:bcp:13)\"\n1ms urn:uuid:c693490b-e1ef-4d24-af5b-30dcff092608|1: CodeSystem found: \"urn:ietf:bcp:13|null\"\n1ms urn:uuid:c693490b-e1ef-4d24-af5b-30dcff092608|1: Validate \"[undefined#application/fhir+json (\"undefined\")]\" and infer system\n1ms urn:uuid:c693490b-e1ef-4d24-af5b-30dcff092608|1: Check \"undefined#application/fhir+json\"\n1ms urn:uuid:c693490b-e1ef-4d24-af5b-30dcff092608|1: Inferred CodeSystem = \"urn:ietf:bcp:13\"\n1ms urn:uuid:c693490b-e1ef-4d24-af5b-30dcff092608|1: CodeSystem found: urn:ietf:bcp:13|null for urn:ietf:bcp:13\n1ms urn:uuid:c693490b-e1ef-4d24-af5b-30dcff092608|1: check code in (urn:ietf:bcp:13) at \n1ms urn:uuid:c693490b-e1ef-4d24-af5b-30dcff092608|1: Code \"application/fhir+json\" found in urn:ietf:bcp:13|null",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -183,7 +183,7 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "code" : "application/fhir+xml"
-}, "url": "urn:uuid:6a1156be-f46f-42f8-ae2e-49f3636099af", "version": "1", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "urn:uuid:c693490b-e1ef-4d24-af5b-30dcff092608", "version": "1", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "system-version",
@@ -199,7 +199,7 @@ v: {
   "code" : "application/fhir+xml",
   "system" : "urn:ietf:bcp:13",
   "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0ms tx-op\n0ms urn:uuid:6a1156be-f46f-42f8-ae2e-49f3636099af|1: Analysing urn:uuid:6a1156be-f46f-42f8-ae2e-49f3636099af|1 for validation purposes\n0ms urn:uuid:6a1156be-f46f-42f8-ae2e-49f3636099af|1: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms urn:uuid:6a1156be-f46f-42f8-ae2e-49f3636099af|1: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms urn:uuid:6a1156be-f46f-42f8-ae2e-49f3636099af|1: Prepare include[0]: \"(urn:ietf:bcp:13)\"\n0ms urn:uuid:6a1156be-f46f-42f8-ae2e-49f3636099af|1: CodeSystem found: \"urn:ietf:bcp:13|null\"\n0ms urn:uuid:6a1156be-f46f-42f8-ae2e-49f3636099af|1: Validate \"[undefined#application/fhir+xml (\"undefined\")]\" and infer system\n0ms urn:uuid:6a1156be-f46f-42f8-ae2e-49f3636099af|1: Check \"undefined#application/fhir+xml\"\n1ms urn:uuid:6a1156be-f46f-42f8-ae2e-49f3636099af|1: Inferred CodeSystem = \"urn:ietf:bcp:13\"\n1ms urn:uuid:6a1156be-f46f-42f8-ae2e-49f3636099af|1: CodeSystem found: urn:ietf:bcp:13|null for urn:ietf:bcp:13\n1ms urn:uuid:6a1156be-f46f-42f8-ae2e-49f3636099af|1: check code in (urn:ietf:bcp:13) at \n1ms urn:uuid:6a1156be-f46f-42f8-ae2e-49f3636099af|1: Code \"application/fhir+xml\" found in urn:ietf:bcp:13|null",
+  "diagnostics" : "0ms tx-op\n0ms urn:uuid:c693490b-e1ef-4d24-af5b-30dcff092608|1: Analysing urn:uuid:c693490b-e1ef-4d24-af5b-30dcff092608|1 for validation purposes\n0ms urn:uuid:c693490b-e1ef-4d24-af5b-30dcff092608|1: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms urn:uuid:c693490b-e1ef-4d24-af5b-30dcff092608|1: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms urn:uuid:c693490b-e1ef-4d24-af5b-30dcff092608|1: Prepare include[0]: \"(urn:ietf:bcp:13)\"\n0ms urn:uuid:c693490b-e1ef-4d24-af5b-30dcff092608|1: CodeSystem found: \"urn:ietf:bcp:13|null\"\n0ms urn:uuid:c693490b-e1ef-4d24-af5b-30dcff092608|1: Validate \"[undefined#application/fhir+xml (\"undefined\")]\" and infer system\n0ms urn:uuid:c693490b-e1ef-4d24-af5b-30dcff092608|1: Check \"undefined#application/fhir+xml\"\n1ms urn:uuid:c693490b-e1ef-4d24-af5b-30dcff092608|1: Inferred CodeSystem = \"urn:ietf:bcp:13\"\n1ms urn:uuid:c693490b-e1ef-4d24-af5b-30dcff092608|1: CodeSystem found: urn:ietf:bcp:13|null for urn:ietf:bcp:13\n1ms urn:uuid:c693490b-e1ef-4d24-af5b-30dcff092608|1: check code in (urn:ietf:bcp:13) at \n1ms urn:uuid:c693490b-e1ef-4d24-af5b-30dcff092608|1: Code \"application/fhir+xml\" found in urn:ietf:bcp:13|null",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -237,163 +237,6 @@ v: {
     "version" : "2019-covid-expanded",
     "code" : "D48.6"
   }]
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS", "version": "0.3.0-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "severity" : "error",
-  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS|0.3.0-draft'",
-  "class" : "UNKNOWN",
-  "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS|0.3.0-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS|0.3.0-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS|0.3.0-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS|0.3.0-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS|0.3.0-draft: Prepare include[0]: \"(http://id.who.int/icd/release/11/mms)(conceptdescendent-of1630407678,classKind=category)\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS|0.3.0-draft: CodeSystem found: \"http://id.who.int/icd/release/11/mms|2026-01\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS|0.3.0-draft: Validate \"[http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#D48.6 (\"undefined\")]\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS|0.3.0-draft: Check \"http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#D48.6\"",
-  "issues" : {
-  "resourceType" : "OperationOutcome",
-  "issue" : [{
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
-      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
-      "valueUrl" : "https://tx.hl7chile.cl/r4"
-    }],
-    "severity" : "information",
-    "code" : "code-invalid",
-    "details" : {
-      "coding" : [{
-        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
-        "code" : "this-code-not-in-vs"
-      }],
-      "text" : "The provided code 'http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#D48.6' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS|0.3.0-draft'"
-    },
-    "expression" : ["CodeableConcept.coding[0].code"]
-  },
-  {
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
-      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
-      "valueUrl" : "https://tx.hl7chile.cl/r4"
-    }],
-    "severity" : "error",
-    "code" : "code-invalid",
-    "details" : {
-      "coding" : [{
-        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
-        "code" : "not-in-vs"
-      }],
-      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS|0.3.0-draft'"
-    }
-  }]
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "coding" : [{
-    "system" : "http://loinc.org",
-    "code" : "66110-8"
-  }],
-  "text" : "Informe de Biopsia de Mama"
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs", "version": "0.3.0-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Breast Pathology biopsy report",
-  "code" : "66110-8",
-  "system" : "http://loinc.org",
-  "version" : "2.82",
-  "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.0-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.0-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.0-draft: Parameters: http-lang=en, disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.0-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.0-draft: Prepare include[0]: \"(http://loinc.org)(COMPONENT=LP121003-0)\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.0-draft: CodeSystem found: \"http://loinc.org|2.82\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.0-draft: Prepare include[1]: \"(http://snomed.info/sct)(conceptdescendent-of371528001)\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.0-draft: CodeSystem found: \"http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.0-draft: Validate \"[http://loinc.org#66110-8 (\"undefined\")]\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.0-draft: Check \"http://loinc.org#66110-8\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.0-draft: CodeSystem found: http://loinc.org|2.82 for http://loinc.org|2.82\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.0-draft: check code in (http://loinc.org)(COMPONENT=LP121003-0) at CodeableConcept.coding[0]\n35ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.0-draft: Filter COMPONENT = LP121003-0: Code \"66110-8\" found in http://loinc.org|2.82",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "coding" : [{
-    "system" : "http://snomed.info/sct",
-    "code" : "399588009"
-  }]
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS", "version": "0.3.0-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Pathologic TNM stage grouping",
-  "code" : "399588009",
-  "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20260401",
-  "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.3.0-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.3.0-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.3.0-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.3.0-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.3.0-draft: Prepare include[0]: \"(http://snomed.info/sct)(399588009,371513001,405921002,371509008,444696007,396631001,396324006,370052007)\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.3.0-draft: CodeSystem found: \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.3.0-draft: Prepare include[1]: \"(http://loinc.org)(102034-6,74574-5,33739-4,33740-2,21889-1,42030-7,92831-7,81168-7,84891-1,33737-8)\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.3.0-draft: CodeSystem found: \"http://loinc.org|2.82\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.3.0-draft: Validate \"[http://snomed.info/sct#399588009 (\"undefined\")]\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.3.0-draft: Check \"http://snomed.info/sct#399588009\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.3.0-draft: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.3.0-draft: check code in (http://snomed.info/sct)(399588009,371513001,405921002,371509008,444696007,396631001,396324006,370052007) at CodeableConcept.coding[0]\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.3.0-draft: Code \"399588009\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "coding" : [{
-    "system" : "urn:iso:std:iso:3166",
-    "code" : "CL",
-    "display" : "Chile"
-  }]
-}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Chile",
-  "code" : "CL",
-  "system" : "urn:iso:std:iso:3166",
-  "version" : "2018",
-  "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0ms tx-op\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1 for validation purposes\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[1]: \"(urn:iso:std:iso:3166:-2)\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166:-2|2021\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[2]: \"(http://unstats.un.org/unsd/methods/m49/m49.htm)(class=region)\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem version undefined not found: \"http://unstats.un.org/unsd/methods/m49/m49.htm\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Validate \"[urn:iso:std:iso:3166#CL (\"Chile\")]\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Check \"urn:iso:std:iso:3166#CL\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: check code in (urn:iso:std:iso:3166) at CodeableConcept.coding[0]\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Code \"CL\" found in urn:iso:std:iso:3166|2018",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "coding" : [{
-    "system" : "http://hl7.org/fhir/sid/icd-10",
-    "version" : "2019-covid-expanded",
-    "code" : "D48.6"
-  }]
 }, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS", "version": "0.3.1-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
@@ -410,7 +253,7 @@ v: {
   "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS|0.3.1-draft'",
   "class" : "UNKNOWN",
   "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS|0.3.1-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS|0.3.1-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS|0.3.1-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS|0.3.1-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS|0.3.1-draft: Prepare include[0]: \"(http://id.who.int/icd/release/11/mms)(conceptdescendent-of1630407678,classKind=category)\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS|0.3.1-draft: CodeSystem found: \"http://id.who.int/icd/release/11/mms|2026-01\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS|0.3.1-draft: Validate \"[http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#D48.6 (\"undefined\")]\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS|0.3.1-draft: Check \"http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#D48.6\"",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS|0.3.1-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS|0.3.1-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS|0.3.1-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS|0.3.1-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS|0.3.1-draft: Prepare include[0]: \"(http://id.who.int/icd/release/11/mms)(conceptdescendent-of1630407678,classKind=category)\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS|0.3.1-draft: CodeSystem found: \"http://id.who.int/icd/release/11/mms|2026-01-17\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS|0.3.1-draft: Validate \"[http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#D48.6 (\"undefined\")]\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie11-VS|0.3.1-draft: Check \"http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#D48.6\"",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -479,7 +322,7 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.82",
   "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.1-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.1-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.1-draft: Parameters: http-lang=en, disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.1-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.1-draft: Prepare include[0]: \"(http://loinc.org)(COMPONENT=LP121003-0)\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.1-draft: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.1-draft: Prepare include[1]: \"(http://snomed.info/sct)(conceptdescendent-of371528001)\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.1-draft: CodeSystem found: \"http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.1-draft: Validate \"[http://loinc.org#66110-8 (\"undefined\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.1-draft: Check \"http://loinc.org#66110-8\"\n4ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.1-draft: CodeSystem found: http://loinc.org|2.82 for http://loinc.org|2.82\n4ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.1-draft: check code in (http://loinc.org)(COMPONENT=LP121003-0) at CodeableConcept.coding[0]\n36ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.1-draft: Filter COMPONENT = LP121003-0: Code \"66110-8\" found in http://loinc.org|2.82",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.1-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.1-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.1-draft: Parameters: http-lang=en, disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.1-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.1-draft: Prepare include[0]: \"(http://loinc.org)(COMPONENT=LP121003-0)\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.1-draft: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.1-draft: Prepare include[1]: \"(http://snomed.info/sct)(conceptdescendent-of371528001)\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.1-draft: CodeSystem found: \"http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.1-draft: Validate \"[http://loinc.org#66110-8 (\"undefined\")]\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.1-draft: Check \"http://loinc.org#66110-8\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.1-draft: CodeSystem found: http://loinc.org|2.82 for http://loinc.org|2.82\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.1-draft: check code in (http://loinc.org)(COMPONENT=LP121003-0) at CodeableConcept.coding[0]\n35ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-reporte-biopsia-vs|0.3.1-draft: Filter COMPONENT = LP121003-0: Code \"66110-8\" found in http://loinc.org|2.82",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -509,6 +352,36 @@ v: {
   "version" : "http://snomed.info/sct/900000000000207008/version/20260401",
   "server" : "https://tx.hl7chile.cl/r4",
   "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.3.1-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.3.1-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.3.1-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.3.1-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.3.1-draft: Prepare include[0]: \"(http://snomed.info/sct)(399588009,371513001,405921002,371509008,444696007,396631001,396324006,370052007)\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.3.1-draft: CodeSystem found: \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.3.1-draft: Prepare include[1]: \"(http://loinc.org)(102034-6,74574-5,33739-4,33740-2,21889-1,42030-7,92831-7,81168-7,84891-1,33737-8)\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.3.1-draft: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.3.1-draft: Validate \"[http://snomed.info/sct#399588009 (\"undefined\")]\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.3.1-draft: Check \"http://snomed.info/sct#399588009\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.3.1-draft: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.3.1-draft: check code in (http://snomed.info/sct)(399588009,371513001,405921002,371509008,444696007,396631001,396324006,370052007) at CodeableConcept.coding[0]\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-observaciones-biopsia-VS|0.3.1-draft: Code \"399588009\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "urn:iso:std:iso:3166",
+    "code" : "CL",
+    "display" : "Chile"
+  }]
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Chile",
+  "code" : "CL",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "2018",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[1]: \"(urn:iso:std:iso:3166:-2)\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166:-2|2021\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[2]: \"(http://unstats.un.org/unsd/methods/m49/m49.htm)(class=region)\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem version undefined not found: \"http://unstats.un.org/unsd/methods/m49/m49.htm\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Validate \"[urn:iso:std:iso:3166#CL (\"Chile\")]\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Check \"urn:iso:std:iso:3166#CL\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: check code in (urn:iso:std:iso:3166) at CodeableConcept.coding[0]\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Code \"CL\" found in urn:iso:std:iso:3166|2018",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }

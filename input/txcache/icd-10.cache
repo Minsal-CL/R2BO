@@ -48,7 +48,7 @@ v: {
   "system" : "http://hl7.org/fhir/sid/icd-10",
   "version" : "2019-covid-expanded",
   "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Validate \"[http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#II (\"undefined\")]\"\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Check \"http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#II\"\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: CodeSystem found: http://hl7.org/fhir/sid/icd-10|2019-covid-expanded for http://hl7.org/fhir/sid/icd-10|2019-covid-expanded\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: check code in (http://hl7.org/fhir/sid/icd-10) at Coding\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Code \"II\" found in http://hl7.org/fhir/sid/icd-10|2019-covid-expanded",
+  "diagnostics" : "0ms tx-op\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Validate \"[http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#II (\"undefined\")]\"\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Check \"http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#II\"\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: CodeSystem found: http://hl7.org/fhir/sid/icd-10|2019-covid-expanded for http://hl7.org/fhir/sid/icd-10|2019-covid-expanded\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: check code in (http://hl7.org/fhir/sid/icd-10) at Coding\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Code \"II\" found in http://hl7.org/fhir/sid/icd-10|2019-covid-expanded",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -78,7 +78,7 @@ v: {
   "error" : "Unknown code 'category' in the CodeSystem 'http://hl7.org/fhir/sid/icd-10' version '2019-covid-expanded'",
   "class" : "UNKNOWN",
   "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Validate \"[http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#category (\"undefined\")]\"\n0ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Check \"http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#category\"\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: CodeSystem found: http://hl7.org/fhir/sid/icd-10|2019-covid-expanded for http://hl7.org/fhir/sid/icd-10|2019-covid-expanded\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: check code in (http://hl7.org/fhir/sid/icd-10) at Coding\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Code \"category\" not found in http://hl7.org/fhir/sid/icd-10|2019-covid-expanded: undefined",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Validate \"[http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#category (\"undefined\")]\"\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Check \"http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#category\"\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: CodeSystem found: http://hl7.org/fhir/sid/icd-10|2019-covid-expanded for http://hl7.org/fhir/sid/icd-10|2019-covid-expanded\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: check code in (http://hl7.org/fhir/sid/icd-10) at Coding\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Code \"category\" not found in http://hl7.org/fhir/sid/icd-10|2019-covid-expanded: undefined",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -126,7 +126,7 @@ v: {
   "system" : "http://hl7.org/fhir/sid/icd-10",
   "version" : "2019-covid-expanded",
   "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0ms tx-op\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Validate \"[http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#II (\"undefined\")]\"\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Check \"http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#II\"\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: CodeSystem found: http://hl7.org/fhir/sid/icd-10|2019-covid-expanded for http://hl7.org/fhir/sid/icd-10|2019-covid-expanded\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: check code in (http://hl7.org/fhir/sid/icd-10) at Coding\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Code \"II\" found in http://hl7.org/fhir/sid/icd-10|2019-covid-expanded",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Validate \"[http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#II (\"undefined\")]\"\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Check \"http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#II\"\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: CodeSystem found: http://hl7.org/fhir/sid/icd-10|2019-covid-expanded for http://hl7.org/fhir/sid/icd-10|2019-covid-expanded\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: check code in (http://hl7.org/fhir/sid/icd-10) at Coding\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Code \"II\" found in http://hl7.org/fhir/sid/icd-10|2019-covid-expanded",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -139,7 +139,7 @@ v: {
     "version" : "2019-covid-expanded",
     "code" : "D48.6"
   }]
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS", "version": "0.3.0-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS", "version": "0.3.1-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "system-version",
@@ -156,7 +156,7 @@ v: {
   "system" : "http://hl7.org/fhir/sid/icd-10",
   "version" : "2019-covid-expanded",
   "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.0-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.0-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.0-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.0-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.0-draft: Prepare include[0]: \"(http://hl7.org/fhir/sid/icd-10)(conceptdescendent-ofII,kind=category)\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.0-draft: CodeSystem found: \"http://hl7.org/fhir/sid/icd-10|2019-covid-expanded\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.0-draft: Validate \"[http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#D48.6 (\"undefined\")]\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.0-draft: Check \"http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#D48.6\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.0-draft: CodeSystem found: http://hl7.org/fhir/sid/icd-10|2019-covid-expanded for http://hl7.org/fhir/sid/icd-10|2019-covid-expanded\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.0-draft: check code in (http://hl7.org/fhir/sid/icd-10)(conceptdescendent-ofII,kind=category) at CodeableConcept.coding[0]\n8ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.0-draft: Filter concept descendent-of II),kind = category): Code \"D48.6\" found in http://hl7.org/fhir/sid/icd-10|2019-covid-expanded",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.1-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.1-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.1-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.1-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.1-draft: Prepare include[0]: \"(http://hl7.org/fhir/sid/icd-10)(conceptdescendent-ofII,kind=category)\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.1-draft: CodeSystem found: \"http://hl7.org/fhir/sid/icd-10|2019-covid-expanded\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.1-draft: Validate \"[http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#D48.6 (\"undefined\")]\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.1-draft: Check \"http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#D48.6\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.1-draft: CodeSystem found: http://hl7.org/fhir/sid/icd-10|2019-covid-expanded for http://hl7.org/fhir/sid/icd-10|2019-covid-expanded\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.1-draft: check code in (http://hl7.org/fhir/sid/icd-10)(conceptdescendent-ofII,kind=category) at CodeableConcept.coding[0]\n6ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.1-draft: Filter concept descendent-of II),kind = category): Code \"D48.6\" found in http://hl7.org/fhir/sid/icd-10|2019-covid-expanded",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -186,7 +186,7 @@ v: {
   "system" : "http://hl7.org/fhir/sid/icd-10",
   "version" : "2019-covid-expanded",
   "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0ms tx-op\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Validate \"[http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#D48.6 (\"undefined\")]\"\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Check \"http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#D48.6\"\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: CodeSystem found: http://hl7.org/fhir/sid/icd-10|2019-covid-expanded for http://hl7.org/fhir/sid/icd-10|2019-covid-expanded\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: check code in (http://hl7.org/fhir/sid/icd-10) at CodeableConcept.coding[0]\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Code \"D48.6\" found in http://hl7.org/fhir/sid/icd-10|2019-covid-expanded",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Validate \"[http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#D48.6 (\"undefined\")]\"\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Check \"http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#D48.6\"\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: CodeSystem found: http://hl7.org/fhir/sid/icd-10|2019-covid-expanded for http://hl7.org/fhir/sid/icd-10|2019-covid-expanded\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: check code in (http://hl7.org/fhir/sid/icd-10) at CodeableConcept.coding[0]\n1ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Code \"D48.6\" found in http://hl7.org/fhir/sid/icd-10|2019-covid-expanded",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -214,14 +214,13 @@ v: {
   }
 }}####
 e: {
-  "class" : "UNKNOWN",
   "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:baad2a7d-3889-4749-8aca-2dce3c99cf2b",
-    "timestamp" : "2026-08-20T13:22:50.351Z",
+    "identifier" : "urn:uuid:3b2d3bdf-24fe-4ab3-ada7-c1a2ac55fe69",
+    "timestamp" : "2026-09-03T18:57:21.114Z",
     "total" : 874,
     "offset" : 0,
     "parameter" : [{
@@ -4617,35 +4616,5 @@ e: {
   }
 },
   "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "coding" : [{
-    "system" : "http://hl7.org/fhir/sid/icd-10",
-    "version" : "2019-covid-expanded",
-    "code" : "D48.6"
-  }]
-}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS", "version": "0.3.1-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "en"
-  }]
-}}####
-v: {
-  "display" : "Breast",
-  "code" : "D48.6",
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "version" : "2019-covid-expanded",
-  "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.1-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.1-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.1-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.1-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.1-draft: Prepare include[0]: \"(http://hl7.org/fhir/sid/icd-10)(conceptdescendent-ofII,kind=category)\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.1-draft: CodeSystem found: \"http://hl7.org/fhir/sid/icd-10|2019-covid-expanded\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.1-draft: Validate \"[http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#D48.6 (\"undefined\")]\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.1-draft: Check \"http://hl7.org/fhir/sid/icd-10|2019-covid-expanded#D48.6\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.1-draft: CodeSystem found: http://hl7.org/fhir/sid/icd-10|2019-covid-expanded for http://hl7.org/fhir/sid/icd-10|2019-covid-expanded\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.1-draft: check code in (http://hl7.org/fhir/sid/icd-10)(conceptdescendent-ofII,kind=category) at CodeableConcept.coding[0]\n7ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-hallazgos-clinicos-cie10-VS|0.3.1-draft: Filter concept descendent-of II),kind = category): Code \"D48.6\" found in http://hl7.org/fhir/sid/icd-10|2019-covid-expanded",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
 }
 -------------------------------------------------------------------------------------
