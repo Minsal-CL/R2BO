@@ -18,4 +18,4 @@ Description:    "Categoría de la presencia o ausencia de metástasis en los gan
 
 * code = $snomed#371494008
 
-* value[x] from TNMCategoriaPatologicoNodosRegionalVS (preferred)
+* value[x] from TNMCategoriaPatologicoNodosRegionalVS (extensible)

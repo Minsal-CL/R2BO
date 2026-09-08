@@ -1,3 +1,8 @@
+### Versión 0.3.1
+
+* se actualizaron las códificaciones para las observaciones de TNM de snomed las de LOINC para simplificar su implementación.    
+* se actualozaron los ejemplos de TNM y estadificación. 
+
 ### Versión 0.3.0 
 
 * Se elimina la generación de Documentos en FHIR y sus recursos Asociados.

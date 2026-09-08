@@ -10,6 +10,6 @@ Description:    "Ejemplo de una observación de categoría TNM de un tumor prima
 * code = $snomed#384625004
 * subject = Reference(paciente-requiere-examen)
 * performer = Reference(r2bo-anatopatologo-hospital)
-* valueCodeableConcept = $snomed#1229852009
+* valueCodeableConcept = $loinc#LA3628-0 "T2"
 * specimen = Reference(r2bo-specimen-example)
 * effectiveDateTime = "2021-06-01T12:00:00-04:00"

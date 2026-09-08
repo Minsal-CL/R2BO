@@ -3,6 +3,8 @@ Id:             r2bo-tnm-categoria-metastasis-distante-patologico-vs
 Title:          "Set de Valores Categoría TNM Patológico Metastásico Distante"
 Description:    "Set de valores utilizados para la categoría TNM patológico metastásico distante"
 
-* insert SetCopyrightSCT
+* insert SetCopyrightLOINC
 * ^experimental = false
-* include codes from system $snomed|http://snomed.info/sct/21000325107/version/20260315 where concept descendent-of #1222591006
+//* include codes from system $snomed|http://snomed.info/sct/21000325107/version/20260315 where concept descendent-of #1222591006
+
+* include codes from valueset http://loinc.org/vs/LL239-5

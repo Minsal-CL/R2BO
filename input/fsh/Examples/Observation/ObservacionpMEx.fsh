@@ -10,6 +10,6 @@ Description:    "Ejemplo de una observación de categoría TNM de metástasis di
 * code = $snomed#371497001
 * subject = Reference(paciente-requiere-examen)
 * performer = Reference(r2bo-anatopatologo-hospital)
-* valueCodeableConcept = $snomed#1229916009
+* valueCodeableConcept = $loinc#LA4628-9 "M1"
 * specimen = Reference(r2bo-specimen-example)
 * effectiveDateTime = "2021-06-01T12:00:00-04:00"

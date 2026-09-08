@@ -10,6 +10,6 @@ Description:    "Ejemplo de una observación de categoría TNM de nodos regional
 * code = $snomed#371494008
 * subject = Reference(paciente-requiere-examen)
 * performer = Reference(r2bo-anatopatologo-hospital)
-* valueCodeableConcept = $snomed#1229957002	
+* valueCodeableConcept = $loinc#LA4534-9 "N2"	
 * specimen = Reference(r2bo-specimen-example)
 * effectiveDateTime = "2021-06-01T12:00:00-04:00"

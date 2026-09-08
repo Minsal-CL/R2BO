@@ -19,4 +19,4 @@ Description:    "Categoría del tumor primario, basada en su tamaño y extensió
 
 * code = $snomed#384625004
 
-* value[x] from TNMCategoriaTumorPrimarioPatologicoVS (preferred)
+* value[x] from TNMCategoriaTumorPrimarioPatologicoVS (extensible)

@@ -50,13 +50,14 @@
   }
 }}####
 e: {
+  "class" : "UNKNOWN",
   "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:b7fa47da-bb03-4634-ad51-6a3c614368ac",
-    "timestamp" : "2026-09-03T18:54:45.599Z",
+    "identifier" : "urn:uuid:38eb33f1-eed4-469e-870c-2ea8f9a6e0fb",
+    "timestamp" : "2026-09-03T21:21:42.662Z",
     "total" : 10,
     "offset" : 0,
     "parameter" : [{
@@ -155,7 +156,7 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.82",
   "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0ms tx-op\n1ms http://loinc.org/vs|2.82: Validate \"[http://loinc.org|2.82#LP121003-0 (\"undefined\")]\"\n2ms http://loinc.org/vs|2.82: Check \"http://loinc.org|2.82#LP121003-0\"\n3ms http://loinc.org/vs|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org|2.82\n3ms http://loinc.org/vs|2.82: check code in (http://loinc.org) at Coding\n3ms http://loinc.org/vs|2.82: Code \"LP121003-0\" found in http://loinc.org|2.82",
+  "diagnostics" : "0ms tx-op\n2ms http://loinc.org/vs|2.82: Validate \"[http://loinc.org|2.82#LP121003-0 (\"undefined\")]\"\n2ms http://loinc.org/vs|2.82: Check \"http://loinc.org|2.82#LP121003-0\"\n4ms http://loinc.org/vs|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org|2.82\n4ms http://loinc.org/vs|2.82: check code in (http://loinc.org) at Coding\n4ms http://loinc.org/vs|2.82: Code \"LP121003-0\" found in http://loinc.org|2.82",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -516,11 +517,261 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.82",
   "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/report-codes|4.0.1: Analysing http://hl7.org/fhir/ValueSet/report-codes|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/report-codes|4.0.1: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/report-codes|4.0.1: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms http://hl7.org/fhir/ValueSet/report-codes|4.0.1: Prepare include[0]: \"(http://loinc.org)\"\n1ms http://hl7.org/fhir/ValueSet/report-codes|4.0.1: CodeSystem found: \"http://loinc.org|2.82\"\n1ms http://hl7.org/fhir/ValueSet/report-codes|4.0.1: Validate \"[http://loinc.org#66110-8 (\"undefined\")]\"\n2ms http://hl7.org/fhir/ValueSet/report-codes|4.0.1: Check \"http://loinc.org#66110-8\"\n3ms http://hl7.org/fhir/ValueSet/report-codes|4.0.1: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n3ms http://hl7.org/fhir/ValueSet/report-codes|4.0.1: check code in (http://loinc.org) at CodeableConcept.coding[0]\n3ms http://hl7.org/fhir/ValueSet/report-codes|4.0.1: Code \"66110-8\" found in http://loinc.org|2.82",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/report-codes|4.0.1: Analysing http://hl7.org/fhir/ValueSet/report-codes|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/report-codes|4.0.1: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/report-codes|4.0.1: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms http://hl7.org/fhir/ValueSet/report-codes|4.0.1: Prepare include[0]: \"(http://loinc.org)\"\n3ms http://hl7.org/fhir/ValueSet/report-codes|4.0.1: CodeSystem found: \"http://loinc.org|2.82\"\n3ms http://hl7.org/fhir/ValueSet/report-codes|4.0.1: Validate \"[http://loinc.org#66110-8 (\"undefined\")]\"\n4ms http://hl7.org/fhir/ValueSet/report-codes|4.0.1: Check \"http://loinc.org#66110-8\"\n5ms http://hl7.org/fhir/ValueSet/report-codes|4.0.1: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n5ms http://hl7.org/fhir/ValueSet/report-codes|4.0.1: check code in (http://loinc.org) at CodeableConcept.coding[0]\n5ms http://hl7.org/fhir/ValueSet/report-codes|4.0.1: Code \"66110-8\" found in http://loinc.org|2.82",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
 
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "LIST",
+        "op" : "=",
+        "value" : "LL240-3"
+      }]
+    }]
+  }
+}}####
+e: {
+  "class" : "UNKNOWN",
+  "source" : tx.hl7chile.cl,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:57d2351a-8d1c-45a0-8ec9-067dcb82c7a8",
+    "timestamp" : "2026-09-03T21:23:59.157Z",
+    "total" : 40,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "includeDefinition",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://loinc.org|2.82"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "LA4703-0",
+      "display" : "Not applicable (no AJCC staging scheme)"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3649-6",
+      "display" : "Stage IVB"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3650-4",
+      "display" : "Stage IVA"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3651-2",
+      "display" : "Stage IV"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3654-6",
+      "display" : "Stage IIIC"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3655-3",
+      "display" : "Stage IIIB"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3656-1",
+      "display" : "Stage IIIA"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3657-9",
+      "display" : "Stage III"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3658-7",
+      "display" : "Stage IIC"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3659-5",
+      "display" : "Stage IIB"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3660-3",
+      "display" : "Stage IIA"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3661-1",
+      "display" : "Stage II"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3663-7",
+      "display" : "Stage IA"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3664-5",
+      "display" : "Stage I"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4314-6",
+      "display" : "Stage IVC"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4315-3",
+      "display" : "Stage IS"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4321-1",
+      "display" : "Stage 0is"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4322-9",
+      "display" : "Stage 0A"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4323-7",
+      "display" : "Stage 0"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4316-1",
+      "display" : "Stage IC"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21791-1",
+      "display" : "Stage IE"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21794-5",
+      "display" : "Stage IIE"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21847-1",
+      "display" : "Stage IIS"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3652-0",
+      "display" : "Stage IIIE"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21800-0",
+      "display" : "Stage IIIS"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21802-6",
+      "display" : "Stage IVE"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3648-8",
+      "display" : "Stage IVS"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4284-1",
+      "display" : "Stage T1A2"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4371-6",
+      "display" : "Stage T1B"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4391-4",
+      "display" : "Recurrent, unstaged, unknown, Stage X"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4401-1",
+      "display" : "Stage T1A1"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4484-7",
+      "display" : "Stage T1B2"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4485-4",
+      "display" : "Stage T1B1"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4744-4",
+      "display" : "Occult"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21844-8",
+      "display" : "Stage IIA1"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21845-5",
+      "display" : "Stage IIA2"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21848-9",
+      "display" : "Stage IIIC1"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21871-1",
+      "display" : "Stage IIIC2"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21872-9",
+      "display" : "Stage IVA1"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21850-5",
+      "display" : "Stage IVA2"
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
@@ -574,13 +825,14 @@ v: {
   }
 }}####
 e: {
+  "class" : "UNKNOWN",
   "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:783bc5c9-d8fe-4a87-afad-57ab9df2ae19",
-    "timestamp" : "2026-09-03T18:57:15.664Z",
+    "identifier" : "urn:uuid:24dda4ab-b84a-4e40-8345-144aa885e3f1",
+    "timestamp" : "2026-09-03T21:24:01.624Z",
     "total" : 10,
     "offset" : 0,
     "parameter" : [{
@@ -664,6 +916,511 @@ e: {
     "inactive" : true,
     "include" : [{
       "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "LIST",
+        "op" : "=",
+        "value" : "LL239-5"
+      }]
+    }]
+  }
+}}####
+e: {
+  "class" : "UNKNOWN",
+  "source" : tx.hl7chile.cl,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:7c8a186b-1b1f-49f5-91c8-53f9c80cdf21",
+    "timestamp" : "2026-09-03T21:24:03.750Z",
+    "total" : 11,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "includeDefinition",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://loinc.org|2.82"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "LA4544-8",
+      "display" : "MX"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4629-7",
+      "display" : "M0"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4628-9",
+      "display" : "M1"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4703-0",
+      "display" : "Not applicable (no AJCC staging scheme)"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4625-5",
+      "display" : "M1C"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4626-3",
+      "display" : "M1B"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4627-1",
+      "display" : "M1A"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21875-2",
+      "display" : "M0+"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21876-0",
+      "display" : "M0I+"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21877-8",
+      "display" : "M1d"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21878-6",
+      "display" : "M1e"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "LIST",
+        "op" : "=",
+        "value" : "LL238-7"
+      }]
+    }]
+  }
+}}####
+e: {
+  "class" : "UNKNOWN",
+  "source" : tx.hl7chile.cl,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:180a8ae7-081c-41d2-a2fc-c8f858950a4f",
+    "timestamp" : "2026-09-03T21:24:04.385Z",
+    "total" : 24,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "includeDefinition",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://loinc.org|2.82"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "LA4745-1",
+      "display" : "NX"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4368-2",
+      "display" : "N0"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4537-2",
+      "display" : "N1"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4534-9",
+      "display" : "N2"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4545-5",
+      "display" : "N3"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA15167-2",
+      "display" : "N"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4703-0",
+      "display" : "Not applicable (no AJCC staging scheme)"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4264-3",
+      "display" : "N1a"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4517-4",
+      "display" : "N2b"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4527-3",
+      "display" : "N3c"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4528-1",
+      "display" : "N3b"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4529-9",
+      "display" : "N3a"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4531-5",
+      "display" : "N2c"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4533-1",
+      "display" : "N2a"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4535-6",
+      "display" : "N1b"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21814-1",
+      "display" : "N0I-"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21815-8",
+      "display" : "N0I+"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21816-6",
+      "display" : "N0M-"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21817-4",
+      "display" : "N0M+"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21818-2",
+      "display" : "N0a"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21819-0",
+      "display" : "N0b"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21866-1",
+      "display" : "N1c"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21822-4",
+      "display" : "N1mi"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21874-5",
+      "display" : "N4"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "LIST",
+        "op" : "=",
+        "value" : "LL237-9"
+      }]
+    }]
+  }
+}}####
+e: {
+  "class" : "UNKNOWN",
+  "source" : tx.hl7chile.cl,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:c5661cea-3d8d-44e3-9a00-694e2759d443",
+    "timestamp" : "2026-09-03T21:24:04.959Z",
+    "total" : 36,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "includeDefinition",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://loinc.org|2.82"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "LA3601-7",
+      "display" : "TX"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3638-9",
+      "display" : "T0"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3637-1",
+      "display" : "T1"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3628-0",
+      "display" : "T2"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3624-9",
+      "display" : "T3"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3620-7",
+      "display" : "T4"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3608-2",
+      "display" : "Tis"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3615-7",
+      "display" : "Ta"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3616-5",
+      "display" : "T4d"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3617-3",
+      "display" : "T4c"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3618-1",
+      "display" : "T4b"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3619-9",
+      "display" : "T4a"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3621-5",
+      "display" : "T3c"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3622-3",
+      "display" : "T3b"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3623-1",
+      "display" : "T3a"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3625-6",
+      "display" : "T2c"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3626-4",
+      "display" : "T2b"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3627-2",
+      "display" : "T2a"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3629-8",
+      "display" : "T1mic"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3630-6",
+      "display" : "T1c"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3631-4",
+      "display" : "T1b2"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3632-2",
+      "display" : "T1b1"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3633-0",
+      "display" : "T1b"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3634-8",
+      "display" : "T1a2"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3635-5",
+      "display" : "T1a1"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3636-3",
+      "display" : "T1a"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4703-0",
+      "display" : "Not applicable (no AJCC staging scheme)"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21805-9",
+      "display" : "T1d"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21806-7",
+      "display" : "T2a1"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21807-5",
+      "display" : "T2a2"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21808-3",
+      "display" : "T2d"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21810-9",
+      "display" : "T3d"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21811-7",
+      "display" : "T4e"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4473-0",
+      "display" : "Tid pd"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4514-1",
+      "display" : "Tis pu"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21854-7",
+      "display" : "T1mi"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
       "version" : "2.82",
       "filter" : [{
         "property" : "COMPONENT",
@@ -674,13 +1431,14 @@ e: {
   }
 }}####
 e: {
+  "class" : "UNKNOWN",
   "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:a080767c-b40c-4101-b7f7-9104b56e4a1b",
-    "timestamp" : "2026-09-03T18:57:23.535Z",
+    "identifier" : "urn:uuid:f90df750-bf02-4f22-aafb-94b98e48d32f",
+    "timestamp" : "2026-09-03T21:24:08.918Z",
     "total" : 26,
     "offset" : 0,
     "parameter" : [{
@@ -836,5 +1594,1952 @@ e: {
   }
 },
   "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "version" : "2.82",
+      "concept" : [{
+        "code" : "102034-6",
+        "display" : "Pathology report microscopic observation in Specimen"
+      },
+      {
+        "code" : "74574-5",
+        "display" : "Macroscopic observation [Interpretation] in Specimen Narrative"
+      },
+      {
+        "code" : "33739-4",
+        "display" : "Lymphatic.small vessel.invasion [Identifier] in Specimen by CAP cancer protocols"
+      },
+      {
+        "code" : "33740-2",
+        "display" : "Venous.large vessel.invasion [Identifier] in Specimen by CAP cancer protocols"
+      },
+      {
+        "code" : "21889-1",
+        "display" : "Size Tumor"
+      },
+      {
+        "code" : "42030-7",
+        "display" : "Multiple tumors reported as single primary Cancer"
+      },
+      {
+        "code" : "92831-7",
+        "display" : "Lymph nodes with metastasis [#] in Cancer specimen"
+      },
+      {
+        "code" : "81168-7",
+        "display" : "Site of adjacent organ or tissue involvement Cancer specimen"
+      },
+      {
+        "code" : "84891-1",
+        "display" : "Pathology report post neoadjuvant therapy assessment in Specimen"
+      },
+      {
+        "code" : "33737-8",
+        "display" : "Distance of tumor from closest margin"
+      }]
+    }]
+  }
+}}####
+e: {
+  "class" : "UNKNOWN",
+  "source" : tx.hl7chile.cl,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:7a11b222-e979-4749-9ba5-0548d2014f4d",
+    "timestamp" : "2026-09-07T17:32:09.639Z",
+    "total" : 10,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "includeDefinition",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://loinc.org|2.82"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "102034-6",
+      "display" : "Pathology report microscopic observation in Specimen"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "74574-5",
+      "display" : "Macroscopic observation [Interpretation] in Specimen Narrative"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "33739-4",
+      "display" : "Lymphatic.small vessel.invasion [Identifier] in Specimen by CAP cancer protocols"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "33740-2",
+      "display" : "Venous.large vessel.invasion [Identifier] in Specimen by CAP cancer protocols"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "21889-1",
+      "display" : "Size Tumor"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "42030-7",
+      "display" : "Multiple tumors reported as single primary Cancer"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "92831-7",
+      "display" : "Lymph nodes with metastasis [#] in Cancer specimen"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "81168-7",
+      "display" : "Site of adjacent organ or tissue involvement Cancer specimen"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "84891-1",
+      "display" : "Tumor response to neoadjuvant therapy"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "33737-8",
+      "display" : "Distance of tumor from closest margin"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA3628-0",
+    "display" : "T2"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs", "version": "0.3.1-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "T2",
+  "code" : "LA3628-0",
+  "system" : "http://loinc.org",
+  "version" : "2.82",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL237-9)\"\n2ms http://loinc.org/vs/LL237-9|2.82: Analysing http://loinc.org/vs/LL237-9|2.82 for validation purposes\n2ms http://loinc.org/vs/LL237-9|2.82: Prepare include[0]: \"(http://loinc.org)(LA3601-7,LA3608-2,LA3615-7,LA3616-5,LA3617-3,LA3618-1,LA3619-9,LA3620-7,LA3621-5,LA3622-3,LA3623-1,LA3624-9,LA3625-6,LA3626-4,LA3627-2,LA3628-0,LA3629-8,LA3630-6,LA3631-4,LA3632-2,LA3633-0,LA3634-8,LA3635-5,LA3636-3,LA3637-1,LA3638-9,LA4473-0,LA4514-1,LA4703-0,LA21805-9,LA21854-7,LA21806-7,LA21807-5,LA21808-3,LA21810-9,LA21811-7)\"\n3ms http://loinc.org/vs/LL237-9|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft: Validate \"[http://loinc.org#LA3628-0 (\"T2\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft: Check \"http://loinc.org#LA3628-0\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft: Check included value set http://loinc.org/vs/LL237-9\n3ms http://loinc.org/vs/LL237-9|2.82: Check \"http://loinc.org#LA3628-0\"\n4ms http://loinc.org/vs/LL237-9|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n4ms http://loinc.org/vs/LL237-9|2.82: check code in (http://loinc.org)(LA3601-7,LA3608-2,LA3615-7,LA3616-5,LA3617-3,LA3618-1,LA3619-9,LA3620-7,LA3621-5,LA3622-3,LA3623-1,LA3624-9,LA3625-6,LA3626-4,LA3627-2,LA3628-0,LA3629-8,LA3630-6,LA3631-4,LA3632-2,LA3633-0,LA3634-8,LA3635-5,LA3636-3,LA3637-1,LA3638-9,LA4473-0,LA4514-1,LA4703-0,LA21805-9,LA21854-7,LA21806-7,LA21807-5,LA21808-3,LA21810-9,LA21811-7) at CodeableConcept.coding[0]\n4ms http://loinc.org/vs/LL237-9|2.82: Code \"LA3628-0\" found in http://loinc.org|2.82",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA4534-9",
+    "display" : "N2"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs", "version": "0.3.1-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL237-9)\"\n2ms http://loinc.org/vs/LL237-9|2.82: Analysing http://loinc.org/vs/LL237-9|2.82 for validation purposes\n2ms http://loinc.org/vs/LL237-9|2.82: Prepare include[0]: \"(http://loinc.org)(LA3601-7,LA3608-2,LA3615-7,LA3616-5,LA3617-3,LA3618-1,LA3619-9,LA3620-7,LA3621-5,LA3622-3,LA3623-1,LA3624-9,LA3625-6,LA3626-4,LA3627-2,LA3628-0,LA3629-8,LA3630-6,LA3631-4,LA3632-2,LA3633-0,LA3634-8,LA3635-5,LA3636-3,LA3637-1,LA3638-9,LA4473-0,LA4514-1,LA4703-0,LA21805-9,LA21854-7,LA21806-7,LA21807-5,LA21808-3,LA21810-9,LA21811-7)\"\n2ms http://loinc.org/vs/LL237-9|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft: Validate \"[http://loinc.org#LA4534-9 (\"N2\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft: Check \"http://loinc.org#LA4534-9\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft: Check included value set http://loinc.org/vs/LL237-9\n3ms http://loinc.org/vs/LL237-9|2.82: Check \"http://loinc.org#LA4534-9\"\n4ms http://loinc.org/vs/LL237-9|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n4ms http://loinc.org/vs/LL237-9|2.82: check code in (http://loinc.org)(LA3601-7,LA3608-2,LA3615-7,LA3616-5,LA3617-3,LA3618-1,LA3619-9,LA3620-7,LA3621-5,LA3622-3,LA3623-1,LA3624-9,LA3625-6,LA3626-4,LA3627-2,LA3628-0,LA3629-8,LA3630-6,LA3631-4,LA3632-2,LA3633-0,LA3634-8,LA3635-5,LA3636-3,LA3637-1,LA3638-9,LA4473-0,LA4514-1,LA4703-0,LA21805-9,LA21854-7,LA21806-7,LA21807-5,LA21808-3,LA21810-9,LA21811-7) at CodeableConcept.coding[0]",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA4534-9 ('N2')' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft'"
+    },
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft'"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA4534-9",
+    "display" : "N2"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs", "version": "0.3.1-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "N2",
+  "code" : "LA4534-9",
+  "system" : "http://loinc.org",
+  "version" : "2.82",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL238-7)\"\n2ms http://loinc.org/vs/LL238-7|2.82: Analysing http://loinc.org/vs/LL238-7|2.82 for validation purposes\n2ms http://loinc.org/vs/LL238-7|2.82: Prepare include[0]: \"(http://loinc.org)(LA15167-2,LA4264-3,LA4368-2,LA4517-4,LA4527-3,LA4528-1,LA4529-9,LA4531-5,LA4533-1,LA4534-9,LA4535-6,LA4537-2,LA4545-5,LA4703-0,LA4745-1,LA21814-1,LA21815-8,LA21816-6,LA21817-4,LA21818-2,LA21819-0,LA21866-1,LA21822-4,LA21874-5)\"\n2ms http://loinc.org/vs/LL238-7|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft: Validate \"[http://loinc.org#LA4534-9 (\"N2\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft: Check \"http://loinc.org#LA4534-9\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft: Check included value set http://loinc.org/vs/LL238-7\n3ms http://loinc.org/vs/LL238-7|2.82: Check \"http://loinc.org#LA4534-9\"\n4ms http://loinc.org/vs/LL238-7|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n4ms http://loinc.org/vs/LL238-7|2.82: check code in (http://loinc.org)(LA15167-2,LA4264-3,LA4368-2,LA4517-4,LA4527-3,LA4528-1,LA4529-9,LA4531-5,LA4533-1,LA4534-9,LA4535-6,LA4537-2,LA4545-5,LA4703-0,LA4745-1,LA21814-1,LA21815-8,LA21816-6,LA21817-4,LA21818-2,LA21819-0,LA21866-1,LA21822-4,LA21874-5) at CodeableConcept.coding[0]\n4ms http://loinc.org/vs/LL238-7|2.82: Code \"LA4534-9\" found in http://loinc.org|2.82",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA4628-9",
+    "display" : "M1"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs", "version": "0.3.1-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL237-9)\"\n1ms http://loinc.org/vs/LL237-9|2.82: Analysing http://loinc.org/vs/LL237-9|2.82 for validation purposes\n1ms http://loinc.org/vs/LL237-9|2.82: Prepare include[0]: \"(http://loinc.org)(LA3601-7,LA3608-2,LA3615-7,LA3616-5,LA3617-3,LA3618-1,LA3619-9,LA3620-7,LA3621-5,LA3622-3,LA3623-1,LA3624-9,LA3625-6,LA3626-4,LA3627-2,LA3628-0,LA3629-8,LA3630-6,LA3631-4,LA3632-2,LA3633-0,LA3634-8,LA3635-5,LA3636-3,LA3637-1,LA3638-9,LA4473-0,LA4514-1,LA4703-0,LA21805-9,LA21854-7,LA21806-7,LA21807-5,LA21808-3,LA21810-9,LA21811-7)\"\n2ms http://loinc.org/vs/LL237-9|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft: Validate \"[http://loinc.org#LA4628-9 (\"M1\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft: Check \"http://loinc.org#LA4628-9\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft: Check included value set http://loinc.org/vs/LL237-9\n3ms http://loinc.org/vs/LL237-9|2.82: Check \"http://loinc.org#LA4628-9\"\n4ms http://loinc.org/vs/LL237-9|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n4ms http://loinc.org/vs/LL237-9|2.82: check code in (http://loinc.org)(LA3601-7,LA3608-2,LA3615-7,LA3616-5,LA3617-3,LA3618-1,LA3619-9,LA3620-7,LA3621-5,LA3622-3,LA3623-1,LA3624-9,LA3625-6,LA3626-4,LA3627-2,LA3628-0,LA3629-8,LA3630-6,LA3631-4,LA3632-2,LA3633-0,LA3634-8,LA3635-5,LA3636-3,LA3637-1,LA3638-9,LA4473-0,LA4514-1,LA4703-0,LA21805-9,LA21854-7,LA21806-7,LA21807-5,LA21808-3,LA21810-9,LA21811-7) at CodeableConcept.coding[0]",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA4628-9 ('M1')' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft'"
+    },
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft'"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA4628-9",
+    "display" : "M1"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs", "version": "0.3.1-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "M1",
+  "code" : "LA4628-9",
+  "system" : "http://loinc.org",
+  "version" : "2.82",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL239-5)\"\n2ms http://loinc.org/vs/LL239-5|2.82: Analysing http://loinc.org/vs/LL239-5|2.82 for validation purposes\n2ms http://loinc.org/vs/LL239-5|2.82: Prepare include[0]: \"(http://loinc.org)(LA4544-8,LA4625-5,LA4626-3,LA4627-1,LA4628-9,LA4629-7,LA4703-0,LA21875-2,LA21876-0,LA21877-8,LA21878-6)\"\n2ms http://loinc.org/vs/LL239-5|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft: Validate \"[http://loinc.org#LA4628-9 (\"M1\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft: Check \"http://loinc.org#LA4628-9\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft: Check included value set http://loinc.org/vs/LL239-5\n3ms http://loinc.org/vs/LL239-5|2.82: Check \"http://loinc.org#LA4628-9\"\n4ms http://loinc.org/vs/LL239-5|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n4ms http://loinc.org/vs/LL239-5|2.82: check code in (http://loinc.org)(LA4544-8,LA4625-5,LA4626-3,LA4627-1,LA4628-9,LA4629-7,LA4703-0,LA21875-2,LA21876-0,LA21877-8,LA21878-6) at CodeableConcept.coding[0]\n4ms http://loinc.org/vs/LL239-5|2.82: Code \"LA4628-9\" found in http://loinc.org|2.82",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA3628-0",
+    "display" : "T2"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs", "version": "0.3.1-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL238-7)\"\n1ms http://loinc.org/vs/LL238-7|2.82: Analysing http://loinc.org/vs/LL238-7|2.82 for validation purposes\n1ms http://loinc.org/vs/LL238-7|2.82: Prepare include[0]: \"(http://loinc.org)(LA15167-2,LA4264-3,LA4368-2,LA4517-4,LA4527-3,LA4528-1,LA4529-9,LA4531-5,LA4533-1,LA4534-9,LA4535-6,LA4537-2,LA4545-5,LA4703-0,LA4745-1,LA21814-1,LA21815-8,LA21816-6,LA21817-4,LA21818-2,LA21819-0,LA21866-1,LA21822-4,LA21874-5)\"\n2ms http://loinc.org/vs/LL238-7|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft: Validate \"[http://loinc.org#LA3628-0 (\"T2\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft: Check \"http://loinc.org#LA3628-0\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft: Check included value set http://loinc.org/vs/LL238-7\n3ms http://loinc.org/vs/LL238-7|2.82: Check \"http://loinc.org#LA3628-0\"\n4ms http://loinc.org/vs/LL238-7|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n4ms http://loinc.org/vs/LL238-7|2.82: check code in (http://loinc.org)(LA15167-2,LA4264-3,LA4368-2,LA4517-4,LA4527-3,LA4528-1,LA4529-9,LA4531-5,LA4533-1,LA4534-9,LA4535-6,LA4537-2,LA4545-5,LA4703-0,LA4745-1,LA21814-1,LA21815-8,LA21816-6,LA21817-4,LA21818-2,LA21819-0,LA21866-1,LA21822-4,LA21874-5) at CodeableConcept.coding[0]",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA3628-0 ('T2')' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft'"
+    },
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft'"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA4628-9",
+    "display" : "M1"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs", "version": "0.3.1-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL238-7)\"\n1ms http://loinc.org/vs/LL238-7|2.82: Analysing http://loinc.org/vs/LL238-7|2.82 for validation purposes\n1ms http://loinc.org/vs/LL238-7|2.82: Prepare include[0]: \"(http://loinc.org)(LA15167-2,LA4264-3,LA4368-2,LA4517-4,LA4527-3,LA4528-1,LA4529-9,LA4531-5,LA4533-1,LA4534-9,LA4535-6,LA4537-2,LA4545-5,LA4703-0,LA4745-1,LA21814-1,LA21815-8,LA21816-6,LA21817-4,LA21818-2,LA21819-0,LA21866-1,LA21822-4,LA21874-5)\"\n2ms http://loinc.org/vs/LL238-7|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft: Validate \"[http://loinc.org#LA4628-9 (\"M1\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft: Check \"http://loinc.org#LA4628-9\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft: Check included value set http://loinc.org/vs/LL238-7\n3ms http://loinc.org/vs/LL238-7|2.82: Check \"http://loinc.org#LA4628-9\"\n4ms http://loinc.org/vs/LL238-7|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n4ms http://loinc.org/vs/LL238-7|2.82: check code in (http://loinc.org)(LA15167-2,LA4264-3,LA4368-2,LA4517-4,LA4527-3,LA4528-1,LA4529-9,LA4531-5,LA4533-1,LA4534-9,LA4535-6,LA4537-2,LA4545-5,LA4703-0,LA4745-1,LA21814-1,LA21815-8,LA21816-6,LA21817-4,LA21818-2,LA21819-0,LA21866-1,LA21822-4,LA21874-5) at CodeableConcept.coding[0]",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA4628-9 ('M1')' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft'"
+    },
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft'"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA3628-0",
+    "display" : "T2"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs", "version": "0.3.1-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL239-5)\"\n1ms http://loinc.org/vs/LL239-5|2.82: Analysing http://loinc.org/vs/LL239-5|2.82 for validation purposes\n1ms http://loinc.org/vs/LL239-5|2.82: Prepare include[0]: \"(http://loinc.org)(LA4544-8,LA4625-5,LA4626-3,LA4627-1,LA4628-9,LA4629-7,LA4703-0,LA21875-2,LA21876-0,LA21877-8,LA21878-6)\"\n2ms http://loinc.org/vs/LL239-5|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft: Validate \"[http://loinc.org#LA3628-0 (\"T2\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft: Check \"http://loinc.org#LA3628-0\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft: Check included value set http://loinc.org/vs/LL239-5\n3ms http://loinc.org/vs/LL239-5|2.82: Check \"http://loinc.org#LA3628-0\"\n4ms http://loinc.org/vs/LL239-5|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n4ms http://loinc.org/vs/LL239-5|2.82: check code in (http://loinc.org)(LA4544-8,LA4625-5,LA4626-3,LA4627-1,LA4628-9,LA4629-7,LA4703-0,LA21875-2,LA21876-0,LA21877-8,LA21878-6) at CodeableConcept.coding[0]",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA3628-0 ('T2')' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft'"
+    },
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft'"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA4534-9",
+    "display" : "N2"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs", "version": "0.3.1-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL239-5)\"\n1ms http://loinc.org/vs/LL239-5|2.82: Analysing http://loinc.org/vs/LL239-5|2.82 for validation purposes\n1ms http://loinc.org/vs/LL239-5|2.82: Prepare include[0]: \"(http://loinc.org)(LA4544-8,LA4625-5,LA4626-3,LA4627-1,LA4628-9,LA4629-7,LA4703-0,LA21875-2,LA21876-0,LA21877-8,LA21878-6)\"\n2ms http://loinc.org/vs/LL239-5|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft: Validate \"[http://loinc.org#LA4534-9 (\"N2\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft: Check \"http://loinc.org#LA4534-9\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft: Check included value set http://loinc.org/vs/LL239-5\n3ms http://loinc.org/vs/LL239-5|2.82: Check \"http://loinc.org#LA4534-9\"\n4ms http://loinc.org/vs/LL239-5|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n4ms http://loinc.org/vs/LL239-5|2.82: check code in (http://loinc.org)(LA4544-8,LA4625-5,LA4626-3,LA4627-1,LA4628-9,LA4629-7,LA4703-0,LA21875-2,LA21876-0,LA21877-8,LA21878-6) at CodeableConcept.coding[0]",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA4534-9 ('N2')' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft'"
+    },
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft'"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA3628-0",
+    "display" : "T2"
+  }]
+}, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "T2",
+  "code" : "LA3628-0",
+  "system" : "http://loinc.org",
+  "version" : "2.82",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n1ms http://loinc.org/vs|2.82: Validate \"[http://loinc.org#LA3628-0 (\"T2\")]\"\n2ms http://loinc.org/vs|2.82: Check \"http://loinc.org#LA3628-0\"\n3ms http://loinc.org/vs|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org|2.82\n3ms http://loinc.org/vs|2.82: check code in (http://loinc.org) at CodeableConcept.coding[0]\n3ms http://loinc.org/vs|2.82: Code \"LA3628-0\" found in http://loinc.org|2.82",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA4534-9",
+    "display" : "N2"
+  }]
+}, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "N2",
+  "code" : "LA4534-9",
+  "system" : "http://loinc.org",
+  "version" : "2.82",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n1ms http://loinc.org/vs|2.82: Validate \"[http://loinc.org#LA4534-9 (\"N2\")]\"\n2ms http://loinc.org/vs|2.82: Check \"http://loinc.org#LA4534-9\"\n3ms http://loinc.org/vs|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org|2.82\n3ms http://loinc.org/vs|2.82: check code in (http://loinc.org) at CodeableConcept.coding[0]\n3ms http://loinc.org/vs|2.82: Code \"LA4534-9\" found in http://loinc.org|2.82",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA4628-9",
+    "display" : "M1"
+  }]
+}, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "M1",
+  "code" : "LA4628-9",
+  "system" : "http://loinc.org",
+  "version" : "2.82",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n1ms http://loinc.org/vs|2.82: Validate \"[http://loinc.org#LA4628-9 (\"M1\")]\"\n2ms http://loinc.org/vs|2.82: Check \"http://loinc.org#LA4628-9\"\n3ms http://loinc.org/vs|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org|2.82\n3ms http://loinc.org/vs|2.82: check code in (http://loinc.org) at CodeableConcept.coding[0]\n3ms http://loinc.org/vs|2.82: Code \"LA4628-9\" found in http://loinc.org|2.82",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA3628-0",
+    "display" : "T2"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs", "version": "0.3.1-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL240-3)\"\n1ms http://loinc.org/vs/LL240-3|2.82: Analysing http://loinc.org/vs/LL240-3|2.82 for validation purposes\n1ms http://loinc.org/vs/LL240-3|2.82: Prepare include[0]: \"(http://loinc.org)(LA3649-6,LA3650-4,LA3651-2,LA3654-6,LA3655-3,LA3656-1,LA3657-9,LA3658-7,LA3659-5,LA3660-3,LA3661-1,LA3663-7,LA3664-5,LA4284-1,LA4314-6,LA4316-1,LA4321-1,LA4322-9,LA4323-7,LA4371-6,LA4391-4,LA4401-1,LA4484-7,LA4485-4,LA4703-0,LA4744-4,LA21791-1,LA4315-3,LA21844-8,LA21845-5,LA21794-5,LA21847-1,LA21848-9,LA21871-1,LA3652-0,LA21800-0,LA21872-9,LA21850-5,LA21802-6,LA3648-8)\"\n2ms http://loinc.org/vs/LL240-3|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft: Validate \"[http://loinc.org#LA3628-0 (\"T2\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft: Check \"http://loinc.org#LA3628-0\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft: Check included value set http://loinc.org/vs/LL240-3\n3ms http://loinc.org/vs/LL240-3|2.82: Check \"http://loinc.org#LA3628-0\"\n4ms http://loinc.org/vs/LL240-3|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n4ms http://loinc.org/vs/LL240-3|2.82: check code in (http://loinc.org)(LA3649-6,LA3650-4,LA3651-2,LA3654-6,LA3655-3,LA3656-1,LA3657-9,LA3658-7,LA3659-5,LA3660-3,LA3661-1,LA3663-7,LA3664-5,LA4284-1,LA4314-6,LA4316-1,LA4321-1,LA4322-9,LA4323-7,LA4371-6,LA4391-4,LA4401-1,LA4484-7,LA4485-4,LA4703-0,LA4744-4,LA21791-1,LA4315-3,LA21844-8,LA21845-5,LA21794-5,LA21847-1,LA21848-9,LA21871-1,LA3652-0,LA21800-0,LA21872-9,LA21850-5,LA21802-6,LA3648-8) at CodeableConcept.coding[0]",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA3628-0 ('T2')' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft'"
+    },
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft'"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA4534-9",
+    "display" : "N2"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs", "version": "0.3.1-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL240-3)\"\n1ms http://loinc.org/vs/LL240-3|2.82: Analysing http://loinc.org/vs/LL240-3|2.82 for validation purposes\n1ms http://loinc.org/vs/LL240-3|2.82: Prepare include[0]: \"(http://loinc.org)(LA3649-6,LA3650-4,LA3651-2,LA3654-6,LA3655-3,LA3656-1,LA3657-9,LA3658-7,LA3659-5,LA3660-3,LA3661-1,LA3663-7,LA3664-5,LA4284-1,LA4314-6,LA4316-1,LA4321-1,LA4322-9,LA4323-7,LA4371-6,LA4391-4,LA4401-1,LA4484-7,LA4485-4,LA4703-0,LA4744-4,LA21791-1,LA4315-3,LA21844-8,LA21845-5,LA21794-5,LA21847-1,LA21848-9,LA21871-1,LA3652-0,LA21800-0,LA21872-9,LA21850-5,LA21802-6,LA3648-8)\"\n2ms http://loinc.org/vs/LL240-3|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft: Validate \"[http://loinc.org#LA4534-9 (\"N2\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft: Check \"http://loinc.org#LA4534-9\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft: Check included value set http://loinc.org/vs/LL240-3\n3ms http://loinc.org/vs/LL240-3|2.82: Check \"http://loinc.org#LA4534-9\"\n4ms http://loinc.org/vs/LL240-3|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n4ms http://loinc.org/vs/LL240-3|2.82: check code in (http://loinc.org)(LA3649-6,LA3650-4,LA3651-2,LA3654-6,LA3655-3,LA3656-1,LA3657-9,LA3658-7,LA3659-5,LA3660-3,LA3661-1,LA3663-7,LA3664-5,LA4284-1,LA4314-6,LA4316-1,LA4321-1,LA4322-9,LA4323-7,LA4371-6,LA4391-4,LA4401-1,LA4484-7,LA4485-4,LA4703-0,LA4744-4,LA21791-1,LA4315-3,LA21844-8,LA21845-5,LA21794-5,LA21847-1,LA21848-9,LA21871-1,LA3652-0,LA21800-0,LA21872-9,LA21850-5,LA21802-6,LA3648-8) at CodeableConcept.coding[0]",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA4534-9 ('N2')' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft'"
+    },
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft'"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA4628-9",
+    "display" : "M1"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs", "version": "0.3.1-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL240-3)\"\n1ms http://loinc.org/vs/LL240-3|2.82: Analysing http://loinc.org/vs/LL240-3|2.82 for validation purposes\n1ms http://loinc.org/vs/LL240-3|2.82: Prepare include[0]: \"(http://loinc.org)(LA3649-6,LA3650-4,LA3651-2,LA3654-6,LA3655-3,LA3656-1,LA3657-9,LA3658-7,LA3659-5,LA3660-3,LA3661-1,LA3663-7,LA3664-5,LA4284-1,LA4314-6,LA4316-1,LA4321-1,LA4322-9,LA4323-7,LA4371-6,LA4391-4,LA4401-1,LA4484-7,LA4485-4,LA4703-0,LA4744-4,LA21791-1,LA4315-3,LA21844-8,LA21845-5,LA21794-5,LA21847-1,LA21848-9,LA21871-1,LA3652-0,LA21800-0,LA21872-9,LA21850-5,LA21802-6,LA3648-8)\"\n2ms http://loinc.org/vs/LL240-3|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft: Validate \"[http://loinc.org#LA4628-9 (\"M1\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft: Check \"http://loinc.org#LA4628-9\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft: Check included value set http://loinc.org/vs/LL240-3\n3ms http://loinc.org/vs/LL240-3|2.82: Check \"http://loinc.org#LA4628-9\"\n4ms http://loinc.org/vs/LL240-3|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n4ms http://loinc.org/vs/LL240-3|2.82: check code in (http://loinc.org)(LA3649-6,LA3650-4,LA3651-2,LA3654-6,LA3655-3,LA3656-1,LA3657-9,LA3658-7,LA3659-5,LA3660-3,LA3661-1,LA3663-7,LA3664-5,LA4284-1,LA4314-6,LA4316-1,LA4321-1,LA4322-9,LA4323-7,LA4371-6,LA4391-4,LA4401-1,LA4484-7,LA4485-4,LA4703-0,LA4744-4,LA21791-1,LA4315-3,LA21844-8,LA21845-5,LA21794-5,LA21847-1,LA21848-9,LA21871-1,LA3652-0,LA21800-0,LA21872-9,LA21850-5,LA21802-6,LA3648-8) at CodeableConcept.coding[0]",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA4628-9 ('M1')' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft'"
+    },
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft'"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "LIST",
+        "op" : "=",
+        "value" : "LL240-3"
+      }]
+    }]
+  }
+}}####
+e: {
+  "class" : "UNKNOWN",
+  "source" : tx.hl7chile.cl,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:4a9632bc-b06e-45f2-a6b4-30b7056949d6",
+    "timestamp" : "2026-09-07T17:35:18.302Z",
+    "total" : 40,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "includeDefinition",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://loinc.org|2.82"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "LA4703-0",
+      "display" : "Not applicable (no AJCC staging scheme)"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3649-6",
+      "display" : "Stage IVB"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3650-4",
+      "display" : "Stage IVA"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3651-2",
+      "display" : "Stage IV"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3654-6",
+      "display" : "Stage IIIC"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3655-3",
+      "display" : "Stage IIIB"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3656-1",
+      "display" : "Stage IIIA"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3657-9",
+      "display" : "Stage III"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3658-7",
+      "display" : "Stage IIC"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3659-5",
+      "display" : "Stage IIB"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3660-3",
+      "display" : "Stage IIA"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3661-1",
+      "display" : "Stage II"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3663-7",
+      "display" : "Stage IA"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3664-5",
+      "display" : "Stage I"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4314-6",
+      "display" : "Stage IVC"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4315-3",
+      "display" : "Stage IS"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4321-1",
+      "display" : "Stage 0is"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4322-9",
+      "display" : "Stage 0A"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4323-7",
+      "display" : "Stage 0"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4316-1",
+      "display" : "Stage IC"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21791-1",
+      "display" : "Stage IE"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21794-5",
+      "display" : "Stage IIE"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21847-1",
+      "display" : "Stage IIS"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3652-0",
+      "display" : "Stage IIIE"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21800-0",
+      "display" : "Stage IIIS"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21802-6",
+      "display" : "Stage IVE"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3648-8",
+      "display" : "Stage IVS"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4284-1",
+      "display" : "Stage T1A2"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4371-6",
+      "display" : "Stage T1B"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4391-4",
+      "display" : "Recurrent, unstaged, unknown, Stage X"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4401-1",
+      "display" : "Stage T1A1"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4484-7",
+      "display" : "Stage T1B2"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4485-4",
+      "display" : "Stage T1B1"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4744-4",
+      "display" : "Occult"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21844-8",
+      "display" : "Stage IIA1"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21845-5",
+      "display" : "Stage IIA2"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21848-9",
+      "display" : "Stage IIIC1"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21871-1",
+      "display" : "Stage IIIC2"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21872-9",
+      "display" : "Stage IVA1"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21850-5",
+      "display" : "Stage IVA2"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "LIST",
+        "op" : "=",
+        "value" : "LL239-5"
+      }]
+    }]
+  }
+}}####
+e: {
+  "class" : "UNKNOWN",
+  "source" : tx.hl7chile.cl,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:cd33697c-b9a6-43b3-a650-e509cb788931",
+    "timestamp" : "2026-09-07T17:35:23.189Z",
+    "total" : 11,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "includeDefinition",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://loinc.org|2.82"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "LA4544-8",
+      "display" : "MX"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4629-7",
+      "display" : "M0"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4628-9",
+      "display" : "M1"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4703-0",
+      "display" : "Not applicable (no AJCC staging scheme)"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4625-5",
+      "display" : "M1C"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4626-3",
+      "display" : "M1B"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4627-1",
+      "display" : "M1A"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21875-2",
+      "display" : "M0+"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21876-0",
+      "display" : "M0I+"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21877-8",
+      "display" : "M1d"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21878-6",
+      "display" : "M1e"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "LIST",
+        "op" : "=",
+        "value" : "LL238-7"
+      }]
+    }]
+  }
+}}####
+e: {
+  "class" : "UNKNOWN",
+  "source" : tx.hl7chile.cl,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:a5621bf9-c8d7-42f6-af6b-138cc9c90139",
+    "timestamp" : "2026-09-07T17:35:23.992Z",
+    "total" : 24,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "includeDefinition",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://loinc.org|2.82"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "LA4745-1",
+      "display" : "NX"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4368-2",
+      "display" : "N0"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4537-2",
+      "display" : "N1"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4534-9",
+      "display" : "N2"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4545-5",
+      "display" : "N3"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA15167-2",
+      "display" : "N"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4703-0",
+      "display" : "Not applicable (no AJCC staging scheme)"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4264-3",
+      "display" : "N1a"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4517-4",
+      "display" : "N2b"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4527-3",
+      "display" : "N3c"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4528-1",
+      "display" : "N3b"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4529-9",
+      "display" : "N3a"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4531-5",
+      "display" : "N2c"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4533-1",
+      "display" : "N2a"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4535-6",
+      "display" : "N1b"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21814-1",
+      "display" : "N0I-"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21815-8",
+      "display" : "N0I+"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21816-6",
+      "display" : "N0M-"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21817-4",
+      "display" : "N0M+"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21818-2",
+      "display" : "N0a"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21819-0",
+      "display" : "N0b"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21866-1",
+      "display" : "N1c"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21822-4",
+      "display" : "N1mi"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21874-5",
+      "display" : "N4"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "LIST",
+        "op" : "=",
+        "value" : "LL237-9"
+      }]
+    }]
+  }
+}}####
+e: {
+  "class" : "UNKNOWN",
+  "source" : tx.hl7chile.cl,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:a5957680-b344-4c27-8b2d-c478694494cc",
+    "timestamp" : "2026-09-07T17:35:24.757Z",
+    "total" : 36,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "includeDefinition",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://loinc.org|2.82"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "LA3601-7",
+      "display" : "TX"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3638-9",
+      "display" : "T0"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3637-1",
+      "display" : "T1"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3628-0",
+      "display" : "T2"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3624-9",
+      "display" : "T3"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3620-7",
+      "display" : "T4"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3608-2",
+      "display" : "Tis"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3615-7",
+      "display" : "Ta"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3616-5",
+      "display" : "T4d"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3617-3",
+      "display" : "T4c"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3618-1",
+      "display" : "T4b"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3619-9",
+      "display" : "T4a"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3621-5",
+      "display" : "T3c"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3622-3",
+      "display" : "T3b"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3623-1",
+      "display" : "T3a"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3625-6",
+      "display" : "T2c"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3626-4",
+      "display" : "T2b"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3627-2",
+      "display" : "T2a"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3629-8",
+      "display" : "T1mic"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3630-6",
+      "display" : "T1c"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3631-4",
+      "display" : "T1b2"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3632-2",
+      "display" : "T1b1"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3633-0",
+      "display" : "T1b"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3634-8",
+      "display" : "T1a2"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3635-5",
+      "display" : "T1a1"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA3636-3",
+      "display" : "T1a"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4703-0",
+      "display" : "Not applicable (no AJCC staging scheme)"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21805-9",
+      "display" : "T1d"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21806-7",
+      "display" : "T2a1"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21807-5",
+      "display" : "T2a2"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21808-3",
+      "display" : "T2d"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21810-9",
+      "display" : "T3d"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21811-7",
+      "display" : "T4e"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4473-0",
+      "display" : "Tid pd"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA4514-1",
+      "display" : "Tis pu"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21854-7",
+      "display" : "T1mi"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA3651-2",
+    "display" : "Stage IV"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs", "version": "0.3.1-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Stage IV",
+  "code" : "LA3651-2",
+  "system" : "http://loinc.org",
+  "version" : "2.82",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL240-3)\"\n2ms http://loinc.org/vs/LL240-3|2.82: Analysing http://loinc.org/vs/LL240-3|2.82 for validation purposes\n2ms http://loinc.org/vs/LL240-3|2.82: Prepare include[0]: \"(http://loinc.org)(LA3649-6,LA3650-4,LA3651-2,LA3654-6,LA3655-3,LA3656-1,LA3657-9,LA3658-7,LA3659-5,LA3660-3,LA3661-1,LA3663-7,LA3664-5,LA4284-1,LA4314-6,LA4316-1,LA4321-1,LA4322-9,LA4323-7,LA4371-6,LA4391-4,LA4401-1,LA4484-7,LA4485-4,LA4703-0,LA4744-4,LA21791-1,LA4315-3,LA21844-8,LA21845-5,LA21794-5,LA21847-1,LA21848-9,LA21871-1,LA3652-0,LA21800-0,LA21872-9,LA21850-5,LA21802-6,LA3648-8)\"\n3ms http://loinc.org/vs/LL240-3|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft: Validate \"[http://loinc.org#LA3651-2 (\"Stage IV\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft: Check \"http://loinc.org#LA3651-2\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.1-draft: Check included value set http://loinc.org/vs/LL240-3\n3ms http://loinc.org/vs/LL240-3|2.82: Check \"http://loinc.org#LA3651-2\"\n4ms http://loinc.org/vs/LL240-3|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n4ms http://loinc.org/vs/LL240-3|2.82: check code in (http://loinc.org)(LA3649-6,LA3650-4,LA3651-2,LA3654-6,LA3655-3,LA3656-1,LA3657-9,LA3658-7,LA3659-5,LA3660-3,LA3661-1,LA3663-7,LA3664-5,LA4284-1,LA4314-6,LA4316-1,LA4321-1,LA4322-9,LA4323-7,LA4371-6,LA4391-4,LA4401-1,LA4484-7,LA4485-4,LA4703-0,LA4744-4,LA21791-1,LA4315-3,LA21844-8,LA21845-5,LA21794-5,LA21847-1,LA21848-9,LA21871-1,LA3652-0,LA21800-0,LA21872-9,LA21850-5,LA21802-6,LA3648-8) at CodeableConcept.coding[0]\n4ms http://loinc.org/vs/LL240-3|2.82: Code \"LA3651-2\" found in http://loinc.org|2.82",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA3651-2",
+    "display" : "Stage IV"
+  }]
+}, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Stage IV",
+  "code" : "LA3651-2",
+  "system" : "http://loinc.org",
+  "version" : "2.82",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n1ms http://loinc.org/vs|2.82: Validate \"[http://loinc.org#LA3651-2 (\"Stage IV\")]\"\n2ms http://loinc.org/vs|2.82: Check \"http://loinc.org#LA3651-2\"\n3ms http://loinc.org/vs|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org|2.82\n3ms http://loinc.org/vs|2.82: check code in (http://loinc.org) at CodeableConcept.coding[0]\n3ms http://loinc.org/vs|2.82: Code \"LA3651-2\" found in http://loinc.org|2.82",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA3651-2",
+    "display" : "Stage IV"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs", "version": "0.3.1-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL237-9)\"\n1ms http://loinc.org/vs/LL237-9|2.82: Analysing http://loinc.org/vs/LL237-9|2.82 for validation purposes\n1ms http://loinc.org/vs/LL237-9|2.82: Prepare include[0]: \"(http://loinc.org)(LA3601-7,LA3608-2,LA3615-7,LA3616-5,LA3617-3,LA3618-1,LA3619-9,LA3620-7,LA3621-5,LA3622-3,LA3623-1,LA3624-9,LA3625-6,LA3626-4,LA3627-2,LA3628-0,LA3629-8,LA3630-6,LA3631-4,LA3632-2,LA3633-0,LA3634-8,LA3635-5,LA3636-3,LA3637-1,LA3638-9,LA4473-0,LA4514-1,LA4703-0,LA21805-9,LA21854-7,LA21806-7,LA21807-5,LA21808-3,LA21810-9,LA21811-7)\"\n2ms http://loinc.org/vs/LL237-9|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft: Validate \"[http://loinc.org#LA3651-2 (\"Stage IV\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft: Check \"http://loinc.org#LA3651-2\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft: Check included value set http://loinc.org/vs/LL237-9\n3ms http://loinc.org/vs/LL237-9|2.82: Check \"http://loinc.org#LA3651-2\"\n4ms http://loinc.org/vs/LL237-9|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n4ms http://loinc.org/vs/LL237-9|2.82: check code in (http://loinc.org)(LA3601-7,LA3608-2,LA3615-7,LA3616-5,LA3617-3,LA3618-1,LA3619-9,LA3620-7,LA3621-5,LA3622-3,LA3623-1,LA3624-9,LA3625-6,LA3626-4,LA3627-2,LA3628-0,LA3629-8,LA3630-6,LA3631-4,LA3632-2,LA3633-0,LA3634-8,LA3635-5,LA3636-3,LA3637-1,LA3638-9,LA4473-0,LA4514-1,LA4703-0,LA21805-9,LA21854-7,LA21806-7,LA21807-5,LA21808-3,LA21810-9,LA21811-7) at CodeableConcept.coding[0]",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA3651-2 ('Stage IV')' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft'"
+    },
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.1-draft'"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA3651-2",
+    "display" : "Stage IV"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs", "version": "0.3.1-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL238-7)\"\n1ms http://loinc.org/vs/LL238-7|2.82: Analysing http://loinc.org/vs/LL238-7|2.82 for validation purposes\n1ms http://loinc.org/vs/LL238-7|2.82: Prepare include[0]: \"(http://loinc.org)(LA15167-2,LA4264-3,LA4368-2,LA4517-4,LA4527-3,LA4528-1,LA4529-9,LA4531-5,LA4533-1,LA4534-9,LA4535-6,LA4537-2,LA4545-5,LA4703-0,LA4745-1,LA21814-1,LA21815-8,LA21816-6,LA21817-4,LA21818-2,LA21819-0,LA21866-1,LA21822-4,LA21874-5)\"\n2ms http://loinc.org/vs/LL238-7|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft: Validate \"[http://loinc.org#LA3651-2 (\"Stage IV\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft: Check \"http://loinc.org#LA3651-2\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft: Check included value set http://loinc.org/vs/LL238-7\n3ms http://loinc.org/vs/LL238-7|2.82: Check \"http://loinc.org#LA3651-2\"\n4ms http://loinc.org/vs/LL238-7|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n4ms http://loinc.org/vs/LL238-7|2.82: check code in (http://loinc.org)(LA15167-2,LA4264-3,LA4368-2,LA4517-4,LA4527-3,LA4528-1,LA4529-9,LA4531-5,LA4533-1,LA4534-9,LA4535-6,LA4537-2,LA4545-5,LA4703-0,LA4745-1,LA21814-1,LA21815-8,LA21816-6,LA21817-4,LA21818-2,LA21819-0,LA21866-1,LA21822-4,LA21874-5) at CodeableConcept.coding[0]",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA3651-2 ('Stage IV')' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft'"
+    },
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.1-draft'"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA3651-2",
+    "display" : "Stage IV"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs", "version": "0.3.1-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL239-5)\"\n1ms http://loinc.org/vs/LL239-5|2.82: Analysing http://loinc.org/vs/LL239-5|2.82 for validation purposes\n1ms http://loinc.org/vs/LL239-5|2.82: Prepare include[0]: \"(http://loinc.org)(LA4544-8,LA4625-5,LA4626-3,LA4627-1,LA4628-9,LA4629-7,LA4703-0,LA21875-2,LA21876-0,LA21877-8,LA21878-6)\"\n2ms http://loinc.org/vs/LL239-5|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft: Validate \"[http://loinc.org#LA3651-2 (\"Stage IV\")]\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft: Check \"http://loinc.org#LA3651-2\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft: Check included value set http://loinc.org/vs/LL239-5\n2ms http://loinc.org/vs/LL239-5|2.82: Check \"http://loinc.org#LA3651-2\"\n3ms http://loinc.org/vs/LL239-5|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n3ms http://loinc.org/vs/LL239-5|2.82: check code in (http://loinc.org)(LA4544-8,LA4625-5,LA4626-3,LA4627-1,LA4628-9,LA4629-7,LA4703-0,LA21875-2,LA21876-0,LA21877-8,LA21878-6) at CodeableConcept.coding[0]",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA3651-2 ('Stage IV')' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft'"
+    },
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.1-draft'"
+    }
+  }]
+}
+
 }
 -------------------------------------------------------------------------------------

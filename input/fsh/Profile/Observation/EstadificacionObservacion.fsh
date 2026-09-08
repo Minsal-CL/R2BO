@@ -26,7 +26,7 @@ Description:    "Perfil grupo de estadificación TNM"
 * performer only Reference(RolProfesionalR2BO or MINSALPrestadorProfesional or MINSALPrestadorOrganizacional)
 * value[x] MS
 * value[x] only CodeableConcept
-* value[x] from TNMStageGroupVS (required)
+* value[x] from EstadificacionPatologicoVS (required)
 * dataAbsentReason MS
 * specimen only Reference(MuestraR2BO)
 * method 0..1 MS

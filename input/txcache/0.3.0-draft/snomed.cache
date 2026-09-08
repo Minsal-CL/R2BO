@@ -1,0 +1,82 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1222592004"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "American Joint Committee on Cancer clinical stage group allowable value",
+  "code" : "1222592004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/21000325107/version/20260315",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/21000325107/version/20260315: Validate \"[http://snomed.info/sct#1222592004 (\"undefined\")]\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/21000325107/version/20260315: Check \"http://snomed.info/sct#1222592004\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/21000325107/version/20260315: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315 for http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/21000325107/version/20260315: check code in (http://snomed.info/sct) at Coding\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/21000325107/version/20260315: Code \"1222592004\" found in http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1222593009"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "American Joint Committee on Cancer pathological stage group allowable value",
+  "code" : "1222593009",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/21000325107/version/20260315",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/21000325107/version/20260315: Validate \"[http://snomed.info/sct#1222593009 (\"undefined\")]\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/21000325107/version/20260315: Check \"http://snomed.info/sct#1222593009\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/21000325107/version/20260315: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315 for http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/21000325107/version/20260315: check code in (http://snomed.info/sct) at Coding\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/21000325107/version/20260315: Code \"1222593009\" found in http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1222594003"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "American Joint Committee on Cancer yp stage group allowable value",
+  "code" : "1222594003",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/21000325107/version/20260315",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/21000325107/version/20260315: Validate \"[http://snomed.info/sct#1222594003 (\"undefined\")]\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/21000325107/version/20260315: Check \"http://snomed.info/sct#1222594003\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/21000325107/version/20260315: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315 for http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/21000325107/version/20260315: check code in (http://snomed.info/sct) at Coding\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/21000325107/version/20260315: Code \"1222594003\" found in http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
