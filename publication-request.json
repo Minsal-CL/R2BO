@@ -7,6 +7,5 @@
     "changes": "changes.html",
     "status": "draft",
     "sequence": "STU1",
-    "first": false,
-    "introduction": "Guía de implementación sobre el Repositorio de Reportes de Biopsias Oncológicas del Ministerio de Salud de Chile"
+    "first": false
 }
