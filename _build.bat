@@ -110,10 +110,11 @@ echo.
 echo Please select an option:
 echo 1. Download or update publisher
 echo 2. Build IG
-echo 3. Build IG - no sushi
-echo 4. Build IG - force no TX server
-echo 5. Jekyll build
-echo 6. Clean up temp directories
+echo 3. Build IG - Tx Server Chile
+echo 4. Build IG - no sushi
+echo 5. Build IG - force no TX server
+echo 6. Jekyll build
+echo 7. Clean up temp directories
 echo 0. Exit
 echo.
 
@@ -126,10 +127,11 @@ echo You selected: %userChoice%
 
 IF "%userChoice%"=="1" GOTO downloadpublisher
 IF "%userChoice%"=="2" GOTO publish_once
-IF "%userChoice%"=="3" GOTO publish_nosushi
-IF "%userChoice%"=="4" GOTO publish_notx
-IF "%userChoice%"=="5" GOTO debugjekyll
-IF "%userChoice%"=="6" GOTO clean
+IF "%userChoice%"=="3" GOTO publish_igchiletx
+IF "%userChoice%"=="4" GOTO publish_nosushi
+IF "%userChoice%"=="5" GOTO publish_notx
+IF "%userChoice%"=="6" GOTO debugjekyll
+IF "%userChoice%"=="7" GOTO clean
 IF "%userChoice%"=="0" EXIT /B
 GOTO endscript
 
@@ -332,7 +334,19 @@ IF NOT "%jar_location%"=="not_found" (
 
 GOTO endscript
 
+:publish_igchiletx
+SET txoption=-tx https://tx.hl7chile.cl/r4
+SET JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF-8
 
+ECHO jar_location is: %jar_location%
+IF NOT "%jar_location%"=="not_found" (
+    ECHO IG Publisher FOUND, Publishing...
+    java %JAVA_OPTS% -jar "%jar_location%" -ig . %txoption% %extraArgs%
+) ELSE (
+    ECHO IG Publisher NOT FOUND in input-cache or parent folder.  Please run the script and update the publisher.  Aborting...
+)
+
+GOTO endscript
 
 :publish_nosushi
 

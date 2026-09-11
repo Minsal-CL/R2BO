@@ -123,6 +123,10 @@ function build_notx() {
   run_publisher -tx n/a "$@"
 }
 
+function build_igchiletx() {
+  run_publisher -tx https://tx.hl7chile.cl/r4 "$@"
+}
+
 function build_continuous() {
   run_publisher -watch "$@"
 }
@@ -155,6 +159,7 @@ if [ $# -gt 0 ]; then
     build)   shift; extraArgs=("$@"); check_internet_connection; build_ig "${extraArgs[@]}"; exit 0 ;;
     nosushi) shift; extraArgs=("$@"); check_internet_connection; build_nosushi "${extraArgs[@]}"; exit 0 ;;
     notx)    shift; extraArgs=("$@"); build_notx "${extraArgs[@]}"; exit 0 ;;
+    igchiletx) shift; extraArgs=("$@"); build_igchiletx "${extraArgs[@]}"; exit 0 ;;
     jekyll)  jekyll_build; exit 0 ;;
     clean)   cleanup; exit 0 ;;
     exit)    exit 0 ;;
@@ -199,8 +204,9 @@ echo "1) Download or update publisher"
 echo "2) Build IG"
 echo "3) Build IG without Sushi"
 echo "4) Build IG without TX server"
-echo "5) Jekyll build"
-echo "6) Cleanup temp directories"
+echo "5) Build IG without Chile TX server"
+echo "6) Jekyll build"
+echo "7) Cleanup temp directories"
 echo "0) Exit"
 echo
 
@@ -215,8 +221,9 @@ case "$choice" in
   2) build_ig ;;
   3) build_nosushi ;;
   4) build_notx ;;
-  5) jekyll_build ;;
-  6) cleanup ;;
+  5) build_igchiletx ;;
+  6) jekyll_build ;;
+  7) cleanup ;;
   0) exit 0 ;;
   *) echo "Invalid option." ;;
 esac

@@ -3543,3 +3543,939 @@ v: {
 
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA3628-0",
+    "display" : "T2"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs", "version": "0.3.2-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "T2",
+  "code" : "LA3628-0",
+  "system" : "http://loinc.org",
+  "version" : "2.82",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL237-9)\"\n2ms http://loinc.org/vs/LL237-9|2.82: Analysing http://loinc.org/vs/LL237-9|2.82 for validation purposes\n2ms http://loinc.org/vs/LL237-9|2.82: Prepare include[0]: \"(http://loinc.org)(LA3601-7,LA3608-2,LA3615-7,LA3616-5,LA3617-3,LA3618-1,LA3619-9,LA3620-7,LA3621-5,LA3622-3,LA3623-1,LA3624-9,LA3625-6,LA3626-4,LA3627-2,LA3628-0,LA3629-8,LA3630-6,LA3631-4,LA3632-2,LA3633-0,LA3634-8,LA3635-5,LA3636-3,LA3637-1,LA3638-9,LA4473-0,LA4514-1,LA4703-0,LA21805-9,LA21854-7,LA21806-7,LA21807-5,LA21808-3,LA21810-9,LA21811-7)\"\n3ms http://loinc.org/vs/LL237-9|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft: Validate \"[http://loinc.org#LA3628-0 (\"T2\")]\"\n4ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft: Check \"http://loinc.org#LA3628-0\"\n4ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft: Check included value set http://loinc.org/vs/LL237-9\n4ms http://loinc.org/vs/LL237-9|2.82: Check \"http://loinc.org#LA3628-0\"\n5ms http://loinc.org/vs/LL237-9|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n5ms http://loinc.org/vs/LL237-9|2.82: check code in (http://loinc.org)(LA3601-7,LA3608-2,LA3615-7,LA3616-5,LA3617-3,LA3618-1,LA3619-9,LA3620-7,LA3621-5,LA3622-3,LA3623-1,LA3624-9,LA3625-6,LA3626-4,LA3627-2,LA3628-0,LA3629-8,LA3630-6,LA3631-4,LA3632-2,LA3633-0,LA3634-8,LA3635-5,LA3636-3,LA3637-1,LA3638-9,LA4473-0,LA4514-1,LA4703-0,LA21805-9,LA21854-7,LA21806-7,LA21807-5,LA21808-3,LA21810-9,LA21811-7) at CodeableConcept.coding[0]\n5ms http://loinc.org/vs/LL237-9|2.82: Code \"LA3628-0\" found in http://loinc.org|2.82",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA4534-9",
+    "display" : "N2"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs", "version": "0.3.2-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL237-9)\"\n1ms http://loinc.org/vs/LL237-9|2.82: Analysing http://loinc.org/vs/LL237-9|2.82 for validation purposes\n1ms http://loinc.org/vs/LL237-9|2.82: Prepare include[0]: \"(http://loinc.org)(LA3601-7,LA3608-2,LA3615-7,LA3616-5,LA3617-3,LA3618-1,LA3619-9,LA3620-7,LA3621-5,LA3622-3,LA3623-1,LA3624-9,LA3625-6,LA3626-4,LA3627-2,LA3628-0,LA3629-8,LA3630-6,LA3631-4,LA3632-2,LA3633-0,LA3634-8,LA3635-5,LA3636-3,LA3637-1,LA3638-9,LA4473-0,LA4514-1,LA4703-0,LA21805-9,LA21854-7,LA21806-7,LA21807-5,LA21808-3,LA21810-9,LA21811-7)\"\n2ms http://loinc.org/vs/LL237-9|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft: Validate \"[http://loinc.org#LA4534-9 (\"N2\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft: Check \"http://loinc.org#LA4534-9\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft: Check included value set http://loinc.org/vs/LL237-9\n3ms http://loinc.org/vs/LL237-9|2.82: Check \"http://loinc.org#LA4534-9\"\n4ms http://loinc.org/vs/LL237-9|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n4ms http://loinc.org/vs/LL237-9|2.82: check code in (http://loinc.org)(LA3601-7,LA3608-2,LA3615-7,LA3616-5,LA3617-3,LA3618-1,LA3619-9,LA3620-7,LA3621-5,LA3622-3,LA3623-1,LA3624-9,LA3625-6,LA3626-4,LA3627-2,LA3628-0,LA3629-8,LA3630-6,LA3631-4,LA3632-2,LA3633-0,LA3634-8,LA3635-5,LA3636-3,LA3637-1,LA3638-9,LA4473-0,LA4514-1,LA4703-0,LA21805-9,LA21854-7,LA21806-7,LA21807-5,LA21808-3,LA21810-9,LA21811-7) at CodeableConcept.coding[0]",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA4534-9 ('N2')' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft'"
+    },
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft'"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA4534-9",
+    "display" : "N2"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs", "version": "0.3.2-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "N2",
+  "code" : "LA4534-9",
+  "system" : "http://loinc.org",
+  "version" : "2.82",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL238-7)\"\n2ms http://loinc.org/vs/LL238-7|2.82: Analysing http://loinc.org/vs/LL238-7|2.82 for validation purposes\n2ms http://loinc.org/vs/LL238-7|2.82: Prepare include[0]: \"(http://loinc.org)(LA15167-2,LA4264-3,LA4368-2,LA4517-4,LA4527-3,LA4528-1,LA4529-9,LA4531-5,LA4533-1,LA4534-9,LA4535-6,LA4537-2,LA4545-5,LA4703-0,LA4745-1,LA21814-1,LA21815-8,LA21816-6,LA21817-4,LA21818-2,LA21819-0,LA21866-1,LA21822-4,LA21874-5)\"\n2ms http://loinc.org/vs/LL238-7|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft: Validate \"[http://loinc.org#LA4534-9 (\"N2\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft: Check \"http://loinc.org#LA4534-9\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft: Check included value set http://loinc.org/vs/LL238-7\n3ms http://loinc.org/vs/LL238-7|2.82: Check \"http://loinc.org#LA4534-9\"\n4ms http://loinc.org/vs/LL238-7|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n4ms http://loinc.org/vs/LL238-7|2.82: check code in (http://loinc.org)(LA15167-2,LA4264-3,LA4368-2,LA4517-4,LA4527-3,LA4528-1,LA4529-9,LA4531-5,LA4533-1,LA4534-9,LA4535-6,LA4537-2,LA4545-5,LA4703-0,LA4745-1,LA21814-1,LA21815-8,LA21816-6,LA21817-4,LA21818-2,LA21819-0,LA21866-1,LA21822-4,LA21874-5) at CodeableConcept.coding[0]\n4ms http://loinc.org/vs/LL238-7|2.82: Code \"LA4534-9\" found in http://loinc.org|2.82",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA4628-9",
+    "display" : "M1"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs", "version": "0.3.2-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL237-9)\"\n1ms http://loinc.org/vs/LL237-9|2.82: Analysing http://loinc.org/vs/LL237-9|2.82 for validation purposes\n1ms http://loinc.org/vs/LL237-9|2.82: Prepare include[0]: \"(http://loinc.org)(LA3601-7,LA3608-2,LA3615-7,LA3616-5,LA3617-3,LA3618-1,LA3619-9,LA3620-7,LA3621-5,LA3622-3,LA3623-1,LA3624-9,LA3625-6,LA3626-4,LA3627-2,LA3628-0,LA3629-8,LA3630-6,LA3631-4,LA3632-2,LA3633-0,LA3634-8,LA3635-5,LA3636-3,LA3637-1,LA3638-9,LA4473-0,LA4514-1,LA4703-0,LA21805-9,LA21854-7,LA21806-7,LA21807-5,LA21808-3,LA21810-9,LA21811-7)\"\n2ms http://loinc.org/vs/LL237-9|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft: Validate \"[http://loinc.org#LA4628-9 (\"M1\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft: Check \"http://loinc.org#LA4628-9\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft: Check included value set http://loinc.org/vs/LL237-9\n3ms http://loinc.org/vs/LL237-9|2.82: Check \"http://loinc.org#LA4628-9\"\n4ms http://loinc.org/vs/LL237-9|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n4ms http://loinc.org/vs/LL237-9|2.82: check code in (http://loinc.org)(LA3601-7,LA3608-2,LA3615-7,LA3616-5,LA3617-3,LA3618-1,LA3619-9,LA3620-7,LA3621-5,LA3622-3,LA3623-1,LA3624-9,LA3625-6,LA3626-4,LA3627-2,LA3628-0,LA3629-8,LA3630-6,LA3631-4,LA3632-2,LA3633-0,LA3634-8,LA3635-5,LA3636-3,LA3637-1,LA3638-9,LA4473-0,LA4514-1,LA4703-0,LA21805-9,LA21854-7,LA21806-7,LA21807-5,LA21808-3,LA21810-9,LA21811-7) at CodeableConcept.coding[0]",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA4628-9 ('M1')' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft'"
+    },
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft'"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA4628-9",
+    "display" : "M1"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs", "version": "0.3.2-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "M1",
+  "code" : "LA4628-9",
+  "system" : "http://loinc.org",
+  "version" : "2.82",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL239-5)\"\n1ms http://loinc.org/vs/LL239-5|2.82: Analysing http://loinc.org/vs/LL239-5|2.82 for validation purposes\n1ms http://loinc.org/vs/LL239-5|2.82: Prepare include[0]: \"(http://loinc.org)(LA4544-8,LA4625-5,LA4626-3,LA4627-1,LA4628-9,LA4629-7,LA4703-0,LA21875-2,LA21876-0,LA21877-8,LA21878-6)\"\n2ms http://loinc.org/vs/LL239-5|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft: Validate \"[http://loinc.org#LA4628-9 (\"M1\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft: Check \"http://loinc.org#LA4628-9\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft: Check included value set http://loinc.org/vs/LL239-5\n3ms http://loinc.org/vs/LL239-5|2.82: Check \"http://loinc.org#LA4628-9\"\n4ms http://loinc.org/vs/LL239-5|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n4ms http://loinc.org/vs/LL239-5|2.82: check code in (http://loinc.org)(LA4544-8,LA4625-5,LA4626-3,LA4627-1,LA4628-9,LA4629-7,LA4703-0,LA21875-2,LA21876-0,LA21877-8,LA21878-6) at CodeableConcept.coding[0]\n4ms http://loinc.org/vs/LL239-5|2.82: Code \"LA4628-9\" found in http://loinc.org|2.82",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA3628-0",
+    "display" : "T2"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs", "version": "0.3.2-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL238-7)\"\n1ms http://loinc.org/vs/LL238-7|2.82: Analysing http://loinc.org/vs/LL238-7|2.82 for validation purposes\n1ms http://loinc.org/vs/LL238-7|2.82: Prepare include[0]: \"(http://loinc.org)(LA15167-2,LA4264-3,LA4368-2,LA4517-4,LA4527-3,LA4528-1,LA4529-9,LA4531-5,LA4533-1,LA4534-9,LA4535-6,LA4537-2,LA4545-5,LA4703-0,LA4745-1,LA21814-1,LA21815-8,LA21816-6,LA21817-4,LA21818-2,LA21819-0,LA21866-1,LA21822-4,LA21874-5)\"\n3ms http://loinc.org/vs/LL238-7|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft: Validate \"[http://loinc.org#LA3628-0 (\"T2\")]\"\n4ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft: Check \"http://loinc.org#LA3628-0\"\n4ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft: Check included value set http://loinc.org/vs/LL238-7\n4ms http://loinc.org/vs/LL238-7|2.82: Check \"http://loinc.org#LA3628-0\"\n5ms http://loinc.org/vs/LL238-7|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n5ms http://loinc.org/vs/LL238-7|2.82: check code in (http://loinc.org)(LA15167-2,LA4264-3,LA4368-2,LA4517-4,LA4527-3,LA4528-1,LA4529-9,LA4531-5,LA4533-1,LA4534-9,LA4535-6,LA4537-2,LA4545-5,LA4703-0,LA4745-1,LA21814-1,LA21815-8,LA21816-6,LA21817-4,LA21818-2,LA21819-0,LA21866-1,LA21822-4,LA21874-5) at CodeableConcept.coding[0]",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA3628-0 ('T2')' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft'"
+    },
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft'"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA4628-9",
+    "display" : "M1"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs", "version": "0.3.2-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL238-7)\"\n1ms http://loinc.org/vs/LL238-7|2.82: Analysing http://loinc.org/vs/LL238-7|2.82 for validation purposes\n1ms http://loinc.org/vs/LL238-7|2.82: Prepare include[0]: \"(http://loinc.org)(LA15167-2,LA4264-3,LA4368-2,LA4517-4,LA4527-3,LA4528-1,LA4529-9,LA4531-5,LA4533-1,LA4534-9,LA4535-6,LA4537-2,LA4545-5,LA4703-0,LA4745-1,LA21814-1,LA21815-8,LA21816-6,LA21817-4,LA21818-2,LA21819-0,LA21866-1,LA21822-4,LA21874-5)\"\n2ms http://loinc.org/vs/LL238-7|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft: Validate \"[http://loinc.org#LA4628-9 (\"M1\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft: Check \"http://loinc.org#LA4628-9\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft: Check included value set http://loinc.org/vs/LL238-7\n3ms http://loinc.org/vs/LL238-7|2.82: Check \"http://loinc.org#LA4628-9\"\n4ms http://loinc.org/vs/LL238-7|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n4ms http://loinc.org/vs/LL238-7|2.82: check code in (http://loinc.org)(LA15167-2,LA4264-3,LA4368-2,LA4517-4,LA4527-3,LA4528-1,LA4529-9,LA4531-5,LA4533-1,LA4534-9,LA4535-6,LA4537-2,LA4545-5,LA4703-0,LA4745-1,LA21814-1,LA21815-8,LA21816-6,LA21817-4,LA21818-2,LA21819-0,LA21866-1,LA21822-4,LA21874-5) at CodeableConcept.coding[0]",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA4628-9 ('M1')' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft'"
+    },
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft'"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA3628-0",
+    "display" : "T2"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs", "version": "0.3.2-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL239-5)\"\n1ms http://loinc.org/vs/LL239-5|2.82: Analysing http://loinc.org/vs/LL239-5|2.82 for validation purposes\n1ms http://loinc.org/vs/LL239-5|2.82: Prepare include[0]: \"(http://loinc.org)(LA4544-8,LA4625-5,LA4626-3,LA4627-1,LA4628-9,LA4629-7,LA4703-0,LA21875-2,LA21876-0,LA21877-8,LA21878-6)\"\n2ms http://loinc.org/vs/LL239-5|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft: Validate \"[http://loinc.org#LA3628-0 (\"T2\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft: Check \"http://loinc.org#LA3628-0\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft: Check included value set http://loinc.org/vs/LL239-5\n3ms http://loinc.org/vs/LL239-5|2.82: Check \"http://loinc.org#LA3628-0\"\n4ms http://loinc.org/vs/LL239-5|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n4ms http://loinc.org/vs/LL239-5|2.82: check code in (http://loinc.org)(LA4544-8,LA4625-5,LA4626-3,LA4627-1,LA4628-9,LA4629-7,LA4703-0,LA21875-2,LA21876-0,LA21877-8,LA21878-6) at CodeableConcept.coding[0]",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA3628-0 ('T2')' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft'"
+    },
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft'"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA4534-9",
+    "display" : "N2"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs", "version": "0.3.2-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL239-5)\"\n1ms http://loinc.org/vs/LL239-5|2.82: Analysing http://loinc.org/vs/LL239-5|2.82 for validation purposes\n1ms http://loinc.org/vs/LL239-5|2.82: Prepare include[0]: \"(http://loinc.org)(LA4544-8,LA4625-5,LA4626-3,LA4627-1,LA4628-9,LA4629-7,LA4703-0,LA21875-2,LA21876-0,LA21877-8,LA21878-6)\"\n2ms http://loinc.org/vs/LL239-5|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft: Validate \"[http://loinc.org#LA4534-9 (\"N2\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft: Check \"http://loinc.org#LA4534-9\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft: Check included value set http://loinc.org/vs/LL239-5\n3ms http://loinc.org/vs/LL239-5|2.82: Check \"http://loinc.org#LA4534-9\"\n4ms http://loinc.org/vs/LL239-5|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n4ms http://loinc.org/vs/LL239-5|2.82: check code in (http://loinc.org)(LA4544-8,LA4625-5,LA4626-3,LA4627-1,LA4628-9,LA4629-7,LA4703-0,LA21875-2,LA21876-0,LA21877-8,LA21878-6) at CodeableConcept.coding[0]",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA4534-9 ('N2')' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft'"
+    },
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft'"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA3651-2",
+    "display" : "Stage IV"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs", "version": "0.3.2-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Stage IV",
+  "code" : "LA3651-2",
+  "system" : "http://loinc.org",
+  "version" : "2.82",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL240-3)\"\n2ms http://loinc.org/vs/LL240-3|2.82: Analysing http://loinc.org/vs/LL240-3|2.82 for validation purposes\n2ms http://loinc.org/vs/LL240-3|2.82: Prepare include[0]: \"(http://loinc.org)(LA3649-6,LA3650-4,LA3651-2,LA3654-6,LA3655-3,LA3656-1,LA3657-9,LA3658-7,LA3659-5,LA3660-3,LA3661-1,LA3663-7,LA3664-5,LA4284-1,LA4314-6,LA4316-1,LA4321-1,LA4322-9,LA4323-7,LA4371-6,LA4391-4,LA4401-1,LA4484-7,LA4485-4,LA4703-0,LA4744-4,LA21791-1,LA4315-3,LA21844-8,LA21845-5,LA21794-5,LA21847-1,LA21848-9,LA21871-1,LA3652-0,LA21800-0,LA21872-9,LA21850-5,LA21802-6,LA3648-8)\"\n3ms http://loinc.org/vs/LL240-3|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft: Validate \"[http://loinc.org#LA3651-2 (\"Stage IV\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft: Check \"http://loinc.org#LA3651-2\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft: Check included value set http://loinc.org/vs/LL240-3\n3ms http://loinc.org/vs/LL240-3|2.82: Check \"http://loinc.org#LA3651-2\"\n4ms http://loinc.org/vs/LL240-3|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n4ms http://loinc.org/vs/LL240-3|2.82: check code in (http://loinc.org)(LA3649-6,LA3650-4,LA3651-2,LA3654-6,LA3655-3,LA3656-1,LA3657-9,LA3658-7,LA3659-5,LA3660-3,LA3661-1,LA3663-7,LA3664-5,LA4284-1,LA4314-6,LA4316-1,LA4321-1,LA4322-9,LA4323-7,LA4371-6,LA4391-4,LA4401-1,LA4484-7,LA4485-4,LA4703-0,LA4744-4,LA21791-1,LA4315-3,LA21844-8,LA21845-5,LA21794-5,LA21847-1,LA21848-9,LA21871-1,LA3652-0,LA21800-0,LA21872-9,LA21850-5,LA21802-6,LA3648-8) at CodeableConcept.coding[0]\n4ms http://loinc.org/vs/LL240-3|2.82: Code \"LA3651-2\" found in http://loinc.org|2.82",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA3628-0",
+    "display" : "T2"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs", "version": "0.3.2-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL240-3)\"\n1ms http://loinc.org/vs/LL240-3|2.82: Analysing http://loinc.org/vs/LL240-3|2.82 for validation purposes\n1ms http://loinc.org/vs/LL240-3|2.82: Prepare include[0]: \"(http://loinc.org)(LA3649-6,LA3650-4,LA3651-2,LA3654-6,LA3655-3,LA3656-1,LA3657-9,LA3658-7,LA3659-5,LA3660-3,LA3661-1,LA3663-7,LA3664-5,LA4284-1,LA4314-6,LA4316-1,LA4321-1,LA4322-9,LA4323-7,LA4371-6,LA4391-4,LA4401-1,LA4484-7,LA4485-4,LA4703-0,LA4744-4,LA21791-1,LA4315-3,LA21844-8,LA21845-5,LA21794-5,LA21847-1,LA21848-9,LA21871-1,LA3652-0,LA21800-0,LA21872-9,LA21850-5,LA21802-6,LA3648-8)\"\n2ms http://loinc.org/vs/LL240-3|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft: Validate \"[http://loinc.org#LA3628-0 (\"T2\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft: Check \"http://loinc.org#LA3628-0\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft: Check included value set http://loinc.org/vs/LL240-3\n3ms http://loinc.org/vs/LL240-3|2.82: Check \"http://loinc.org#LA3628-0\"\n4ms http://loinc.org/vs/LL240-3|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n4ms http://loinc.org/vs/LL240-3|2.82: check code in (http://loinc.org)(LA3649-6,LA3650-4,LA3651-2,LA3654-6,LA3655-3,LA3656-1,LA3657-9,LA3658-7,LA3659-5,LA3660-3,LA3661-1,LA3663-7,LA3664-5,LA4284-1,LA4314-6,LA4316-1,LA4321-1,LA4322-9,LA4323-7,LA4371-6,LA4391-4,LA4401-1,LA4484-7,LA4485-4,LA4703-0,LA4744-4,LA21791-1,LA4315-3,LA21844-8,LA21845-5,LA21794-5,LA21847-1,LA21848-9,LA21871-1,LA3652-0,LA21800-0,LA21872-9,LA21850-5,LA21802-6,LA3648-8) at CodeableConcept.coding[0]",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA3628-0 ('T2')' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft'"
+    },
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft'"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA4534-9",
+    "display" : "N2"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs", "version": "0.3.2-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL240-3)\"\n2ms http://loinc.org/vs/LL240-3|2.82: Analysing http://loinc.org/vs/LL240-3|2.82 for validation purposes\n2ms http://loinc.org/vs/LL240-3|2.82: Prepare include[0]: \"(http://loinc.org)(LA3649-6,LA3650-4,LA3651-2,LA3654-6,LA3655-3,LA3656-1,LA3657-9,LA3658-7,LA3659-5,LA3660-3,LA3661-1,LA3663-7,LA3664-5,LA4284-1,LA4314-6,LA4316-1,LA4321-1,LA4322-9,LA4323-7,LA4371-6,LA4391-4,LA4401-1,LA4484-7,LA4485-4,LA4703-0,LA4744-4,LA21791-1,LA4315-3,LA21844-8,LA21845-5,LA21794-5,LA21847-1,LA21848-9,LA21871-1,LA3652-0,LA21800-0,LA21872-9,LA21850-5,LA21802-6,LA3648-8)\"\n2ms http://loinc.org/vs/LL240-3|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft: Validate \"[http://loinc.org#LA4534-9 (\"N2\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft: Check \"http://loinc.org#LA4534-9\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft: Check included value set http://loinc.org/vs/LL240-3\n3ms http://loinc.org/vs/LL240-3|2.82: Check \"http://loinc.org#LA4534-9\"\n4ms http://loinc.org/vs/LL240-3|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n4ms http://loinc.org/vs/LL240-3|2.82: check code in (http://loinc.org)(LA3649-6,LA3650-4,LA3651-2,LA3654-6,LA3655-3,LA3656-1,LA3657-9,LA3658-7,LA3659-5,LA3660-3,LA3661-1,LA3663-7,LA3664-5,LA4284-1,LA4314-6,LA4316-1,LA4321-1,LA4322-9,LA4323-7,LA4371-6,LA4391-4,LA4401-1,LA4484-7,LA4485-4,LA4703-0,LA4744-4,LA21791-1,LA4315-3,LA21844-8,LA21845-5,LA21794-5,LA21847-1,LA21848-9,LA21871-1,LA3652-0,LA21800-0,LA21872-9,LA21850-5,LA21802-6,LA3648-8) at CodeableConcept.coding[0]",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA4534-9 ('N2')' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft'"
+    },
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft'"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA4628-9",
+    "display" : "M1"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs", "version": "0.3.2-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL240-3)\"\n1ms http://loinc.org/vs/LL240-3|2.82: Analysing http://loinc.org/vs/LL240-3|2.82 for validation purposes\n1ms http://loinc.org/vs/LL240-3|2.82: Prepare include[0]: \"(http://loinc.org)(LA3649-6,LA3650-4,LA3651-2,LA3654-6,LA3655-3,LA3656-1,LA3657-9,LA3658-7,LA3659-5,LA3660-3,LA3661-1,LA3663-7,LA3664-5,LA4284-1,LA4314-6,LA4316-1,LA4321-1,LA4322-9,LA4323-7,LA4371-6,LA4391-4,LA4401-1,LA4484-7,LA4485-4,LA4703-0,LA4744-4,LA21791-1,LA4315-3,LA21844-8,LA21845-5,LA21794-5,LA21847-1,LA21848-9,LA21871-1,LA3652-0,LA21800-0,LA21872-9,LA21850-5,LA21802-6,LA3648-8)\"\n2ms http://loinc.org/vs/LL240-3|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft: Validate \"[http://loinc.org#LA4628-9 (\"M1\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft: Check \"http://loinc.org#LA4628-9\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft: Check included value set http://loinc.org/vs/LL240-3\n3ms http://loinc.org/vs/LL240-3|2.82: Check \"http://loinc.org#LA4628-9\"\n4ms http://loinc.org/vs/LL240-3|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n4ms http://loinc.org/vs/LL240-3|2.82: check code in (http://loinc.org)(LA3649-6,LA3650-4,LA3651-2,LA3654-6,LA3655-3,LA3656-1,LA3657-9,LA3658-7,LA3659-5,LA3660-3,LA3661-1,LA3663-7,LA3664-5,LA4284-1,LA4314-6,LA4316-1,LA4321-1,LA4322-9,LA4323-7,LA4371-6,LA4391-4,LA4401-1,LA4484-7,LA4485-4,LA4703-0,LA4744-4,LA21791-1,LA4315-3,LA21844-8,LA21845-5,LA21794-5,LA21847-1,LA21848-9,LA21871-1,LA3652-0,LA21800-0,LA21872-9,LA21850-5,LA21802-6,LA3648-8) at CodeableConcept.coding[0]",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA4628-9 ('M1')' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft'"
+    },
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-Estadificacion-patologico-vs|0.3.2-draft'"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA3651-2",
+    "display" : "Stage IV"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs", "version": "0.3.2-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL237-9)\"\n1ms http://loinc.org/vs/LL237-9|2.82: Analysing http://loinc.org/vs/LL237-9|2.82 for validation purposes\n1ms http://loinc.org/vs/LL237-9|2.82: Prepare include[0]: \"(http://loinc.org)(LA3601-7,LA3608-2,LA3615-7,LA3616-5,LA3617-3,LA3618-1,LA3619-9,LA3620-7,LA3621-5,LA3622-3,LA3623-1,LA3624-9,LA3625-6,LA3626-4,LA3627-2,LA3628-0,LA3629-8,LA3630-6,LA3631-4,LA3632-2,LA3633-0,LA3634-8,LA3635-5,LA3636-3,LA3637-1,LA3638-9,LA4473-0,LA4514-1,LA4703-0,LA21805-9,LA21854-7,LA21806-7,LA21807-5,LA21808-3,LA21810-9,LA21811-7)\"\n2ms http://loinc.org/vs/LL237-9|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft: Validate \"[http://loinc.org#LA3651-2 (\"Stage IV\")]\"\n4ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft: Check \"http://loinc.org#LA3651-2\"\n4ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft: Check included value set http://loinc.org/vs/LL237-9\n4ms http://loinc.org/vs/LL237-9|2.82: Check \"http://loinc.org#LA3651-2\"\n5ms http://loinc.org/vs/LL237-9|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n5ms http://loinc.org/vs/LL237-9|2.82: check code in (http://loinc.org)(LA3601-7,LA3608-2,LA3615-7,LA3616-5,LA3617-3,LA3618-1,LA3619-9,LA3620-7,LA3621-5,LA3622-3,LA3623-1,LA3624-9,LA3625-6,LA3626-4,LA3627-2,LA3628-0,LA3629-8,LA3630-6,LA3631-4,LA3632-2,LA3633-0,LA3634-8,LA3635-5,LA3636-3,LA3637-1,LA3638-9,LA4473-0,LA4514-1,LA4703-0,LA21805-9,LA21854-7,LA21806-7,LA21807-5,LA21808-3,LA21810-9,LA21811-7) at CodeableConcept.coding[0]",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA3651-2 ('Stage IV')' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft'"
+    },
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-tumor-primario-patologico-vs|0.3.2-draft'"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA3651-2",
+    "display" : "Stage IV"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs", "version": "0.3.2-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL238-7)\"\n2ms http://loinc.org/vs/LL238-7|2.82: Analysing http://loinc.org/vs/LL238-7|2.82 for validation purposes\n2ms http://loinc.org/vs/LL238-7|2.82: Prepare include[0]: \"(http://loinc.org)(LA15167-2,LA4264-3,LA4368-2,LA4517-4,LA4527-3,LA4528-1,LA4529-9,LA4531-5,LA4533-1,LA4534-9,LA4535-6,LA4537-2,LA4545-5,LA4703-0,LA4745-1,LA21814-1,LA21815-8,LA21816-6,LA21817-4,LA21818-2,LA21819-0,LA21866-1,LA21822-4,LA21874-5)\"\n2ms http://loinc.org/vs/LL238-7|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft: Validate \"[http://loinc.org#LA3651-2 (\"Stage IV\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft: Check \"http://loinc.org#LA3651-2\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft: Check included value set http://loinc.org/vs/LL238-7\n3ms http://loinc.org/vs/LL238-7|2.82: Check \"http://loinc.org#LA3651-2\"\n4ms http://loinc.org/vs/LL238-7|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n4ms http://loinc.org/vs/LL238-7|2.82: check code in (http://loinc.org)(LA15167-2,LA4264-3,LA4368-2,LA4517-4,LA4527-3,LA4528-1,LA4529-9,LA4531-5,LA4533-1,LA4534-9,LA4535-6,LA4537-2,LA4545-5,LA4703-0,LA4745-1,LA21814-1,LA21815-8,LA21816-6,LA21817-4,LA21818-2,LA21819-0,LA21866-1,LA21822-4,LA21874-5) at CodeableConcept.coding[0]",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA3651-2 ('Stage IV')' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft'"
+    },
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-nodo-regional-patologico-vs|0.3.2-draft'"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "LA3651-2",
+    "display" : "Stage IV"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs", "version": "0.3.2-draft", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft: Prepare include[0]: \"(^http://loinc.org/vs/LL239-5)\"\n1ms http://loinc.org/vs/LL239-5|2.82: Analysing http://loinc.org/vs/LL239-5|2.82 for validation purposes\n1ms http://loinc.org/vs/LL239-5|2.82: Prepare include[0]: \"(http://loinc.org)(LA4544-8,LA4625-5,LA4626-3,LA4627-1,LA4628-9,LA4629-7,LA4703-0,LA21875-2,LA21876-0,LA21877-8,LA21878-6)\"\n2ms http://loinc.org/vs/LL239-5|2.82: CodeSystem found: \"http://loinc.org|2.82\"\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft: Validate \"[http://loinc.org#LA3651-2 (\"Stage IV\")]\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft: Check \"http://loinc.org#LA3651-2\"\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft: Check included value set http://loinc.org/vs/LL239-5\n3ms http://loinc.org/vs/LL239-5|2.82: Check \"http://loinc.org#LA3651-2\"\n4ms http://loinc.org/vs/LL239-5|2.82: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n4ms http://loinc.org/vs/LL239-5|2.82: check code in (http://loinc.org)(LA4544-8,LA4625-5,LA4626-3,LA4627-1,LA4628-9,LA4629-7,LA4703-0,LA21875-2,LA21876-0,LA21877-8,LA21878-6) at CodeableConcept.coding[0]",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://loinc.org#LA3651-2 ('Stage IV')' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft'"
+    },
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-tnm-categoria-metastasis-distante-patologico-vs|0.3.2-draft'"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------

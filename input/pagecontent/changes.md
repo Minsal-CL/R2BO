@@ -1,3 +1,7 @@
+### versión 0.3.2
+
+* En la [muestra](StructureDefinition-r2bo-muestra-biopsia.html) se incluye una descripción en texto libre del procedimiento.
+
 ### Versión 0.3.1
 
 * se actualizaron las códificaciones para las observaciones de TNM de snomed las de LOINC para simplificar su implementación.    

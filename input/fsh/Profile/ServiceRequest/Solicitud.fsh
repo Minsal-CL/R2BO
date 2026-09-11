@@ -34,7 +34,7 @@ Description: "Solicitud generada por el médico para la realización de un infor
 * subject only Reference(MINSALPaciente)
 * requester 1..1 MS
   * ^short = "Profesional que solicita el informe de anatomía patológica"
-* requester only Reference(RolProfesionalR2BO)
+* requester only Reference(MINSALPrestadorOrganizacional or RolProfesionalR2BO)
 * performer 1..1 MS
   * ^short = "Laboratorio o Anatomopatólogo que realizara el informe"
 * performer only Reference(MINSALPrestadorOrganizacional or RolProfesionalR2BO)
