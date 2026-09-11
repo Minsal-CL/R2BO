@@ -515,3 +515,53 @@ v: {
 
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "application/pdf"
+}, "url": "urn:uuid:ad2c9c98-a00b-4a5c-9e72-68cca1929326", "version": "1", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "application/pdf",
+  "code" : "application/pdf",
+  "system" : "urn:ietf:bcp:13",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms urn:uuid:ad2c9c98-a00b-4a5c-9e72-68cca1929326|1: Analysing urn:uuid:ad2c9c98-a00b-4a5c-9e72-68cca1929326|1 for validation purposes\n0ms urn:uuid:ad2c9c98-a00b-4a5c-9e72-68cca1929326|1: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms urn:uuid:ad2c9c98-a00b-4a5c-9e72-68cca1929326|1: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms urn:uuid:ad2c9c98-a00b-4a5c-9e72-68cca1929326|1: Prepare include[0]: \"(urn:ietf:bcp:13)\"\n1ms urn:uuid:ad2c9c98-a00b-4a5c-9e72-68cca1929326|1: CodeSystem found: \"urn:ietf:bcp:13|null\"\n1ms urn:uuid:ad2c9c98-a00b-4a5c-9e72-68cca1929326|1: Validate \"[undefined#application/pdf (\"undefined\")]\" and infer system\n1ms urn:uuid:ad2c9c98-a00b-4a5c-9e72-68cca1929326|1: Check \"undefined#application/pdf\"\n1ms urn:uuid:ad2c9c98-a00b-4a5c-9e72-68cca1929326|1: Inferred CodeSystem = \"urn:ietf:bcp:13\"\n1ms urn:uuid:ad2c9c98-a00b-4a5c-9e72-68cca1929326|1: CodeSystem found: urn:ietf:bcp:13|null for urn:ietf:bcp:13\n1ms urn:uuid:ad2c9c98-a00b-4a5c-9e72-68cca1929326|1: check code in (urn:ietf:bcp:13) at \n1ms urn:uuid:ad2c9c98-a00b-4a5c-9e72-68cca1929326|1: Code \"application/pdf\" found in urn:ietf:bcp:13|null",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "application/pdf"
+}, "url": "http://hl7.org/fhir/ValueSet/mimetypes", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "application/pdf",
+  "code" : "application/pdf",
+  "system" : "urn:ietf:bcp:13",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Analysing http://hl7.org/fhir/ValueSet/mimetypes|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Prepare include[0]: \"(urn:ietf:bcp:13)\"\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: CodeSystem found: \"urn:ietf:bcp:13|null\"\n1ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Validate \"[undefined#application/pdf (\"undefined\")]\" and infer system\n1ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Check \"undefined#application/pdf\"\n1ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Inferred CodeSystem = \"urn:ietf:bcp:13\"\n1ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: CodeSystem found: urn:ietf:bcp:13|null for urn:ietf:bcp:13\n1ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: check code in (urn:ietf:bcp:13) at \n1ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Code \"application/pdf\" found in urn:ietf:bcp:13|null",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------

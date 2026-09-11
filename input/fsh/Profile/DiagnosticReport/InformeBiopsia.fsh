@@ -96,7 +96,7 @@ Description:    "Reporte de anatomía patológica"
 * conclusion 1..1 MS
   * ^short = "Conclusión narrativa del informe de anatomía patológica"
 
-* conclusionCode 0..2 MS
+* conclusionCode 2..3 MS
   * ^short = "Conclusión codificada del informe de anatomía patológica"
   * ^slicing.discriminator.type = #value
   * ^slicing.discriminator.path = "id"
@@ -104,10 +104,9 @@ Description:    "Reporte de anatomía patológica"
   * ^slicing.description = "Diferenciación de distintas conclusiones codificadas"
   * ^slicing.ordered = false
 
-* conclusionCode contains Morfologico 0..1 MS and Topografico 0..1 MS
+* conclusionCode contains Morfologico 1..1 MS and Topografico 1..1 MS and patologia 0..1 MS
 
 * conclusionCode[Morfologico] ^short = "Conclusión Morfológica"
-// * conclusionCode[Morfologico] only CodeableConceptSCTCIEO
 * conclusionCode[Morfologico] from MorfologicoCIEOVS (extensible)
 * conclusionCode[Morfologico]
   * id = "Morfologico"
@@ -141,9 +140,33 @@ Description:    "Reporte de anatomía patológica"
   * ^binding.extension[=].extension[+].url = "shortDoco"
   * ^binding.extension[=].extension[=].valueString = "Set de valores utilizados para la topografía de la CIE-11 que permiten el mapeo a la CIE-O 3.2 Tográfico"
 
+* conclusionCode[patologia] ^short = "Conclusión Patológica"
+* conclusionCode[patologia] from HallazgosClinicosCIE10VS (extensible)
+  * ^binding.extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/additional-binding"
+  * ^binding.extension[=].extension[0].url = "key"
+  * ^binding.extension[=].extension[=].valueId = "1"
+  * ^binding.extension[=].extension[+].url = "purpose"
+  * ^binding.extension[=].extension[=].valueCode = #extensible
+  * ^binding.extension[=].extension[+].url = "valueSet"
+  * ^binding.extension[=].extension[=].valueCanonical = Canonical(HallazgosClinicosCIE11VS)
+  * ^binding.extension[=].extension[+].url = "documentation"
+  * ^binding.extension[=].extension[=].valueMarkdown = "Set de valores utilizados de la CIE-11 para neoplasias"
+  * ^binding.extension[=].extension[+].url = "shortDoco"
+  * ^binding.extension[=].extension[=].valueString = "Set de valores utilizados para la neoplasias de la CIE-11 que permiten el mapeo a la CIE-10"
+  * id = "patologia"
+
 * presentedForm MS
-  * ^short = "Representación del Informe de Anatomía Patológica"
-  * contentType MS
+* presentedForm ^slicing.discriminator.type = #value
+* presentedForm ^slicing.discriminator.path = "contentType"
+* presentedForm ^slicing.rules = #open
+* presentedForm ^slicing.description = "Diferenciación de distintos tipos de representación del informe de anatomía patológica"
+* presentedForm ^slicing.ordered = false
+
+* presentedForm contains PDF 1..1 MS
+
+  * ^short = "Representación del Informe de Anatomía Patológica en pdf"
+  * contentType 1..1 MS
     * ^short = "Tipo de Contenido"
-  * data MS
+  * contentType = #application/pdf
+  * data 1..1 MS
     * ^short = "Informe de Anatomía Patológica en base64"
