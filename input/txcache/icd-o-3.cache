@@ -6772,3 +6772,111 @@ v: {
 
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "code" : "8500/3"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS--0", "version": "0.3.2", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Invasive breast carcinoma of no special type",
+  "code" : "8500/3",
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "version" : "3.2-CL-2025",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS--0|0.3.2: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS--0|0.3.2 for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS--0|0.3.2: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS--0|0.3.2: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS--0|0.3.2: Prepare include[0]: \"(http://terminology.hl7.org/CodeSystem/icd-o-3)(conceptdescendent-ofM,kind=subcategory)\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS--0|0.3.2: CodeSystem found: \"http://terminology.hl7.org/CodeSystem/icd-o-3|3.2-CL-2025\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS--0|0.3.2: Validate \"[http://terminology.hl7.org/CodeSystem/icd-o-3#8500/3 (\"undefined\")]\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS--0|0.3.2: Check \"http://terminology.hl7.org/CodeSystem/icd-o-3#8500/3\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS--0|0.3.2: CodeSystem found: http://terminology.hl7.org/CodeSystem/icd-o-3|3.2-CL-2025 for http://terminology.hl7.org/CodeSystem/icd-o-3\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS--0|0.3.2: check code in (http://terminology.hl7.org/CodeSystem/icd-o-3)(conceptdescendent-ofM,kind=subcategory) at Coding\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS--0|0.3.2: Filter concept descendent-of M),kind = subcategory): Code \"8500/3\" found in http://terminology.hl7.org/CodeSystem/icd-o-3|3.2-CL-2025",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "code" : "C50.9"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS--0", "version": "0.3.2", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Mammary gland",
+  "code" : "C50.9",
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "version" : "3.2-CL-2025",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS--0|0.3.2: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS--0|0.3.2 for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS--0|0.3.2: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS--0|0.3.2: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS--0|0.3.2: Prepare include[0]: \"(http://terminology.hl7.org/CodeSystem/icd-o-3)(conceptdescendent-ofT,kind=subcategory)\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS--0|0.3.2: CodeSystem found: \"http://terminology.hl7.org/CodeSystem/icd-o-3|3.2-CL-2025\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS--0|0.3.2: Validate \"[http://terminology.hl7.org/CodeSystem/icd-o-3#C50.9 (\"undefined\")]\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS--0|0.3.2: Check \"http://terminology.hl7.org/CodeSystem/icd-o-3#C50.9\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS--0|0.3.2: CodeSystem found: http://terminology.hl7.org/CodeSystem/icd-o-3|3.2-CL-2025 for http://terminology.hl7.org/CodeSystem/icd-o-3\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS--0|0.3.2: check code in (http://terminology.hl7.org/CodeSystem/icd-o-3)(conceptdescendent-ofT,kind=subcategory) at Coding\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS--0|0.3.2: Filter concept descendent-of T),kind = subcategory): Code \"C50.9\" found in http://terminology.hl7.org/CodeSystem/icd-o-3|3.2-CL-2025",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "code" : "8500/3"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS--0", "version": "0.4.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Invasive breast carcinoma of no special type",
+  "code" : "8500/3",
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "version" : "3.2-CL-2025",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS--0|0.4.0: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS--0|0.4.0 for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS--0|0.4.0: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS--0|0.4.0: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS--0|0.4.0: Prepare include[0]: \"(http://terminology.hl7.org/CodeSystem/icd-o-3)(conceptdescendent-ofM,kind=subcategory)\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS--0|0.4.0: CodeSystem found: \"http://terminology.hl7.org/CodeSystem/icd-o-3|3.2-CL-2025\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS--0|0.4.0: Validate \"[http://terminology.hl7.org/CodeSystem/icd-o-3#8500/3 (\"undefined\")]\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS--0|0.4.0: Check \"http://terminology.hl7.org/CodeSystem/icd-o-3#8500/3\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS--0|0.4.0: CodeSystem found: http://terminology.hl7.org/CodeSystem/icd-o-3|3.2-CL-2025 for http://terminology.hl7.org/CodeSystem/icd-o-3\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS--0|0.4.0: check code in (http://terminology.hl7.org/CodeSystem/icd-o-3)(conceptdescendent-ofM,kind=subcategory) at Coding\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-morfologicosct-cieo-VS--0|0.4.0: Filter concept descendent-of M),kind = subcategory): Code \"8500/3\" found in http://terminology.hl7.org/CodeSystem/icd-o-3|3.2-CL-2025",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "code" : "C50.9"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS--0", "version": "0.4.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Mammary gland",
+  "code" : "C50.9",
+  "system" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+  "version" : "3.2-CL-2025",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS--0|0.4.0: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS--0|0.4.0 for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS--0|0.4.0: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS--0|0.4.0: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS--0|0.4.0: Prepare include[0]: \"(http://terminology.hl7.org/CodeSystem/icd-o-3)(conceptdescendent-ofT,kind=subcategory)\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS--0|0.4.0: CodeSystem found: \"http://terminology.hl7.org/CodeSystem/icd-o-3|3.2-CL-2025\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS--0|0.4.0: Validate \"[http://terminology.hl7.org/CodeSystem/icd-o-3#C50.9 (\"undefined\")]\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS--0|0.4.0: Check \"http://terminology.hl7.org/CodeSystem/icd-o-3#C50.9\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS--0|0.4.0: CodeSystem found: http://terminology.hl7.org/CodeSystem/icd-o-3|3.2-CL-2025 for http://terminology.hl7.org/CodeSystem/icd-o-3\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS--0|0.4.0: check code in (http://terminology.hl7.org/CodeSystem/icd-o-3)(conceptdescendent-ofT,kind=subcategory) at Coding\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-topografica-cieo-VS--0|0.4.0: Filter concept descendent-of T),kind = subcategory): Code \"C50.9\" found in http://terminology.hl7.org/CodeSystem/icd-o-3|3.2-CL-2025",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------

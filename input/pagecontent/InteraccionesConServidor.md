@@ -1,4 +1,4 @@
-El reposito de biopsia, permitirá recibir solicitudes e informes de anatomías patológicas, cumpliendo con lo establecido en los CapabilityStatement:
+El repositorio de biopsia permitirá recibir solicitudes e informes de anatomías patológicas, cumpliendo con lo establecido en los CapabilityStatement:
 
 - [Generación de Informes](CapabilityStatement-r2bo-minsal-cliente-informe.html)
 - [Consultor del Repositorio](CapabilityStatement-r2bo-minsal-consumidor.html)
@@ -25,7 +25,7 @@ Bundle
       |--> DiagnosticReport
       |--> Observation
 ```
-El diagrama a continuación explica como debería ser la iteracción entre el usuario, el sistema informatico y el repositorio: 
+El diagrama a continuación explica cómo debería ser la interacción entre el usuario, el sistema informático y el repositorio: 
 
 <div align="center"> 
 <p>{% include envio-informe.svg %}</p>
@@ -36,14 +36,14 @@ El diagrama a continuación explica como debería ser la iteracción entre el us
 
 ### Consultar Informes
 
-Para consultar un informe solo deberá realizar la consulta al recurso **DiagnosticReport**. Las consultas permitiran concatenar para buscar mediante el identificador del paciente para traer la información como medio estandar de búsqueda.
+Para consultar un informe, solo deberá realizar la consulta al recurso **DiagnosticReport**. Las consultas permitirán concatenar para buscar mediante el identificador del paciente para traer la información como medio estándar de búsqueda.
 
 **Traer Resumen Informe**
 
 ```
 GET DiagnosticReport?patient.identifier=9999999-9
 ```
-El diagrama a continuación explica como debería ser la iteracción entre el usuario, la plataforma SIGO y el repositorio: 
+El diagrama a continuación explica cómo debería ser la interacción entre el usuario, la plataforma SIGO y el repositorio: 
 
 <div align="center"> 
 <p>{% include recuperacion-resumen.svg %}</p>
@@ -58,11 +58,11 @@ Para realizar análisis secundario se recomienda nunca utilizar el repositorio p
 ```
 POST $export
 ```
-#### Iteracción esperada 
+#### Interacción esperada 
 
-El diagrama a continuación explica como debería ser la iteracción entre el usuario, el sistema informatico, el sistema de análisis y el repositorio: 
+El diagrama a continuación explica cómo debería ser la interacción entre el usuario, el sistema informático, el sistema de análisis y el repositorio: 
 
 <div align="center"> 
-    <img src="exportar.svg" alt="Iteracciones con el servicio terminológico">
+    <img src="exportar.svg" alt="Interacciones con el servicio terminológico">
     <p>Figura 3 - Exportación de la información para Análisis</p>
 </div>

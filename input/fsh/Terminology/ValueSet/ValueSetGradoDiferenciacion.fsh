@@ -4,6 +4,6 @@ Title:       "Set de Valores Para Grado de Diferenciación"
 Description: "Grado de diferenciación tumoral según clasificación de la OMS"
 
 * ^experimental = false
-* ^status = #draft
+* ^status = #active
 
 * include codes from system GradoDiferenciacionCS

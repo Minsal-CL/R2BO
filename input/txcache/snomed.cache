@@ -19102,3 +19102,427 @@ v: {
 
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "122548005"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-procedimientos-biopsias-VS", "version": "0.3.2", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Biopsy of breast",
+  "code" : "122548005",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/21000325107/version/20260315",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-procedimientos-biopsias-VS|0.3.2: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-procedimientos-biopsias-VS|0.3.2 for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-procedimientos-biopsias-VS|0.3.2: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-procedimientos-biopsias-VS|0.3.2: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-procedimientos-biopsias-VS|0.3.2: Prepare include[0]: \"(http://snomed.info/sct)(conceptdescendent-of86273004)\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-procedimientos-biopsias-VS|0.3.2: CodeSystem found: \"http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-procedimientos-biopsias-VS|0.3.2: Validate \"[http://snomed.info/sct#122548005 (\"undefined\")]\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-procedimientos-biopsias-VS|0.3.2: Check \"http://snomed.info/sct#122548005\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-procedimientos-biopsias-VS|0.3.2: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315 for http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-procedimientos-biopsias-VS|0.3.2: check code in (http://snomed.info/sct)(conceptdescendent-of86273004) at CodeableConcept.coding[0]\n2ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-procedimientos-biopsias-VS|0.3.2: Filter concept descendent-of 86273004: Code \"122548005\" found in http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "76752008"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-estructuras-anatomicas-VS", "version": "0.3.2", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Breast structure",
+  "code" : "76752008",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/21000325107/version/20260315",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-estructuras-anatomicas-VS|0.3.2: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-estructuras-anatomicas-VS|0.3.2 for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-estructuras-anatomicas-VS|0.3.2: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-estructuras-anatomicas-VS|0.3.2: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-estructuras-anatomicas-VS|0.3.2: Prepare include[0]: \"(http://snomed.info/sct)(conceptdescendent-of442083009)\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-estructuras-anatomicas-VS|0.3.2: CodeSystem found: \"http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-estructuras-anatomicas-VS|0.3.2: Validate \"[http://snomed.info/sct#76752008 (\"undefined\")]\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-estructuras-anatomicas-VS|0.3.2: Check \"http://snomed.info/sct#76752008\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-estructuras-anatomicas-VS|0.3.2: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315 for http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-estructuras-anatomicas-VS|0.3.2: check code in (http://snomed.info/sct)(conceptdescendent-of442083009) at CodeableConcept.coding[0]\n3ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-estructuras-anatomicas-VS|0.3.2: Filter concept descendent-of 442083009: Code \"76752008\" found in http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "384625004"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS", "version": "0.3.2", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "pT category",
+  "code" : "384625004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260401",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2 for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: Prepare include[0]: \"(http://snomed.info/sct)(384625004,371494008,371497001)\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: CodeSystem found: \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: Validate \"[http://snomed.info/sct#384625004 (\"undefined\")]\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: Check \"http://snomed.info/sct#384625004\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: check code in (http://snomed.info/sct)(384625004,371494008,371497001) at CodeableConcept.coding[0]\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: Code \"384625004\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "371494008"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS", "version": "0.3.2", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "pN category",
+  "code" : "371494008",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260401",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2 for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: Prepare include[0]: \"(http://snomed.info/sct)(384625004,371494008,371497001)\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: CodeSystem found: \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: Validate \"[http://snomed.info/sct#371494008 (\"undefined\")]\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: Check \"http://snomed.info/sct#371494008\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: check code in (http://snomed.info/sct)(384625004,371494008,371497001) at CodeableConcept.coding[0]\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: Code \"371494008\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "371497001"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS", "version": "0.3.2", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "pM category",
+  "code" : "371497001",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260401",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2 for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: Prepare include[0]: \"(http://snomed.info/sct)(384625004,371494008,371497001)\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: CodeSystem found: \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: Validate \"[http://snomed.info/sct#371497001 (\"undefined\")]\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: Check \"http://snomed.info/sct#371497001\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: check code in (http://snomed.info/sct)(384625004,371494008,371497001) at CodeableConcept.coding[0]\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: Code \"371497001\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "399588009"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS", "version": "0.3.2", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2 for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: Prepare include[0]: \"(http://snomed.info/sct)(384625004,371494008,371497001)\"\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: CodeSystem found: \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401\"\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: Validate \"[http://snomed.info/sct#399588009 (\"undefined\")]\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: Check \"http://snomed.info/sct#399588009\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2: check code in (http://snomed.info/sct)(384625004,371494008,371497001) at CodeableConcept.coding[0]",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://snomed.info/sct#399588009' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2'"
+    },
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.3.2'"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "122548005"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-procedimientos-biopsias-VS", "version": "0.4.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Biopsy of breast",
+  "code" : "122548005",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/21000325107/version/20260315",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-procedimientos-biopsias-VS|0.4.0: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-procedimientos-biopsias-VS|0.4.0 for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-procedimientos-biopsias-VS|0.4.0: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-procedimientos-biopsias-VS|0.4.0: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-procedimientos-biopsias-VS|0.4.0: Prepare include[0]: \"(http://snomed.info/sct)(conceptdescendent-of86273004)\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-procedimientos-biopsias-VS|0.4.0: CodeSystem found: \"http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-procedimientos-biopsias-VS|0.4.0: Validate \"[http://snomed.info/sct#122548005 (\"undefined\")]\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-procedimientos-biopsias-VS|0.4.0: Check \"http://snomed.info/sct#122548005\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-procedimientos-biopsias-VS|0.4.0: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315 for http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-procedimientos-biopsias-VS|0.4.0: check code in (http://snomed.info/sct)(conceptdescendent-of86273004) at CodeableConcept.coding[0]\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-procedimientos-biopsias-VS|0.4.0: Filter concept descendent-of 86273004: Code \"122548005\" found in http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "76752008"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-estructuras-anatomicas-VS", "version": "0.4.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Breast structure",
+  "code" : "76752008",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/21000325107/version/20260315",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-estructuras-anatomicas-VS|0.4.0: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-estructuras-anatomicas-VS|0.4.0 for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-estructuras-anatomicas-VS|0.4.0: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-estructuras-anatomicas-VS|0.4.0: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-estructuras-anatomicas-VS|0.4.0: Prepare include[0]: \"(http://snomed.info/sct)(conceptdescendent-of442083009)\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-estructuras-anatomicas-VS|0.4.0: CodeSystem found: \"http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-estructuras-anatomicas-VS|0.4.0: Validate \"[http://snomed.info/sct#76752008 (\"undefined\")]\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-estructuras-anatomicas-VS|0.4.0: Check \"http://snomed.info/sct#76752008\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-estructuras-anatomicas-VS|0.4.0: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315 for http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-estructuras-anatomicas-VS|0.4.0: check code in (http://snomed.info/sct)(conceptdescendent-of442083009) at CodeableConcept.coding[0]\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-estructuras-anatomicas-VS|0.4.0: Filter concept descendent-of 442083009: Code \"76752008\" found in http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "384625004"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS", "version": "0.4.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "pT category",
+  "code" : "384625004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260401",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0 for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: Prepare include[0]: \"(http://snomed.info/sct)(384625004,371494008,371497001)\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: CodeSystem found: \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: Validate \"[http://snomed.info/sct#384625004 (\"undefined\")]\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: Check \"http://snomed.info/sct#384625004\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: check code in (http://snomed.info/sct)(384625004,371494008,371497001) at CodeableConcept.coding[0]\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: Code \"384625004\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "371494008"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS", "version": "0.4.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "pN category",
+  "code" : "371494008",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260401",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0 for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: Prepare include[0]: \"(http://snomed.info/sct)(384625004,371494008,371497001)\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: CodeSystem found: \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: Validate \"[http://snomed.info/sct#371494008 (\"undefined\")]\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: Check \"http://snomed.info/sct#371494008\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: check code in (http://snomed.info/sct)(384625004,371494008,371497001) at CodeableConcept.coding[0]\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: Code \"371494008\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "371497001"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS", "version": "0.4.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "pM category",
+  "code" : "371497001",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260401",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0 for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: Prepare include[0]: \"(http://snomed.info/sct)(384625004,371494008,371497001)\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: CodeSystem found: \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: Validate \"[http://snomed.info/sct#371497001 (\"undefined\")]\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: Check \"http://snomed.info/sct#371497001\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: check code in (http://snomed.info/sct)(384625004,371494008,371497001) at CodeableConcept.coding[0]\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: Code \"371497001\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "399588009"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS", "version": "0.4.0", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20260315"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0ms tx-op\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: Analysing https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0 for validation purposes\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/21000325107/version/20260315\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: Prepare include[0]: \"(http://snomed.info/sct)(384625004,371494008,371497001)\"\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: CodeSystem found: \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401\"\n0ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: Validate \"[http://snomed.info/sct#399588009 (\"undefined\")]\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: Check \"http://snomed.info/sct#399588009\"\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260401\n1ms https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0: check code in (http://snomed.info/sct)(384625004,371494008,371497001) at CodeableConcept.coding[0]",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://snomed.info/sct#399588009' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0'"
+    },
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/r2bo/ValueSet/r2bo-categorias-pTNM-VS|0.4.0'"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------

@@ -163,7 +163,7 @@ Description:    "Reporte de anatomía patológica"
 * presentedForm ^slicing.ordered = false
 
 * presentedForm contains PDF 1..1 MS
-
+* presentedForm[PDF]
   * ^short = "Representación del Informe de Anatomía Patológica en pdf"
   * contentType 1..1 MS
     * ^short = "Tipo de Contenido"
